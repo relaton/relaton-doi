@@ -1,0 +1,83 @@
+= RelatonDoi retrieve Standards for bibliographic use using the BibliographicItem model
+
+image:https://img.shields.io/gem/v/relaton-doi.svg["Gem Version", link="https://rubygems.org/gems/relaton-doi"]
+image:https://github.com/relaton/relaton-doi/workflows/macos/badge.svg["Build Status (macOS)", link="https://github.com/relaton/relaton-doi/actions?workflow=macos"]
+image:https://github.com/relaton/relaton-doi/workflows/windows/badge.svg["Build Status (Windows)", link="https://github.com/relaton/relaton-doi/actions?workflow=windows"]
+image:https://github.com/relaton/relaton-doi/workflows/ubuntu/badge.svg["Build Status (Ubuntu)", link="https://github.com/relaton/relaton-doi/actions?workflow=ubuntu"]
+image:https://codeclimate.com/github/relaton/relaton-doi/badges/gpa.svg["Code Climate", link="https://codeclimate.com/github/relaton/relaton-doi"]
+image:https://img.shields.io/github/issues-pr-raw/relaton/relaton-doi.svg["Pull Requests", link="https://github.com/relaton/relaton-doi/pulls"]
+image:https://img.shields.io/github/commits-since/relaton/relaton-doi/latest.svg["Commits since latest",link="https://github.com/relaton/relaton-doi/releases"]
+
+RelatonDoi is a Ruby gem that implements the https://github.com/metanorma/metanorma-model-iso#iso-bibliographic-item[IsoBibliographicItem model].
+
+You can use it to retrieve metadata of Standards from https://crossref.org, and access such metadata through the `BibliographicItem` object.
+
+== Installation
+
+Add this line to your application's Gemfile:
+
+[source,ruby]
+----
+gem 'relaton-doi'
+----
+
+And then execute:
+
+    $ bundle install
+
+Or install it yourself as:
+
+    $ gem install relaton-doi
+
+== Usage
+
+=== Search for a standard using DOI
+
+[source,ruby]
+----
+require 'relaton_doi'
+=> true
+
+# get NIST standard
+RelatonDoi::Crossref.get "10.6028/nist.ir.8245"
+[relaton-doi] ["10.6028/nist.ir.8245"] fetching...
+[relaton-doi] ["10.6028/nist.ir.8245"] found 10.6028/nist.ir.8245
+=> #<RelatonNist::NistBibliographicItem:0x00007f9c813b6a58
+...
+
+# get RFC standard
+RelatonDoi::Crossref.get "10.17487/RFC0001"
+[relaton-doi] ["10.17487/RFC0001"] fetching...
+[relaton-doi] ["10.17487/RFC0001"] found 10.17487/rfc0001
+[relaton-ietf] WARNING: invalid doctype report
+=> #<RelatonIetf::IetfBibliographicItem:0x00007f9c8143d058
+...
+
+# get BIPM standard
+RelatonDoi::Crossref.get "10.1088/0026-1394/29/6/001"
+[relaton-doi] ["10.1088/0026-1394/29/6/001"] fetching...
+[relaton-doi] ["10.1088/0026-1394/29/6/001"] found 10.1088/0026-1394/29/6/001
+=> #<RelatonBipm::BipmBibliographicItem:0x00007f9c846f0a68
+...
+
+# get IEEE standard
+RelatonDoi::Crossref.get "10.1109/ieeestd.2014.6835311"
+[relaton-doi] ["10.1109/ieeestd.2014.6835311"] fetching...
+[relaton-doi] ["10.1109/ieeestd.2014.6835311"] found 10.1109/ieeestd.2014.6835311
+=> #<RelatonIeee::IeeeBibliographicItem:0x00007f9cb46db688
+...
+----
+
+== Development
+
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+== Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/relaton-doi.
+
+== License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

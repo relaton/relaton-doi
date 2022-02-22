@@ -1,0 +1,33 @@
+<bibdata type="standard">
+  <fetched>2022-02-20</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Host Software</title>
+  <uri type="DOI">http://dx.doi.org/10.17487/rfc0001</uri>
+  <docidentifier type="DOI" primary="true">10.17487/rfc0001</docidentifier>
+  <date type="created">
+    <on>2015-04</on>
+  </date>
+  <date type="issued">
+    <on>1969-04</on>
+  </date>
+  <date type="published">
+    <on>1969-04</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">S.</forename>
+        <surname language="en" script="Latn">Crocker</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>RFC Editor</name>
+    </organization>
+  </contributor>
+  <ext>
+    <doctype>report</doctype>
+  </ext>
+</bibdata>

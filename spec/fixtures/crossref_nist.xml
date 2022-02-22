@@ -1,0 +1,91 @@
+<bibdata type="standard">
+  <fetched>2022-02-17</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Voices of first responders - examining public safety communication
+                        problems and requested functionality:</title>
+  <title type="subtitle" format="text/plain" language="en" script="Latn">findings from user-centered interviews, phase 1, volume 2</title>
+  <uri type="DOI">http://dx.doi.org/10.6028/nist.ir.8245</uri>
+  <docidentifier type="DOI" primary="true">10.6028/nist.ir.8245</docidentifier>
+  <date type="created">
+    <on>2019-03</on>
+  </date>
+  <date type="issued">
+    <on>2019-03</on>
+  </date>
+  <date type="published">
+    <on>2019-03</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Shanee</forename>
+        <surname language="en" script="Latn">Dawkins</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Yee-Yin</forename>
+        <surname language="en" script="Latn">Choong</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Mary F</forename>
+        <surname language="en" script="Latn">Theofanos</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Kristen K</forename>
+        <surname language="en" script="Latn">Greene</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Susanne</forename>
+        <surname language="en" script="Latn">Furman</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Michelle</forename>
+        <surname language="en" script="Latn">Steves</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Sandra Spickard</forename>
+        <surname language="en" script="Latn">Prettyman</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>National Institute of Standards and Technology</name>
+      <abbreviation>NIST</abbreviation>
+    </organization>
+  </contributor>
+  <place region="MD">Gaithersburg</place>
+  <ext>
+    <doctype>report</doctype>
+  </ext>
+</bibdata>

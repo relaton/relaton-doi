@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.17487%2FRFC0001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.0 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.0 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 20 Feb 2022 16:14:32 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '507'
+      Set-Cookie:
+      - AWSALB=gWdrMf+sgk2+WLTlABsFOJYQGbnZWGDYfFml7R3S+W+u7kT3clE18h0SRUOlL1cxXQJZPL6mP0R9qbNcGam98Poqv7vu/geCP+718XRUm6IcBtUfpldwLWJ6j9BH;
+        Expires=Sun, 27 Feb 2022 16:14:32 GMT; Path=/
+      - AWSALBCORS=gWdrMf+sgk2+WLTlABsFOJYQGbnZWGDYfFml7R3S+W+u7kT3clE18h0SRUOlL1cxXQJZPL6mP0R9qbNcGam98Poqv7vu/geCP+718XRUm6IcBtUfpldwLWJ6j9BH;
+        Expires=Sun, 27 Feb 2022 16:14:32 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2021,12,11]],"date-time":"2021-12-11T01:53:14Z","timestamp":1639187594661},"reference-count":0,"publisher":"RFC
+        Editor","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.17487\/rfc0001","type":"report","created":{"date-parts":[[2015,4,6]],"date-time":"2015-04-06T01:16:32Z","timestamp":1428282992000},"source":"Crossref","is-referenced-by-count":9,"title":["Host
+        Software"],"prefix":"10.17487","author":[{"given":"S.","family":"Crocker","sequence":"first","affiliation":[]}],"member":"7045","published-online":{"date-parts":[[1969,4]]},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2015,4,6]],"date-time":"2015-04-06T01:16:32Z","timestamp":1428282992000},"score":1,"subtitle":[],"short-title":[],"issued":{"date-parts":[[1969,4]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.17487\/rfc0001","relation":{},"published":{"date-parts":[[1969,4]]}}}'
+  recorded_at: Sun, 20 Feb 2022 16:14:32 GMT
+recorded_with: VCR 6.0.0
