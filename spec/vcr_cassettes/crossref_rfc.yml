@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v1.10.0 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v2.3.0 Serrano/v1.4 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v1.10.0 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v2.3.0 Serrano/v1.4 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 20 Feb 2022 16:14:32 GMT
+      - Sat, 28 May 2022 12:36:42 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '507'
+      - '540'
       Set-Cookie:
-      - AWSALB=gWdrMf+sgk2+WLTlABsFOJYQGbnZWGDYfFml7R3S+W+u7kT3clE18h0SRUOlL1cxXQJZPL6mP0R9qbNcGam98Poqv7vu/geCP+718XRUm6IcBtUfpldwLWJ6j9BH;
-        Expires=Sun, 27 Feb 2022 16:14:32 GMT; Path=/
-      - AWSALBCORS=gWdrMf+sgk2+WLTlABsFOJYQGbnZWGDYfFml7R3S+W+u7kT3clE18h0SRUOlL1cxXQJZPL6mP0R9qbNcGam98Poqv7vu/geCP+718XRUm6IcBtUfpldwLWJ6j9BH;
-        Expires=Sun, 27 Feb 2022 16:14:32 GMT; Path=/; SameSite=None
+      - AWSALB=EjdU3XslPCbukZ9v9n7Q89rBOzyCgISt1+IW9wJ1x0AjezGtz0ACOET8rr5f5QqJJG3Ny5xIDgaK4SUvcS55t7dJrmAuXMLXs5PNnJDo3hlpB1X2SET3gjKxCRku;
+        Expires=Sat, 04 Jun 2022 12:36:42 GMT; Path=/
+      - AWSALBCORS=EjdU3XslPCbukZ9v9n7Q89rBOzyCgISt1+IW9wJ1x0AjezGtz0ACOET8rr5f5QqJJG3Ny5xIDgaK4SUvcS55t7dJrmAuXMLXs5PNnJDo3hlpB1X2SET3gjKxCRku;
+        Expires=Sat, 04 Jun 2022 12:36:42 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -58,8 +58,8 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2021,12,11]],"date-time":"2021-12-11T01:53:14Z","timestamp":1639187594661},"reference-count":0,"publisher":"RFC
-        Editor","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.17487\/rfc0001","type":"report","created":{"date-parts":[[2015,4,6]],"date-time":"2015-04-06T01:16:32Z","timestamp":1428282992000},"source":"Crossref","is-referenced-by-count":9,"title":["Host
-        Software"],"prefix":"10.17487","author":[{"given":"S.","family":"Crocker","sequence":"first","affiliation":[]}],"member":"7045","published-online":{"date-parts":[[1969,4]]},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2015,4,6]],"date-time":"2015-04-06T01:16:32Z","timestamp":1428282992000},"score":1,"subtitle":[],"short-title":[],"issued":{"date-parts":[[1969,4]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.17487\/rfc0001","relation":{},"published":{"date-parts":[[1969,4]]}}}'
-  recorded_at: Sun, 20 Feb 2022 16:14:32 GMT
-recorded_with: VCR 6.0.0
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T07:53:52Z","timestamp":1648626832306},"reference-count":0,"publisher":"RFC
+        Editor","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.17487\/rfc0001","type":"report","created":{"date-parts":[[2015,4,6]],"date-time":"2015-04-06T01:16:32Z","timestamp":1428282992000},"source":"Crossref","is-referenced-by-count":10,"title":["Host
+        Software"],"prefix":"10.17487","author":[{"given":"S.","family":"Crocker","sequence":"first","affiliation":[]}],"member":"7045","published-online":{"date-parts":[[1969,4]]},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2015,4,6]],"date-time":"2015-04-06T01:16:32Z","timestamp":1428282992000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.rfc-editor.org\/info\/rfc0001"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1969,4]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.17487\/rfc0001","relation":{},"published":{"date-parts":[[1969,4]]}}}'
+  recorded_at: Sat, 28 May 2022 12:36:42 GMT
+recorded_with: VCR 6.1.0

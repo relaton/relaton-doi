@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v1.10.0 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v2.3.0 Serrano/v1.4 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v1.10.0 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v2.3.0 Serrano/v1.4 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 20 Feb 2022 17:11:41 GMT
+      - Sat, 28 May 2022 12:36:43 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1166'
+      - '1200'
       Set-Cookie:
-      - AWSALB=KFgI5vH0FOWcaV+0dtDwCbi6NTFYnJdhl5aaCwWSyu/GqhXwb/+7jOnZ0CWzpgzRKqs1UG74WuZcSdcMuz7F2rWmBrEeSrJNYtEALTVmWiyRWQtojoaUz3eQHFzk;
-        Expires=Sun, 27 Feb 2022 17:11:41 GMT; Path=/
-      - AWSALBCORS=KFgI5vH0FOWcaV+0dtDwCbi6NTFYnJdhl5aaCwWSyu/GqhXwb/+7jOnZ0CWzpgzRKqs1UG74WuZcSdcMuz7F2rWmBrEeSrJNYtEALTVmWiyRWQtojoaUz3eQHFzk;
-        Expires=Sun, 27 Feb 2022 17:11:41 GMT; Path=/; SameSite=None
+      - AWSALB=H/lJ2fd8JUD7lcfL05IUkzS4o8pNPwGj6Pr/F2UmBDSb7up6/HMOMn1CWBYRqvzeip4m/4hgQM3EjORzu+eIQ0Mz6BStE2xOXBiLiAMZ3SMCL3+S2qwe+ygX6oZa;
+        Expires=Sat, 04 Jun 2022 12:36:43 GMT; Path=/
+      - AWSALBCORS=H/lJ2fd8JUD7lcfL05IUkzS4o8pNPwGj6Pr/F2UmBDSb7up6/HMOMn1CWBYRqvzeip4m/4hgQM3EjORzu+eIQ0Mz6BStE2xOXBiLiAMZ3SMCL3+S2qwe+ygX6oZa;
+        Expires=Sat, 04 Jun 2022 12:36:43 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -58,7 +58,7 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2021,12,17]],"date-time":"2021-12-17T19:03:39Z","timestamp":1639767819578},"reference-count":9,"publisher":"IOP
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:47:51Z","timestamp":1648979271167},"reference-count":9,"publisher":"IOP
         Publishing","issue":"6","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":["Metrologia"],"published-print":{"date-parts":[[1993,1,1]]},"DOI":"10.1088\/0026-1394\/29\/6\/001","type":"journal-article","created":{"date-parts":[[2005,2,1]],"date-time":"2005-02-01T04:33:05Z","timestamp":1107232385000},"page":"373-377","source":"Crossref","is-referenced-by-count":10,"title":["Decade
         Designs for Weighings of Non-uniform Variance"],"prefix":"10.1088","volume":"29","author":[{"given":"E
         C","family":"Morris","sequence":"first","affiliation":[]}],"member":"266","published-online":{"date-parts":[[2005,2,1]]},"reference":[{"key":"1","first-page":"625
@@ -71,7 +71,7 @@ http_interactions:
         D B","year":"1984","journal-title":"Modern Techniques in Metrology"},{"key":"7","first-page":"459","volume":"7","author":"Chaudri
         M A","year":"1988","journal-title":"Pakistan J. Sci. Ind. Res."},{"key":"8","doi-asserted-by":"crossref","first-page":"17","DOI":"10.1088\/0026-1394\/27\/1\/004","volume":"27","author":"Mihailov
         G","year":"1990","journal-title":"Metrologia","ISSN":"http:\/\/id.crossref.org\/issn\/0026-1394","issn-type":"print"},{"key":"9","doi-asserted-by":"crossref","first-page":"111","DOI":"10.1088\/0026-1394\/27\/3\/001","volume":"27","author":"Bich
-        W","year":"1990","journal-title":"Metrologia","ISSN":"http:\/\/id.crossref.org\/issn\/0026-1394","issn-type":"print"}],"container-title":["Metrologia"],"original-title":[],"link":[{"URL":"http:\/\/stacks.iop.org\/0026-1394\/29\/i=6\/a=001\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,4,10]],"date-time":"2020-04-10T22:04:49Z","timestamp":1586556289000},"score":1,"subtitle":[],"short-title":[],"issued":{"date-parts":[[1993,1,1]]},"references-count":9,"journal-issue":{"issue":"6","published-print":{"date-parts":[[1992,1,1]]}},"URL":"http:\/\/dx.doi.org\/10.1088\/0026-1394\/29\/6\/001","relation":{},"ISSN":["0026-1394","1681-7575"],"issn-type":[{"value":"0026-1394","type":"print"},{"value":"1681-7575","type":"electronic"}],"subject":["General
+        W","year":"1990","journal-title":"Metrologia","ISSN":"http:\/\/id.crossref.org\/issn\/0026-1394","issn-type":"print"}],"container-title":["Metrologia"],"original-title":[],"link":[{"URL":"http:\/\/stacks.iop.org\/0026-1394\/29\/i=6\/a=001\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,4,10]],"date-time":"2020-04-10T22:04:49Z","timestamp":1586556289000},"score":1,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/0026-1394\/29\/6\/001"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1993,1,1]]},"references-count":9,"journal-issue":{"issue":"6","published-print":{"date-parts":[[1992,1,1]]}},"URL":"http:\/\/dx.doi.org\/10.1088\/0026-1394\/29\/6\/001","relation":{},"ISSN":["0026-1394","1681-7575"],"issn-type":[{"value":"0026-1394","type":"print"},{"value":"1681-7575","type":"electronic"}],"subject":["General
         Engineering"],"published":{"date-parts":[[1993,1,1]]}}}'
-  recorded_at: Sun, 20 Feb 2022 17:11:41 GMT
-recorded_with: VCR 6.0.0
+  recorded_at: Sat, 28 May 2022 12:36:43 GMT
+recorded_with: VCR 6.1.0

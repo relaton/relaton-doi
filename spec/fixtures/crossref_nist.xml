@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2022-02-17</fetched>
+  <fetched>2022-05-28</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">Voices of first responders - examining public safety communication
                         problems and requested functionality:</title>
   <title type="subtitle" format="text/plain" language="en" script="Latn">findings from user-centered interviews, phase 1, volume 2</title>
@@ -84,7 +84,10 @@
       <abbreviation>NIST</abbreviation>
     </organization>
   </contributor>
-  <place region="MD">Gaithersburg</place>
+  <place>
+    <city>Gaithersburg</city>
+    <region>MD</region>
+  </place>
   <ext>
     <doctype>report</doctype>
   </ext>

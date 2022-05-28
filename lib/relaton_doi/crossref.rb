@@ -312,8 +312,9 @@ module RelatonDoi
     def create_place
       return [] unless @message["publisher-location"]
 
-      name, region = @message["publisher-location"].split(", ")
-      [RelatonBib::Place.new(name: name, region: region)]
+      city, rg = @message["publisher-location"].split(", ")
+      region = RelatonBib::Place::RegionType.new(name: rg)
+      [RelatonBib::Place.new(city: city, region: [region])]
     end
 
     #

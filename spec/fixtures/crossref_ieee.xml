@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2022-02-20</fetched>
+  <fetched>2022-05-28</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">IEEE Standard for Software Quality Assurance Processes</title>
   <uri type="DOI">http://dx.doi.org/10.1109/ieeestd.2014.6835311</uri>
   <docidentifier type="DOI" primary="true">10.1109/ieeestd.2014.6835311</docidentifier>
@@ -17,5 +17,8 @@
       <name>IEEE</name>
     </organization>
   </contributor>
-  <place region="NJ">Piscataway</place>
+  <place>
+    <city>Piscataway</city>
+    <region>NJ</region>
+  </place>
 </bibdata>
