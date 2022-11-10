@@ -1,4 +1,4 @@
-= RelatonDoi retrieve Standards for bibliographic use using the BibliographicItem model
+= Relaton-DOI: retrieve bibliographic items using DOI
 
 image:https://img.shields.io/gem/v/relaton-doi.svg["Gem Version", link="https://rubygems.org/gems/relaton-doi"]
 image:https://github.com/relaton/relaton-doi/workflows/macos/badge.svg["Build Status (macOS)", link="https://github.com/relaton/relaton-doi/actions?workflow=macos"]
@@ -8,9 +8,11 @@ image:https://codeclimate.com/github/relaton/relaton-doi/badges/gpa.svg["Code Cl
 image:https://img.shields.io/github/issues-pr-raw/relaton/relaton-doi.svg["Pull Requests", link="https://github.com/relaton/relaton-doi/pulls"]
 image:https://img.shields.io/github/commits-since/relaton/relaton-doi/latest.svg["Commits since latest",link="https://github.com/relaton/relaton-doi/releases"]
 
-RelatonDoi is a Ruby gem that implements the https://github.com/metanorma/metanorma-model-iso#iso-bibliographic-item[IsoBibliographicItem model].
+RelatonDoi is a Ruby gem that implements the
+https://github.com/metanorma/metanorma-model-iso#iso-bibliographic-item[IsoBibliographicItem model].
 
-You can use it to retrieve metadata of Standards from https://crossref.org, and access such metadata through the `BibliographicItem` object.
+You can use it to retrieve metadata of Standards from https://crossref.org, and
+access such metadata through the `BibliographicItem` object.
 
 == Installation
 
@@ -23,15 +25,25 @@ gem 'relaton-doi'
 
 And then execute:
 
-    $ bundle install
+[source,sh]
+----
+$ bundle install
+----
 
 Or install it yourself as:
 
-    $ gem install relaton-doi
+[source,ruby]
+----
+$ gem install relaton-doi
+----
 
 == Usage
 
-=== Search for a standard using DOI
+=== Retrieving items of known type using DOI
+
+If the resulting bibliographic item returned from CrossRef is a known Relaton
+flavor, such as a NIST or IEEE standard, the corresponding Relaton class object
+will be returned via the call.
 
 [source,ruby]
 ----
@@ -68,16 +80,63 @@ RelatonDoi::Crossref.get "10.1109/ieeestd.2014.6835311"
 ...
 ----
 
+=== Retrieving items of unknown types via DOI
+
+If the resulting bibliographic item returned from CrossRef is of an unknown type
+to Relaton, an instance of RelatonBib::BibliographicItem will be returned..
+
+[source,ruby]
+----
+RelatonDoi::Crossref.get "10.1109/ACCESS.2017.2739804"
+[relaton-doi] ["10.1109/ACCESS.2017.2739804"] fetching...
+[relaton-doi] ["10.1109/ACCESS.2017.2739804"] found 10.1109/access.2017.2739804
+=>
+#<RelatonBib::BibliographicItem:0x0000000105a4c508
+...
+ @contributor=
+  [#<RelatonBib::ContributionInfo:0x0000000105a4e948
+    @entity=
+     #<RelatonBib::Person:0x0000000105a4ead8
+      @affiliation=[],
+      @contact=[],
+      @identifier=[#<RelatonBib::PersonIdentifier:0x0000000105a4ec40 @type="orcid", @value="http://orcid.org/0000-0003-4875-6950">],
+  ...
+ @link=[#<RelatonBib::TypedUri:0x0000000105a4fcd0 @content=#<Addressable::URI:0x23230 URI:http://dx.doi.org/10.1109/access.2017.2739804>, @type="DOI">],
+ @relation=#<RelatonBib::DocRelationCollection:0x0000000105a4c030 @array=[]>,
+  ...
+ @title=
+  #<RelatonBib::TypedTitleStringCollection:0x0000000105a4c490
+   @array=
+    [#<RelatonBib::TypedTitleString:0x0000000105a55360
+      @title=
+       #<RelatonBib::FormattedString:0x0000000105a55220
+        @content="Edge Mesh: A New Paradigm to Enable Distributed Intelligence in Internet of Things",
+        @format="text/plain",
+        @language=["en"],
+        @script=["Latn"]>,
+      @type="main">]>,
+ @type="standard",
+ @validity=nil,
+ @version=nil>
+----
+
+
 == Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run
+`rake spec` to run the tests. You can also run `bin/console` for an interactive
+prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, run `bundle exec rake install`. To
+release a new version, update the version number in `version.rb`, and then run
+`bundle exec rake release`, which will create a git tag for the version, push
+git commits and the created tag, and push the `.gem` file to
+https://rubygems.org[rubygems.org].
 
 == Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/relaton-doi.
+Bug reports and pull requests are welcome on GitHub at https://github.com/relaton/relaton-doi.
 
 == License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the https://opensource.org/licenses/MIT[MIT License].
