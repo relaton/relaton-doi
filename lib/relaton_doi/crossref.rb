@@ -1,5 +1,33 @@
 module RelatonDoi
   class Crossref
+    TYPES = {
+      "book-chapter" => "inbook",
+      "book-part" => "inbook",
+      "book-section" => "inbook",
+      "book-series" => "book",
+      "book-set" => "book",
+      "book-track" => "inbook",
+      "component" => "misc",
+      "database" => "dataset",
+      "dissertation" => "thesis",
+      "edited-book" => "book",
+      "grant" => "misc",
+      "journal-article" => "article",
+      "journal-issue" => "journal",
+      "journal-volume" => "journal",
+      "monograph" => "book",
+      "other" => "misc",
+      "peer-review" => "article",
+      "posted-content" => "social_media",
+      "proceedings-article" => "inproceedings",
+      "proceedings-series" => "proceedings",
+      "reference-book" => "book",
+      "reference-entry" => "inbook",
+      "report-component" => "techreport",
+      "report-series" => "techreport",
+      "report" => "techreport",
+    }.freeze
+
     REALATION_TYPES = {
       "is-preprint-of" => "reprintOf",
       "is-review-of" => "reviewOf",
@@ -71,7 +99,7 @@ module RelatonDoi
     #
     def bibitem_hash # rubocop:disable Metrics/MethodLength
       {
-        type: "standard",
+        type: parse_type,
         fetched: Date.today.to_s,
         title: create_title,
         docid: create_docid,
@@ -83,6 +111,10 @@ module RelatonDoi
         place: create_place,
         relation: create_relation,
       }
+    end
+
+    def parse_type
+      TYPES[@message["type"]] || @message["type"]
     end
 
     #
