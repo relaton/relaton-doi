@@ -1,5 +1,5 @@
-<bibdata type="standard">
-  <fetched>2022-05-28</fetched>
+<bibdata type="standard" schema-version="v1.2.1">
+  <fetched>2022-12-07</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">Voices of first responders - examining public safety communication
                         problems and requested functionality:</title>
   <title type="subtitle" format="text/plain" language="en" script="Latn">findings from user-centered interviews, phase 1, volume 2</title>
@@ -88,7 +88,7 @@
     <city>Gaithersburg</city>
     <region>MD</region>
   </place>
-  <ext>
+  <ext schema-version="v1.0.0">
     <doctype>report</doctype>
   </ext>
 </bibdata>

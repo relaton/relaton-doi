@@ -51,31 +51,31 @@ require 'relaton_doi'
 => true
 
 # get NIST standard
-RelatonDoi::Crossref.get "10.6028/nist.ir.8245"
-[relaton-doi] ["10.6028/nist.ir.8245"] fetching...
-[relaton-doi] ["10.6028/nist.ir.8245"] found 10.6028/nist.ir.8245
-=> #<RelatonNist::NistBibliographicItem:0x00007f9c813b6a58
+RelatonDoi::Crossref.get "doi:10.6028/nist.ir.8245"
+[relaton-doi] ["doi:10.6028/nist.ir.8245"] fetching...
+[relaton-doi] ["doi:10.6028/nist.ir.8245"] found 10.6028/nist.ir.8245
+=> #<RelatonNist::NistBibliographicItem:0x00007ff22420d820
 ...
 
 # get RFC standard
-RelatonDoi::Crossref.get "10.17487/RFC0001"
-[relaton-doi] ["10.17487/RFC0001"] fetching...
-[relaton-doi] ["10.17487/RFC0001"] found 10.17487/rfc0001
+RelatonDoi::Crossref.get "doi:10.17487/RFC0001"
+[relaton-doi] ["doi:10.17487/RFC0001"] fetching...
+[relaton-doi] ["doi:10.17487/RFC0001"] found 10.17487/rfc0001
 [relaton-ietf] WARNING: invalid doctype report
-=> #<RelatonIetf::IetfBibliographicItem:0x00007f9c8143d058
+=> #<RelatonIetf::IetfBibliographicItem:0x00007ff2241be6d0
 ...
 
 # get BIPM standard
-RelatonDoi::Crossref.get "10.1088/0026-1394/29/6/001"
-[relaton-doi] ["10.1088/0026-1394/29/6/001"] fetching...
-[relaton-doi] ["10.1088/0026-1394/29/6/001"] found 10.1088/0026-1394/29/6/001
+RelatonDoi::Crossref.get "doi:10.1088/0026-1394/29/6/001"
+[relaton-doi] ["doi:10.1088/0026-1394/29/6/001"] fetching...
+[relaton-doi] ["doi:10.1088/0026-1394/29/6/001"] found 10.1088/0026-1394/29/6/001
 => #<RelatonBipm::BipmBibliographicItem:0x00007f9c846f0a68
 ...
 
 # get IEEE standard
-RelatonDoi::Crossref.get "10.1109/ieeestd.2014.6835311"
-[relaton-doi] ["10.1109/ieeestd.2014.6835311"] fetching...
-[relaton-doi] ["10.1109/ieeestd.2014.6835311"] found 10.1109/ieeestd.2014.6835311
+RelatonDoi::Crossref.get "doi:10.1109/ieeestd.2014.6835311"
+[relaton-doi] ["doi:10.1109/ieeestd.2014.6835311"] fetching...
+[relaton-doi] ["doi:10.1109/ieeestd.2014.6835311"] found 10.1109/ieeestd.2014.6835311
 => #<RelatonIeee::IeeeBibliographicItem:0x00007f9cb46db688
 ...
 ----
@@ -83,41 +83,15 @@ RelatonDoi::Crossref.get "10.1109/ieeestd.2014.6835311"
 === Retrieving items of unknown types via DOI
 
 If the resulting bibliographic item returned from CrossRef is of an unknown type
-to Relaton, an instance of RelatonBib::BibliographicItem will be returned..
+to Relaton, an instance of RelatonBib::BibliographicItem will be returned.
 
 [source,ruby]
 ----
-RelatonDoi::Crossref.get "10.1109/ACCESS.2017.2739804"
-[relaton-doi] ["10.1109/ACCESS.2017.2739804"] fetching...
-[relaton-doi] ["10.1109/ACCESS.2017.2739804"] found 10.1109/access.2017.2739804
-=>
-#<RelatonBib::BibliographicItem:0x0000000105a4c508
+RelatonDoi::Crossref.get "doi:10.1109/ACCESS.2017.2739804"
+[relaton-doi] ["doi:10.1109/ACCESS.2017.2739804"] fetching...
+[relaton-doi] ["doi:10.1109/ACCESS.2017.2739804"] found 10.1109/access.2017.2739804
+=> #<RelatonBib::BibliographicItem:0x00007ff22435e490
 ...
- @contributor=
-  [#<RelatonBib::ContributionInfo:0x0000000105a4e948
-    @entity=
-     #<RelatonBib::Person:0x0000000105a4ead8
-      @affiliation=[],
-      @contact=[],
-      @identifier=[#<RelatonBib::PersonIdentifier:0x0000000105a4ec40 @type="orcid", @value="http://orcid.org/0000-0003-4875-6950">],
-  ...
- @link=[#<RelatonBib::TypedUri:0x0000000105a4fcd0 @content=#<Addressable::URI:0x23230 URI:http://dx.doi.org/10.1109/access.2017.2739804>, @type="DOI">],
- @relation=#<RelatonBib::DocRelationCollection:0x0000000105a4c030 @array=[]>,
-  ...
- @title=
-  #<RelatonBib::TypedTitleStringCollection:0x0000000105a4c490
-   @array=
-    [#<RelatonBib::TypedTitleString:0x0000000105a55360
-      @title=
-       #<RelatonBib::FormattedString:0x0000000105a55220
-        @content="Edge Mesh: A New Paradigm to Enable Distributed Intelligence in Internet of Things",
-        @format="text/plain",
-        @language=["en"],
-        @script=["Latn"]>,
-      @type="main">]>,
- @type="standard",
- @validity=nil,
- @version=nil>
 ----
 
 

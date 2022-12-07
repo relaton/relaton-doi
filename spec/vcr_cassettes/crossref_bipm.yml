@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.3.0 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v2.3.0 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 28 May 2022 12:36:43 GMT
+      - Mon, 05 Dec 2022 22:59:36 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1200'
       Set-Cookie:
-      - AWSALB=H/lJ2fd8JUD7lcfL05IUkzS4o8pNPwGj6Pr/F2UmBDSb7up6/HMOMn1CWBYRqvzeip4m/4hgQM3EjORzu+eIQ0Mz6BStE2xOXBiLiAMZ3SMCL3+S2qwe+ygX6oZa;
-        Expires=Sat, 04 Jun 2022 12:36:43 GMT; Path=/
-      - AWSALBCORS=H/lJ2fd8JUD7lcfL05IUkzS4o8pNPwGj6Pr/F2UmBDSb7up6/HMOMn1CWBYRqvzeip4m/4hgQM3EjORzu+eIQ0Mz6BStE2xOXBiLiAMZ3SMCL3+S2qwe+ygX6oZa;
-        Expires=Sat, 04 Jun 2022 12:36:43 GMT; Path=/; SameSite=None
+      - AWSALB=nOt2I9PwJ1tBfe3FHT/vulwaYxotDXvpgBiCmCthoEYe4QOj+1/LemvrcB1E7/yiJtV8GDeFrQa8lGZDg59zzz0cf/biwBjShIuWBeIhho7HIpbf0BT2nr+MTqsj;
+        Expires=Mon, 12 Dec 2022 22:59:36 GMT; Path=/
+      - AWSALBCORS=nOt2I9PwJ1tBfe3FHT/vulwaYxotDXvpgBiCmCthoEYe4QOj+1/LemvrcB1E7/yiJtV8GDeFrQa8lGZDg59zzz0cf/biwBjShIuWBeIhho7HIpbf0BT2nr+MTqsj;
+        Expires=Mon, 12 Dec 2022 22:59:36 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -73,5 +73,5 @@ http_interactions:
         G","year":"1990","journal-title":"Metrologia","ISSN":"http:\/\/id.crossref.org\/issn\/0026-1394","issn-type":"print"},{"key":"9","doi-asserted-by":"crossref","first-page":"111","DOI":"10.1088\/0026-1394\/27\/3\/001","volume":"27","author":"Bich
         W","year":"1990","journal-title":"Metrologia","ISSN":"http:\/\/id.crossref.org\/issn\/0026-1394","issn-type":"print"}],"container-title":["Metrologia"],"original-title":[],"link":[{"URL":"http:\/\/stacks.iop.org\/0026-1394\/29\/i=6\/a=001\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,4,10]],"date-time":"2020-04-10T22:04:49Z","timestamp":1586556289000},"score":1,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/0026-1394\/29\/6\/001"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1993,1,1]]},"references-count":9,"journal-issue":{"issue":"6","published-print":{"date-parts":[[1992,1,1]]}},"URL":"http:\/\/dx.doi.org\/10.1088\/0026-1394\/29\/6\/001","relation":{},"ISSN":["0026-1394","1681-7575"],"issn-type":[{"value":"0026-1394","type":"print"},{"value":"1681-7575","type":"electronic"}],"subject":["General
         Engineering"],"published":{"date-parts":[[1993,1,1]]}}}'
-  recorded_at: Sat, 28 May 2022 12:36:43 GMT
+  recorded_at: Mon, 05 Dec 2022 22:59:36 GMT
 recorded_with: VCR 6.1.0

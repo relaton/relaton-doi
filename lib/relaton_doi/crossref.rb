@@ -32,7 +32,8 @@ module RelatonDoi
     #
     def get(doi)
       warn "[relaton-doi] [\"#{doi}\"] fetching..."
-      resp = Serrano.works ids: doi
+      id = doi.sub(%r{^doi:}, "")
+      resp = Serrano.works ids: id
       @message = resp[0]["message"]
       warn "[relaton-doi] [\"#{doi}\"] found #{@message['DOI']}"
       create_bibitem @message["DOI"], bibitem_hash
@@ -275,7 +276,7 @@ module RelatonDoi
     def forename(person)
       return [] unless person["given"]
 
-      [RelatonBib::LocalizedString.new(person["given"], "en", "Latn")]
+      [RelatonBib::Forename.new(content: person["given"], language: "en", script: "Latn")]
     end
 
     #
