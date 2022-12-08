@@ -41,10 +41,10 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
 
+  spec.add_dependency "relaton-bib", "~> 1.14.1"
   spec.add_dependency "relaton-bipm", "~> 1.14.0"
   spec.add_dependency "relaton-ieee", "~> 1.14.0"
   spec.add_dependency "relaton-ietf", "~> 1.14.0"
-  # spec.add_dependency "relaton-iso-bib", "~> 1.10.0"
   spec.add_dependency "relaton-nist", "~> 1.14.0"
   # spec.add_dependency "relaton-w3c", "~> 1.10.0"
   spec.add_dependency "serrano", "~> 1.0.0"
