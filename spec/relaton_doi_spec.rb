@@ -53,5 +53,14 @@ RSpec.describe RelatonDoi do
           .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
       end
     end
+
+    it "fetch edititors", vcr: "editiors" do
+      file = "spec/fixtures/editiors.xml"
+      resp = RelatonDoi::Crossref.get "doi:10.1037/0000120-016"
+      xml = resp.to_xml bibdata: true
+      File.write file, xml, encoding: "UTF-8" unless File.exist? file
+      expect(xml).to be_equivalent_to File.read(file, encoding: "UTF-8")
+        .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
+    end
   end
 end

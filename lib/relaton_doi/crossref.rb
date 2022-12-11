@@ -110,9 +110,15 @@ module RelatonDoi
         doctype: @message["type"],
         place: create_place,
         relation: create_relation,
+        extent: create_extent,
       }
     end
 
+    #
+    # Parse the document type.
+    #
+    # @return [String] The document type.
+    #
     def parse_type
       TYPES[@message["type"]] || @message["type"]
     end
@@ -169,9 +175,17 @@ module RelatonDoi
     # @return [Array<RelatonBib::TypedUri>] The link.
     #
     def create_link
-      return [] unless @message["URL"]
+      links = []
+      if @message["URL"]
+        links << RelatonBib::TypedUri.new(type: "DOI", content: @message["URL"])
+      end
+      return links unless @message["link"]&.any?
 
-      [RelatonBib::TypedUri.new(type: "DOI", content: @message["URL"])]
+      link = @message["link"].first
+      if link["URL"].match?(/\.pdf$/)
+        links << RelatonBib::TypedUri.new(type: "pdf", content: link["URL"])
+      end
+      links
     end
 
     #
@@ -194,13 +208,31 @@ module RelatonDoi
     #
     # @return [Array<RelatonBib::ContributionInfo>] The contributors.
     #
-    def create_contributors
+    def create_contributors # rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity
       contribs = %w[author editor translator].each_with_object([]) do |type, obj|
         @message[type]&.each do |contrib|
           obj << contributor(person(contrib), type)
         end
       end
+      contribs += fetch_editors if contribs.none? { |e| e.role.any? { |r| r.type == "editor" } }
       contribs << contributor(org_publisher, "publisher")
+    end
+
+    #
+    # Fetch editors from Crossref.
+    #
+    # @return [Array<RelatonBib::ContributionInfo>] The editors.
+    #
+    def fetch_editors # rubocop:disable Metrics/AbcSize
+      title = @message["container-title"].first
+      year = (@message["published"] || @message["approved"])["date-parts"][0][0]
+      query = "#{title}, #{@message['publisher']}, #{@message['publisher-location']}, #{year}"
+      resp = Faraday.get %{http://api.crossref.org/works?query.bibliographic="#{query}"&rows=5&filter=type:book}
+      json = JSON.parse resp.body
+      item = json["message"]["items"].detect { |i| i["title"].include?(title) && i["editor"] }
+      return [] unless item
+
+      item["editor"].map { |a| contributor(person(a), "editor") }
     end
 
     #
@@ -355,13 +387,30 @@ module RelatonDoi
     #
     # @return [Array<RelatonBib::DocumentRelation>] The relations.
     #
-    def create_relation
-      @message["relation"].map do |k, v|
+    def create_relation # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+      rels = []
+      @message["container-title"]&.each do |ct|
+        bib = RelatonBib::BibliographicItem.new(title: [content: ct])
+        rels << RelatonBib::DocumentRelation.new(type: "includedIn", bibitem: bib)
+      end
+      @message["relation"].each_with_object(rels) do |(k, v), a|
         fref = RelatonBib::FormattedRef.new(content: v["id"])
         bib = create_bibitem v["id"], formattedref: fref
         type = REALATION_TYPES[k] || k
-        RelatonBib::DocumentRelation.new(type: type, bibitem: bib)
+        a << RelatonBib::DocumentRelation.new(type: type, bibitem: bib)
       end
+    end
+
+    #
+    # Create an extent from the message hash.
+    #
+    # @return [Array<RelatonBib::Locality>] The extent.
+    #
+    def create_extent
+      return [] unless @message["page"]
+
+      from, to = @message["page"].split("-")
+      [RelatonBib::Locality.new("page", from, to)]
     end
   end
 end

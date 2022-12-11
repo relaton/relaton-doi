@@ -1,5 +1,5 @@
 <bibdata type="article" schema-version="v1.2.1">
-  <fetched>2022-12-07</fetched>
+  <fetched>2022-12-09</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">Decade Designs for Weighings of Non-uniform Variance</title>
   <uri type="DOI">http://dx.doi.org/10.1088/0026-1394/29/6/001</uri>
   <docidentifier type="DOI" primary="true">10.1088/0026-1394/29/6/001</docidentifier>
@@ -27,6 +27,17 @@
       <name>IOP Publishing</name>
     </organization>
   </contributor>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Metrologia</title>
+    </bibitem>
+  </relation>
+  <extent>
+    <locality type="page">
+      <referenceFrom>373</referenceFrom>
+      <referenceTo>377</referenceTo>
+    </locality>
+  </extent>
   <ext schema-version="v1.0.0">
     <doctype>journal-article</doctype>
   </ext>

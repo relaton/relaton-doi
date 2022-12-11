@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 05 Dec 2022 22:59:36 GMT
+      - Sun, 11 Dec 2022 20:30:36 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '541'
       Set-Cookie:
-      - AWSALB=aUMo+JfXOa4x17TJINaMy5ncCbhlzqyBjgPkXqHRSBg79DlsYa6mOc2SnKxu2XSnVESjOPNaWR3viFIq4gZB2LXBEFC890fKuodZcIMe4e2413CAjPnpqD0H+n10;
-        Expires=Mon, 12 Dec 2022 22:59:33 GMT; Path=/
-      - AWSALBCORS=aUMo+JfXOa4x17TJINaMy5ncCbhlzqyBjgPkXqHRSBg79DlsYa6mOc2SnKxu2XSnVESjOPNaWR3viFIq4gZB2LXBEFC890fKuodZcIMe4e2413CAjPnpqD0H+n10;
-        Expires=Mon, 12 Dec 2022 22:59:33 GMT; Path=/; SameSite=None
+      - AWSALB=euT4AdGEtvutS8pZ/DZzrhbVfP1fMrN0nNlMjnTYpsfI2BjOPIUoa5DY+KFqtEpgjW3sspaSCySEjP++0MMfmIYSx2yqxuI/xcIlECa3MIu74XJhJX77SY/KQBZV;
+        Expires=Sun, 18 Dec 2022 20:30:36 GMT; Path=/
+      - AWSALBCORS=euT4AdGEtvutS8pZ/DZzrhbVfP1fMrN0nNlMjnTYpsfI2BjOPIUoa5DY+KFqtEpgjW3sspaSCySEjP++0MMfmIYSx2yqxuI/xcIlECa3MIu74XJhJX77SY/KQBZV;
+        Expires=Sun, 18 Dec 2022 20:30:36 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -61,5 +61,67 @@ http_interactions:
       string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,10,5]],"date-time":"2022-10-05T15:49:30Z","timestamp":1664984970910},"reference-count":0,"publisher":"RFC
         Editor","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.17487\/rfc0001","type":"report","created":{"date-parts":[[2015,4,6]],"date-time":"2015-04-06T01:16:32Z","timestamp":1428282992000},"source":"Crossref","is-referenced-by-count":11,"title":["Host
         Software"],"prefix":"10.17487","author":[{"given":"S.","family":"Crocker","sequence":"first","affiliation":[]}],"member":"7045","published-online":{"date-parts":[[1969,4]]},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2015,4,6]],"date-time":"2015-04-06T01:16:32Z","timestamp":1428282992000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.rfc-editor.org\/info\/rfc0001"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1969,4]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.17487\/rfc0001","relation":{},"published":{"date-parts":[[1969,4]]}}}'
-  recorded_at: Mon, 05 Dec 2022 22:59:36 GMT
+  recorded_at: Sun, 11 Dec 2022 20:30:36 GMT
+- request:
+    method: get
+    uri: http://api.crossref.org/works?filter=type:book&query.bibliographic=%22,%20RFC%20Editor,%20,%201969%22&rows=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 11 Dec 2022 20:30:36 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1511'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":2696,"items":[{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T03:40:32Z","timestamp":1649043632126},"publisher-location":"Wiesbaden","reference-count":0,"publisher":"Vieweg+Teubner
+        Verlag","isbn-type":[{"value":"9783528058784","type":"print"},{"value":"9783322939630","type":"electronic"}],"license":[{"start":{"date-parts":[[2004,1,1]],"date-time":"2004-01-01T00:00:00Z","timestamp":1072915200000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004]]},"DOI":"10.1007\/978-3-322-93963-0","type":"book","created":{"date-parts":[[2012,7,4]],"date-time":"2012-07-04T21:29:19Z","timestamp":1341437359000},"source":"Crossref","is-referenced-by-count":0,"title":["SAP
+        R\/3\u00ae Kommunikation mit RFC und Visual Basic"],"prefix":"10.1007","author":[{"given":"Patrick","family":"Theobald","sequence":"first","affiliation":[]}],"member":"297","link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-322-93963-0.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-322-93963-0","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,4,7]],"date-time":"2019-04-07T02:39:10Z","timestamp":1554604750000},"score":15.554201,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-322-93963-0"}},"issued":{"date-parts":[[2004]]},"ISBN":["9783528058784","9783322939630"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-322-93963-0","published":{"date-parts":[[2004]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T06:16:46Z","timestamp":1648966606342},"publisher-location":"Wiesbaden","reference-count":0,"publisher":"Vieweg+Teubner
+        Verlag","isbn-type":[{"value":"9783528158781","type":"print"},{"value":"9783663016120","type":"electronic"}],"license":[{"start":{"date-parts":[[2004,1,1]],"date-time":"2004-01-01T00:00:00Z","timestamp":1072915200000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004]]},"DOI":"10.1007\/978-3-663-01612-0","type":"book","created":{"date-parts":[[2012,11,26]],"date-time":"2012-11-26T10:59:19Z","timestamp":1353927559000},"source":"Crossref","is-referenced-by-count":0,"title":["SAP
+        R\/3\u00ae Kommunikation mit RFC und Visual Basic"],"prefix":"10.1007","author":[{"given":"Patrick","family":"Theobald","sequence":"first","affiliation":[]}],"member":"297","link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-663-01612-0.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-663-01612-0","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,4,5]],"date-time":"2019-04-05T19:04:49Z","timestamp":1554491089000},"score":15.540491,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-663-01612-0"}},"issued":{"date-parts":[[2004]]},"ISBN":["9783528158781","9783663016120"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-663-01612-0","published":{"date-parts":[[2004]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T21:07:55Z","timestamp":1648933675010},"reference-count":0,"publisher":"Cedarville
+        University","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1969]]},"DOI":"10.15385\/yb.miracle.1969","type":"book","created":{"date-parts":[[2015,2,5]],"date-time":"2015-02-05T11:22:39Z","timestamp":1423135359000},"source":"Crossref","is-referenced-by-count":1,"title":["1969
+        Miracle Yearbook"],"prefix":"10.15385","member":"6038","published-online":{"date-parts":[[2014]]},"original-title":["1969
+        Miracle Yearbook"],"deposited":{"date-parts":[[2015,2,5]],"date-time":"2015-02-05T11:22:39Z","timestamp":1423135359000},"score":11.178505,"resource":{"primary":{"URL":"http:\/\/digitalcommons.cedarville.edu\/yearbooks\/48\/"}},"issued":{"date-parts":[[1969]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.15385\/yb.miracle.1969","published":{"date-parts":[[1969]]}},{"indexed":{"date-parts":[[2022,4,25]],"date-time":"2022-04-25T14:41:38Z","timestamp":1650897698576},"reference-count":0,"publisher":"De
+        Gruyter","isbn-type":[{"value":"9783112476260","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1969,12,31]]},"DOI":"10.1515\/9783112476260","type":"book","created":{"date-parts":[[2021,11,23]],"date-time":"2021-11-23T03:06:30Z","timestamp":1637636790000},"source":"Crossref","is-referenced-by-count":0,"title":["1969"],"prefix":"10.1515","member":"374","published-online":{"date-parts":[[2021,11,8]]},"deposited":{"date-parts":[[2022,4,25]],"date-time":"2022-04-25T14:14:13Z","timestamp":1650896053000},"score":11.131124,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783112476260\/html"}},"issued":{"date-parts":[[1969,12,31]]},"ISBN":["9783112476260"],"references-count":0,"alternative-id":["10.1515\/9783112476260"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783112476260","published":{"date-parts":[[1969,12,31]]}},{"indexed":{"date-parts":[[2022,5,4]],"date-time":"2022-05-04T21:57:31Z","timestamp":1651701451670},"reference-count":0,"publisher":"De
+        Gruyter","isbn-type":[{"value":"9783112492024","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1969,12,31]]},"DOI":"10.1515\/9783112492024","type":"book","created":{"date-parts":[[2021,11,22]],"date-time":"2021-11-22T20:32:57Z","timestamp":1637613177000},"source":"Crossref","is-referenced-by-count":0,"title":["1969"],"prefix":"10.1515","member":"374","published-online":{"date-parts":[[2021,11,8]]},"deposited":{"date-parts":[[2022,4,25]],"date-time":"2022-04-25T11:11:10Z","timestamp":1650885070000},"score":11.106122,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783112492024\/html"}},"issued":{"date-parts":[[1969,12,31]]},"ISBN":["9783112492024"],"references-count":0,"alternative-id":["10.1515\/9783112492024"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783112492024","published":{"date-parts":[[1969,12,31]]}}],"items-per-page":5,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Sun, 11 Dec 2022 20:30:36 GMT
 recorded_with: VCR 6.1.0

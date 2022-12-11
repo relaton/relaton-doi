@@ -1,0 +1,94 @@
+<bibdata type="inbook" schema-version="v1.2.1">
+  <fetched>2022-12-11</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Culinary arts: Talent and their development.</title>
+  <uri type="DOI">http://dx.doi.org/10.1037/0000120-016</uri>
+  <uri type="pdf">http://psycnet.apa.org/books/16096/016.pdf</uri>
+  <docidentifier type="DOI" primary="true">10.1037/0000120-016</docidentifier>
+  <date type="created">
+    <on>2018-12-06</on>
+  </date>
+  <date type="issued">
+    <on>2019</on>
+  </date>
+  <date type="published">
+    <on>2019</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Laurent</forename>
+        <surname language="en" script="Latn">Aron</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Marion</forename>
+        <surname language="en" script="Latn">Botella</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Todd</forename>
+        <surname language="en" script="Latn">Lubart</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="editor"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Rena F.</forename>
+        <surname language="en" script="Latn">Subotnik</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="editor"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Paula</forename>
+        <surname language="en" script="Latn">Olszewski-Kubilius</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="editor"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Frank C.</forename>
+        <surname language="en" script="Latn">Worrell</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>American Psychological Association</name>
+    </organization>
+  </contributor>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Psychology of high performance: Developing human potential into domain-specific talent.</title>
+    </bibitem>
+  </relation>
+  <place>
+    <city>Washington</city>
+    <region></region>
+  </place>
+  <extent>
+    <locality type="page">
+      <referenceFrom>345</referenceFrom>
+      <referenceTo>359</referenceTo>
+    </locality>
+  </extent>
+  <ext>
+    <doctype>book-chapter</doctype>
+  </ext>
+</bibdata>

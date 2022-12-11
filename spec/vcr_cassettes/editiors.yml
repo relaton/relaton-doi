@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.1037%2F0000120-016
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 11 Dec 2022 20:25:34 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '814'
+      Set-Cookie:
+      - AWSALB=aDpfp6wxQP5xb9wsaZ58CQ2OtK4v3i5xOS/rTqcfCPmhXwLpE0CtySMGkWLUQpuG7qa3GLoANR6o7FnM+QYnbsSZfF96P5S1fY/ZuvaehyMfuIW51y5Ba0giJ2Vq;
+        Expires=Sun, 18 Dec 2022 20:25:34 GMT; Path=/
+      - AWSALBCORS=aDpfp6wxQP5xb9wsaZ58CQ2OtK4v3i5xOS/rTqcfCPmhXwLpE0CtySMGkWLUQpuG7qa3GLoANR6o7FnM+QYnbsSZfF96P5S1fY/ZuvaehyMfuIW51y5Ba0giJ2Vq;
+        Expires=Sun, 18 Dec 2022 20:25:34 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T21:42:47Z","timestamp":1648590167995},"publisher-location":"Washington","reference-count":0,"publisher":"American
+        Psychological Association","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[2019]]},"DOI":"10.1037\/0000120-016","type":"book-chapter","created":{"date-parts":[[2018,12,6]],"date-time":"2018-12-06T14:14:50Z","timestamp":1544105690000},"page":"345-359","source":"Crossref","is-referenced-by-count":6,"title":["Culinary
+        arts: Talent and their development."],"prefix":"10.1037","author":[{"given":"Laurent","family":"Aron","sequence":"first","affiliation":[]},{"given":"Marion","family":"Botella","sequence":"additional","affiliation":[]},{"given":"Todd","family":"Lubart","sequence":"additional","affiliation":[]}],"member":"15","container-title":["Psychology
+        of high performance: Developing human potential into domain-specific talent."],"original-title":[],"link":[{"URL":"http:\/\/psycnet.apa.org\/books\/16096\/016.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,12,28]],"date-time":"2020-12-28T18:52:59Z","timestamp":1609181579000},"score":1,"resource":{"primary":{"URL":"http:\/\/content.apa.org\/books\/16096-016"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2019]]},"references-count":0,"alternative-id":["2018-59444-016","2018-59444-000"],"URL":"http:\/\/dx.doi.org\/10.1037\/0000120-016","relation":{},"published":{"date-parts":[[2019]]}}}'
+  recorded_at: Sun, 11 Dec 2022 20:25:34 GMT
+- request:
+    method: get
+    uri: http://api.crossref.org/works?filter=type:book&query.bibliographic=%22Psychology%20of%20high%20performance:%20Developing%20human%20potential%20into%20domain-specific%20talent.,%20American%20Psychological%20Association,%20Washington,%202019%22&rows=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 11 Dec 2022 20:25:38 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2039'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":4182,"items":[{"indexed":{"date-parts":[[2022,11,2]],"date-time":"2022-11-02T07:07:38Z","timestamp":1667372858143},"publisher-location":"Washington","reference-count":0,"publisher":"American
+        Psychological Association","isbn-type":[{"value":"1433829886","type":"print"},{"value":"1433830388","type":"print"},{"value":"9781433829888","type":"print"},{"value":"9781433830389","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019]]},"DOI":"10.1037\/0000120-000","type":"book","created":{"date-parts":[[2018,12,6]],"date-time":"2018-12-06T14:14:50Z","timestamp":1544105690000},"source":"Crossref","is-referenced-by-count":14,"title":["Psychology
+        of high performance: Developing human potential into domain-specific talent."],"prefix":"10.1037","member":"15","deposited":{"date-parts":[[2020,12,28]],"date-time":"2020-12-28T18:52:38Z","timestamp":1609181558000},"score":58.099545,"resource":{"primary":{"URL":"http:\/\/content.apa.org\/books\/16096-000"}},"editor":[{"given":"Rena
+        F.","family":"Subotnik","sequence":"first","affiliation":[]},{"given":"Paula","family":"Olszewski-Kubilius","sequence":"additional","affiliation":[]},{"given":"Frank
+        C.","family":"Worrell","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2019]]},"ISBN":["1433829886","1433830388","9781433829888","9781433830389"],"references-count":0,"alternative-id":["2018-59444-000"],"URL":"http:\/\/dx.doi.org\/10.1037\/0000120-000","published":{"date-parts":[[2019]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T07:05:35Z","timestamp":1648796735944},"publisher-location":"New
+        York","edition-number":"1","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781003238461","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.4324\/9781003238461","type":"book","created":{"date-parts":[[2021,9,14]],"date-time":"2021-09-14T09:37:28Z","timestamp":1631612248000},"source":"Crossref","is-referenced-by-count":0,"title":["Talent
+        Development for English Language Learners"],"prefix":"10.4324","author":[{"given":"Michael
+        S.","family":"Matthews","sequence":"first","affiliation":[]},{"given":"Jaime
+        A.","family":"Castellano","sequence":"additional","affiliation":[]}],"member":"301","published-online":{"date-parts":[[2021,9,14]]},"deposited":{"date-parts":[[2021,9,14]],"date-time":"2021-09-14T09:37:29Z","timestamp":1631612249000},"score":25.020657,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003238461"}},"subtitle":["Identifying
+        and Developing Potential"],"issued":{"date-parts":[[2021,9,14]]},"ISBN":["9781003238461"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781003238461","published":{"date-parts":[[2021,9,14]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T11:29:55Z","timestamp":1649071795147},"edition-number":"1","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9780203713006","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.4324\/9780203713006","type":"book","created":{"date-parts":[[2018,2,23]],"date-time":"2018-02-23T20:29:22Z","timestamp":1519417762000},"source":"Crossref","is-referenced-by-count":0,"title":["Improving
+        Managerial Talent"],"prefix":"10.4324","author":[{"given":"Hugh","family":"McCredie","sequence":"first","affiliation":[]}],"member":"301","published-online":{"date-parts":[[2017,11,22]]},"deposited":{"date-parts":[[2021,4,5]],"date-time":"2021-04-05T08:07:49Z","timestamp":1617610069000},"score":22.592823,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781351363990"}},"subtitle":["Practical
+        Psychology for Human Resourcing and Learning &amp; Development Professionals"],"issued":{"date-parts":[[2017,11,22]]},"ISBN":["9780203713006"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780203713006","published":{"date-parts":[[2017,11,22]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T19:48:49Z","timestamp":1649188129490},"reference-count":0,"publisher":"RAND
+        Corporation","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019]]},"DOI":"10.7249\/ct505","type":"book","created":{"date-parts":[[2019,3,12]],"date-time":"2019-03-12T13:00:07Z","timestamp":1552395607000},"source":"Crossref","is-referenced-by-count":0,"title":["Military
+        Compensation to Support Retention, Performance, and Talent Management"],"prefix":"10.7249","author":[{"given":"Beth","family":"Asch","sequence":"first","affiliation":[]}],"member":"4276","deposited":{"date-parts":[[2019,3,12]],"date-time":"2019-03-12T13:00:07Z","timestamp":1552395607000},"score":22.103428,"resource":{"primary":{"URL":"https:\/\/www.rand.org\/pubs\/testimonies\/CT505.html"}},"issued":{"date-parts":[[2019]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.7249\/ct505","published":{"date-parts":[[2019]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T12:44:49Z","timestamp":1648644289936},"publisher-location":"Singapore","reference-count":0,"publisher":"Springer
+        Singapore","isbn-type":[{"value":"9789811010699","type":"print"},{"value":"9789811010705","type":"electronic"}],"license":[{"start":{"date-parts":[[2019,1,1]],"date-time":"2019-01-01T00:00:00Z","timestamp":1546300800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019]]},"DOI":"10.1007\/978-981-10-1070-5","type":"book","created":{"date-parts":[[2019,3,28]],"date-time":"2019-03-28T13:02:43Z","timestamp":1553778163000},"source":"Crossref","is-referenced-by-count":1,"title":["Domain
+        Specific High-Level Synthesis for Cryptographic Workloads"],"prefix":"10.1007","author":[{"given":"Ayesha","family":"Khalid","sequence":"first","affiliation":[]},{"given":"Goutam","family":"Paul","sequence":"additional","affiliation":[]},{"given":"Anupam","family":"Chattopadhyay","sequence":"additional","affiliation":[]}],"member":"297","container-title":["Computer
+        Architecture and Design Methodologies"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-981-10-1070-5.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-981-10-1070-5","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,5,18]],"date-time":"2019-05-18T09:24:03Z","timestamp":1558171443000},"score":21.14328,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-981-10-1070-5"}},"issued":{"date-parts":[[2019]]},"ISBN":["9789811010699","9789811010705"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-981-10-1070-5","ISSN":["2367-3478","2367-3486"],"issn-type":[{"value":"2367-3478","type":"print"},{"value":"2367-3486","type":"electronic"}],"published":{"date-parts":[[2019]]}}],"items-per-page":5,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Sun, 11 Dec 2022 20:25:38 GMT
+recorded_with: VCR 6.1.0

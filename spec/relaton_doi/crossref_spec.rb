@@ -1,4 +1,18 @@
 describe RelatonDoi::Crossref do
+  it "create link" do
+    subject.instance_variable_set :@message, {
+      "URL" => "http://dx.doi.org/10.1037/0000120-016",
+      "link" => [{ "URL" => "http://psycnet.apa.org/books/16096/016.pdf" }],
+    }
+    link = subject.create_link
+    expect(link).to be_instance_of(Array)
+    expect(link[0]).to be_instance_of(RelatonBib::TypedUri)
+    expect(link[0].type).to eq "DOI"
+    expect(link[0].content.to_s).to eq "http://dx.doi.org/10.1037/0000120-016"
+    expect(link[1].type).to eq "pdf"
+    expect(link[1].content.to_s).to eq "http://psycnet.apa.org/books/16096/016.pdf"
+  end
+
   it "create abstract" do
     subject.instance_variable_set :@message, { "abstract" => "Abstract text" }
     abstract = subject.create_abstract
