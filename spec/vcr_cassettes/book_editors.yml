@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.1007%2F978-1-4471-1578-6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 12 Dec 2022 21:20:20 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '857'
+      Set-Cookie:
+      - AWSALB=vz0W967AYDjmqvtwzfn1MoiWwHXTZklDM42HGKZdThgw5z1PL+/SyU3Tk2mxPD85F9bik36pCytzzdrbRzJQDSAO8vND2vLoeO6Gxk6m4gTZfRqrTa9x8lmqICjj;
+        Expires=Mon, 19 Dec 2022 21:20:20 GMT; Path=/
+      - AWSALBCORS=vz0W967AYDjmqvtwzfn1MoiWwHXTZklDM42HGKZdThgw5z1PL+/SyU3Tk2mxPD85F9bik36pCytzzdrbRzJQDSAO8vND2vLoeO6Gxk6m4gTZfRqrTa9x8lmqICjj;
+        Expires=Mon, 19 Dec 2022 21:20:20 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T20:56:44Z","timestamp":1648673804636},"publisher-location":"London","reference-count":0,"publisher":"Springer
+        London","isbn-type":[{"value":"9783540762430","type":"print"},{"value":"9781447115786","type":"electronic"}],"license":[{"start":{"date-parts":[[1998,1,1]],"date-time":"1998-01-01T00:00:00Z","timestamp":883612800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[1998]]},"DOI":"10.1007\/978-1-4471-1578-6","type":"book","created":{"date-parts":[[2011,12,30]],"date-time":"2011-12-30T00:55:02Z","timestamp":1325206502000},"source":"Crossref","is-referenced-by-count":28,"title":["Wide
+        Area Workflow Management"],"prefix":"10.1007","author":[{"given":"Gerold","family":"Riempp","sequence":"first","affiliation":[]}],"member":"297","container-title":["Computer
+        Supported Cooperative Work"],"original-title":[],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-1578-6.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-1578-6","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,4,5]],"date-time":"2019-04-05T19:23:56Z","timestamp":1554492236000},"score":1,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-4471-1578-6"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1998]]},"ISBN":["9783540762430","9781447115786"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4471-1578-6","relation":{},"ISSN":["1431-1496"],"issn-type":[{"value":"1431-1496","type":"print"}],"published":{"date-parts":[[1998]]}}}'
+  recorded_at: Mon, 12 Dec 2022 21:20:20 GMT
+- request:
+    method: get
+    uri: http://api.crossref.org/works?filter=type:book&query.bibliographic=%22Computer%20Supported%20Cooperative%20Work,%20Springer%20London,%20London,%201998%22&rows=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 12 Dec 2022 21:20:22 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1739'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":49273,"items":[{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T17:58:44Z","timestamp":1648663124310},"publisher-location":"London","reference-count":0,"publisher":"Springer
+        London","isbn-type":[{"value":"9783540762430","type":"print"},{"value":"9781447115786","type":"electronic"}],"license":[{"start":{"date-parts":[[1998,1,1]],"date-time":"1998-01-01T00:00:00Z","timestamp":883612800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1998]]},"DOI":"10.1007\/978-1-4471-1578-6","type":"book","created":{"date-parts":[[2011,12,30]],"date-time":"2011-12-30T00:55:02Z","timestamp":1325206502000},"source":"Crossref","is-referenced-by-count":28,"title":["Wide
+        Area Workflow Management"],"prefix":"10.1007","author":[{"given":"Gerold","family":"Riempp","sequence":"first","affiliation":[]}],"member":"297","container-title":["Computer
+        Supported Cooperative Work"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-1578-6.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-1578-6","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,4,5]],"date-time":"2019-04-05T19:23:56Z","timestamp":1554492236000},"score":36.980667,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-4471-1578-6"}},"issued":{"date-parts":[[1998]]},"ISBN":["9783540762430","9781447115786"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4471-1578-6","ISSN":["1431-1496"],"issn-type":[{"value":"1431-1496","type":"print"}],"published":{"date-parts":[[1998]]}},{"indexed":{"date-parts":[[2022,5,30]],"date-time":"2022-05-30T12:09:37Z","timestamp":1653912577715},"publisher-location":"London","reference-count":0,"publisher":"Springer
+        London","isbn-type":[{"value":"9781852330033","type":"print"},{"value":"9781447106258","type":"electronic"}],"license":[{"start":{"date-parts":[[1998,1,1]],"date-time":"1998-01-01T00:00:00Z","timestamp":883612800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1998]]},"DOI":"10.1007\/978-1-4471-0625-8","type":"book","created":{"date-parts":[[2011,8,22]],"date-time":"2011-08-22T00:10:22Z","timestamp":1313971822000},"source":"Crossref","is-referenced-by-count":18,"title":["The
+        Digital University"],"prefix":"10.1007","member":"297","container-title":["Computer
+        Supported Cooperative Work"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-0625-8.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-0625-8","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,4,6]],"date-time":"2019-04-06T15:18:01Z","timestamp":1554563881000},"score":35.477722,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-4471-0625-8"}},"editor":[{"given":"Reza","family":"Hazemi","sequence":"first","affiliation":[]},{"given":"Stephen","family":"Hailes","sequence":"additional","affiliation":[]},{"given":"Steve","family":"Wilbur","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[1998]]},"ISBN":["9781852330033","9781447106258"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4471-0625-8","ISSN":["1431-1496"],"issn-type":[{"value":"1431-1496","type":"print"}],"published":{"date-parts":[[1998]]}},{"indexed":{"date-parts":[[2022,12,6]],"date-time":"2022-12-06T12:50:58Z","timestamp":1670331058014},"publisher-location":"London","reference-count":0,"publisher":"Springer
+        London","isbn-type":[{"value":"9781848000674","type":"print"},{"value":"9781848000681","type":"electronic"}],"license":[{"start":{"date-parts":[[2011,1,1]],"date-time":"2011-01-01T00:00:00Z","timestamp":1293840000000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2011]]},"DOI":"10.1007\/978-1-84800-068-1","type":"book","created":{"date-parts":[[2011,1,26]],"date-time":"2011-01-26T13:07:19Z","timestamp":1296047239000},"source":"Crossref","is-referenced-by-count":76,"title":["Cooperative
+        Work and Coordinative Practices"],"prefix":"10.1007","author":[{"given":"Kjeld","family":"Schmidt","sequence":"first","affiliation":[]}],"member":"297","container-title":["Computer
+        Supported Cooperative Work"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-84800-068-1.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-84800-068-1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,4,6]],"date-time":"2019-04-06T17:44:56Z","timestamp":1554572696000},"score":33.774075,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-84800-068-1"}},"issued":{"date-parts":[[2011]]},"ISBN":["9781848000674","9781848000681"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-84800-068-1","ISSN":["1431-1496"],"issn-type":[{"value":"1431-1496","type":"print"}],"published":{"date-parts":[[2011]]}},{"indexed":{"date-parts":[[2022,12,6]],"date-time":"2022-12-06T02:00:25Z","timestamp":1670292025360},"publisher-location":"London","reference-count":0,"publisher":"Springer
+        London","isbn-type":[{"value":"9783540197829","type":"print"},{"value":"9781447120070","type":"electronic"}],"license":[{"start":{"date-parts":[[1993,1,1]],"date-time":"1993-01-01T00:00:00Z","timestamp":725846400000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1993]]},"DOI":"10.1007\/978-1-4471-2007-0","type":"book","created":{"date-parts":[[2011,11,24]],"date-time":"2011-11-24T09:20:41Z","timestamp":1322126441000},"source":"Crossref","is-referenced-by-count":25,"title":["Computer
+        Supported Collaborative Writing"],"prefix":"10.1007","member":"297","container-title":["Computer
+        Supported Cooperative Work"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-2007-0.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-2007-0","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,4,6]],"date-time":"2019-04-06T21:41:26Z","timestamp":1554586886000},"score":33.689175,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-4471-2007-0"}},"editor":[{"given":"Mike","family":"Sharples","sequence":"first","affiliation":[]}],"issued":{"date-parts":[[1993]]},"ISBN":["9783540197829","9781447120070"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4471-2007-0","ISSN":["1431-1496"],"issn-type":[{"value":"1431-1496","type":"print"}],"published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T21:49:27Z","timestamp":1649022567638},"publisher-location":"London","reference-count":0,"publisher":"Springer
+        London","isbn-type":[{"value":"9783540761594","type":"print"},{"value":"9781447105916","type":"electronic"}],"license":[{"start":{"date-parts":[[1998,1,1]],"date-time":"1998-01-01T00:00:00Z","timestamp":883612800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1998]]},"DOI":"10.1007\/978-1-4471-0591-6","type":"book","created":{"date-parts":[[2011,6,30]],"date-time":"2011-06-30T09:13:03Z","timestamp":1309425183000},"source":"Crossref","is-referenced-by-count":8,"title":["Doing
+        Business Electronically"],"prefix":"10.1007","member":"297","container-title":["Computer
+        Supported Cooperative Work"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-0591-6.pdf","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4471-0591-6","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,1,9]],"date-time":"2020-01-09T06:43:35Z","timestamp":1578552215000},"score":33.195087,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-4471-0591-6"}},"subtitle":["A
+        Global Perspective of Electronic Commerce"],"editor":[{"given":"Celia T.","family":"Romm","sequence":"first","affiliation":[]},{"given":"Fay","family":"Sudweeks","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[1998]]},"ISBN":["9783540761594","9781447105916"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4471-0591-6","ISSN":["1431-1496"],"issn-type":[{"value":"1431-1496","type":"print"}],"published":{"date-parts":[[1998]]}}],"items-per-page":5,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Mon, 12 Dec 2022 21:20:22 GMT
+recorded_with: VCR 6.1.0

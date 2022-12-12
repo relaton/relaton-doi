@@ -214,25 +214,7 @@ module RelatonDoi
           obj << contributor(person(contrib), type)
         end
       end
-      contribs += fetch_editors if contribs.none? { |e| e.role.any? { |r| r.type == "editor" } }
       contribs << contributor(org_publisher, "publisher")
-    end
-
-    #
-    # Fetch editors from Crossref.
-    #
-    # @return [Array<RelatonBib::ContributionInfo>] The editors.
-    #
-    def fetch_editors # rubocop:disable Metrics/AbcSize
-      title = @message["container-title"].first
-      year = (@message["published"] || @message["approved"])["date-parts"][0][0]
-      query = "#{title}, #{@message['publisher']}, #{@message['publisher-location']}, #{year}"
-      resp = Faraday.get %{http://api.crossref.org/works?query.bibliographic="#{query}"&rows=5&filter=type:book}
-      json = JSON.parse resp.body
-      item = json["message"]["items"].detect { |i| i["title"].include?(title) && i["editor"] }
-      return [] unless item
-
-      item["editor"].map { |a| contributor(person(a), "editor") }
     end
 
     #
@@ -390,7 +372,8 @@ module RelatonDoi
     def create_relation # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
       rels = []
       @message["container-title"]&.each do |ct|
-        bib = RelatonBib::BibliographicItem.new(title: [content: ct])
+        contrib = included_in_editors(ct)
+        bib = RelatonBib::BibliographicItem.new(title: [content: ct], contributor: contrib)
         rels << RelatonBib::DocumentRelation.new(type: "includedIn", bibitem: bib)
       end
       @message["relation"].each_with_object(rels) do |(k, v), a|
@@ -399,6 +382,35 @@ module RelatonDoi
         type = REALATION_TYPES[k] || k
         a << RelatonBib::DocumentRelation.new(type: type, bibitem: bib)
       end
+    end
+
+    #
+    # Fetch included in editors.
+    #
+    # @param [String] title container-title
+    #
+    # @return [Array<RelatonBib::ContributionInfo>] The editors contribution info.
+    #
+    def included_in_editors(title)
+      item = fetch_included_in title
+      return [] unless item
+
+      item["editor"].map { |e| contributor(person(e), "editor") }
+    end
+
+    #
+    # Fetch included in relation.
+    #
+    # @param [String] title container-title
+    #
+    # @return [Hash] The included in relation item.
+    #
+    def fetch_included_in(title) # rubocop:disable Metrics/AbcSize
+      year = (@message["published"] || @message["approved"])["date-parts"][0][0]
+      query = "#{title}, #{@message['publisher']}, #{@message['publisher-location']}, #{year}"
+      resp = Faraday.get %{http://api.crossref.org/works?query.bibliographic="#{query}"&rows=5&filter=type:book}
+      json = JSON.parse resp.body
+      json["message"]["items"].detect { |i| i["title"].include?(title) && i["editor"] }
     end
 
     #

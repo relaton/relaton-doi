@@ -1,0 +1,44 @@
+<bibdata type="book" schema-version="v1.2.1">
+  <fetched>2022-12-12</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Wide Area Workflow Management</title>
+  <uri type="DOI">http://dx.doi.org/10.1007/978-1-4471-1578-6</uri>
+  <uri type="pdf">http://link.springer.com/content/pdf/10.1007/978-1-4471-1578-6.pdf</uri>
+  <docidentifier type="DOI" primary="true">10.1007/978-1-4471-1578-6</docidentifier>
+  <docidentifier type="ISBN">9783540762430</docidentifier>
+  <date type="created">
+    <on>2011-12-30</on>
+  </date>
+  <date type="issued">
+    <on>1998</on>
+  </date>
+  <date type="published">
+    <on>1998</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Gerold</forename>
+        <surname language="en" script="Latn">Riempp</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Springer London</name>
+    </organization>
+  </contributor>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Computer Supported Cooperative Work</title>
+    </bibitem>
+  </relation>
+  <place>
+    <city>London</city>
+    <region></region>
+  </place>
+  <ext>
+    <doctype>book</doctype>
+  </ext>
+</bibdata>
