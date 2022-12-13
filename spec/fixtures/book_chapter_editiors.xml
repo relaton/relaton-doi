@@ -78,15 +78,20 @@
       </contributor>
     </bibitem>
   </relation>
+  <series>
+    <title format="text/plain">Psychology of high performance: Developing human potential into domain-specific talent.</title>
+  </series>
   <place>
     <city>Washington</city>
     <region></region>
   </place>
   <extent>
-    <locality type="page">
-      <referenceFrom>345</referenceFrom>
-      <referenceTo>359</referenceTo>
-    </locality>
+    <localityStack>
+      <locality type="page">
+        <referenceFrom>345</referenceFrom>
+        <referenceTo>359</referenceTo>
+      </locality>
+    </localityStack>
   </extent>
   <ext>
     <doctype>book-chapter</doctype>

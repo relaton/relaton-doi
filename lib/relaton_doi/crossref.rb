@@ -111,6 +111,7 @@ module RelatonDoi
         place: create_place,
         relation: create_relation,
         extent: create_extent,
+        series: create_series,
       }
     end
 
@@ -418,11 +419,29 @@ module RelatonDoi
     #
     # @return [Array<RelatonBib::Locality>] The extent.
     #
-    def create_extent
-      return [] unless @message["page"]
+    def create_extent # rubocop:disable Metrics/AbcSize
+      extent = []
+      extent << RelatonBib::Locality.new("volume", @message["volume"]) if @message["volume"]
+      extent << RelatonBib::Locality.new("issue", @message["issue"]) if @message["issue"]
+      if @message["page"]
+        from, to = @message["page"].split("-")
+        extent << RelatonBib::Locality.new("page", from, to)
+      end
+      extent.any? ? [RelatonBib::LocalityStack.new(extent)] : []
+    end
 
-      from, to = @message["page"].split("-")
-      [RelatonBib::Locality.new("page", from, to)]
+    #
+    # Create a series from the message hash.
+    #
+    # @return [Arrey<RelatonBib::Series>] The series.
+    #
+    def create_series
+      return [] unless @message["container-title"]
+
+      @message["container-title"].map do |ct|
+        title = RelatonBib::TypedTitleString.new content: ct
+        RelatonBib::Series.new title: title
+      end
     end
   end
 end
