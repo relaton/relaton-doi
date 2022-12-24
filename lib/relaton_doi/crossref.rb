@@ -30,8 +30,6 @@ module RelatonDoi
 
     REALATION_TYPES = {
       "is-cited-by" => "isCitedIn",
-      "is-funded-by" => :-,
-      "has-award" => :-,
       "belongs-to" => "related",
       "is-child-of" => "includedIn",
       "is-expression-of" => "expressionOf",
@@ -45,8 +43,6 @@ module RelatonDoi
       "replaces" => "obsoletes",
       "is-translation-of" => "translatedFrom",
       "has-translation" => "hasTranslation",
-      "is-variant-form-of" => :-,
-      "is-original-form-of" => :-,
       "is-version-of" => "editionOf",
       "has-version" => "hasEdition",
       "is-based-on" => "updates",
@@ -59,21 +55,16 @@ module RelatonDoi
       "has-derivation" => "derivedFrom",
       "is-documented-by" => "describedBy",
       "documents" => "describes",
-      "finances" => :-,
-      "is-financed-by" => :-,
       "is-part-of" => "partOf",
       "has-part" => "hasPart",
       "is-review-of" => "reviewOf",
       "has-review" => "hasReview",
       "references" => "cites",
       "is-referenced-by" => "isCitedIn",
-      "is-replay-to" => :-,
-      "has-replay" => :-,
       "requires" => "hasComplement",
       "is-required-by" => "complementOf",
       "is-supplement-to" => "complementOf",
       "is-supplemented-by" => "hasComplement",
-      "is-identical-to" => "identicalTo", # ?
     }.freeze
 
     #
@@ -533,10 +524,9 @@ module RelatonDoi
     # @return [Array<String>] The relaton relation type and description.
     #
     def relation_type(crtype)
-      type = REALATION_TYPES[crtype] || crtype
-      if type == :-
-        type = "related"
+      type = REALATION_TYPES[crtype] || begin
         desc = RelatonBib::FormattedString.new(content: crtype)
+        "related"
       end
       [type, desc]
     end

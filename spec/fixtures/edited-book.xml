@@ -1,5 +1,5 @@
 <bibdata type="book" schema-version="v1.2.1">
-  <fetched>2022-12-23</fetched>
+  <fetched>2022-12-24</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">The New Natural History of Madagascar</title>
   <uri type="DOI">http://dx.doi.org/10.1515/9780691229409</uri>
   <docidentifier type="DOI" primary="true">10.1515/9780691229409</docidentifier>
@@ -28,7 +28,8 @@
       <name>Princeton University Press</name>
     </organization>
   </contributor>
-  <relation type="identicalTo">
+  <relation type="related">
+    <description format="text/plain">is-identical-to</description>
     <bibitem>
       <formattedref format="text/plain">10.2307/j.ctv2ks6tbb</formattedref>
       <docidentifier type="DOI">10.2307/j.ctv2ks6tbb</docidentifier>
