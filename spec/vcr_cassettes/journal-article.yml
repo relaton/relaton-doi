@@ -1,0 +1,414 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.1515%2Ftext.2001.011
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:39:28 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '4198'
+      Set-Cookie:
+      - AWSALB=EDz6egsQLA+6ZEm+0eEr0U9WBQUa0D26/rdZLiNGkY97F92dIIVHH/vIDFoMtJk52ct7HY7wA3/aPU2yxCD4ukIlMqsNdhZGKbcYimf99XegUkBr/RDNeP456C5K;
+        Expires=Thu, 29 Dec 2022 22:39:28 GMT; Path=/
+      - AWSALBCORS=EDz6egsQLA+6ZEm+0eEr0U9WBQUa0D26/rdZLiNGkY97F92dIIVHH/vIDFoMtJk52ct7HY7wA3/aPU2yxCD4ukIlMqsNdhZGKbcYimf99XegUkBr/RDNeP456C5K;
+        Expires=Thu, 29 Dec 2022 22:39:28 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T00:57:29Z","timestamp":1648861049243},"reference-count":61,"publisher":"Walter
+        de Gruyter GmbH","issue":"4","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[2001,1,18]]},"DOI":"10.1515\/text.2001.011","type":"journal-article","created":{"date-parts":[[2006,4,18]],"date-time":"2006-04-18T19:13:40Z","timestamp":1145387620000},"source":"Crossref","is-referenced-by-count":6,"title":["A
+        watermelon without seeds: A case study in rhetorical rationality"],"prefix":"10.1515","volume":"21","author":[{"given":"YAIR","family":"NEUMAN","sequence":"first","affiliation":[]},{"given":"YOTAM","family":"LURIE","sequence":"additional","affiliation":[]},{"given":"MICHELE","family":"ROSENTHAL","sequence":"additional","affiliation":[]}],"member":"374","reference":[{"key":"p_1_128","unstructured":"Aran,
+        G. (1991). Jewish Zionist fundamentalism: The bloc of the faithful in Israel
+        (Gush Emunim). In Fundamentalisms Observed, M. E. Marty and R. S. Appleby
+        (eds.), 265-344. Chicago: University of Chicago Press."},{"key":"p_2_129","unstructured":"(1995).
+        What''s so funny about fundamentalism? In Fundamentalisms Comprehended, M.
+        E. Marty and R. S. Appleby (eds.), 321-354. Chicago: University of Chicago
+        Press."},{"key":"p_3_130","unstructured":"Aristotle (1971). The Ethics. Harmondsworth:
+        Penguin."},{"key":"p_4_131","unstructured":"(1991). On Rhetoric. Oxford: Oxford
+        University Press."},{"key":"p_5_132","unstructured":"(1997). Topics. Oxford:
+        Clarendon Press."},{"key":"p_6_133","unstructured":"Bakhtin, M. (1981). The
+        Dialogical Imagination. Austin: University of Texas Press."},{"key":"p_7_134","doi-asserted-by":"crossref","unstructured":"Barbe,
+        K. (1995). Irony in Context. Amsterdam: Benjamins.","DOI":"10.1075\/pbns.34"},{"issue":"2","key":"p_8_135","doi-asserted-by":"crossref","first-page":"184","DOI":"10.1177\/0196859901025002007","volume":"25","author":"Bekerman
+        Z.","year":"2001","journal-title":"Journal of Communication Inquiry"},{"key":"p_9_136","unstructured":"Billig,
+        M. (1987). Arguing and Thinking: A Rhetorical Approach to Social Psychology.
+        Cambridge: Cambridge University Press."},{"key":"p_10_137","unstructured":"Boone,
+        K. C. (1989). The Bible Tells Them So: The Discourse of Protestant Fundamentalism.
+        Albany: State University of New York Press."},{"key":"p_11_138","unstructured":"Booth,
+        W. C. (1995). The rhetoric of fundamentalist conversion. In Fundamentalisms
+        Comprehended, M. E. Marty and R. S. Appleby (eds.), 367-398. Chicago: University
+        of Chicago Press."},{"key":"p_12_139","unstructured":"Brown, H. I. (1988).
+        Rationality. London: Routledge."},{"key":"p_13_140","unstructured":"Carnap,
+        R. (1967). The Logical Structure of the World. London: Routledge."},{"key":"p_14_141","unstructured":"Davidson,
+        D. (1984). Inquiries into Truth and Interpretation. Oxford: Clanderon."},{"key":"p_15_142","unstructured":"Dayan,
+        Arye (1999). Hamaayan Hametgaber. Sipora Shel T''nvat Shas. [The Story of
+        Shas.] Jerusalem: Keter."},{"key":"p_16_143","unstructured":"Descartes, R.
+        (1979). Meditations on First Philosophy. Indianapolis: Hackett Publishing."},{"key":"p_17_144","unstructured":"Dilthey,
+        W. (1976). Selected Writings. Cambridge: Cambridge University Press."},{"key":"p_18_145","doi-asserted-by":"crossref","unstructured":"Eco,
+        U. (1992). Interpretation and history. In Interpretation and Overinterpretation,
+        S. Collini (ed.), 23-45. Cambridge: Cambridge University Press.","DOI":"10.1017\/CBO9780511627408.002"},{"key":"p_19_146","unstructured":"Elster,
+        J. (1991). Sour Grapes: Studies in the Subversion of Rationality. Cambridge\/New
+        York: Cambridge University Press."},{"key":"p_20_147","unstructured":"Fairclough,
+        N. (1992). Discourse and Social Change. UK: Polity Press."},{"key":"p_21_148","unstructured":"Feyerabend,
+        P. (1978). Against method. In London: New Loft Books."},{"key":"p_22_149","unstructured":"Foucault,
+        M. (1977) The Order of Things. London: Tavistock."},{"key":"p_23_150","unstructured":"Friedman,
+        M. (1994). Habad as messianic fundamentalism: From local particularism to
+        universal Jewish mission. In Accounting for Fundamentalisms, M. E. Marty and
+        R. S. Appleby (eds.), 328-360. Chicago: University of Chicago Press."},{"key":"p_24_151","unstructured":"Gadamer,
+        H. (1990). Truth and Method. New York: Crossroads."},{"key":"p_25_152","unstructured":"Gitay,
+        Y. (1996). Psalm 1 and the rhetoric of religious argumentation. In Literary
+        Structure and Rhetorical Strategies in the Hebrew Bible, L. J. de Regt., J.
+        de Waard, and J. P. Fokkelman (eds.), 232-242. The Netherlands: Van Gorcum."},{"key":"p_26_153","unstructured":"Habermas,
+        J. (1973). Theory and Practice. Boston: Beacon Press."},{"key":"p_27_154","doi-asserted-by":"crossref","unstructured":"Harding,
+        S. (2000). The Book of Jerry Falwell: Fundamentalist Language and Politics.
+        Princeton, NJ: Princeton University Press.","DOI":"10.1515\/9780691190464"},{"key":"p_28_155","unstructured":"Harre,
+        R. and Gillett, G. (1995). The Discursive Mind. London: Sage."},{"key":"p_29_156","doi-asserted-by":"crossref","unstructured":"Heilman,
+        S. (1992). Defenders of the Faith. New York: Schocken Books.","DOI":"10.1525\/9780520354494"},{"key":"p_30_157","unstructured":"Heilman,
+        S. C. and Friedman, M. (1991). Religious fundamentalism and religious Jews:
+        The case of the Haredim. In Fundamentalisms Observed, M. E. Marty and R. S.
+        Appleby (eds.), 197-264. Chicago: University of Chicago Press."},{"key":"p_31_158","doi-asserted-by":"crossref","unstructured":"Holquist,
+        M. (1990). Dialogism. London: Routledge.","DOI":"10.4324\/9780203330340"},{"key":"p_32_159","unstructured":"Kennedy,
+        G. A. (1980). Classical Rhetoric and its Christian and Secular Tradition from
+        Ancient to Modern Times. Chapel Hill: The University of North Carolina Press."},{"key":"p_33_160","unstructured":"Kuhn,
+        T. (1970). The Structure of Scientific Revolutions. Chicago: University of
+        Chicago Press."},{"key":"p_34_161","unstructured":"Lanigan, R. (1992). The
+        Human Science of Communicology. Pittsburgh, PA: Duquesne University Press."},{"key":"p_35_162","unstructured":"(1995)
+        From Enthymeme to Abduction: The Classical Law of Logic and the Postmodern
+        Rule of Rhetoric. In Recovering Pragmatism''s Choice, L. Langsdorf and A.
+        R. Smith (eds.), 49-70. Albany: State University of New York Press."},{"key":"p_36_163","unstructured":"Lawrence,
+        B. B. (1989). Defenders of God: The Fundamentalist Revolt against the Modern
+        Age. San Francisco: Harper and Row."},{"key":"p_37_164","unstructured":"MacIntyre,
+        A. (1985). After Virtue. London: Duckworth."},{"key":"p_38_165","unstructured":"(1988).
+        Whose Justice, Which Rationality? Indiana: University of Notre Dame Press."},{"key":"p_39_166","unstructured":"Miller,
+        R. B. (1996). Casuistry and Modern Ethics. Chicago: The University of Chicago
+        Press."},{"key":"p_40_167","unstructured":"Nash, W. (1989). The Wit of Persuasion.
+        Blackwell."},{"key":"p_42_168","unstructured":"Nietzsche, F. (1979[1873]).
+        `On Truth and Lies in a Nonmoral Sense''. In Philosophy and Truth D. Breazeale
+        (ed.), 79-101. New Jersey: Humanities Press."},{"key":"p_43_169","unstructured":"O''Leary,
+        S. D. (1994). Arguing the Apocalypse: A Theory of Millennial Rhetoric. Oxford\/
+        New York: Oxford University Press."},{"key":"p_44_170","unstructured":"Perelman,
+        C. H. and Olbrechts-Tyteca, L. (1969). The New Rhetoric: A Treatise on Argumentation.
+        London: University of Notre Dame Press."},{"key":"p_45_171","unstructured":"Plato
+        (1990). The Republic. London: Oxford University Press."},{"key":"p_46_172","unstructured":"Popper
+        K. (1959). The Logic of Scientific Discovery. New York: Science Editions."},{"key":"p_47_173","unstructured":"Potter,
+        J. and Wetherell, M. (1987). Discourse analysis. In Rethinking Methods in
+        Psychology. J. A. Smith, R. Harre, and L. V. Langehove (eds.), 80-92. London:
+        Sage."},{"key":"p_48_174","doi-asserted-by":"crossref","unstructured":"Psathas,
+        G. (1995). Conversational Analysis: The Study of Talk in Interaction. London:
+        Sage.","DOI":"10.4135\/9781412983792"},{"key":"p_49_175","doi-asserted-by":"crossref","unstructured":"Putnam,
+        H. (1981). Reason, Truth and History. Cambridge: Cambridge University Press.","DOI":"10.1017\/CBO9780511625398"},{"key":"p_50_176","unstructured":"Rosenak,
+        M. (1993). Jewish fundamentalism in Israeli education. In Fundamentalisms
+        and Society. M. E. Marty and R. S. Appleby (eds.), 374-414. Chicago: University
+        of Chicago Press."},{"key":"p_51_177","unstructured":"Russell, B. (1914).
+        Our Knowledge of the External World. London: Allen and Unwin."},{"key":"p_52_178","unstructured":"Said,
+        E. (1975). Beginnings: Intention and Method. Baltimore\/London: John Hopkins
+        University Press."},{"key":"p_53_179","unstructured":"Smooha, S. (1978). Israel:
+        Pluralism and Conflict. Berkeley: University of California Press."},{"key":"p_54_180","unstructured":"Soloveithick,
+        H. (1994). Migration, acculturation and the new role of texts in the Haredi
+        world. In Accounting for Fundamentalisms, M. E. Marty and R. S. Appleby (eds.),
+        197-235. Chicago: University of Chicago Press."},{"key":"p_55_181","unstructured":"Toulmin,
+        S. and Jonsen, A. (1988). The Abuse of Casuistry. California: University of
+        California Press."},{"key":"p_56_182","unstructured":"van Dijk, T. A. (1985).
+        Semantic discourse analysis. In Handbook of Discourse Analysis, T. A. van
+        Dijk (ed.), 103-134. London: Academic Press."},{"key":"p_57_183","unstructured":"van
+        Eemeren, F. H., Grootendorst, R., and Herkemans, F. S. (1996). Fundamentals
+        of Argumentation Theory. New Jersey: Lawrence Erlbaum Associates."},{"key":"p_58_184","doi-asserted-by":"crossref","first-page":"194","DOI":"10.2979\/ISR.1997.2.1.194","volume":"2","author":"Waxman
+        C.","year":"1997","journal-title":"Israel Studies"},{"key":"p_59_185","unstructured":"Winch,
+        P. (1958). The Idea of a Social Science. London: Routledge and Kegan."},{"key":"p_60_186","unstructured":"(1972).
+        Actions and Events. London: Routledge and Kegan."},{"key":"p_61_187","unstructured":"Wittgenstein,
+        L. (1961). Tractatus Logico-Philosophicus. London: Routledge and Kegan."},{"key":"p_62_188","unstructured":"(1993).
+        Philosophical Occasions. Indianapolis: Hackett."}],"container-title":["Text
+        - Interdisciplinary Journal for the Study of Discourse"],"original-title":[],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/text.2001.011\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,7,25]],"date-time":"2021-07-25T18:32:17Z","timestamp":1627237937000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/text.2001.011\/html"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2001,1,18]]},"references-count":61,"journal-issue":{"issue":"4"},"URL":"http:\/\/dx.doi.org\/10.1515\/text.2001.011","relation":{},"ISSN":["0165-4888","1613-4117"],"issn-type":[{"value":"0165-4888","type":"print"},{"value":"1613-4117","type":"electronic"}],"subject":["Literature
+        and Literary Theory","Linguistics and Language","Language and Linguistics"],"published":{"date-parts":[[2001,1,18]]}}}'
+  recorded_at: Thu, 22 Dec 2022 22:39:28 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=A%2Bwatermelon%2Bwithout%2Bseeds:%2BA%2Bcase%2Bstudy%2Bin%2Brhetorical%2Brationality%2B2001%2BWalter%2Bde%2BGruyter%2BGmbH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:39:30 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '5299'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":79465,"items":[{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T17:33:00Z","timestamp":1649093580828},"reference-count":0,"publisher":"Bloomsbury
+        Academic","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781501323591.ch-006","type":"book-chapter","created":{"date-parts":[[2016,10,28]],"date-time":"2016-10-28T11:16:55Z","timestamp":1477653415000},"source":"Crossref","is-referenced-by-count":1,"title":["Meaningfulness,
+        Eternity, and Theism\n                  Originally appeared in Beatrix Himmelmann,
+        ed. On Meaning in Life (Boston\/Berlin: De Gruyter, 2013): 99\u2013112. Copyright
+        \u00a9 2013, Walter de Gruyter GmbH."],"prefix":"10.5040","member":"2984","container-title":["God
+        and Meaning : New Essays"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T22:45:25Z","timestamp":1590101125000},"score":33.466923,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/god-and-meaning-new-essays\/ch6-meaningfulness-eternity-and-theism-originally-appeared-in-beatrix-himmelmann-ed-on-meaning-in-life-boston-berlin-de-gruyter-2013-99-112-copyright-"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781501323591.ch-006"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T20:33:49Z","timestamp":1648586029722},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110847864-007","type":"book-chapter","created":{"date-parts":[[2015,4,28]],"date-time":"2015-04-28T17:01:42Z","timestamp":1430240502000},"source":"Crossref","is-referenced-by-count":6,"title":["Dr.
+        Walter de Gruyter"],"prefix":"10.1515","member":"374","container-title":["Der
+        Verlag Walter de Gruyter &amp; Co."],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110847864-007\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:32:34Z","timestamp":1618975954000},"score":28.877172,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110847864-007\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110847864-007"},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T18:07:18Z","timestamp":1648663638445},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816662.fm","type":"book-chapter","created":{"date-parts":[[2013,6,27]],"date-time":"2013-06-27T20:20:22Z","timestamp":1372364422000},"source":"Crossref","is-referenced-by-count":0,"title":["Frontmatter"],"prefix":"10.1515","member":"374","container-title":["Walter
+        de Gruyter Publishers"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.fm\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:31Z","timestamp":1618975231000},"score":27.784721,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.fm\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816662.fm"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T19:59:52Z","timestamp":1648583992462},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816662.v","type":"book-chapter","created":{"date-parts":[[2013,6,27]],"date-time":"2013-06-27T20:20:22Z","timestamp":1372364422000},"source":"Crossref","is-referenced-by-count":0,"title":["Foreword"],"prefix":"10.1515","member":"374","container-title":["Walter
+        de Gruyter Publishers"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.v\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:32Z","timestamp":1618975232000},"score":27.784721,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.v\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816662.v"},{"indexed":{"date-parts":[[2022,4,6]],"date-time":"2022-04-06T03:19:29Z","timestamp":1649215169776},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816662.viii","type":"book-chapter","created":{"date-parts":[[2013,6,27]],"date-time":"2013-06-27T20:20:22Z","timestamp":1372364422000},"source":"Crossref","is-referenced-by-count":0,"title":["Preface"],"prefix":"10.1515","member":"374","container-title":["Walter
+        de Gruyter Publishers"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.viii\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:33Z","timestamp":1618975233000},"score":27.784721,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.viii\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816662.viii"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T15:21:15Z","timestamp":1649172075329},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816662.toc","type":"book-chapter","created":{"date-parts":[[2013,6,27]],"date-time":"2013-06-27T20:20:22Z","timestamp":1372364422000},"source":"Crossref","is-referenced-by-count":0,"title":["Contents"],"prefix":"10.1515","member":"374","container-title":["Walter
+        de Gruyter Publishers"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.toc\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:32Z","timestamp":1618975232000},"score":27.772202,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.toc\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816662.toc"},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T07:05:01Z","timestamp":1649055901153},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816662.273","type":"book-chapter","created":{"date-parts":[[2013,6,27]],"date-time":"2013-06-27T20:20:22Z","timestamp":1372364422000},"source":"Crossref","is-referenced-by-count":0,"title":["Picture
+        Credits"],"prefix":"10.1515","member":"374","container-title":["Walter de
+        Gruyter Publishers"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.273\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:29Z","timestamp":1618975229000},"score":27.328873,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.273\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816662.273"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T09:38:10Z","timestamp":1648546690680},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816655.281","type":"book-chapter","created":{"date-parts":[[2014,5,21]],"date-time":"2014-05-21T13:24:35Z","timestamp":1400678675000},"source":"Crossref","is-referenced-by-count":0,"title":["Auswahlbibliographie"],"prefix":"10.1515","member":"374","container-title":["Der
+        Verlag Walter de Gruyter"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.281\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:18Z","timestamp":1618975218000},"score":27.317787,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.281\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816655.281"},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T23:20:47Z","timestamp":1648855247169},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816662.269","type":"book-chapter","created":{"date-parts":[[2013,6,27]],"date-time":"2013-06-27T20:20:22Z","timestamp":1372364422000},"source":"Crossref","is-referenced-by-count":0,"title":["Selected
+        Bibliography"],"prefix":"10.1515","member":"374","container-title":["Walter
+        de Gruyter Publishers"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.269\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:28Z","timestamp":1618975228000},"score":27.317787,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.269\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816662.269"},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T00:33:40Z","timestamp":1648686820043},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816655.v","type":"book-chapter","created":{"date-parts":[[2014,5,21]],"date-time":"2014-05-21T13:24:35Z","timestamp":1400678675000},"source":"Crossref","is-referenced-by-count":0,"title":["Geleitwort"],"prefix":"10.1515","member":"374","container-title":["Der
+        Verlag Walter de Gruyter"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.v\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:21Z","timestamp":1618975221000},"score":27.317787,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.v\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816655.v"},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T17:34:31Z","timestamp":1648834471562},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816655.viii","type":"book-chapter","created":{"date-parts":[[2014,5,21]],"date-time":"2014-05-21T13:24:35Z","timestamp":1400678675000},"source":"Crossref","is-referenced-by-count":0,"title":["Vorwort"],"prefix":"10.1515","member":"374","container-title":["Der
+        Verlag Walter de Gruyter"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.viii\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:22Z","timestamp":1618975222000},"score":27.317787,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.viii\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816655.viii"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T04:24:10Z","timestamp":1649132650470},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816662.275","type":"book-chapter","created":{"date-parts":[[2013,6,27]],"date-time":"2013-06-27T20:20:22Z","timestamp":1372364422000},"source":"Crossref","is-referenced-by-count":0,"title":["Name
+        Index"],"prefix":"10.1515","member":"374","container-title":["Walter de Gruyter
+        Publishers"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.275\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:30Z","timestamp":1618975230000},"score":27.317787,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.275\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816662.275"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T03:50:55Z","timestamp":1649130655492},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816655.fm","type":"book-chapter","created":{"date-parts":[[2014,5,21]],"date-time":"2014-05-21T13:24:35Z","timestamp":1400678675000},"source":"Crossref","is-referenced-by-count":0,"title":["Frontmatter"],"prefix":"10.1515","member":"374","container-title":["Der
+        Verlag Walter de Gruyter"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.fm\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:20Z","timestamp":1618975220000},"score":27.246246,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.fm\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816655.fm"},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T19:47:39Z","timestamp":1648669659763},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816655.285","type":"book-chapter","created":{"date-parts":[[2014,5,21]],"date-time":"2014-05-21T13:24:35Z","timestamp":1400678675000},"source":"Crossref","is-referenced-by-count":0,"title":["Abbildungsnachweis"],"prefix":"10.1515","member":"374","container-title":["Der
+        Verlag Walter de Gruyter"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.285\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:19Z","timestamp":1618975219000},"score":27.192118,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.285\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816655.285"},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T06:58:27Z","timestamp":1648969107665},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816655.287","type":"book-chapter","created":{"date-parts":[[2014,5,21]],"date-time":"2014-05-21T13:24:35Z","timestamp":1400678675000},"source":"Crossref","is-referenced-by-count":0,"title":["Personenregister"],"prefix":"10.1515","member":"374","container-title":["Der
+        Verlag Walter de Gruyter"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.287\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:19Z","timestamp":1618975219000},"score":27.192118,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.287\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816655.287"},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T14:42:59Z","timestamp":1648996979310},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816655.toc","type":"book-chapter","created":{"date-parts":[[2014,5,21]],"date-time":"2014-05-21T13:24:35Z","timestamp":1400678675000},"source":"Crossref","is-referenced-by-count":0,"title":["Inhalt"],"prefix":"10.1515","member":"374","container-title":["Der
+        Verlag Walter de Gruyter"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.toc\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:21Z","timestamp":1618975221000},"score":27.192118,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.toc\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816655.toc"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T20:41:34Z","timestamp":1649191294634},"reference-count":0,"publisher":"The
+        MIT Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2016]]},"DOI":"10.7551\/mitpress\/10100.003.0024","type":"book-chapter","created":{"date-parts":[[2019,3,29]],"date-time":"2019-03-29T18:59:34Z","timestamp":1553885974000},"source":"Crossref","is-referenced-by-count":0,"title":["A
+        Psycho-rhetorical Perspective on Thought and Human Rationality"],"prefix":"10.7551","member":"281","container-title":["Cognitive
+        Unconscious and Human Rationality"],"deposited":{"date-parts":[[2019,3,29]],"date-time":"2019-03-29T18:59:46Z","timestamp":1553885986000},"score":26.985153,"resource":{"primary":{"URL":"https:\/\/direct.mit.edu\/books\/book\/4065\/chapter\/168741\/a-psycho-rhetorical-perspective-on-thought-and"}},"issued":{"date-parts":[[2016]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.7551\/mitpress\/10100.003.0024","published":{"date-parts":[[2016]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T06:39:21Z","timestamp":1648967961290},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816662.248","type":"book-chapter","created":{"date-parts":[[2013,6,27]],"date-time":"2013-06-27T20:20:22Z","timestamp":1372364422000},"source":"Crossref","is-referenced-by-count":0,"title":["Developments
+        since 1945"],"prefix":"10.1515","member":"374","container-title":["Walter
+        de Gruyter Publishers"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.248\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:27Z","timestamp":1618975227000},"score":26.887735,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662.248\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816662.248"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T03:12:51Z","timestamp":1649128371044},"publisher-location":"Berlin,
+        Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110816655.258","type":"book-chapter","created":{"date-parts":[[2014,5,21]],"date-time":"2014-05-21T13:24:35Z","timestamp":1400678675000},"source":"Crossref","is-referenced-by-count":0,"title":["Entwicklungslinien
+        seit 1945"],"prefix":"10.1515","member":"374","container-title":["Der Verlag
+        Walter de Gruyter"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.258\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:17Z","timestamp":1618975217000},"score":26.365742,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655.258\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816655.258"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T18:12:05Z","timestamp":1649182325645},"publisher-location":"Dordrecht","reference-count":31,"publisher":"Springer
+        Netherlands","isbn-type":[{"value":"9789048153213","type":"print"},{"value":"9789401710701","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1999]]},"DOI":"10.1007\/978-94-017-1070-1_7","type":"book-chapter","created":{"date-parts":[[2013,1,21]],"date-time":"2013-01-21T18:52:34Z","timestamp":1358794354000},"page":"105-121","source":"Crossref","is-referenced-by-count":0,"title":["Presuppositional
+        and Rhetorical Effects of Focus Particles: The Case of \u2018Even\u2019"],"prefix":"10.1007","author":[{"given":"Fernando
+        Garc\u00eda","family":"Murga","sequence":"first","affiliation":[]}],"member":"297","reference":[{"key":"7_CR1","volume-title":"L
+        argumentation dans la langue","author":"JC Anscombre","year":"1983","unstructured":"Anscombre,
+        J.C. & Ducrot, O., 1983: L \u2018argumentation dans la langue. Bruxelles,
+        Mardaga."},{"key":"7_CR2","doi-asserted-by":"crossref","first-page":"79","DOI":"10.1017\/S0022226700010033","volume":"21","author":"D.
+        Bolinger","year":"1985","unstructured":"Bolinger, D., 1985: \u201cTwo views
+        of accent\u201d, Journal of Linguistics 21: 79\u2013123.","journal-title":"Journal
+        of Linguistics"},{"key":"7_CR3","volume-title":"Meaning and Necessity. A Study
+        in Semantics and Modal Logic","author":"R Carnap","year":"1947","unstructured":"Carnap,
+        R., 1947: Meaning and Necessity. A Study in Semantics and Modal Logic. Chicago,
+        The University of Chicago Press."},{"key":"7_CR4","doi-asserted-by":"crossref","first-page":"123","DOI":"10.2307\/414063","volume":"59","author":"P.W.
+        Culicover","year":"1983","unstructured":"Culicover, P.W. and Rochemont, M.,
+        1983: \u2018Stress and Focus in English\u2019, Language 59: 123\u2013165.","journal-title":"Language"},{"key":"7_CR5","unstructured":"Ducrot,
+        0., 1972: Dire et en pas dire. Principes de S\u00e9mantique linguistique.
+        Paris, Hermann."},{"key":"7_CR6","first-page":"353","volume":"3","author":"G.
+        Fauconnier","year":"1975","unstructured":"Fauconnier, G., 1975: \u201cPragmatic
+        scales and logical structure\u201d, Linguistic Inquiry 3: 353\u2013375.","journal-title":"Linguistic
+        Inquiry"},{"key":"7_CR7","first-page":"141","volume-title":"Studies in Linguistic
+        Semantics","author":"B Fraser","year":"1970","unstructured":"Fraser, B., 1970:
+        \u201cAn analysis of Even in English\u201d, in C. Fillmore and D.T. Langendoen
+        (eds.), Studies in Linguistic Semantics. Holt, Rinehart and Winston, New York
+        (pp. 141\u2013180 )."},{"key":"7_CR8","volume-title":"Fundamentos conceptuales
+        del fen\u00f4meno presuposicional","author":"F Garcia","year":"1995","unstructured":"Garcia
+        Murga, F., 1995a: Fundamentos conceptuales del fen\u00f4meno presuposicional.
+        Ph.D. dissertation. University of the Basque Country."},{"key":"7_CR9","volume-title":"On
+        Linguistic Presuppositions. Report No. ILCLI-95-LIC-4","author":"F Garcia","year":"1995","unstructured":"Garcia
+        Murga, F., 1995b: On Linguistic Presuppositions. Report No. ILCLI-95-LIC-4.
+        Donostia: ILCLI."},{"key":"7_CR10","unstructured":"Garcia Murga, F. (manuscript):
+        A Procedural Analysis of Prosodically Driven Focal Presuppositions."},{"key":"7_CR11","unstructured":"Grice,
+        H.P., 1975: \u201cLogic and conversation\u201d, in P. Cole and J. Morgan (eds.),
+        Syntax andSemantics, vol. 9: Pragmatics (pp. 113\u2013127). Reprinted in H.P.
+        Grice 1989."},{"key":"7_CR12","volume-title":"Studies in the Way of Words.
+        Cambridge","author":"HP Grice","year":"1989","unstructured":"Grice, H.P.,
+        1989: Studies in the Way of Words. Cambridge, Massachusetts, Harvard University
+        Press."},{"key":"7_CR13","doi-asserted-by":"crossref","first-page":"177","DOI":"10.1017\/S0022226700016601","volume":"3","author":"M.A.K.
+        Halliday","year":"1967","unstructured":"Halliday, M.A.K., 1967: \u201cNotes
+        on transitivity and theme in English\u201d, Journal of Linguistics 3: 177\u2013274.","journal-title":"Journal
+        of Linguistics"},{"key":"7_CR14","unstructured":"Horn, L., 1969: \u201cA presuppositional
+        analysis of only and even\u201d, Papers from the 5th Regional Meeting, Chicago
+        Linguistic Society: 98\u2013107."},{"key":"7_CR15","volume-title":"Semantic
+        Interpretation in Generative Grammar. Cambridge","author":"R Jackendoff","year":"1972","unstructured":"Jackendoff,
+        R., 1972: Semantic Interpretation in Generative Grammar. Cambridge, Massachusetts,
+        MIT Press."},{"key":"7_CR16","unstructured":"Jackendoff, R., 1983: Semantics
+        and Cognition. Cambridge, Massachusetts, MIT Press. Jackendoff, R., 1990:
+        Semantic Structures. Cambridge, Massachusetts, MIT Press."},{"key":"7_CR17","doi-asserted-by":"crossref","first-page":"305","DOI":"10.1007\/BF00133686","volume":"14","author":"R.
+        Jackendoff","year":"1996","unstructured":"Jackendoff, R., 1996: \u201cThe
+        Proper Treatment of Measuring Out, Telicity, and Perhaps Even Quantification
+        in English\u201c, Natural Language and Linguistic Theory 14: 305\u2013354.","journal-title":"Natural
+        Language and Linguistic Theory"},{"key":"7_CR18","doi-asserted-by":"crossref","first-page":"77","DOI":"10.1016\/0378-2166(95)94775-4","volume":"26","author":"A.
+        Kalokerinos","year":"1995","unstructured":"Kalokerinos, A., 1995: \u201cEven:
+        How to make theories with a word\u201d, Journal of Pragmatics 26: 77\u201398.","journal-title":"Journal
+        of Pragmatics"},{"key":"7_CR19","doi-asserted-by":"crossref","unstructured":"Kay,
+        P., 1990: \u201cEven\u201d, Linguistics and Philosophy 13: 59\u2013111.","DOI":"10.1007\/BF00630517"},{"key":"#cr-split#-7_CR20.1","doi-asserted-by":"crossref","unstructured":"Karttunen,
+        L., 1974: \"Presupposition and Linguistic Context\", Theoretical Linguistics","DOI":"10.1515\/thli.1974.1.1-3.181"},{"key":"#cr-split#-7_CR20.2","doi-asserted-by":"crossref","unstructured":"1:
+        181-194. Reprinted in A. Rogers et al. 1977 (pp. 149-160 ).","DOI":"10.1215\/1636545-1977-14-15-160"},{"key":"7_CR21","unstructured":"Karttunen,
+        L. & Peters, S., 1979: \u2018Conventional Implicature\u2019, in C.K. Oh and
+        D. Dinneen (eds.), Syntax and Semantics, vol. 11: Presupposition. New York,
+        Academic Press (pp. 1\u201356)."},{"key":"7_CR22","volume-title":"Presupposition
+        and the delimitation of semantics","author":"R Kempson","year":"1975","unstructured":"Kempson,
+        R., 1975: Presupposition and the delimitation of semantics. Cambridge, Cambridge
+        University Press."},{"key":"7_CR23","doi-asserted-by":"publisher","volume-title":"The
+        Meaning of Focus Particles. A Comparative Perspective","author":"E K\u00f6nig","year":"1991","unstructured":"K\u00f6nig,
+        E. (1991): The Meaning of Focus Particles. A Comparative Perspective. London
+        and New York, Routledge.","DOI":"10.4324\/9780203212288"},{"key":"7_CR24","doi-asserted-by":"crossref","unstructured":"McNamara
+        & Miller, 1989: \u201cAttributes of Theories of Meaning\u201d, Psychological
+        Bulletin 106: 355\u2013376.","DOI":"10.1037\/\/0033-2909.106.3.355"},{"key":"7_CR25","volume-title":"Proceedings
+        of the Texas Conference on Performatives, Presuppositions, and Implicatures.
+        Arlington","year":"1977","unstructured":"Rogers, A. et al. (eds.), 1977: Proceedings
+        of the Texas Conference on Performatives, Presuppositions, and Implicatures.
+        Arlington, Virginia, Center for Applied Linguistics."},{"key":"7_CR26","volume-title":"University
+        of the Basque Country","author":"V Sanchez","year":"1991","unstructured":"Sanchez
+        de Zavala, V., 1991: Prolegomena to a (modest) pragmatical theory. Logic Seminar
+        Report LPHS-EHU-02.2. University of the Basque Country."},{"key":"7_CR27","volume-title":"Aspects
+        of English Sentence Stress. University of Texas, Austin. Sperber, D. and Wilson,
+        D., 1986: Relevance: Communication and Cognition","author":"S Schmerling","year":"1976","unstructured":"Schmerling,
+        S., 1976: Aspects of English Sentence Stress. University of Texas, Austin."},{"key":"7_CR28","unstructured":"Sperber,
+        D. & Wilson, D., 1986: Relevance: Communication and Cognition. Oxford, Blackwell."},{"key":"7_CR29","volume-title":"in
+        A. Rogers et el. 1977. (pp. 135148)","author":"R Stalnaker","year":"1974","unstructured":"Stalnaker,
+        R., 1974: \u2018Pragmatic Presuppositions\u2019, in A. Rogers et el. 1977.
+        (pp. 135148)."},{"key":"7_CR30","unstructured":"Tancredi, Ch., 1992: Deletion,
+        Deaccenting and Presupposition. MIT Working Papers in Linguistics."}],"container-title":["Cognition,
+        Agency and Rationality"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-94-017-1070-1_7.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,2,6]],"date-time":"2022-02-06T11:35:38Z","timestamp":1644147338000},"score":26.0516,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-94-017-1070-1_7"}},"issued":{"date-parts":[[1999]]},"ISBN":["9789048153213","9789401710701"],"references-count":31,"URL":"http:\/\/dx.doi.org\/10.1007\/978-94-017-1070-1_7","published":{"date-parts":[[1999]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"A+watermelon+without+seeds:+A+case+study+in+rhetorical+rationality+2001+Walter+de+Gruyter+GmbH"}}}'
+  recorded_at: Thu, 22 Dec 2022 22:39:29 GMT
+- request:
+    method: get
+    uri: http://api.crossref.org/works?filter=type:book&query.bibliographic=%22Text%20-%20Interdisciplinary%20Journal%20for%20the%20Study%20of%20Discourse,%20Walter%20de%20Gruyter%20GmbH,%20,%202001%22&rows=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:39:30 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1507'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":71699,"items":[{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T17:25:05Z","timestamp":1648920305421},"reference-count":0,"publisher":"Mohr
+        Siebeck","isbn-type":[{"value":"9783161544347","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2016]]},"DOI":"10.1628\/978-3-16-154434-7","type":"book","created":{"date-parts":[[2018,10,4]],"date-time":"2018-10-04T15:18:37Z","timestamp":1538666317000},"source":"Crossref","is-referenced-by-count":1,"title":["Walter
+        de Gruyter"],"prefix":"10.1628","author":[{"given":"Angelika","family":"K\u00f6nigseder","sequence":"first","affiliation":[]}],"member":"629","deposited":{"date-parts":[[2018,10,4]],"date-time":"2018-10-04T15:39:40Z","timestamp":1538667580000},"score":29.82611,"resource":{"primary":{"URL":"https:\/\/mohrsiebeck.com\/10.1628\/978-3-16-154434-7"}},"issued":{"date-parts":[[2016]]},"ISBN":["9783161544347"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1628\/978-3-16-154434-7","published":{"date-parts":[[2016]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T02:02:41Z","timestamp":1649124161456},"reference-count":0,"publisher":"DE
+        GRUYTER","isbn-type":[{"value":"9783110166996","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1999,12,31]]},"DOI":"10.1515\/9783110816662","type":"book","created":{"date-parts":[[2013,6,27]],"date-time":"2013-06-27T20:20:22Z","timestamp":1372364422000},"source":"Crossref","is-referenced-by-count":0,"title":["Walter
+        de Gruyter Publishers"],"prefix":"10.1515","member":"374","published-online":{"date-parts":[[1999,12,31]]},"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:22Z","timestamp":1618975222000},"score":27.29548,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816662\/html"}},"subtitle":["1749-1999"],"editor":[{"given":"Anne-Katrin","family":"Ziesak","sequence":"first","affiliation":[]}],"issued":{"date-parts":[[1999,12,31]]},"ISBN":["9783110166996"],"references-count":0,"alternative-id":["10.1515\/9783110816662"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816662","published":{"date-parts":[[1999,12,31]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T05:01:56Z","timestamp":1648875716114},"reference-count":0,"publisher":"DE
+        GRUYTER","isbn-type":[{"value":"9783110166989","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1999,12,31]]},"DOI":"10.1515\/9783110816655","type":"book","created":{"date-parts":[[2014,5,21]],"date-time":"2014-05-21T13:24:35Z","timestamp":1400678675000},"source":"Crossref","is-referenced-by-count":2,"title":["Der
+        Verlag Walter de Gruyter"],"prefix":"10.1515","author":[{"given":"Anne-Katrin","family":"Ziesak","sequence":"first","affiliation":[]}],"member":"374","published-online":{"date-parts":[[1999,12,31]]},"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:20:12Z","timestamp":1618975212000},"score":26.854792,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110816655\/html"}},"subtitle":["1749\u20131999"],"issued":{"date-parts":[[1999,12,31]]},"ISBN":["9783110166989"],"references-count":0,"alternative-id":["10.1515\/9783110816655"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110816655","published":{"date-parts":[[1999,12,31]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T03:50:01Z","timestamp":1649130601696},"reference-count":0,"publisher":"De
+        Gruyter","isbn-type":[{"value":"9783110864038","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1980,12,31]]},"DOI":"10.1515\/9783110864038","type":"book","created":{"date-parts":[[2019,4,24]],"date-time":"2019-04-24T17:02:22Z","timestamp":1556125342000},"source":"Crossref","is-referenced-by-count":0,"title":["Aus
+        dem Archiv des Verlages Walter de Gruyter"],"prefix":"10.1515","member":"374","published-online":{"date-parts":[[2019,4,19]]},"link":[{"URL":"https:\/\/www.degruyter.com\/view\/title\/10150","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110864038\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T05:48:50Z","timestamp":1618984130000},"score":26.513123,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110864038\/html"}},"subtitle":["Briefe,
+        Urkunden, Dokumente"],"issued":{"date-parts":[[1980,12,31]]},"ISBN":["9783110864038"],"references-count":0,"alternative-id":["10.1515\/9783110864038"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110864038","published":{"date-parts":[[1980,12,31]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T11:48:23Z","timestamp":1649072903423},"reference-count":0,"publisher":"De
+        Gruyter","isbn-type":[{"value":"9783110809909","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1999,12,31]]},"DOI":"10.1515\/9783110809909","type":"book","created":{"date-parts":[[2018,2,3]],"date-time":"2018-02-03T10:38:19Z","timestamp":1517654299000},"source":"Crossref","is-referenced-by-count":1,"title":["Repertorium
+        aus dem Archiv Walter de Gruyter"],"prefix":"10.1515","author":[{"given":"Otto","family":"Neuendorff","sequence":"first","affiliation":[]}],"member":"374","published-online":{"date-parts":[[2018,1,31]]},"link":[{"URL":"http:\/\/www.degruyter.com\/view\/books\/9783110809909\/9783110809909\/9783110809909.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110809909\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:07:23Z","timestamp":1618974443000},"score":25.992474,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110809909\/html"}},"editor":[{"given":"Anne-Katrin","family":"Ziesak","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[1999,12,31]]},"ISBN":["9783110809909"],"references-count":0,"alternative-id":["10.1515\/9783110809909"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110809909","published":{"date-parts":[[1999,12,31]]}}],"items-per-page":5,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Thu, 22 Dec 2022 22:39:30 GMT
+recorded_with: VCR 6.1.0

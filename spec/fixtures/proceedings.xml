@@ -1,0 +1,29 @@
+<bibdata type="proceedings" schema-version="v1.2.1">
+  <fetched>2022-12-18</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Proceedings of the 2011 International Conference on Communication, Computing &amp;amp; Security - ICCCS '11</title>
+  <uri type="DOI">http://dx.doi.org/10.1145/1947940</uri>
+  <docidentifier type="DOI" primary="true">10.1145/1947940</docidentifier>
+  <docidentifier type="ISBN">9781450304641</docidentifier>
+  <date type="created">
+    <on>2011-03-04</on>
+  </date>
+  <date type="issued">
+    <on>2011</on>
+  </date>
+  <date type="published">
+    <on>2011</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>ACM Press</name>
+    </organization>
+  </contributor>
+  <place>
+    <city>New York</city>
+    <region>New York</region>
+  </place>
+  <ext>
+    <doctype>proceedings</doctype>
+  </ext>
+</bibdata>

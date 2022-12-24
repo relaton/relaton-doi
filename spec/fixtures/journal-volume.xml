@@ -1,0 +1,39 @@
+<bibdata type="journal" schema-version="v1.2.1">
+  <fetched>2022-12-22</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Fall 2020, Innaugural Issue</title>
+  <uri type="DOI">http://dx.doi.org/10.46409/001.rlpt5688</uri>
+  <docidentifier type="DOI" primary="true">10.46409/001.rlpt5688</docidentifier>
+  <date type="created">
+    <on>2021-12-31</on>
+  </date>
+  <date type="issued"/>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>University of St. Augustine for Health Sciences Library</name>
+    </organization>
+  </contributor>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Fall 2020, Innaugural Issue</title>
+    </bibitem>
+  </relation>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Student Journal of Occupational Therapy</title>
+    </bibitem>
+  </relation>
+  <series>
+    <title format="text/plain">Student Journal of Occupational Therapy</title>
+  </series>
+  <extent>
+    <localityStack>
+      <locality type="volume">
+        <referenceFrom>1</referenceFrom>
+      </locality>
+    </localityStack>
+  </extent>
+  <ext>
+    <doctype>journal-volume</doctype>
+  </ext>
+</bibdata>

@@ -1,0 +1,69 @@
+<bibdata type="article" schema-version="v1.2.1">
+  <fetched>2022-12-18</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">A watermelon without seeds: A case study in rhetorical rationality</title>
+  <uri type="DOI">http://dx.doi.org/10.1515/text.2001.011</uri>
+  <docidentifier type="DOI" primary="true">10.1515/text.2001.011</docidentifier>
+  <date type="created">
+    <on>2006-04-18</on>
+  </date>
+  <date type="issued">
+    <on>2001-01-18</on>
+  </date>
+  <date type="published">
+    <on>2001-01-18</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">YAIR</forename>
+        <surname language="en" script="Latn">NEUMAN</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">YOTAM</forename>
+        <surname language="en" script="Latn">LURIE</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">MICHELE</forename>
+        <surname language="en" script="Latn">ROSENTHAL</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Walter de Gruyter GmbH</name>
+    </organization>
+  </contributor>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Text - Interdisciplinary Journal for the Study of Discourse</title>
+    </bibitem>
+  </relation>
+  <series>
+    <title format="text/plain">Text - Interdisciplinary Journal for the Study of Discourse</title>
+  </series>
+  <extent>
+    <localityStack>
+      <locality type="volume">
+        <referenceFrom>21</referenceFrom>
+      </locality>
+      <locality type="issue">
+        <referenceFrom>4</referenceFrom>
+      </locality>
+    </localityStack>
+  </extent>
+  <ext>
+    <doctype>journal-article</doctype>
+  </ext>
+</bibdata>

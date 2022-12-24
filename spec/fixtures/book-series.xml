@@ -1,0 +1,19 @@
+<bibdata type="book" schema-version="v1.2.1">
+  <fetched>2022-12-18</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Chemical Thermodynamics</title>
+  <uri type="DOI">http://dx.doi.org/10.1787/20743300</uri>
+  <docidentifier type="DOI" primary="true">10.1787/20743300</docidentifier>
+  <date type="created">
+    <on>2009-07-09</on>
+  </date>
+  <date type="issued"/>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>OECD</name>
+    </organization>
+  </contributor>
+  <ext>
+    <doctype>book-series</doctype>
+  </ext>
+</bibdata>

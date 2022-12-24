@@ -1,0 +1,342 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.3133%2Fofr72419
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:46:13 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '672'
+      Set-Cookie:
+      - AWSALB=d1wTyCSkfsGmR2AhWUVKP+4PtWIozOld8CuIuziNgSWxgiQ21p5YRXchVS5vCPKoLwEwl0LPYmkqHhqYKFyJp/rkqToxzfBwr9D3AKjva1n6VBaAZUAN3tD8Qfjh;
+        Expires=Thu, 29 Dec 2022 22:46:13 GMT; Path=/
+      - AWSALBCORS=d1wTyCSkfsGmR2AhWUVKP+4PtWIozOld8CuIuziNgSWxgiQ21p5YRXchVS5vCPKoLwEwl0LPYmkqHhqYKFyJp/rkqToxzfBwr9D3AKjva1n6VBaAZUAN3tD8Qfjh;
+        Expires=Thu, 29 Dec 2022 22:46:13 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,12,2]],"date-time":"2022-12-02T05:47:58Z","timestamp":1669960078967},"reference-count":0,"publisher":"US
+        Geological Survey","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.3133\/ofr72419","type":"report-component","created":{"date-parts":[[2018,8,14]],"date-time":"2018-08-14T21:47:51Z","timestamp":1534283271000},"source":"Crossref","is-referenced-by-count":0,"title":["Seismicity
+        map of greater San Francisco Bay area, California (1969-1971)"],"prefix":"10.3133","author":[{"name":"U.S.
+        Geological Survey","sequence":"first","affiliation":[]}],"member":"1689","published-online":{"date-parts":[[1972]]},"container-title":["Open-File
+        Report"],"original-title":[],"deposited":{"date-parts":[[2022,12,1]],"date-time":"2022-12-01T19:18:09Z","timestamp":1669922289000},"score":1,"resource":{"primary":{"URL":"http:\/\/pubs.er.usgs.gov\/publication\/ofr72419"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1972]]},"references-count":0,"alternative-id":["72-419"],"URL":"http:\/\/dx.doi.org\/10.3133\/ofr72419","relation":{},"ISSN":["2331-1258"],"issn-type":[{"value":"2331-1258","type":"print"}],"published":{"date-parts":[[1972]]}}}'
+  recorded_at: Thu, 22 Dec 2022 22:46:13 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Seismicity%2Bmap%2Bof%2Bgreater%2BSan%2BFrancisco%2BBay%2Barea,%2BCalifornia%2B(1969-1971)%2B1972%2BUS%2BGeological%2BSurvey
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:46:14 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '7706'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":13676,"items":[{"indexed":{"date-parts":[[2022,4,6]],"date-time":"2022-04-06T01:55:57Z","timestamp":1649210157898},"reference-count":0,"publisher":"University
+        of California Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1985,12,31]]},"DOI":"10.1525\/9780520323933-010","type":"book-chapter","created":{"date-parts":[[2021,3,2]],"date-time":"2021-03-02T13:23:34Z","timestamp":1614691414000},"page":"133-148","source":"Crossref","is-referenced-by-count":0,"title":["CHAPTER
+        NINE. The Greater San Francisco Movement"],"prefix":"10.1525","member":"408","container-title":["The
+        San Francisco Bay Area"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520323933-010\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520323933-010\/html","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,3,2]],"date-time":"2021-03-02T13:23:34Z","timestamp":1614691414000},"score":43.45642,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520323933-010\/html"}},"issued":{"date-parts":[[1985,12,31]]},"references-count":0,"alternative-id":["10.1525\/9780520323933-010","10.1525\/9780520323933"],"URL":"http:\/\/dx.doi.org\/10.1525\/9780520323933-010","published":{"date-parts":[[1985,12,31]]}},{"indexed":{"date-parts":[[2022,9,5]],"date-time":"2022-09-05T12:42:04Z","timestamp":1662381724528},"reference-count":0,"publisher":"University
+        of California Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1969,12,31]]},"DOI":"10.1525\/9780520348172-015","type":"book-chapter","created":{"date-parts":[[2021,3,3]],"date-time":"2021-03-03T07:23:02Z","timestamp":1614756182000},"page":"283-298","source":"Crossref","is-referenced-by-count":0,"title":["15.
+        Six attic vases in the San Francisco bay area"],"prefix":"10.1525","author":[{"given":"Charlotte
+        S.","family":"Sweet","sequence":"first","affiliation":[]}],"member":"408","container-title":["California
+        Studies in Classical Antiquity Volume 2"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520348172-015\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520348172-015\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,5]],"date-time":"2022-09-05T12:17:45Z","timestamp":1662380265000},"score":41.959362,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520348172-015\/html"}},"issued":{"date-parts":[[1969,12,31]]},"references-count":0,"alternative-id":["10.1525\/9780520348172-015","10.1525\/9780520348172"],"URL":"http:\/\/dx.doi.org\/10.1525\/9780520348172-015","published":{"date-parts":[[1969,12,31]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T15:35:31Z","timestamp":1648568131605},"edition-number":"1","reference-count":1,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,11,30]]},"DOI":"10.4324\/9781351156967-5","type":"book-chapter","created":{"date-parts":[[2018,9,2]],"date-time":"2018-09-02T01:59:14Z","timestamp":1535853554000},"page":"87-101","source":"Crossref","is-referenced-by-count":0,"title":["Managing
+        Growth in California and Dealing with Growth in the San Francisco Bay Area"],"prefix":"10.4324","member":"301","reference":[{"key":"ref5","unstructured":"MISSING-VALUE"}],"container-title":["Growth
+        Management in the US"],"deposited":{"date-parts":[[2020,12,20]],"date-time":"2020-12-20T15:32:17Z","timestamp":1608478337000},"score":41.60936,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781351156950\/chapters\/10.4324\/9781351156967-5"}},"editor":[{"given":"Karina
+        M.","family":"Pallagst","sequence":"first","affiliation":[]}],"issued":{"date-parts":[[2017,11,30]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.4324\/9781351156967-5","published":{"date-parts":[[2017,11,30]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T13:13:15Z","timestamp":1649164395704},"reference-count":0,"publisher":"Geological
+        Society of America","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1949,10]]},"DOI":"10.1130\/mem35-p1","type":"book-chapter","created":{"date-parts":[[2013,7,25]],"date-time":"2013-07-25T23:15:51Z","timestamp":1374794151000},"page":"1-229","source":"Crossref","is-referenced-by-count":8,"title":["GEOLOGY
+        OF THE COAST RANGES IMMEDIATELY NORTH OF THE SAN FRANCISCO BAY REGION, CALIFORNIA"],"prefix":"10.1130","author":[{"given":"Charles
+        E.","family":"Weaver","sequence":"first","affiliation":[]}],"member":"257","published-online":{"date-parts":[[1949,10,1]]},"container-title":["Geological
+        Society of America Memoirs","35 : GEOLOGY OF THE COAST RANGES IMMEDIATELY
+        NORTH OF THE SAN FRANCISCO BAY REGION, CALIFORNIA"],"deposited":{"date-parts":[[2017,12,7]],"date-time":"2017-12-07T11:21:39Z","timestamp":1512645699000},"score":40.84953,"resource":{"primary":{"URL":"https:\/\/pubs.geoscienceworld.org\/books\/book\/37\/chapter\/3786573\/"}},"issued":{"date-parts":[[1949,10]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1130\/mem35-p1","ISSN":["0072-1069"],"issn-type":[{"value":"0072-1069","type":"print"}],"published":{"date-parts":[[1949,10]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T10:10:10Z","timestamp":1648894210257},"reference-count":0,"publisher":"University
+        of Arkansas Press","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.2307\/j.ctt1hj9xmz.16","type":"book-chapter","created":{"date-parts":[[2017,9,12]],"date-time":"2017-09-12T21:40:43Z","timestamp":1505252443000},"page":"185-204","source":"Crossref","is-referenced-by-count":0,"title":["\u201cSkate
+        Fast, Hit Hard\u201d:"],"prefix":"10.2307","author":[{"given":"BETH","family":"CAVALIER","sequence":"first","affiliation":[]}],"member":"1121","container-title":["San
+        Francisco Bay Area Sports"],"deposited":{"date-parts":[[2018,5,9]],"date-time":"2018-05-09T04:46:42Z","timestamp":1525841202000},"score":39.176945,"resource":{"primary":{"URL":"https:\/\/www.jstor.org\/stable\/10.2307\/j.ctt1hj9xmz.16"}},"subtitle":["San
+        Francisco Bay Bombers and Bay Area Roller Derby"],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctt1hj9xmz.16"},{"indexed":{"date-parts":[[2022,9,23]],"date-time":"2022-09-23T14:50:21Z","timestamp":1663944621276},"reference-count":0,"publisher":"University
+        of California Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1971,12,31]]},"DOI":"10.1525\/9780520340497-010","type":"book-chapter","created":{"date-parts":[[2020,8,7]],"date-time":"2020-08-07T03:07:27Z","timestamp":1596769647000},"page":"144-157","source":"Crossref","is-referenced-by-count":1,"title":["SAN
+        FRANCISCO BAY SHELLMOUNDS"],"prefix":"10.1525","author":[{"given":"N. C.","family":"Nelson","sequence":"first","affiliation":[]}],"member":"408","container-title":["The
+        California Indians"],"link":[{"URL":"https:\/\/california.degruyter.com\/view\/book\/9780520340497\/10.1525\/9780520340497-010.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520340497-010\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520340497-010\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,5]],"date-time":"2022-09-05T14:42:34Z","timestamp":1662388954000},"score":38.777374,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520340497-010\/html"}},"issued":{"date-parts":[[1971,12,31]]},"references-count":0,"alternative-id":["10.1525\/9780520340497-010","10.1525\/9780520340497"],"URL":"http:\/\/dx.doi.org\/10.1525\/9780520340497-010","published":{"date-parts":[[1971,12,31]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T23:26:53Z","timestamp":1649201213838},"edition-number":"1","reference-count":0,"publisher":"University
+        of California Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,10,6]]},"DOI":"10.2307\/j.ctv1503gmw.7","type":"book-chapter","created":{"date-parts":[[2020,9,11]],"date-time":"2020-09-11T20:51:04Z","timestamp":1599857464000},"page":"121-189","source":"Crossref","is-referenced-by-count":1,"title":["San
+        Francisco"],"prefix":"10.2307","member":"1121","container-title":["A People''s
+        Guide to the San Francisco Bay Area"],"deposited":{"date-parts":[[2020,9,11]],"date-time":"2020-09-11T20:51:10Z","timestamp":1599857470000},"score":38.467896,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv1503gmw.7"}},"issued":{"date-parts":[[2020,10,6]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv1503gmw.7","published":{"date-parts":[[2020,10,6]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T16:46:47Z","timestamp":1648831607735},"reference-count":0,"publisher":"University
+        of California Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,9,11]]},"DOI":"10.1525\/9780520963320-001","type":"book-chapter","created":{"date-parts":[[2021,3,3]],"date-time":"2021-03-03T12:08:27Z","timestamp":1614773307000},"page":"iii-viii","source":"Crossref","is-referenced-by-count":0,"title":["UNIVERSITY
+        OF CALIFORNIA PRESS PEOPLE\u2019S GUIDES"],"prefix":"10.1525","member":"408","container-title":["A
+        People''s Guide to the San Francisco Bay Area"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520963320-001\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520963320-001\/html","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,3,20]],"date-time":"2021-03-20T09:02:16Z","timestamp":1616230936000},"score":38.032627,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520963320-001\/html"}},"issued":{"date-parts":[[2020,9,11]]},"references-count":0,"alternative-id":["10.1525\/9780520963320-001","10.1525\/9780520963320"],"URL":"http:\/\/dx.doi.org\/10.1525\/9780520963320-001","published":{"date-parts":[[2020,9,11]]}},{"indexed":{"date-parts":[[2022,6,29]],"date-time":"2022-06-29T20:20:19Z","timestamp":1656534019000},"reference-count":0,"publisher":"University
+        of Massachusetts Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,5,27]]},"DOI":"10.2307\/j.ctv2n4w5t8.9","type":"book-chapter","created":{"date-parts":[[2022,6,8]],"date-time":"2022-06-08T14:12:17Z","timestamp":1654697537000},"page":"84-104","source":"Crossref","is-referenced-by-count":0,"title":["TOURING
+        SAN FRANCISCO AND THE BAY AREA"],"prefix":"10.2307","member":"1121","container-title":["The
+        California Days of Ralph Waldo Emerson"],"deposited":{"date-parts":[[2022,6,8]],"date-time":"2022-06-08T20:20:17Z","timestamp":1654719617000},"score":38.032627,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv2n4w5t8.9"}},"subtitle":["(APRIL
+        24 TO MAY 1, 1871)"],"issued":{"date-parts":[[2022,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv2n4w5t8.9","published":{"date-parts":[[2022,5,27]]}},{"indexed":{"date-parts":[[2022,12,15]],"date-time":"2022-12-15T07:02:30Z","timestamp":1671087750512},"edition-number":"1","reference-count":0,"publisher":"University
+        of Florida Press","isbn-type":[{"value":"9781683403487","type":"electronic"},{"value":"1683403487","type":"electronic"},{"value":"9781683402664","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,12,13]]},"DOI":"10.2307\/j.ctv33p9zgg.11","type":"book-chapter","created":{"date-parts":[[2022,12,14]],"date-time":"2022-12-14T20:27:03Z","timestamp":1671049623000},"page":"21-32","source":"Crossref","is-referenced-by-count":0,"title":["Historical
+        Background of California and the San Francisco Bay Area"],"prefix":"10.2307","author":[{"given":"LISA
+        N.","family":"BRIGHT","sequence":"first","affiliation":[]}],"member":"1121","container-title":["Archaeology
+        and Bioarchaeology of Anatomical Dissection at a Nineteenth-Century Army Hospital
+        in San Francisco"],"deposited":{"date-parts":[[2022,12,14]],"date-time":"2022-12-14T20:27:23Z","timestamp":1671049643000},"score":37.80021,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv33p9zgg.11"}},"issued":{"date-parts":[[2023,12,13]]},"ISBN":["9781683403487","1683403487","9781683402664"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv33p9zgg.11","published":{"date-parts":[[2023,12,13]]}},{"indexed":{"date-parts":[[2022,9,5]],"date-time":"2022-09-05T15:14:35Z","timestamp":1662390875429},"reference-count":0,"publisher":"University
+        of California Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1971,12,31]]},"DOI":"10.1525\/9780520340497-013","type":"book-chapter","created":{"date-parts":[[2020,8,7]],"date-time":"2020-08-07T03:07:27Z","timestamp":1596769647000},"page":"202-205","source":"Crossref","is-referenced-by-count":0,"title":["ANTIQUITY
+        OF SAN FRANCISCO BAY SHELLMOUNDS"],"prefix":"10.1525","author":[{"given":"S.
+        F.","family":"Cook","sequence":"first","affiliation":[]}],"member":"408","container-title":["The
+        California Indians"],"link":[{"URL":"https:\/\/california.degruyter.com\/view\/book\/9780520340497\/10.1525\/9780520340497-013.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520340497-013\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520340497-013\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,5]],"date-time":"2022-09-05T14:42:15Z","timestamp":1662388935000},"score":37.799953,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1525\/9780520340497-013\/html"}},"issued":{"date-parts":[[1971,12,31]]},"references-count":0,"alternative-id":["10.1525\/9780520340497-013","10.1525\/9780520340497"],"URL":"http:\/\/dx.doi.org\/10.1525\/9780520340497-013","published":{"date-parts":[[1971,12,31]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T10:04:18Z","timestamp":1648721058756},"reference-count":0,"publisher":"American
+        Fisheries Society","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004]]},"abstract":"<jats:p>&lt;em&gt;Abstract.&lt;\/em&gt;\u2014We
+        analyzed data on spring and summertime larval and juvenile fish distribution
+        and abundance in the upper San Francisco Estuary (SFE), California between
+        1995 and 2001. The upper SFE includes the tidal freshwater areas of the Sacramento\u2013San
+        Joaquin Delta downstream to the euryhaline environment of San Pablo Bay. The
+        sampling period included years with a variety of outflow conditions. Fifty
+        taxa were collected using a larval tow net. Two common native species, delta
+        smelt &lt;em&gt;Hypomesus transpacificus &lt;\/em&gt;and longfin smelt &lt;em&gt;Spirinchus
+        thaleichthys&lt;\/em&gt;, and four common alien taxa, striped bass &lt;em&gt;Morone
+        saxatilis&lt;\/em&gt;, threadfin shad &lt;em&gt;Dorosoma petenense&lt;\/em&gt;,
+        gobies of the genus &lt;em&gt;Tridentiger&lt;\/em&gt;, and yellowfin goby
+        &lt;em&gt;Acanthogobius flavimanus&lt;\/em&gt;, were selected for detailed
+        analysis. Outflow conditions had a strong influence on the geographic distribution
+        of most of the species, but distribution with respect to the 2 psu isohaline
+        (X2) was not affected. The distribution patterns of delta smelt, longfin smelt,
+        and striped bass were consistent with larvae moving from upstream freshwater
+        spawning areas to downstream estuarine rearing areas. There were no obvious
+        relationships of outflow with annual abundance indices. Our results support
+        the idea of using X2 as an organizing principle in understanding the ecology
+        of larval fishes in the upper SFE. Additional years of sampling will likely
+        lead to additional insights into the early life history of upper SFE fishes.<\/jats:p>","DOI":"10.47886\/9781888569599.ch4","type":"book-chapter","created":{"date-parts":[[2021,1,5]],"date-time":"2021-01-05T05:02:53Z","timestamp":1609822973000},"source":"Crossref","is-referenced-by-count":0,"title":["Early
+        Life History of Fishes in the San Francisco Estuary and Watershed"],"prefix":"10.47886","member":"460","container-title":["Early
+        Life History of Fishes in the San Francisco Estuary and Watershed"],"deposited":{"date-parts":[[2021,1,5]],"date-time":"2021-01-05T05:02:57Z","timestamp":1609822977000},"score":37.63497,"resource":{"primary":{"URL":"https:\/\/fisheries.org\/doi\/9781888569599-ch4"}},"editor":[{"given":"Michael","family":"Dege","sequence":"first","affiliation":[]},{"name":"Central
+        Valley Bay-Delta Branch, California Department of Fish and Game 4001 North
+        Wilson Way, Stockton, California 95205-2486, USA","sequence":"first","affiliation":[]},{"given":"Larry
+        R.","family":"Brown","sequence":"additional","affiliation":[]},{"name":"U.S.
+        Geological Survey, Placer Hall, 6000 J Street, Sacramento, California 95819-6129,
+        USA","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2004]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.47886\/9781888569599.ch4","published":{"date-parts":[[2004]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T07:50:36Z","timestamp":1649058636248},"publisher-location":"Washington,
+        D. C.","reference-count":0,"publisher":"American Geophysical Union","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1989]]},"DOI":"10.1029\/ft105p0020","type":"book-chapter","created":{"date-parts":[[2012,4,2]],"date-time":"2012-04-02T19:00:49Z","timestamp":1333393249000},"page":"20-21","source":"Crossref","is-referenced-by-count":0,"title":["Paleogene
+        of central California"],"prefix":"10.1002","author":[{"given":"Clyde","family":"Wahrhaftig","sequence":"first","affiliation":[]}],"member":"311","container-title":["Geology
+        of San Francisco and Vicinity: San Francisco Bay Region, California: July
+        1\u20137, 1989"],"link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full\/10.1029\/FT105p0020","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2018,8,1]],"date-time":"2018-08-01T20:11:00Z","timestamp":1533154260000},"score":37.58921,"resource":{"primary":{"URL":"http:\/\/doi.wiley.com\/10.1029\/FT105p0020"}},"issued":{"date-parts":[[1989]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1029\/ft105p0020","published":{"date-parts":[[1989]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T09:39:53Z","timestamp":1648633193385},"publisher-location":"Washington,
+        D. C.","reference-count":3,"publisher":"American Geophysical Union","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1989]]},"DOI":"10.1029\/ft381p0090","type":"book-chapter","created":{"date-parts":[[2012,4,2]],"date-time":"2012-04-02T19:20:41Z","timestamp":1333394441000},"page":"90-97","source":"Crossref","is-referenced-by-count":1,"title":["Geology,
+        geomorphology, and landslide processes of the East Bay Hills, San Francisco
+        Bay Region, California"],"prefix":"10.1002","author":[{"given":"J. David","family":"Rogers","sequence":"first","affiliation":[]},{"given":"Christopher
+        S.","family":"Alger","sequence":"additional","affiliation":[]}],"member":"311","reference":[{"key":"10.1029\/FT381p0090:cree82-13","first-page":"11","article-title":"Stratigraphy
+        of upper Tertiary non-marine rocks of central Contra Cosla basin, Calfornia:","volume-title":"Cenozoic
+        non-marine deposits of California and Arizona: SEPM, Pacific Section","author":"Creely","year":"1982"},{"issue":"1\u20132","key":"10.1029\/FT381p0090:herl52-13","first-page":"45","article-title":"California
+        Highways and Public Works","volume":"31","author":"Herlinger","year":"1952","journal-title":"m"},{"issue":"3","key":"10.1029\/FT381p0090:sull80-13","first-page":"51","article-title":"Mount
+        Diablo coal field, Contra Costa County, California","volume":"33","author":"Sullivan","year":"1980","journal-title":"California
+        Geology"}],"container-title":["Landslides in Central California: San Francisco
+        and Central California, July 20\u201329, 1989"],"link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full\/10.1029\/FT381p0090","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2018,8,1]],"date-time":"2018-08-01T20:48:45Z","timestamp":1533156525000},"score":37.51093,"resource":{"primary":{"URL":"http:\/\/doi.wiley.com\/10.1029\/FT381p0090"}},"issued":{"date-parts":[[1989]]},"references-count":3,"URL":"http:\/\/dx.doi.org\/10.1029\/ft381p0090","published":{"date-parts":[[1989]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T06:19:01Z","timestamp":1649139541716},"reference-count":0,"publisher":"University
+        Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2018,3,6]]},"abstract":"<p>Chapter
+        4 chronicles the author\u2019s return to her home area after five years, now
+        as a professional dancer-choreographer. She establishes her professional reputation
+        in the Bay Area, one that will serve as the foundation of her future work
+        as a regional dance catalyst and cultural activist. As an artist, she develops
+        the artistic theme central to her developing career in <italic>The Evolution
+        of Black Dance<\/italic>. She creates and produces several evening-length
+        productions during this three-year period, begins to learn arts administration,
+        and forms Halifu Productions, a company that helped catalyse the mid-70s black
+        dance scene in the Bay Area. She also meets the poet Ntozake Shange and artistically
+        collaborates with her and her poems on a project that will become the famous
+        production of <italic>For Colored Girls Who Have Considered Suicide When the
+        Rainbow Is Enough<\/italic>. Ntozake Shange gives her an African name, and
+        the author becomes Halifu Osumare.<\/p>","DOI":"10.5744\/florida\/9780813056616.003.0005","type":"book-chapter","created":{"date-parts":[[2018,9,21]],"date-time":"2018-09-21T06:44:57Z","timestamp":1537512297000},"source":"Crossref","is-referenced-by-count":0,"title":["Dancing
+        Back into the San Francisco\u2013Oakland Bay Area, 1973\u20131976"],"prefix":"10.5744","author":[{"given":"Halifu","family":"Osumare","sequence":"first","affiliation":[]}],"member":"3749","published-online":{"date-parts":[[2018,9,20]]},"container-title":["Dancing
+        in Blackness"],"original-title":["Dancing Back into the San Francisco\u2013Oakland
+        Bay Area, 1973\u20131976"],"deposited":{"date-parts":[[2018,12,19]],"date-time":"2018-12-19T10:40:00Z","timestamp":1545216000000},"score":37.473442,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813056616.001.0001\/upso-9780813056616-chapter-005"}},"issued":{"date-parts":[[2018,3,6]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813056616.003.0005","published":{"date-parts":[[2018,3,6]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T07:44:37Z","timestamp":1648799077235},"reference-count":0,"publisher":"American
+        Fisheries Society","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004]]},"abstract":"<jats:p>&lt;em&gt;Abstract.&lt;\/em&gt;\u2014The
+        San Francisco Estuary is critical habitat for delta smelt &lt;em&gt;Hypomesus
+        transpacificus&lt;\/em&gt;, a fish whose abundance has declined greatly since
+        1983 and is now listed as threatened. In addition, the estuary receives drainage
+        from the Central Valley, an urban and agricultural region with intense and
+        diverse pesticide usage. One possible factor of the delta smelt population
+        decline is pesticide toxicity during vulnerable larval and juvenile stages,
+        but pesticide concentrations are not well characterized in delta smelt spawning
+        and nursery habitat. The objective of this study was to estimate the potential
+        exposure of delta smelt during their early life stages to dissolved pesticides.
+        For 3 years (1998\u20132000), water samples from the Sacramento\u2013San Joaquin
+        Delta were collected during April\u2013June in coordination with the California
+        Department of Fish and Game\u2019s delta smelt early life stage monitoring
+        program. Samples were analyzed for pesticides using solid-phase extraction
+        and gas chromatography\/mass spectrometry. Water samples contained multiple
+        pesticides, ranging from 2 to 14 pesticides in each sample. In both 1999 and
+        2000, elevated concentrations of pesticides overlapped in time and space with
+        peak densities of larval and juvenile delta smelt. In contrast, high spring
+        outflows in 1998 transported delta smelt away from the pesticide sampling
+        sites so that exposure could not be estimated. During 2 years, larval and
+        juvenile delta smelt were potentially exposed to a complex mixture of pesticides
+        for a minimum of 2\u20133 weeks. Although the measured concentrations were
+        well below short-term (96-h) LC50 values for individual pesticides, the combination
+        of multiple pesticides and lengthy exposure duration could potentially have
+        lethal or sublethal effects on delta smelt, especially during early larval
+        development.<\/jats:p>","DOI":"10.47886\/9781888569599.ch15","type":"book-chapter","created":{"date-parts":[[2021,1,5]],"date-time":"2021-01-05T05:02:53Z","timestamp":1609822973000},"source":"Crossref","is-referenced-by-count":0,"title":["Early
+        Life History of Fishes in the San Francisco Estuary and Watershed"],"prefix":"10.47886","member":"460","container-title":["Early
+        Life History of Fishes in the San Francisco Estuary and Watershed"],"deposited":{"date-parts":[[2021,1,5]],"date-time":"2021-01-05T05:03:07Z","timestamp":1609822987000},"score":36.952423,"resource":{"primary":{"URL":"https:\/\/fisheries.org\/doi\/9781888569599-ch15"}},"editor":[{"given":"Kathryn
+        M.","family":"Kuivila","sequence":"first","affiliation":[]},{"name":"U.S.
+        Geological Survey, Placer Hall, 6000 J Street, Sacramento, California 95819-6129,
+        USA","sequence":"first","affiliation":[]},{"given":"G.","family":"Edward Moon","sequence":"additional","affiliation":[]},{"name":"U.S.
+        Geological Survey, Placer Hall, 6000 J Street, Sacramento, California 95819-6129,
+        USA","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2004]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.47886\/9781888569599.ch15","published":{"date-parts":[[2004]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T21:52:03Z","timestamp":1648677123425},"reference-count":0,"publisher":"University
+        Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2018,3,6]]},"abstract":"<p>This
+        chapter tells the author\u2019s beginnings in dance in high school and her
+        developing dance training as an undergraduate at San Francisco State University.
+        She also probes the unique qualities of the SF Bay Area in the latter 60s,
+        specifically as it relates to the Black Arts Movement-West, the hippie counterculture
+        movement, and black militancy leading to the formation of Oakland\u2019s Black
+        Panther Party and the SF State Strike for Ethnic Studies. She shows how she
+        situated dance as her unique revolutionary statement and took this approach
+        when leaving the US for Europe as a young woman.<\/p>","DOI":"10.5744\/florida\/9780813056616.003.0002","type":"book-chapter","created":{"date-parts":[[2018,9,21]],"date-time":"2018-09-21T06:45:15Z","timestamp":1537512315000},"source":"Crossref","is-referenced-by-count":0,"title":["Coming
+        of Age through (Black) Dance in the San Francisco Bay Area"],"prefix":"10.5744","author":[{"given":"Halifu","family":"Osumare","sequence":"first","affiliation":[]}],"member":"3749","published-online":{"date-parts":[[2018,9,20]]},"container-title":["Dancing
+        in Blackness"],"original-title":["Coming of Age through (Black) Dance in the
+        San Francisco Bay Area"],"deposited":{"date-parts":[[2018,12,19]],"date-time":"2018-12-19T10:32:50Z","timestamp":1545215570000},"score":36.85669,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813056616.001.0001\/upso-9780813056616-chapter-002"}},"issued":{"date-parts":[[2018,3,6]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813056616.003.0002","published":{"date-parts":[[2018,3,6]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T22:14:33Z","timestamp":1648764873946},"publisher-location":"Washington,
+        D. C.","reference-count":1,"publisher":"American Geophysical Union","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1989]]},"DOI":"10.1029\/ft381p0044","type":"book-chapter","created":{"date-parts":[[2012,4,2]],"date-time":"2012-04-02T23:20:41Z","timestamp":1333408841000},"page":"44-46","source":"Crossref","is-referenced-by-count":0,"title":["California
+        cross-section: San Francisco Bay Region to eastern Sierra Nevada"],"prefix":"10.1002","author":[{"suffix":"III","given":"William
+        M.","family":"Brown","sequence":"first","affiliation":[]}],"member":"311","reference":[{"key":"10.1029\/FT381p0044:alph83-06","article-title":"Physiographic
+        diagrams of Long Valley, Mono and Inyo counties, California","author":"Alpha","year":"1983"}],"container-title":["Landslides
+        in Central California: San Francisco and Central California, July 20\u201329,
+        1989"],"link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full\/10.1029\/FT381p0044","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2018,8,2]],"date-time":"2018-08-02T00:48:41Z","timestamp":1533170921000},"score":36.793873,"resource":{"primary":{"URL":"http:\/\/doi.wiley.com\/10.1029\/FT381p0044"}},"issued":{"date-parts":[[1989]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1029\/ft381p0044","published":{"date-parts":[[1989]]}},{"indexed":{"date-parts":[[2022,6,14]],"date-time":"2022-06-14T14:42:14Z","timestamp":1655217734110},"edition-number":"1","reference-count":0,"publisher":"Cambridge
+        University Press","license":[{"start":{"date-parts":[[2015,11,5]],"date-time":"2015-11-05T00:00:00Z","timestamp":1446681600000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/www.cambridge.org\/core\/terms"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2015,11,5]]},"DOI":"10.1017\/cbo9781316048184.008","type":"book-chapter","created":{"date-parts":[[2015,11,6]],"date-time":"2015-11-06T10:08:39Z","timestamp":1446804519000},"page":"80-84","source":"Crossref","is-referenced-by-count":0,"title":["San
+        Francisco Bay Area"],"prefix":"10.1017","member":"56","container-title":["Earthquake
+        Time Bombs"],"link":[{"URL":"https:\/\/www.cambridge.org\/core\/services\/aop-cambridge-core\/content\/view\/B3A64520AD58B7E56465A52DE8BAEDA0","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,6,14]],"date-time":"2022-06-14T14:27:10Z","timestamp":1655216830000},"score":36.564636,"resource":{"primary":{"URL":"https:\/\/www.cambridge.org\/core\/product\/identifier\/CBO9781316048184A015\/type\/book_part"}},"issued":{"date-parts":[[2015,11,5]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1017\/cbo9781316048184.008","published":{"date-parts":[[2015,11,5]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T10:13:43Z","timestamp":1648721623523},"publisher-location":"Washington,
+        D. C.","reference-count":0,"publisher":"American Geophysical Union","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1989]]},"DOI":"10.1029\/ft105p0001-2","type":"book-chapter","created":{"date-parts":[[2012,4,2]],"date-time":"2012-04-02T23:00:49Z","timestamp":1333407649000},"page":"1-5","source":"Crossref","is-referenced-by-count":0,"title":["Overview"],"prefix":"10.1002","author":[{"given":"Clyde","family":"Wahrhaftig","sequence":"first","affiliation":[]}],"member":"311","container-title":["Geology
+        of San Francisco and Vicinity: San Francisco Bay Region, California: July
+        1\u20137, 1989"],"link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full\/10.1029\/FT105p0001-2","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2018,8,2]],"date-time":"2018-08-02T00:10:57Z","timestamp":1533168657000},"score":36.426624,"resource":{"primary":{"URL":"http:\/\/doi.wiley.com\/10.1029\/FT105p0001-2"}},"issued":{"date-parts":[[1989]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1029\/ft105p0001-2","published":{"date-parts":[[1989]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Seismicity+map+of+greater+San+Francisco+Bay+area,+California+(1969-1971)+1972+US+Geological+Survey"}}}'
+  recorded_at: Thu, 22 Dec 2022 22:46:14 GMT
+- request:
+    method: get
+    uri: http://api.crossref.org/works?filter=type:book&query.bibliographic=%22Open-File%20Report,%20US%20Geological%20Survey,%20,%201972%22&rows=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:46:14 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1268'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":13559,"items":[{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T20:07:48Z","timestamp":1649102868490},"reference-count":0,"publisher":"Utah
+        Geological Survey","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1985]]},"DOI":"10.34191\/c-78","type":"book","created":{"date-parts":[[2019,8,16]],"date-time":"2019-08-16T22:42:07Z","timestamp":1565995327000},"source":"Crossref","is-referenced-by-count":0,"title":["Utah
+        Geological and Mineral Survey Annual Report, 1983-84"],"prefix":"10.34191","member":"19910","deposited":{"date-parts":[[2019,8,16]],"date-time":"2019-08-16T22:48:48Z","timestamp":1565995728000},"score":23.034094,"resource":{"primary":{"URL":"https:\/\/geology.utah.gov\/publication-details\/?pub=C-78"}},"issued":{"date-parts":[[1985]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.34191\/c-78","published":{"date-parts":[[1985]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T21:18:28Z","timestamp":1649107108174},"reference-count":0,"publisher":"Utah
+        Geological Survey","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1997]]},"DOI":"10.34191\/ri-233","type":"book","created":{"date-parts":[[2019,8,16]],"date-time":"2019-08-16T18:42:07Z","timestamp":1565980927000},"source":"Crossref","is-referenced-by-count":0,"title":["Report
+        to the Utah Geological Survey on the 1996 Gobi-Altay, Mongolia, Paleoseismology
+        Expedition"],"prefix":"10.34191","member":"19910","deposited":{"date-parts":[[2019,8,16]],"date-time":"2019-08-16T18:55:14Z","timestamp":1565981714000},"score":21.265244,"resource":{"primary":{"URL":"https:\/\/geology.utah.gov\/publication-details\/?pub=RI-233"}},"issued":{"date-parts":[[1997]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.34191\/ri-233","published":{"date-parts":[[1997]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T04:15:10Z","timestamp":1648872910863},"reference-count":0,"publisher":"Utah
+        Geological Survey","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2001]]},"DOI":"10.34191\/pi-73","type":"book","created":{"date-parts":[[2019,8,16]],"date-time":"2019-08-16T22:42:07Z","timestamp":1565995327000},"source":"Crossref","is-referenced-by-count":0,"title":["Utah
+        Geological Survey brochure"],"prefix":"10.34191","member":"19910","deposited":{"date-parts":[[2019,8,16]],"date-time":"2019-08-16T22:56:14Z","timestamp":1565996174000},"score":17.946095,"resource":{"primary":{"URL":"https:\/\/geology.utah.gov\/publication-details\/?pub=PI-73"}},"issued":{"date-parts":[[2001]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.34191\/pi-73","published":{"date-parts":[[2001]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T13:55:59Z","timestamp":1649166959052},"reference-count":0,"publisher":"UN","isbn-type":[{"value":"9789210452274","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1972,10,2]]},"DOI":"10.18356\/9d176473-en","type":"book","created":{"date-parts":[[2019,1,24]],"date-time":"2019-01-24T08:53:25Z","timestamp":1548320005000},"source":"Crossref","is-referenced-by-count":0,"title":["World
+        Economic Survey 1972"],"prefix":"10.18356","author":[{"name":"United Nations","sequence":"first","affiliation":[]}],"member":"7834","container-title":["World
+        Economic and Social Survey (WESS)"],"deposited":{"date-parts":[[2021,2,25]],"date-time":"2021-02-25T00:53:00Z","timestamp":1614214380000},"score":17.883127,"resource":{"primary":{"URL":"https:\/\/www.un-ilibrary.org\/content\/books\/9789210452274"}},"subtitle":["Current
+        Economic Development"],"issued":{"date-parts":[[1972,10,2]]},"ISBN":["9789210452274"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.18356\/9d176473-en","ISSN":["2412-1509"],"issn-type":[{"value":"2412-1509","type":"electronic"}],"published":{"date-parts":[[1972,10,2]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T16:46:42Z","timestamp":1648745202700},"reference-count":0,"publisher":"Utah
+        Geological Survey","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1996]]},"DOI":"10.34191\/ofr-336","type":"book","created":{"date-parts":[[2019,8,16]],"date-time":"2019-08-16T22:42:07Z","timestamp":1565995327000},"source":"Crossref","is-referenced-by-count":0,"title":["Catalog
+        of geological samples contained in the Utah Geological Survey sample library"],"prefix":"10.34191","member":"19910","deposited":{"date-parts":[[2019,8,16]],"date-time":"2019-08-16T22:54:37Z","timestamp":1565996077000},"score":17.791855,"resource":{"primary":{"URL":"https:\/\/geology.utah.gov\/publication-details\/?pub=OFR-336"}},"issued":{"date-parts":[[1996]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.34191\/ofr-336","published":{"date-parts":[[1996]]}}],"items-per-page":5,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Thu, 22 Dec 2022 22:46:14 GMT
+recorded_with: VCR 6.1.0

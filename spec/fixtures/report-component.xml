@@ -1,0 +1,40 @@
+<bibdata type="techreport" schema-version="v1.2.1">
+  <fetched>2022-12-18</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Seismicity map of greater San Francisco Bay area, California (1969-1971)</title>
+  <uri type="DOI">http://dx.doi.org/10.3133/ofr72419</uri>
+  <docidentifier type="DOI" primary="true">10.3133/ofr72419</docidentifier>
+  <date type="created">
+    <on>2018-08-14</on>
+  </date>
+  <date type="issued">
+    <on>1972</on>
+  </date>
+  <date type="published">
+    <on>1972</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename language="en" script="Latn">U.S. Geological Survey</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>US Geological Survey</name>
+    </organization>
+  </contributor>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Open-File Report</title>
+    </bibitem>
+  </relation>
+  <series>
+    <title format="text/plain">Open-File Report</title>
+  </series>
+  <ext>
+    <doctype>report-component</doctype>
+  </ext>
+</bibdata>

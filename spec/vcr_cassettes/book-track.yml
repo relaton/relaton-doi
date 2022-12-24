@@ -1,0 +1,341 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.1017%2Fisbn-9780511132971.eh132-135
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 Dec 2022 02:43:13 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '714'
+      Set-Cookie:
+      - AWSALB=V9vqlJxUyI4YWjGQ/X2cjHJcV5jG5EZTIi0ayiE13QXXq8NHWC/ljWTHBcjL5e6kpeX89OHapj725apxfLQmRfqkc9ScizTU+753NqtbEooqi5OcRT9bAe7lLXaf;
+        Expires=Tue, 27 Dec 2022 02:43:13 GMT; Path=/
+      - AWSALBCORS=V9vqlJxUyI4YWjGQ/X2cjHJcV5jG5EZTIi0ayiE13QXXq8NHWC/ljWTHBcjL5e6kpeX89OHapj725apxfLQmRfqkc9ScizTU+753NqtbEooqi5OcRT9bAe7lLXaf;
+        Expires=Tue, 27 Dec 2022 02:43:13 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T12:48:09Z","timestamp":1648558089512},"publisher-location":"New
+        York, USA","reference-count":0,"publisher":"Cambridge University Press","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.1017\/isbn-9780511132971.eh132-135","type":"book-track","created":{"date-parts":[[2007,3,6]],"date-time":"2007-03-06T12:18:55Z","timestamp":1173183535000},"page":"5-795-5-795","source":"Crossref","is-referenced-by-count":0,"title":["Wholesale
+        commodity price indexes in Richmond, the eastern Confederacy, New York, and
+        San Francisco: 1861-1865"],"prefix":"10.1017","member":"56","container-title":["Historical
+        Statistics of the United States"],"original-title":[],"deposited":{"date-parts":[[2013,12,16]],"date-time":"2013-12-16T23:08:32Z","timestamp":1387235312000},"score":1,"resource":{"primary":{"URL":"http:\/\/hsus.cambridge.org\/HSUSWeb\/toc\/tableToc.do?id=Eh132-135"}},"subtitle":[],"editor":[{"given":"Roger
+        L.","family":"Ransom","sequence":"first","affiliation":[]}],"short-title":[],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1017\/isbn-9780511132971.eh132-135","relation":{}}}'
+  recorded_at: Tue, 20 Dec 2022 02:43:12 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=type:book,type:book-set,type:edited-book,type:monograph,type:reference-book&query=Historical%20Statistics%20of%20the%20United%20States%202007
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 Dec 2022 02:43:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '5350'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":64363,"items":[{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T22:06:15Z","timestamp":1648677975661},"publisher-location":"Washington,
+        D.C. :","reference-count":0,"publisher":"United States Department of Agriculture,
+        Agricultural Marketing Service","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1939]]},"DOI":"10.5962\/bhl.title.106635","type":"monograph","created":{"date-parts":[[2015,8,30]],"date-time":"2015-08-30T02:03:05Z","timestamp":1440900185000},"source":"Crossref","is-referenced-by-count":0,"title":["Annual
+        report on tobacco statistics \/"],"prefix":"10.5962","author":[{"name":"United
+        States.","sequence":"first","affiliation":[]},{"name":"United States.","sequence":"additional","affiliation":[]},{"name":"United
+        States.","sequence":"additional","affiliation":[]}],"member":"3444","deposited":{"date-parts":[[2015,8,30]],"date-time":"2015-08-30T02:03:05Z","timestamp":1440900185000},"score":27.852365,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/106635"}},"issued":{"date-parts":[[1939]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.106635","published":{"date-parts":[[1939]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T16:55:22Z","timestamp":1649004922916},"publisher-location":"Washington,
+        D.C. :","reference-count":0,"publisher":"Dept. of Commerce, National Oceanic
+        and Atmospheric Administration, National Marine Fisheries Service :","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1979]]},"DOI":"10.5962\/bhl.title.4009","type":"monograph","created":{"date-parts":[[2011,11,11]],"date-time":"2011-11-11T16:56:39Z","timestamp":1321030599000},"source":"Crossref","is-referenced-by-count":0,"title":["Fishery
+        statistics of the United States 1975 \/ prepared by Resource Statistics Division."],"prefix":"10.5962","author":[{"name":"United
+        States.","sequence":"first","affiliation":[]}],"member":"3444","deposited":{"date-parts":[[2011,11,11]],"date-time":"2011-11-11T16:56:48Z","timestamp":1321030608000},"score":27.448364,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/4009"}},"issued":{"date-parts":[[1979]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.4009","published":{"date-parts":[[1979]]}},{"indexed":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T21:10:16Z","timestamp":1650057016958},"publisher-location":"Washington","reference-count":0,"publisher":"Govt.
+        print. off","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1922]]},"DOI":"10.5962\/bhl.title.35558","type":"monograph","created":{"date-parts":[[2011,11,23]],"date-time":"2011-11-23T04:39:58Z","timestamp":1322023198000},"source":"Crossref","is-referenced-by-count":1,"title":["A
+        handbook of dairy statistics"],"prefix":"10.5962","author":[{"given":"Thomas
+        Ross","family":"Pirtle","sequence":"first","affiliation":[]},{"name":"United
+        States.","sequence":"additional","affiliation":[]},{"name":"United States.","sequence":"additional","affiliation":[]}],"member":"33859","deposited":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T20:50:48Z","timestamp":1650055848000},"score":26.042854,"resource":{"primary":{"URL":"https:\/\/www.biodiversitylibrary.org\/bibliography\/35558"}},"issued":{"date-parts":[[1922]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.35558","published":{"date-parts":[[1922]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:40:48Z","timestamp":1659501648610},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2018,1,18]]},"abstract":"<p>This
+        chapter studies American historical writing. In the United States, the legacy
+        of the Progressive historians advocating a pragmatic study of the past in
+        the interests of social and political usefulness was a powerful influence
+        that continued to be evident after the Second World War. This Progressive
+        agenda had flow-on effects that shaped other characteristics of American scholarship.
+        One was recurrent but often misleading debates over conflict versus consensus
+        on the issues of American national character, ideology, and politics; another
+        was flexibility and innovation in interpretation, with receptiveness to new
+        ideas derived from the influence of other humanities and the social sciences;
+        still another was distrust of grand theory, and an instrumental and subordinate
+        attention to historiography. The chapter then offers an outsider\u2019s view
+        of American historiography from the vantage point of Australia, and with a
+        focus on the extra-academic life of American historians, including the development
+        of \u2018public history\u2019.<\/p>","DOI":"10.1093\/oso\/9780199225996.003.0024","type":"book","created":{"date-parts":[[2018,1,18]],"date-time":"2018-01-18T17:58:17Z","timestamp":1516298297000},"source":"Crossref","is-referenced-by-count":0,"title":["Historical
+        Writing in the United States"],"prefix":"10.1093","author":[{"given":"Ian","family":"Tyrrell","sequence":"first","affiliation":[]}],"member":"286","container-title":["Oxford
+        Scholarship Online"],"original-title":["Historical Writing in the United States"],"deposited":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T02:18:20Z","timestamp":1659493100000},"score":25.4216,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/26006\/chapter\/193886333"}},"issued":{"date-parts":[[2018,1,18]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780199225996.003.0024","published":{"date-parts":[[2018,1,18]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:45:13Z","timestamp":1659501913742},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2018,4,19]]},"abstract":"<p>This
+        chapter aims to re-examine the Chandlerian paradigm of the historical development
+        of modern industrial enterprises in the United States by employing an analytical
+        framework that comprehends the alternative models of corporate evolution,
+        especially that of diversified business groups. Based on the systematic examination
+        of the broad range of business groups that have historically developed in
+        the United States, the chapter focuses on the two varieties of diversified
+        business groups that historically played critical roles in that economy: those
+        centered around overseas trading and operational firms; and those organized
+        around banking institutions. It argues that diversified business groups played
+        the characteristic roles of generating and reorganizing modern industrial
+        enterprises to shape the contemporary economic landscape of oligopoly. Such
+        roles played by the diversified business groups and their contributions to
+        corporate and industrial development should be complemental to the Chandlerian
+        multidivisional enterprises to configure the whole dynamics of the US economy
+        in the long run.<\/p>","DOI":"10.1093\/oso\/9780198717973.003.0014","type":"book","created":{"date-parts":[[2018,4,19]],"date-time":"2018-04-19T08:09:52Z","timestamp":1524125392000},"source":"Crossref","is-referenced-by-count":0,"title":["The
+        United States in Historical Perspectives"],"prefix":"10.1093","author":[{"given":"Takashi","family":"Hikino","sequence":"first","affiliation":[]},{"given":"Marcelo","family":"Bucheli","sequence":"additional","affiliation":[]}],"member":"286","container-title":["Oxford
+        Scholarship Online"],"original-title":["The United States in Historical Perspectives"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T22:31:15Z","timestamp":1659479475000},"score":24.986322,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/4610\/chapter\/146741183"}},"issued":{"date-parts":[[2018,4,19]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780198717973.003.0014","published":{"date-parts":[[2018,4,19]]}},{"indexed":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T20:11:14Z","timestamp":1650053474574},"publisher-location":"Washington","reference-count":0,"publisher":"Govt.
+        print. off","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1895]]},"DOI":"10.5962\/bhl.title.36488","type":"monograph","created":{"date-parts":[[2011,11,23]],"date-time":"2011-11-23T04:47:04Z","timestamp":1322023624000},"source":"Crossref","is-referenced-by-count":0,"title":["Report
+        of the United States commission to the Columbian historical exposition at
+        Madrid"],"prefix":"10.5962","author":[{"name":"United States Commission to
+        the Columbian Historical Exposition at Madrid","sequence":"first","affiliation":[]}],"member":"33859","deposited":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T19:52:47Z","timestamp":1650052367000},"score":24.787247,"resource":{"primary":{"URL":"https:\/\/www.biodiversitylibrary.org\/bibliography\/36488"}},"issued":{"date-parts":[[1895]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.36488","published":{"date-parts":[[1895]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T03:24:09Z","timestamp":1648783449862},"publisher-location":"Silver
+        Spring, Md. :","reference-count":0,"publisher":"U.S. Dept. of Commerce, National
+        Oceanic and Atmospheric Administration, National Marine Fisheries Service;","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1997]]},"DOI":"10.5962\/bhl.title.4030","type":"monograph","created":{"date-parts":[[2011,11,11]],"date-time":"2011-11-11T21:57:07Z","timestamp":1321048627000},"source":"Crossref","is-referenced-by-count":0,"title":["Fisheries
+        of the United States, 1996 \/ prepared by Fisheries Statistics Division, National
+        Marine Fisheries Service."],"prefix":"10.5962","author":[{"name":"United States.","sequence":"first","affiliation":[]}],"member":"3444","deposited":{"date-parts":[[2011,11,11]],"date-time":"2011-11-11T21:57:15Z","timestamp":1321048635000},"score":24.662893,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/4030"}},"issued":{"date-parts":[[1997]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.4030","published":{"date-parts":[[1997]]}},{"indexed":{"date-parts":[[2022,11,29]],"date-time":"2022-11-29T03:31:41Z","timestamp":1669692701257},"publisher-location":"[Boise,
+        Idaho]","reference-count":0,"publisher":"Joint Fire Science Program","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007]]},"DOI":"10.5962\/bhl.title.154495","type":"monograph","created":{"date-parts":[[2018,11,18]],"date-time":"2018-11-18T06:03:41Z","timestamp":1542521021000},"source":"Crossref","is-referenced-by-count":1,"title":["Joint
+        Fire Science Program 2006 - 2007 progress report : research supporting sound
+        decisions"],"prefix":"10.5962","author":[{"name":"Joint Fire Science Program
+        (U.S.)","sequence":"first","affiliation":[]},{"name":"Geological Survey (U.S.)","sequence":"additional","affiliation":[]},{"name":"U.S.
+        Fish and Wildlife Service","sequence":"additional","affiliation":[]},{"name":"United
+        States.","sequence":"additional","affiliation":[]},{"name":"United States.","sequence":"additional","affiliation":[]},{"name":"United
+        States.","sequence":"additional","affiliation":[]},{"name":"United States.","sequence":"additional","affiliation":[]},{"name":"United
+        States.","sequence":"additional","affiliation":[]},{"name":"United States.","sequence":"additional","affiliation":[]}],"member":"33859","deposited":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T22:25:10Z","timestamp":1650061510000},"score":24.653128,"resource":{"primary":{"URL":"https:\/\/www.biodiversitylibrary.org\/bibliography\/154495"}},"issued":{"date-parts":[[2007]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.154495","published":{"date-parts":[[2007]]}},{"indexed":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T21:10:48Z","timestamp":1650057048468},"publisher-location":"Wash","reference-count":0,"publisher":"[s.n.]","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1920]]},"DOI":"10.5962\/bhl.title.40887","type":"monograph","created":{"date-parts":[[2011,11,23]],"date-time":"2011-11-23T16:54:44Z","timestamp":1322067284000},"source":"Crossref","is-referenced-by-count":0,"title":["Statistics
+        of cooperative extension work"],"prefix":"10.5962","author":[{"name":"United
+        States.","sequence":"first","affiliation":[]}],"member":"33859","deposited":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T20:40:54Z","timestamp":1650055254000},"score":24.480486,"resource":{"primary":{"URL":"https:\/\/www.biodiversitylibrary.org\/bibliography\/40887"}},"issued":{"date-parts":[[1920]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.40887","published":{"date-parts":[[1920]]}},{"indexed":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T22:11:48Z","timestamp":1650060708392},"publisher-location":"Upper
+        Darby","reference-count":0,"publisher":"[s.n.]","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1955]]},"DOI":"10.5962\/bhl.title.114942","type":"monograph","created":{"date-parts":[[2016,4,3]],"date-time":"2016-04-03T06:10:16Z","timestamp":1459663816000},"source":"Crossref","is-referenced-by-count":0,"title":["Forest
+        statistics for New York"],"prefix":"10.5962","author":[{"name":"United States.","sequence":"first","affiliation":[]}],"member":"33859","deposited":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T21:41:04Z","timestamp":1650058864000},"score":24.463898,"resource":{"primary":{"URL":"https:\/\/www.biodiversitylibrary.org\/bibliography\/114942"}},"issued":{"date-parts":[[1955]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.114942","published":{"date-parts":[[1955]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T05:19:31Z","timestamp":1649049571217},"publisher-location":"Anapolis,
+        MD :","reference-count":0,"publisher":"U.S. Environmental Protection Agency,
+        Region III, Chesapeake Bay Program Office,","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007]]},"DOI":"10.5962\/bhl.title.149917","type":"monograph","created":{"date-parts":[[2018,7,15]],"date-time":"2018-07-15T05:00:34Z","timestamp":1531630834000},"source":"Crossref","is-referenced-by-count":2,"title":["Ambient
+        water quality criteria for dissolved oxygen, water clarity and chlorophyll
+        a for Chesapeake Bay and its tidal tributaries : 2007 addendum \/"],"prefix":"10.5962","author":[{"name":"United
+        States.","sequence":"first","affiliation":[]},{"name":"United States.","sequence":"additional","affiliation":[]},{"name":"United
+        States.","sequence":"additional","affiliation":[]},{"name":"United States.","sequence":"additional","affiliation":[]}],"member":"3444","deposited":{"date-parts":[[2018,7,15]],"date-time":"2018-07-15T05:00:34Z","timestamp":1531630834000},"score":24.149914,"resource":{"primary":{"URL":"https:\/\/www.biodiversitylibrary.org\/bibliography\/149917"}},"issued":{"date-parts":[[2007]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.149917","published":{"date-parts":[[2007]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T22:42:12Z","timestamp":1648939332854},"publisher-location":"Silver
+        Spring, Md. :","reference-count":0,"publisher":"U.S. Dept. of Commerce, National
+        Oceanic and Atmospheric Administration, National Marine Fisheries Service
+        :","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2005]]},"DOI":"10.5962\/bhl.title.4145","type":"monograph","created":{"date-parts":[[2011,11,11]],"date-time":"2011-11-11T16:58:15Z","timestamp":1321030695000},"source":"Crossref","is-referenced-by-count":0,"title":["Fisheries
+        of the United States, 2004 \/ National Marine Fisheries Service, Office of
+        Science and Technology, Fisheries Statistics Division."],"prefix":"10.5962","author":[{"name":"United
+        States.","sequence":"first","affiliation":[]}],"member":"3444","deposited":{"date-parts":[[2011,11,11]],"date-time":"2011-11-11T16:58:25Z","timestamp":1321030705000},"score":23.88857,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/4145"}},"issued":{"date-parts":[[2005]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.4145","published":{"date-parts":[[2005]]}},{"indexed":{"date-parts":[[2022,11,17]],"date-time":"2022-11-17T05:35:42Z","timestamp":1668663342271},"reference-count":0,"publisher":"OECD","isbn-type":[{"value":"9789264032712","type":"print"},{"value":"9789264032774","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007,5,29]]},"DOI":"10.1787\/eco_surveys-usa-2007-en","type":"book","created":{"date-parts":[[2009,7,9]],"date-time":"2009-07-09T11:18:25Z","timestamp":1247138305000},"source":"Crossref","is-referenced-by-count":4,"title":["OECD
+        Economic Surveys: United States 2007"],"prefix":"10.1787","author":[{"name":"OECD","sequence":"first","affiliation":[]}],"member":"1963","container-title":["OECD
+        Economic Surveys: United States"],"deposited":{"date-parts":[[2021,9,7]],"date-time":"2021-09-07T01:01:09Z","timestamp":1630976469000},"score":23.803648,"resource":{"primary":{"URL":"https:\/\/www.oecd-ilibrary.org\/economics\/oecd-economic-surveys-united-states-2007_eco_surveys-usa-2007-en"}},"issued":{"date-parts":[[2007,5,29]]},"ISBN":["9789264032712","9789264032774"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1787\/eco_surveys-usa-2007-en","ISSN":["1999-0103"],"issn-type":[{"value":"1999-0103","type":"electronic"}],"published":{"date-parts":[[2007,5,29]]}},{"indexed":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T20:24:01Z","timestamp":1651177441557},"publisher-location":"Newtown
+        Square, Pa. :","reference-count":0,"publisher":"U.S. Dept. of Agriculture,
+        Forest Service, Northeastern Research Station,","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2000]]},"DOI":"10.5962\/bhl.title.70042","type":"monograph","created":{"date-parts":[[2013,12,8]],"date-time":"2013-12-08T02:01:10Z","timestamp":1386468070000},"source":"Crossref","is-referenced-by-count":1,"title":["Forest
+        statistics for Connecticut \/"],"prefix":"10.5962","author":[{"given":"Carol
+        L.","family":"Alerich","sequence":"first","affiliation":[]},{"name":"United
+        States.","sequence":"additional","affiliation":[]}],"member":"3444","deposited":{"date-parts":[[2013,12,8]],"date-time":"2013-12-08T02:01:11Z","timestamp":1386468071000},"score":23.689041,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/70042"}},"issued":{"date-parts":[[2000]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.70042","published":{"date-parts":[[2000]]}},{"indexed":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T19:40:31Z","timestamp":1650051631801},"publisher-location":"Washington","reference-count":0,"publisher":"Govt.
+        Print. Off","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1895]]},"DOI":"10.5962\/bhl.title.19003","type":"monograph","created":{"date-parts":[[2011,11,22]],"date-time":"2011-11-22T16:25:22Z","timestamp":1321979122000},"source":"Crossref","is-referenced-by-count":0,"title":["Report
+        of the United States Commission to the Columbian Historical Exposition at
+        Madrid. 1892-93. With special papers"],"prefix":"10.5962","author":[{"name":"United
+        States.","sequence":"first","affiliation":[]}],"member":"33859","deposited":{"date-parts":[[2022,4,15]],"date-time":"2022-04-15T19:14:20Z","timestamp":1650050060000},"score":23.465435,"resource":{"primary":{"URL":"https:\/\/www.biodiversitylibrary.org\/bibliography\/19003"}},"issued":{"date-parts":[[1895]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.19003","published":{"date-parts":[[1895]]}},{"indexed":{"date-parts":[[2022,4,6]],"date-time":"2022-04-06T03:51:38Z","timestamp":1649217098323},"reference-count":0,"publisher":"Commonwealth","isbn-type":[{"value":"9781848598874","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007,4,1]]},"DOI":"10.14217\/smalst-2007-en","type":"book","created":{"date-parts":[[2015,4,8]],"date-time":"2015-04-08T06:04:56Z","timestamp":1428473096000},"source":"Crossref","is-referenced-by-count":2,"title":["Small
+        States"],"prefix":"10.14217","author":[{"name":"Commonwealth Secretariat","sequence":"first","affiliation":[]}],"member":"28689","container-title":["Small
+        States: Economic Review and Basic Statistics"],"deposited":{"date-parts":[[2020,11,3]],"date-time":"2020-11-03T08:00:45Z","timestamp":1604390445000},"score":23.054111,"resource":{"primary":{"URL":"https:\/\/www.thecommonwealth-ilibrary.org\/commonwealth\/economics\/small-states_smalst-2007-en"}},"subtitle":["Economic
+        Review and Basic Statistics, Volume 11"],"issued":{"date-parts":[[2007,4,1]]},"ISBN":["9781848598874"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.14217\/smalst-2007-en","ISSN":["1359-7507"],"issn-type":[{"value":"1359-7507","type":"electronic"}],"published":{"date-parts":[[2007,4,1]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T08:42:52Z","timestamp":1649061772556},"reference-count":0,"publisher":"Duke
+        University Press","isbn-type":[{"value":"9780822389811","type":"electronic"},{"value":"9780822340058","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007,7,16]]},"DOI":"10.2307\/j.ctv11hpmg2","type":"monograph","created":{"date-parts":[[2020,6,19]],"date-time":"2020-06-19T20:32:51Z","timestamp":1592598771000},"source":"Crossref","is-referenced-by-count":0,"title":["Redress
+        for Historical Injustices in the United States"],"prefix":"10.2307","member":"1121","deposited":{"date-parts":[[2020,6,19]],"date-time":"2020-06-19T20:32:52Z","timestamp":1592598772000},"score":23.037626,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv11hpmg2"}},"subtitle":["On
+        Reparations for Slavery, Jim Crow, and Their Legacies"],"editor":[{"given":"MICHAEL
+        T.","family":"MARTIN","sequence":"additional","affiliation":[]},{"given":"MARILYN","family":"YAQUINTO","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2007,7,16]]},"ISBN":["9780822389811","9780822340058"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv11hpmg2","relation":{"is-identical-to":[{"id-type":"doi","id":"10.1215\/9780822389811","asserted-by":"subject"},{"id-type":"doi","id":"10.1515\/9780822389811","asserted-by":"object"}]},"published":{"date-parts":[[2007,7,16]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T06:21:18Z","timestamp":1648707678157},"reference-count":0,"publisher":"Duke
+        University Press","isbn-type":[{"value":"9780822340058","type":"print"},{"value":"9780822389811","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007]]},"DOI":"10.1215\/9780822389811","type":"book","created":{"date-parts":[[2013,11,20]],"date-time":"2013-11-20T06:54:06Z","timestamp":1384930446000},"source":"Crossref","is-referenced-by-count":5,"title":["Redress
+        for Historical Injustices in the United States"],"prefix":"10.1215","member":"73","deposited":{"date-parts":[[2020,8,31]],"date-time":"2020-08-31T13:31:05Z","timestamp":1598880665000},"score":23.005117,"resource":{"primary":{"URL":"http:\/\/read.dukeupress.edu\/books\/book\/2249\/Redress-for-Historical-Injustices-in-the-United"}},"subtitle":["On
+        Reparations for Slavery, Jim Crow, and Their Legacies"],"editor":[{"given":"Michael
+        T.","family":"Martin","sequence":"first","affiliation":[]},{"given":"Marilyn","family":"Yaquinto","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2007]]},"ISBN":["9780822340058","9780822389811"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1215\/9780822389811","relation":{"is-identical-to":[{"id-type":"doi","id":"10.1515\/9780822389811","asserted-by":"object"},{"id-type":"doi","id":"10.2307\/j.ctv11hpmg2","asserted-by":"object"}]},"published":{"date-parts":[[2007]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T22:23:36Z","timestamp":1649024616543},"edition-number":"0","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781136600241","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.4324\/9780203953990","type":"reference-book","created":{"date-parts":[[2014,3,14]],"date-time":"2014-03-14T08:48:42Z","timestamp":1394786922000},"source":"Crossref","is-referenced-by-count":0,"title":["Historical
+        Atlas of the United States"],"prefix":"10.4324","author":[{"given":"Mark C.","family":"Carnes","sequence":"first","affiliation":[]}],"member":"301","published-online":{"date-parts":[[2013,2,1]]},"deposited":{"date-parts":[[2021,4,5]],"date-time":"2021-04-05T17:54:12Z","timestamp":1617645252000},"score":22.808535,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781136600241"}},"issued":{"date-parts":[[2013,2,1]]},"ISBN":["9781136600241"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780203953990","published":{"date-parts":[[2013,2,1]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T16:39:43Z","timestamp":1649090383769},"edition-number":"0","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781135948597","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.4324\/9780203997000","type":"reference-book","created":{"date-parts":[[2014,3,14]],"date-time":"2014-03-14T08:48:42Z","timestamp":1394786922000},"source":"Crossref","is-referenced-by-count":0,"title":["Historical
+        Gazetteer of the United States"],"prefix":"10.4324","author":[{"given":"Paul
+        T.","family":"Hellmann","sequence":"first","affiliation":[]}],"member":"301","published-online":{"date-parts":[[2006,2,14]]},"deposited":{"date-parts":[[2021,4,5]],"date-time":"2021-04-05T23:35:05Z","timestamp":1617665705000},"score":22.793789,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781135948597"}},"issued":{"date-parts":[[2006,2,14]]},"ISBN":["9781135948597"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780203997000","published":{"date-parts":[[2006,2,14]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Historical
+        Statistics of the United States 2007"}}}'
+  recorded_at: Tue, 20 Dec 2022 02:43:15 GMT
+- request:
+    method: get
+    uri: http://api.crossref.org/works?filter=type:book&query.bibliographic=%22Historical%20Statistics%20of%20the%20United%20States,%20Cambridge%20University%20Press,%20New%20York,%20USA,%202007%22&rows=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 Dec 2022 02:43:17 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3179'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":9754,"items":[{"indexed":{"date-parts":[[2022,7,29]],"date-time":"2022-07-29T04:19:51Z","timestamp":1659068391410},"reference-count":0,"publisher":"Princeton
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,10,19]]},"abstract":"<p>This
+        chapter shows that predicaments facing the European Union today are reminiscent
+        of constitutional decisions the United States faced not once, but twice. It
+        begins with a simple expected present value model for government debt and
+        explains how Hansen and Sargent (1980) used rational expectations econometrics
+        to render this model operational. It then presents a case study that illustrates
+        how the constitutions of the United States have influenced the government
+        net-of-interest surplus process and therefore the value of government debt.
+        Drawing on the unpleasant arithmetic of Sargent and Wallace (1981), the chapter
+        argues that a responsible fiscal policy makes it easy for a monetary authority
+        to sustain low inflation, whereas a profligate fiscal policy has the opposite
+        effect.<\/p>","DOI":"10.23943\/princeton\/9780691158709.003.0010","type":"book","created":{"date-parts":[[2017,11,21]],"date-time":"2017-11-21T12:51:26Z","timestamp":1511268686000},"source":"Crossref","is-referenced-by-count":5,"title":["United
+        States Then, Europe Now"],"prefix":"10.23943","author":[{"given":"Thomas J.","family":"Sargent","sequence":"first","affiliation":[]}],"member":"10341","container-title":["Princeton
+        University Press"],"original-title":["United States Then, Europe Now"],"deposited":{"date-parts":[[2022,7,28]],"date-time":"2022-07-28T14:35:27Z","timestamp":1659018927000},"score":32.753307,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/princeton-scholarship-online\/book\/16164\/chapter\/171222771"}},"issued":{"date-parts":[[2017,10,19]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.23943\/princeton\/9780691158709.003.0010","published":{"date-parts":[[2017,10,19]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T14:48:51Z","timestamp":1649083731995},"reference-count":0,"publisher":"University
+        of Illinois Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,4,20]]},"abstract":"<p>This
+        chapter relays in broad terms the long history of European American settlement
+        and subsequent Latin American migration\u2014particularly undertaken by Mexicans\u2014to
+        the U.S. Heartland. It gives particular attention to the capitalist-led development
+        during the second half of the nineteenth century as the United States sought
+        to build itself into not only a formidable industrial power but also a world
+        power. It traces the vital role that immigrant workers\u2014and specifically
+        Mexican laborers\u2014have played in this process despite their often being
+        treated as second-class citizens. An appreciation of this history provides
+        one with a clear sense of the neocolonial aspirations of U.S. enterprise\u2014both
+        governmental and commercial\u2014as well as the many contradictory and timeworn
+        Anglo rationalizations that exploit Mexican workers in the United States today.<\/p>","DOI":"10.5406\/illinois\/9780252037665.003.0002","type":"book","created":{"date-parts":[[2017,5,5]],"date-time":"2017-05-05T04:59:34Z","timestamp":1493960374000},"source":"Crossref","is-referenced-by-count":0,"title":["Mexicans
+        in the United States"],"prefix":"10.5406","author":[{"given":"Andrew Grant","family":"Wood","sequence":"first","affiliation":[]}],"member":"3673","container-title":["University
+        of Illinois Press"],"original-title":["Mexicans in the United States"],"deposited":{"date-parts":[[2018,4,11]],"date-time":"2018-04-11T10:26:00Z","timestamp":1523442360000},"score":32.01817,"resource":{"primary":{"URL":"http:\/\/illinois.universitypressscholarship.com\/view\/10.5406\/illinois\/9780252037665.001.0001\/upso-9780252037665-chapter-2"}},"issued":{"date-parts":[[2017,4,20]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5406\/illinois\/9780252037665.003.0002","published":{"date-parts":[[2017,4,20]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T17:54:32Z","timestamp":1649094872026},"reference-count":0,"publisher":"University
+        of Illinois Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,4,20]]},"abstract":"<p>This
+        chapter describes Regina''s active retirement years and examines her legacy.
+        Regina lived for nearly a decade as a widow until February 5, 1993, when she
+        died at the age of ninety-one in the Bethel Nursing Home. Regina''s death
+        was reported in the <italic>New York Amsterdam News<\/italic>\u2014the newspaper
+        that had covered her social engagements, creative pursuits, wedding, and professional
+        accomplishments. Regina''s last will was a testimony to her strong commitment
+        to various organizations. Regina left several thousand dollars to various
+        organizations located in New York City, including two thousand dollars to
+        the National Urban League and an equal amount to the National Association
+        for the Advancement of Colored People; one thousand dollars to National Council
+        of Women of the United States, two thousand dollars to the American Council
+        for Nationalities Services, and one thousand to the Washington Heights Branch
+        of the New York Public Library.<\/p>","DOI":"10.5406\/illinois\/9780252038501.003.0009","type":"book","created":{"date-parts":[[2017,5,5]],"date-time":"2017-05-05T09:09:36Z","timestamp":1493975376000},"source":"Crossref","is-referenced-by-count":0,"title":["Mahopac,
+        New York"],"prefix":"10.5406","author":[{"given":"Ethelene","family":"Whitmire","sequence":"first","affiliation":[]}],"member":"3673","container-title":["University
+        of Illinois Press"],"original-title":["Mahopac, New York"],"deposited":{"date-parts":[[2018,4,11]],"date-time":"2018-04-11T14:29:44Z","timestamp":1523456984000},"score":31.41925,"resource":{"primary":{"URL":"http:\/\/illinois.universitypressscholarship.com\/view\/10.5406\/illinois\/9780252038501.001.0001\/upso-9780252038501-chapter-009"}},"issued":{"date-parts":[[2017,4,20]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5406\/illinois\/9780252038501.003.0009","published":{"date-parts":[[2017,4,20]]}},{"indexed":{"date-parts":[[2022,5,21]],"date-time":"2022-05-21T11:40:39Z","timestamp":1653133239413},"reference-count":0,"publisher":"Codon
+        Publications","isbn-type":[{"value":"9780646809687","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.15586\/alzheimersdisease.2019","type":"book","created":{"date-parts":[[2019,11,29]],"date-time":"2019-11-29T13:55:30Z","timestamp":1575035730000},"source":"Crossref","is-referenced-by-count":5,"title":["Alzheimer\u2019s
+        Disease"],"prefix":"10.15586","member":"6228","published-online":{"date-parts":[[2019,11,29]]},"deposited":{"date-parts":[[2022,5,21]],"date-time":"2022-05-21T11:15:04Z","timestamp":1653131704000},"score":31.269722,"resource":{"primary":{"URL":"https:\/\/exonpublications.com\/index.php\/exon\/issue\/view\/11"}},"editor":[{"given":"Thomas","family":"Wisniewski","sequence":"first","affiliation":[]},{"name":"New
+        York University Alzheimer\u2019s Disease Center, New York University School
+        of Medicine, New York, USA","sequence":"first","affiliation":[]}],"issued":{"date-parts":[[2019,11,29]]},"ISBN":["9780646809687"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.15586\/alzheimersdisease.2019","published":{"date-parts":[[2019,11,29]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T06:05:43Z","timestamp":1648793143102},"reference-count":0,"publisher":"University
+        of Illinois Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,4,20]]},"abstract":"<p>This
+        chapter considers the question of whether fascism was a realistic possibility
+        in the United States during the Great Depression. It argues that federal and
+        regional character of the American state, and of the American right, saved
+        the United States from the emergence of an authoritarian political movement
+        that sought anything but veto power at the seat of national government. But
+        had the American state had more of a Prussian character, opposition to the
+        New Deal order might well have taken a more overtly anti-parliamentary, paramilitary
+        character, as it briefly did in the racially tense 1950s and 1960s, when resistance
+        to integration generated a revival of rhetoric celebrating \u201cstates''
+        rights,\u201d accompanied by sometimes violent clashes with federal authorities.<\/p>","DOI":"10.5406\/illinois\/9780252037856.003.0012","type":"book","created":{"date-parts":[[2017,5,5]],"date-time":"2017-05-05T05:02:23Z","timestamp":1493960543000},"source":"Crossref","is-referenced-by-count":0,"title":["The
+        United States in the Great Depression"],"prefix":"10.5406","author":[{"given":"Nelson","family":"Lichtenstein","sequence":"first","affiliation":[]}],"member":"3673","container-title":["University
+        of Illinois Press"],"original-title":["The United States in the Great Depression"],"deposited":{"date-parts":[[2018,4,11]],"date-time":"2018-04-11T10:26:57Z","timestamp":1523442417000},"score":31.136745,"resource":{"primary":{"URL":"http:\/\/illinois.universitypressscholarship.com\/view\/10.5406\/illinois\/9780252037856.001.0001\/upso-9780252037856-chapter-012"}},"issued":{"date-parts":[[2017,4,20]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5406\/illinois\/9780252037856.003.0012","published":{"date-parts":[[2017,4,20]]}}],"items-per-page":5,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Tue, 20 Dec 2022 02:43:17 GMT
+recorded_with: VCR 6.1.0

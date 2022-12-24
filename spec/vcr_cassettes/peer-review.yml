@@ -1,0 +1,1376 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.1111%2Fjan.15115%2Fv3%2Fdecision1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:44:05 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '727'
+      Set-Cookie:
+      - AWSALB=fOJVtpJVMMZvzPlm5iVjYYYAdTLPzDySmnH6WXD/1s+zEmzBpUohDQDtfeKFkg8FhluC2cVzwOIjHH/PUSyqD12/WWoDLUr9jom3meESlcDHE325txjhRdNNLwpX;
+        Expires=Thu, 29 Dec 2022 22:44:05 GMT; Path=/
+      - AWSALBCORS=fOJVtpJVMMZvzPlm5iVjYYYAdTLPzDySmnH6WXD/1s+zEmzBpUohDQDtfeKFkg8FhluC2cVzwOIjHH/PUSyqD12/WWoDLUr9jom3meESlcDHE325txjhRdNNLwpX;
+        Expires=Thu, 29 Dec 2022 22:44:05 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:32:01Z","timestamp":1648978321373},"reference-count":0,"publisher":"Wiley","content-domain":{"domain":[]},"short-container-title":[],"published-print":{"date-parts":[[2021,10,17]]},"DOI":"10.1111\/jan.15115\/v3\/decision1","type":"peer-review","created":{"date-parts":[[2021,12,1]],"date-time":"2021-12-01T21:08:09Z","timestamp":1638392889000},"source":"Crossref","is-referenced-by-count":0,"title":["Decision
+        letter for \"Self\u2010care of patients with multiple chronic conditions and
+        their caregivers during the COVID\u201019 pandemic: A qualitative descriptive
+        study\""],"prefix":"10.1111","member":"311","container-title":[],"review":{"type":"editor-report","running-number":"E1V3","revision-round":"3","stage":"pre-publication"},"original-title":[],"deposited":{"date-parts":[[2021,12,1]],"date-time":"2021-12-01T21:08:11Z","timestamp":1638392891000},"score":1,"resource":{"primary":{"URL":"https:\/\/publons.com\/publon\/50403050"}},"subtitle":[],"editor":[{"family":"Debra
+        Jackson","sequence":"first","affiliation":[]}],"short-title":[],"issued":{"date-parts":[[2021,10,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1111\/jan.15115\/v3\/decision1","relation":{"is-review-of":[{"id-type":"doi","id":"10.1111\/JAN.15115","asserted-by":"subject"}]},"published":{"date-parts":[[2021,10,17]]}}}'
+  recorded_at: Thu, 22 Dec 2022 22:44:05 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Decision%2Bletter%2Bfor%2B%22Self%E2%80%90care%2Bof%2Bpatients%2Bwith%2Bmultiple%2Bchronic%2Bconditions%2Band%2Btheir%2Bcaregivers%2Bduring%2Bthe%2BCOVID%E2%80%9019%2Bpandemic:%2BA%2Bqualitative%2Bdescriptive%2Bstudy%22%2B2021%2BWiley
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:44:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":25125,"items":[{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T06:07:37Z","timestamp":1648793257527},"reference-count":0,"publisher":"\u0438\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e
+        \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.11621\/rpo.2021.13","type":"book-chapter","created":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:08Z","timestamp":1634221508000},"page":"333-344","source":"Crossref","is-referenced-by-count":0,"title":["\u201cSelf-care\u201d
+        as vector of psychological awareness raising during the pandemic"],"prefix":"10.11621","author":[{"given":"N.A.","family":"Nizovskykh","sequence":"first","affiliation":[]}],"member":"4893","published-online":{"date-parts":[[2021]]},"container-title":["PSYCHOLOGICAL
+        GUIDANCE DURING THE COVID-19 PANDEMIC"],"original-title":["\u00ab\u0417\u0430\u0431\u043e\u0442\u0430
+        \u043e \u0441\u0435\u0431\u0435\u00bb \u043a\u0430\u043a \u0432\u0435\u043a\u0442\u043e\u0440
+        \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e
+        \u043f\u0440\u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u044f \u0432
+        \u043f\u0435\u0440\u0438\u043e\u0434 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438"],"deposited":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:20Z","timestamp":1634221520000},"score":39.757324,"resource":{"primary":{"URL":"https:\/\/msupress.com\/catalogue\/books\/chapter\/3199\/"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11621\/rpo.2021.13","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T01:24:07Z","timestamp":1648949047218},"reference-count":35,"publisher":"Elsevier","license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1016\/b978-0-323-82691-4.00004-2","type":"book-chapter","created":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:42:09Z","timestamp":1630053729000},"page":"123-129","source":"Crossref","is-referenced-by-count":0,"title":["Neuro-Oncologic
+        Care During the COVID-19 Pandemic"],"prefix":"10.1016","author":[{"given":"James
+        M.","family":"Snyder","sequence":"first","affiliation":[]},{"given":"Mohammed
+        F.","family":"Rehman","sequence":"additional","affiliation":[]}],"member":"78","reference":[{"issue":"7","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0010","doi-asserted-by":"crossref","first-page":"928","DOI":"10.1093\/neuonc\/noaa113","article-title":"Neuro-oncology
+        management during the COVID-19 pandemic with a focus on WHO grades III and
+        IV gliomas","volume":"22","author":"Bernhardt","year":"2020","journal-title":"Neuro
+        Oncol"},{"issue":"7","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0015","doi-asserted-by":"crossref","first-page":"912","DOI":"10.1093\/neuonc\/noaa090","article-title":"Urgent
+        considerations for the neuro-oncologic treatment of patients with gliomas
+        during the COVID-19 pandemic","volume":"22","author":"Mohile","year":"2020","journal-title":"Neuro
+        Oncol"},{"issue":"5","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0020","doi-asserted-by":"crossref","first-page":"665","DOI":"10.1038\/s41591-020-0874-8","article-title":"Caring
+        for patients with cancer in the COVID-19 era","volume":"26","author":"van
+        de Haar","year":"2020","journal-title":"Nat Med"},{"issue":"2","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0025","doi-asserted-by":"crossref","first-page":"104","DOI":"10.1097\/JNN.0b013e3181ce5a34","article-title":"Psychosocial
+        implications for the patient with a high-grade glioma","volume":"42","author":"Lucas","year":"2010","journal-title":"J
+        Neurosci Nurs"},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0030","doi-asserted-by":"crossref","article-title":"Mental
+        health and the Covid-19 pandemic","author":"Pfefferbaum","year":"2020","journal-title":"N
+        Engl J Med","DOI":"10.1056\/NEJMp2008017"},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0035","series-title":"Current
+        Understanding and Treatment of Gliomas. Cancer Treatment and Research","first-page":"171","article-title":"Palliative
+        and supportive care for glioma patients","author":"Walbert","year":"2015"},{"issue":"4","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0040","doi-asserted-by":"crossref","first-page":"398","DOI":"10.1001\/jama.2012.29","article-title":"Caregiving
+        burden, stress, and health effects among family caregivers of adult cancer
+        patients","volume":"307","author":"Bevans","year":"2012","journal-title":"JAMA"},{"issue":"2","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0045","doi-asserted-by":"crossref","first-page":"145","DOI":"10.1093\/tbm\/ibx028","article-title":"Reducing
+        informal caregiver burden in cancer: evidence-based programs in practice","volume":"8","author":"Longacre","year":"2018","journal-title":"Transl
+        Behav Med"},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0050","doi-asserted-by":"crossref","first-page":"131","DOI":"10.1016\/j.ijid.2020.04.086","article-title":"Lymphopenia
+        is associated with severe coronavirus disease 2019 (COVID-19) infections:
+        a systemic review and meta-analysis","volume":"96","author":"Zhao","year":"2020","journal-title":"Int
+        J Infect Dis"},{"issue":"154","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0055","doi-asserted-by":"crossref","DOI":"10.1183\/16000617.0012-2019","article-title":"Management
+        of pulmonary toxicity associated with immune checkpoint inhibitors","volume":"28","author":"Delaunay","year":"2019","journal-title":"Eur
+        Respir Rev"},{"issue":"5","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0060","doi-asserted-by":"crossref","first-page":"533","DOI":"10.1038\/s41423-020-0402-2","article-title":"Functional
+        exhaustion of antiviral lymphocytes in COVID-19 patients","volume":"17","author":"Zheng","year":"2020","journal-title":"Cell
+        Mol Immunol"},{"issue":"21","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0065","doi-asserted-by":"crossref","first-page":"2049","DOI":"10.1056\/NEJMsb2005114","article-title":"Fair
+        allocation of scarce medical resources in the time of Covid-19","volume":"382","author":"Emanuel","year":"2020","journal-title":"N
+        Engl J Med"},{"issue":"1","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0070","doi-asserted-by":"crossref","first-page":"25","DOI":"10.1007\/s11060-009-9840-5","article-title":"Racial,
+        ethnic and socioeconomic disparities in the treatment of brain tumors","volume":"93","author":"Curry","year":"2009","journal-title":"J
+        Neurooncol"},{"issue":"24","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0075","doi-asserted-by":"crossref","first-page":"2466","DOI":"10.1001\/jama.2020.8598","article-title":"COVID-19
+        and racial\/ethnic disparities","volume":"323","author":"Hooper","year":"2020","journal-title":"JAMA"},{"issue":"Suppl
+        5","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0080","doi-asserted-by":"crossref","first-page":"v1","DOI":"10.1093\/neuonc\/now207","article-title":"CBTRUS
+        statistical report: primary brain and other central nervous system tumors
+        diagnosed in the United States in 2009\u20132013","volume":"18","author":"Ostrom","year":"2016","journal-title":"Neuro
+        Oncol"},{"issue":"23","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0085","doi-asserted-by":"crossref","first-page":"2535","DOI":"10.1001\/jama.2015.16669","article-title":"Maintenance
+        therapy with tumor-treating fields plus Temozolomide vs Temozolomide alone
+        for glioblastoma: a randomized clinical trial","volume":"314","author":"Stupp","year":"2015","journal-title":"JAMA"},{"issue":"14","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0090","doi-asserted-by":"crossref","first-page":"1344","DOI":"10.1056\/NEJMoa1500925","article-title":"Radiation
+        plus Procarbazine, CCNU, and vincristine in low-grade glioma","volume":"374","author":"Buckner","year":"2016","journal-title":"N
+        Engl J Med"},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0095","doi-asserted-by":"crossref","article-title":"Characteristics
+        of and important lessons from the coronavirus disease 2019 (COVID-19) outbreak
+        in China: summary of a report of 72314 cases from the Chinese Center for Disease
+        Control and Prevention","author":"Wu","year":"2020","journal-title":"JAMA","DOI":"10.1001\/jama.2020.2648"},{"issue":"7","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0100","doi-asserted-by":"crossref","first-page":"894","DOI":"10.1016\/j.annonc.2020.03.296","article-title":"Clinical
+        characteristics of COVID-19-infected cancer patients: a retrospective case
+        study in three hospitals within Wuhan, China","volume":"31","author":"Zhang","year":"2020","journal-title":"Ann
+        Oncol"},{"issue":"11","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0105","doi-asserted-by":"crossref","first-page":"1027","DOI":"10.1056\/NEJMoa1611977","article-title":"Short-course
+        radiation plus Temozolomide in elderly patients with glioblastoma","volume":"376","author":"Perry","year":"2017","journal-title":"N
+        Engl J Med"},{"issue":"10","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0110","doi-asserted-by":"crossref","first-page":"997","DOI":"10.1056\/NEJMoa043331","article-title":"MGMT
+        gene silencing and benefit from Temozolomide in glioblastoma","volume":"352","author":"Hegi","year":"2005","journal-title":"N
+        Engl J Med"},{"issue":"7","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0115","doi-asserted-by":"crossref","first-page":"918","DOI":"10.1093\/neuonc\/noaa111","article-title":"A
+        quantitative framework for modeling COVID-19 risk during adjuvant therapy
+        using published randomized trials of glioblastoma in the elderly","volume":"22","author":"Tabrizi","year":"2020","journal-title":"Neuro
+        Oncol"},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0120","doi-asserted-by":"crossref","article-title":"Palliative
+        radiation therapy for oncologic emergencies in the setting of COVID-19: approaches
+        to balancing risks and benefits","author":"Yerramilli","year":"2020","journal-title":"Adv
+        Radiat Oncol","DOI":"10.1016\/j.adro.2020.04.001"},{"issue":"3","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0130","doi-asserted-by":"crossref","first-page":"495","DOI":"10.1227\/01.NEU.0000170562.25335.C7","article-title":"A
+        prospective study of quality of life in adults with newly diagnosed high-grade
+        gliomas: the impact of the extent of resection on quality of life and survival","volume":"57","author":"Brown","year":"2005","journal-title":"Neurosurgery"},{"issue":"4","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0135","doi-asserted-by":"crossref","first-page":"971","DOI":"10.1002\/cam4.266","article-title":"The
+        role of laser interstitial thermal therapy in enhancing progression-free survival
+        of difficult-to-access high-grade gliomas: a multicenter study","volume":"3","author":"Mohammadi","year":"2014","journal-title":"Cancer
+        Med"},{"issue":"3","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0140","doi-asserted-by":"crossref","first-page":"525","DOI":"10.1007\/s11060-020-03488-7","article-title":"Inpatient
+        and outpatient case prioritization for patients with neuro-oncologic disease
+        amid the COVID-19 pandemic: general guidance for neuro-oncology practitioners
+        from the AANS\/CNS Tumor Section and Society for Neuro-Oncology","volume":"147","author":"Ramakrishna","year":"2020","journal-title":"J
+        Neurooncol"},{"issue":"6","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0145","doi-asserted-by":"crossref","first-page":"1392","DOI":"10.3171\/2016.10.JNS16954","article-title":"A
+        protocol for postoperative admission of elective craniotomy patients to a
+        non-ICU or step-down setting","volume":"127","author":"Florman","year":"2017","journal-title":"J
+        Neurosurg"},{"issue":"3","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0150","doi-asserted-by":"crossref","first-page":"e200369","DOI":"10.1001\/jamahealthforum.2020.0369","article-title":"Nursing
+        homes are ground zero for COVID-19 pandemic","volume":"1","author":"Barnett","year":"2020","journal-title":"JAMA
+        Health Forum"},{"issue":"6","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0155","doi-asserted-by":"crossref","first-page":"744","DOI":"10.1634\/theoncologist.2012-0293","article-title":"The
+        NOMS framework: approach to the treatment of spinal metastatic tumors","volume":"18","author":"Laufer","year":"2013","journal-title":"Oncologist"},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0160","unstructured":"National
+        Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology.
+        Central Nervous System Cancers. Version 1.2016. nccn.org. Accessed 10\/17\/2016."},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0165","unstructured":"What
+        are the phases of clinical trials? Accessed August 2, 2020. https:\/\/www.cancer.org\/treatment\/treatments-and-side-effects\/clinical-trials\/what-you-need-to-know\/phases-of-clinical-trials.html"},{"issue":"21","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0170","doi-asserted-by":"crossref","first-page":"2135","DOI":"10.1001\/jama.2020.4689","article-title":"Preserving
+        clinical trial integrity during the coronavirus pandemic","volume":"323","author":"McDermott","year":"2020","journal-title":"JAMA"},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0175","doi-asserted-by":"crossref","first-page":"185","DOI":"10.1200\/EDBK_156686","article-title":"Role
+        of clinical trial participation in cancer research: barriers, evidence, and
+        strategies","volume":"35","author":"Unger","year":"2016","journal-title":"Am
+        Soc Clin Oncol Educ Book Am Soc Clin Oncol Meet"},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0180","series-title":"Best
+        Care at Lower Cost: The Path to Continuously Learning Health Care in America","year":"2013"},{"issue":"5","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0185","doi-asserted-by":"crossref","DOI":"10.1007\/s11912-020-00904-z","article-title":"Developing
+        real-world evidence-ready datasets: time for clinician engagement","volume":"22","author":"Snyder","year":"2020","journal-title":"Curr
+        Oncol Rep"}],"container-title":["Neurological Care and the COVID-19 Pandemic"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000042?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000042?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:42:38Z","timestamp":1630053758000},"score":39.49548,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780323826914000042"}},"issued":{"date-parts":[[2021]]},"references-count":35,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-323-82691-4.00004-2","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,9,25]],"date-time":"2022-09-25T04:59:19Z","timestamp":1664081959506},"publisher-location":"Cham","reference-count":15,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783031102110","type":"print"},{"value":"9783031102127","type":"electronic"}],"license":[{"start":{"date-parts":[[2022,9,25]],"date-time":"2022-09-25T00:00:00Z","timestamp":1664064000000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,9,25]],"date-time":"2022-09-25T00:00:00Z","timestamp":1664064000000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2023]]},"DOI":"10.1007\/978-3-031-10212-7_75","type":"book-chapter","created":{"date-parts":[[2022,9,24]],"date-time":"2022-09-24T05:02:51Z","timestamp":1663995771000},"page":"915-925","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Hospitals
+        in UAE Between Normal and COVID-19 Patients: A Descriptive Study of the Beginning
+        of the Pandemic"],"prefix":"10.1007","author":[{"ORCID":"http:\/\/orcid.org\/0000-0002-7215-1022","authenticated-orcid":false,"given":"Anis","family":"Bachta","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2022,9,25]]},"reference":[{"key":"75_CR1","doi-asserted-by":"publisher","first-page":"790","DOI":"10.3389\/fpsyt.2020.00790","volume":"11","author":"R
+        Rossi","year":"2020","unstructured":"Rossi, R., Socci, V., Talevi, D., Mensi,
+        S., Niolu, C., Pacitti, F., Di Lorenzo, G.: COVID-19 pandemic and lockdown
+        measures impact on mental health among the general population in Italy. Front.
+        Psych. 11, 790 (2020)","journal-title":"Front. Psych."},{"issue":"7820","key":"75_CR2","doi-asserted-by":"publisher","first-page":"262","DOI":"10.1038\/s41586-020-2404-8","volume":"584","author":"S
+        Hsiang","year":"2020","unstructured":"Hsiang, S., Allen, D., Annan-Phan, S.,
+        Bell, K., Bolliger, I., Chong, T., Lau, P.: The effect of large-scale anti-contagion
+        policies on the COVID-19 pandemic. Nature 584(7820), 262\u2013267 (2020)","journal-title":"Nature"},{"issue":"11","key":"75_CR3","doi-asserted-by":"publisher","first-page":"3314","DOI":"10.3390\/nu12113314","volume":"12","author":"L
+        Cheikh Ismail","year":"2020","unstructured":"Cheikh Ismail, L., Osaili, T.M.,
+        Mohamad, M.N., Al Marzouqi, A., Jarrar, A.H., Abu Jamous, D.O., AlMarzooqi,
+        L.M.: Eating habits and lifestyle during COVID-19 lockdown in the United Arab
+        Emirates: a cross-sectional study. Nutrients 12(11), 3314 (2020)","journal-title":"Nutrients"},{"issue":"4","key":"75_CR4","doi-asserted-by":"publisher","first-page":"408","DOI":"10.11648\/j.ajp.20200604.14","volume":"6","author":"S
+        Hassan","year":"2020","unstructured":"Hassan, S., Saviour, M., Perkar, S.,
+        Augustine, T., Ahmed, S.U., Radhadevi, B., Blelepsma, M.: The impacts of home
+        confinement due to coronavirus (COVID-19) on children: a cross sectional survey
+        study, mediclinic city hospital, Dubai. UAE. Am. J. Pediatr. 6(4), 408\u2013420
+        (2020)","journal-title":"UAE. Am. J. Pediatr."},{"key":"75_CR5","first-page":"1","volume":"24","author":"N
+        Masoud","year":"2020","unstructured":"Masoud, N., Bohra, O.P.: Challenges
+        and opportunities of distance learning during Covid-19 in UAE. Acad. Account.
+        Financ. Stud. J. 24, 1\u201312 (2020)","journal-title":"Acad. Account. Financ.
+        Stud. J."},{"key":"75_CR6","doi-asserted-by":"crossref","unstructured":"Sher,
+        L.: The impact of the COVID-19 pandemic on suicide rates. QJM Int. J. Med.
+        113(10), 707\u2013712 (2020)","DOI":"10.1093\/qjmed\/hcaa202"},{"key":"75_CR7","doi-asserted-by":"crossref","unstructured":"Sharifi,
+        A., Khavarian-Garmsir, A.R.: The COVID-19 pandemic: impacts on cities and
+        major lessons for urban planning, design, and management. Sci. Total Environ.
+        142391 (2020)","DOI":"10.1016\/j.scitotenv.2020.142391"},{"key":"75_CR8","doi-asserted-by":"publisher","first-page":"1540","DOI":"10.3389\/fpsyg.2020.01540","volume":"11","author":"R
+        Rodr\u00edguez-Rey","year":"2020","unstructured":"Rodr\u00edguez-Rey, R.,
+        Garrido-Hernansaiz, H., Collado, S.: Psychological impact and associated factors
+        during the initial stage of the coronavirus (COVID-19) pandemic among the
+        general population in Spain. Front. Psychol. 11, 1540 (2020)","journal-title":"Front.
+        Psychol."},{"key":"75_CR9","doi-asserted-by":"publisher","first-page":"102211","DOI":"10.1016\/j.ijinfomgt.2020.102211","volume":"55","author":"YK
+        Dwivedi","year":"2020","unstructured":"Dwivedi, Y.K., Hughes, D.L., Coombs,
+        C., Constantiou, I., Duan, Y., Edwards, J.S., Raman, R.: Impact of COVID-19
+        pandemic on information management research and practice: transforming education,
+        work and life. Int. J. Inf. Manage. 55, 102211 (2020)","journal-title":"Int.
+        J. Inf. Manage."},{"issue":"4","key":"75_CR10","doi-asserted-by":"publisher","first-page":"132","DOI":"10.3390\/joitmc6040132","volume":"6","author":"I
+        Niankara","year":"2020","unstructured":"Niankara, I., Muqattash, R., Niankara,
+        A., Traoret, R.I.: COVID-19 vaccine development in a quadruple helix innovation
+        system: uncovering the preferences of the fourth helix in the UAE. J. Open
+        Innov. Technol. Market Complexity 6(4), 132 (2020)","journal-title":"J. Open
+        Innov. Technol. Market Complexity"},{"key":"75_CR11","doi-asserted-by":"publisher","first-page":"145","DOI":"10.1016\/S0140-6736(02)07373-7","volume":"359","author":"DA
+        Grimes","year":"2002","unstructured":"Grimes, D.A., Schultz, K.F.: Descriptive
+        studies: what they can and cannot do. The Lancet 359, 145\u2013149 (2002)","journal-title":"The
+        Lancet"},{"key":"75_CR12","unstructured":"Atallah, B., El Lababidi, R., Jesse,
+        W., Noor, L., Al Mahmeed, W.: Adapting to the COVID-19 pandemic at a quaternary
+        care hospital in the middle East Gulf Region. Heart Views 21(3), 133 (2020)"},{"issue":"2","key":"75_CR13","doi-asserted-by":"publisher","first-page":"197","DOI":"10.1016\/j.jhin.2020.03.027","volume":"105","author":"CY
+        Lin","year":"2020","unstructured":"Lin, C.Y., Cheng, C.H., Lu, P.L., Shih,
+        D.C., Hung, C.T., Lo, H.H., Tsai, M.J., Hung, J.Y.: Active surveillance for
+        suspected COVID-19 cases in inpatients with information technology. J. Hosp.
+        Infect. 105(2), 197 (2020)","journal-title":"J. Hosp. Infect."},{"key":"75_CR14","doi-asserted-by":"crossref","unstructured":"Repici,
+        A., Maselli, R., Colombo, M., Gabbiadini, R., Spadaccini, M., Anderloni, A.,
+        Lagioia, M.: Coronavirus (COVID-19) outbreak: what the department of endoscopy
+        should know. Gastrointest. Endosc. 92(1), 192\u2013197 (2020)","DOI":"10.1016\/j.gie.2020.03.019"},{"issue":"14","key":"75_CR15","doi-asserted-by":"publisher","first-page":"411","DOI":"10.15585\/mmwr.mm6914e1","volume":"69","author":"WE
+        Wei","year":"2020","unstructured":"Wei, W.E., Li, Z., Chiew, C.J., Yong, S.E.,
+        Toh, M.P., Lee, V.J.: Presymptomatic transmission of SARS-CoV-2\u2014Singapore.
+        Morb. Mortal. Wkly Rep. 69(14), 411 (2020)","journal-title":"Morb. Mortal.
+        Wkly Rep."}],"container-title":["Studies in Systems, Decision and Control","The
+        Implementation of Smart Technologies for Business Success and Sustainability"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-031-10212-7_75","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,24]],"date-time":"2022-09-24T05:27:50Z","timestamp":1663997270000},"score":38.18346,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-031-10212-7_75"}},"issued":{"date-parts":[[2022,9,25]]},"ISBN":["9783031102110","9783031102127"],"references-count":15,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-031-10212-7_75","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2022,9,25]]},"assertion":[{"value":"25
+        September 2022","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T03:31:07Z","timestamp":1648524667954},"reference-count":0,"publisher":"\u0438\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e
+        \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.11621\/rpo.2021.08","type":"book-chapter","created":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:08Z","timestamp":1634221508000},"page":"189-198","source":"Crossref","is-referenced-by-count":0,"title":["Coping
+        with stress during the COVID-19 pandemic and self-isolation"],"prefix":"10.11621","author":[{"given":"T.L.","family":"Kryukova","sequence":"first","affiliation":[]},{"given":"E.A.","family":"Silina","sequence":"additional","affiliation":[]},{"given":"A.M.","family":"Govorkova","sequence":"additional","affiliation":[]},{"given":"O.A.","family":"Ekimchik","sequence":"additional","affiliation":[]}],"member":"4893","published-online":{"date-parts":[[2021]]},"container-title":["PSYCHOLOGICAL
+        GUIDANCE DURING THE COVID-19 PANDEMIC"],"original-title":["\u0421\u043e\u0432\u043b\u0430\u0434\u0430\u043d\u0438\u0435
+        \u0441\u043e \u0441\u0442\u0440\u0435\u0441\u0441\u043e\u043c \u0432 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438
+        \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438 COVID-19 \u0438 \u0441\u0430\u043c\u043e\u0438\u0437\u043e\u043b\u044f\u0446\u0438\u0438"],"deposited":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:16Z","timestamp":1634221516000},"score":36.992077,"resource":{"primary":{"URL":"https:\/\/msupress.com\/catalogue\/books\/chapter\/3194\/"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11621\/rpo.2021.08","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,10,28]],"date-time":"2022-10-28T22:08:58Z","timestamp":1666994938673},"publisher-location":"Cham","reference-count":54,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_19","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"305-317","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":1,"title":["Using
+        mHealth Apps in Health Education of Schoolchildren with Chronic Disease During
+        COVID-19 Pandemic Era"],"prefix":"10.1007","author":[{"given":"Abdulaziz Mansoor","family":"Al
+        Raimi","sequence":"first","affiliation":[]},{"given":"Chan Mei","family":"Chong","sequence":"additional","affiliation":[]},{"given":"Li
+        Yoong","family":"Tang","sequence":"additional","affiliation":[]},{"given":"Yan
+        Piaw","family":"Chua","sequence":"additional","affiliation":[]},{"given":"Latifa
+        Yahya","family":"Al Ajeel","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,3,21]]},"reference":[{"issue":"2","key":"19_CR1","doi-asserted-by":"publisher","first-page":"e20","DOI":"10.2196\/jmir.3.2.e20","volume":"3","author":"G
+        Eysenbach","year":"2001","unstructured":"Eysenbach, G.: What is e-health?
+        J. Med. Internet Res. 3(2), e20 (2001)","journal-title":"J. Med. Internet
+        Res."},{"issue":"1","key":"19_CR2","doi-asserted-by":"publisher","first-page":"e1001363","DOI":"10.1371\/journal.pmed.1001363","volume":"10","author":"C
+        Free","year":"2013","unstructured":"Free, C., et al.: The effectiveness of
+        mobile-health technologies to improve health care service delivery processes:
+        a systematic review and meta-analysis. PLoS Med. 10(1), e1001363 (2013)","journal-title":"PLoS
+        Med."},{"issue":"1","key":"19_CR3","doi-asserted-by":"publisher","first-page":"144","DOI":"10.1186\/1741-7015-10-144","volume":"10","author":"K
+        Huckvale","year":"2012","unstructured":"Huckvale, K., Car, M., Morrison, C.,
+        Car, J.: Apps for asthma self-management: a systematic assessment of content
+        and tools. BMC Med. 10(1), 144 (2012)","journal-title":"BMC Med."},{"issue":"5","key":"19_CR4","doi-asserted-by":"publisher","first-page":"e128","DOI":"10.2196\/jmir.1994","volume":"14","author":"E
+        Ozdalga","year":"2012","unstructured":"Ozdalga, E., Ozdalga, A., Ahuja, N.:
+        The smartphone in medicine: a review of current and potential use among physicians
+        and students (in Eng). J. Med. Internet Res. 14(5), e128 (2012). https:\/\/doi.org\/10.2196\/jmir.1994","journal-title":"J.
+        Med. Internet Res."},{"key":"19_CR5","doi-asserted-by":"publisher","unstructured":"Ramsey,
+        R.R., Plevinsky, J.M., Kollin, S.R., Gibler, R.C., Guilbert, T.W., Hommel,
+        K.A.: Systematic review of digital interventions for pediatric asthma management.
+        J. Allergy Clin. Immunol. Pract. 8(4), 1284\u20131293 (2020). https:\/\/doi.org\/10.1016\/j.jaip.2019.12.013","DOI":"10.1016\/j.jaip.2019.12.013"},{"key":"19_CR6","doi-asserted-by":"publisher","unstructured":"Fedele,
+        D.A., et al.: Applying interactive mobile health to asthma care in teens (AIM2ACT):
+        development and design of a randomized controlled trial. Contemp. Clin. Trials
+        64, 230\u2013237 (2018). https:\/\/doi.org\/10.1016\/j.cct.2017.09.007","DOI":"10.1016\/j.cct.2017.09.007"},{"key":"19_CR7","doi-asserted-by":"publisher","unstructured":"Ramsey,
+        R.R., et al.: A systematic evaluation of asthma management apps examining
+        behavior change techniques. J. Allergy Clin. Immunol. Pract. 7(8), 2583\u20132591
+        (2019). https:\/\/doi.org\/10.1016\/j.jaip.2019.03.041","DOI":"10.1016\/j.jaip.2019.03.041"},{"issue":"1","key":"19_CR8","doi-asserted-by":"publisher","first-page":"342","DOI":"10.1177\/1460458218824734","volume":"26","author":"T
+        Schneider","year":"2020","unstructured":"Schneider, T., Baum, L., Amy, A.,
+        Marisa, C.: I have most of my asthma under control and I know how my asthma
+        acts: users\u2019 perceptions of asthma self-management mobile app tailored
+        for adolescents. Health Inform. J. 26(1), 342\u2013353 (2020). https:\/\/doi.org\/10.1177\/1460458218824734","journal-title":"Health
+        Inform. J."},{"issue":"5","key":"19_CR9","doi-asserted-by":"publisher","first-page":"733","DOI":"10.1016\/j.dsx.2020.05.033","volume":"14","author":"K
+        Iyengar","year":"2020","unstructured":"Iyengar, K., Upadhyaya, G.K., Vaishya,
+        R., Jain, V.: COVID-19 and applications of smartphone technology in the current
+        pandemic (in Eng). Diabetes Metab. Syndr. 14(5), 733\u2013737 (2020). https:\/\/doi.org\/10.1016\/j.dsx.2020.05.033","journal-title":"Diabetes
+        Metab. Syndr."},{"issue":"5","key":"19_CR10","doi-asserted-by":"publisher","first-page":"283","DOI":"10.1016\/j.ijmedinf.2013.01.003","volume":"82","author":"LH
+        Iwaya","year":"2013","unstructured":"Iwaya, L.H., et al.: Mobile health in
+        emerging countries: a survey of research initiatives in Brazil. Int. J. Med.
+        Inform. 82(5), 283\u2013298 (2013). https:\/\/doi.org\/10.1016\/j.ijmedinf.2013.01.003","journal-title":"Int.
+        J. Med. Inform."},{"key":"19_CR11","doi-asserted-by":"publisher","unstructured":"Choi,
+        J.Y., Cho Chung, H.I.: Effect of an individualised education programme on
+        asthma control, inhaler use skill, asthma knowledge and health-related quality
+        of life among poorly compliant Korean adult patients with asthma (in Eng).
+        J. Clin. Nurs. 20(1\u20132), 119\u2013126 (2011). https:\/\/doi.org\/10.1111\/j.1365-2702.2010.03420.x","DOI":"10.1111\/j.1365-2702.2010.03420.x"},{"key":"19_CR12","doi-asserted-by":"publisher","unstructured":"Arpaci,
+        I., Al-Emran, M., Al-Sharafi, M.A.: The impact of knowledge management practices
+        on the acceptance of Massive Open Online Courses (MOOCs) by engineering students:
+        a cross-cultural comparison. Telemat. Inform., 101468 (2020). https:\/\/doi.org\/10.1016\/j.tele.2020.101468","DOI":"10.1016\/j.tele.2020.101468"},{"issue":"10","key":"19_CR13","doi-asserted-by":"publisher","first-page":"e234","DOI":"10.2196\/jmir.4975","volume":"17","author":"H
+        Rhee","year":"2015","unstructured":"Rhee, H., Belyea, M.J., Sterling, M.,
+        Bocko, M.F.: Evaluating the validity of an automated device for asthma monitoring
+        for adolescents: correlational design. J. Med. Internet Res. 17(10), e234
+        (2015). https:\/\/doi.org\/10.2196\/jmir.4975","journal-title":"J. Med. Internet
+        Res."},{"issue":"4","key":"19_CR14","doi-asserted-by":"publisher","first-page":"509","DOI":"10.1007\/s13142-016-0402-z","volume":"6","author":"DM
+        Carpenter","year":"2016","unstructured":"Carpenter, D.M., Geryk, L.L., Sage,
+        A., Arrindell, C., Sleath, B.L.: Exploring the theoretical pathways through
+        which asthma app features can promote adolescent self-management (in Eng).
+        Transl. Behav. Med. 6(4), 509\u2013518 (2016). https:\/\/doi.org\/10.1007\/s13142-016-0402-z","journal-title":"Transl.
+        Behav. Med."},{"issue":"4","key":"19_CR15","doi-asserted-by":"publisher","first-page":"347","DOI":"10.1016\/j.anai.2018.02.002","volume":"120","author":"MS
+        Blaiss","year":"2018","unstructured":"Blaiss, M.S.: Asthma mobile applications:
+        are they ready for prime time? Ann. Allergy Asthma Immunol. 120(4), 347\u2013348
+        (2018). https:\/\/doi.org\/10.1016\/j.anai.2018.02.002","journal-title":"Ann.
+        Allergy Asthma Immunol."},{"key":"19_CR16","doi-asserted-by":"crossref","unstructured":"Klasnja,
+        P., Pratt, W.: Healthcare in the pocket: mapping the space of mobile-phone
+        health interventions. J. Biomed. Inform. 45(1), 184\u2013198 (2012). http:\/\/dx.doi.org\/10.1016\/j.jbi.2011.08.017","DOI":"10.1016\/j.jbi.2011.08.017"},{"key":"19_CR17","doi-asserted-by":"crossref","unstructured":"Arnold,
+        N., Paulus, T.: Using a social networking site for experiential learning:
+        appropriating, lurking, modeling and community building. Internet High. Educ.
+        13(4), 188\u2013196 (2010). http:\/\/dx.doi.org\/10.1016\/j.iheduc.2010.04.002","DOI":"10.1016\/j.iheduc.2010.04.002"},{"key":"19_CR18","doi-asserted-by":"publisher","unstructured":"Arpaci,
+        I., Karata\u015f, K., Balo\u011flu, M.: The development and initial tests
+        for the psychometric properties of the COVID-19 Phobia Scale (C19P-S). Pers.
+        Individ. Differ. 164, 110108 (2020). https:\/\/doi.org\/10.1016\/j.paid.2020.110108","DOI":"10.1016\/j.paid.2020.110108"},{"key":"19_CR19","doi-asserted-by":"crossref","unstructured":"Dyer,
+        O.: Covid-19: pandemic is having \u201csevere\u201d impact on non-communicable
+        disease care, WHO survey finds. Ed: British Medical Journal Publishing Group
+        (2020)","DOI":"10.1136\/bmj.m2210"},{"key":"19_CR20","doi-asserted-by":"crossref","unstructured":"Pei,
+        Y., et al.: COVID-19: children comparison with adults based on the latest
+        data. Available at SSRN 3550063 (2020)","DOI":"10.2139\/ssrn.3550063"},{"key":"19_CR21","doi-asserted-by":"publisher","unstructured":"Oreskovic,
+        N.M., Kinane, T.B., Aryee, E., Kuhlthau, K.A., Perrin, J.M.: The unexpected
+        risks of COVID-19 on asthma control in children. J. Allergy Clin. Immunol.
+        Pract. (2020). https:\/\/doi.org\/10.1016\/j.jaip.2020.05.027","DOI":"10.1016\/j.jaip.2020.05.027"},{"key":"19_CR22","doi-asserted-by":"crossref","unstructured":"Abrams,
+        E.M., W\u2019t Jong, G., Yang, C.L.: RE: comment: asthma and COVID-19 (2020)","DOI":"10.1503\/cmaj.200617"},{"key":"19_CR23","unstructured":"Kim,
+        S.-H., et al.: Perceptions of severe asthma and asthma-COPD overlap syndrome
+        among specialists: a questionnaire survey. Allergy Asthma Immunol. Res. 10(3),
+        225\u2013235. Available [online] http:\/\/synapse.koreamed.org\/DOIx.php?id=10.4168%2Faair.2018.10.3.225
+        (2018)"},{"key":"19_CR24","doi-asserted-by":"crossref","unstructured":"Johnston,
+        S.L.: Asthma and COVID-19: is asthma a risk factor for severe outcomes?. Allergy
+        (2020)","DOI":"10.1111\/all.14348"},{"key":"19_CR25","unstructured":"mobiThinking:
+        Global mobile statistics 2014 part A: mobile subscribers; handset market share;
+        mobile operators. Available [online] http:\/\/mobiforge.com\/research-analysis\/global-mobile-statistics-2014-part-a-mobile-subscribers-handset-market-share-mobile-operators#subscribers
+        (2014)"},{"key":"19_CR26","doi-asserted-by":"crossref","unstructured":"Varshney,
+        U.: Mobile health: four emerging themes of research. Deci. Support Syst. 66,
+        20\u201335 (2014). http:\/\/dx.doi.org\/10.1016\/j.dss.2014.06.001","DOI":"10.1016\/j.dss.2014.06.001"},{"issue":"3","key":"19_CR27","doi-asserted-by":"publisher","first-page":"189","DOI":"10.1177\/1059840516659912","volume":"33","author":"CF
+        Mickel","year":"2017","unstructured":"Mickel, C.F., Shanovich, K.K., Evans,
+        M.D., Jackson, D.J.: Evaluation of a school-based asthma education protocol:
+        iggy and the inhalers. J. Sch. Nurs. (Sage Publications Inc.) 33(3), 189\u2013197
+        (2017). https:\/\/doi.org\/10.1177\/1059840516659912","journal-title":"J.
+        Sch. Nurs. (Sage Publications Inc.)"},{"key":"19_CR28","doi-asserted-by":"crossref","unstructured":"Viner,
+        R., et al.: School closure and management practices during coronavirus outbreaks
+        including COVID-19: a rapid narrative systematic review. Available at SSRN
+        3556648 (2020)","DOI":"10.2139\/ssrn.3556648"},{"key":"19_CR29","doi-asserted-by":"crossref","unstructured":"Arpaci,
+        I., et al.: Analysis of twitter data using evolutionary clustering during
+        the COVID-19 pandemic. Comput. Mater. Contin. 65(1), 193\u2013204. Available
+        [online] http:\/\/www.techscience.com\/cmc\/v65n1\/39561 (2020)","DOI":"10.32604\/cmc.2020.011489"},{"key":"19_CR30","doi-asserted-by":"publisher","unstructured":"Licari,
+        A., et al.: Allergy and asthma in children and adolescents during the COVID
+        outbreak: what we know and how we could prevent allergy and asthma flares.
+        Allergy n\/a(n\/a) (2020). https:\/\/doi.org\/10.1111\/all.14369","DOI":"10.1111\/all.14369"},{"key":"19_CR31","doi-asserted-by":"publisher","unstructured":"S\u00e1nchez-Prieto,
+        J.C., Olmos-Miguel\u00e1\u00f1ez, S., Garc\u00eda-Pe\u00f1alvo, F.J.: Informal
+        tools in formal contexts: development of a model to assess the acceptance
+        of mobile technologies among teachers. Comput. Hum. Behav. 55, 519\u2013528
+        (2016). https:\/\/doi.org\/10.1016\/j.chb.2015.07.002","DOI":"10.1016\/j.chb.2015.07.002"},{"key":"19_CR32","doi-asserted-by":"publisher","unstructured":"Marcano
+        Belisario, J.S., Huckvale, K., Greenfield, G., Car, J., Gunn, L.H.: Smartphone
+        and tablet self management apps for asthma (in Eng). Cochrane Database Syst.
+        Rev. 11, Cd010013 (2013). https:\/\/doi.org\/10.1002\/14651858.cd010013.pub2","DOI":"10.1002\/14651858.cd010013.pub2"},{"issue":"2","key":"19_CR33","doi-asserted-by":"publisher","first-page":"191","DOI":"10.1037\/0033-295X.84.2.191","volume":"84","author":"A
+        Bandura","year":"1977","unstructured":"Bandura, A.: Self-efficacy: toward
+        a unifying theory of behavioral change. Psychol. Rev. 84(2), 191\u2013215
+        (1977)","journal-title":"Psychol. Rev."},{"issue":"1","key":"19_CR34","doi-asserted-by":"publisher","first-page":"21","DOI":"10.1111\/1467-839X.00024","volume":"2","author":"A
+        Bandura","year":"1999","unstructured":"Bandura, A.: Social cognitive theory:
+        an agentic perspective. Asian J. Soc. Psychol. 2(1), 21\u201341 (1999)","journal-title":"Asian
+        J. Soc. Psychol."},{"issue":"1","key":"19_CR35","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1146\/annurev.psych.52.1.1","volume":"52","author":"A
+        Bandura","year":"2001","unstructured":"Bandura, A.: Social cognitive theory:
+        an agentic perspective. Annu. Rev. Psychol. 52(1), 1\u201326 (2001)","journal-title":"Annu.
+        Rev. Psychol."},{"key":"19_CR36","unstructured":"Nevid, J.S., Rathus, S.A.:
+        Psychology and the Challenges of Life. Wiley, New Jersey (2009)"},{"issue":"9","key":"19_CR37","doi-asserted-by":"publisher","first-page":"705","DOI":"10.1037\/0003-066X.57.9.705","volume":"57","author":"EA
+        Locke","year":"2002","unstructured":"Locke, E.A., Latham, G.P.: Building a
+        practically useful theory of goal setting and task motivation: a 35-year odyssey.
+        Am. Psychol. 57(9), 705 (2002)","journal-title":"Am. Psychol."},{"key":"19_CR38","unstructured":"Bandura,
+        A.: The evolution of social cognitive theory. Great Minds in Management, pp.
+        9\u201335 (2005)"},{"key":"19_CR39","volume-title":"Social Functions of Thought
+        and Action: A Social Cognitive Theory","author":"A Bandura","year":"1986","unstructured":"Bandura,
+        A.: Social Functions of Thought and Action: A Social Cognitive Theory. Prentice
+        Hall Inc, New Jersey (1986)"},{"key":"19_CR40","unstructured":"Okhakhu, E.,
+        Emeka, P., Okhakhu-Okpodi, J.: Employee performance and self efficacy theory
+        as tools for safe healthcare delivery in Nigerian hospitals: a literature
+        based exploration. Insights to a Changing World Journal, Article vol. 2015,
+        no. 2, p. 48. Available [online] http:\/\/ezproxy.um.edu.my:2048\/login?url=http:\/\/search.ebscohost.com\/login.aspx?direct=true&db=a9h&AN=109041280&site=eds-live
+        (2015)"},{"key":"19_CR41","unstructured":"Couch, H.C.: Providers\u2019 acceptance
+        of smartphone applications as a supportive strategy for adolescent asthma.
+        PhD thesis, p. 1. Available [online] http:\/\/search.ebscohost.com\/login.aspx?direct=true&db=ccm&AN=124649828&site=ehost-live
+        (2017)"},{"key":"19_CR42","unstructured":"Al-Sharafi, M.A., Mufadhal, M.E.,
+        Arshah, R.A., Sahabudin, N.A.: Acceptance of online social networks as technology-based
+        education tools among higher institution students: structural equation modeling
+        approach. Sci. Iran. 26(Special Issue on: Socio-Cognitive Engineering), 136\u2013144
+        (2019)"},{"issue":"11","key":"19_CR43","doi-asserted-by":"publisher","first-page":"176","DOI":"10.1007\/s10916-015-0352-x","volume":"39","author":"L
+        Briz-Ponce","year":"2015","unstructured":"Briz-Ponce, L., Garc\u00eda-Pe\u00f1alvo,
+        F.J.: An empirical assessment of a technology acceptance model for apps in
+        medical education. J. Med. Syst. 39(11), 176 (2015)","journal-title":"J. Med.
+        Syst."},{"key":"19_CR44","doi-asserted-by":"crossref","unstructured":"Davis,
+        F.D.: Perceived usefulness, perceived ease of use, and user acceptance of
+        information technology. MIS Quart., 319\u2013340 (1989)","DOI":"10.2307\/249008"},{"key":"19_CR45","doi-asserted-by":"crossref","unstructured":"Al-Emran,
+        M., Al-Maroof, R., Al-Sharafi, M.A., Arpaci, I.: What impacts learning with
+        wearables? An integrated theoretical model. Inter. Learn. Environ., 1\u201321
+        (2020)","DOI":"10.1080\/10494820.2020.1753216"},{"key":"19_CR46","unstructured":"Al-Sharafi,
+        M.A., Arshah, R.A., Herzallah, F.A., Alajmi, Q.: The effect of perceived ease
+        of use and usefulness on customers intention to use online banking services:
+        the mediating role of perceived trust. Int. J. Innov. Comput. 7(1) (2017)"},{"issue":"2","key":"19_CR47","doi-asserted-by":"publisher","first-page":"317","DOI":"10.1016\/j.im.2003.12.013","volume":"42","author":"R
+        Saad\u00e9","year":"2005","unstructured":"Saad\u00e9, R., Bahli, B.: The impact
+        of cognitive absorption on perceived usefulness and perceived ease of use
+        in on-line learning: an extension of the technology acceptance model. Inf.
+        Manag. 42(2), 317\u2013327 (2005)","journal-title":"Inf. Manag."},{"key":"19_CR48","doi-asserted-by":"crossref","unstructured":"Al-Qaysi,
+        N., Mohamad-Nordin, N., Al-Emran, M., Al-Sharafi, M.A.: Understanding the
+        differences in students\u2019 attitudes towards social media use: a case study
+        from Oman. In: 2019 IEEE Student Conference on Research and Development (SCOReD),
+        IEEE, pp. 176\u2013179 (2019)","DOI":"10.1109\/SCORED.2019.8896251"},{"issue":"3","key":"19_CR49","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1007\/s10916-013-9951-6","volume":"37","author":"M
+        Paschou","year":"2013","unstructured":"Paschou, M., Sakkopoulos, E., Tsakalidis,
+        A.: easyHealthApps: e-Health apps dynamic generation for smartphones & tablets.
+        J. Med. Syst. 37(3), 1\u201312 (2013). https:\/\/doi.org\/10.1007\/s10916-013-9951-6","journal-title":"J.
+        Med. Syst."},{"key":"19_CR50","doi-asserted-by":"publisher","unstructured":"Melzner,
+        J., Heinze, J., Fritsch, T.: Mobile health applications in workplace health
+        promotion: an integrated conceptual adoption framework. Proc. Technol. 16,
+        1374\u20131382 (2014). https:\/\/doi.org\/10.1016\/j.protcy.2014.10.155","DOI":"10.1016\/j.protcy.2014.10.155"},{"key":"19_CR51","doi-asserted-by":"crossref","unstructured":"Kagen,
+        S., Garland, A.: Asthma and allergy mobile apps in 2018. 19, ed (2019)","DOI":"10.1007\/s11882-019-0840-z"},{"issue":"6","key":"19_CR52","doi-asserted-by":"publisher","first-page":"527","DOI":"10.1016\/j.anai.2015.03.006","volume":"114","author":"N
+        Farooqui","year":"2015","unstructured":"Farooqui, N., Phillips, G., Barrett,
+        C., Stukus, D.: Acceptability of an interactive asthma management mobile health
+        application for children and adolescents. Ann. Allergy Asthma Immunol. 114(6),
+        527\u2013529 (2015). https:\/\/doi.org\/10.1016\/j.anai.2015.03.006","journal-title":"Ann.
+        Allergy Asthma Immunol."},{"issue":"5","key":"19_CR53","doi-asserted-by":"publisher","first-page":"357","DOI":"10.1089\/g4h.2019.0011","volume":"8","author":"FJ
+        Real","year":"2019","unstructured":"Real, F.J., et al.: Dose matters: a smartphone
+        application to improve asthma control among patients at an urban pediatric
+        primary care clinic. Games Health J. 8(5), 357\u2013365 (2019). https:\/\/doi.org\/10.1089\/g4h.2019.0011","journal-title":"Games
+        Health J."},{"key":"19_CR54","doi-asserted-by":"publisher","unstructured":"Haze,
+        K.A., Lynaugh, J.: Building patient relationships: a smartphone application
+        supporting communication between teenagers with asthma and the RN care coordinator
+        (in Eng). Comput. Inform. Nurs. 31(6), 266\u2013271, quiz 272-3 (2013). https:\/\/doi.org\/10.1097\/nxn.0b013e318295e5ba","DOI":"10.1097\/nxn.0b013e318295e5ba"}],"container-title":["Studies
+        in Systems, Decision and Control","Emerging Technologies During the Era of
+        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_19","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:35:26Z","timestamp":1629700526000},"score":36.1099,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_19"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":54,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_19","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
+        March 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T04:32:33Z","timestamp":1649133153297},"reference-count":10,"publisher":"IntechOpen","license":[{"start":{"date-parts":[[2021,12,8]],"date-time":"2021-12-08T00:00:00Z","timestamp":1638921600000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/3.0\/legalcode"}],"content-domain":{"domain":[],"crossmark-restriction":false},"abstract":"<jats:p>High
+        mortality rate for the coronavirus disease (COVID-19) has been reported worldwide
+        in nursing home residents, and the global concern about the safety of patients
+        and professionals in these institutions is relevant. A large part of post-acute
+        and chronic patient care in Brazil is performed at home through Home Care
+        (HC) services. The objectives of this chapter are to describe the main measures
+        that can be implemented in patient homes in order to keep professionals, patients,
+        and family members safe and to analyze the safety of choosing the home as
+        the place of care during a pandemic, especially in contrast to the results
+        observed in long-term care facilities. COVID-19 infection data among home
+        care patients, obtained after a year of severe epidemic in Brazil, demonstrate
+        that home care is safe and is associated with a low incidence and low lethality
+        related to the new coronavirus.<\/jats:p>","DOI":"10.5772\/intechopen.98529","type":"book-chapter","created":{"date-parts":[[2021,12,9]],"date-time":"2021-12-09T07:25:28Z","timestamp":1639034728000},"source":"Crossref","is-referenced-by-count":0,"title":["Home
+        Care as a Safe Alternative during COVID-19 Crisis"],"prefix":"10.5772","author":[{"given":"Heloisa","family":"Amaral
+        Gaspar","sequence":"first","affiliation":[]},{"given":"Claudio","family":"Oliveira
+        Flauzino","sequence":"additional","affiliation":[]}],"member":"3774","published-online":{"date-parts":[[2021,12,8]]},"reference":[{"key":"ref=1","unstructured":"World
+        Health Organization. Infection prevention and control during health care when
+        COVID-19 is suspected [Internet]. 2020. Available from: https:\/\/www.who.int\/publications-detail\/infection-prevention-and-control-during-health-care-when-novel-coronavirus-(ncov)-
+        infection-is-suspected-20200125 [Accessed: 2021 04 20]."},{"key":"ref=2","unstructured":"Ministry
+        of health. Brazil confirms first case of coronavirus. [Internet]. 2021. Avaible
+        from: https:\/\/agenciabrasil.ebc.com.br\/en\/saude\/noticia\/2020-02\/brazil-confirms-first-case-coronavirus
+        [Accessed: 2021 Apr 20]."},{"key":"ref=3","unstructured":"BMJ Best Practice:
+        Coronav\u00edrus disease 2019 (COVID-19). [Internet]. 2021. p. 3-266. Available
+        from: https:\/\/bestpractice.bmj.com\/info\/ [Accessed: 2020 03 19]"},{"key":"ref=4","doi-asserted-by":"crossref","unstructured":"Kemenesi
+        G, Kornya L, T\u00f3th G, Kurucz K, Zeghbib S, Somogyi B, Z\u00f6ldi V, Urban
+        P, Herezeg R, Jakab F. Nursing homes and the elderly regarding the COVID-19
+        pandemic: situation report from Hungary. GeroScience [Internet]. 2020. p.
+        1093-1099. Available from: https:\/\/doi.org\/10.1007\/s11357-020-00195-z
+        [Accessed: 2021 04 30]","DOI":"10.1007\/s11357-020-00195-z"},{"key":"ref=5","unstructured":"Comas-Herrera
+        A, Zalaka\u00edn J, Litwin C, Hsu AT, Lemmon E, Henderson D, et al. Mortality
+        associated with COVID-19 outbreaks in care homes: early international evidence.
+        Available from: https:\/\/ltccovid.org\/2020\/04\/12\/mortality-associated-with-covid-19-outbreaks-in-care-homes-early-international-evidence\/
+        [Accessed: 2021 04 30]"},{"key":"ref=6","doi-asserted-by":"crossref","unstructured":"Grabowski
+        DC, Mor V. Nursing home care in crisis in the wake of COVID-19. JAMA. 2020.
+        DOI: 10.1001\/jama.2020.8524.","DOI":"10.1001\/jama.2020.8524"},{"key":"ref=7","doi-asserted-by":"crossref","unstructured":"McMichael
+        TM, Currie DW, Clark S, Pogosjans S, Kay M, Schwartz NG, et al; Public Health\u2013Seattle
+        and King County, EvergreenHealth, and CDC COVID-19 Investigation Team. Epidemiology
+        of Covid-19 in a long-term care facility in King Country, Washington. N Engl
+        J Med. 2020. DOI: 10.1056\/nejmoa2005412","DOI":"10.1056\/NEJMoa2005412"},{"key":"ref=8","unstructured":"Censo
+        NEAD 2019\/2020: Censo NEAD FIPE de Aten\u00e7\u00e3o Domiciliar. [Internet].
+        2020. 4-59. Available from: https:\/\/www.neadsaude.org.br\/wp-content\/themes\/nead\/nead-digital\/Censo-NEAD-FIPE-2019-2020\/index.html
+        [Accessed: 2021 04 30]"},{"key":"ref=9","doi-asserted-by":"crossref","unstructured":"Gaspar
+        HA, Oliveira CF, Jacober FC. Home care as a safe alternative in post-acute
+        and long-term care during covid-19 crisis. Oral apresentation at World Hospital
+        at Home Congress 2021. Available from https:\/\/virtualmeeting.kenes.com\/VirtualMeeting\/whahc21\/","DOI":"10.31744\/einstein_journal\/2020CE6053"},{"key":"ref=10","doi-asserted-by":"crossref","unstructured":"Gaspar
+        HA, Oliveira CF, Jacober FC, Deus ER, Canuto F. Home Care as a safe alternative
+        during the COVID-19 crisis. Rev Assoc Med Bras (1992). 2020 Nov;66(11):1482-1486.
+        doi: 10.1590\/1806-9282.66.11.1482.","DOI":"10.1590\/1806-9282.66.11.1482"}],"container-title":["Fighting
+        the COVID-19 Pandemic"],"link":[{"URL":"http:\/\/www.intechopen.com\/download\/pdf\/77142","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,12,9]],"date-time":"2021-12-09T11:58:27Z","timestamp":1639051107000},"score":35.72873,"resource":{"primary":{"URL":"https:\/\/www.intechopen.com\/books\/fighting-the-covid-19-pandemic\/home-care-as-a-safe-alternative-during-covid-19-crisis"}},"issued":{"date-parts":[[2021,12,8]]},"references-count":10,"URL":"http:\/\/dx.doi.org\/10.5772\/intechopen.98529","published":{"date-parts":[[2021,12,8]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T11:25:04Z","timestamp":1648985104024},"publisher-location":"Cham","reference-count":30,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_12","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"183-196","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Mid-Term
+        Forecasting of Fatalities Due to COVID-19 Pandemic: A Case Study in Nine Most
+        Affected Countries"],"prefix":"10.1007","author":[{"given":"Sneha","family":"Rai","sequence":"first","affiliation":[]},{"given":"Mala","family":"De","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,3,21]]},"reference":[{"key":"12_CR1","doi-asserted-by":"publisher","first-page":"109850","DOI":"10.1016\/j.chaos.2020.109850","volume":"135","author":"T
+        Chakraborty","year":"2020","unstructured":"Chakraborty, T., Ghosh, I.: Real-time
+        forecasts and risk assessment of Novel Coronavirus (COVID-19) cases: a data-driven
+        analysis. Chaos, Solitons Fractals 135, 109850 (2020)","journal-title":"Chaos,
+        Solitons Fractals"},{"key":"12_CR2","doi-asserted-by":"publisher","first-page":"138761","DOI":"10.1016\/j.scitotenv.2020.138761","volume":"727","author":"M
+        Saez","year":"2020","unstructured":"Saez, M., Tobias, A., Varga, D., Barcelo,
+        M.A.: Effectiveness of the measures to flatten the epidemic curve of COVID-19:
+        the case of Spain. Sci. Total Env. 727, 138761 (2020)","journal-title":"Sci.
+        Total Env."},{"issue":"10223","key":"12_CR3","doi-asserted-by":"publisher","first-page":"470","DOI":"10.1016\/S0140-6736(20)30185-9","volume":"395","author":"C
+        Wang","year":"2020","unstructured":"Wang, C., Horby, P.W., Hayden, F.G., Gao,
+        G.F.: A novel Coronavirus outbreak of global health concern. Lancet 395(10223),
+        470\u2013473 (2020)","journal-title":"Lancet"},{"key":"12_CR4","doi-asserted-by":"publisher","first-page":"102759","DOI":"10.1016\/j.cities.2020.102759","volume":"103","author":"L
+        Liu","year":"2020","unstructured":"Liu, L.: Emerging study on the transmission
+        of the Novel Coronavirus (COVID-19) from urban perspective: evidence from
+        China. Cities 103, 102759 (2020)","journal-title":"Cities"},{"key":"12_CR5","doi-asserted-by":"publisher","first-page":"138959","DOI":"10.1016\/j.scitotenv.2020.138959","volume":"729","author":"Z
+        Zhao","year":"2020","unstructured":"Zhao, Z., Li, X., Liu, F., Zhu, G., Ma,
+        C., Wang, L.: Prediction of the COVID-19 spread in African countries and implications
+        for prevention and control: a case study in South Africa, Egypt, Algeria,
+        Nigeria, Senegal and Kenya. Sci. Total Env. 729, 138959 (2020)","journal-title":"Sci.
+        Total Env."},{"key":"12_CR6","doi-asserted-by":"publisher","unstructured":"Arpaci,
+        I., lshehabi, S., Al-Emran, M., Khasawneh, M., Mahariq, I., Abdeljawad, T.,
+        Hassanien, A.E.: Analysis of twitter data using evolutionary clustering during
+        the COVID-19 pandemic. In: Cmc-Computers Materials & Continua (2020). Accessed
+        13 Sep 2020. https:\/\/doi.org\/10.32604\/cmc.2020.011489","DOI":"10.32604\/cmc.2020.011489"},{"key":"12_CR7","doi-asserted-by":"publisher","first-page":"110108","DOI":"10.1016\/j.paid.2020.110108","volume":"164","author":"I
+        Arpaci","year":"2020","unstructured":"Arpaci, I., Karata\u015f, K., Balo\u011flu,
+        M.: The development and initial tests for the psychometric properties of the
+        COVID-19 Phobia Scale (C19P-S). Personality Individ. Differ. 164, 110108 (2020).
+        https:\/\/doi.org\/10.1016\/j.paid.2020.110108","journal-title":"Personality
+        Individ. Differ."},{"key":"12_CR8","doi-asserted-by":"publisher","author":"RF
+        Reis","year":"2020","unstructured":"Reis, R.F., Quintela, B.M., Campos, J.O.,
+        Gomes, J.M., Rocha, B.M., Lobosco, M., Santos, R.W.: Characterization of the
+        COVID-19 pandemic and the impact of uncertainties, migration strategies, and
+        underreporting of cases in South Korea, Italy, and Brazil. Chaos, Solitons
+        Fractals (2020). https:\/\/doi.org\/10.1016\/j.chaos.2020.109888","journal-title":"Chaos,
+        Solitons Fractals","DOI":"10.1016\/j.chaos.2020.109888"},{"key":"12_CR9","doi-asserted-by":"publisher","author":"RM
+        Elavarsan","year":"2020","unstructured":"Elavarsan, R.M., Pugazhendhi, R.:
+        Restructured society and environment: A review on potential technological
+        strategies to control the COVID-19 pandemic. Sci. Total Env. (2020). https:\/\/doi.org\/10.1016\/j.scitotenv.2020.138858","journal-title":"Sci.
+        Total Env.","DOI":"10.1016\/j.scitotenv.2020.138858"},{"key":"12_CR10","unstructured":"Li,
+        Q., Guan, X., Wu, P., Wang, X., Zhou, I., Tong, Y.: Early transmission dynamics
+        in Wuhan, China, of novel coronavirus-infected pneumonia. N top N Engl. J.
+        Med. (2020)"},{"key":"12_CR11","doi-asserted-by":"publisher","unstructured":"Qarnain,
+        S.S., Muthuvel, S., Bathrinath, S.: Review on government action plans to reduce
+        energy consumption in buildings amid COVID-19 pandemic outbreak. Materials
+        Today: Proceedings (2019). https:\/\/doi.org\/10.1016\/j.matpr.2020.04.723","DOI":"10.1016\/j.matpr.2020.04.723"},{"issue":"4","key":"12_CR12","doi-asserted-by":"publisher","first-page":"1484","DOI":"10.1109\/59.41700","volume":"4","author":"I
+        Moghram","year":"1989","unstructured":"Moghram, I., Rahman, S.: Analysis and
+        evaluation of five short-term load forecasting techniques. IEEE Trans. Power
+        Syst. 4(4), 1484\u20131491 (1989)","journal-title":"IEEE Trans. Power Syst."},{"key":"12_CR13","doi-asserted-by":"crossref","unstructured":"Aly
+        Hamed, H.H.: A proposed intelligent short-term load forecasting hybrid models
+        of ANN, WNN, and KF based on clustering techniques for smart grid. Electr.
+        Power Syst. Res. 182 (2020)","DOI":"10.1016\/j.epsr.2019.106191"},{"issue":"4","key":"12_CR14","doi-asserted-by":"publisher","first-page":"4356","DOI":"10.1109\/TPWRS.2013.2269803","volume":"28","author":"E
+        Ceperic","year":"2013","unstructured":"Ceperic, E., Ceperic, V., Member, S.,
+        Baric, A.: A Strategy for short-term load forecasting by support vector regression
+        machines. IEEE Trans. Power Syst. 28(4), 4356\u20134364 (2013)","journal-title":"IEEE
+        Trans. Power Syst."},{"key":"12_CR15","doi-asserted-by":"publisher","first-page":"3493","DOI":"10.3390\/en11123493","volume":"11","author":"C
+        Tian","year":"2018","unstructured":"Tian, C., Ma, J., Zhang, C., Zhan, P.:
+        A deep neural network for short-term load forecast based on LSTM and convolution
+        neural network. Energies 11, 3493 (2018)","journal-title":"Energies"},{"key":"12_CR16","doi-asserted-by":"publisher","author":"S
+        Singh","year":"2020","unstructured":"Singh, S., Parmar, K.S., Kumar, J., Makkhan,
+        S.J.S.: Development of new hybrid model of discrete wavelet decomposition
+        and ARIMA models in application to one month forecast the causalities cases
+        of COVID-19. Chaos, Solitons Fractals (2020). https:\/\/doi.org\/10.1016\/j.chaos.2020.109866","journal-title":"Chaos,
+        Solitons Fractals","DOI":"10.1016\/j.chaos.2020.109866"},{"key":"12_CR17","unstructured":"Box,
+        G.E., Jenkins, G.M., Reinsel, G.C., Ljung, G.M.: Time series analysis: forecasting
+        and control. Wiley, Hoboken (2015)"},{"issue":"4","key":"12_CR18","doi-asserted-by":"publisher","first-page":"1535","DOI":"10.1109\/59.99410","volume":"5","author":"D
+        Alex","year":"1990","unstructured":"Alex, D., Timothy, C.: A regression-based
+        approach to short term system load forecasting. IEEE Trans. Power Syst. 5(4),
+        1535\u20131550 (1990)","journal-title":"IEEE Trans. Power Syst."},{"key":"12_CR19","doi-asserted-by":"crossref","unstructured":"Hagan,
+        M.T., Behr, S.M.: The time series approach to short term load forecasting.
+        IEEE Trans. Power Syst. 2(3) (1987)","DOI":"10.1109\/TPWRS.1987.4335210"},{"key":"12_CR20","doi-asserted-by":"publisher","unstructured":"Ribeiro,
+        M.H.D.M.\u00b8 Silva, R.G., Mariani, V.C., Coelho, L.S.: Short-term forecasting
+        COVID-19 cumulative confirmed cases: perspectives for Brazil. Chaos Solitons
+        Fractals. https:\/\/doi.org\/10.1016\/j.chaos.2020.109853 (2020)","DOI":"10.1016\/j.chaos.2020.109853"},{"issue":"2","key":"12_CR21","doi-asserted-by":"publisher","first-page":"1367","DOI":"10.1109\/TSG.2019.2937072","volume":"12","author":"L
+        Alfieri","year":"2020","unstructured":"Alfieri, L., Falco, P.D.: Wavelet-based
+        decompositions for probabilistic load forecasting. IEEE Trans. Smart Grid
+        12(2), 1367\u20131376 (2020)","journal-title":"IEEE Trans. Smart Grid"},{"key":"12_CR22","doi-asserted-by":"crossref","unstructured":"Percival,
+        D.B., Walden, A.T.: Wavelet Methods for Time Series Analysis, 4. Cambridge
+        University Press, Cambridge (2000)","DOI":"10.1017\/CBO9780511841040"},{"key":"12_CR23","doi-asserted-by":"crossref","unstructured":"Shah,
+        K., Abdeljawad, T., Mahariq, I., Jarad, F.: Qualitative analysis of a mathematical
+        model in the time of COVID-19. BioMed Res. Int. May 27 (2020). https:\/\/www.hindawi.com\/journals\/bmri\/2020\/5098598","DOI":"10.1155\/2020\/5098598"},{"key":"12_CR24","doi-asserted-by":"publisher","first-page":"71","DOI":"10.1016\/j.idm.2020.03.001","volume":"5","author":"WC
+        Roda","year":"2020","unstructured":"Roda, W.C., Varughese, M.B., Han, D.,
+        Li, M.Y.: Why is it difficult to accurately predict the COVID-19 epidemic.
+        Infect. Dis. Modell. 5, 71\u2013281 (2020). https:\/\/doi.org\/10.1016\/j.idm.2020.03.001","journal-title":"Infect.
+        Dis. Modell."},{"issue":"6","key":"12_CR25","doi-asserted-by":"publisher","first-page":"629","DOI":"10.1002\/asmb.2008","volume":"29","author":"R
+        Gob","year":"2013","unstructured":"Gob, R., Lurz, K., Pievatolo, A.: Electrical
+        load forecasting by exponential smoothing with covariates. Appl. Stoch. Models
+        Bus. Ind. 29(6), 629\u2013645 (2013)","journal-title":"Appl. Stoch. Models
+        Bus. Ind."},{"issue":"1","key":"12_CR26","doi-asserted-by":"publisher","first-page":"139","DOI":"10.1016\/j.ejor.2009.10.003","volume":"204","author":"JW
+        Taylor","year":"2010","unstructured":"Taylor, J.W.: Triple seasonal method
+        for short-term electricity demand forecasting. Eur. J. Oper. Res. 204(1),
+        139\u2013152 (2010)","journal-title":"Eur. J. Oper. Res."},{"key":"12_CR27","doi-asserted-by":"publisher","first-page":"138860","DOI":"10.1016\/j.scitotenv.2020.138860","volume":"728","author":"S
+        Gupta","year":"2020","unstructured":"Gupta, S., Raghuvanshi, G.S., Chanda,
+        A.: Effect of weather on COVID-19 spread in US: a prediction model for India
+        in 2020. Sci. Total Env. 728, 138860 (2020)","journal-title":"Sci. Total Env."},{"key":"12_CR28","unstructured":"Stein,
+        E., Schmidt, M.: Advances in adaptive computational methods in mechanics.
+        Studies Appl Mech. (1998)"},{"key":"12_CR29","doi-asserted-by":"crossref","unstructured":"Kafazi,
+        I.E., Bannari, R., Aboutafail, M.O., Guerrero, J.M.: Energy production: a
+        comparison of forecasting methods using the polynomial curve fitting and linear
+        regression. IEEE 978 (2017)","DOI":"10.1109\/IRSEC.2017.8477278"},{"key":"12_CR30","unstructured":"Johnson,
+        A.T.: Curve Fitting. Chapter 13. Elsevier (1991)"}],"container-title":["Studies
+        in Systems, Decision and Control","Emerging Technologies During the Era of
+        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_12","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:26:34Z","timestamp":1629699994000},"score":35.45196,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_12"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":30,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_12","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
+        March 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2022,9,29]],"date-time":"2022-09-29T17:16:34Z","timestamp":1664471794637},"reference-count":0,"publisher":"\u0438\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e
+        \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.11621\/rpo.2021.02","type":"book-chapter","created":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:08Z","timestamp":1634221508000},"page":"31-61","source":"Crossref","is-referenced-by-count":3,"title":["Psychological
+        risks during the COVID-19 pandemic"],"prefix":"10.11621","author":[{"given":"S.B.","family":"Malykh","sequence":"first","affiliation":[]},{"given":"M.A.","family":"Sitnikova","sequence":"additional","affiliation":[]}],"member":"4893","published-online":{"date-parts":[[2021]]},"container-title":["PSYCHOLOGICAL
+        GUIDANCE DURING THE COVID-19 PANDEMIC"],"original-title":["\u041f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435
+        \u0440\u0438\u0441\u043a\u0438 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438
+        \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0430 COVID-19"],"deposited":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:11Z","timestamp":1634221511000},"score":34.705097,"resource":{"primary":{"URL":"https:\/\/msupress.com\/catalogue\/books\/chapter\/3188\/"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11621\/rpo.2021.02","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T15:42:37Z","timestamp":1649173357471},"publisher-location":"Cham","reference-count":35,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030614416","type":"print"},{"value":"9783030614423","type":"electronic"}],"license":[{"start":{"date-parts":[[2020,12,13]],"date-time":"2020-12-13T00:00:00Z","timestamp":1607817600000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,12,13]],"date-time":"2020-12-13T00:00:00Z","timestamp":1607817600000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,12,13]],"date-time":"2020-12-13T00:00:00Z","timestamp":1607817600000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,12,13]],"date-time":"2020-12-13T00:00:00Z","timestamp":1607817600000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-61442-3_37","type":"book-chapter","created":{"date-parts":[[2020,12,12]],"date-time":"2020-12-12T11:02:44Z","timestamp":1607770964000},"page":"357-367","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":2,"title":["The
+        COVID-19 Self-Care Survival Guide: A Framework for Clinicians to Categorize
+        and Utilize Self-Care Strategies and Practices"],"prefix":"10.1007","author":[{"given":"Julian","family":"Cohen-Serrins","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2020,12,13]]},"reference":[{"issue":"2","key":"37_CR1","doi-asserted-by":"publisher","first-page":"79","DOI":"10.1080\/13554794.2020.1731553","volume":"26","author":"N
+        Adluru","year":"2020","unstructured":"Adluru, N., Korponay, C. H., Norton,
+        D. L., Goldman, R. I., & Davidson, R. J. (2020). BrainAGE and regional volumetric
+        analysis of a Buddhist monk: A longitudinal MRI case study. Neurocase, 26(2),
+        79\u201390.","journal-title":"Neurocase"},{"issue":"1","key":"37_CR2","doi-asserted-by":"publisher","first-page":"68","DOI":"10.1177\/0894318406296297","volume":"20","author":"SE
+        Allison","year":"2007","unstructured":"Allison, S. E. (2007). Self-care requirements
+        for activity and rest: An Orem nursing focus. Nursing Science Quarterly, 20(1),
+        68\u201376.","journal-title":"Nursing Science Quarterly"},{"key":"37_CR3","unstructured":"Aranda,
+        J. H., & Baig, S. (2018). Toward \u201cJOMO\u201d the joy of missing out and
+        the freedom of disconnecting. In Proceedings of the 20th international conference
+        on human-computer interaction with mobile devices and services. Digital Memories
+        and Emotions, pp. 1\u20138."},{"key":"37_CR4","doi-asserted-by":"publisher","first-page":"331","DOI":"10.1007\/978-3-319-68213-6_21","volume":"2","author":"PB
+        Brandtz\u00e6g","year":"2018","unstructured":"Brandtz\u00e6g, P. B., F\u00f8lstad,
+        A., & Heim, J. (2018). Enjoyment: Lessons from Karasek. Funology, 2, 331\u2013341.
+        Springer.","journal-title":"Funology"},{"key":"37_CR5","doi-asserted-by":"crossref","unstructured":"Burke,
+        A., & Hassett, S. (2020). Evaluating an instructional resource used for teaching
+        and learning meditation: A pilot study. Journal of Cognitive Enhancement,
+        1\u201310.","DOI":"10.1007\/s41465-020-00168-2"},{"key":"37_CR6","unstructured":"CDC
+        COVID-NET. (2020, August 15). COVID-19 hospitalizations. https:\/\/gis.cdc.gov\/grasp\/COVIDNet\/COVID19_5.html"},{"key":"37_CR7","unstructured":"Centers
+        for Disease Control and Prevention. (2020). Implementing safety practices
+        for critical infrastructure workers who may have had exposure to a person
+        with suspected or confirmed COVID-19. https:\/\/www.cdc.gov\/coronavirus\/2019-ncov\/community\/critical-workers\/implementing-safety-practices.html"},{"key":"37_CR8","doi-asserted-by":"crossref","unstructured":"De
+        Vries, J. D., Van Hooff, M. L., Geurts, S. A., & Kompier, M. A. (2017). Exercise
+        to reduce work-related fatigue among employees: A randomized controlled trial.
+        Scandinavian Journal of Work, Environment & Health, 337\u2013349.","DOI":"10.5271\/sjweh.3634"},{"issue":"1","key":"37_CR9","doi-asserted-by":"publisher","first-page":"48","DOI":"10.1177\/089431840101400113","volume":"14","author":"MJ
+        Denyes","year":"2001","unstructured":"Denyes, M. J., Orem, D. E., & Bekel,
+        G. (2001). Self-care: A foundational science. Nursing Science Quarterly, 14(1),
+        48\u201354.","journal-title":"Nursing Science Quarterly"},{"issue":"9","key":"37_CR10","doi-asserted-by":"publisher","first-page":"833","DOI":"10.1001\/jama.282.9.833","volume":"282","author":"RM
+        Epstein","year":"1999","unstructured":"Epstein, R. M. (1999). Mindful practice.
+        JAMA, 282(9), 833\u2013839.","journal-title":"JAMA"},{"key":"37_CR11","doi-asserted-by":"publisher","first-page":"131","DOI":"10.1007\/b100334","volume-title":"A
+        clinical guide to the treatment of the human stress response","author":"GS
+        Everly","year":"2002","unstructured":"Everly, G. S., & Lating, J. M. (2002).
+        A clinical guide to the treatment of the human stress response (p. 131). New
+        York: Kluwer Academic\/Plenum."},{"key":"37_CR12","unstructured":"Google Web
+        Search. (2020a). Google\u2019s mindfulness practices at work. Retrieved August
+        26, 2020, from https:\/\/www.google.com\/search?q=\u201cmindfulness practices
+        at work\u201d"},{"key":"37_CR13","unstructured":"Google Web Search. (2020b).
+        LinkedIn mindfulness practices at work. Retrieved August 26, 2020, from https:\/\/www.google.com\/search?q=\u201cLinkedIn
+        mindfulness practices at work\u201d"},{"issue":"4","key":"37_CR14","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pone.0214935","volume":"14","author":"G
+        Guidetti","year":"2019","unstructured":"Guidetti, G., Viotti, S., Badagliacca,
+        R., Colombo, L., & Converso, D. (2019). Can mindfulness mitigate the energy-depleting
+        process and increase job resources to prevent burnout? A study on the mindfulness
+        trait in the school context. PLoS One, 14(4), e0214935.","journal-title":"PLoS
+        One"},{"key":"37_CR15","unstructured":"Jalilian, H., Shouroki, F. K., Azmoon,
+        H., Rostamabadi, A., & Choobineh, A. (2019). Relationship between job stress
+        and fatigue based on job demand-control-support model in hospital nurses.
+        International Journal of Preventive Medicine, 10."},{"issue":"2","key":"37_CR16","doi-asserted-by":"publisher","first-page":"104","DOI":"10.1007\/s40675-017-0071-6","volume":"3","author":"SM
+        James","year":"2017","unstructured":"James, S. M., Honn, K. A., Gaddameedhi,
+        S., & Van Dongen, H. P. (2017). Shift work: Disrupted circadian rhythms and
+        sleep\u00a0\u2013 Implications for health and well-being. Current Sleep Medicine
+        Reports, 3(2), 104\u2013112.","journal-title":"Current Sleep Medicine Reports"},{"issue":"1","key":"37_CR17","doi-asserted-by":"publisher","first-page":"54","DOI":"10.1037\/a0018438","volume":"10","author":"AP
+        Jha","year":"2010","unstructured":"Jha, A. P., Stanley, E. A., Kiyonaga, A.,
+        Wong, L., & Gelfand, L. (2010). Examining the protective effects of mindfulness
+        training on working memory capacity and affective experience. Emotion, 10(1),
+        54.","journal-title":"Emotion"},{"key":"37_CR18","unstructured":"Johns Hopkins
+        University. (2020). Johns Hopkins University Coronavirus Resource Center.
+        Retrieved August 26, 2020 from https:\/\/coronavirus.jhu.edu\/"},{"issue":"12","key":"37_CR19","doi-asserted-by":"publisher","first-page":"1284","DOI":"10.1001\/jama.2009.1384","volume":"302","author":"MS
+        Krasner","year":"2009","unstructured":"Krasner, M. S., Epstein, R. M., Beckman,
+        H., Suchman, A. L., Chapman, B., Mooney, C. J., & Quill, T. E. (2009). Association
+        of an educational program in mindful communication with burnout, empathy,
+        and attitudes among primary care physicians. JAMA, 302(12), 1284\u20131293.","journal-title":"JAMA"},{"issue":"2","key":"37_CR20","doi-asserted-by":"publisher","first-page":"96","DOI":"10.1606\/1044-3894.4289","volume":"94","author":"JJ
+        Lee","year":"2013","unstructured":"Lee, J. J., & Miller, S. E. (2013). A self-care
+        framework for social workers: Building a strong foundation for practice. Families
+        in Society, 94(2), 96\u2013103.","journal-title":"Families in Society"},{"key":"37_CR21","doi-asserted-by":"publisher","first-page":"35","DOI":"10.1016\/j.orhc.2016.07.001","volume":"10","author":"GJ
+        Lim","year":"2016","unstructured":"Lim, G. J., Mobasher, A., Bard, J. F.,
+        & Najjarbashi, A. (2016). Nurse scheduling with lunch break assignments in
+        operating suites. Operations Research for Health Care, 10, 35\u201348.","journal-title":"Operations
+        Research for Health Care"},{"issue":"8","key":"37_CR22","doi-asserted-by":"publisher","DOI":"10.2196\/12820","volume":"6","author":"LN
+        Lyzwinski","year":"2019","unstructured":"Lyzwinski, L. N., Edirippulige, S.,
+        Caffery, L., & Bambling, M. (2019). Mindful eating mobile health apps: Review
+        and appraisal. JMIR Mental Health, 6(8), e12820.","journal-title":"JMIR Mental
+        Health"},{"key":"37_CR23","unstructured":"Muir, K. J., & Keim-Malpass, J.
+        (2019). The emergency resiliency initiative: A pilot mindfulness intervention
+        program. Journal of Holistic Nursing, 0898010119874971."},{"issue":"2","key":"37_CR24","doi-asserted-by":"publisher","first-page":"187","DOI":"10.1111\/1467-9752.12136","volume":"49","author":"A
+        O\u2019Donnell","year":"2015","unstructured":"O\u2019Donnell, A. (2015). Contemplative
+        pedagogy and mindfulness: Developing creative attention in an age of distraction.
+        Journal of Philosophy of Education, 49(2), 187\u2013202.","journal-title":"Journal
+        of Philosophy of Education"},{"issue":"3","key":"37_CR25","doi-asserted-by":"publisher","first-page":"16","DOI":"10.3390\/children4030016","volume":"4","author":"R
+        Ortiz","year":"2017","unstructured":"Ortiz, R., & Sibinga, E. M. (2017). The
+        role of mindfulness in reducing the adverse effects of childhood stress and
+        trauma. Children, 4(3), 16.","journal-title":"Children"},{"key":"37_CR26","unstructured":"Palmieri,
+        E. T. (2017). Safeguarding the counselor heart: Exploring the relationship
+        between burnout, resilience and gratitude in clinical counselors. Doctoral
+        dissertation, The University of North Carolina at Charlotte."},{"key":"37_CR27","unstructured":"PEW
+        Research Center. (2020, June 5). Demographics of social media users and adoption
+        in the United States. https:\/\/www.pewresearch.org\/internet\/fact-sheet\/social-media\/"},{"issue":"2","key":"37_CR28","doi-asserted-by":"publisher","first-page":"179","DOI":"10.4037\/aacnacc2020619","volume":"31","author":"K
+        Reed","year":"2020","unstructured":"Reed, K., Cochran, K. L., Edelblute, A.,
+        Manzanares, D., Sinn, H., Henry, M., & Moss, M. (2020). Creative arts therapy
+        as a potential intervention to prevent burnout and build resilience in health
+        care professionals. AACN Advanced Critical Care, 31(2), 179\u2013190.","journal-title":"AACN
+        Advanced Critical Care"},{"issue":"4","key":"37_CR29","doi-asserted-by":"publisher","first-page":"203","DOI":"10.1177\/2165079920905326","volume":"68","author":"T
+        Sos","year":"2020","unstructured":"Sos, T., & Melton, B. (2020). Incorporating
+        mindfulness into occupational stress management programming for nursing staff.
+        Workplace Health & Safety, 68(4), 203\u2013203.","journal-title":"Workplace
+        Health & Safety"},{"issue":"12","key":"37_CR30","doi-asserted-by":"publisher","first-page":"1447","DOI":"10.1001\/jama.288.12.1447","volume":"288","author":"A
+        Spickard Jr","year":"2002","unstructured":"Spickard, A., Jr., Gabbe, S. G.,
+        & Christensen, J. F. (2002). Mid-career burnout in generalist and specialist
+        physicians. JAMA, 288(12), 1447\u20131450.","journal-title":"JAMA"},{"key":"37_CR31","doi-asserted-by":"publisher","first-page":"294","DOI":"10.1016\/j.copsyc.2019.04.004","volume":"28","author":"YY
+        Tang","year":"2019","unstructured":"Tang, Y. Y., Tang, R., Rothbart, M. K.,
+        & Posner, M. I. (2019). Frontal theta activity and white matter plasticity
+        following mindfulness meditation. Current Opinion in Psychology, 28, 294\u2013297.","journal-title":"Current
+        Opinion in Psychology"},{"issue":"2","key":"37_CR32","doi-asserted-by":"publisher","first-page":"315","DOI":"10.1111\/ablj.12122","volume":"55","author":"EC
+        Tippett","year":"2018","unstructured":"Tippett, E. C. (2018). How employers
+        profit from digital wage theft under the FLSA. American Business Law Journal,
+        55(2), 315\u2013401.","journal-title":"American Business Law Journal"},{"issue":"2","key":"37_CR33","doi-asserted-by":"publisher","first-page":"270","DOI":"10.2105\/AJPH.91.2.270","volume":"91","author":"JJ
+        Van der Klink","year":"2001","unstructured":"Van der Klink, J. J., Blonk,
+        R. W., Schene, A. H., & Van Dijk, F. J. (2001). The benefits of interventions
+        for work-related stress. American Journal of Public Health, 91(2), 270.","journal-title":"American
+        Journal of Public Health"},{"key":"37_CR34","doi-asserted-by":"crossref","unstructured":"Van
+        Emmerik, A. A., Keijzer, R., & Schoenmakers, T. M. (2020). Integrating mindfulness
+        into a routine schedule: The role of Mobile-health mindfulness applications.
+        In Nutrition, fitness, and mindfulness (pp. 217\u2013222). Humana.","DOI":"10.1007\/978-3-030-30892-6_15"},{"issue":"1","key":"37_CR35","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1038\/s41598-018-37186-2","volume":"9","author":"CC
+        Yang","year":"2019","unstructured":"Yang, C. C., Barr\u00f3s-Loscertales,
+        A., Li, M., Pinazo, D., Borchardt, V., \u00c1vila, C., & Walter, M. (2019).
+        Alterations in brain structure and amplitude of low-frequency after 8 weeks
+        of mindfulness meditation training in meditation-na\u00efve subjects. Scientific
+        Reports, 9(1), 1\u201310.","journal-title":"Scientific Reports"}],"container-title":["Essential
+        Clinical Social Work Series","Shared Trauma, Shared Resilience During a Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-61442-3_37","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,23]],"date-time":"2021-04-23T15:47:03Z","timestamp":1619192823000},"score":34.318283,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-61442-3_37"}},"issued":{"date-parts":[[2020,12,13]]},"ISBN":["9783030614416","9783030614423"],"references-count":35,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-61442-3_37","ISSN":["2520-162X","2520-1611"],"issn-type":[{"value":"2520-162X","type":"print"},{"value":"2520-1611","type":"electronic"}],"published":{"date-parts":[[2020,12,13]]},"assertion":[{"value":"13
+        December 2020","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T19:30:48Z","timestamp":1649100648511},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781003273462","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,1,26]]},"DOI":"10.4324\/9781003273462-7","type":"book-chapter","created":{"date-parts":[[2022,1,26]],"date-time":"2022-01-26T09:49:27Z","timestamp":1643190567000},"page":"99-114","source":"Crossref","is-referenced-by-count":0,"title":["\u201cWe
+        Are Saving Their Bodies and Destroying Their Souls.\u201d: Family Caregivers''
+        Experiences of Formal Care Setting Visitation Restrictions during the COVID-19
+        Pandemic"],"prefix":"10.4324","author":[{"given":"Whitney A.","family":"Nash","sequence":"first","affiliation":[]},{"given":"Lesley
+        M.","family":"Harris","sequence":"additional","affiliation":[]},{"given":"Kimberly
+        E.","family":"Heller","sequence":"additional","affiliation":[]},{"given":"Brandon
+        D.","family":"Mitchell","sequence":"additional","affiliation":[]}],"member":"301","container-title":["The
+        COVID-19 Pandemic and Older Adults"],"deposited":{"date-parts":[[2022,1,26]],"date-time":"2022-01-26T09:49:37Z","timestamp":1643190577000},"score":34.238525,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003273462\/chapters\/10.4324\/9781003273462-7"}},"issued":{"date-parts":[[2022,1,26]]},"ISBN":["9781003273462"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781003273462-7","published":{"date-parts":[[2022,1,26]]}},{"indexed":{"date-parts":[[2022,5,16]],"date-time":"2022-05-16T10:27:38Z","timestamp":1652696858908},"publisher-location":"Cham","update-to":[{"updated":{"date-parts":[[2021,6,18]],"date-time":"2021-06-18T00:00:00Z","timestamp":1623974400000},"DOI":"10.1007\/978-3-030-67716-9","type":"correction","label":"Correction"}],"reference-count":0,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_24","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"C1-C1","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":1,"title":["Correction
+        to: Emerging Technologies During the Era of COVID-19 Pandemic"],"prefix":"10.1007","author":[{"ORCID":"http:\/\/orcid.org\/0000-0001-5628-0388","authenticated-orcid":false,"given":"Ibrahim","family":"Arpaci","sequence":"first","affiliation":[]},{"ORCID":"http:\/\/orcid.org\/0000-0002-0015-6908","authenticated-orcid":false,"given":"Mostafa","family":"Al-Emran","sequence":"additional","affiliation":[]},{"given":"Mohammed","family":"A.
+        Al-Sharafi","sequence":"additional","affiliation":[]},{"given":"Gon\u00e7alo","family":"Marques","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,6,18]]},"container-title":["Studies
+        in Systems, Decision and Control","Emerging Technologies During the Era of
+        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_24","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:35:27Z","timestamp":1629700527000},"score":34.116844,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_24"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_24","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"18
+        June 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}},{"value":"This content has been made available to all.","name":"free","label":"Free
+        to read"}]},{"indexed":{"date-parts":[[2022,10,1]],"date-time":"2022-10-01T15:29:34Z","timestamp":1664638174712},"publisher-location":"Cham","reference-count":36,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_1","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"1-8","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":7,"title":["A
+        Survey of Using Machine Learning Algorithms During the COVID-19 Pandemic"],"prefix":"10.1007","author":[{"ORCID":"http:\/\/orcid.org\/0000-0002-5269-5380","authenticated-orcid":false,"given":"Mostafa","family":"Al-Emran","sequence":"first","affiliation":[]},{"given":"Mohammed
+        N.","family":"Al-Kabi","sequence":"additional","affiliation":[]},{"ORCID":"http:\/\/orcid.org\/0000-0001-5834-6571","authenticated-orcid":false,"given":"Gon\u00e7alo","family":"Marques","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,3,21]]},"reference":[{"key":"1_CR1","doi-asserted-by":"publisher","author":"N
+        Zhu","year":"2020","unstructured":"Zhu, N., et al.: A novel coronavirus from
+        patients with pneumonia in China, 2019. N. Engl. J. Med. (2020). https:\/\/doi.org\/10.1056\/NEJMoa2001017","journal-title":"N.
+        Engl. J. Med.","DOI":"10.1056\/NEJMoa2001017"},{"key":"1_CR2","doi-asserted-by":"publisher","author":"MP
+        Belfiore","year":"2020","unstructured":"Belfiore, M.P., et al.: Artificial
+        intelligence to codify lung CT in Covid-19 patients. Radiol. Medica (2020).
+        https:\/\/doi.org\/10.1007\/s11547-020-01195-x","journal-title":"Radiol. Medica","DOI":"10.1007\/s11547-020-01195-x"},{"key":"1_CR3","doi-asserted-by":"publisher","author":"R
+        Vaishya","year":"2020","unstructured":"Vaishya, R., Javaid, M., Khan, I.H.,
+        Haleem, A.: Artificial intelligence (AI) applications for COVID-19 pandemic.
+        Diabetes Metab. Syndr. Clin. Res. Rev. (2020). https:\/\/doi.org\/10.1016\/j.dsx.2020.04.012","journal-title":"Diabetes
+        Metab. Syndr. Clin. Res. Rev.","DOI":"10.1016\/j.dsx.2020.04.012"},{"key":"1_CR4","doi-asserted-by":"publisher","unstructured":"Albahri,
+        A.S., et al.: Role of biological data mining and machine learning techniques
+        in detecting and diagnosing the novel coronavirus (COVID-19): a systematic
+        review. J. Med. Syst. 44(7). (2020). https:\/\/doi.org\/10.1007\/s10916-020-01582-x","DOI":"10.1007\/s10916-020-01582-x"},{"issue":"10","key":"1_CR5","doi-asserted-by":"publisher","first-page":"719","DOI":"10.1038\/s41551-018-0305-z","volume":"2","author":"KH
+        Yu","year":"2018","unstructured":"Yu, K.H., Beam, A.L., Kohane, I.S.: Artificial
+        intelligence in healthcare. Nat. Biomed. Eng. 2(10), 719\u2013731 (2018).
+        https:\/\/doi.org\/10.1038\/s41551-018-0305-z","journal-title":"Nat. Biomed.
+        Eng."},{"key":"1_CR6","doi-asserted-by":"publisher","author":"JB Long","year":"2020","unstructured":"Long,
+        J.B., Ehrenfeld, J.M.: The role of augmented intelligence (AI) in detecting
+        and preventing the spread of novel coronavirus. J. Med. Syst. (2020). https:\/\/doi.org\/10.1007\/s10916-020-1536-6","journal-title":"J.
+        Med. Syst.","DOI":"10.1007\/s10916-020-1536-6"},{"key":"1_CR7","doi-asserted-by":"publisher","author":"E
+        Neri","year":"2020","unstructured":"Neri, E., Miele, V., Coppola, F., Grassi,
+        R.: Use of CT and artificial intelligence in suspected or COVID-19 positive
+        patients: statement of the Italian Society of Medical and Interventional Radiology.
+        Radiol. Medica (2020). https:\/\/doi.org\/10.1007\/s11547-020-01197-9","journal-title":"Radiol.
+        Medica","DOI":"10.1007\/s11547-020-01197-9"},{"issue":"1","key":"1_CR8","doi-asserted-by":"publisher","first-page":"193","DOI":"10.32604\/cmc.2020.011489","volume":"65","author":"I
+        Arpaci","year":"2020","unstructured":"Arpaci, I., et al.: Analysis of twitter
+        data using evolutionary clustering during the COVID-19 pandemic. Comput. Mater.
+        Contin. 65(1), 193\u2013203 (2020). https:\/\/doi.org\/10.32604\/cmc.2020.011489","journal-title":"Comput.
+        Mater. Contin."},{"key":"1_CR9","doi-asserted-by":"crossref","unstructured":"Ahuja,
+        A.S., Reddy, V.P., Marques, O.: Artificial intelligence and COVID-19: a multidisciplinary
+        approach. Integr. Med. Res. (2020)","DOI":"10.1016\/j.imr.2020.100434"},{"key":"1_CR10","doi-asserted-by":"publisher","unstructured":"Rao,
+        A.S.R.S., Vazquez, J.A.: Identification of COVID-19 can be quicker through
+        artificial intelligence framework using a mobile phone-based survey in the
+        populations when cities\/towns are under quarantine. Infect. Control Hosp.
+        Epidemiol. (2020). https:\/\/doi.org\/10.1017\/ice.2020.61","DOI":"10.1017\/ice.2020.61"},{"key":"1_CR11","doi-asserted-by":"crossref","unstructured":"Maghdid,
+        H.S., Ghafoor, K.Z., Sadiq, A.S., Curran, K., Rabie, K.: A novel AI-enabled
+        framework to diagnose coronavirus COVID 19 using smartphone embedded sensors:
+        design study (2020)","DOI":"10.1109\/IRI49571.2020.00033"},{"key":"1_CR12","doi-asserted-by":"publisher","unstructured":"Metsky,
+        H.C., Freije, C.A., Kosoko-Thoroddsen, T.-S.F., Sabeti, P.C., Myhrvold, C.:
+        CRISPR-based COVID-19 surveillance using a genomically-comprehensive machine
+        learning approach. bioRxiv (2020). https:\/\/doi.org\/10.1101\/2020.02.26.967026","DOI":"10.1101\/2020.02.26.967026"},{"key":"1_CR13","doi-asserted-by":"crossref","unstructured":"Qi,
+        X., et al.: Machine learning-based CT radiomics model for predicting hospital
+        stay in patients with pneumonia associated with SARS-CoV-2 infection: a multicenter
+        study. medRxiv (2020)","DOI":"10.1101\/2020.02.29.20029603"},{"key":"1_CR14","doi-asserted-by":"crossref","unstructured":"Yu,
+        H., et al.: Data-driven discovery of clinical routes for severity detection
+        of COVID-19 pediatric cases. medRxiv (2020)","DOI":"10.1101\/2020.03.09.20032219"},{"key":"1_CR15","unstructured":"Tang,
+        Z., et al.: Severity assessment of coronavirus disease 2019 (COVID-19) using
+        quantitative features from chest CT images (2020)"},{"key":"1_CR16","doi-asserted-by":"crossref","unstructured":"Zheng,
+        C., et al.: Deep learning-based detection for COVID-19 from chest CT using
+        weak label. medRxiv (2020)","DOI":"10.1101\/2020.03.12.20027185"},{"key":"1_CR17","unstructured":"Gozes,
+        O., et al.: Rapid AI development cycle for the coronavirus (COVID-19) pandemic:
+        initial results for automated detection & patient monitoring using deep learning
+        CT image analysis (2020)"},{"key":"1_CR18","doi-asserted-by":"publisher","unstructured":"Li,
+        L., et al.: Artificial intelligence distinguishes COVID-19 from community
+        acquired pneumonia on chest CT. Radiology, 200905 (2020). https:\/\/doi.org\/10.1148\/radiol.2020200905","DOI":"10.1148\/radiol.2020200905"},{"key":"1_CR19","doi-asserted-by":"crossref","unstructured":"Xu,
+        X., et al.: Deep learning system to screen coronavirus disease 2019 pneumonia
+        (2020)","DOI":"10.1016\/j.eng.2020.04.010"},{"key":"1_CR20","doi-asserted-by":"crossref","unstructured":"Narin,
+        A., Kaya, C., Pamuk, Z.: Automatic detection of coronavirus disease (COVID-19)
+        using X-ray images and deep convolutional neural networks (2020)","DOI":"10.1007\/s10044-021-00984-y"},{"key":"1_CR21","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1016\/j.asoc.2020.106282","volume":"93","author":"SJ
+        Fong","year":"2020","unstructured":"Fong, S.J., Li, G., Dey, N., Crespo, R.G.,
+        Herrera-Viedma, E.: Composite monte carlo decision making under high uncertainty
+        of novel coronavirus epidemic using hybridized deep learning and fuzzy rule
+        induction. Appl. Soft Comput. 93, 1\u201314 (2020)","journal-title":"Appl.
+        Soft Comput."},{"key":"1_CR22","unstructured":"Jia, L., Li, K., Jiang, Y.,
+        Guo, X., Zhao, T.: Prediction and analysis of coronavirus disease 2019 (2020)"},{"issue":"1","key":"1_CR23","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1186\/s40249-020-00649-8","volume":"9","author":"X-L
+        Qiang","year":"2020","unstructured":"Qiang, X.-L., Xu, P., Fang, G., Liu,
+        W.-B., Kou, Z.: Using the spike protein feature to predict infection risk
+        and monitor the evolutionary dynamic of coronavirus. Infect. Dis. Poverty
+        9(1), 1\u20138 (2020). https:\/\/doi.org\/10.1186\/s40249-020-00649-8","journal-title":"Infect.
+        Dis. Poverty"},{"key":"1_CR24","doi-asserted-by":"publisher","author":"L Poole","year":"2020","unstructured":"Poole,
+        L.: Seasonal influences on the spread of SARS-CoV-2 (COVID19), causality,
+        and forecastabililty (3-15-2020). SSRN Electron. J. (2020). https:\/\/doi.org\/10.2139\/ssrn.3554746","journal-title":"SSRN
+        Electron. J.","DOI":"10.2139\/ssrn.3554746"},{"key":"1_CR25","doi-asserted-by":"crossref","unstructured":"Bai,
+        X., et al.: Predicting COVID-19 malignant progression with AI techniques.
+        medRxiv (2020)","DOI":"10.2139\/ssrn.3557984"},{"key":"1_CR26","unstructured":"Yan,
+        L., et al.: Prediction of criticality in patients with severe Covid-19 infection
+        using three clinical features: a machine learning-based prognostic model with
+        clinical data in Wuhan. medrxiv.org (2020)"},{"key":"1_CR27","doi-asserted-by":"publisher","unstructured":"Yan,
+        L., et al.: Prediction of survival for severe Covid-19 patients with three
+        clinical features: development of a machine learning-based prognostic model
+        with clinical data in Wuhan. medRxiv (2020). https:\/\/doi.org\/10.1101\/2020.02.27.20028027","DOI":"10.1101\/2020.02.27.20028027"},{"key":"1_CR28","doi-asserted-by":"publisher","unstructured":"Yan,
+        L., et al.: A machine learning-based model for survival prediction in patients
+        with severe COVID-19 infection (2020). https:\/\/doi.org\/10.1101\/2020.02.27.20028027","DOI":"10.1101\/2020.02.27.20028027"},{"key":"1_CR29","doi-asserted-by":"crossref","unstructured":"Naud\u00e9,
+        W.: Artificial intelligence versus COVID-19: limitations, constraints and
+        pitfalls. Ai Soc. 1\u20135 (2020)","DOI":"10.1007\/s00146-020-00978-0"},{"key":"1_CR30","doi-asserted-by":"crossref","unstructured":"Ong,
+        E., Wong, M.U., Huffman, A., He, Y.: COVID-19 coronavirus vaccine design using
+        reverse vaccinology and machine learning. bioRxiv (2020)","DOI":"10.1101\/2020.03.20.000141"},{"key":"1_CR31","doi-asserted-by":"publisher","unstructured":"Prachar,
+        M., et al.: COVID-19 vaccine candidates: prediction and validation of 174
+        SARS-CoV-2 epitopes. bioRxiv (2020). https:\/\/doi.org\/10.1101\/2020.03.20.000794","DOI":"10.1101\/2020.03.20.000794"},{"key":"1_CR32","doi-asserted-by":"crossref","unstructured":"Magar,
+        R., Yadav, P., Farimani, A.B.: Potential neutralizing antibodies discovered
+        for novel corona virus using machine learning (2020)","DOI":"10.1101\/2020.03.14.992156"},{"key":"1_CR33","doi-asserted-by":"publisher","unstructured":"Patankar,
+        S.: Deep learning-based computational drug discovery to inhibit the RNA dependent
+        RNA polymerase: application to SARS-CoV and COVID-19 (2020). doi: https:\/\/doi.org\/10.31219\/osf.io\/6kpbg","DOI":"10.31219\/osf.io\/6kpbg"},{"key":"1_CR34","doi-asserted-by":"crossref","unstructured":"Tang,
+        B., He, F., Liu, D., Fang, M., Wu, Z., Xu, D.: AI-aided design of novel targeted
+        covalent inhibitors against SARS-CoV-2. bioRxiv (2020)","DOI":"10.1101\/2020.03.03.972133"},{"key":"1_CR35","doi-asserted-by":"publisher","author":"A
+        Rajkomar","year":"2019","unstructured":"Rajkomar, A., Dean, J., Kohane, I.:
+        Machine learning in medicine. N. Engl. J. Med. (2019). https:\/\/doi.org\/10.1056\/NEJMra1814259","journal-title":"N.
+        Engl. J. Med.","DOI":"10.1056\/NEJMra1814259"},{"key":"1_CR36","doi-asserted-by":"crossref","unstructured":"Bullock,
+        J., Pham, K.H., Lam, C.S.N., Luengo-Oroz, M.: Mapping the landscape of artificial
+        intelligence applications against COVID-19 (2020). arXiv preprint: arXiv:2003.11336","DOI":"10.1613\/jair.1.12162"}],"container-title":["Studies
+        in Systems, Decision and Control","Emerging Technologies During the Era of
+        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:23:46Z","timestamp":1629699826000},"score":34.05963,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_1"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":36,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_1","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
+        March 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2022,10,12]],"date-time":"2022-10-12T04:35:25Z","timestamp":1665549325739},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781003159155","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,10,11]]},"DOI":"10.4324\/9781003159155-10","type":"book-chapter","created":{"date-parts":[[2022,10,11]],"date-time":"2022-10-11T15:54:58Z","timestamp":1665503698000},"page":"211-239","source":"Crossref","is-referenced-by-count":0,"title":["A
+        descriptive study of workplace bullying in U.S. libraries during the COVID-19
+        pandemic"],"prefix":"10.4324","author":[{"ORCID":"http:\/\/orcid.org\/0000-0003-2621-4317","authenticated-orcid":false,"given":"Carol
+        Anne","family":"Geary","sequence":"first","affiliation":[]},{"ORCID":"http:\/\/orcid.org\/0000-0001-9371-2418","authenticated-orcid":false,"given":"Spencer","family":"Acadia","sequence":"additional","affiliation":[]}],"member":"301","container-title":["Libraries
+        as Dysfunctional Organizations and Workplaces"],"deposited":{"date-parts":[[2022,10,11]],"date-time":"2022-10-11T21:22:31Z","timestamp":1665523351000},"score":34.053444,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003159155\/chapters\/10.4324\/9781003159155-10"}},"issued":{"date-parts":[[2022,10,11]]},"ISBN":["9781003159155"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781003159155-10","published":{"date-parts":[[2022,10,11]]}},{"indexed":{"date-parts":[[2022,9,20]],"date-time":"2022-09-20T05:19:49Z","timestamp":1663651189890},"publisher-location":"Singapore","reference-count":43,"publisher":"Springer
+        Nature Singapore","isbn-type":[{"value":"9789811908088","type":"print"},{"value":"9789811908095","type":"electronic"}],"license":[{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2022]]},"DOI":"10.1007\/978-981-19-0809-5_7","type":"book-chapter","created":{"date-parts":[[2022,5,14]],"date-time":"2022-05-14T22:02:26Z","timestamp":1652565746000},"page":"123-136","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Negotiating
+        Access to Maternal Health Services During COVID-19 Pandemic in Kilifi County,
+        Kenya: Rapid Qualitative Study"],"prefix":"10.1007","author":[{"given":"Stephen
+        Okumu","family":"Ombere","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2022,5,15]]},"reference":[{"key":"7_CR1","doi-asserted-by":"crossref","unstructured":"Afulani,
+        P., Kusi, C., Kirumbi, L., & Walker, D. (2018). Companionship during facility-based
+        childbirth\u202fResults from a mixed-methods study with recently delivered
+        women and providers in Kenya (pp. 1\u201328).","DOI":"10.1186\/s12884-018-1806-1"},{"key":"7_CR2","unstructured":"Braun,
+        V., & Clarke, V. (2013). Successful qualitative research: A practical guide
+        for beginners. Sage."},{"key":"7_CR3","doi-asserted-by":"publisher","author":"A
+        Chattopadhyay","year":"2020","unstructured":"Chattopadhyay, A., & Govil, D.
+        (2020). Men and maternal health care utilization in India and in selected
+        less-developed states: Evidence from a large-scale survey 2015\u201316. Journal
+        of Biosocial Science. https:\/\/doi.org\/10.1017\/S0021932020000498","journal-title":"Journal
+        of Biosocial Science","DOI":"10.1017\/S0021932020000498"},{"key":"7_CR4","doi-asserted-by":"publisher","unstructured":"Davies,
+        S., & Bennett, B. (2016). A gendered human rights analysis of Ebola and Zika:
+        Locating gender in global health emergencies. International Affairs, 92(5),
+        1041\u20131060. https:\/\/doi.org\/10.1016\/S0140-6736(14)60497-9","DOI":"10.1016\/S0140-6736(14)60497-9"},{"issue":"1","key":"7_CR5","doi-asserted-by":"publisher","first-page":"67","DOI":"10.1177\/1464700108086364","volume":"9","author":"K
+        Davis","year":"2008","unstructured":"Davis, K. (2008). Intersectionality as
+        buzzword: A sociology of science perspective on what makes a feminist theory
+        successful. Feminist Theory, 9(1), 67\u201385. https:\/\/doi.org\/10.1177\/1464700108086364","journal-title":"Feminist
+        Theory"},{"key":"7_CR6","doi-asserted-by":"publisher","unstructured":"Eunice,
+        P., Mary G., N., Rose, M., & Valerie, F. (2020). The impact of covid-19 on
+        midwives\u2019 practice in Kenya, Uganda and Tanzania: A reflective account.
+        Midwifery, January. https:\/\/doi.org\/10.1016\/j.midw.2020.102775","DOI":"10.1016\/j.midw.2020.102775"},{"key":"7_CR7","doi-asserted-by":"publisher","unstructured":"Farr\u00e9,
+        L. (2013). The role of men in the economic and social development of women:
+        Implications for gender equality (pp. 22\u201351). https:\/\/doi.org\/10.1093\/wbro\/lks010","DOI":"10.1093\/wbro\/lks010"},{"key":"7_CR8","doi-asserted-by":"publisher","unstructured":"George,
+        A. S., Amin, A., Garc\u00cda, C., & Sen, G. (2019). Gender equality and health:
+        Laying the foundations for change. The Lancet, 393(10189), 2369\u20132371.
+        https:\/\/doi.org\/10.1016\/S0140-6736(19)30987-0","DOI":"10.1016\/S0140-6736(19)30987-0"},{"issue":"1","key":"7_CR9","doi-asserted-by":"publisher","first-page":"81","DOI":"10.1111\/j.1728-4457.2000.00081.x","volume":"26","author":"M
+        Greene","year":"2000","unstructured":"Greene, M., & Biddlecom, A. (2000).
+        Absent and problematic men: Demographic accounts of male reproductive roles.
+        Population and Development Review, 26(1), 81\u2013115. https:\/\/doi.org\/10.1111\/j.1728-4457.2000.00081.x","journal-title":"Population
+        and Development Review"},{"issue":"3","key":"7_CR10","doi-asserted-by":"publisher","first-page":"524","DOI":"10.1080\/01436597.2015.1108827","volume":"37","author":"S
+        Harman","year":"2016","unstructured":"Harman, S. (2016). Ebola, gender and
+        conspicuously invisible women in global health governance. Third World Quarterly,
+        37(3), 524\u2013541. https:\/\/doi.org\/10.1080\/01436597.2015.1108827","journal-title":"Third
+        World Quarterly"},{"key":"7_CR11","doi-asserted-by":"publisher","unstructured":"Heise,
+        L., Greene, M. E., Opper, N., Stavropoulou, M., Harper, C., Nascimento, M.,
+        Zewdie, D., Darmstadt, G. L., Greene, M. E., Hawkes, S., Henry, S., Heymann,
+        J., Klugman, J., Levine, R., Raj, A., & Rao Gupta, G. (2019). Gender inequality
+        and restrictive gender norms: Framing the challenges to health. The Lancet,
+        393(10189), 2440\u20132454. https:\/\/doi.org\/10.1016\/S0140-6736(19)30652-X","DOI":"10.1016\/S0140-6736(19)30652-X"},{"issue":"1","key":"7_CR12","doi-asserted-by":"publisher","first-page":"59","DOI":"10.1080\/00220387808421701","volume":"15","author":"D
+        Hunt","year":"1978","unstructured":"Hunt, D. (1978). Chayanov\u2019s model
+        of Peasant household resource allocation and its relevance to Mbere division,
+        Eastern Kenya. The Journal of Development Studies, 15(1), 59\u201386. https:\/\/doi.org\/10.1080\/00220387808421701","journal-title":"The
+        Journal of Development Studies"},{"key":"7_CR13","doi-asserted-by":"publisher","unstructured":"Hussein,
+        J. (2020). COVID-19: What implications for sexual and reproductive health
+        and rights globally? Sexual and Reproductive Health Matters, 28(1). https:\/\/doi.org\/10.1080\/26410397.2020.1746065","DOI":"10.1080\/26410397.2020.1746065"},{"key":"7_CR14","unstructured":"Kenya
+        National Bureau of Statistics. (KNBS). Ministry of Health\/Kenya, National
+        AIDS Control Council\/Kenya, Kenya Medical Research Institute, & National
+        Council for Population and Development\/Kenya. (2015). Kenya Demographic and
+        Health Survey 2014."},{"key":"7_CR15","doi-asserted-by":"publisher","unstructured":"Kenya
+        National Bureau of Statistics, & ICF International. (2015). Kenya 2014 demographic
+        and health survey key findings (Vol. 6). KNBS and ICF International. https:\/\/doi.org\/10.5261\/2013.GEN1.04","DOI":"10.5261\/2013.GEN1.04"},{"key":"7_CR16","doi-asserted-by":"publisher","unstructured":"Kwambai,
+        T. K., Dellicour, S., Desai, M., Ameh, C. A., Person, B., Achieng, F., Mason,
+        L., Laserson, K. F., & ter Kuile, F. O. (2013). Perspectives of men on antenatal
+        and delivery care service utilisation in rural western Kenya: A qualitative
+        study. BMC Pregnancy and Childbirth, 13,. https:\/\/doi.org\/10.1186\/1471-2393-13-134","DOI":"10.1186\/1471-2393-13-134"},{"key":"7_CR17","unstructured":"Machel,
+        G. (2010). Maternal Health: Investing in the lifeline of healthy societies
+        and economies. Africa Progress Panel, September, 1\u201336. http:\/\/scholar.google.com\/scholar?hl=en&btnG=Search&q=intitle:Maternal+Health+:Investing+in+the+Lifeline+of+Healthy+Societies+&+Economies#0%5Cn"},{"issue":"1","key":"7_CR18","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1186\/s12884-017-1523-1","volume":"17","author":"L
+        Manda-Taylor","year":"2017","unstructured":"Manda-Taylor, L., Mwale, D., Phiri,
+        T., Walsh, A., Matthews, A., Brugha, R., Mwapasa, V., & Byrne, E. (2017).
+        Changing times? Gender roles and relationships in maternal, newborn and child
+        health in Malawi. BMC Pregnancy and Childbirth, 17(1), 1\u201313. https:\/\/doi.org\/10.1186\/s12884-017-1523-1","journal-title":"BMC
+        Pregnancy and Childbirth"},{"issue":"11","key":"7_CR19","first-page":"372","volume":"89","author":"JN
+        Mangeni","year":"2012","unstructured":"Mangeni, J. N., Mwangi, A., Mbugua,
+        S., & Mukthar, V. K. (2012). Male involvement in maternal healthcare as a
+        determinant of utilisation of skilled birth attendants in kenya. East African
+        Medical Journal, 89(11), 372\u2013383.","journal-title":"East African Medical
+        Journal"},{"key":"7_CR20","unstructured":"Meillassoux, V., & Edholm, F. (1981).
+        Maidens, meal and money: Capitalism and the domestic community. Cambridge
+        University Press."},{"key":"7_CR21","doi-asserted-by":"publisher","unstructured":"Michael,
+        L. (1988). The poor and the poorest: Some Interim Findings. In The sociology
+        and politics of health: A reader (Issue April). The World Bank. https:\/\/doi.org\/10.2307\/j.ctt1t89jmr.24","DOI":"10.2307\/j.ctt1t89jmr.24"},{"issue":"December","key":"7_CR22","doi-asserted-by":"publisher","first-page":"v13","DOI":"10.1093\/heapol\/czx011","volume":"32","author":"R
+        Morgan","year":"2017","unstructured":"Morgan, R., Tetui, M., Kananura, R.
+        M., Ekirapa-Kiracho, E., & George, A. S. (2017). Gender dynamics affecting
+        maternal health and health care access and use in Uganda. Health Policy and
+        Planning, 32(December), v13\u2013v21. https:\/\/doi.org\/10.1093\/heapol\/czx011","journal-title":"Health
+        Policy and Planning"},{"key":"7_CR23","doi-asserted-by":"publisher","unstructured":"Oluoch-Aridi,
+        J., Chelagat, T., Nyikuri, M. M., Onyango, J., Guzman, D., Makanga, C., Miller-Graff,
+        L., & Dowd, R. (2020). COVID-19 effect on access to Maternal Health Services
+        in Kenya. Frontiers in Global Women\u2019s Health, 1(November). https:\/\/doi.org\/10.3389\/fgwh.2020.599267","DOI":"10.3389\/fgwh.2020.599267"},{"key":"7_CR24","unstructured":"Ombere,
+        S. O. (2018). Local perceptions of social protection schemes in Maternal Health
+        in Kenya\u202f: Ethnographyn i coastal Kenya (PhD Thesis). http:\/\/biblio.unibe.ch\/download\/eldiss\/18ombere_so.pdf"},{"key":"7_CR25","doi-asserted-by":"publisher","unstructured":"Ombere,
+        S. O. (2021). Access to Maternal Health Services during the COVID-19 pandemic:
+        Experiences of indigent mothers and health care providers in Kilifi County,
+        Kenya. Frontiers in Sociology, 6(April), 1\u20138. https:\/\/doi.org\/10.3389\/fsoc.2021.613042","DOI":"10.3389\/fsoc.2021.613042"},{"key":"7_CR26","doi-asserted-by":"crossref","unstructured":"Othman,
+        K., Dan, K., & Michael, O. (2011). Male involvement in birth preparedness
+        and complication readiness for emergency obstetric referrals in rural Uganda.
+        Reproductive Health, 8(1), 1\u20137. http:\/\/ovidsp.ovid.com\/ovidweb.cgi?T=JS&PAGE=reference&D=emed10&NEWS=N&AN=2011337341","DOI":"10.1186\/1742-4755-8-12"},{"key":"7_CR27","first-page":"76","volume":"5","author":"GA
+        Otieno","year":"2020","unstructured":"Otieno, G. A., Owenga, J. A., & Onguru,
+        D. (2020). Determinants of Maternal Health Care Choices among Women in Lunga
+        Lunga Sub County in Kwale, 5, 76\u201385.","journal-title":"Determinants of
+        Maternal Health Care Choices among Women in Lunga Lunga Sub County in Kwale."},{"key":"7_CR28","doi-asserted-by":"publisher","unstructured":"Pant,
+        S., Koirala, S., & Subedi, M. (2020). Access to Maternal Health Services during
+        COVID-19. Europasian Journal of Medical Sciences, 2(2), 48\u201352. https:\/\/doi.org\/10.46405\/ejms.v2i2.110","DOI":"10.46405\/ejms.v2i2.110"},{"key":"7_CR29","doi-asserted-by":"publisher","unstructured":"Power,
+        K. (2020). The COVID-19 pandemic has increased the care burden of women and
+        families. Sustainability: Science, Practice, and Policy, 16(1), 67\u201373.
+        https:\/\/doi.org\/10.1080\/15487733.2020.1776561","DOI":"10.1080\/15487733.2020.1776561"},{"key":"7_CR30","doi-asserted-by":"publisher","unstructured":"Pyone,
+        T., Smith, H., & Broek, N. Van Den. (2017). Implementation of the free maternity
+        services policy and its implications for health system governance in Kenya,
+        1963(figure 1), 1\u201311. https:\/\/doi.org\/10.1136\/bmjgh-2016-000249","DOI":"10.1136\/bmjgh-2016-000249"},{"issue":"1","key":"7_CR31","first-page":"95","volume":"14","author":"SA
+        Rasmussen","year":"2008","unstructured":"Rasmussen, S. A., Jamieson, D. J.,
+        & Bresee, J. S. (2008). Pandemic in Fl Uenza and Pregnant Women, 14(1), 95\u2013100.","journal-title":"Pandemic
+        in Fl Uenza and Pregnant Women."},{"key":"7_CR32","doi-asserted-by":"publisher","unstructured":"Rasmussen,
+        S. A., Smulian, J. C., Lednicky, J. A., Wen, T. S., & Jamieson, D. J. (2020).
+        Coronavirus Disease 2019 (COVID-19) and pregnancy: What obstetricians need
+        to know. American Journal of Obstetrics and Gynecology, 222(5), 415\u2013426.
+        https:\/\/doi.org\/10.1016\/j.ajog.2020.02.017","DOI":"10.1016\/j.ajog.2020.02.017"},{"issue":"6","key":"7_CR33","doi-asserted-by":"publisher","first-page":"747","DOI":"10.1177\/1049732308317220","volume":"18","author":"BT
+        Shaikh","year":"2008","unstructured":"Shaikh, B. T., Haran, D., & Hatcher,
+        J. (2008). Where do they go, whom do they consult, and why? Health-Seeking
+        behaviors in the northern areas of Pakistan. Qualitative Health Research,
+        18(6), 747\u2013755. https:\/\/doi.org\/10.1177\/1049732308317220","journal-title":"Qualitative
+        Health Research"},{"key":"7_CR34","doi-asserted-by":"crossref","unstructured":"Shupler,
+        M., Mwitari, J., Gohole, A., & De Cuevas, R. A. (2020). COVID-19 Lockdown
+        in a Kenyan Informal Settlement\u202f: Impacts on Household Energy and Food
+        Security.","DOI":"10.1101\/2020.05.27.20115113"},{"key":"7_CR35","doi-asserted-by":"publisher","unstructured":"Simba,
+        H., & Ngcobo, S. (2020). Are Pandemics Gender Neutral\u202f? Women\u2019 s
+        Health and COVID-19. 1(October), 1\u20136. https:\/\/doi.org\/10.3389\/fgwh.2020.570666","DOI":"10.3389\/fgwh.2020.570666"},{"key":"7_CR36","doi-asserted-by":"publisher","unstructured":"Smith,
+        J. (2019). Overcoming the \u2018tyranny of the urgent\u2019: Integrating gender
+        into disease outbreak preparedness and response. Gender and Development, 27(2),
+        355\u2013369. https:\/\/doi.org\/10.1080\/13552074.2019.1615288","DOI":"10.1080\/13552074.2019.1615288"},{"key":"7_CR37","doi-asserted-by":"publisher","unstructured":"Tolhurst,
+        R., Joanna, R., & Sally, T. (2009). Maternal and child health: Global challenges,
+        programs, and policies. Maternal and Child Health: Global Challenges, Programs,
+        and Policies, 1\u2013582. https:\/\/doi.org\/10.1007\/b106524","DOI":"10.1007\/b106524"},{"key":"7_CR38","doi-asserted-by":"publisher","unstructured":"Wai,
+        K. M., Shibanuma, A., Oo, N. N., Fillman, T. J., Saw, Y. M., & Jimba, M. (2015).
+        Are husbands involving in their spouses\u2019 utilization of maternal care
+        services?: A cross-sectional study in Yangon, Mya. Plos ONE, 10(12), 1\u201313.
+        https:\/\/doi.org\/10.1371\/journal.pone.0144135","DOI":"10.1371\/journal.pone.0144135"},{"key":"7_CR39","doi-asserted-by":"publisher","unstructured":"Wangamati,
+        C. K., & Sundby, J. (2020). The ramifications of COVID-19 on maternal health
+        in Kenya The rami fi cations of COVID-19 on maternal health in Kenya. https:\/\/doi.org\/10.1080\/26410397.2020.1804716","DOI":"10.1080\/26410397.2020.1804716"},{"key":"7_CR40","doi-asserted-by":"publisher","unstructured":"Wenham,
+        C., Smith, J., & Morgan, R. (2020). COVID-19: The gendered impacts of the
+        outbreak. The Lancet, 395(10227), 846\u2013848. https:\/\/doi.org\/10.1016\/S0140-6736(20)30526-2","DOI":"10.1016\/S0140-6736(20)30526-2"},{"key":"7_CR41","unstructured":"World
+        Health Organization. (2007). Addressing sex and gender in Epidemic-Prone infectious
+        diseases."},{"key":"7_CR42","unstructured":"World Health Organization (WHO).
+        (2019). Maternal mortality. https:\/\/www.who.int\/news-room\/fact-sheets\/detail\/maternal-mortality"},{"key":"7_CR43","doi-asserted-by":"publisher","author":"HJ
+        Zar","year":"2020","unstructured":"Zar, H. J., Dawa, J., Fischer, G. B., &
+        Castro-, J. A. (2020). Challenges of COVID-19 in children in low- and middle-income
+        countries. Paediatric Respiratory Reviews. https:\/\/doi.org\/10.1016\/j.prrv.2020.06.016","journal-title":"Paediatric
+        Respiratory Reviews","DOI":"10.1016\/j.prrv.2020.06.016"}],"container-title":["Understanding
+        Post-COVID-19 Social and Cultural Realities"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-981-19-0809-5_7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,19]],"date-time":"2022-09-19T17:05:27Z","timestamp":1663607127000},"score":33.36548,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-981-19-0809-5_7"}},"issued":{"date-parts":[[2022]]},"ISBN":["9789811908088","9789811908095"],"references-count":43,"URL":"http:\/\/dx.doi.org\/10.1007\/978-981-19-0809-5_7","published":{"date-parts":[[2022]]},"assertion":[{"value":"15
+        May 2022","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2022,7,29]],"date-time":"2022-07-29T04:41:08Z","timestamp":1659069668442},"reference-count":0,"publisher":"Policy
+        Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,7,29]]},"abstract":"<p>The
+        lockdown imposed by the four governments of the UK in late March 2020 represented
+        an extraordinary, rapid, and radical restriction on normal life for the entire
+        population. What did the UK public think about this unprecedented governmental
+        intervention? Specifically, what was the popular rights consciousness with
+        respect to the lockdown restrictions? The chapter argues that, despite notable
+        and powerful public statements about the extent to which lockdown represented
+        an unacceptable violation of basic rights and liberties, this claim failed
+        to capture the public imagination. Instead, most people either regarded the
+        violation of basic rights as acceptable, given the context of the pandemic,
+        or simply failed to think of the lockdown in terms of basic rights at all.
+        The chapter suggests that such popular rights consciousness has been shaped
+        by the strength of social solidarity during the crisis \u2013 what we might
+        describe as a kind of popular \u2018obligation\u2019 consciousness.<\/p>","DOI":"10.1332\/policypress\/9781529218916.003.0007","type":"book-chapter","created":{"date-parts":[[2022,1,20]],"date-time":"2022-01-20T18:54:29Z","timestamp":1642704869000},"page":"79-92","source":"Crossref","is-referenced-by-count":0,"title":["Rights
+        and Solidarity during COVID-19"],"prefix":"10.1332","author":[{"given":"Simon","family":"Halliday","sequence":"first","affiliation":[]},{"given":"Jed","family":"Meers","sequence":"additional","affiliation":[]},{"given":"Joe","family":"Tomlinson","sequence":"additional","affiliation":[]}],"member":"165","published-online":{"date-parts":[[2022,1,20]]},"container-title":["Pandemic
+        Legalities"],"original-title":["Rights and Solidarity during COVID-19"],"deposited":{"date-parts":[[2022,7,28]],"date-time":"2022-07-28T19:02:19Z","timestamp":1659034939000},"score":33.20078,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/policy-press-scholarship-online\/book\/42699\/chapter\/360674828"}},"issued":{"date-parts":[[2021,7,29]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1332\/policypress\/9781529218916.003.0007","relation":{"is-identical-to":[{"id-type":"doi","id":"10.51952\/9781529218947.ch006","asserted-by":"object"}]},"published":{"date-parts":[[2021,7,29]]}},{"indexed":{"date-parts":[[2022,4,21]],"date-time":"2022-04-21T23:05:09Z","timestamp":1650582309298},"reference-count":28,"publisher":"IntechOpen","license":[{"start":{"date-parts":[[2021,12,1]],"date-time":"2021-12-01T00:00:00Z","timestamp":1638316800000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/3.0\/legalcode"}],"content-domain":{"domain":[],"crossmark-restriction":false},"abstract":"<jats:p>COVID-19
+        has affected millions worldwide. To combat the infectious pandemic in resource
+        limited settings, healthcare workers and techies have come up with multiple
+        innovations. Nations with scarcity of resources have resorted to innovative
+        strategies involving optimal utilization and repurposing of available commodities
+        to overcome the demand\u2013supply mismatch. Emergency rooms overburdened
+        with diseased population are resorting to local innovative ideas to overcome
+        obstacles in COVID-19 patient care. Point of care testing strategies in emergency
+        rooms, sampling booths to reduce Personal Protective Equipment (PPE) use,
+        disinfection strategies such as tunnel disinfection and local production of
+        sanitizers, face masks\/shields, aerosol containment chambers, novel triage
+        protocols, telehealth care strategies reaching out to remote population and
+        utilizing point for care ultrasound for resuscitation are few of the novel
+        innovations which have benefitted medical fraternity and patient care in testing
+        times. Medical innovations have emerged as the positive outcome of otherwise
+        devastating COVID-19 pandemic. These practice changing innovations could also
+        prove beneficial in future infectious pandemics.<\/jats:p>","DOI":"10.5772\/intechopen.98293","type":"book-chapter","created":{"date-parts":[[2021,6,16]],"date-time":"2021-06-16T13:52:20Z","timestamp":1623851540000},"source":"Crossref","is-referenced-by-count":1,"title":["Practice
+        Changing Innovations for Emergency Care during the COVID-19 Pandemic in Resource
+        Limited Settings"],"prefix":"10.5772","author":[{"given":"Tej","family":"Prakash
+        Sinha","sequence":"first","affiliation":[]},{"given":"Brunda","family":"RL","sequence":"additional","affiliation":[]},{"given":"Sakshi","family":"Yadav","sequence":"additional","affiliation":[]},{"given":"Sanjeev","family":"Bhoi","sequence":"additional","affiliation":[]}],"member":"3774","published-online":{"date-parts":[[2021,12,1]]},"reference":[{"key":"ref=1","doi-asserted-by":"crossref","unstructured":"Mathew
+        JL, Mathew TL. Invention, Innovation, and Imitation in India\u2014Necessity
+        Arising from the COVID-19 Pandemic. Annals of the National Academy of Medical
+        Sciences (India). 21.06.2020. 2020 Jun 8;56(02):077-86","DOI":"10.1055\/s-0040-1713719"},{"key":"ref=2","doi-asserted-by":"crossref","unstructured":"Chowdhury
+        R, Luhar S, Khan N, Choudhury SR, Matin I, Franco OH. Long-term strategies
+        to control COVID-19 in low and middle-income countries: an options overview
+        of community-based, non-pharmacological interventions. European Journal of
+        Epidemiology [Internet]. 2020 Aug 1;35(8):743-748. Available from: https:\/\/doi.org\/10.1007\/s10654-020-00660-1","DOI":"10.1007\/s10654-020-00660-1"},{"key":"ref=3","doi-asserted-by":"crossref","unstructured":"Narinx
+        N, Smismans A, Symons R, Frans J, Demeyere A, Gillis M. Feasibility of using
+        point-of-care lung ultrasound for early triage of COVID-19 patients in the
+        emergency room. Emerg Radiol [Internet]. 2020\/09\/10 ed. 2020 Dec;27(6):663-70.
+        Available from: https:\/\/pubmed.ncbi.nlm.nih.gov\/32910323","DOI":"10.1007\/s10140-020-01849-3"},{"key":"ref=4","doi-asserted-by":"crossref","unstructured":"Freund
+        Y. The challenge of emergency medicine facing the COVID-19 outbreak. European
+        Journal of Emergency Medicine [Internet]. 2020;27(3). Available from: https:\/\/journals.lww.com\/euro-emergencymed\/Fulltext\/2020\/06000\/The_challenge_of_emergency_medicine_facing_the.1.aspx","DOI":"10.1097\/MEJ.0000000000000699"},{"key":"ref=5","unstructured":"https:\/\/innohealthmagazine.com\/2020\/covid19\/innovation-for-hospitalsduring-covid-19\/"},{"key":"ref=6","unstructured":"Sruthi
+        (2020) India\u2019s 1st walk-in COVID-19 test kiosks become functional in
+        Kerala. https:\/\/www.biotecnika.org\/2020\/04\/first-walk-in-covid-19-test-booth-functional-in-kerala\/.
+        Accessed 10 Apr 2020"},{"key":"ref=7","doi-asserted-by":"crossref","unstructured":"Joshi
+        JR. COVSACK: an innovative portable isolated and safe COVID-19 sample collection
+        kiosk with automatic disinfection. Transactions of the Indian National Academy
+        of Engineering [Internet]. 2020 Jun 1;5(2):269-275. Available from: https:\/\/doi.org\/10.1007\/s41403-020-00139-1","DOI":"10.1007\/s41403-020-00139-1"},{"key":"ref=8","doi-asserted-by":"crossref","unstructured":"Nair
+        SS, Prajapati AK, Venkatesan RB, Vayalappil MC, Kishore A. Design and Evaluation
+        of Chitra Swab Collection Booths for Health Professionals in COVID-19 Pandemic.
+        Transactions of the Indian National Academy of Engineering [Internet]. 2020
+        Aug 31; Available from: https:\/\/doi.org\/10.1007\/s41403-020-00167-x","DOI":"10.1007\/s41403-020-00167-x"},{"key":"ref=9","doi-asserted-by":"crossref","unstructured":"Lee
+        D, Lee J. Testing on the move: South Korea\u2019s rapid response to the COVID-19
+        pandemic. Transportation Research Interdisciplinary Perspectives [Internet].
+        2020\/04\/21 ed. 2020 May;5:100111-100111. Available from: https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7172645\/","DOI":"10.1016\/j.trip.2020.100111"},{"key":"ref=10","unstructured":"Guidance
+        on Rapid Antibody Kits for COVID-19. Available at: https:\/\/www.icmr.gov.in\/pdf\/covid\/kits\/Antibody_based_tests_14052020.pdf.
+        Accessed May 18, 2020"},{"key":"ref=11","unstructured":"Rajalakshmi N. Explained:
+        How Does India\u2019s Feluda COVID-19 Test Work? 2020 Oct 28; Available from:
+        https:\/\/science.thewire.in\/the-sciences\/explained-feluda-covid-19-test-india-crispr-technology\/"},{"key":"ref=12","unstructured":"Tamil
+        Nadu: Ventilator Splitters Being 3D Printed in Case of Shortage for Covid-19
+        Patients. Available at: https:\/\/www.indiatoday.in\/india\/story\/tamil-nadu-ventilator-splitters-being-3d-printed-in-case-of-shortage-for-covid-19-patients-1668167-2020-04-17.
+        Accessed May 17, 2020"},{"key":"ref=13","unstructured":"Badve A. Coronavirus
+        India: Nagpur\u2019s Dr Anand Sancheti Develops Ventilator Splitters. Avilable
+        at: https:\/\/www.sakaltimes.com\/coronavirus-maharashtra\/coronavirus-india-nagpur\u2019s-dr-anand-sancheti-develops-ventilator-splitters.
+        Accessed May 17, 2020"},{"key":"ref=14","unstructured":"Railways New Innovative
+        Device, \u2018Intubation Boxes\u2019, to Aid the Medical Fraternity In Our
+        Fight Against COVID-19. Available at: https:\/\/news.fresherslive.com\/articles\/railway-s-new-innovative-device-intubation-boxes-to-aid-the-medical-fraternity-in-our-fight-against-covid-19-126438.
+        Accessed May 18, 2020"},{"key":"ref=15","unstructured":"Singh B. IIT Guwahati
+        Students Design Low-Cost Intubation Box to Help Doctors in Covid-19 Fight.
+        Available at: https:\/\/economictimes.indiatimes.com\/industry\/healthcare\/biotech\/healthcare\/iit-guwahati-students-design-low-cost-intubation-box-to-help-doctors-in-covid-19-fight\/articleshow\/75475246.cms?from=mdr.
+        Accessed May 18, 2020"},{"key":"ref=16","unstructured":"Harrison K. Innovative
+        infection isolation tent humanises treatment for COVID-19 patients. 2020 Jul
+        29; Available from: https:\/\/newsroom.unsw.edu.au\/news\/art-architecture-design\/innovative-infection-isolation-tent-humanises-treatment-covid-19"},{"key":"ref=17","unstructured":"https:\/\/indiabioscience.org\/columns\/indian-scenario\/innovations-to-make-india-self-reliant-in-tackling-covid-19"},{"key":"ref=18","unstructured":"Global
+        health innovators mobilize to help developing countries combat COVID-19 |
+        EurekAlert! Science News: https:\/\/www.eurekalert.org\/pub_releases\/2020-04\/tca-imt042120.php"},{"key":"ref=19","doi-asserted-by":"crossref","unstructured":"Keri
+        VC, R.L B, Sinha TP, Wig N, Bhoi S. Tele-healthcare to combat COVID-19 pandemic
+        in developing countries: A proposed single centre and integrated national
+        level model. The International Journal of Health Planning and Management [Internet].
+        2020 Aug 3 [cited 2020 Oct 16];n\/a(n\/a). Available from: https:\/\/doi.org\/10.1002\/hpm.3036","DOI":"10.1002\/hpm.3036"},{"key":"ref=20","unstructured":"Sh.
+        R Ramanan(Additional Secretary and Mission Director, Himanshu Agrawal(Young
+        Professional, AIM, NITI Aayog)AIM, NITI Aayog), Naman Agrawal(Innovation Lead,
+        AIM, NITI Aayog). Telemedicine: A Blessing In Disguise In Time Of COVID-19.
+        2020"},{"key":"ref=21","unstructured":"Rl B, Keri V, Sinha T, Bhoi S. Re-purposing
+        humanoid robots for patient care in COVID-19 pandemic. The International Journal
+        of Health Planning and Management. 2020 Sep 1;"},{"key":"ref=22","unstructured":"Barnes
+        S. Boy scout 3D prints \u2018ear guards\u2019 to help relieve hospital workers\u2019
+        pain caused by facemasks. https:\/\/mymodernmet.com\/3d-printed-ear-guards\/"},{"key":"ref=23","unstructured":"Peters
+        J. Volunteers produce 3D-printed valves for life-saving coronavirus treatments.https:\/\/www.theverge.com\/2020\/3\/17\/21184308\/coronavirus-italy-medical-3d-print-valves-treatments"},{"key":"ref=24","unstructured":"Digital
+        Healthcare Innovating During Pandemic| VMware Radius: https:\/\/www.vmware.com\/radius\/impact\/digital-healthcare-pandemic\/"},{"key":"ref=25","unstructured":"How
+        Delivery Drones Are Being Used to Tackle COVID-19 (Updated) [Internet]. We
+        Robotics- The power of Local. 2020. Available from: https:\/\/blog.werobotics.org\/2020\/04\/25\/cargo-drones-covid-19\/"},{"key":"ref=26","unstructured":"Peach
+        kathy, Gray I. Five ways collective intelligence can help beat coronavirus
+        in developing countries [Internet]. 2020. Available from: https:\/\/theconversation.com\/five-ways-collective-intelligence-can-help-beat-coronavirus-in-developing-countries-136548"},{"key":"ref=27","unstructured":"Ganesh
+        M. It\u2019s Time ASHAs And Anganwadi Workers Are Given Recognition As Healthcare
+        Employees. 2020 May 28; Available from: https:\/\/www.outlookindia.com\/website\/story\/opinion-its-time-ashas-and-anganwadi-workers-are-given-recognition-as-healthcare-employees\/353769"},{"key":"ref=28","doi-asserted-by":"crossref","unstructured":"Bryant
+        JL, Sosin DM, Wiedrich TW, Redd SC. Emergency Operations Centers and Incident
+        Management Structure. In: CDC Field Epidemiology manual. 4th ed. Oxford University
+        press 2019;","DOI":"10.1093\/oso\/9780190933692.003.0016"}],"container-title":["SARS-CoV-2
+        Origin and COVID-19 Pandemic Across the Globe"],"link":[{"URL":"http:\/\/www.intechopen.com\/download\/pdf\/76912","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,12,2]],"date-time":"2021-12-02T09:50:14Z","timestamp":1638438614000},"score":33.18487,"resource":{"primary":{"URL":"https:\/\/www.intechopen.com\/books\/sars-cov-2-origin-and-covid-19-pandemic-across-the-globe\/practice-changing-innovations-for-emergency-care-during-the-covid-19-pandemic-in-resource-limited-se"}},"issued":{"date-parts":[[2021,12,1]]},"references-count":28,"URL":"http:\/\/dx.doi.org\/10.5772\/intechopen.98293","published":{"date-parts":[[2021,12,1]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T07:56:13Z","timestamp":1648799773263},"reference-count":0,"publisher":"University
+        of Calgary Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,12,15]]},"DOI":"10.2307\/j.ctv25m8djx.7","type":"book-chapter","created":{"date-parts":[[2021,12,16]],"date-time":"2021-12-16T20:20:18Z","timestamp":1639686018000},"page":"51-72","source":"Crossref","is-referenced-by-count":0,"title":["Supply
+        Chains during the COVID-19 Pandemic"],"prefix":"10.2307","member":"1121","container-title":["Stress
+        Tested"],"deposited":{"date-parts":[[2021,12,16]],"date-time":"2021-12-16T20:20:27Z","timestamp":1639686027000},"score":33.176933,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv25m8djx.7"}},"issued":{"date-parts":[[2021,12,15]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv25m8djx.7","published":{"date-parts":[[2021,12,15]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T11:18:26Z","timestamp":1648639106683},"reference-count":0,"publisher":"inScience
+        Press","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.36315\/2021padvii21","type":"book-chapter","created":{"date-parts":[[2022,3,16]],"date-time":"2022-03-16T11:29:56Z","timestamp":1647430196000},"source":"Crossref","is-referenced-by-count":0,"title":["Anxiety
+        and Depression in Post Acute Myocardial Infarction Patients During COVID-19
+        Pandemic"],"prefix":"10.36315","member":"22118","published-online":{"date-parts":[[2021,12,15]]},"container-title":["Psychology
+        Applications &amp; Developments VII"],"deposited":{"date-parts":[[2022,3,16]],"date-time":"2022-03-16T11:30:19Z","timestamp":1647430219000},"score":33.085396,"resource":{"primary":{"URL":"http:\/\/press.insciencepress.org\/index.php\/press\/catalog\/view\/15\/28\/389-1"}},"issued":{"date-parts":[[2021,12,15]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.36315\/2021padvii21","published":{"date-parts":[[2021,12,15]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T17:14:17Z","timestamp":1648574057678},"publisher-location":"Singapore","reference-count":25,"publisher":"Springer
+        Singapore","isbn-type":[{"value":"9789811664854","type":"print"},{"value":"9789811664861","type":"electronic"}],"license":[{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2022]]},"DOI":"10.1007\/978-981-16-6486-1_8","type":"book-chapter","created":{"date-parts":[[2022,2,24]],"date-time":"2022-02-24T08:04:31Z","timestamp":1645689871000},"page":"159-178","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Long-Term
+        Care Staff Perceptions of Providing Care During the COVID-19 Pandemic in the
+        United States and Switzerland: Balancing Protection and Social Isolation"],"prefix":"10.1007","author":[{"given":"Andrea","family":"Freidus","sequence":"first","affiliation":[]},{"given":"Dena","family":"Shenk","sequence":"additional","affiliation":[]},{"given":"Megan","family":"Davies","sequence":"additional","affiliation":[]},{"given":"Christin","family":"Wolf","sequence":"additional","affiliation":[]},{"given":"Sandra","family":"Staudacher","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2022,2,24]]},"reference":[{"issue":"2","key":"8_CR1","doi-asserted-by":"publisher","first-page":"59","DOI":"10.1136\/eb-2013-101379","volume":"17","author":"JT
+        Cacioppo","year":"2014","unstructured":"Cacioppo, John T., and Stephanie Cacioppo.
+        2014. Older Adults Reporting Social Isolation or Loneliness Show Poorer Cognitive
+        Function 4 Years Later. Evidence Based Nursing 17 (2): 59\u201360. https:\/\/doi-org.librarylink.uncc.edu\/10.1136\/eb-2013-101379.","journal-title":"Evidence
+        Based Nursing"},{"key":"8_CR2","unstructured":"Centers for Medicare & Medicaid
+        Services. 2020. CMS.gov: Guidance for Infection Control and Prevention of
+        Coronavirus Disease 2019 (COVID-19) in Nursing Homes (Revised). Department
+        of Health and Human Services. Accessed April 13, 2020. https:\/\/www.cms.gov\/files\/document\/3-13-2020-nursing-home-guidance-covid-19.pdf."},{"key":"8_CR3","doi-asserted-by":"crossref","unstructured":"Chu,
+        C.H., J. Wang, C. Fukui, S. Staudacher-Preite, P. Wachholz, and B. Wu. 2021.
+        The Impact of COVID-19 on Social Isolation in Long-Term Care Homes: Perspectives
+        of Policies and Strategies from Six Countries. Journal of Aging & Social Policy.
+        Accepted January 28, 2021.","DOI":"10.4324\/9781003273462-11"},{"key":"8_CR4","doi-asserted-by":"publisher","first-page":"209","DOI":"10.1146\/annurev.so.18.080192.001233","volume":"18","author":"P
+        Conrad","year":"1992","unstructured":"Conrad, Peter. 1992. Medicalization
+        and Social Control. Annual Review of Sociology 18: 209\u2013232.","journal-title":"Annual
+        Review of Sociology"},{"issue":"3","key":"8_CR5","doi-asserted-by":"publisher","first-page":"799","DOI":"10.1111\/hsc.12311","volume":"25","author":"E
+        Courtin","year":"2017","unstructured":"Courtin, Emilie, and Martin Knapp.
+        2017. Social Isolation, Loneliness and Health in Old Age: A Scoping Review.
+        Health & Social Care in the Community 25 (3): 799\u2013812. https:\/\/doi-org.librarylink.uncc.edu\/10.1111\/hsc.12311.","journal-title":"Health
+        & Social Care in the Community"},{"key":"8_CR7","unstructured":"Federal Office
+        of Public Health (FOPH). 2020. COVID-19: Informationen und Empfehlungen f\u00fcr
+        Institutionen wie Alters- und Pflegeheime sowie Einrichtungen f\u00fcr Menschen
+        mit Behinderungen. (Version 1: 02.04.2020; Version 2: 26.06.2020)."},{"key":"8_CR8","unstructured":"Freidus,
+        Andrea, and Dena Shenk. 2021. The Isolation Pandemic: Older Americans in Congregate
+        Care during COVID. Presented at the Annual Meeting of the Society for Applied
+        Anthropology, March 21."},{"issue":"2","key":"8_CR9","doi-asserted-by":"publisher","first-page":"199","DOI":"10.5195\/aa.2020.312","volume":"41","author":"A
+        Freidus","year":"2020","unstructured":"Freidus, Andrea, Dena Shenk, and Christin
+        Wolf. 2020a. \u2018It Spread Like Wildfire\u2019: Analyzing Affect in the
+        Narratives of Nursing Home Staff during a COVID-19 Outbreak. Journal of Anthropology
+        and Aging 41 (2): 199\u2013206. https:\/\/doi.org\/10.5195\/aa.2020.312.","journal-title":"Journal
+        of Anthropology and Aging"},{"key":"8_CR10","doi-asserted-by":"crossref","unstructured":"\u2014\u2014\u2014.
+        2020b. A Rapid Qualitative Appraisal of the Impact of COVID-19 on Long-Term
+        Care Communities in the U.S.: Perspectives from Area Aging Staff and Advocates.
+        Human Organization 79 (4): 313\u2013322. https:\/\/doi.org\/10.17730\/1938-3525-79.4.313.","DOI":"10.17730\/1938-3525-79.4.313"},{"issue":"5","key":"8_CR11","doi-asserted-by":"publisher","first-page":"701","DOI":"10.1093\/ageing\/afaa113","volume":"49","author":"AL
+        Gordon","year":"2020","unstructured":"Gordon, Adam L., Claire Goodman, Wilco
+        Achterberg, Robert O. Barker, Eileen Burns, Barbara Hanratty, Finbarr Martin,
+        Julienne Meyer, Desmond O\u2019Neill, Jos Schols, and Karen Spilsbury. 2020.
+        Commentary: COVID in Care Homes\u2014Challenges and Dilemmas in Healthcare
+        Delivery. Age and Ageing 49 (5): 701\u2013705. https:\/\/doi.org\/10.1093\/ageing\/afaa113.","journal-title":"Age
+        and Ageing"},{"issue":"4\u20135","key":"8_CR12","doi-asserted-by":"publisher","first-page":"410","DOI":"10.1080\/08959420.2020.1765684","volume":"32","author":"E
+        Hado","year":"2020","unstructured":"Hado, Edem, and Lynn Friss Feinberg. 2020.
+        Amid the COVID-19 Pandemic, Meaningful Communication between Family Caregivers
+        and Residents of Long-Term Care Facilities Is Imperative. Journal of Aging
+        & Social Policy 32 (4\u20135): 410\u2013415. https:\/\/doi.org\/10.1080\/08959420.2020.1765684.","journal-title":"Journal
+        of Aging & Social Policy"},{"issue":"3","key":"8_CR13","doi-asserted-by":"publisher","first-page":"312","DOI":"10.1007\/s12603-020-1316-5","volume":"24","author":"T
+        Hayashi","year":"2020","unstructured":"Hayashi, Takahiro, Umegaki Hiroyuki,
+        T. Makino, Chi Hsiem Huang, A. Inoue, Hiroyuki Shimada, and M. Kuzuya. 2020.
+        Combined Impact of Physical Frailty and Social Isolation on Rate of Falls
+        in Older Adults. The Journal of Nutrition, Health & Aging 24 (3): 312\u2013318.
+        https:\/\/doi-org.librarylink.uncc.edu\/10.1007\/s12603-020-1316-5.","journal-title":"The
+        Journal of Nutrition, Health & Aging"},{"key":"8_CR16","doi-asserted-by":"publisher","unstructured":"McCance,
+        Tanya, Brendan McCormack, and Jan Dewing. 2011. An Exploration of Person-Centredness
+        in Practice. OJIN: The Online Journal of Issues in Nursing 16 (2), Manuscript
+        1. https:\/\/doi.org\/10.3912\/OJIN.Vol16No02Man01.","DOI":"10.3912\/OJIN.Vol16No02Man01"},{"key":"8_CR17","volume-title":"Social
+        Isolation and Loneliness in Older Adults: Opportunities for the Health Care
+        System","author":"National Academies of Sciences, Engineering and Medicine","year":"2020","unstructured":"National
+        Academies of Sciences, Engineering and Medicine. 2020. Social Isolation and
+        Loneliness in Older Adults: Opportunities for the Health Care System. The
+        National Academies Press."},{"key":"8_CR031","unstructured":"NCDHHS. 2020.
+        What to Expect: Response to New COVID-19 Cases or Outbreaks in Long Term Care
+        Settings. https:\/\/files.nc.gov\/covid\/documents\/guidance\/healthcare\/What_To_Expect_Response_to_COVID19_Cases_Long_Term_Care.pdf"},{"key":"8_CR31","doi-asserted-by":"publisher","unstructured":"Nolan,
+        M. 2001. Successful Ageing: Keeping the \u2018person\u2019 in Person-Centred
+        Care. British Journal of Nursing 10 ( 7): 450\u2013454. https:\/\/doi.org\/10.12968\/bjon.2001.10.7.5330.","DOI":"10.12968\/bjon.2001.10.7.5330"},{"issue":"12","key":"8_CR18","first-page":"37","volume":"20","author":"N
+        Peduzzi","year":"2020","unstructured":"Peduzzi, Nora, and Sandra Staudacher.
+        2020. Wie die Medien \u00fcber Covid-19 in den Pflegeheimen berichtet haben.
+        Zementierung stereotyper Bilder von Menschen auf dem Abstellgleis. Curaviva
+        20 (12): 37\u201339.","journal-title":"Curaviva"},{"issue":"4","key":"8_CR19","doi-asserted-by":"publisher","first-page":"162","DOI":"10.1111\/j.1741-6612.2007.00249.x","volume":"26","author":"NM
+        Peel","year":"2007","unstructured":"Peel, Nancye M., Helen P. Bartlett, and
+        Alison L. Marshall. 2007. Measuring Quality of Life in Older People: Reliability
+        and Validity of WHOQOL-OLD. Australasian Journal on Ageing 26 (4): 162\u2013167.","journal-title":"Australasian
+        Journal on Ageing"},{"issue":"2","key":"8_CR21","doi-asserted-by":"publisher","first-page":"142","DOI":"10.1093\/geront\/48.2.142","volume":"48","author":"AN
+        Rahman","year":"2008","unstructured":"Rahman, Anna N., and John F. Schnelle.
+        2008. The Nursing Home Culture-Change Movement: Recent Past, Present, and
+        Future Directions for Research. The Gerontologist 48 (2): 142\u2013148. https:\/\/doi.org\/10.1093\/geront\/48.2.142.","journal-title":"The
+        Gerontologist"},{"issue":"6","key":"8_CR24","doi-asserted-by":"publisher","first-page":"370","DOI":"10.1016\/j.jamda.2009.04.004","volume":"10","author":"EF
+        White-Chu","year":"2009","unstructured":"White-Chu, E. Foy, William J. Graves,
+        Sandra M. Godfrey, Alice Bonner, and Philip Sloane. 2009. Beyond the Medical
+        Model: The Culture Change Revolution in Long-Term Care. Journal of the Medical
+        Directors Association 10 (6): 370\u2013378. https:\/\/doi.org\/10.1016\/j.jamda.2009.04.004.","journal-title":"Journal
+        of the Medical Directors Association"},{"key":"8_CR25","volume-title":"Preventing
+        and Managing COVID-19 across Long-Term Care Services: Policy Brief","author":"WHO","year":"2020","unstructured":"WHO.
+        2020. Preventing and Managing COVID-19 across Long-Term Care Services: Policy
+        Brief. Geneva: World Health Organization."},{"issue":"4-5","key":"8_CR26","doi-asserted-by":"publisher","first-page":"460","DOI":"10.1080\/08959420.2020.1771237","volume":"32","author":"B
+        Xie","year":"2020","unstructured":"Xie, Bo, Neil Charness, Karen Fingerman,
+        Jeffrey Kaye, Miyong T. Kim, and Anjum Khurshid. 2020. When Going Digital
+        Becomes a Necessity: Ensuring Older Adults\u2019 Needs for Information, Services,
+        and Social Inclusion During COVID-19. Journal of Aging & Social Policy 32
+        (4-5): 460\u2013470. https:\/\/doi.org\/10.1080\/08959420.2020.1771237.","journal-title":"Journal
+        of Aging & Social Policy"},{"key":"8_CR28","doi-asserted-by":"publisher","first-page":"487","DOI":"10.1111\/j.1467-954X.1972.tb00220.x","volume":"20","author":"IK
+        Zola","year":"1972","unstructured":"Zola, Irving Kenneth. 1972. Medicine as
+        an Institution of Social Control. Sociological Review 20: 487\u2013504.","journal-title":"Sociological
+        Review"},{"key":"8_CR29","volume-title":"Socio-medical Inquiries","author":"IK
+        Zola","year":"1983","unstructured":"\u2014\u2014\u2014. 1983. Socio-medical
+        Inquiries. Philadelphia: Temple University Press."},{"key":"8_CR30","volume-title":"The
+        Elderly: Legal and Ethical Issues in Healthcare Policy","author":"IK Zola","year":"2009","unstructured":"\u2014\u2014\u2014.
+        2009. The Medicalization of Aging and Disability. In The Elderly: Legal and
+        Ethical Issues in Healthcare Policy, ed. Martin Lyon Levine. New York: Routledge."}],"container-title":["Caring
+        on the Frontline during COVID-19"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-981-16-6486-1_8","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T16:51:46Z","timestamp":1648572706000},"score":33.06845,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-981-16-6486-1_8"}},"issued":{"date-parts":[[2022]]},"ISBN":["9789811664854","9789811664861"],"references-count":25,"URL":"http:\/\/dx.doi.org\/10.1007\/978-981-16-6486-1_8","published":{"date-parts":[[2022]]},"assertion":[{"value":"24
+        February 2022","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2022,11,16]],"date-time":"2022-11-16T09:19:39Z","timestamp":1668590379809},"publisher-location":"Cham","reference-count":43,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_17","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"275-290","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":13,"title":["Exploring
+        the Main Determinants of Mobile Learning Application Usage During Covid-19
+        Pandemic in Jordanian Universities"],"prefix":"10.1007","author":[{"given":"Mohammed
+        Amin","family":"Almaiah","sequence":"first","affiliation":[]},{"given":"Ahmad","family":"Al-Khasawneh","sequence":"additional","affiliation":[]},{"given":"Ahmad","family":"Althunibat","sequence":"additional","affiliation":[]},{"given":"Omar","family":"Almomani","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,3,21]]},"reference":[{"key":"17_CR1","doi-asserted-by":"crossref","unstructured":"Almaiah,
+        M.A., Al-Khasawneh, A., Althunibat, A.: Exploring the critical challenges
+        and factors influencing the e-learning system usage during COVID-19 pandemic.
+        Educ. Inf. Technol., 1 (2020)","DOI":"10.1007\/s10639-020-10219-y"},{"key":"17_CR2","doi-asserted-by":"crossref","unstructured":"Almaiah,
+        M.A., Al Mulhem, A.: Analysis of the essential factors affecting of intention
+        to use of mobile learning applications: a comparison between universities
+        adopters and non-adopters. Educ. Inf. Technol. 24(2), 1433\u20131468","DOI":"10.1007\/s10639-018-9840-1"},{"key":"17_CR3","doi-asserted-by":"crossref","unstructured":"Al-Emran,
+        M., Salloum, S.A.: Students\u2019 attitudes towards the use of mobile technologies
+        in e-evaluation. Int. J. Interact. Mobile Technol. (IJIM) 11(5), 195\u2013202
+        (2017)","DOI":"10.3991\/ijim.v11i5.6879"},{"key":"17_CR4","doi-asserted-by":"publisher","first-page":"171907","DOI":"10.1109\/ACCESS.2019.2956349","volume":"7","author":"MA
+        Almaiah","year":"2019","unstructured":"Almaiah, M.A., Alyoussef, I.Y.: Analysis
+        of the effect of course design, course content support, course assessment
+        and instructor characteristics on the actual use of E-learning system. IEEE
+        Access 7, 171907\u2013171922 (2019)","journal-title":"IEEE Access"},{"issue":"4","key":"17_CR5","doi-asserted-by":"publisher","first-page":"453","DOI":"10.1007\/s40692-016-0074-1","volume":"3","author":"MA
+        Almaiah","year":"2016","unstructured":"Almaiah, M.A., Jalil, M.A., Man, M.:
+        Extending the TAM to examine the effects of quality features on mobile learning
+        acceptance. J. Comput. Educ. 3(4), 453\u2013485 (2016)","journal-title":"J.
+        Comput. Educ."},{"issue":"5","key":"17_CR6","doi-asserted-by":"publisher","first-page":"1873","DOI":"10.1007\/s10639-018-9694-6","volume":"23","author":"MA
+        Almaiah","year":"2018","unstructured":"Almaiah, M.A.: Acceptance and usage
+        of a mobile information system services in University of Jordan. Educ. Inf.
+        Technol. 23(5), 1873\u20131895 (2018)","journal-title":"Educ. Inf. Technol."},{"key":"17_CR7","doi-asserted-by":"crossref","unstructured":"Al-Emran,
+        M., Mezhuyev, V., Kamaludin, A., ALSinani, M.: Development of M-learning application
+        based on knowledge management processes. In: Proceedings of the 2018 7th International
+        Conference on Software and Computer Applications, pp. 248\u2013253 (2018)","DOI":"10.1145\/3185089.3185120"},{"issue":"4","key":"17_CR8","doi-asserted-by":"publisher","first-page":"31","DOI":"10.3991\/ijim.v8i4.3965","volume":"8","author":"MA
+        Almaiah","year":"2014","unstructured":"Almaiah, M.A., Jalil, M.A.: Investigating
+        students\u2019 perceptions on mobile learning services. Int. J. Interact.
+        Mobile Technol. (IJIM) 8(4), 31\u201336 (2014)","journal-title":"Int. J. Interact.
+        Mobile Technol. (IJIM)"},{"issue":"3","key":"17_CR9","first-page":"1314","volume":"19","author":"MA
+        Almaiah","year":"2016","unstructured":"Almaiah, M.A., Man, M.: Empirical investigation
+        to explore factors that achieve high quality of mobile learning system based
+        on students\u2019 perspectives. Eng. Sci. Technol. Int. J. 19(3), 1314\u20131320
+        (2016)","journal-title":"Eng. Sci. Technol. Int. J."},{"issue":"01","key":"17_CR10","doi-asserted-by":"publisher","first-page":"45","DOI":"10.12785\/IJCDS\/060105","volume":"6","author":"M
+        Al-Emran","year":"2017","unstructured":"Al-Emran, M., Shaalan, K.: Academics\u2019
+        awareness towards mobile learning in Oman. Int. J. Comput. Digital Syst. 6(01),
+        45\u201350 (2017)","journal-title":"Int. J. Comput. Digital Syst."},{"key":"17_CR11","unstructured":"Almaiah,
+        M.A., Jalil, M.A., Man, M.: Preliminary study for exploring the major problems
+        and activities of mobile learning system: a case study of Jordan (2016)"},{"issue":"1","key":"17_CR12","doi-asserted-by":"publisher","first-page":"885","DOI":"10.1007\/s10639-018-9810-7","volume":"24","author":"MA
+        Almaiah","year":"2019","unstructured":"Almaiah, M.A., Alismaiel, O.: A Examination
+        of factors influencing the use of mobile learning system: an empirical study.
+        Educ. Inf. Technol. 24(1), 885\u2013909 (2019)","journal-title":"Educ. Inf.
+        Technol."},{"key":"17_CR13","doi-asserted-by":"crossref","unstructured":"Al-Emran,
+        M., Mezhuyev, V.: Examining the effect of knowledge management factors on
+        mobile learning adoption through the use of importance-performance map analysis
+        (IPMA). In: International Conference on Advanced Intelligent Systems and Informatics,
+        pp. 449\u2013458. Springer, Cham (2019)","DOI":"10.1007\/978-3-030-31129-2_41"},{"key":"17_CR14","doi-asserted-by":"crossref","unstructured":"Arpaci,
+        I., Al-Emran, M., Al-Sharafi, M.A., Shaalan, K.A.: Novel approach for predicting
+        the adoption of smartwatches using machine learning algorithms. In: Recent
+        Advances in Intelligent Systems and Smart Applications, pp. 185\u2013195.
+        Springer, Cham (2021)","DOI":"10.1007\/978-3-030-47411-9_10"},{"key":"17_CR15","unstructured":"Eyles,
+        A., Gibbons, S., Montebruno Bondi, P.: Covid-19 school shutdowns: what will
+        they do to our children\u2019s education? (2020)"},{"key":"17_CR16","unstructured":"Jegede,
+        D.: Perception of undergraduate students on the impact of COVID-19 pandemic
+        on higher institutions development in federal capital territory Abuja, Nigeria
+        (2020)"},{"issue":"4","key":"17_CR17","first-page":"1088","volume":"13","author":"R
+        Radha","year":"2020","unstructured":"Radha, R., Mahalakshmi, K., Kumar, V.S.,
+        Saravanakumar, A.R.: E-Learning during lockdown of Covid-19 pandemic: a global
+        perspective. Int. J. Control Autom. 13(4), 1088\u20131099 (2020)","journal-title":"Int.
+        J. Control Autom."},{"issue":"7","key":"17_CR18","doi-asserted-by":"publisher","first-page":"180","DOI":"10.3390\/educsci10070180","volume":"10","author":"D
+        Mhlanga","year":"2020","unstructured":"Mhlanga, D., Moloi, T.: COVID-19 and
+        the digital transformation of education: what are we learning on 4IR in South
+        Africa? Educ. Sci. 10(7), 180 (2020)","journal-title":"Educ. Sci."},{"key":"17_CR19","doi-asserted-by":"crossref","unstructured":"Al-Emran,
+        M., Arpaci, I., Salloum, S.A.: An empirical examination of continuous intention
+        to use m-learning: an integrated model. Educ. Inf. Technol., 1\u201320 (2020)","DOI":"10.1007\/s10639-019-10094-2"},{"key":"17_CR20","unstructured":"Almaiah,
+        M.A, Almulhem, A.: A conceptual framework for determining the success factors
+        of e-learning system implementation using Delphi technique. J. Theor. Appl.
+        Inf. Technol. 96(17) (2018)"},{"key":"17_CR21","doi-asserted-by":"crossref","unstructured":"Al-Emran,
+        M., Mezhuyev, V., Kamaludin, A.: Towards a conceptual model for examining
+        the impact of knowledge management factors on mobile learning acceptance.
+        Technol. Soc., 101247 (2020)","DOI":"10.1016\/j.techsoc.2020.101247"},{"key":"17_CR22","doi-asserted-by":"publisher","first-page":"48792","DOI":"10.1109\/ACCESS.2019.2910148","volume":"7","author":"H
+        Aldowah","year":"2019","unstructured":"Aldowah, H., Al-Samarraie, H., Ghazal,
+        S.: How course, contextual, and technological challenges are associated with
+        instructors\u2019 individual challenges to successfully implement e-learning:
+        a developing country perspective. IEEE Access 7, 48792\u201348806 (2019)","journal-title":"IEEE
+        Access"},{"key":"17_CR23","doi-asserted-by":"publisher","first-page":"181","DOI":"10.1016\/j.chb.2018.09.005","volume":"90","author":"I
+        Arpaci","year":"2019","unstructured":"Arpaci, I.: A hybrid modeling approach
+        for predicting the educational use of mobile cloud computing services in higher
+        education. Comput. Hum. Behav. 90, 181\u2013187 (2019)","journal-title":"Comput.
+        Hum. Behav."},{"key":"17_CR24","doi-asserted-by":"publisher","first-page":"150","DOI":"10.1016\/j.chb.2015.12.067","volume":"58","author":"I
+        Arpaci","year":"2016","unstructured":"Arpaci, I.: Understanding and predicting
+        students\u2019 intention to use mobile cloud storage services. Comput. Hum.
+        Behav. 58, 150\u2013157 (2016)","journal-title":"Comput. Hum. Behav."},{"key":"17_CR25","doi-asserted-by":"crossref","unstructured":"Almaiah,
+        M.A., Al-Khasawneh, A.: Investigating the main determinants of mobile cloud
+        computing adoption in university campus. Educ. Inf. Technol., 1\u201321 (2020)","DOI":"10.1007\/s10639-020-10120-8"},{"key":"17_CR26","doi-asserted-by":"crossref","unstructured":"Arpaci,
+        I., Al-Emran, M., Al-Sharafi, M.A.: The impact of knowledge management practices
+        on the acceptance of Massive Open Online Courses (MOOCs) by engineering students:
+        a cross-cultural comparison. Telemat. Inform., 101468 (2020)","DOI":"10.1016\/j.tele.2020.101468"},{"key":"17_CR27","doi-asserted-by":"publisher","first-page":"174673","DOI":"10.1109\/ACCESS.2019.2957206","volume":"7","author":"MA
+        Almaiah","year":"2019","unstructured":"Almaiah, M.A., Alamri, M.M., Al-Rahmi,
+        W.: Applying the UTAUT model to explain the students\u2019 acceptance of Mobile
+        learning system in higher education. IEEE Access 7, 174673\u2013174686 (2019)","journal-title":"IEEE
+        Access"},{"key":"17_CR28","first-page":"19","volume":"96","author":"MA Almaiah","year":"2018","unstructured":"Almaiah,
+        M.A., Alamri, M.M.: Proposing a new technical quality requirements for mobile
+        learning applications. J. Theor. Appl. Inf. Technol. 96, 19 (2018)","journal-title":"J.
+        Theor. Appl. Inf. Technol."},{"key":"17_CR29","doi-asserted-by":"publisher","first-page":"16139","DOI":"10.1109\/ACCESS.2019.2963333","volume":"8","author":"MA
+        Almaiah","year":"2019","unstructured":"Almaiah, M.A., Alamri, M.M., Al-Rahmi,
+        W.M.: Analysis the effect of different factors on the development of mobile
+        learning applications at different stages of usage. IEEE Access 8, 16139\u201316154
+        (2019)","journal-title":"IEEE Access"},{"key":"17_CR30","doi-asserted-by":"crossref","unstructured":"Almaiah,
+        M., Al-Khasawneh, A., Althunibat, A., Khawatreh, S.: Mobile government adoption
+        model based on combining GAM and UTAUT to explain factors according to adoption
+        of mobile government services (2020)","DOI":"10.3991\/ijim.v14i03.11264"},{"issue":"2","key":"17_CR31","doi-asserted-by":"publisher","first-page":"1","DOI":"10.5815\/ijeme.2018.02.01","volume":"8","author":"YG
+        Shawai","year":"2018","unstructured":"Shawai, Y.G., Almaiah, M.A.: Malay language
+        mobile learning system (MLMLS) using NFC technology. Int. J. Educ. Manage.
+        Eng. 8(2), 1 (2018)","journal-title":"Int. J. Educ. Manage. Eng."},{"key":"17_CR32","doi-asserted-by":"crossref","unstructured":"Alamri,
+        M.M., Almaiah, M.A., Al-Rahmi, W.M.: Social media applications affecting students\u2019
+        academic performance: a model developed for sustainability in higher education.
+        Sustainability 12(16), 6471 (2020)","DOI":"10.3390\/su12166471"},{"key":"17_CR33","doi-asserted-by":"crossref","unstructured":"Alksasbeh,
+        M., Abuhelaleh, M., Almaiah, M.: Towards a model of quality features for mobile
+        social networks apps in learning environments: an extended information system
+        success model (2019)","DOI":"10.3991\/ijim.v13i05.9791"},{"key":"17_CR34","doi-asserted-by":"crossref","unstructured":"Almaiah,
+        M.A., Nasereddin, Y.: Factors influencing the adoption of e-government services
+        among Jordanian citizens. Int. J. Electron. Gov. 16(3), 236\u2013259 (2020)","DOI":"10.1504\/EG.2020.108453"},{"key":"17_CR35","doi-asserted-by":"publisher","first-page":"133","DOI":"10.1016\/j.tele.2018.09.007","volume":"38","author":"A
+        Chavoshi","year":"2019","unstructured":"Chavoshi, A., Hamidi, H.: Social,
+        individual, technological and pedagogical factors influencing mobile learning
+        acceptance in higher education: a case from Iran. Telemat. Inform. 38, 133\u2013165
+        (2019)","journal-title":"Telemat. Inform."},{"key":"17_CR36","doi-asserted-by":"crossref","unstructured":"Fayyoumi,
+        E., Idwan, S., AL-Sarayreh, K., Obeidallah, R.: E-learning: challenges and
+        ambitions at Hashemite University. Int. J. Innov. Learn. 17(4), 470\u2013485
+        (2015)","DOI":"10.1504\/IJIL.2015.069632"},{"issue":"2","key":"17_CR37","doi-asserted-by":"publisher","first-page":"341","DOI":"10.1016\/j.tourman.2011.04.003","volume":"33","author":"H
+        San Mart\u00edn","year":"2012","unstructured":"San Mart\u00edn, H., Herrero,
+        \u00c1.: Influence of the user\u2019s psychological factors on the online
+        purchase intention in rural tourism: integratinsg innovativeness to the UTAUT
+        framework. Tour. Manag. 33(2), 341\u2013350 (2012)","journal-title":"Tour.
+        Manag."},{"key":"17_CR38","doi-asserted-by":"publisher","first-page":"196","DOI":"10.1016\/j.chb.2017.02.005","volume":"71","author":"TK
+        Yu","year":"2017","unstructured":"Yu, T.K., Lin, M.L., Liao, Y.K.: Understanding
+        factors influencing information communication technology adoption behavior:
+        the moderators of information literacy and digital skills. Comput. Hum. Behav.
+        71, 196\u2013208 (2017)","journal-title":"Comput. Hum. Behav."},{"issue":"1","key":"17_CR39","doi-asserted-by":"publisher","first-page":"133","DOI":"10.5430\/ijhe.v9n1p133","volume":"9","author":"MS
+        Taat","year":"2020","unstructured":"Taat, M.S., Francis, A.: Factors influencing
+        the students\u2019 acceptance of e-learning at teacher education institute:
+        an exploratory study in Malaysia. Int. J. High. Educ. 9(1), 133\u2013141 (2020)","journal-title":"Int.
+        J. High. Educ."},{"issue":"4","key":"17_CR40","doi-asserted-by":"publisher","first-page":"9","DOI":"10.1080\/07421222.2003.11045748","volume":"19","author":"WH
+        Delone","year":"2003","unstructured":"Delone, W.H., McLean, E.R.: The DeLone
+        and McLean model of information systems success: a ten-year update. J. Manage.
+        Inf. Syst. 19(4), 9\u201330 (2003)","journal-title":"J. Manage. Inf. Syst."},{"issue":"2","key":"17_CR41","doi-asserted-by":"publisher","first-page":"153","DOI":"10.1016\/j.omega.2004.03.012","volume":"33","author":"VR
+        Kannan","year":"2005","unstructured":"Kannan, V.R., Tan, K.C.: Just in time,
+        total quality management, and supply chain management: understanding their
+        linkages and impact on business performance. Omega 33(2), 153\u2013162 (2005)","journal-title":"Omega"},{"key":"17_CR42","volume-title":"Multivariate
+        data analysis","author":"JF Hair","year":"2010","unstructured":"Hair, J.F.,
+        Black, J.W., Babin, B.J., Anderson, R.E.: Multivariate data analysis, 7th
+        edn. Prentice-Hall, Englewood Cliffs, NJ, USA (2010)","edition":"7"},{"issue":"1","key":"17_CR43","doi-asserted-by":"publisher","first-page":"39","DOI":"10.1177\/002224378101800104","volume":"18","author":"C
+        Fornell","year":"1981","unstructured":"Fornell, C., Larcker, D.F.: Evaluating
+        structural equation models with unobservable variables and measurement error.
+        J. Marketing Res. 18(1), 39\u201350 (1981)","journal-title":"J. Marketing
+        Res."}],"container-title":["Studies in Systems, Decision and Control","Emerging
+        Technologies During the Era of COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_17","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:29:55Z","timestamp":1629700195000},"score":33.05524,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_17"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":43,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_17","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
+        March 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Decision+letter+for+\"Self\u2010care+of+patients+with+multiple+chronic+conditions+and+their+caregivers+during+the+COVID\u201019+pandemic:+A+qualitative+descriptive+study\"+2021+Wiley"}}}'
+  recorded_at: Thu, 22 Dec 2022 22:44:07 GMT
+recorded_with: VCR 6.1.0

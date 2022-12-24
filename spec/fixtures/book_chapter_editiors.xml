@@ -1,5 +1,5 @@
 <bibdata type="inbook" schema-version="v1.2.1">
-  <fetched>2022-12-12</fetched>
+  <fetched>2022-12-19</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">Culinary arts: Talent and their development.</title>
   <uri type="DOI">http://dx.doi.org/10.1037/0000120-016</uri>
   <uri type="pdf">http://psycnet.apa.org/books/16096/016.pdf</uri>
@@ -37,6 +37,33 @@
       <name>
         <forename language="en" script="Latn">Todd</forename>
         <surname language="en" script="Latn">Lubart</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="editor"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Rena F.</forename>
+        <surname language="en" script="Latn">Subotnik</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="editor"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Paula</forename>
+        <surname language="en" script="Latn">Olszewski-Kubilius</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="editor"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Frank C.</forename>
+        <surname language="en" script="Latn">Worrell</surname>
       </name>
     </person>
   </contributor>

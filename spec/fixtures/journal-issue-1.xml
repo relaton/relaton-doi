@@ -1,0 +1,79 @@
+<bibdata type="article" schema-version="v1.2.1">
+  <fetched>2022-12-18</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">The semantic categories of cutting and breaking events: A crosslinguistic perspective</title>
+  <uri type="DOI">http://dx.doi.org/10.1515/cog.2007.005</uri>
+  <uri type="pdf">https://www.degruyter.com/view/j/cogl.2007.18.issue-2/cog.2007.005/cog.2007.005.pdf</uri>
+  <docidentifier type="DOI" primary="true">10.1515/cog.2007.005</docidentifier>
+  <date type="created">
+    <on>2007-09-25</on>
+  </date>
+  <date type="issued">
+    <on>2007-01-19</on>
+  </date>
+  <date type="published">
+    <on>2007-01-19</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Asifa</forename>
+        <surname language="en" script="Latn">Majid</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Melissa</forename>
+        <surname language="en" script="Latn">Bowerman</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Miriam van</forename>
+        <surname language="en" script="Latn">Staden</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">James S</forename>
+        <surname language="en" script="Latn">Boster</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Walter de Gruyter GmbH</name>
+    </organization>
+  </contributor>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Cognitive Linguistics</title>
+    </bibitem>
+  </relation>
+  <series>
+    <title format="text/plain">Cognitive Linguistics</title>
+  </series>
+  <extent>
+    <localityStack>
+      <locality type="volume">
+        <referenceFrom>18</referenceFrom>
+      </locality>
+      <locality type="issue">
+        <referenceFrom>2</referenceFrom>
+      </locality>
+    </localityStack>
+  </extent>
+  <ext>
+    <doctype>journal-article</doctype>
+  </ext>
+</bibdata>

@@ -1,0 +1,32 @@
+<bibdata type="thesis" schema-version="v1.2.1">
+  <fetched>2022-12-18</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Nós temos nosso direito que é o certo: significados das lutas por reconhecimento entre comunidades do Vale do Ribeira, São Paulo</title>
+  <uri type="DOI">http://dx.doi.org/10.11606/t.8.2017.tde-08052017-100442</uri>
+  <uri type="pdf">http://www.teses.usp.br/teses/disponiveis/8/8134/tde-08052017-100442/publico/2017_HomeroMoroMartins_VCorr.pdf</uri>
+  <docidentifier type="DOI" primary="true">10.11606/t.8.2017.tde-08052017-100442</docidentifier>
+  <date type="created">
+    <on>2018-04-10</on>
+  </date>
+  <date type="issued"/>
+  <date type="approved">
+    <on>2017-05-08</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Homero Moro</forename>
+        <surname language="en" script="Latn">Martins</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)</name>
+    </organization>
+  </contributor>
+  <ext>
+    <doctype>dissertation</doctype>
+  </ext>
+</bibdata>

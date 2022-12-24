@@ -13,6 +13,20 @@ describe RelatonDoi::Crossref do
     expect(link[1].content.to_s).to eq "http://psycnet.apa.org/books/16096/016.pdf"
   end
 
+  context "transform relation type" do
+    it "without description" do
+      type = subject.relation_type "is-preprint-of"
+      expect(type).to eq ["draftOf", nil]
+    end
+
+    it "with description" do
+      type = subject.relation_type "is-funded-by"
+      expect(type[0]).to eq "related"
+      expect(type[1]).to be_instance_of(RelatonBib::FormattedString)
+      expect(type[1].content).to eq "is-funded-by"
+    end
+  end
+
   it "create abstract" do
     subject.instance_variable_set :@message, { "abstract" => "Abstract text" }
     abstract = subject.create_abstract
@@ -80,7 +94,7 @@ describe RelatonDoi::Crossref do
     relation = subject.create_relation
     expect(relation).to be_instance_of(Array)
     expect(relation.first).to be_instance_of(RelatonBib::DocumentRelation)
-    expect(relation.first.type).to eq "reprintOf"
+    expect(relation.first.type).to eq "draftOf"
     expect(relation.first.bibitem).to be_instance_of(RelatonBib::BibliographicItem)
     expect(relation.first.bibitem.formattedref).to be_instance_of(RelatonBib::FormattedRef)
     expect(relation.first.bibitem.formattedref.content).to eq "10.1186/s12891-020-03567-w"

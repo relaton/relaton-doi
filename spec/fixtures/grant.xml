@@ -1,0 +1,21 @@
+<bibdata type="misc" schema-version="v1.2.1">
+  <fetched>2022-12-19</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Single-particle cryo-EM structural analysis of Q-dependent transcription antitermination</title>
+  <uri type="DOI">http://dx.doi.org/10.46936/cpcy.proj.2019.50733/60006578</uri>
+  <docidentifier type="DOI" primary="true">10.46936/cpcy.proj.2019.50733/60006578</docidentifier>
+  <date type="created">
+    <on>2021-09-21</on>
+  </date>
+  <date type="issued">
+    <on>2019-04-15</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Office of Scientific and Technical Information (OSTI)</name>
+    </organization>
+  </contributor>
+  <ext>
+    <doctype>grant</doctype>
+  </ext>
+</bibdata>

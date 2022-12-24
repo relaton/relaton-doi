@@ -1,0 +1,371 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.11606%2Ft.8.2017.tde-08052017-100442
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 04:04:49 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '920'
+      Set-Cookie:
+      - AWSALB=6M1BcGNTDljaGZSUuKTNNCKRy3hHADW+JItrPZbwNVoO3OgomB/eY6ewrz0fusRXGQZuipB/z6DBi8iSTJ2cNyuM6zSf3To6E/POtFbjCDylRS8dQwVBFuDy1DSU;
+        Expires=Thu, 29 Dec 2022 04:04:49 GMT; Path=/
+      - AWSALBCORS=6M1BcGNTDljaGZSUuKTNNCKRy3hHADW+JItrPZbwNVoO3OgomB/eY6ewrz0fusRXGQZuipB/z6DBi8iSTJ2cNyuM6zSf3To6E/POtFbjCDylRS8dQwVBFuDy1DSU;
+        Expires=Thu, 29 Dec 2022 04:04:49 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"institution":[{"name":"Universidade
+        de S\u00e3o Paulo","place":["S\u00e3o Paulo"],"department":["Faculdade de
+        Filosofia, Letras e Ci\u00eancias Humanas"]}],"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:29:14Z","timestamp":1648978154984},"reference-count":0,"publisher":"Universidade
+        de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.11606\/t.8.2017.tde-08052017-100442","type":"dissertation","created":{"date-parts":[[2018,4,10]],"date-time":"2018-04-10T16:24:23Z","timestamp":1523377463000},"approved":{"date-parts":[[2017,5,8]]},"source":"Crossref","is-referenced-by-count":0,"title":["N\u00f3s
+        temos nosso direito que \u00e9 o certo: significados das lutas por reconhecimento
+        entre comunidades do Vale do Ribeira, S\u00e3o Paulo"],"prefix":"10.11606","author":[{"given":"Homero
+        Moro","family":"Martins","sequence":"first","affiliation":[]}],"member":"4873","container-title":[],"original-title":[],"link":[{"URL":"http:\/\/www.teses.usp.br\/teses\/disponiveis\/8\/8134\/tde-08052017-100442\/publico\/2017_HomeroMoroMartins_VCorr.pdf","content-type":"application\/octet-stream","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/www.teses.usp.br\/teses\/disponiveis\/8\/8134\/tde-08052017-100442\/publico\/2017_HomeroMoroMartins_VCorr.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2018,4,10]],"date-time":"2018-04-10T16:24:33Z","timestamp":1523377473000},"score":1,"degree":["Doutorado
+        em Antropologia Social"],"resource":{"primary":{"URL":"http:\/\/www.teses.usp.br\/teses\/disponiveis\/8\/8134\/tde-08052017-100442\/"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11606\/t.8.2017.tde-08052017-100442","relation":{}}}'
+  recorded_at: Thu, 22 Dec 2022 04:04:49 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=N%C3%B3s%2Btemos%2Bnosso%2Bdireito%2Bque%2B%C3%A9%2Bo%2Bcerto:%2Bsignificados%2Bdas%2Blutas%2Bpor%2Breconhecimento%2Bentre%2Bcomunidades%2Bdo%2BVale%2Bdo%2BRibeira,%2BS%C3%A3o%2BPaulo%2B2017%2BUniversidade%2Bde%2BSao%2BPaulo,%2BAgencia%2BUSP%2Bde%2BGestao%2Bda%2BInformacao%2BAcademica%2B(AGUIA)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 04:04:52 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '8986'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":14415,"items":[{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T16:18:19Z","timestamp":1649002699701},"edition-number":"1","reference-count":0,"publisher":"Editora
+        Scienza","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,10,3]]},"DOI":"10.26626\/978-85-5953-029-2.2017c0008.p.195-216","type":"book-chapter","created":{"date-parts":[[2017,10,3]],"date-time":"2017-10-03T09:54:21Z","timestamp":1507024461000},"page":"195-216","source":"Crossref","is-referenced-by-count":0,"title":["Avalia\u00e7\u00e3o
+        de Habita\u00e7\u00f5es em Sistemas Construtivos Inovadores: Apresenta\u00e7\u00e3o
+        de Metodologia e Resultados da An\u00e1lise de Documenta\u00e7\u00e3o"],"prefix":"10.26626","author":[{"given":"Mena","family":"Cristina
+        Marcolino Mendes","sequence":"first","affiliation":[]},{"name":"USP - Universidade
+        de S\u00e3o Paulo","sequence":"first","affiliation":[]},{"given":"Fabiana","family":"Lopes
+        Oliveira","sequence":"additional","affiliation":[]},{"given":"Rosaria","family":"Ono","sequence":"additional","affiliation":[]},{"given":"Sheila","family":"Walbe
+        Ornstein","sequence":"additional","affiliation":[]},{"given":"M\u00e1rcio","family":"Minto
+        Fabricio","sequence":"additional","affiliation":[]},{"name":"USP - Universidade
+        de S\u00e3o Paulo","sequence":"additional","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"additional","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"additional","affiliation":[]}],"member":"11172","published-online":{"date-parts":[[2017,10,3]]},"container-title":["Avalia\u00e7\u00e3o
+        de Desempenho de Tecnologias Construtivas Inovadoras: Conforto Ambiental,
+        Durabilidade e P\u00f3s-Ocupa\u00e7\u00e3o"],"deposited":{"date-parts":[[2017,10,4]],"date-time":"2017-10-04T16:20:58Z","timestamp":1507134058000},"score":69.19172,"resource":{"primary":{"URL":"http:\/\/editorascienza.com.br\/pdfs\/usp\/978_85_5953_029_2_capitulo_8.pdf"}},"issued":{"date-parts":[[2017,10,3]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.26626\/978-85-5953-029-2.2017c0008.p.195-216","published":{"date-parts":[[2017,10,3]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T19:56:00Z","timestamp":1649102160830},"edition-number":"1","reference-count":0,"publisher":"Editora
+        Scienza","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,10,3]]},"DOI":"10.26626\/978-85-5953-029-2.2017c0011.p.293-304","type":"book-chapter","created":{"date-parts":[[2017,10,3]],"date-time":"2017-10-03T13:54:21Z","timestamp":1507038861000},"page":"293-304","source":"Crossref","is-referenced-by-count":6,"title":["Avalia\u00e7\u00e3o
+        P\u00f3s-Ocupa\u00e7\u00e3o em Sistemas Construtivos Inovadores: Considera\u00e7\u00f5es
+        Finais"],"prefix":"10.26626","author":[{"given":"Sheila","family":"Walbe Ornstein","sequence":"first","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"first","affiliation":[]},{"given":"M\u00e1rcio","family":"Minto
+        Fabricio","sequence":"additional","affiliation":[]},{"given":"Rosaria","family":"Ono","sequence":"additional","affiliation":[]},{"given":"Fabiana","family":"Lopes
+        de Oliveira","sequence":"additional","affiliation":[]},{"given":"Mena","family":"Cristina
+        Marcolino Mendes","sequence":"additional","affiliation":[]},{"given":"Lucas","family":"Melchiori
+        Pereira","sequence":"additional","affiliation":[]},{"given":"Miguel","family":"Antonio
+        Buzzar","sequence":"additional","affiliation":[]},{"name":"USP - Universidade
+        de S\u00e3o Paulo","sequence":"additional","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"additional","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"additional","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"additional","affiliation":[]}],"member":"11172","published-online":{"date-parts":[[2017,10,3]]},"container-title":["Avalia\u00e7\u00e3o
+        de Desempenho de Tecnologias Construtivas Inovadoras: Conforto Ambiental,
+        Durabilidade e P\u00f3s-Ocupa\u00e7\u00e3o"],"deposited":{"date-parts":[[2017,10,4]],"date-time":"2017-10-04T20:20:59Z","timestamp":1507148459000},"score":68.14868,"resource":{"primary":{"URL":"http:\/\/editorascienza.com.br\/pdfs\/usp\/978_85_5953_029_2_capitulo_11.pdf"}},"issued":{"date-parts":[[2017,10,3]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.26626\/978-85-5953-029-2.2017c0011.p.293-304","published":{"date-parts":[[2017,10,3]]}},{"indexed":{"date-parts":[[2022,7,9]],"date-time":"2022-07-09T13:45:37Z","timestamp":1657374337539},"edition-number":"1\u00aa","reference-count":0,"publisher":"Ludomedia","content-domain":{"domain":[],"crossmark-restriction":false},"abstract":"<jats:p>The
+        context of COVID-19 made it possible for professionals in the nursing category
+        to be in a state of alert and emotional distress, and they were afraid to
+        perform procedures on suspected or confirmed patients of COVID-19. Objective:
+        To understand the fear-generating circumstances experienced by nursing professionals
+        in the context of the COVID-19 pandemic. Method: Qualitative, exploratory
+        study, developed in the five geographic regions of Brazil, through interviews
+        in a virtual environment with 215 professionals, between April and December
+        2020. The data were processed by the IRaMuTeQ\u00ae software and analyzed
+        in the light of the theoretical-philosophical framework of Phenomenological
+        Sociology. Results: Most females mean 37.9 years old, married, white and mixed-race,
+        nursing technicians (15.5%) and nurses (84.5%), working in public institutions.
+        The textual corpus was divided by the software into 3 classes and subclasses:
+        fear of personal and family life circumstances, related to the risk of self-contamination,
+        transmission, loss of family members, co-workers and life itself; fear of
+        exposure and social distancing in the face of the feeling of loneliness arising
+        from social distancing, despite understanding that loneliness implies the
+        absence of emotional connections with the people around, and not associated
+        with physical distance; fear of subjective and objective working conditions,
+        related to insecurity in the face of precarious working conditions, such as
+        physical infrastructure, biosafety inputs, human resources, technical unpreparedness,
+        lack of training and qualifications to take on highly complex care units,
+        such as the needs to acquire and improve technical-scientific knowledge. Conclusion:
+        The circumstances that generate fear are multiple and are processed in the
+        physical, social, psychological and work dimensions, and it marks the lack
+        of knowledge about the disease. The interpretations of the everyday world
+        are based on a stock of previous experiences and transmitted by our predecessors,
+        if they didn''t have them (didn''t live a pandemic) they can hardly deal with
+        the current problem.<\/jats:p>","DOI":"10.36367\/ntqr.13.2022.e667","type":"book-chapter","created":{"date-parts":[[2022,7,8]],"date-time":"2022-07-08T17:40:23Z","timestamp":1657302023000},"source":"Crossref","is-referenced-by-count":0,"title":["Fear-Generating
+        Circumstances in Brazilian Nursing Professionals in the Context of the Covid-19
+        Pandemic"],"prefix":"10.36367","author":[{"given":"Maria do Perp\u00e9tuo
+        do Socorro Sousa","family":"N\u00f3brega","sequence":"first","affiliation":[]},{"name":"Escola
+        de Enfermagem, Universidade de S\u00e3o Paulo (USP), Brasil","sequence":"first","affiliation":[]},{"given":"Priscila
+        Maria","family":"Marcheti","sequence":"additional","affiliation":[]},{"given":"C\u00edntia","family":"Nasi","sequence":"additional","affiliation":[]},{"given":"Elda","family":"de
+        Oliveira","sequence":"additional","affiliation":[]},{"given":"Wanderson Carneiro","family":"Moreira","sequence":"additional","affiliation":[]},{"given":"D\u00e1rcio
+        Tadeu","family":"Moreira","sequence":"additional","affiliation":[]},{"given":"Sonia
+        Regina","family":"Zerbetto","sequence":"additional","affiliation":[]},{"name":"Universidade
+        Federal de Mato Grosso do Sul (UFMS), Brasil","sequence":"additional","affiliation":[]},{"name":"Universidade
+        Federal do Rio Grande do Sul (UFGRS), Brasil","sequence":"additional","affiliation":[]},{"name":"Faculdade
+        de Medicina, Universidade de S\u00e3o Paulo (USP), Brasil","sequence":"additional","affiliation":[]},{"name":"Escola
+        de Enfermagem, Universidade de S\u00e3o Paulo (USP), Brasil","sequence":"additional","affiliation":[]},{"name":"Escola
+        de Enfermagem, Universidade de S\u00e3o Paulo (USP), Brasil","sequence":"additional","affiliation":[]},{"name":"Universidade
+        Federal de S\u00e3o Carlos (UFSCar), Brasil","sequence":"additional","affiliation":[]}],"member":"22117","published-online":{"date-parts":[[2022,7,8]]},"container-title":["New
+        Trends in Qualitative Research","Nurse manager\u2019s role in promoting culturally
+        competent work environments in nursing: An integrative review"],"deposited":{"date-parts":[[2022,7,8]],"date-time":"2022-07-08T17:40:29Z","timestamp":1657302029000},"score":68.12138,"resource":{"primary":{"URL":"https:\/\/publi.ludomedia.org\/index.php\/ntqr\/article\/view\/667"}},"issued":{"date-parts":[[2022,7,8]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.36367\/ntqr.13.2022.e667","ISSN":["2184-7770"],"issn-type":[{"value":"2184-7770","type":"print"}],"published":{"date-parts":[[2022,7,8]]}},{"indexed":{"date-parts":[[2022,3,28]],"date-time":"2022-03-28T23:14:09Z","timestamp":1648509249883},"edition-number":"1","reference-count":0,"publisher":"Editora
+        Scienza","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,10,3]]},"DOI":"10.26626\/978-85-5953-029-2.2017c0007.p.169-194","type":"book-chapter","created":{"date-parts":[[2017,10,3]],"date-time":"2017-10-03T13:54:21Z","timestamp":1507038861000},"page":"169-194","source":"Crossref","is-referenced-by-count":0,"title":["Sistemas
+        Construtivos Inovadores no Contexto do SiNAT: Normativas, Produ\u00e7\u00e3o
+        e Aplica\u00e7\u00f5es de Pain\u00e9is de Veda\u00e7\u00e3o"],"prefix":"10.26626","author":[{"given":"Mena","family":"Cristina
+        Marcolino Mendes","sequence":"first","affiliation":[]},{"name":"USP - Universidade
+        de S\u00e3o Paulo","sequence":"first","affiliation":[]},{"given":"M\u00e1rcio","family":"Minto
+        Fabricio","sequence":"additional","affiliation":[]},{"given":"C\u00e9sar","family":"Imai","sequence":"additional","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"additional","affiliation":[]}],"member":"11172","published-online":{"date-parts":[[2017,10,3]]},"container-title":["Avalia\u00e7\u00e3o
+        de Desempenho de Tecnologias Construtivas Inovadoras: Conforto Ambiental,
+        Durabilidade e P\u00f3s-Ocupa\u00e7\u00e3o"],"deposited":{"date-parts":[[2017,10,4]],"date-time":"2017-10-04T20:20:58Z","timestamp":1507148458000},"score":65.98838,"resource":{"primary":{"URL":"http:\/\/editorascienza.com.br\/pdfs\/usp\/978_85_5953_029_2_capitulo_7.pdf"}},"issued":{"date-parts":[[2017,10,3]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.26626\/978-85-5953-029-2.2017c0007.p.169-194","published":{"date-parts":[[2017,10,3]]}},{"indexed":{"date-parts":[[2022,7,9]],"date-time":"2022-07-09T13:45:54Z","timestamp":1657374354925},"edition-number":"1\u00aa","reference-count":0,"publisher":"Ludomedia","content-domain":{"domain":[],"crossmark-restriction":false},"abstract":"<jats:p>Introduction:
+        In Brazil, autoethnography has been explored as a method for a short time,
+        especially because there is great resistance to its use. Neither has autoethnography
+        been validated by scientific journals in the health area. To complicate this
+        scenario, when we think of a critical perspective, in addition to the description
+        and analysis of the empirical in question, autoenthography has suffered from
+        elements that reinforce the critical character of its reflexivity. Objectives:
+        Given this gap, the objective of this study is to review the international
+        scientific production on autoethnography as a research method and its potential
+        dialogue with the Marxist perspective. Methods: This study will be a critical
+        systematic review of the literature whose research question will be: \u201cwhat
+        does the international literature present on autoethnography in dialogue with
+        the Marxist perspective?\u201d. An exploratory search was carried out in the
+        main international journals that discuss methodological issues and are open
+        to Marxist and Marxian theory. 21 different international journals, mostly
+        European and North American journals, were identified. When performing the
+        search \u201cautoethnography\u201d AND \u201cmarx\u201d in the chosen journals,
+        134 articles were found. After the selection process, 12 articles remained,
+        considered included in this review, for full reading. Conclusions: The remainder
+        of 12 studies that approach the method of autoethnography with the perspective
+        of Marx''s social theory seems to be an important finding that justifies the
+        insistence on this path. In other words, as scarce as it is, there are studies
+        that carry out this meeting.<\/jats:p>","DOI":"10.36367\/ntqr.13.2022.e663","type":"book-chapter","created":{"date-parts":[[2022,7,8]],"date-time":"2022-07-08T17:12:15Z","timestamp":1657300335000},"source":"Crossref","is-referenced-by-count":0,"title":["A
+        critical systematic review on autoethnography and Marxism: Traces to identify
+        this (mis)encounter"],"prefix":"10.36367","author":[{"given":"Leonardo","family":"Carnut","sequence":"first","affiliation":[]},{"name":"UNIFESP
+        - Universidade Federal de S\u00e3o Paulo, Brasil","sequence":"first","affiliation":[]},{"given":"Cristhian
+        Ricardo","family":"Schieck","sequence":"additional","affiliation":[]},{"given":"Lucia
+        Dias","family":"da Silva Guerra","sequence":"additional","affiliation":[]},{"given":"\u00c1quilas","family":"Mendes","sequence":"additional","affiliation":[]},{"name":"USP
+        \u2013 Universidade de S\u00e3o Paulo, Brasil","sequence":"additional","affiliation":[]},{"name":"FSP-USP
+        - Faculdade de Sa\u00fade P\u00fablica da Universidade de S\u00e3o Paulo,
+        Brasil","sequence":"additional","affiliation":[]},{"name":"FSP-USP \/ PUC-SP
+        -Faculdade de Sa\u00fade P\u00fablica da Universidade de S\u00e3o Paulo \u2013
+        Pontif\u00edcia Universidade Cat\u00f3lica de S\u00e3o Paulo, Brasil","sequence":"additional","affiliation":[]}],"member":"22117","published-online":{"date-parts":[[2022,7,8]]},"container-title":["Document
+        analysis of nursing training for the care of cultural diversity in primary
+        care","New Trends in Qualitative Research"],"deposited":{"date-parts":[[2022,7,8]],"date-time":"2022-07-08T17:12:27Z","timestamp":1657300347000},"score":64.71289,"resource":{"primary":{"URL":"https:\/\/publi.ludomedia.org\/index.php\/ntqr\/article\/view\/663"}},"issued":{"date-parts":[[2022,7,8]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.36367\/ntqr.13.2022.e663","ISSN":["2184-7770"],"issn-type":[{"value":"2184-7770","type":"print"}],"published":{"date-parts":[[2022,7,8]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T08:31:21Z","timestamp":1648715481314},"edition-number":"1","reference-count":0,"publisher":"Dial\u00e9tica","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020]]},"DOI":"10.48021\/978-65-5956-314-2-c39","type":"book-chapter","created":{"date-parts":[[2021,4,19]],"date-time":"2021-04-19T16:39:21Z","timestamp":1618850361000},"source":"Crossref","is-referenced-by-count":0,"title":["O
+        reconhecimento do direito ao esquecimento no \u00e2mbito das rela\u00e7\u00f5es
+        familiares: uma an\u00e1lise da recente decis\u00e3o do tribunal de justi\u00e7a
+        do estado de S\u00e3o Paulo na apela\u00e7\u00e3o de n. 1008842-60.2018.8.26.0344"],"prefix":"10.48021","author":[{"given":"B.
+        G.","family":"CHALA","sequence":"first","affiliation":[]},{"given":"C.","family":"BURILLE","sequence":"additional","affiliation":[]}],"member":"28043","published-online":{"date-parts":[[2020]]},"container-title":["VI
+        semin\u00e1rio nacional tutelas \u00e0 efetiva\u00e7\u00e3o dos direitos indispon\u00edveis:
+        os desafios das novas tecnologias"],"deposited":{"date-parts":[[2021,4,19]],"date-time":"2021-04-19T16:40:04Z","timestamp":1618850404000},"score":64.66293,"resource":{"primary":{"URL":"https:\/\/loja.editoradialetica.com\/loja\/produto.php?loja=791959&IdProd=1244239851&iniSession=1&6079b1bd85ac6"}},"issued":{"date-parts":[[2020]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.48021\/978-65-5956-314-2-c39","published":{"date-parts":[[2020]]}},{"indexed":{"date-parts":[[2022,4,6]],"date-time":"2022-04-06T02:52:05Z","timestamp":1649213525240},"edition-number":"1","reference-count":0,"publisher":"Editora
+        Artemis","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.37572\/edart_1812215149","type":"book-chapter","created":{"date-parts":[[2021,12,7]],"date-time":"2021-12-07T23:27:02Z","timestamp":1638919622000},"page":"96-108","source":"Crossref","is-referenced-by-count":0,"title":["SISTEMAS
+        DE PRODU\u00c7\u00c3O DE MUDAS NATIVAS NA REGI\u00c3O DO VALE DO RIBEIRA,
+        S\u00c3O PAULO: DESAFIOS E POTENCIALIDADES"],"prefix":"10.37572","author":[{"ORCID":"http:\/\/orcid.org\/0000-0002-5258-1105","authenticated-orcid":false,"given":"Lucas","family":"Flor\u00eancio
+        Mariano","sequence":"first","affiliation":[]},{"ORCID":"http:\/\/orcid.org\/0000-0003-1547-5976","authenticated-orcid":false,"given":"Bruna","family":"Schmidt
+        Gemim","sequence":"additional","affiliation":[]},{"ORCID":"http:\/\/orcid.org\/0000-0001-8664-0532","authenticated-orcid":false,"given":"Francisca","family":"Alciv\u00e2nia
+        de Melo Silva","sequence":"additional","affiliation":[]},{"ORCID":"http:\/\/orcid.org\/0000-0003-1028-5217","authenticated-orcid":false,"given":"Ocimar
+        Jos\u00e9 Baptista","family":"Bim","sequence":"additional","affiliation":[]}],"member":"23781","published-online":{"date-parts":[[2021,12]]},"container-title":["Agr\u00e1rias:
+        Pesquisa e Inova\u00e7\u00e3o nas Ci\u00eancias que Alimentam o Mundo VII"],"deposited":{"date-parts":[[2021,12,7]],"date-time":"2021-12-07T23:27:14Z","timestamp":1638919634000},"score":62.869038,"resource":{"primary":{"URL":"https:\/\/www.editoraartemis.com.br\/artigo\/32635\/"}},"issued":{"date-parts":[[2021,12]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.37572\/edart_1812215149","published":{"date-parts":[[2021,12]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T06:59:23Z","timestamp":1648969163956},"reference-count":0,"publisher":"Funda\u00e7\u00e3o
+        Dom Cabral","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.52959\/2021435372","type":"book-chapter","created":{"date-parts":[[2021,10,7]],"date-time":"2021-10-07T19:34:03Z","timestamp":1633635243000},"page":"80-94","source":"Crossref","is-referenced-by-count":0,"title":["A
+        inova\u00e7\u00e3o precisa de patentes?"],"prefix":"10.52959","author":[{"given":"Diogo","family":"Coutinho","sequence":"first","affiliation":[]},{"name":"Instituto
+        de Economias Sustent\u00e1veis e Direito (IESD)","sequence":"first","affiliation":[]},{"given":"Guilherme","family":"Carboni","sequence":"additional","affiliation":[]},{"name":"Universidade
+        de S\u00e3o Paulo (USP)","sequence":"additional","affiliation":[]}],"member":"30948","published-online":{"date-parts":[[2021,10,7]]},"container-title":["Digital:
+        a adequa\u00e7\u00e3o do ecossistema regulat\u00f3rio e de inova\u00e7\u00e3o
+        para o digital"],"link":[{"URL":"https:\/\/ci.fdc.org.br\/AcervoDigital\/E-books\/2021\/Digital%204\/DIGITAL%204_Artigo%2007.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,10,7]],"date-time":"2021-10-07T19:34:05Z","timestamp":1633635245000},"score":62.772964,"resource":{"primary":{"URL":"https:\/\/www.fdc.org.br\/conhecimento\/publicacoes\/capitulo-de-livro-35372"}},"issued":{"date-parts":[[2021,10,7]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.52959\/2021435372","published":{"date-parts":[[2021,10,7]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T17:21:35Z","timestamp":1648747295787},"edition-number":"1","reference-count":0,"publisher":"Editora
+        Scienza","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,10,3]]},"DOI":"10.26626\/978-85-5953-029-2.2017c0009.p.217-258","type":"book-chapter","created":{"date-parts":[[2017,10,3]],"date-time":"2017-10-03T09:54:21Z","timestamp":1507024461000},"page":"217-258","source":"Crossref","is-referenced-by-count":0,"title":["Avalia\u00e7\u00e3o
+        de Desempenho em Uso e Manuten\u00e7\u00e3o de Habita\u00e7\u00f5es em Sistemas
+        Construtivos Inovadores"],"prefix":"10.26626","author":[{"given":"Rosaria","family":"Ono","sequence":"first","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"first","affiliation":[]},{"given":"Mena","family":"Cristina
+        Marcolino Mendes","sequence":"additional","affiliation":[]},{"given":"M\u00e1rcio","family":"Minto
+        Fabricio","sequence":"additional","affiliation":[]},{"given":"Sheila","family":"Walbe
+        Ornstein","sequence":"additional","affiliation":[]},{"given":"Fabiana","family":"Lopes
+        de Oliveira","sequence":"additional","affiliation":[]},{"given":"Lucas","family":"Melchiori
+        Pereira","sequence":"additional","affiliation":[]},{"name":"USP - Universidade
+        de S\u00e3o Paulo","sequence":"additional","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"additional","affiliation":[]}],"member":"11172","published-online":{"date-parts":[[2017,10,3]]},"container-title":["Avalia\u00e7\u00e3o
+        de Desempenho de Tecnologias Construtivas Inovadoras: Conforto Ambiental,
+        Durabilidade e P\u00f3s-Ocupa\u00e7\u00e3o"],"deposited":{"date-parts":[[2017,10,4]],"date-time":"2017-10-04T16:20:58Z","timestamp":1507134058000},"score":61.451054,"resource":{"primary":{"URL":"http:\/\/editorascienza.com.br\/pdfs\/usp\/978_85_5953_029_2_capitulo_9.pdf"}},"issued":{"date-parts":[[2017,10,3]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.26626\/978-85-5953-029-2.2017c0009.p.217-258","published":{"date-parts":[[2017,10,3]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T12:17:32Z","timestamp":1648729052984},"edition-number":"1","reference-count":0,"publisher":"Editora
+        Scienza","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,10,3]]},"DOI":"10.26626\/978-85-5953-029-2.2017c0010.p.259-292","type":"book-chapter","created":{"date-parts":[[2017,10,3]],"date-time":"2017-10-03T13:54:21Z","timestamp":1507038861000},"page":"259-292","source":"Crossref","is-referenced-by-count":0,"title":["Percep\u00e7\u00e3o
+        dos Usu\u00e1rios e Avalia\u00e7\u00e3o de Desempenho em Uso de Habita\u00e7\u00f5es
+        em Sistemas Construtivos Inovadores"],"prefix":"10.26626","author":[{"given":"Rosaria","family":"Ono","sequence":"first","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"first","affiliation":[]},{"given":"Mena","family":"Cristina
+        Marcolino Mendes","sequence":"additional","affiliation":[]},{"given":"Lucas","family":"Melchiori
+        Pereira","sequence":"additional","affiliation":[]},{"given":"Sheila","family":"Walbe
+        Ornstein","sequence":"additional","affiliation":[]},{"given":"M\u00e1rcio","family":"Minto
+        Fabr\u00edcio","sequence":"additional","affiliation":[]},{"given":"F\u00falvio","family":"Vittorino","sequence":"additional","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"additional","affiliation":[]},{"name":"USP
+        - Universidade de S\u00e3o Paulo","sequence":"additional","affiliation":[]}],"member":"11172","published-online":{"date-parts":[[2017,10,3]]},"container-title":["Avalia\u00e7\u00e3o
+        de Desempenho de Tecnologias Construtivas Inovadoras: Conforto Ambiental,
+        Durabilidade e P\u00f3s-Ocupa\u00e7\u00e3o"],"deposited":{"date-parts":[[2017,10,4]],"date-time":"2017-10-04T20:20:58Z","timestamp":1507148458000},"score":61.085182,"resource":{"primary":{"URL":"http:\/\/editorascienza.com.br\/pdfs\/usp\/978_85_5953_029_2_capitulo_10.pdf"}},"issued":{"date-parts":[[2017,10,3]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.26626\/978-85-5953-029-2.2017c0010.p.259-292","published":{"date-parts":[[2017,10,3]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T13:57:26Z","timestamp":1648994246458},"edition-number":"1","reference-count":0,"publisher":"Editora
+        Artemis","isbn-type":[{"value":"9786587396248","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.37572\/edart_24830122016","type":"book-chapter","created":{"date-parts":[[2020,12,31]],"date-time":"2020-12-31T01:47:39Z","timestamp":1609379259000},"page":"167-172","source":"Crossref","is-referenced-by-count":0,"title":["TERRIT\u00d3RIOS
+        QUILOMBOLAS: UMA ETNOCONSERVA\u00c7\u00c3O NA PAISAGEM RURAL DO VALE DO RIBEIRA,
+        S\u00c3O PAULO, BRASIL"],"prefix":"10.37572","author":[{"given":"Luciana","family":"Mello
+        Vieira","sequence":"first","affiliation":[]},{"given":"Marta Cristina","family":"Marjotta-Maistro","sequence":"additional","affiliation":[]}],"member":"23781","published-online":{"date-parts":[[2020,12]]},"container-title":["Agr\u00e1rias:
+        Pesquisa e Inova\u00e7\u00e3o nas Ci\u00eancias que Alimentam o Mundo III"],"deposited":{"date-parts":[[2020,12,31]],"date-time":"2020-12-31T01:47:54Z","timestamp":1609379274000},"score":59.97907,"resource":{"primary":{"URL":"https:\/\/www.editoraartemis.com.br\/artigo\/31910\/"}},"issued":{"date-parts":[[2020,12]]},"ISBN":["9786587396248"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.37572\/edart_24830122016","published":{"date-parts":[[2020,12]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T10:31:29Z","timestamp":1649068289892},"reference-count":0,"publisher":"Editora
+        Unesc","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017]]},"DOI":"10.18616\/cienciasjuridicas05","type":"book-chapter","created":{"date-parts":[[2017,12,11]],"date-time":"2017-12-11T12:25:22Z","timestamp":1512995122000},"page":"99-126","source":"Crossref","is-referenced-by-count":0,"title":["Direito
+        \u00e0 educa\u00e7\u00e3o e integra\u00e7\u00e3o regional: a diferen\u00e7a
+        como objeto nas pol\u00edticas educacionais do Mercosul"],"prefix":"10.18616","author":[{"given":"Maurinice","family":"Evaristo
+        Wenceslau","sequence":"first","affiliation":[]},{"name":"Pontif\u00edcia Universidade
+        Cat\u00f3lica de S\u00e3o Paulo","sequence":"first","affiliation":[]},{"given":"D\u00e9bora","family":"de
+        Oliveira Santos","sequence":"additional","affiliation":[]},{"name":"Universidade
+        Federal de Mato Grosso do Sul","sequence":"additional","affiliation":[]}],"member":"7875","published-online":{"date-parts":[[2017]]},"container-title":["Estudos
+        contempor\u00e2neos em ci\u00eancias jur\u00eddicas e sociais"],"deposited":{"date-parts":[[2017,12,11]],"date-time":"2017-12-11T12:25:25Z","timestamp":1512995125000},"score":59.11946,"resource":{"primary":{"URL":"http:\/\/repositorio.unesc.net\/handle\/1\/5492"}},"issued":{"date-parts":[[2017]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.18616\/cienciasjuridicas05","published":{"date-parts":[[2017]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T16:14:07Z","timestamp":1648570447486},"edition-number":"1","reference-count":0,"publisher":"Atena
+        Editora","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.22533\/at.ed.61419300914","type":"book-chapter","created":{"date-parts":[[2019,10,1]],"date-time":"2019-10-01T12:39:52Z","timestamp":1569933592000},"page":"107-119","source":"Crossref","is-referenced-by-count":0,"title":["AVALIA\u00c7\u00c3O
+        DO CICLO DE VIDA DO LEITE: ESTUDO DE CASO NO VALE DO PARA\u00cdBA \u2013 S\u00c3O
+        PAULO"],"prefix":"10.22533","author":[{"given":"Gabriela","family":"Giusti","sequence":"first","affiliation":[]},{"given":"Gustavo
+        Fonseca de","family":"Almeida","sequence":"additional","affiliation":[]}],"member":"9818","published-online":{"date-parts":[[2019,9,30]]},"container-title":["Impactos
+        das Tecnologias nas Ci\u00eancias Agr\u00e1rias 3"],"deposited":{"date-parts":[[2019,10,1]],"date-time":"2019-10-01T12:40:02Z","timestamp":1569933602000},"score":59.021317,"resource":{"primary":{"URL":"https:\/\/www.atenaeditora.com.br\/arquivos\/ebooks\/impactos-das-tecnologias-nas-ciencias-agrarias-3"}},"issued":{"date-parts":[[2019,9,30]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.22533\/at.ed.61419300914","published":{"date-parts":[[2019,9,30]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T14:17:54Z","timestamp":1649081874825},"edition-number":"1","reference-count":0,"publisher":"Navegando
+        Publica\u00e7\u00f5es","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.29388\/978-85-53111-53-4-0-f.139-154","type":"book-chapter","created":{"date-parts":[[2019,6,9]],"date-time":"2019-06-09T13:40:21Z","timestamp":1560087621000},"page":"139-154","source":"Crossref","is-referenced-by-count":0,"title":["Cotas
+        n\u00e3o, PIMESP sim? Discurso sobre o m\u00e9rito no acesso \u00e0 Universidade
+        de S\u00e3o Paulo (USP)"],"prefix":"10.29388","author":[{"given":"M. T.","family":"MENDES","sequence":"first","affiliation":[]}],"member":"11924","published-online":{"date-parts":[[2019,6,9]]},"container-title":["Das
+        crises do capital \u00e0s crises da educa\u00e7\u00e3o superior no Brasil
+        - novos e renovados desafios em perspectiva."],"deposited":{"date-parts":[[2019,6,9]],"date-time":"2019-06-09T13:40:37Z","timestamp":1560087637000},"score":58.840694,"resource":{"primary":{"URL":"https:\/\/www.editoranavegando.com\/livro-anped"}},"issued":{"date-parts":[[2019,6,9]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.29388\/978-85-53111-53-4-0-f.139-154","published":{"date-parts":[[2019,6,9]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T19:38:23Z","timestamp":1648928303719},"reference-count":0,"publisher":"Faculdade
+        de Filosofia e Ci\u00eancias","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.36311\/2020.978-65-86546-99-6.p397-432","type":"book-chapter","created":{"date-parts":[[2021,3,15]],"date-time":"2021-03-15T10:31:33Z","timestamp":1615804293000},"page":"397-432","source":"Crossref","is-referenced-by-count":0,"title":["O
+        papel do servi\u00e7o de extens\u00e3o no desenvolvimento do turismo nas comunidades
+        Quilombolas do Vale do Ribeira"],"prefix":"10.36311","author":[{"given":"Jo\u00e3o","family":"Henrique
+        Souza Pires","sequence":"first","affiliation":[]}],"member":"22151","published-online":{"date-parts":[[2020]]},"container-title":["Movimentos
+        sociais e pol\u00edticas educacionais na Era da barb\u00e1rie"],"deposited":{"date-parts":[[2021,3,15]],"date-time":"2021-03-15T10:31:50Z","timestamp":1615804310000},"score":58.42141,"resource":{"primary":{"URL":"https:\/\/ebooks.marilia.unesp.br\/index.php\/lab_editorial\/catalog\/book\/205"}},"issued":{"date-parts":[[2020]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.36311\/2020.978-65-86546-99-6.p397-432","published":{"date-parts":[[2020]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T08:50:54Z","timestamp":1648803054368},"edition-number":"1","reference-count":0,"publisher":"Editora
+        Scienza","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,10,4]]},"DOI":"10.26626\/978-85-5953-029-2.2017c0002.p.27-46","type":"book-chapter","created":{"date-parts":[[2017,10,3]],"date-time":"2017-10-03T13:54:21Z","timestamp":1507038861000},"page":"27-46","source":"Crossref","is-referenced-by-count":1,"title":["Necessidade
+        de Revis\u00e3o dos M\u00e9todos de Avalia\u00e7\u00e3o do Desempenho T\u00e9rmico
+        de Edifica\u00e7\u00f5es no \u00c2mbito da Norma NBR 15575 e do SiNAT"],"prefix":"10.26626","author":[{"given":"Adriana","family":"Camargo
+        de Brito","sequence":"first","affiliation":[]},{"name":"USP - Universidade
+        de S\u00e3o Paulo","sequence":"first","affiliation":[]},{"given":"Elisa","family":"Morand\u00e9
+        Sales","sequence":"additional","affiliation":[]},{"given":"F\u00falvio","family":"Vittorino","sequence":"additional","affiliation":[]},{"given":"Marcelo","family":"de
+        Mello Aquilino","sequence":"additional","affiliation":[]},{"given":"Maria","family":"Akutsu","sequence":"additional","affiliation":[]}],"member":"11172","published-online":{"date-parts":[[2017,10,4]]},"container-title":["Avalia\u00e7\u00e3o
+        de Desempenho de Tecnologias Construtivas Inovadoras: Conforto Ambiental,
+        Durabilidade e P\u00f3s-Ocupa\u00e7\u00e3o"],"deposited":{"date-parts":[[2017,10,4]],"date-time":"2017-10-04T20:20:57Z","timestamp":1507148457000},"score":58.235237,"resource":{"primary":{"URL":"http:\/\/editorascienza.com.br\/pdfs\/usp\/978_85_5953_029_2_capitulo_2.pdf"}},"issued":{"date-parts":[[2017,10,4]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.26626\/978-85-5953-029-2.2017c0002.p.27-46","published":{"date-parts":[[2017,10,4]]}},{"indexed":{"date-parts":[[2022,7,9]],"date-time":"2022-07-09T13:45:38Z","timestamp":1657374338690},"edition-number":"1\u00aa","reference-count":0,"publisher":"Ludomedia","content-domain":{"domain":[],"crossmark-restriction":false},"abstract":"<jats:p>Introduction:
+        Viral hepatitis is a health problem that affects millions of people, are among
+        the main causes of disability and death in the world and affect different
+        vulnerable social groups. This scenario led the World Health Organization
+        to include the reduction of cases and deaths from viral hepatitis in the agenda
+        of the Sustainable Development Goals. Objective: To map research on viral
+        hepatitis with references that explore a social perspective of Collective
+        Health. Method: This is a scoping review whose searches were carried out in
+        the Virtual Health Library, in the Scientific Electronic Library Online, in
+        the Scopus database and the Google Scholar grey literature database. Studies
+        in Portuguese, Spanish and English were included, with no publication deadline.
+        Data were extracted using an instrument developed by the authors and submitted
+        to thematic content analysis with the support of webQDA software. Results:
+        36 articles were selected for reading. From the full reading of the publications,
+        three empirical categories emerged: The social perspective in the health-disease
+        process of viral hepatitis; The expression of social categories in the phenomenon
+        of viral hepatitis; Health needs associated with viral hepatitis. Conclusions:
+        The social perspective of viral hepatitis is approached by studies in an incipient
+        way and there is no in-depth analysis of the potential for wear and tear and
+        strengthening of populations belonging to different vulnerable social groups.
+        The methodology used proved to be adequate to analyze scientific productions
+        in-depth, especially those that address the social perspective.<\/jats:p>","DOI":"10.36367\/ntqr.13.2022.e641","type":"book-chapter","created":{"date-parts":[[2022,7,8]],"date-time":"2022-07-08T16:24:31Z","timestamp":1657297471000},"source":"Crossref","is-referenced-by-count":0,"title":["The
+        social perspective of viral hepatitis: Scope review"],"prefix":"10.36367","author":[{"given":"Rosa
+        Maria Godoy Serpa","family":"da Fonseca","sequence":"first","affiliation":[]},{"name":"Escola
+        de Enfermagem da Universidade de S\u00e3o Paulo, Brasil","sequence":"first","affiliation":[]},{"given":"Rafaela
+        Gessner","family":"Louren\u00e7o","sequence":"additional","affiliation":[]},{"given":"Lucimara
+        Fabiana","family":"Fornari","sequence":"additional","affiliation":[]},{"given":"Mariana
+        Sbeghen","family":"Menegatti","sequence":"additional","affiliation":[]},{"name":"Universidade
+        Federal do Paran\u00e1, Brasil","sequence":"additional","affiliation":[]},{"name":"Escola
+        de Enfermagem da Universidade de S\u00e3o Paulo, Brasil","sequence":"additional","affiliation":[]},{"name":"Escola
+        de Enfermagem da Universidade de S\u00e3o Paulo, Brasil","sequence":"additional","affiliation":[]}],"member":"22117","published-online":{"date-parts":[[2022,7,8]]},"container-title":["Knowledge
+        and Practices of Professionals of The Family Health Strategy on Promoting
+        Child Development","New Trends in Qualitative Research"],"deposited":{"date-parts":[[2022,7,8]],"date-time":"2022-07-08T16:24:34Z","timestamp":1657297474000},"score":58.091805,"resource":{"primary":{"URL":"https:\/\/publi.ludomedia.org\/index.php\/ntqr\/article\/view\/641"}},"issued":{"date-parts":[[2022,7,8]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.36367\/ntqr.13.2022.e641","ISSN":["2184-7770"],"issn-type":[{"value":"2184-7770","type":"print"}],"published":{"date-parts":[[2022,7,8]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T05:59:41Z","timestamp":1648965581597},"reference-count":0,"publisher":"Faculdade
+        de Filosofia e Ci\u00eancias","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.36311\/2012.978-85-7983-267-3.p233-253","type":"book-chapter","created":{"date-parts":[[2021,7,23]],"date-time":"2021-07-23T07:35:46Z","timestamp":1627025746000},"page":"233-253","source":"Crossref","is-referenced-by-count":0,"title":["O
+        que se leva, o que traz: Fluxos Migrat\u00f3rios e Fluxos de Mercadorias entre
+        o Interior do Piau\u00ed e a Cidade de S\u00e3o Paulo"],"prefix":"10.36311","author":[{"given":"Antonio
+        da Costa","family":"Braga","sequence":"first","affiliation":[]}],"member":"22151","published-online":{"date-parts":[[2012]]},"container-title":["Migra\u00e7\u00f5es:
+        implica\u00e7\u00f5es passadas, presentes e futuras"],"deposited":{"date-parts":[[2021,7,23]],"date-time":"2021-07-23T07:36:00Z","timestamp":1627025760000},"score":57.758957,"resource":{"primary":{"URL":"https:\/\/ebooks.marilia.unesp.br\/index.php\/lab_editorial\/catalog\/book\/37"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.36311\/2012.978-85-7983-267-3.p233-253","published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T01:46:31Z","timestamp":1648604791301},"reference-count":0,"publisher":"Editora
+        Blucher","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020]]},"DOI":"10.5151\/9786555500349-13","type":"book-chapter","created":{"date-parts":[[2020,11,23]],"date-time":"2020-11-23T13:47:31Z","timestamp":1606139251000},"page":"108-112","source":"Crossref","is-referenced-by-count":0,"title":["Avalia\u00e7\u00e3o
+        da Aplica\u00e7\u00e3o de Produtos Naturais como Conservantes em Produtos
+        Cosm\u00e9ticos"],"prefix":"10.5151","author":[{"given":"Rosilene","family":"Machado","sequence":"first","affiliation":[]},{"given":"Paulo
+        Roberto H","family":"Moreno","sequence":"first","affiliation":[]}],"member":"3104","container-title":["8\u00b0
+        Workshop do Mestrado Profissional Instituto de Qu\u00edmica Universidade de
+        S\u00e3o Paulo"],"deposited":{"date-parts":[[2020,11,23]],"date-time":"2020-11-23T13:47:45Z","timestamp":1606139265000},"score":57.042355,"resource":{"primary":{"URL":"https:\/\/openaccess.blucher.com.br\/article-details\/13-22361"}},"issued":{"date-parts":[[2020]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5151\/9786555500349-13","published":{"date-parts":[[2020]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T03:46:07Z","timestamp":1648611967464},"reference-count":0,"publisher":"Editora
+        Blucher","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020]]},"DOI":"10.5151\/9786555500349-06","type":"book-chapter","created":{"date-parts":[[2020,11,23]],"date-time":"2020-11-23T13:47:31Z","timestamp":1606139251000},"page":"69-73","source":"Crossref","is-referenced-by-count":0,"title":["Correla\u00e7\u00e3o
+        Entre Microscopia Confocal Raman e Distribui\u00e7\u00e3o de Tamanho de Part\u00edculas
+        por Difra\u00e7\u00e3o a Laser na Caracteriza\u00e7\u00e3o de Medicamentos
+        Inalat\u00f3rios"],"prefix":"10.5151","author":[{"given":"Vin\u00edcius A.
+        O","family":"Delben","sequence":"first","affiliation":[]},{"given":"Denise
+        F. S","family":"Petri","sequence":"first","affiliation":[]}],"member":"3104","container-title":["8\u00b0
+        Workshop do Mestrado Profissional Instituto de Qu\u00edmica Universidade de
+        S\u00e3o Paulo"],"deposited":{"date-parts":[[2020,11,23]],"date-time":"2020-11-23T13:47:38Z","timestamp":1606139258000},"score":56.984386,"resource":{"primary":{"URL":"https:\/\/openaccess.blucher.com.br\/article-details\/06-22354"}},"issued":{"date-parts":[[2020]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5151\/9786555500349-06","published":{"date-parts":[[2020]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"N\u00f3s+temos+nosso+direito+que+\u00e9+o+certo:+significados+das+lutas+por+reconhecimento+entre+comunidades+do+Vale+do+Ribeira,+S\u00e3o+Paulo+2017+Universidade+de+Sao+Paulo,+Agencia+USP+de+Gestao+da+Informacao+Academica+(AGUIA)"}}}'
+  recorded_at: Thu, 22 Dec 2022 04:04:52 GMT
+recorded_with: VCR 6.1.0

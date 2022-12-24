@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.31030%2F2640440
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Dec 2022 04:50:17 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '693'
+      Set-Cookie:
+      - AWSALB=mMVW7S7gtd+3rT/8ptTvpeRDaHqFmlDaHr6kPxW/WhU7B15GdwIoEnRvb7IrlKahcGxYuiSW8IRuXeX0u+R6kLxq8/s99dR7F8o3n5zgNsiqu3zmGo2xJ+vaOcs0;
+        Expires=Mon, 26 Dec 2022 04:50:17 GMT; Path=/
+      - AWSALBCORS=mMVW7S7gtd+3rT/8ptTvpeRDaHqFmlDaHr6kPxW/WhU7B15GdwIoEnRvb7IrlKahcGxYuiSW8IRuXeX0u+R6kLxq8/s99dR7F8o3n5zgNsiqu3zmGo2xJ+vaOcs0;
+        Expires=Mon, 26 Dec 2022 04:50:17 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:28:58Z","timestamp":1648978138180},"publisher-location":"Berlin","standards-body":{"name":"DIN
+        Deutsches Institut f\u00fcr Normung e. V.","acronym":"DIN"},"reference-count":0,"publisher":"Beuth
+        Verlag GmbH","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.31030\/2640440","type":"standard","created":{"date-parts":[[2019,3,31]],"date-time":"2019-03-31T17:56:19Z","timestamp":1554054979000},"approved":{"date-parts":[[1994,1]]},"source":"Crossref","is-referenced-by-count":0,"title":["DIN
+        ETS 300218:1994-01, ISDN; Protokolle der unteren Schichten f\u00fcr Videotex
+        auf Syntaxbasis f\u00fcr ISDN-Paketmodus (CCITT-Empfehlung_X.31 Fall_A und
+        Fall_B); Englische Fassung ETS_300218:1993"],"prefix":"10.31030","member":"15010","container-title":[],"original-title":[],"deposited":{"date-parts":[[2019,3,31]],"date-time":"2019-03-31T17:56:20Z","timestamp":1554054980000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.beuth.de\/de\/-\/-\/2204273"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.31030\/2640440","relation":{}}}'
+  recorded_at: Mon, 19 Dec 2022 04:50:17 GMT
+recorded_with: VCR 6.1.0

@@ -13,7 +13,7 @@ module RelatonDoi
       "edited-book" => "book",
       "grant" => "misc",
       "journal-article" => "article",
-      "journal-issue" => "journal",
+      "journal-issue" => "article",
       "journal-volume" => "journal",
       "monograph" => "book",
       "other" => "misc",
@@ -29,11 +29,51 @@ module RelatonDoi
     }.freeze
 
     REALATION_TYPES = {
-      "is-preprint-of" => "reprintOf",
+      "is-cited-by" => "isCitedIn",
+      "is-funded-by" => :-,
+      "has-award" => :-,
+      "belongs-to" => "related",
+      "is-child-of" => "includedIn",
+      "is-expression-of" => "expressionOf",
+      "has-expression" => "hasExpression",
+      "is-manifestation-of" => "manifestationOf",
+      "is-manuscript-of" => "draftOf",
+      "has-manuscript" => "hasDraft",
+      "is-preprint-of" => "draftOf",
+      "has-preprint" => "hasDraft",
+      "is-replaced-by" => "obsoletedBy",
+      "replaces" => "obsoletes",
+      "is-translation-of" => "translatedFrom",
+      "has-translation" => "hasTranslation",
+      "is-variant-form-of" => :-,
+      "is-original-form-of" => :-,
+      "is-version-of" => "editionOf",
+      "has-version" => "hasEdition",
+      "is-based-on" => "updates",
+      "is-basis-for" => "updatedBy",
+      "is-comment-on" => "commentaryOf",
+      "has-comment" => "hasCommentary",
+      "is-continued-by" => "hasSuccessor",
+      "continues" => "successorOf",
+      "is-derived-from" => "derives",
+      "has-derivation" => "derivedFrom",
+      "is-documented-by" => "describedBy",
+      "documents" => "describes",
+      "finances" => :-,
+      "is-financed-by" => :-,
+      "is-part-of" => "partOf",
+      "has-part" => "hasPart",
       "is-review-of" => "reviewOf",
       "has-review" => "hasReview",
+      "references" => "cites",
+      "is-referenced-by" => "isCitedIn",
+      "is-replay-to" => :-,
+      "has-replay" => :-,
+      "requires" => "hasComplement",
+      "is-required-by" => "complementOf",
+      "is-supplement-to" => "complementOf",
+      "is-supplemented-by" => "hasComplement",
       "is-identical-to" => "identicalTo", # ?
-      "is-supplement-to" => "complements",
     }.freeze
 
     #
@@ -130,14 +170,50 @@ module RelatonDoi
     # @return [Array<RelatonBib::TypedTitleString>] The title and subtitle.
     #
     def create_title
+      titles.map { |t| RelatonBib::TypedTitleString.new(**t) }
+    end
+
+    #
+    # Fetch titles from the projects.
+    #
+    # @return [Array<Hash>] The titles.
+    #
+    def project_titles
+      RelatonBib.array(@message["project"]).reduce([]) do |memo, proj|
+        memo + RelatonBib.array(proj["project-title"]).map do |t|
+          { type: "main", content: t["title"], language: "en", script: "Latn" }
+        end
+      end
+    end
+
+    #
+    # Fetch titles from the message hash.
+    #
+    # @return [Array<Hash>] The titles.
+    #
+    def titles
+      if @message["title"].is_a?(Array) && @message["title"].any?
+        main_sub_titles
+      elsif @message["project"].is_a?(Array) && @message["project"].any?
+        project_titles
+      elsif @message["container-title"].is_a?(Array) && @message["container-title"].size > 1
+        @message["container-title"][0..-2].map do |t|
+          { type: "main", content: t, language: "en", script: "Latn" }
+        end
+      else []
+      end
+    end
+
+    #
+    # Fetch main and subtitle from the message hash.
+    #
+    # @return [Array<Hash>] The titles.
+    #
+    def main_sub_titles
       @message["title"].map do |t|
-        RelatonBib::TypedTitleString.new(
-          type: "main", content: t, language: "en", script: "Latn",
-        )
-      end + @message["subtitle"].map do |t|
-        RelatonBib::TypedTitleString.new(
-          type: "subtitle", content: t, language: "en", script: "Latn",
-        )
+        { type: "main", content: t, language: "en", script: "Latn" }
+      end + RelatonBib.array(@message["subtitle"]).map do |t|
+        { type: "subtitle", content: t, language: "en", script: "Latn" }
       end
     end
 
@@ -215,7 +291,55 @@ module RelatonDoi
           obj << contributor(person(contrib), type)
         end
       end
-      contribs << contributor(org_publisher, "publisher")
+      contribs_from_parent(contribs) << contributor(org_publisher, "publisher")
+    end
+
+    #
+    # Fetch authors and editors from parent if they are not present in the book part.
+    #
+    # @param [Array<RelatonBib::ContributionInfo>] contribs present contributors
+    #
+    # @return [Array<RelatonBib::ContributionInfo>] contributors with authors and editors from parent
+    #
+    def contribs_from_parent(contribs) # rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
+      return contribs unless %w[inbook inproceedings dataset].include?(parse_type) && @message["container-title"]
+
+      has_authors = contribs.any? { |c| c.role&.any? { |r| r.type == "author" } }
+      has_editors = contribs.any? { |c| c.role&.any? { |r| r.type == "editor" } }
+      return contribs if has_authors && has_editors
+
+      item = fetch_parent
+      authors = create_authors_editors(has_authors, "author", item)
+      editors = create_authors_editors(has_editors, "editor", item)
+      contribs + authors + editors
+    end
+
+    #
+    # Fetch parent item from Crossref.
+    #
+    # @return [Hash, nil] parent item
+    #
+    def fetch_parent # rubocop:disable Metrics/AbcSize
+      query = [@message["container-title"][0], fetch_year].compact.join "+"
+      filter = "type:#{%w[book book-set edited-book monograph reference-book].join ',type:'}"
+      resp = Faraday.get "https://api.crossref.org/works?query=#{query}&filter=#{filter}"
+      json = JSON.parse resp.body
+      json["message"]["items"].detect { |i| i["title"].include? @message["container-title"][0] }
+    end
+
+    #
+    # Create authors and editors from parent item.
+    #
+    # @param [Boolean] has true if authors or editors are present in the book part
+    # @param [String] type "author" or "editor"
+    # @param [Hash, nil] item parent item
+    #
+    # @return [Array<RelatonBib::ContributionInfo>] authors or editors
+    #
+    def create_authors_editors(has, type, item)
+      return [] if has || !item
+
+      RelatonBib.array(item[type]).map { |a| contributor(person(a), type) }
     end
 
     #
@@ -358,11 +482,29 @@ module RelatonDoi
     # @return [Array<RelatonBib::Place>] The place.
     #
     def create_place
-      return [] unless @message["publisher-location"]
+      pub_location = @message["publisher-location"] || fetch_location
+      return [] unless pub_location
 
-      city, rg = @message["publisher-location"].split(", ")
+      city, rg = pub_location.split(", ")
       region = RelatonBib::Place::RegionType.new(name: rg)
       [RelatonBib::Place.new(city: city, region: [region])]
+    end
+
+    #
+    # Fetch location from conteiner.
+    #
+    # @return [String, nil] The location.
+    #
+    def fetch_location # rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity
+      title = titles&.first&.dig(:content)
+      qparts = [title, fetch_year, @message["publisher"]]
+      query = CGI.escape qparts.compact.join("+").gsub(" ", "+")
+      filter = "type:#{%w[book-chapter book-part book-section book-track].join(',type:')}"
+      resp = Faraday.get "https://api.crossref.org/works?query=#{query}&filter=#{filter}"
+      json = JSON.parse resp.body
+      json["message"]["items"].detect do |i|
+        i["publisher-location"] && i["container-title"].include?(title)
+      end&.dig("publisher-location")
     end
 
     #
@@ -371,17 +513,41 @@ module RelatonDoi
     # @return [Array<RelatonBib::DocumentRelation>] The relations.
     #
     def create_relation # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
-      rels = []
-      @message["container-title"]&.each do |ct|
+      rels = included_in_relation
+      @message["relation"].each_with_object(rels) do |(k, v), a|
+        type, desc = relation_type k
+        RelatonBib.array(v).each do |r|
+          fref = RelatonBib::FormattedRef.new(content: r["id"])
+          docid = RelatonBib::DocumentIdentifier.new(id: r["id"], type: "DOI")
+          bib = create_bibitem r["id"], formattedref: fref, docid: [docid]
+          a << RelatonBib::DocumentRelation.new(type: type, description: desc, bibitem: bib)
+        end
+      end
+    end
+
+    #
+    # Transform crossref relation type to relaton relation type.
+    #
+    # @param [String] crtype The crossref relation type.
+    #
+    # @return [Array<String>] The relaton relation type and description.
+    #
+    def relation_type(crtype)
+      type = REALATION_TYPES[crtype] || crtype
+      if type == :-
+        type = "related"
+        desc = RelatonBib::FormattedString.new(content: crtype)
+      end
+      [type, desc]
+    end
+
+    def included_in_relation
+      return [] unless @message["container-title"] # && parse_type != "article"
+
+      @message["container-title"].map do |ct|
         contrib = included_in_editors(ct)
         bib = RelatonBib::BibliographicItem.new(title: [content: ct], contributor: contrib)
-        rels << RelatonBib::DocumentRelation.new(type: "includedIn", bibitem: bib)
-      end
-      @message["relation"].each_with_object(rels) do |(k, v), a|
-        fref = RelatonBib::FormattedRef.new(content: v["id"])
-        bib = create_bibitem v["id"], formattedref: fref
-        type = REALATION_TYPES[k] || k
-        a << RelatonBib::DocumentRelation.new(type: type, bibitem: bib)
+        RelatonBib::DocumentRelation.new(type: "includedIn", bibitem: bib)
       end
     end
 
@@ -406,12 +572,16 @@ module RelatonDoi
     #
     # @return [Hash] The included in relation item.
     #
-    def fetch_included_in(title) # rubocop:disable Metrics/AbcSize
-      year = (@message["published"] || @message["approved"])["date-parts"][0][0]
-      query = "#{title}, #{@message['publisher']}, #{@message['publisher-location']}, #{year}"
+    def fetch_included_in(title)
+      query = CGI.escape [title, @message["publisher"], @message["publisher-location"], fetch_year].join(", ")
       resp = Faraday.get %{http://api.crossref.org/works?query.bibliographic="#{query}"&rows=5&filter=type:book}
       json = JSON.parse resp.body
       json["message"]["items"].detect { |i| i["title"].include?(title) && i["editor"] }
+    end
+
+    def fetch_year
+      d = @message["published"] || @message["approved"] || @message["created"]
+      d["date-parts"][0][0]
     end
 
     #
@@ -438,7 +608,12 @@ module RelatonDoi
     def create_series
       return [] unless @message["container-title"]
 
-      @message["container-title"].map do |ct|
+      con_ttl = if main_sub_titles.any? || project_titles.any?
+                  @message["container-title"]
+                else
+                  @message["container-title"][-1..-1] || []
+                end
+      con_ttl.map do |ct|
         title = RelatonBib::TypedTitleString.new content: ct
         RelatonBib::Series.new title: title
       end

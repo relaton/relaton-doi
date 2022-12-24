@@ -1,0 +1,180 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.46528%2Fjk
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:42:33 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '526'
+      Set-Cookie:
+      - AWSALB=kFGCV5hrrecHFBN5DzFEk7EOJBcsJgyRCggT3uMVXdGq/LejQ6OSyb4+tRn38csZC1IJnUzSJcFhdxJnT+/BcpXBllBdakCXhzqS89Bcyjw8XlrnODUz43U7V4Ap;
+        Expires=Thu, 29 Dec 2022 22:42:33 GMT; Path=/
+      - AWSALBCORS=kFGCV5hrrecHFBN5DzFEk7EOJBcsJgyRCggT3uMVXdGq/LejQ6OSyb4+tRn38csZC1IJnUzSJcFhdxJnT+/BcpXBllBdakCXhzqS89Bcyjw8XlrnODUz43U7V4Ap;
+        Expires=Thu, 29 Dec 2022 22:42:33 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:30:40Z","timestamp":1648978240556},"reference-count":0,"publisher":"JUNI
+        KHYAT","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.46528\/jk","type":"journal","created":{"date-parts":[[2020,6,5]],"date-time":"2020-06-05T19:06:33Z","timestamp":1591383993000},"source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        Khyat Journal"],"prefix":"10.46528","member":"25841","container-title":[],"original-title":[],"deposited":{"date-parts":[[2020,6,5]],"date-time":"2020-06-05T19:06:33Z","timestamp":1591383993000},"score":1,"resource":{"primary":{"URL":"http:\/\/www.junikhyat.com\/"}},"subtitle":[],"short-title":["Juni
+        Khyat"],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.46528\/jk","relation":{},"ISSN":["2278-4632"],"issn-type":[{"value":"2278-4632","type":"print"}],"subject":["General
+        Medicine"]}}'
+  recorded_at: Thu, 22 Dec 2022 22:42:33 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Juni%2BKhyat%2BJournal%2B2020%2BJUNI%2BKHYAT
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 22 Dec 2022 22:42:34 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2630'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1263913,"items":[{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T23:01:01Z","timestamp":1648854061240},"reference-count":0,"publisher":"Akademie
+        Verlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,12,31]]},"DOI":"10.1515\/9783050085159-013","type":"book-chapter","created":{"date-parts":[[2020,3,31]],"date-time":"2020-03-31T21:43:18Z","timestamp":1585690998000},"page":"482-511","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1861"],"prefix":"10.1515","member":"374","container-title":["Karl Marx \/
+        Friedrich Engels: Briefwechsel, Juni 1860 bis Dezember 1861"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783050085159\/10.1515\/9783050085159-013.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783050085159-013\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,20]],"date-time":"2021-04-20T17:49:44Z","timestamp":1618940984000},"score":33.61815,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783050085159-013\/html"}},"issued":{"date-parts":[[2020,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783050085159-013","published":{"date-parts":[[2020,12,31]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T13:59:19Z","timestamp":1648994359682},"reference-count":0,"publisher":"Akademie
+        Verlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,12,31]]},"DOI":"10.1515\/9783050085159-035","type":"book-chapter","created":{"date-parts":[[2020,3,31]],"date-time":"2020-03-31T21:43:18Z","timestamp":1585690998000},"page":"1218-1247","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1861"],"prefix":"10.1515","member":"374","container-title":["Karl Marx \/
+        Friedrich Engels: Briefwechsel, Juni 1860 bis Dezember 1861"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783050085159\/10.1515\/9783050085159-035.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783050085159-035\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,20]],"date-time":"2021-04-20T17:49:56Z","timestamp":1618940996000},"score":33.61815,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783050085159-035\/html"}},"issued":{"date-parts":[[2020,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783050085159-035","published":{"date-parts":[[2020,12,31]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T12:10:46Z","timestamp":1648555846476},"reference-count":0,"publisher":"Akademie
+        Verlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,12,31]]},"DOI":"10.1515\/9783050085159-023","type":"book-chapter","created":{"date-parts":[[2020,3,31]],"date-time":"2020-03-31T21:43:18Z","timestamp":1585690998000},"page":"723-810","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1860"],"prefix":"10.1515","member":"374","container-title":["Karl Marx \/
+        Friedrich Engels: Briefwechsel, Juni 1860 bis Dezember 1861"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783050085159\/10.1515\/9783050085159-023.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783050085159-023\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,20]],"date-time":"2021-04-20T17:49:49Z","timestamp":1618940989000},"score":33.412403,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783050085159-023\/html"}},"issued":{"date-parts":[[2020,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783050085159-023","published":{"date-parts":[[2020,12,31]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T15:46:10Z","timestamp":1648741570485},"reference-count":0,"publisher":"Akademie
+        Verlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,12,31]]},"DOI":"10.1515\/9783050085159-001","type":"book-chapter","created":{"date-parts":[[2020,3,31]],"date-time":"2020-03-31T21:43:18Z","timestamp":1585690998000},"page":"1-72","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1860"],"prefix":"10.1515","member":"374","container-title":["Karl Marx \/
+        Friedrich Engels: Briefwechsel, Juni 1860 bis Dezember 1861"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783050085159\/10.1515\/9783050085159-001.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783050085159-001\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,20]],"date-time":"2021-04-20T17:49:38Z","timestamp":1618940978000},"score":33.412403,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783050085159-001\/html"}},"issued":{"date-parts":[[2020,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783050085159-001","published":{"date-parts":[[2020,12,31]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T06:40:32Z","timestamp":1649054432107},"reference-count":0,"publisher":"Oldenbourg
+        Wissenschaftsverlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1907,12,31]]},"DOI":"10.1515\/9783486734287-002","type":"book-chapter","created":{"date-parts":[[2019,7,24]],"date-time":"2019-07-24T17:02:01Z","timestamp":1563987721000},"page":"14-15","source":"Crossref","is-referenced-by-count":0,"title":["2.
+        Juni"],"prefix":"10.1515","member":"374","container-title":["3. bis 6. Juni
+        1907, Wien"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783486734287\/10.1515\/9783486734287-002.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486734287-002\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T17:57:05Z","timestamp":1619027825000},"score":31.026123,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486734287-002\/html"}},"issued":{"date-parts":[[1907,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783486734287-002","published":{"date-parts":[[1907,12,31]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T23:29:24Z","timestamp":1649114964968},"reference-count":0,"publisher":"Oldenbourg
+        Wissenschaftsverlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1907,12,31]]},"DOI":"10.1515\/9783486734287-005","type":"book-chapter","created":{"date-parts":[[2019,7,24]],"date-time":"2019-07-24T17:02:01Z","timestamp":1563987721000},"page":"113-274","source":"Crossref","is-referenced-by-count":0,"title":["5.
+        Juni"],"prefix":"10.1515","member":"374","container-title":["3. bis 6. Juni
+        1907, Wien"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783486734287\/10.1515\/9783486734287-005.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486734287-005\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T17:57:06Z","timestamp":1619027826000},"score":30.827494,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486734287-005\/html"}},"issued":{"date-parts":[[1907,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783486734287-005","published":{"date-parts":[[1907,12,31]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T00:52:36Z","timestamp":1648774356421},"reference-count":0,"publisher":"Oldenbourg
+        Wissenschaftsverlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1913,12,31]]},"DOI":"10.1515\/9783486742404-003","type":"book-chapter","created":{"date-parts":[[2019,9,6]],"date-time":"2019-09-06T09:01:41Z","timestamp":1567760501000},"page":"21-183","source":"Crossref","is-referenced-by-count":1,"title":["26
+        Juni"],"prefix":"10.1515","member":"374","container-title":["25. bis 28. Juni
+        1913, C\u00f6ln am Rhein"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783486742404\/10.1515\/9783486742404-003.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-003\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T18:19:44Z","timestamp":1619029184000},"score":30.573084,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-003\/html"}},"issued":{"date-parts":[[1913,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783486742404-003","published":{"date-parts":[[1913,12,31]]}},{"indexed":{"date-parts":[[2022,10,26]],"date-time":"2022-10-26T04:58:56Z","timestamp":1666760336095},"reference-count":0,"publisher":"De
+        Gruyter","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1994,12,31]]},"DOI":"10.1515\/9783110965544-005","type":"book-chapter","created":{"date-parts":[[2020,10,27]],"date-time":"2020-10-27T10:46:44Z","timestamp":1603795604000},"page":"377-584","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1944"],"prefix":"10.1515","member":"374","container-title":["April - Juni
+        1944"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783110965544\/10.1515\/9783110965544-005.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110965544-005\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110965544-005\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,10,25]],"date-time":"2022-10-25T12:49:05Z","timestamp":1666702145000},"score":30.573084,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110965544-005\/html"}},"issued":{"date-parts":[[1994,12,31]]},"references-count":0,"alternative-id":["10.1515\/9783110965544-005","10.1515\/9783110965544"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110965544-005","published":{"date-parts":[[1994,12,31]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T21:23:41Z","timestamp":1648589021453},"reference-count":0,"publisher":"Oldenbourg
+        Wissenschaftsverlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1907,12,31]]},"DOI":"10.1515\/9783486734287-006","type":"book-chapter","created":{"date-parts":[[2019,7,24]],"date-time":"2019-07-24T17:02:01Z","timestamp":1563987721000},"page":"274-274","source":"Crossref","is-referenced-by-count":0,"title":["Donnerstag
+        , den 6. Juni"],"prefix":"10.1515","member":"374","container-title":["3. bis
+        6. Juni 1907, Wien"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783486734287\/10.1515\/9783486734287-006.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486734287-006\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T17:57:07Z","timestamp":1619027827000},"score":30.526026,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486734287-006\/html"}},"issued":{"date-parts":[[1907,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783486734287-006","published":{"date-parts":[[1907,12,31]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T16:49:06Z","timestamp":1649090946558},"reference-count":0,"publisher":"Oldenbourg
+        Wissenschaftsverlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1907,12,31]]},"DOI":"10.1515\/9783486734287-007","type":"book-chapter","created":{"date-parts":[[2019,7,24]],"date-time":"2019-07-24T17:02:01Z","timestamp":1563987721000},"page":"274-275","source":"Crossref","is-referenced-by-count":0,"title":["Freitag,
+        den 7. Juni"],"prefix":"10.1515","member":"374","container-title":["3. bis
+        6. Juni 1907, Wien"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783486734287\/10.1515\/9783486734287-007.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486734287-007\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T17:57:08Z","timestamp":1619027828000},"score":30.444204,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486734287-007\/html"}},"issued":{"date-parts":[[1907,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783486734287-007","published":{"date-parts":[[1907,12,31]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T18:10:50Z","timestamp":1648577450137},"reference-count":0,"publisher":"Oldenbourg
+        Wissenschaftsverlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1913,12,31]]},"DOI":"10.1515\/9783486742404-002","type":"book-chapter","created":{"date-parts":[[2019,9,6]],"date-time":"2019-09-06T09:01:41Z","timestamp":1567760501000},"page":"17-20","source":"Crossref","is-referenced-by-count":0,"title":["25.
+        Juni"],"prefix":"10.1515","member":"374","container-title":["25. bis 28. Juni
+        1913, C\u00f6ln am Rhein"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783486742404\/10.1515\/9783486742404-002.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-002\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T18:19:43Z","timestamp":1619029183000},"score":30.356651,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-002\/html"}},"issued":{"date-parts":[[1913,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783486742404-002","published":{"date-parts":[[1913,12,31]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T16:31:50Z","timestamp":1648830710016},"reference-count":0,"publisher":"Oldenbourg
+        Wissenschaftsverlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1913,12,31]]},"DOI":"10.1515\/9783486742404-006","type":"book-chapter","created":{"date-parts":[[2019,9,6]],"date-time":"2019-09-06T09:01:41Z","timestamp":1567760501000},"page":"297-298","source":"Crossref","is-referenced-by-count":0,"title":["29.
+        Juni"],"prefix":"10.1515","member":"374","container-title":["25. bis 28. Juni
+        1913, C\u00f6ln am Rhein"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783486742404\/10.1515\/9783486742404-006.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-006\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T18:19:46Z","timestamp":1619029186000},"score":30.356651,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-006\/html"}},"issued":{"date-parts":[[1913,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783486742404-006","published":{"date-parts":[[1913,12,31]]}},{"indexed":{"date-parts":[[2022,10,26]],"date-time":"2022-10-26T04:58:39Z","timestamp":1666760319833},"reference-count":0,"publisher":"De
+        Gruyter","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1993,12,31]]},"DOI":"10.1515\/9783110965582-005","type":"book-chapter","created":{"date-parts":[[2020,10,23]],"date-time":"2020-10-23T16:26:30Z","timestamp":1603470390000},"page":"399-568","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1943"],"prefix":"10.1515","member":"374","container-title":["April - Juni
+        1943"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783110965582\/10.1515\/9783110965582-005.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110965582-005\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110965582-005\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,10,25]],"date-time":"2022-10-25T12:38:48Z","timestamp":1666701528000},"score":30.356651,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110965582-005\/html"}},"issued":{"date-parts":[[1993,12,31]]},"references-count":0,"alternative-id":["10.1515\/9783110965582-005","10.1515\/9783110965582"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110965582-005","published":{"date-parts":[[1993,12,31]]}},{"indexed":{"date-parts":[[2022,10,26]],"date-time":"2022-10-26T04:58:54Z","timestamp":1666760334765},"reference-count":0,"publisher":"De
+        Gruyter","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004,12,31]]},"DOI":"10.1515\/9783110968293-015","type":"book-chapter","created":{"date-parts":[[2020,10,23]],"date-time":"2020-10-23T16:26:30Z","timestamp":1603470390000},"page":"294-311","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1932"],"prefix":"10.1515","member":"374","container-title":["Juni 1931 - September
+        1932"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783110968293\/10.1515\/9783110968293-015.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110968293-015\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110968293-015\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,10,25]],"date-time":"2022-10-25T12:41:30Z","timestamp":1666701690000},"score":30.289242,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110968293-015\/html"}},"issued":{"date-parts":[[2004,12,31]]},"references-count":0,"alternative-id":["10.1515\/9783110968293-015","10.1515\/9783110968293"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110968293-015","published":{"date-parts":[[2004,12,31]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T04:58:26Z","timestamp":1648702706304},"reference-count":0,"publisher":"Oldenbourg
+        Wissenschaftsverlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1913,12,31]]},"DOI":"10.1515\/9783486742404-004","type":"book-chapter","created":{"date-parts":[[2019,9,6]],"date-time":"2019-09-06T09:01:41Z","timestamp":1567760501000},"page":"184-192","source":"Crossref","is-referenced-by-count":0,"title":["27.
+        Juni"],"prefix":"10.1515","member":"374","container-title":["25. bis 28. Juni
+        1913, C\u00f6ln am Rhein"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783486742404\/10.1515\/9783486742404-004.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-004\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T18:19:45Z","timestamp":1619029185000},"score":30.22194,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-004\/html"}},"issued":{"date-parts":[[1913,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783486742404-004","published":{"date-parts":[[1913,12,31]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T18:48:54Z","timestamp":1649184534342},"reference-count":0,"publisher":"Oldenbourg
+        Wissenschaftsverlag","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1913,12,31]]},"DOI":"10.1515\/9783486742404-005","type":"book-chapter","created":{"date-parts":[[2019,9,6]],"date-time":"2019-09-06T09:01:41Z","timestamp":1567760501000},"page":"192-297","source":"Crossref","is-referenced-by-count":0,"title":["28.
+        Juni"],"prefix":"10.1515","member":"374","container-title":["25. bis 28. Juni
+        1913, C\u00f6ln am Rhein"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783486742404\/10.1515\/9783486742404-005.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-005\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T18:19:45Z","timestamp":1619029185000},"score":30.22194,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783486742404-005\/html"}},"issued":{"date-parts":[[1913,12,31]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783486742404-005","published":{"date-parts":[[1913,12,31]]}},{"indexed":{"date-parts":[[2022,10,26]],"date-time":"2022-10-26T04:58:56Z","timestamp":1666760336058},"reference-count":0,"publisher":"De
+        Gruyter","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004,12,31]]},"DOI":"10.1515\/9783110948974-003","type":"book-chapter","created":{"date-parts":[[2020,10,23]],"date-time":"2020-10-23T16:26:30Z","timestamp":1603470390000},"page":"29-60","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1928"],"prefix":"10.1515","member":"374","container-title":["Juni 1928 - November
+        1929"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783110948974\/10.1515\/9783110948974-003.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110948974-003\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110948974-003\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,10,25]],"date-time":"2022-10-25T12:32:53Z","timestamp":1666701173000},"score":30.073952,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110948974-003\/html"}},"issued":{"date-parts":[[2004,12,31]]},"references-count":0,"alternative-id":["10.1515\/9783110948974-003","10.1515\/9783110948974"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110948974-003","published":{"date-parts":[[2004,12,31]]}},{"indexed":{"date-parts":[[2022,10,26]],"date-time":"2022-10-26T04:58:41Z","timestamp":1666760321545},"reference-count":0,"publisher":"De
+        Gruyter","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004,12,31]]},"DOI":"10.1515\/9783110968293-003","type":"book-chapter","created":{"date-parts":[[2020,10,23]],"date-time":"2020-10-23T16:26:30Z","timestamp":1603470390000},"page":"29-49","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1931"],"prefix":"10.1515","member":"374","container-title":["Juni 1931 - September
+        1932"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783110968293\/10.1515\/9783110968293-003.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110968293-003\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110968293-003\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,10,25]],"date-time":"2022-10-25T12:41:41Z","timestamp":1666701701000},"score":30.073952,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110968293-003\/html"}},"issued":{"date-parts":[[2004,12,31]]},"references-count":0,"alternative-id":["10.1515\/9783110968293-003","10.1515\/9783110968293"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110968293-003","published":{"date-parts":[[2004,12,31]]}},{"indexed":{"date-parts":[[2022,10,26]],"date-time":"2022-10-26T04:59:16Z","timestamp":1666760356338},"reference-count":0,"publisher":"De
+        Gruyter","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004,12,31]]},"DOI":"10.1515\/9783110948974-014","type":"book-chapter","created":{"date-parts":[[2020,10,23]],"date-time":"2020-10-23T16:26:30Z","timestamp":1603470390000},"page":"258-277","source":"Crossref","is-referenced-by-count":0,"title":["Juni
+        1929"],"prefix":"10.1515","member":"374","container-title":["Juni 1928 - November
+        1929"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783110948974\/10.1515\/9783110948974-014.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110948974-014\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110948974-014\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,10,25]],"date-time":"2022-10-25T12:32:39Z","timestamp":1666701159000},"score":30.073952,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110948974-014\/html"}},"issued":{"date-parts":[[2004,12,31]]},"references-count":0,"alternative-id":["10.1515\/9783110948974-014","10.1515\/9783110948974"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110948974-014","published":{"date-parts":[[2004,12,31]]}},{"indexed":{"date-parts":[[2022,10,26]],"date-time":"2022-10-26T04:59:25Z","timestamp":1666760365720},"reference-count":0,"publisher":"De
+        Gruyter","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1995,12,31]]},"DOI":"10.1515\/9783110979169-005","type":"book-chapter","created":{"date-parts":[[2020,10,23]],"date-time":"2020-10-23T16:26:30Z","timestamp":1603470390000},"page":"421-650","source":"Crossref","is-referenced-by-count":0,"title":["3.
+        Juni 1942"],"prefix":"10.1515","member":"374","container-title":["April -
+        Juni 1942"],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/book\/9783110979169\/10.1515\/9783110979169-005.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110979169-005\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110979169-005\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,10,25]],"date-time":"2022-10-25T13:27:18Z","timestamp":1666704438000},"score":29.966866,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110979169-005\/html"}},"issued":{"date-parts":[[1995,12,31]]},"references-count":0,"alternative-id":["10.1515\/9783110979169-005","10.1515\/9783110979169"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110979169-005","published":{"date-parts":[[1995,12,31]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Juni+Khyat+Journal+2020+JUNI+KHYAT"}}}'
+  recorded_at: Thu, 22 Dec 2022 22:42:34 GMT
+recorded_with: VCR 6.1.0

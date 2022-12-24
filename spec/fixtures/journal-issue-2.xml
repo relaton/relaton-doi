@@ -1,0 +1,41 @@
+<bibdata type="article" schema-version="v1.2.1">
+  <fetched>2022-12-19</fetched>
+  <uri type="DOI">http://dx.doi.org/10.1111/read.1991.25.issue-1</uri>
+  <docidentifier type="DOI" primary="true">10.1111/read.1991.25.issue-1</docidentifier>
+  <date type="created">
+    <on>2007-02-10</on>
+  </date>
+  <date type="issued">
+    <on>1991-04</on>
+  </date>
+  <date type="published">
+    <on>1991-04</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Wiley</name>
+    </organization>
+  </contributor>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Literacy</title>
+    </bibitem>
+  </relation>
+  <series>
+    <title format="text/plain">Literacy</title>
+  </series>
+  <extent>
+    <localityStack>
+      <locality type="volume">
+        <referenceFrom>25</referenceFrom>
+      </locality>
+      <locality type="issue">
+        <referenceFrom>1</referenceFrom>
+      </locality>
+    </localityStack>
+  </extent>
+  <ext>
+    <doctype>journal-issue</doctype>
+  </ext>
+</bibdata>

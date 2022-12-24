@@ -1,0 +1,55 @@
+<bibdata type="book" schema-version="v1.2.1">
+  <fetched>2022-12-18</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Die Gattungen Pupa, Megaspira, Balea und Tornatellina : in Abbildungen nach der Natur mit Beschreibungen /</title>
+  <uri type="DOI">http://dx.doi.org/10.5962/bhl.title.124254</uri>
+  <docidentifier type="DOI" primary="true">10.5962/bhl.title.124254</docidentifier>
+  <date type="created">
+    <on>2017-01-30</on>
+  </date>
+  <date type="issued">
+    <on>1852</on>
+  </date>
+  <date type="published">
+    <on>1852</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">H. C.</forename>
+        <surname language="en" script="Latn">Kuster</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Johann Hieronymus</forename>
+        <surname language="en" script="Latn">Chemnitz</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Friedrich Heinrich Wilhelm</forename>
+        <surname language="en" script="Latn">Martini</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Verlag von Bauer und Raspe (Julius Merz),</name>
+    </organization>
+  </contributor>
+  <place>
+    <city>Nürnberg :</city>
+    <region></region>
+  </place>
+  <ext>
+    <doctype>monograph</doctype>
+  </ext>
+</bibdata>

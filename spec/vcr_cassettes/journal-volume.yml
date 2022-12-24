@@ -1,0 +1,501 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crossref.org/works/10.46409%2F001.rlpt5688
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      X-User-Agent:
+      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 23 Dec 2022 04:56:18 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '643'
+      Set-Cookie:
+      - AWSALB=vDNFKq/GeJHDhM4XQTgLKueaCbfQVqhW+hNCNWNSh92+fU3MbIx9Hf4RuH293T3Wp5FQvIY9T5Iaedb0zfL7SBLCiQnYiQlCcFOYchlSUpbv26FGO7QHoCjs0PxP;
+        Expires=Fri, 30 Dec 2022 04:56:18 GMT; Path=/
+      - AWSALBCORS=vDNFKq/GeJHDhM4XQTgLKueaCbfQVqhW+hNCNWNSh92+fU3MbIx9Hf4RuH293T3Wp5FQvIY9T5Iaedb0zfL7SBLCiQnYiQlCcFOYchlSUpbv26FGO7QHoCjs0PxP;
+        Expires=Fri, 30 Dec 2022 04:56:18 GMT; Path=/; SameSite=None
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - polite
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:10:25Z","timestamp":1648977025943},"reference-count":0,"publisher":"University
+        of St. Augustine for Health Sciences Library","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":["SJOT"],"DOI":"10.46409\/001.rlpt5688","type":"journal-volume","created":{"date-parts":[[2021,12,31]],"date-time":"2021-12-31T05:46:13Z","timestamp":1640929573000},"source":"Crossref","is-referenced-by-count":0,"title":[],"prefix":"10.46409","volume":"1","member":"23747","container-title":["Fall
+        2020, Innaugural Issue","Student Journal of Occupational Therapy"],"original-title":[],"deposited":{"date-parts":[[2021,12,31]],"date-time":"2021-12-31T05:46:13Z","timestamp":1640929573000},"score":1,"resource":{"primary":{"URL":"https:\/\/soar.usa.edu\/sjot\/vol1\/"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.46409\/001.rlpt5688","archive":["Internet
+        Archive"],"relation":{},"ISSN":["2689-1662"],"issn-type":[{"value":"2689-1662","type":"electronic"}],"subject":["General
+        Computer Science"]}}'
+  recorded_at: Fri, 23 Dec 2022 04:56:18 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Fall%2B2020,%2BInnaugural%2BIssue%2B2021%2BUniversity%2Bof%2BSt.%2BAugustine%2Bfor%2BHealth%2BSciences%2BLibrary
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 23 Dec 2022 04:56:22 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '7040'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":187254,"items":[{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T05:01:30Z","timestamp":1659502890001},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>For
+        Augustine, angels became demons in their failure to love God above all. This
+        chapter gives an overview of that fall, beginning with Augustine\u2019s understanding
+        of evil as pride\u2019s apostasy from God, moving on to examine two issues
+        that confront him concerning the devil\u2019s fall. The first is the question
+        of whether that fall can have any cause, which is explored in terms of Augustine\u2019s
+        basic commitment to the non-competitive relationship between the created will
+        and the God that creates and empowers it. The second issue is Augustine\u2019s
+        understanding of when and in what conditions the devil fell, and the development
+        of Augustine\u2019s conviction that all angels must have been established
+        in the good at their creation. What both discussions clarify, however, is
+        that these issues arise because of how difficult it is to maintain the logical
+        consequences of the demons\u2019 lack of animal bodies. This fundamental difference
+        of embodiment between demons and humans is made clear in Augustine\u2019s
+        treatment of the story of the fall of Adam and Eve, where the comparison of
+        the fall of the angels to the human fall reveals a crucial component of Augustine\u2019s
+        demonology: demons must assume some kind of embodiment in order to interact
+        with humans in history.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0003","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T19:39:19Z","timestamp":1634758759000},"page":"53-93","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Fall of the Angels"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
+        Angels in the Theology of St Augustine"],"original-title":["The Fall of the
+        Angels"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:47Z","timestamp":1659472967000},"score":34.8827,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338633947"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0003","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T00:05:11Z","timestamp":1648685111156},"reference-count":0,"publisher":"University
+        of South Carolina Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,7,17]]},"DOI":"10.2307\/j.ctvrxk35v.10","type":"book-chapter","created":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:42Z","timestamp":1595365242000},"page":"39-50","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Reception at St. Augustine"],"prefix":"10.2307","member":"1121","container-title":["Patriots
+        in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:56Z","timestamp":1595365256000},"score":26.690786,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.10"}},"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.10","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:21Z","timestamp":1659502761802},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>The
+        concluding chapter considers the import of Augustine\u2019s religious or sacramental
+        understanding of demons presented in the work as a whole, against the backdrop
+        of the suspicion that Augustine\u2019s demonology is an obsolete aspect of
+        his thought, remote in one way or another from present-day concerns. This
+        import is articulated first in terms of the theology of atonement and the
+        specific question of ransoming the devil, which suggests that restoration
+        of humanity\u2019s relationship with God simultaneously requires freedom from
+        the fallen social, political, and religious powers that enslave them. The
+        risk of missing this is then explored briefly in an assessment of Charles
+        Mathewes\u2019 rejection of demons in his Augustinian and Arendtian \u2018political
+        ontology.\u2019 This assessment makes it clear that dismissing demons as irrelevant
+        to or undermining the socio-political order threatens to construct exactly
+        the demonic idols, the gods of the nations, about which Augustine is most
+        concerned.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0008","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:30:12Z","timestamp":1634765412000},"page":"222-232","source":"Crossref","is-referenced-by-count":0,"title":["Conclusion"],"prefix":"10.1093","author":[{"given":"Gregory
+        D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
+        Angels in the Theology of St Augustine"],"original-title":["Conclusion"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:49Z","timestamp":1659472969000},"score":26.523603,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338636124"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0008","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T05:01:40Z","timestamp":1659502900392},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>The
+        Introduction sets the context of the project within scholarly suspicion that
+        demons are an archaic holdover from the Christianity of Augustine\u2019s historical
+        setting. It proceeds to suggest that before demons are dismissed in this manner,
+        a greater effort should be made to understand what Augustine means in the
+        first place when he speaks of demons, and that this is the principle goal
+        of the work as a whole. Following an overview of the chapter structure of
+        the work, some notes on sources are offered to provide additional context
+        for the project. First, the principal works of Augustine\u2019s consulted
+        throughout the study are identified, with particular attention paid to the
+        <italic>City of God<\/italic>. After this, the principle sources Augustine
+        himself used for his demonology are highlighted, especially Apuleius of Madaura
+        and Porphyry of Tyre.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0001","type":"book-chapter","created":{"date-parts":[[2021,10,26]],"date-time":"2021-10-26T06:27:33Z","timestamp":1635229653000},"page":"1-15","source":"Crossref","is-referenced-by-count":0,"title":["Introduction"],"prefix":"10.1093","author":[{"given":"Gregory
+        D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
+        Angels in the Theology of St Augustine"],"original-title":["Introduction"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:47Z","timestamp":1659472967000},"score":26.47652,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338632863"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0001","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,9,2]],"date-time":"2022-09-02T18:41:39Z","timestamp":1662144099330},"publisher-location":"Dordrecht","reference-count":0,"publisher":"Springer
+        Netherlands","license":[{"start":{"date-parts":[[2008,1,1]],"date-time":"2008-01-01T00:00:00Z","timestamp":1199145600000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2008,1,1]],"date-time":"2008-01-01T00:00:00Z","timestamp":1199145600000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2008,1,1]],"date-time":"2008-01-01T00:00:00Z","timestamp":1199145600000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2008,1,1]],"date-time":"2008-01-01T00:00:00Z","timestamp":1199145600000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2008]]},"DOI":"10.1007\/978-1-4020-5614-7_3356","type":"book-chapter","created":{"date-parts":[[2008,6,2]],"date-time":"2008-06-02T13:28:55Z","timestamp":1212413335000},"page":"1348-1348","source":"Crossref","is-referenced-by-count":0,"title":["St.
+        Augustine"],"prefix":"10.1007","member":"297","container-title":["Encyclopedia
+        of Public Health"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4020-5614-7_3356","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,2]],"date-time":"2022-09-02T17:59:45Z","timestamp":1662141585000},"score":26.109709,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-1-4020-5614-7_3356"}},"issued":{"date-parts":[[2008]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4020-5614-7_3356","published":{"date-parts":[[2008]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:50Z","timestamp":1659502790758},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
+        chapter considers a variety of phenomena by which demons are perceived, focusing
+        upon the more wondrous or miraculous. For Augustine, demons have power only
+        over bodies and appearances, not human understanding and will. This restricts
+        demonic power to the natural, causal limitations of corporeal things, which
+        they only know externally\u2014scientifically, as it were\u2014and not contemplatively
+        in God as the angels do. It also makes it possible for the saints to resist
+        them with virtue, by which demons are made the \u2018sport of angels\u2019.
+        This is demonstrated by a review of a variety of demonic phenomena that appear
+        in Augustine\u2019s writings including divination, prodigies, signs, temptation,
+        and possession, which are analysed according to the two basic categories of
+        deception and affliction. The chapter ends with a comparison of angelic and
+        demonic miracles. Occasionally Augustine claims that angelic miracles have
+        greater power than those of demons, but it is more essential in his work to
+        differentiate them not according to their perceived power but by their meaning.
+        The self-love in which they fell is the self-love to which all the works of
+        demons ultimately refer and by which they are identifiable in those works.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0005","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T19:13:41Z","timestamp":1634757221000},"page":"120-146","source":"Crossref","is-referenced-by-count":0,"title":["Demonic
+        Phenomena"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
+        Angels in the Theology of St Augustine"],"original-title":["Demonic Phenomena"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:48Z","timestamp":1659472968000},"score":26.084488,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338635182"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0005","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:16Z","timestamp":1659502756266},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
+        chapter continues the investigation of signs and sacraments of demons in pagan
+        religion and its gods, which Augustine sees as the very foundation of Rome\u2019s
+        history of moral corruption. It shows what Augustine thinks is particularly
+        demonic in Roman polytheism, both as it is presented most straightforwardly
+        to the public and as it is understood by its most clever interpreters, chiefly
+        the Platonists, Apuleius, and Porphyry. This analysis reveals that Augustine\u2019s
+        demons interact with and manifest among humanity in three principal ways:
+        the straightforward imitation of demonic pride, the demons\u2019 administration
+        of false religion as though they were true angels, and, folding these two
+        together, the promotion of religion known to be false for the sake of possessing
+        other people politically. The chapter concludes with Augustine\u2019s commendation
+        of ecclesial incorporation into Christ as true and good, where demonic religion
+        is false and wicked, and thus as the primary means by which humanity is to
+        find freedom from such possession by the lordship of demons.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0007","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T19:20:38Z","timestamp":1634757638000},"page":"178-221","source":"Crossref","is-referenced-by-count":0,"title":["Pagan
+        Demonolatry"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
+        Angels in the Theology of St Augustine"],"original-title":["Pagan Demonolatry"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:49Z","timestamp":1659472969000},"score":26.033026,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338635735"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0007","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:50Z","timestamp":1659502790826},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
+        chapter further investigates the question of demons and bodies, beginning
+        with the traditional belief that demons have bodies of air which Augustine
+        inherited from both Christians and philosophers. In Augustine\u2019s philosophically
+        rigorous reflections upon the nature of visions, he adopts a scripturally
+        prescribed reticence to speculate about the causal origins of visions that
+        makes it impossible to say that the demon\u2019s aerial body is the means
+        by which it appears to humans. In this way Augustine maintains a crucial ontological
+        distinction between the demonic nature itself and the various miracles, possessions,
+        and other phenomena by which it appears. An aerial body is not, strictly speaking,
+        a historical body per se, and is instead a way of speaking about the unknowable
+        methods by which demons do, in fact, appear among humans.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0004","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:46:07Z","timestamp":1634766367000},"page":"94-119","source":"Crossref","is-referenced-by-count":0,"title":["Demonic
+        Bodies"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
+        Angels in the Theology of St Augustine"],"original-title":["Demonic Bodies"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:48Z","timestamp":1659472968000},"score":26.024506,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338634638"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0004","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T13:07:53Z","timestamp":1648904873965},"reference-count":0,"publisher":"University
+        Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2015,9,9]]},"DOI":"10.2307\/j.ctvx06z6g.10","type":"book-chapter","created":{"date-parts":[[2020,2,19]],"date-time":"2020-02-19T20:21:06Z","timestamp":1582143666000},"page":"104-133","source":"Crossref","is-referenced-by-count":0,"title":["Historic
+        Preservation in St. Augustine"],"prefix":"10.2307","member":"1121","container-title":["Hotel
+        Ponce de Leon"],"deposited":{"date-parts":[[2020,2,19]],"date-time":"2020-02-19T20:21:41Z","timestamp":1582143701000},"score":25.983572,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvx06z6g.10"}},"issued":{"date-parts":[[2015,9,9]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvx06z6g.10","published":{"date-parts":[[2015,9,9]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T06:38:18Z","timestamp":1648708698427},"reference-count":0,"publisher":"University
+        of South Carolina Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,7,17]]},"DOI":"10.2307\/j.ctvrxk35v.21","type":"book-chapter","created":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:42Z","timestamp":1595365242000},"page":"169-172","source":"Crossref","is-referenced-by-count":0,"title":["Appendix
+        B"],"prefix":"10.2307","member":"1121","container-title":["Patriots in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:01:12Z","timestamp":1595365272000},"score":25.562456,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.21"}},"subtitle":["How
+        Many Patriots Were Exiled to St. Augustine?"],"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.21","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T10:49:23Z","timestamp":1648896563446},"reference-count":0,"publisher":"Bloomsbury
+        Academic","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781472541529.ch-007","type":"book-chapter","created":{"date-parts":[[2014,9,12]],"date-time":"2014-09-12T14:52:14Z","timestamp":1410533534000},"source":"Crossref","is-referenced-by-count":0,"title":["St.
+        Augustine and the Defense of Liberal Education"],"prefix":"10.5040","member":"2984","container-title":["St
+        Augustine"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T19:13:59Z","timestamp":1590088439000},"score":25.533403,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/st-augustine\/ch7-st-augustine-and-the-defense-of-liberal-education"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781472541529.ch-007"},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T00:12:11Z","timestamp":1648771931722},"reference-count":0,"publisher":"Bloomsbury
+        Academic","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781472541529.ch-001","type":"book-chapter","created":{"date-parts":[[2014,9,12]],"date-time":"2014-09-12T14:52:14Z","timestamp":1410533534000},"source":"Crossref","is-referenced-by-count":0,"title":["Approaching
+        Augustine"],"prefix":"10.5040","member":"2984","container-title":["St Augustine"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T19:13:56Z","timestamp":1590088436000},"score":25.50753,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/st-augustine\/ch1-approaching-augustine"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781472541529.ch-001"},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:27Z","timestamp":1659502767075},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
+        chapter establishes the creator-created, eternal-temporal distinction that
+        is foundational for Augustine\u2019s theology. This distinction forms the
+        basis for his reflections upon the creation account of Genesis, in which he
+        attempts to locate creation of the angels. But it also defines the problem
+        that the angels are to help solve, namely, how humans are to know and love
+        God in the remoteness of God\u2019s eternity. For Augustine, angels are created
+        wisdom, enlightened in their love of God, perfected at the beginning of their
+        creation, always beholding the Father\u2019s face. As perfected intellectual
+        spirits, angels possess a knowledge of creation in God that allows them to
+        oversee all of creation. In this administrative role it is the angels\u2019
+        responsibility to be God\u2019s external, volitional mode of providence for
+        the whole cosmos, seeing in God through their ceaseless contemplation what
+        ought to occur in God\u2019s creation and carrying it out as required. For
+        Augustine, the primary goal of this angelic office is to testify to the incarnation
+        of the Son of God, not only with miracles and theophanies, but also by working
+        through human institutions, most notably in their administration of the Holy
+        Scriptures themselves.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0002","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:58:15Z","timestamp":1634767095000},"page":"16-52","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Angels of God"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
+        Angels in the Theology of St Augustine"],"original-title":["The Angels of
+        God"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:48Z","timestamp":1659472968000},"score":25.189209,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338633138"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0002","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T09:39:09Z","timestamp":1648805949682},"reference-count":0,"publisher":"University
+        of South Carolina Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,7,17]]},"DOI":"10.2307\/j.ctvrxk35v.20","type":"book-chapter","created":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:42Z","timestamp":1595365242000},"page":"155-168","source":"Crossref","is-referenced-by-count":0,"title":["Appendix
+        A"],"prefix":"10.2307","member":"1121","container-title":["Patriots in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:01:10Z","timestamp":1595365270000},"score":24.990625,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.20"}},"subtitle":["Who
+        Were the Patriots Exiled to St. Augustine in 1780?"],"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.20","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:22Z","timestamp":1659502762597},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
+        chapter begins to consider Augustine\u2019s perception of the history of Rome
+        and its false gods as the history of the demons themselves, as the most profound
+        works of demons are not individual miracles but the religious institutions
+        of the earthly city. The demons\u2019 fall away from God produces a rival
+        symbolic order to Christ\u2019s angelic ministers, one which manifests in
+        a corporate opposition to Christ\u2019s body. The contrary referents of the
+        work of angels and demons correspond to contrary sacraments, which constitute
+        contrary historical bodies: the body of Christ, which is identified with the
+        church in Augustine\u2019s doctrine of <italic>totus Christus<\/italic>, and
+        the body of the devil, the exemplar of which, for Augustine, is pagan Rome.
+        Augustine\u2019s understanding of the earthly city is informed by a concept
+        of disordered, demonic sacraments, and the paradigm for this is his discussion
+        of Hermetic \u2018god-making\u2019. In this paradigm, human myths and artefacts
+        manifest a demonic sacramental regime when they are elevated to divine status
+        and given cult, a euhemeristic movement that demons both receive as worship
+        and confirm with wonders.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0006","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:17:09Z","timestamp":1634764629000},"page":"147-177","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Devil and His Body"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
+        Angels in the Theology of St Augustine"],"original-title":["The Devil and
+        His Body"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:48Z","timestamp":1659472968000},"score":24.85026,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338635445"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0006","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T23:19:42Z","timestamp":1648768782096},"reference-count":0,"publisher":"University
+        Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,5,27]]},"DOI":"10.5744\/florida\/9780813049373.003.0009","type":"book-chapter","created":{"date-parts":[[2014,10,14]],"date-time":"2014-10-14T17:28:20Z","timestamp":1413307700000},"page":"101-124","source":"Crossref","is-referenced-by-count":0,"title":["Transforming
+        St. Augustine, 1887"],"prefix":"10.5744","author":[{"given":"Thomas","family":"Graham","sequence":"first","affiliation":[]}],"member":"3749","container-title":["Mr.
+        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-9","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:20Z","timestamp":1469474300000},"score":24.810358,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-9"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0009","published":{"date-parts":[[2014,5,27]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T05:17:49Z","timestamp":1649049469718},"reference-count":0,"publisher":"Bloomsbury
+        Academic","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.5040\/9781350053311.0026","type":"book-chapter","created":{"date-parts":[[2020,8,23]],"date-time":"2020-08-23T21:49:20Z","timestamp":1598219360000},"source":"Crossref","is-referenced-by-count":0,"title":["St.
+        Augustine"],"prefix":"10.5040","author":[{"given":"Charles E.","family":"Snyder","sequence":"first","affiliation":[]}],"member":"2984","container-title":["The
+        Bloomsbury Companion to Arendt"],"deposited":{"date-parts":[[2020,9,11]],"date-time":"2020-09-11T19:50:37Z","timestamp":1599853837000},"score":24.667622,"resource":{"primary":{"URL":"http:\/\/www.bloomsburycollections.com\/book\/the-bloomsbury-companion-to-arendt\/ch20-st-augustine"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781350053311.0026","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T20:11:49Z","timestamp":1649189509377},"reference-count":0,"publisher":"University
+        Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,5,27]]},"DOI":"10.5744\/florida\/9780813049373.003.0021","type":"book-chapter","created":{"date-parts":[[2014,10,14]],"date-time":"2014-10-14T17:28:20Z","timestamp":1413307700000},"page":"442-475","source":"Crossref","is-referenced-by-count":0,"title":["Returning
+        to St. Augustine, 1906\u20131911"],"prefix":"10.5744","author":[{"given":"Thomas","family":"Graham","sequence":"first","affiliation":[]}],"member":"3749","container-title":["Mr.
+        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-21","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:23Z","timestamp":1469474303000},"score":24.391867,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-21"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0021","published":{"date-parts":[[2014,5,27]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T03:43:46Z","timestamp":1648525426970},"reference-count":0,"publisher":"Bloomsbury
+        Academic","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781472541529.ch-006","type":"book-chapter","created":{"date-parts":[[2014,9,12]],"date-time":"2014-09-12T14:52:14Z","timestamp":1410533534000},"source":"Crossref","is-referenced-by-count":0,"title":["Augustine
+        and Some Philosophers of Education"],"prefix":"10.5040","member":"2984","container-title":["St
+        Augustine"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T19:13:59Z","timestamp":1590088439000},"score":24.211391,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/st-augustine\/ch6-augustine-and-some-philosophers-of-education"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781472541529.ch-006"},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T11:04:10Z","timestamp":1648724650215},"reference-count":0,"publisher":"The
+        Lutterworth Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,1,28]]},"DOI":"10.2307\/j.ctv1j13z2z.7","type":"book-chapter","created":{"date-parts":[[2021,3,18]],"date-time":"2021-03-18T20:19:42Z","timestamp":1616098782000},"page":"32-40","source":"Crossref","is-referenced-by-count":0,"title":["Augustine"],"prefix":"10.2307","member":"1121","container-title":["Truth
+        and Reality"],"deposited":{"date-parts":[[2021,3,18]],"date-time":"2021-03-18T20:19:49Z","timestamp":1616098789000},"score":24.198385,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv1j13z2z.7"}},"issued":{"date-parts":[[2021,1,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv1j13z2z.7","published":{"date-parts":[[2021,1,28]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Fall+2020,+Innaugural+Issue+2021+University+of+St.+Augustine+for+Health+Sciences+Library"}}}'
+  recorded_at: Fri, 23 Dec 2022 04:56:22 GMT
+- request:
+    method: get
+    uri: http://api.crossref.org/works?filter=type:book&query.bibliographic=%22Fall%202020,%20Innaugural%20Issue,%20University%20of%20St.%20Augustine%20for%20Health%20Sciences%20Library,%20,%202021%22&rows=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 23 Dec 2022 04:56:23 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3053'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":7861,"items":[{"indexed":{"date-parts":[[2022,9,14]],"date-time":"2022-09-14T08:26:45Z","timestamp":1663144005462},"edition-number":"1","reference-count":0,"publisher":"Oxford
+        University Press","isbn-type":[{"value":"9780192846037","type":"print"},{"value":"9780191938405","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
+        book ventures to describe Augustine of Hippo\u2019s understanding of demons,
+        including the theology, angelology, and anthropology that contextualize it.
+        Demons are, for Augustine as for the Psalmist (95:5 LXX) and the Apostle (1
+        Cor. 10:20), the \u2018gods of the nations\u2019. This means that Augustine\u2019s
+        demons are best understood neither when they are \u2018spiritualized\u2019
+        as personifications of psychological struggles nor in terms of materialist
+        contagions that undergird a superstitious moralism. Rather, because the gods
+        of the nations are the paradigm of demonic power and influence over humanity,
+        Augustine sees the Christian\u2019s moral struggle against them within broader
+        questions of social bonds, cultural form, popular opinion, philosophical investigation,
+        liturgical movement, and so forth. In a word, Augustine\u2019s demons have
+        a <italic>religious<\/italic> significance, particularly in its Augustinian
+        sense of bonds and duties between persons, and between persons and that which
+        is divine. Demons are a highly integrated component of his broader theology,
+        rooted in his conception of angels as the ministers of all creation under
+        God, and informed by the doctrine of evil as privation and his understanding
+        of the fall; they take shape in his thoughts on human embodiment, desire,
+        visions, and the limits of human knowledge; and they manifest most profoundly
+        in his ecclesiology, through his theology of sacraments and religious incorporation,
+        and its engagement with traditional paganism and its most intelligent supporters,
+        the Platonists. As false mediators, demons are mediated by false religion,
+        the body of the devil, which Augustine opposes with an appeal to the true
+        mediator, Christ, and the true religion of his body, the church.<\/p>","DOI":"10.1093\/oso\/9780192846037.001.0001","type":"book","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:31:10Z","timestamp":1634765470000},"source":"Crossref","is-referenced-by-count":1,"title":["Fallen
+        Angels in the Theology of St Augustine"],"prefix":"10.1093","author":[{"given":"Gregory
+        D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"original-title":["Fallen
+        Angels in the Theology of St Augustine"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:47Z","timestamp":1659472967000},"score":27.777544,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169"}},"issued":{"date-parts":[[2021,9,23]]},"ISBN":["9780192846037","9780191938405"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.001.0001","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T19:26:03Z","timestamp":1649186763468},"reference-count":0,"publisher":"Yale
+        University Press","isbn-type":[{"value":"9780300255775","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,10,1]]},"DOI":"10.12987\/9780300255775","type":"book","created":{"date-parts":[[2022,1,20]],"date-time":"2022-01-20T19:32:23Z","timestamp":1642707143000},"source":"Crossref","is-referenced-by-count":0,"title":["Soliloquies"],"prefix":"10.12987","author":[{"given":"Saint","family":"Augustine","sequence":"first","affiliation":[]}],"member":"5164","published-online":{"date-parts":[[2020,11,11]]},"deposited":{"date-parts":[[2022,1,20]],"date-time":"2022-01-20T19:32:25Z","timestamp":1642707145000},"score":25.810081,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.12987\/9780300255775\/html"}},"subtitle":["St.
+        Augustine''s Cassiciacum Dialogues, Volume 4"],"issued":{"date-parts":[[2020,10,1]]},"ISBN":["9780300255775"],"references-count":0,"alternative-id":["10.12987\/9780300255775"],"URL":"http:\/\/dx.doi.org\/10.12987\/9780300255775","relation":{"is-identical-to":[{"id-type":"doi","id":"10.2307\/j.ctv177tkb8","asserted-by":"subject"},{"id-type":"doi","id":"10.12987\/yale\/9780300238549.001.0001","asserted-by":"subject"}]},"published":{"date-parts":[[2020,10,1]]}},{"indexed":{"date-parts":[[2022,7,7]],"date-time":"2022-07-07T07:13:52Z","timestamp":1657178032436},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,9]]},"abstract":"<p>This
+        chapter examines Augustine of Hippo''s political thought. After providing
+        a brief biography of St Augustine, it considers the fate of his texts within
+        the world of academic political theory and the general suspicion of \u2018religious\u2019
+        thinkers within that world. It then analyses Augustine''s understanding of
+        the human person as a bundle of complex desires and emotions as well as the
+        implications of his claim that human sociality is a given and goes all the
+        way down. It also explores Augustine''s arguments regarding the interplay
+        of <italic>caritas<\/italic> and <italic>cupiditas<\/italic> in the moral
+        orientations of persons and of cultures. Finally, it describes Augustine''s
+        reflections on the themes of war and peace, locating him as the father of
+        the tradition of \u2018just war\u2019 theory.<\/p>","DOI":"10.1093\/hepl\/9780198708926.003.0007","type":"book","created":{"date-parts":[[2017,9,1]],"date-time":"2017-09-01T13:24:35Z","timestamp":1504272275000},"source":"Crossref","is-referenced-by-count":0,"title":["7.
+        St Augustine"],"prefix":"10.1093","author":[{"given":"Jean Bethke","family":"Elshtain","sequence":"first","affiliation":[]}],"member":"286","container-title":["Politics
+        Trove"],"original-title":["7. St Augustine"],"link":[{"URL":"https:\/\/www.oxfordpoliticstrove.com\/view\/10.1093\/hepl\/9780198708926.001.0001\/hepl-9780198708926-chapter-7?print=pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,7,5]],"date-time":"2022-07-05T23:35:26Z","timestamp":1657064126000},"score":25.688246,"resource":{"primary":{"URL":"http:\/\/www.oxfordpoliticstrove.com\/view\/10.1093\/hepl\/9780198708926.001.0001\/hepl-9780198708926-chapter-7"}},"issued":{"date-parts":[[2017,9]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/hepl\/9780198708926.003.0007","published":{"date-parts":[[2017,9]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T19:41:33Z","timestamp":1648928493283},"edition-number":"2018-2019","reference-count":0,"publisher":"Association
+        of Research Libraries","isbn-type":[{"value":"9781948964241","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,11,16]]},"DOI":"10.29242\/hslstats.2018-2019","type":"book","created":{"date-parts":[[2020,11,17]],"date-time":"2020-11-17T00:14:41Z","timestamp":1605572081000},"source":"Crossref","is-referenced-by-count":0,"title":["ARL
+        Academic Health Sciences Library Statistics 2018-2019"],"prefix":"10.29242","author":[{"given":"Anam","family":"Mian","sequence":"first","affiliation":[]},{"given":"Gary","family":"Roebuck","sequence":"additional","affiliation":[]}],"member":"11786","published-online":{"date-parts":[[2020,11,16]]},"container-title":["ARL
+        Academic Health Sciences Library Statistics"],"deposited":{"date-parts":[[2020,11,17]],"date-time":"2020-11-17T00:14:42Z","timestamp":1605572082000},"score":25.49777,"resource":{"primary":{"URL":"https:\/\/publications.arl.org\/ARL-Academic-Health-Sciences-Library-Statistics-2018-2019\/"}},"issued":{"date-parts":[[2020,11,16]]},"ISBN":["9781948964241"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.29242\/hslstats.2018-2019","ISSN":["1540-0492"],"issn-type":[{"value":"1540-0492","type":"print"}],"published":{"date-parts":[[2020,11,16]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T20:23:43Z","timestamp":1648758223403},"reference-count":0,"publisher":"Yale
+        University Press","isbn-type":[{"value":"9780300255768","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,10,1]]},"DOI":"10.12987\/9780300255768","type":"book","created":{"date-parts":[[2022,1,20]],"date-time":"2022-01-20T19:22:27Z","timestamp":1642706547000},"source":"Crossref","is-referenced-by-count":0,"title":["On
+        Order"],"prefix":"10.12987","author":[{"given":"Saint","family":"Augustine","sequence":"first","affiliation":[]}],"member":"5164","published-online":{"date-parts":[[2020,10,22]]},"deposited":{"date-parts":[[2022,1,20]],"date-time":"2022-01-20T19:22:29Z","timestamp":1642706549000},"score":25.421759,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.12987\/9780300255768\/html"}},"subtitle":["St.
+        Augustine''s Cassiciacum Dialogues, Volume 3"],"issued":{"date-parts":[[2020,10,1]]},"ISBN":["9780300255768"],"references-count":0,"alternative-id":["10.12987\/9780300255768"],"URL":"http:\/\/dx.doi.org\/10.12987\/9780300255768","relation":{"is-identical-to":[{"id-type":"doi","id":"10.2307\/j.ctv177tk66","asserted-by":"subject"},{"id-type":"doi","id":"10.12987\/yale\/9780300238532.001.0001","asserted-by":"subject"}]},"published":{"date-parts":[[2020,10,1]]}}],"items-per-page":5,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Fri, 23 Dec 2022 04:56:23 GMT
+- request:
+    method: get
+    uri: http://api.crossref.org/works?filter=type:book&query.bibliographic=%22Student%20Journal%20of%20Occupational%20Therapy,%20University%20of%20St.%20Augustine%20for%20Health%20Sciences%20Library,%20,%202021%22&rows=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 23 Dec 2022 04:56:25 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3166'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":4462,"items":[{"indexed":{"date-parts":[[2022,9,14]],"date-time":"2022-09-14T08:26:45Z","timestamp":1663144005462},"edition-number":"1","reference-count":0,"publisher":"Oxford
+        University Press","isbn-type":[{"value":"9780192846037","type":"print"},{"value":"9780191938405","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
+        book ventures to describe Augustine of Hippo\u2019s understanding of demons,
+        including the theology, angelology, and anthropology that contextualize it.
+        Demons are, for Augustine as for the Psalmist (95:5 LXX) and the Apostle (1
+        Cor. 10:20), the \u2018gods of the nations\u2019. This means that Augustine\u2019s
+        demons are best understood neither when they are \u2018spiritualized\u2019
+        as personifications of psychological struggles nor in terms of materialist
+        contagions that undergird a superstitious moralism. Rather, because the gods
+        of the nations are the paradigm of demonic power and influence over humanity,
+        Augustine sees the Christian\u2019s moral struggle against them within broader
+        questions of social bonds, cultural form, popular opinion, philosophical investigation,
+        liturgical movement, and so forth. In a word, Augustine\u2019s demons have
+        a <italic>religious<\/italic> significance, particularly in its Augustinian
+        sense of bonds and duties between persons, and between persons and that which
+        is divine. Demons are a highly integrated component of his broader theology,
+        rooted in his conception of angels as the ministers of all creation under
+        God, and informed by the doctrine of evil as privation and his understanding
+        of the fall; they take shape in his thoughts on human embodiment, desire,
+        visions, and the limits of human knowledge; and they manifest most profoundly
+        in his ecclesiology, through his theology of sacraments and religious incorporation,
+        and its engagement with traditional paganism and its most intelligent supporters,
+        the Platonists. As false mediators, demons are mediated by false religion,
+        the body of the devil, which Augustine opposes with an appeal to the true
+        mediator, Christ, and the true religion of his body, the church.<\/p>","DOI":"10.1093\/oso\/9780192846037.001.0001","type":"book","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:31:10Z","timestamp":1634765470000},"source":"Crossref","is-referenced-by-count":1,"title":["Fallen
+        Angels in the Theology of St Augustine"],"prefix":"10.1093","author":[{"given":"Gregory
+        D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"original-title":["Fallen
+        Angels in the Theology of St Augustine"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:47Z","timestamp":1659472967000},"score":27.833271,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169"}},"issued":{"date-parts":[[2021,9,23]]},"ISBN":["9780192846037","9780191938405"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.001.0001","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,7,7]],"date-time":"2022-07-07T07:13:52Z","timestamp":1657178032436},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,9]]},"abstract":"<p>This
+        chapter examines Augustine of Hippo''s political thought. After providing
+        a brief biography of St Augustine, it considers the fate of his texts within
+        the world of academic political theory and the general suspicion of \u2018religious\u2019
+        thinkers within that world. It then analyses Augustine''s understanding of
+        the human person as a bundle of complex desires and emotions as well as the
+        implications of his claim that human sociality is a given and goes all the
+        way down. It also explores Augustine''s arguments regarding the interplay
+        of <italic>caritas<\/italic> and <italic>cupiditas<\/italic> in the moral
+        orientations of persons and of cultures. Finally, it describes Augustine''s
+        reflections on the themes of war and peace, locating him as the father of
+        the tradition of \u2018just war\u2019 theory.<\/p>","DOI":"10.1093\/hepl\/9780198708926.003.0007","type":"book","created":{"date-parts":[[2017,9,1]],"date-time":"2017-09-01T13:24:35Z","timestamp":1504272275000},"source":"Crossref","is-referenced-by-count":0,"title":["7.
+        St Augustine"],"prefix":"10.1093","author":[{"given":"Jean Bethke","family":"Elshtain","sequence":"first","affiliation":[]}],"member":"286","container-title":["Politics
+        Trove"],"original-title":["7. St Augustine"],"link":[{"URL":"https:\/\/www.oxfordpoliticstrove.com\/view\/10.1093\/hepl\/9780198708926.001.0001\/hepl-9780198708926-chapter-7?print=pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,7,5]],"date-time":"2022-07-05T23:35:26Z","timestamp":1657064126000},"score":25.743498,"resource":{"primary":{"URL":"http:\/\/www.oxfordpoliticstrove.com\/view\/10.1093\/hepl\/9780198708926.001.0001\/hepl-9780198708926-chapter-7"}},"issued":{"date-parts":[[2017,9]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/hepl\/9780198708926.003.0007","published":{"date-parts":[[2017,9]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T15:34:02Z","timestamp":1648568042660},"edition-number":"0","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781315791791","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.4324\/9781315791791","type":"book","created":{"date-parts":[[2020,4,24]],"date-time":"2020-04-24T14:33:42Z","timestamp":1587738822000},"source":"Crossref","is-referenced-by-count":0,"title":["Student
+        Recruitment in Psychosocial Occupational Therapy"],"prefix":"10.4324","author":[{"given":"Susan","family":"Haiman","sequence":"first","affiliation":[]},{"given":"Diane","family":"Gibson","sequence":"additional","affiliation":[]}],"member":"301","published-online":{"date-parts":[[2019,5,23]]},"deposited":{"date-parts":[[2021,4,3]],"date-time":"2021-04-03T18:54:50Z","timestamp":1617476090000},"score":23.902834,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781317736585"}},"issued":{"date-parts":[[2019,5,23]]},"ISBN":["9781315791791"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781315791791","published":{"date-parts":[[2019,5,23]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T05:47:19Z","timestamp":1648792039835},"publisher-location":"Oxford","reference-count":0,"publisher":"John
+        Wiley & Sons, Ltd","isbn-type":[{"value":"9781118913536","type":"electronic"},{"value":"9781118624227","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,9,15]]},"DOI":"10.1002\/9781118913536","type":"book","created":{"date-parts":[[2014,8,30]],"date-time":"2014-08-30T02:14:26Z","timestamp":1409364866000},"source":"Crossref","is-referenced-by-count":5,"title":["Occupational
+        Therapy in Psychiatry and Mental Health"],"prefix":"10.1002","member":"311","link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full\/10.1002\/9781118913536","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2018,8,5]],"date-time":"2018-08-05T21:57:17Z","timestamp":1533506237000},"score":22.811033,"resource":{"primary":{"URL":"http:\/\/doi.wiley.com\/10.1002\/9781118913536"}},"subtitle":["Crouch\/Occupational
+        Therapy in Psychiatry and Mental Health"],"editor":[{"given":"Rosemary","family":"Crouch","sequence":"first","affiliation":[]},{"given":"Vivyan","family":"Alers","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2014,9,15]]},"ISBN":["9781118913536","9781118624227"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1002\/9781118913536","published":{"date-parts":[[2014,9,15]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T04:47:48Z","timestamp":1648702068802},"reference-count":0,"publisher":"Yale
+        University Press","isbn-type":[{"value":"9780300244878","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,12,31]]},"DOI":"10.12987\/9780300244878","type":"book","created":{"date-parts":[[2022,1,20]],"date-time":"2022-01-20T18:46:12Z","timestamp":1642704372000},"source":"Crossref","is-referenced-by-count":0,"title":["Against
+        the Academics"],"prefix":"10.12987","author":[{"given":"Saint","family":"Augustine","sequence":"first","affiliation":[]}],"member":"5164","published-online":{"date-parts":[[2019,11,8]]},"deposited":{"date-parts":[[2022,1,20]],"date-time":"2022-01-20T18:46:13Z","timestamp":1642704373000},"score":22.791695,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.12987\/9780300244878\/html"}},"subtitle":["St.
+        Augustine&amp;#39;s Cassiciacum Dialogues, Volume 1"],"issued":{"date-parts":[[2019,11,8]]},"ISBN":["9780300244878"],"references-count":0,"alternative-id":["10.12987\/9780300244878"],"URL":"http:\/\/dx.doi.org\/10.12987\/9780300244878","relation":{"is-identical-to":[{"id-type":"doi","id":"10.2307\/j.ctvhrcxt0","asserted-by":"subject"}]},"published":{"date-parts":[[2019,11,8]]}}],"items-per-page":5,"query":{"start-index":0,"search-terms":null}}}'
+  recorded_at: Fri, 23 Dec 2022 04:56:25 GMT
+recorded_with: VCR 6.1.0

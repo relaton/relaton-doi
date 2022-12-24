@@ -1,0 +1,81 @@
+<bibdata type="inproceedings" schema-version="v1.2.1">
+  <fetched>2022-12-19</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">Electromagnetic spectrum caused by partial discharge in air under AC and DC voltage application</title>
+  <uri type="DOI">http://dx.doi.org/10.1109/icpadm.1994.414074</uri>
+  <docidentifier type="DOI" primary="true">10.1109/icpadm.1994.414074</docidentifier>
+  <date type="created">
+    <on>2002-12-17</on>
+  </date>
+  <date type="issued"/>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">M.</forename>
+        <surname language="en" script="Latn">Hikita</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">H.</forename>
+        <surname language="en" script="Latn">Yamashita</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">T.</forename>
+        <surname language="en" script="Latn">Kato</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">N.</forename>
+        <surname language="en" script="Latn">Hayakawa</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">T.</forename>
+        <surname language="en" script="Latn">Ueda</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">H.</forename>
+        <surname language="en" script="Latn">Okubo</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>IEEE</name>
+    </organization>
+  </contributor>
+  <relation type="includedIn">
+    <bibitem>
+      <title format="text/plain">Proceedings of 1994 4th International Conference on Properties and Applications of Dielectric Materials (ICPADM)</title>
+    </bibitem>
+  </relation>
+  <series>
+    <title format="text/plain">Proceedings of 1994 4th International Conference on Properties and Applications of Dielectric Materials (ICPADM)</title>
+  </series>
+  <ext>
+    <doctype>proceedings-article</doctype>
+  </ext>
+</bibdata>

@@ -1,0 +1,18 @@
+<bibdata type="misc" schema-version="v1.2.1">
+  <fetched>2022-12-18</fetched>
+  <uri type="DOI">http://dx.doi.org/10.1371/journal.pone.0020476.s005</uri>
+  <docidentifier type="DOI" primary="true">10.1371/journal.pone.0020476.s005</docidentifier>
+  <date type="created">
+    <on>2013-01-28</on>
+  </date>
+  <date type="issued"/>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Public Library of Science (PLoS)</name>
+    </organization>
+  </contributor>
+  <ext>
+    <doctype>component</doctype>
+  </ext>
+</bibdata>

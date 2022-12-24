@@ -1,0 +1,34 @@
+<bibdata type="book" schema-version="v1.2.1">
+  <fetched>2022-12-18</fetched>
+  <title type="main" format="text/plain" language="en" script="Latn">The Nature and Origin of Language</title>
+  <uri type="DOI">http://dx.doi.org/10.1093/acprof:oso/9780199681624.001.0001</uri>
+  <docidentifier type="DOI" primary="true">10.1093/acprof:oso/9780199681624.001.0001</docidentifier>
+  <docidentifier type="ISBN">9780199681624</docidentifier>
+  <date type="created">
+    <on>2014-01-27</on>
+  </date>
+  <date type="issued">
+    <on>2013-09-26</on>
+  </date>
+  <date type="published">
+    <on>2013-09-26</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Denis</forename>
+        <surname language="en" script="Latn">Bouchard</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Oxford University Press</name>
+    </organization>
+  </contributor>
+  <ext>
+    <doctype>monograph</doctype>
+  </ext>
+</bibdata>
