@@ -2,6 +2,7 @@
   <fetched>2022-12-19</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">Gender and public space in a bilingual school</title>
   <uri type="DOI">http://dx.doi.org/10.1515/9783110889406.257</uri>
+  <uri>https://www.degruyter.com/document/doi/10.1515/9783110889406.257/pdf</uri>
   <docidentifier type="DOI" primary="true">10.1515/9783110889406.257</docidentifier>
   <date type="created">
     <on>2011-03-18</on>
@@ -99,12 +100,8 @@
       </contributor>
     </bibitem>
   </relation>
-  <series>
-    <title format="text/plain">Multilingualism, Second Language Learning, and Gender</title>
-  </series>
   <place>
-    <city>Berlin</city>
-    <region>New York</region>
+    <city>Berlin, New York</city>
   </place>
   <ext>
     <doctype>book-chapter</doctype>

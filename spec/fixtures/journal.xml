@@ -1,8 +1,11 @@
 <bibdata type="journal" schema-version="v1.2.1">
   <fetched>2022-12-18</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">Juni Khyat Journal</title>
+  <title type="short" format="text/plain" language="en" script="Latn">Juni Khyat</title>
   <uri type="DOI">http://dx.doi.org/10.46528/jk</uri>
+  <uri>http://www.junikhyat.com/</uri>
   <docidentifier type="DOI" primary="true">10.46528/jk</docidentifier>
+  <docidentifier type="ISSN">2278-4632</docidentifier>
   <date type="created">
     <on>2020-06-05</on>
   </date>

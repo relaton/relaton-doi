@@ -2,6 +2,7 @@
   <fetched>2022-12-18</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">Wholesale commodity price indexes in Richmond, the eastern Confederacy, New York, and San Francisco: 1861-1865</title>
   <uri type="DOI">http://dx.doi.org/10.1017/isbn-9780511132971.eh132-135</uri>
+  <uri>http://hsus.cambridge.org/HSUSWeb/toc/tableToc.do?id=Eh132-135</uri>
   <docidentifier type="DOI" primary="true">10.1017/isbn-9780511132971.eh132-135</docidentifier>
   <date type="created">
     <on>2007-03-06</on>
@@ -27,12 +28,8 @@
       <title format="text/plain">Historical Statistics of the United States</title>
     </bibitem>
   </relation>
-  <series>
-    <title format="text/plain">Historical Statistics of the United States</title>
-  </series>
   <place>
-    <city>New York</city>
-    <region>USA</region>
+    <city>New York, USA</city>
   </place>
   <extent>
     <localityStack>
