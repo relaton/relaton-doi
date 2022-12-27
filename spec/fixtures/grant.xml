@@ -2,6 +2,7 @@
   <fetched>2022-12-19</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">Single-particle cryo-EM structural analysis of Q-dependent transcription antitermination</title>
   <uri type="DOI">http://dx.doi.org/10.46936/cpcy.proj.2019.50733/60006578</uri>
+  <uri>https://www.osti.gov/award-doi-service/biblio/10.46936/cpcy.proj.2019.50733/60006578</uri>
   <docidentifier type="DOI" primary="true">10.46936/cpcy.proj.2019.50733/60006578</docidentifier>
   <date type="created">
     <on>2021-09-21</on>
@@ -10,9 +11,69 @@
     <on>2019-04-15</on>
   </date>
   <contributor>
+    <role type="author"><description>lead investigator</description></role>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Richard</forename>
+        <surname language="en" script="Latn">Ebright</surname>
+      </name>
+    </person>
+  </contributor>
+    <contributor>
+    <role type="author"><description>investigator</description></role>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Chengyuan</forename>
+        <surname language="en" script="Latn">Wang</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"><description>investigator</description></role>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Harry</forename>
+        <surname language="en" script="Latn">Scott</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"><description>investigator</description></role>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Irina</forename>
+        <surname language="en" script="Latn">Novikova</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"><description>investigator</description></role>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Vadim</forename>
+        <surname language="en" script="Latn">Molodtsov</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"><description>investigator</description></role>
+    <person>
+      <name>
+        <forename language="en" script="Latn">Zhou</forename>
+        <surname language="en" script="Latn">Yin</surname>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
     <role type="publisher"/>
     <organization>
       <name>Office of Scientific and Technical Information (OSTI)</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="enabler"/>
+    <organization>
+      <name>Department of Energy</name>
     </organization>
   </contributor>
   <ext>

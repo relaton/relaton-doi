@@ -2,6 +2,7 @@
   <fetched>2022-12-18</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">High-resolution lidar data for infrastructure corridors, Wiseman Quadrangle, Alaska</title>
   <uri type="DOI">http://dx.doi.org/10.14509/23007</uri>
+  <uri>http://www.dggs.alaska.gov/pubs/id/23007</uri>
   <docidentifier type="DOI" primary="true">10.14509/23007</docidentifier>
   <date type="created">
     <on>2014-05-16</on>
@@ -54,9 +55,6 @@
       <title format="text/plain">High-resolution lidar data for Alaska infrastructure corridors</title>
     </bibitem>
   </relation>
-  <series>
-    <title format="text/plain">High-resolution lidar data for Alaska infrastructure corridors</title>
-  </series>
   <ext>
     <doctype>book-section</doctype>
   </ext>

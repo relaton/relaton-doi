@@ -2,7 +2,9 @@
   <fetched>2022-12-18</fetched>
   <title type="main" format="text/plain" language="en" script="Latn">Investment Treaties and Shareholder Claims: Analysis of Treaty Practice</title>
   <uri type="DOI">http://dx.doi.org/10.1787/5jxvk6shpvs4-en</uri>
+  <uri>https://www.oecd-ilibrary.org/finance-and-investment/investment-treaties-and-shareholder-claims_5jxvk6shpvs4-en</uri>
   <docidentifier type="DOI" primary="true">10.1787/5jxvk6shpvs4-en</docidentifier>
+  <docidentifier type="ISSN">1815-1957</docidentifier>
   <date type="created">
     <on>2014-10-11</on>
   </date>
@@ -18,11 +20,6 @@
       <name>Organisation for Economic Co-Operation and Development  (OECD)</name>
     </organization>
   </contributor>
-  <relation type="includedIn">
-    <bibitem>
-      <title format="text/plain">OECD Working Papers on International Investment</title>
-    </bibitem>
-  </relation>
   <series>
     <title format="text/plain">OECD Working Papers on International Investment</title>
   </series>

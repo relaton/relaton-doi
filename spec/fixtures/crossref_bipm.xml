@@ -3,9 +3,6 @@
   <title type="main" format="text/plain" language="en" script="Latn">Decade Designs for Weighings of Non-uniform Variance</title>
   <uri type="DOI">http://dx.doi.org/10.1088/0026-1394/29/6/001</uri>
   <docidentifier type="DOI" primary="true">10.1088/0026-1394/29/6/001</docidentifier>
-  <date type="created">
-    <on>2005-02-01</on>
-  </date>
   <date type="issued">
     <on>1993-01-01</on>
   </date>
@@ -27,11 +24,6 @@
       <name>IOP Publishing</name>
     </organization>
   </contributor>
-  <relation type="includedIn">
-    <bibitem>
-      <title format="text/plain">Metrologia</title>
-    </bibitem>
-  </relation>
   <series>
     <title format="text/plain">Metrologia</title>
   </series>

@@ -4,9 +4,6 @@
   <uri type="DOI">http://dx.doi.org/10.1515/cog.2007.005</uri>
   <uri type="pdf">https://www.degruyter.com/view/j/cogl.2007.18.issue-2/cog.2007.005/cog.2007.005.pdf</uri>
   <docidentifier type="DOI" primary="true">10.1515/cog.2007.005</docidentifier>
-  <date type="created">
-    <on>2007-09-25</on>
-  </date>
   <date type="issued">
     <on>2007-01-19</on>
   </date>
@@ -60,9 +57,6 @@
       <title format="text/plain">Cognitive Linguistics</title>
     </bibitem>
   </relation>
-  <series>
-    <title format="text/plain">Cognitive Linguistics</title>
-  </series>
   <extent>
     <localityStack>
       <locality type="volume">
