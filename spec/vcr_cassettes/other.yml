@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.crossref.org/works/10.5962%2Fbhl.title.124254
+    uri: https://api.crossref.org/works/10.1108%2Foxan-es268033
     body:
       encoding: US-ASCII
       string: ''
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Dec 2022 04:34:06 GMT
+      - Wed, 04 Jan 2023 22:35:42 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '733'
+      - '848'
       Set-Cookie:
-      - AWSALB=z2yntm7NetIG7v8FzgNLOITYvITYUyMxnBvp3w6dv8cAhRcJJRa73G9NNSFdNx23hbxkFyY4FXvKwJ++S7Gopr3H8ZIQIEU2MvV1QgNppfrJludXWmxLgRI223NA;
-        Expires=Mon, 26 Dec 2022 04:34:06 GMT; Path=/
-      - AWSALBCORS=z2yntm7NetIG7v8FzgNLOITYvITYUyMxnBvp3w6dv8cAhRcJJRa73G9NNSFdNx23hbxkFyY4FXvKwJ++S7Gopr3H8ZIQIEU2MvV1QgNppfrJludXWmxLgRI223NA;
-        Expires=Mon, 26 Dec 2022 04:34:06 GMT; Path=/; SameSite=None
+      - AWSALB=YERV0s661+KpF5IjKhfTqDwdNusQTg1eWziJI32CABr1ONEZssv9NlMblcf53NFtT1HxNgKQS55OByHuMcJ7gQXrmQYpYPmccy6y0RHFcGpvH2obyjhDySqdq/yb;
+        Expires=Wed, 11 Jan 2023 22:35:42 GMT; Path=/
+      - AWSALBCORS=YERV0s661+KpF5IjKhfTqDwdNusQTg1eWziJI32CABr1ONEZssv9NlMblcf53NFtT1HxNgKQS55OByHuMcJ7gQXrmQYpYPmccy6y0RHFcGpvH2obyjhDySqdq/yb;
+        Expires=Wed, 11 Jan 2023 22:35:42 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -58,11 +58,338 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:19:30Z","timestamp":1648977570838},"publisher-location":"Nu\u0308rnberg
-        :","reference-count":0,"publisher":"Verlag von Bauer und Raspe (Julius Merz),","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[1852]]},"DOI":"10.5962\/bhl.title.124254","type":"monograph","created":{"date-parts":[[2017,1,30]],"date-time":"2017-01-30T01:00:18Z","timestamp":1485738018000},"source":"Crossref","is-referenced-by-count":1,"title":["Die
-        Gattungen Pupa, Megaspira, Balea und Tornatellina : in Abbildungen nach der
-        Natur mit Beschreibungen \/"],"prefix":"10.5962","author":[{"given":"H. C.","family":"Kuster","sequence":"first","affiliation":[]},{"given":"Johann
-        Hieronymus","family":"Chemnitz","sequence":"additional","affiliation":[]},{"given":"Friedrich
-        Heinrich Wilhelm","family":"Martini","sequence":"additional","affiliation":[]}],"member":"3444","container-title":[],"original-title":[],"deposited":{"date-parts":[[2017,1,30]],"date-time":"2017-01-30T01:00:18Z","timestamp":1485738018000},"score":1,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/124254"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1852]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.124254","relation":{},"published":{"date-parts":[[1852]]}}}'
-  recorded_at: Mon, 19 Dec 2022 04:34:06 GMT
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:30:06Z","timestamp":1648978206554},"reference-count":0,"publisher":"Emerald","license":[{"start":{"date-parts":[[2022,3,17]],"date-time":"2022-03-17T00:00:00Z","timestamp":1647475200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.emerald.com\/insight\/site-policies"}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[2022,3,17]]},"abstract":"<jats:sec
+        sec-type=\"headline\">\n               <jats:title content-type=\"abstract-subheading\">Headline<\/jats:title>\n               <jats:p>HONDURAS:
+        Extradition would help Castro\u2019s image<\/jats:p>\n            <\/jats:sec>","DOI":"10.1108\/oxan-es268033","type":"other","created":{"date-parts":[[2022,3,17]],"date-time":"2022-03-17T13:29:50Z","timestamp":1647523790000},"source":"Crossref","is-referenced-by-count":0,"title":["Extradition
+        would boost image of Honduras\u2019s Castro"],"prefix":"10.1108","member":"140","container-title":["Emerald
+        Expert Briefings"],"original-title":[],"link":[{"URL":"https:\/\/www.emerald.com\/insight\/content\/doi\/10.1108\/OXAN-ES268033\/full\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.emerald.com\/insight\/content\/doi\/10.1108\/OXAN-ES268033\/full\/html","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,3,17]],"date-time":"2022-03-17T13:29:51Z","timestamp":1647523791000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.emerald.com\/insight\/content\/doi\/10.1108\/OXAN-ES268033\/full\/html"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2022,3,17]]},"references-count":0,"alternative-id":["10.1108\/OXAN-ES268033"],"URL":"http:\/\/dx.doi.org\/10.1108\/oxan-es268033","relation":{},"ISSN":["2633-304X"],"issn-type":[{"value":"2633-304X","type":"print"}],"published":{"date-parts":[[2022,3,17]]}}}'
+  recorded_at: Wed, 04 Jan 2023 22:35:42 GMT
+- request:
+    method: get
+    uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Extradition%2Bwould%2Bboost%2Bimage%2Bof%2BHonduras%E2%80%99s%2BCastro%2B2022%2BEmerald
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 04 Jan 2023 22:35:45 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '10800'
+      Access-Control-Expose-Headers:
+      - Link
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
+        Accept-Ranges, Cache-Control
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Jetty(9.4.40.v20210413)
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Interval:
+      - 1s
+      X-Api-Pool:
+      - public
+      X-Rate-Limit-Limit:
+      - '50'
+      X-Rate-Limit-Interval:
+      - 1s
+      Permissions-Policy:
+      - interest-cohort=()
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1102069,"items":[{"indexed":{"date-parts":[[2022,5,11]],"date-time":"2022-05-11T10:18:46Z","timestamp":1652264326488},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,4,28]]},"DOI":"10.4324\/9780429956683-7","type":"book-chapter","created":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:44Z","timestamp":1651147724000},"page":"83-93","source":"Crossref","is-referenced-by-count":0,"title":["Extradition
+        and terrorism"],"prefix":"10.4324","author":[{"given":"Harmen van der","family":"Wilt","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
+        Law and Practice of Extradition"],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:52Z","timestamp":1651147732000},"score":22.926674,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429956683\/chapters\/10.4324\/9780429956683-7"}},"issued":{"date-parts":[[2022,4,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429956683-7","published":{"date-parts":[[2022,4,28]]}},{"indexed":{"date-parts":[[2022,5,11]],"date-time":"2022-05-11T10:18:19Z","timestamp":1652264299842},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,4,28]]},"DOI":"10.4324\/9780429956683-6","type":"book-chapter","created":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:44Z","timestamp":1651147724000},"page":"67-82","source":"Crossref","is-referenced-by-count":0,"title":["Extradition
+        and international crimes"],"prefix":"10.4324","author":[{"given":"Harmen van
+        der","family":"Wilt","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
+        Law and Practice of Extradition"],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:51Z","timestamp":1651147731000},"score":22.6613,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429956683\/chapters\/10.4324\/9780429956683-6"}},"issued":{"date-parts":[[2022,4,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429956683-6","published":{"date-parts":[[2022,4,28]]}},{"indexed":{"date-parts":[[2022,5,11]],"date-time":"2022-05-11T10:18:46Z","timestamp":1652264326495},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,4,28]]},"DOI":"10.4324\/9780429956683-9","type":"book-chapter","created":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:44Z","timestamp":1651147724000},"page":"124-202","source":"Crossref","is-referenced-by-count":0,"title":["Extradition
+        and human rights"],"prefix":"10.4324","author":[{"given":"Harmen van der","family":"Wilt","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
+        Law and Practice of Extradition"],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:55Z","timestamp":1651147735000},"score":22.6613,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429956683\/chapters\/10.4324\/9780429956683-9"}},"issued":{"date-parts":[[2022,4,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429956683-9","published":{"date-parts":[[2022,4,28]]}},{"indexed":{"date-parts":[[2022,5,11]],"date-time":"2022-05-11T10:18:28Z","timestamp":1652264308856},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,4,28]]},"DOI":"10.4324\/9780429956683-2","type":"book-chapter","created":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:44Z","timestamp":1651147724000},"page":"9-21","source":"Crossref","is-referenced-by-count":0,"title":["On
+        the (non-) extradition of nationals"],"prefix":"10.4324","author":[{"given":"Harmen
+        van der","family":"Wilt","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
+        Law and Practice of Extradition"],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:47Z","timestamp":1651147727000},"score":22.255236,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429956683\/chapters\/10.4324\/9780429956683-2"}},"issued":{"date-parts":[[2022,4,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429956683-2","published":{"date-parts":[[2022,4,28]]}},{"indexed":{"date-parts":[[2022,10,15]],"date-time":"2022-10-15T04:09:36Z","timestamp":1665806976539},"reference-count":0,"publisher":"Edward
+        Elgar Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,9,6]]},"DOI":"10.4337\/9781789903621.extradition","type":"book-chapter","created":{"date-parts":[[2022,6,6]],"date-time":"2022-06-06T14:32:03Z","timestamp":1654525923000},"page":"170-174","source":"Crossref","is-referenced-by-count":0,"title":["Extradition"],"prefix":"10.4337","member":"2918","container-title":["Elgar
+        Encyclopedia of Human Rights"],"link":[{"URL":"https:\/\/www.elgaronline.com\/view\/book\/9781789903621\/b-9781789903621.extradition.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.elgaronline.com\/view\/book\/9781789903621\/9781789903621.xml","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,10,15]],"date-time":"2022-10-15T00:04:58Z","timestamp":1665792298000},"score":21.24047,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/book\/9781789903621\/b-9781789903621.extradition.xml"}},"issued":{"date-parts":[[2022,9,6]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781789903621.extradition","published":{"date-parts":[[2022,9,6]]}},{"indexed":{"date-parts":[[2022,6,11]],"date-time":"2022-06-11T10:12:23Z","timestamp":1654942343347},"edition-number":"1","reference-count":0,"publisher":"Acumen
+        Publishing Limited","license":[{"start":{"date-parts":[[2013,2,5]],"date-time":"2013-02-05T00:00:00Z","timestamp":1360022400000},"content-version":"unspecified","delay-in-days":2504,"URL":"https:\/\/www.cambridge.org\/core\/terms"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2006,3,30]]},"DOI":"10.1017\/upo9781844653041.002","type":"book-chapter","created":{"date-parts":[[2013,2,5]],"date-time":"2013-02-05T05:48:21Z","timestamp":1360043301000},"page":"28-53","source":"Crossref","is-referenced-by-count":0,"title":["If
+        this were an emerald it would be grue: problems and riddles of induction"],"prefix":"10.1017","member":"56","container-title":["Nelson
+        Goodman"],"link":[{"URL":"https:\/\/www.cambridge.org\/core\/services\/aop-cambridge-core\/content\/view\/BFB8F6073CD9DE82F1468D6DBB6C9EB1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,6,11]],"date-time":"2022-06-11T09:40:08Z","timestamp":1654940408000},"score":21.015121,"resource":{"primary":{"URL":"https:\/\/www.cambridge.org\/core\/product\/identifier\/CBO9781844653041A008\/type\/book_part"}},"issued":{"date-parts":[[2006,3,30]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1017\/upo9781844653041.002","published":{"date-parts":[[2006,3,30]]}},{"indexed":{"date-parts":[[2022,6,15]],"date-time":"2022-06-15T04:13:05Z","timestamp":1655266385419},"edition-number":"1","reference-count":0,"publisher":"Cambridge
+        University Press","license":[{"start":{"date-parts":[[2022,1,6]],"date-time":"2022-01-06T00:00:00Z","timestamp":1641427200000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/www.cambridge.org\/core\/terms"},{"start":{"date-parts":[[2022,1,6]],"date-time":"2022-01-06T00:00:00Z","timestamp":1641427200000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/www.cambridge.org\/core\/terms"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,1,13]]},"DOI":"10.1017\/9781108887496.011","type":"book-chapter","created":{"date-parts":[[2022,1,6]],"date-time":"2022-01-06T00:09:31Z","timestamp":1641427771000},"page":"360-389","source":"Crossref","is-referenced-by-count":0,"title":["Escape
+        and Extradition"],"prefix":"10.1017","member":"56","container-title":["Convicts"],"link":[{"URL":"https:\/\/www.cambridge.org\/core\/services\/aop-cambridge-core\/content\/view\/1429ABE28DC6A9C92DCA5E595F233166","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,6,15]],"date-time":"2022-06-15T03:54:33Z","timestamp":1655265273000},"score":20.636272,"resource":{"primary":{"URL":"https:\/\/www.cambridge.org\/core\/product\/identifier\/9781108887496%23CN-bp-11\/type\/book_part"}},"issued":{"date-parts":[[2022,1,13]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1017\/9781108887496.011","published":{"date-parts":[[2022,1,13]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T17:38:48Z","timestamp":1649093928456},"edition-number":"0","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781315712178","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,12,18]]},"DOI":"10.4324\/9781315712178-8","type":"book-chapter","created":{"date-parts":[[2020,12,25]],"date-time":"2020-12-25T10:15:41Z","timestamp":1608891341000},"page":"36-61","source":"Crossref","is-referenced-by-count":0,"title":["If
+        this were an emerald it would be grue: problems and riddles of induction"],"prefix":"10.4324","member":"301","container-title":["Nelson
+        Goodman"],"deposited":{"date-parts":[[2020,12,25]],"date-time":"2020-12-25T10:15:43Z","timestamp":1608891343000},"score":20.622065,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781317494157\/chapters\/10.4324\/9781315712178-8"}},"issued":{"date-parts":[[2014,12,18]]},"ISBN":["9781315712178"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781315712178-8","published":{"date-parts":[[2014,12,18]]}},{"indexed":{"date-parts":[[2022,7,22]],"date-time":"2022-07-22T05:11:16Z","timestamp":1658466676276},"edition-number":"1","reference-count":113,"publisher":"Cambridge
+        University Press","license":[{"start":{"date-parts":[[2017,1,20]],"date-time":"2017-01-20T00:00:00Z","timestamp":1484870400000},"content-version":"unspecified","delay-in-days":27,"URL":"https:\/\/www.cambridge.org\/core\/terms"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2016,12,24]]},"DOI":"10.1017\/9781316422922.005","type":"book-chapter","created":{"date-parts":[[2017,1,19]],"date-time":"2017-01-19T15:49:04Z","timestamp":1484840944000},"page":"129-183","source":"Crossref","is-referenced-by-count":0,"title":["Extradition"],"prefix":"10.1017","member":"56","reference":[{"key":"9781316422922#CN-bp-4_FN-fn-712","unstructured":"Severino
+        H. Ga\u00f1a, Jr. , Extradition and Legal Assistance: The Philippine Experience,
+        Resource Materials Series No. 57, Visiting Experts\u2019 Papers, 114th Int\u2019l
+        Training Course, U.N. Asia and Far East Inst. for the Prevention of Crime
+        and the Treatment of Offenders (UNAFEI) (2000)"},{"key":"9781316422922#CN-bp-4_FN-fn-572","unstructured":"Henri
+        Labayle , Terrorism and Extradition: A French Perspective, in Terrorism and
+        International Law 185 ( Rosalyn Higgins & Maurice Flory eds. 1997)"},{"key":"9781316422922#CN-bp-4_FN-fn-589","doi-asserted-by":"crossref","first-page":"45","DOI":"10.1017\/S0069005800008742","article-title":"The
+        Role for Human Rights Obligations in Canadian Extradition Law","volume":"43","author":"Harrington","year":"2005","journal-title":"Can.
+        Y.B. Int\u2019l L."},{"key":"9781316422922#CN-bp-4_FN-fn-703","unstructured":"Peter
+        Finn , \u201cSerb Leaders Hand Over Milosevic for Trial by War Crimes Tribunal;
+        Tribunal Lives up to Its Promise,\u201d Wash. Post, June 29, 2001, at A1"},{"key":"9781316422922#CN-bp-4_FN-fn-845","first-page":"6","article-title":"Pakistan
+        Extradites Pakistan Fugitives to Afghanistan","volume":"22","author":"Zagaris","year":"2006","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-699","first-page":"19","article-title":"The
+        Ugandan Crisis and the Right of Expulsion under International Law","volume":"9","author":"Plender","year":"1972","journal-title":"The
+        Review: Int\u2019l Comm\u2019n of Jurists"},{"key":"9781316422922#CN-bp-4_FN-fn-833","first-page":"2","article-title":"Fair
+        Trials Int\u2019l\u2019s Policy Paper: A Brief Review of U.S.-U.K. Extradition
+        Under the Extradition Act of 2003 From a Human Rights Perspective","volume":"25","author":"Heard","year":"2009","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-667","first-page":"89","article-title":"U.K.
+        Arrests Four Rwanda Genocide Suspects for Potential Extradition","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-787","first-page":"49","article-title":"U.S.
+        District Court Denies Standing to Challenge Extradition from Panama","volume":"24","author":"Zagaris","year":"2008","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-665","first-page":"401","article-title":"The
+        Rule of Non-Inquiry and the Impact of Human Rights on Extradition Law","volume":"15","author":"Quigley","year":"1990","journal-title":"N.C.
+        J. Int\u2019l L. and Comm. Reg."},{"key":"9781316422922#CN-bp-4_FN-fn-560","doi-asserted-by":"publisher","DOI":"10.1007\/BF01683228"},{"key":"9781316422922#CN-bp-4_FN-fn-847","unstructured":"AP,
+        \u201cBritain Extradites Terrorism Suspect,\u201d Wash. Post, May 27, 2007,
+        at A18"},{"key":"9781316422922#CN-bp-4_FN-fn-806","first-page":"375","article-title":"Trinidad
+        Magistrate Orders Extradition of Three Suspects to U.S. in JFK Airport Terrorism
+        Plot","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-590","doi-asserted-by":"publisher","DOI":"10.2307\/2998029"},{"key":"9781316422922#CN-bp-4_FN-fn-789","unstructured":"Robert
+        D. McFadden , \u201cDrug Suspect in Afghan Ring is Sent to U.S.,\u201d N.Y.
+        Times, Oct. 25, 2005, at B1"},{"key":"9781316422922#CN-bp-4_FN-fn-794","first-page":"653","article-title":"U.S.
+        Efforts to Extradite Persons for Tax Offenses","volume":"25","author":"Zagaris","year":"2003","journal-title":"Loy.
+        L.A. Int\u2019l and Comp. L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-571","first-page":"285","article-title":"Extradition
+        Treaty Improvements to Combat Drug Trafficking","volume":"15","author":"Barnett","year":"1985","journal-title":"Ga.
+        J. Int\u2019l and Comp. L."},{"key":"9781316422922#CN-bp-4_FN-fn-582","first-page":"5","article-title":"The
+        Extradition of Mohammed Hamadei","volume":"31","author":"Kennedy","year":"1990","journal-title":"Harv.
+        Int\u2019l L.J."},{"key":"9781316422922#CN-bp-4_FN-fn-760","first-page":"225","article-title":"Jamaican
+        Prime Minister Will Allow Court to Decide U.S. Extradition Request","volume":"26","author":"Zagaris","year":"2010","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-826","first-page":"38","article-title":"Senate
+        Foreign Relations Committee Holds Hearings on Four Treaties","volume":"22","author":"Zagaris","year":"2006","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-692","first-page":"212","article-title":"Uganda
+        Agrees to Sign Extradition Treaty with Rwanda","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-740","first-page":"1","article-title":"Extradition
+        of Nazis from the United States to Israel: A Survey of Issues in Transnat\u2019l
+        Criminal Law","volume":"22","author":"Lubet","year":"1986","journal-title":"Stan.
+        J. Int\u2019l L."},{"key":"9781316422922#CN-bp-4_FN-fn-590","first-page":"495","article-title":"The
+        Provisional Arrest and Subsequent Release of Abou Daoud by French Authorities","volume":"17","author":"Carbonneau","year":"1977","journal-title":"Va.
+        J. Int\u2019l L."},{"key":"9781316422922#CN-bp-4_FN-fn-837","unstructured":"Hannah
+        Stone , \u201cWith Extradition Law, Honduras Outsources Justice to U.S.,\u201d
+        Insightcrime.org , Jan. 30, 2012, available at www.insightcrime.org\/news-analysis\/with-extradition-law-honduras-outsources-justice-to-us
+        (last visited on May 6, 2016)"},{"key":"9781316422922#CN-bp-4_FN-fn-572","first-page":"337","article-title":"The
+        Political Offence Exception and Terrorism: Its Place in the Current Extradition
+        Scheme and Proposal for Its Future","volume":"15","author":"Phillips","year":"1997","journal-title":"Dickinson
+        J. Int\u2019l L."},{"key":"9781316422922#CN-bp-4_FN-fn-853","first-page":"189","article-title":"Australia
+        Extradites Alleged Software Pirate to U.S.","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-578","unstructured":"Silvia
+        Borelli , The Rendition of Terrorist Suspects to the United States: Human
+        Rights and the Limits of Int\u2019l Cooperation, in Enforcing International
+        Law Norms against Terrorism 333 ( Andrea Bianchi ed. 2004)"},{"key":"9781316422922#CN-bp-4_FN-fn-641","first-page":"16","article-title":"Guatemalan
+        President Authorizes Extradition of Former President to the United States
+        on Money Laundering Charges","volume":"28","author":"Martinez-Arrieta","year":"2012","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-727","unstructured":"Ronald
+        J. Hedges , Int\u2019l Extradition: A Guide for Judges 4 (Fed. Judicial Center
+        2014)"},{"key":"9781316422922#CN-bp-4_FN-fn-566","first-page":"347","article-title":"Extradition
+        Controversies: How Enthusiastic Prosecutions Can Lead to Int\u2019l Incidents","volume":"22","author":"Henning","year":"1999","journal-title":"B.C.
+        Int\u2019l and Comp. L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-848","first-page":"277","article-title":"Swiss
+        Highest Court Affirms Extradition to Germany for Tax Evasion","volume":"26","author":"Zagaris","year":"2010","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-864","unstructured":"Jago
+        Russell , \u201cFast-Track Extradition: The European Arrest Warrant Is Being
+        Routinely Misused,\u201d Law Soc\u2019y Gazette, Jan. 14, 2010"},{"key":"9781316422922#CN-bp-4_FN-fn-778","unstructured":"\u201cPortuguese
+        Court Cancels Extradition of Abu Salem,\u201d The Asian Age (India), Sept.
+        27, 2011"},{"key":"9781316422922#CN-bp-4_FN-fn-608","unstructured":"Veronica
+        Uy , \u201cRP Extradition Treaty with only 10 States,\u201d Inquirer (Manila),
+        Feb. 4, 2010"},{"key":"9781316422922#CN-bp-4_FN-fn-658","unstructured":"\u201cGuyana-Suriname
+        Meet to Discuss Cross-Border Crimes,\u201d Island Journal, Mar. 10, 2010"},{"key":"9781316422922#CN-bp-4_FN-fn-607","unstructured":"\u201cChina
+        Signs Extradition Treaties with 39 Nations,\u201d China Daily, Mar. 20, 2015"},{"key":"9781316422922#CN-bp-4_FN-fn-842","unstructured":"Simon
+        Romero , \u201cPeru\u2019s Ex-President Convicted of Rights Abuses,\u201d
+        N.Y. Times, Apr. 7, 2009"},{"key":"9781316422922#CN-bp-4_FN-fn-658","unstructured":"\u201cGuyana-Suriname-Security-CARICOM
+        Neighbours Discussing Cross-Border Crimes,\u201d Antigua Observer, Mar. 9,
+        2010"},{"key":"9781316422922#CN-bp-4_FN-fn-569","first-page":"369","article-title":"The
+        Development of the Conceptual Framework Supporting Int\u2019l Extradition","volume":"25","author":"Epps","year":"2003","journal-title":"Loy.
+        L.A. Int\u2019l and Comp. L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-557","unstructured":"Geoff
+        Gilbert , Extradition, in The Harvard Research in International Law: Contemporary
+        Analysis and Appraisal 247 ( John P. Grant & J. Craig Barker eds. 2007)"},{"key":"9781316422922#CN-bp-4_FN-fn-820","first-page":"212","article-title":"Uganda
+        Agrees to Sign Extradition Treaty with Rwanda","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-715","unstructured":"Peter
+        Baker & Randal C. Archibald , \u201cU.S. Asks for Arrest of Mexican Kingpin
+        Who was Freed in American\u2019s Murder,\u201d N.Y. Times, Aug. 15, 2013,
+        at A6"},{"key":"9781316422922#CN-bp-4_FN-fn-620","first-page":"17","article-title":"Russia
+        and U.K. Sign Agreement to Facilitate Extradition","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-840","unstructured":"\u201cGuatemala
+        Ex-President PortilloCleared of Wrongdoing,\u201d BBC News, May 10, 2011,
+        available at www.bbc.com\/news\/world-latin-america-13351194 (last visited
+        on May 6, 2016)"},{"key":"9781316422922#CN-bp-4_FN-fn-567","first-page":"117","article-title":"The
+        Dangers of State Sponsored and Court Ratified Abduction","volume":"5","author":"Brkljacic","year":"1996","journal-title":"J.
+        Int\u2019l L. and Prac."},{"key":"9781316422922#CN-bp-4_FN-fn-789","unstructured":"Ginger
+        Thompson , \u201cTo Infiltrate Drug Cartels, U.S. Agents Aided Traffickers,\u201d
+        IHT, Jan. 10, 2012, at 5"},{"key":"9781316422922#CN-bp-4_FN-fn-844","first-page":"228","article-title":"Uruguay
+        to Extradite Three Military Officials to Chile","volume":"22","author":"Zagaris","year":"2006","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-858","first-page":"351","article-title":"Polish
+        Constitutional Court Holds European Arrest Warrant Unconstitutional","volume":"21","author":"Plachta","year":"2005","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-572","first-page":"385","article-title":"United
+        States Extradition Process: Changes in Law to Address Constitutional Infirmity","volume":"15","author":"Bedrick","year":"1997","journal-title":"Dickinson
+        J. Int\u2019l L."},{"key":"9781316422922#CN-bp-4_FN-fn-571","unstructured":"M.
+        Cherif Bassiouni , The Political Offense Exception in Extradition Law and
+        Practice, in International Terrorism and Political Crimes 398 ( M. Cherif
+        Bassiouni ed. 1975)"},{"key":"9781316422922#CN-bp-4_FN-fn-835","unstructured":"U.S.
+        Department of State, Third Report on Int\u2019l Extradition Pursuant to Section
+        3203 of the Emergency Supplemental Act, 2000, as Enacted in Public Law 106\u2013246
+        Relating to Plan Colombia (2002)"},{"key":"9781316422922#CN-bp-4_FN-fn-607","unstructured":"David
+        Lague , \u201cChina Urges Western Nations to Enter Extradition Treaties,\u201d
+        N.Y. Times, May 29, 2007, at A3"},{"key":"9781316422922#CN-bp-4_FN-fn-594","first-page":"1441","article-title":"Some
+        Myths of United States Extradition Law","volume":"76","author":"Kester","year":"1998","journal-title":"Geo.
+        L.J."},{"key":"9781316422922#CN-bp-4_FN-fn-631","unstructured":"Immigration
+        and Refugee Board of Canada, Ghana: Extradition Treaties with Neighbouring
+        Countries during 1985\u20131986, Sept. 1, 1989, GHA2129"},{"key":"9781316422922#CN-bp-4_FN-fn-688","first-page":"347","article-title":"Foreign
+        Extradition, Provisional Arrest Warrants, and Probable Cause","volume":"43","author":"Iraola","year":"2006","journal-title":"S.D.
+        L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-566","unstructured":"\u201cExtradition
+        in Latin America: How to Handle a Drug Gang,\u201d The Economist, Nov. 21,
+        2015, at 35"},{"key":"9781316422922#CN-bp-4_FN-fn-658","unstructured":"\u201cExtradition
+        Treaty Needed in Guyana\/Suriname Crime Fight \u2013 Hinds,\u201d Guyana Times
+        Int\u2019l, Aug. 11, 2011"},{"key":"9781316422922#CN-bp-4_FN-fn-851","unstructured":"U.S.
+        Dep\u2019t of State, 1 Int\u2019l Narcotics Control Strategy Report, Mar.
+        2009"},{"key":"9781316422922#CN-bp-4_FN-fn-820","unstructured":"James Karuhanga
+        , \u201cRwanda-Burundi to Sign Extradition Treaty,\u201d Oct. 15, 2009, The
+        New Times (Rwanda)"},{"key":"9781316422922#CN-bp-4_FN-fn-842","first-page":"373","article-title":"Fujimori
+        Extaditable!: Chilean Supreme Court Sets Int\u2019l Precedent for Human Rights
+        Violations","volume":"39","author":"Haas","year":"2008","journal-title":"U.
+        Miami Inter-Am. L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-834","unstructured":"Dina
+        Kraft , \u201cAfter Sheinbein, Parliament Approves New Extradition Bill,\u201d
+        AP, Apr. 19, 1999, at 2"},{"key":"9781316422922#CN-bp-4_FN-fn-588","first-page":"163","article-title":"The
+        Lockerbie \u2018Extradition by Analogy\u2019 Agreement: \u2018Exceptional
+        Measure\u2019 or Template for Transnat\u2019l Criminal Justice?","volume":"18","author":"Arzt","year":"2002","journal-title":"Am.
+        U. Int\u2019l L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-864","unstructured":"Fair
+        Trials International, Submission to the Extradition Review Panel on the European
+        Arrest Warrant, Dec. 21, 2010"},{"key":"9781316422922#CN-bp-4_FN-fn-710","first-page":"155","article-title":"The
+        Artukovic Case: Do the Means Justify the End?","volume":"6","author":"Kuzmanovic","year":"1987","journal-title":"Wis.
+        Int\u2019l L.J."},{"key":"9781316422922#CN-bp-4_FN-fn-590","unstructured":"David
+        Freestone , Int\u2019l Cooperation against Terrorism and the Development of
+        Int\u2019l Law Principles of Jurisdiction, in Terrorism and International
+        Law 45\u201346 ( Rosalyn Higgins & Maurice Flory eds. 1997)"},{"key":"9781316422922#CN-bp-4_FN-fn-590","first-page":"539","article-title":"The
+        Abu Daoud Affair","volume":"11","year":"1977","journal-title":"J. Int\u2019l
+        L. and Econ."},{"key":"9781316422922#CN-bp-4_FN-fn-699","unstructured":"Matthew
+        A. Muir , A Guide to the Law and Practice of Int\u2019l Extradition, in 4A
+        Modern Legal Systems Cyclopedia 4A.160.7 ( Kenneth Robert Redden ed. 1989)"},{"key":"9781316422922#CN-bp-4_FN-fn-572","first-page":"1205","article-title":"Federally
+        Sponsored Int\u2019l Kidnapping: An Acceptable Alternative to Extradition?","volume":"64","author":"Grassie","year":"1986","journal-title":"Wash.
+        U.L.Q."},{"key":"9781316422922#CN-bp-4_FN-fn-827","doi-asserted-by":"crossref","first-page":"44","DOI":"10.2307\/2998061","article-title":"Contemporary
+        Practice of the United States Relating to Int\u2019l Law","volume":"92","author":"Leich","year":"1998","journal-title":"AJIL"},{"key":"9781316422922#CN-bp-4_FN-fn-836","unstructured":"Australia,
+        Attorney-General\u2019s Dep\u2019t, A New Extradition System \u2013 A Review
+        of Australia\u2019s Extradition Law and Practice, Dec. 2005, at 6"},{"key":"9781316422922#CN-bp-4_FN-fn-718","unstructured":"\u201cMilitant
+        Ejected by U.S. Meets with Jordan King,\u201d N.Y. Times, May 14, 1997, at
+        A11"},{"key":"9781316422922#CN-bp-4_FN-fn-560","first-page":"438","article-title":"Gov\u2019t
+        Sponsored Extraterritorial Abductions in the New World Order: The Unclear
+        Role of Int\u2019l Law in United States Courts and Foreign Policy","volume":"17","author":"Haggan","year":"1994","journal-title":"Suffolk
+        Transnat\u2019l L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-565","first-page":"1213","article-title":"The
+        Widening of the Atlantic: Extradition Practices Between the United States
+        and Europe","volume":"68","author":"Medley","year":"2002","journal-title":"Brook.
+        L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-623","first-page":"1544","article-title":"United
+        Nations Model Treaties on Cooperation in the Criminal Process","volume":"18","author":"Clark","year":"1992","journal-title":"Commw.
+        L. Bull."},{"key":"9781316422922#CN-bp-4_FN-fn-852","first-page":"53","article-title":"Mexico
+        Detains and Surrenders Suspect in Killing of California Police Officer","volume":"20","author":"Zagaris","year":"2004","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-821","first-page":"296","article-title":"PRC
+        Promotes Negotiation of Extradition Treaties","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-864","unstructured":"\u201cLithuania
+        Shocked as Austria Frees Ex-KGB Man,\u201d Euronews, July 17, 2011"},{"key":"9781316422922#CN-bp-4_FN-fn-602","doi-asserted-by":"publisher","DOI":"10.2307\/20439039"},{"key":"9781316422922#CN-bp-4_FN-fn-850","unstructured":"AP,
+        \u201cHonduras Makes First Extradition of Suspected Drug Trafficker to U.S.,\u201d
+        New Europe, May 9, 2014, available at www.neweurope.eu\/article\/honduras-makes-first-extradition-suspected-drug-trafficker-us-1\/
+        (last visited on May 27, 2016)"},{"key":"9781316422922#CN-bp-4_FN-fn-581","first-page":"46","article-title":"Some
+        Reflections on Extradition","volume":"36","author":"Dinstein","year":"1993","journal-title":"Ger.
+        Y.B. Int\u2019l L."},{"key":"9781316422922#CN-bp-4_FN-fn-855","doi-asserted-by":"publisher","DOI":"10.1163\/092895607X193533"},{"key":"9781316422922#CN-bp-4_FN-fn-821","first-page":"96","article-title":"Proposed
+        France-China Extradition Treaty Raises Human Rights Issues","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-749","unstructured":"David
+        Lauter , \u201cThere\u2019s No Place to Hide: Extraditions Have Tripled, and
+        It\u2019s Only the Beginning,\u201d Nat\u2019l L.J., Nov. 26, 1984, at 1"},{"key":"9781316422922#CN-bp-4_FN-fn-720","first-page":"287","article-title":"The
+        Trend to \u2018Universal Extradition\u2019 over Subsidiary Universal Jurisdiction
+        in the Suppression of Transnat\u2019l Crime","volume":"2003","author":"Boister","year":"2003","journal-title":"Acta
+        Juridica"},{"key":"9781316422922#CN-bp-4_FN-fn-560","first-page":"315","article-title":"Kidnapped
+        Terrorists: Bringing Int\u2019l Criminals to Justice Through Irregular Rendition
+        and Other Quasi-Legal Options","volume":"26","author":"Laflin","year":"2000","journal-title":"J.
+        Legis."},{"key":"9781316422922#CN-bp-4_FN-fn-841","first-page":"282","article-title":"Guatemala
+        Extradites Former President to U.S. on Money Laundering Charges","volume":"29","author":"Zagaris","year":"2013","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-606","first-page":"18","article-title":"Argentina","volume":"2","author":"Dias","year":"2010","journal-title":"Crime
+        and Punishment around the World: The Americas"},{"key":"9781316422922#CN-bp-4_FN-fn-779","first-page":"87","article-title":"Spain
+        Arrests Isabel Per\u00f3n on Argentine Extradition Warrant for Crimes against
+        Humanity","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-574","first-page":"277","article-title":"Justice
+        Denied? The Adjudication of Extradition Applications","volume":"37","author":"Powers","year":"2002","journal-title":"Tex.
+        Int\u2019l L.J."},{"key":"9781316422922#CN-bp-4_FN-fn-687","first-page":"573","article-title":"The
+        Domestic and Int\u2019l Legal Implications of the Abduction of Criminals from
+        Foreign Soil","volume":"26","author":"Downing","year":"1989","journal-title":"Stan.
+        J. Int\u2019l L."},{"key":"9781316422922#CN-bp-4_FN-fn-589","doi-asserted-by":"crossref","unstructured":"Gregor
+        Haas , State Security Interests in the French Extradition Procedure, in National
+        Security and International Criminal Justice 193 ( Herwig Roggemann & Petar
+        \u0160ar\u010devi\u0107 eds. 2002)","DOI":"10.1163\/9789004481169_015"},{"key":"9781316422922#CN-bp-4_FN-fn-681","unstructured":"Thongbai
+        Thongpao , \u201cCommentary: Extradition Procedures Must Not be Ignored,\u201d
+        Bangkok Post, Mar. 21, 1999"},{"key":"9781316422922#CN-bp-4_FN-fn-642","doi-asserted-by":"publisher","DOI":"10.1093\/iclqaj\/38.3.589"},{"key":"9781316422922#CN-bp-4_FN-fn-663","unstructured":"Choe
+        Sang-Hun , \u201c10 Years for U.S. Soldier in South Korea Rape Case,\u201d
+        IHT, Nov. 2, 2011, at 3"},{"key":"9781316422922#CN-bp-4_FN-fn-717","first-page":"275","article-title":"U.S.
+        Denies Venezuelan Provisional Arrest Request for Alleged Terrorist","volume":"21","author":"Zagaris","year":"2005","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-804","unstructured":"Al
+        Goodman , \u201cSpain to Extradite Convicted Train Bomber,\u201d CNN.com\/Europe,
+        Sept. 23, 2008, available at www.cnn.com\/2008\/WORLD\/europe\/09\/23\/spain.terror\/
+        (last visited at May 27, 2016)"},{"key":"9781316422922#CN-bp-4_FN-fn-840","first-page":"19","article-title":"Mexico
+        Authorizes Extradition of Former Guatemalan President for Embezzlement","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-794","unstructured":"Dan
+        Harrison , \u201cPush for Hungarian War Crimes Extradition,\u201d Sydney Morning
+        Herald, Mar. 29, 2012"},{"key":"9781316422922#CN-bp-4_FN-fn-580","first-page":"222","article-title":"Libya
+        and the Aerial Incident at Lockerbie: What Lessons for Int\u2019l Law?","volume":"14","author":"Joyner","year":"1993","journal-title":"Mich.
+        J. Int\u2019l L."},{"key":"9781316422922#CN-bp-4_FN-fn-661","first-page":"94","article-title":"U.S.
+        Refuses Philippine Request for Marines Accused of Rape","volume":"22","author":"Zagaris","year":"2006","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-736","first-page":"904","article-title":"Austl.
+        High Court Overturns Sentence Due to Non-Insistence on Rule of Specialty","volume":"16","year":"2000","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-851","first-page":"441","article-title":"Colombia
+        Arrests Alleged Head of Drug Cartel and Prepares to Extradite","volume":"23","author":"Zagaris","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-616","first-page":"479","article-title":"Challenges
+        to Int\u2019l Law Enforcement Cooperation for the U.S. in the Middle East
+        and North Africa: Extradition and Its Alternatives","volume":"50","author":"Warner","year":"2005","journal-title":"Vill.
+        L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-849","unstructured":"U.S. DoJ,
+        First Ever Extradition on Antitrust Charge, Press Release 14\u2013340, Apr.
+        4, 2014"},{"key":"9781316422922#CN-bp-4_FN-fn-846","first-page":"119","article-title":"Mexico
+        Extradites Fugitives to U.S. in \u2018Historic Delivery,\u2019","volume":"23","author":"Labardini","year":"2007","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-590","first-page":"667","article-title":"The
+        Sheinbein Legacy: Israel\u2019s Refusal to Grant Extradition as a Model of
+        Complexity","volume":"15","author":"Hallee","year":"2000","journal-title":"Am.
+        U. Int\u2019l L. Rev."},{"key":"9781316422922#CN-bp-4_FN-fn-839","unstructured":"AP,
+        \u201cSpain: Extradition of Isabel Peron to Argentina is Rejected by Court,\u201d
+        N.Y. Times, Apr. 29, 2008"},{"key":"9781316422922#CN-bp-4_FN-fn-558","unstructured":"American
+        Law Inst., Restatement (Third) of the Foreign Relations Law of the United
+        States, May 14, 1986 (1987), Subchapter B, Intro. Note, at 557"},{"key":"9781316422922#CN-bp-4_FN-fn-626","first-page":"221","article-title":"The
+        Extradition of Int\u2019l Criminals: A Changing Perspective","volume":"24","author":"Muther","year":"1995","journal-title":"Denv.
+        J. Int\u2019l L. and Pol\u2019y"},{"key":"9781316422922#CN-bp-4_FN-fn-572","first-page":"813","article-title":"The
+        Evolution of United States Involvement in the Int\u2019l Rendition of Fugitive
+        Criminals","volume":"25","author":"Nadelmann","year":"1993","journal-title":"N.Y.U.
+        J. Int\u2019l L. and Pol."},{"key":"9781316422922#CN-bp-4_FN-fn-686","first-page":"7","article-title":"Mexican
+        Supreme Court Requires Extradition Reciprocity Assurances","volume":"22","author":"Labardini","year":"2006","journal-title":"IELR"},{"key":"9781316422922#CN-bp-4_FN-fn-557","unstructured":"Theo
+        Vogler , Perspectives on Extradition and Terrorism, in International Terrorism
+        and Political Crimes 391 ( M. Cherif Bassiouni ed. 1975)"},{"key":"9781316422922#CN-bp-4_FN-fn-784","unstructured":"Neil
+        MacFarquhar , \u201cJordan to Let Terror Suspect Held in U.S. Into Kingdom,\u201d
+        N.Y. Times, May 1, 1997"}],"container-title":["Bringing International Fugitives
+        to Justice"],"link":[{"URL":"https:\/\/www.cambridge.org\/core\/services\/aop-cambridge-core\/content\/view\/F5CA9A895EE489D59B87A21537CE1C40","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,7,22]],"date-time":"2022-07-22T04:41:38Z","timestamp":1658464898000},"score":20.022017,"resource":{"primary":{"URL":"https:\/\/www.cambridge.org\/core\/product\/identifier\/9781316422922%23CN-bp-4\/type\/book_part"}},"issued":{"date-parts":[[2016,12,24]]},"references-count":113,"URL":"http:\/\/dx.doi.org\/10.1017\/9781316422922.005","published":{"date-parts":[[2016,12,24]]}},{"indexed":{"date-parts":[[2022,5,11]],"date-time":"2022-05-11T10:18:19Z","timestamp":1652264299390},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,4,28]]},"DOI":"10.4324\/9780429956683-1","type":"book-chapter","created":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:44Z","timestamp":1651147724000},"page":"1-8","source":"Crossref","is-referenced-by-count":0,"title":["Introduction"],"prefix":"10.4324","author":[{"given":"Harmen
+        van der","family":"Wilt","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
+        Law and Practice of Extradition"],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:45Z","timestamp":1651147725000},"score":19.660467,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429956683\/chapters\/10.4324\/9780429956683-1"}},"issued":{"date-parts":[[2022,4,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429956683-1","published":{"date-parts":[[2022,4,28]]}},{"indexed":{"date-parts":[[2022,5,11]],"date-time":"2022-05-11T10:18:19Z","timestamp":1652264299507},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,4,28]]},"DOI":"10.4324\/9780429956683-10","type":"book-chapter","created":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:44Z","timestamp":1651147724000},"page":"203-218","source":"Crossref","is-referenced-by-count":0,"title":["Conclusions"],"prefix":"10.4324","author":[{"given":"Harmen
+        van der","family":"Wilt","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
+        Law and Practice of Extradition"],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:56Z","timestamp":1651147736000},"score":19.660467,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429956683\/chapters\/10.4324\/9780429956683-10"}},"issued":{"date-parts":[[2022,4,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429956683-10","published":{"date-parts":[[2022,4,28]]}},{"indexed":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T18:42:19Z","timestamp":1650480139990},"reference-count":0,"publisher":"Brill
+        | Nijhoff","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2005,1,1]]},"DOI":"10.1163\/9789004479593_010","type":"book-chapter","created":{"date-parts":[[2021,10,2]],"date-time":"2021-10-02T02:13:11Z","timestamp":1633140791000},"page":"227-267","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Canada-U.S. Extradition Treaty"],"prefix":"10.1163","member":"50","container-title":["Extradition
+        between Canada and the United States"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/9789004479593\/B9789004479593_s010.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/13893","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T18:05:25Z","timestamp":1650477925000},"score":19.653574,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/9789004479593\/B9789004479593_s010.xml"}},"issued":{"date-parts":[[2005,1,1]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9789004479593_010","published":{"date-parts":[[2005,1,1]]}},{"indexed":{"date-parts":[[2022,5,11]],"date-time":"2022-05-11T10:18:14Z","timestamp":1652264294222},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,4,28]]},"DOI":"10.4324\/9780429956683-3","type":"book-chapter","created":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:44Z","timestamp":1651147724000},"page":"22-41","source":"Crossref","is-referenced-by-count":0,"title":["Dual
+        criminality"],"prefix":"10.4324","author":[{"given":"Harmen van der","family":"Wilt","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
+        Law and Practice of Extradition"],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:48Z","timestamp":1651147728000},"score":19.372261,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429956683\/chapters\/10.4324\/9780429956683-3"}},"issued":{"date-parts":[[2022,4,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429956683-3","published":{"date-parts":[[2022,4,28]]}},{"indexed":{"date-parts":[[2022,5,11]],"date-time":"2022-05-11T10:18:19Z","timestamp":1652264299828},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,4,28]]},"DOI":"10.4324\/9780429956683-8","type":"book-chapter","created":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:44Z","timestamp":1651147724000},"page":"94-123","source":"Crossref","is-referenced-by-count":0,"title":["Irregular
+        rendition"],"prefix":"10.4324","author":[{"given":"Harmen van der","family":"Wilt","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
+        Law and Practice of Extradition"],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:53Z","timestamp":1651147733000},"score":19.237663,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429956683\/chapters\/10.4324\/9780429956683-8"}},"issued":{"date-parts":[[2022,4,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429956683-8","published":{"date-parts":[[2022,4,28]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T19:35:29Z","timestamp":1649187329101},"reference-count":0,"publisher":"Bloomsbury
+        Academic","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781472594365.ch-002","type":"book-chapter","created":{"date-parts":[[2014,9,12]],"date-time":"2014-09-12T17:15:56Z","timestamp":1410542156000},"source":"Crossref","is-referenced-by-count":0,"title":["Would
+        the Film of your Life \u2026?"],"prefix":"10.5040","member":"2984","container-title":["Showing
+        Off! : A Philosophy of Image"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:39:12Z","timestamp":1590093552000},"score":19.21782,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/showing-off-a-philosophy-of-image\/ch1-would-the-film-of-your-life"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781472594365.ch-002"},{"indexed":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T18:42:19Z","timestamp":1650480139988},"reference-count":0,"publisher":"Brill
+        | Nijhoff","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2005,1,1]]},"DOI":"10.1163\/9789004479593_013","type":"book-chapter","created":{"date-parts":[[2021,10,2]],"date-time":"2021-10-02T02:13:11Z","timestamp":1633140791000},"page":"335-368","source":"Crossref","is-referenced-by-count":0,"title":["Extradition
+        in the New Millennium"],"prefix":"10.1163","member":"50","container-title":["Extradition
+        between Canada and the United States"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/9789004479593\/B9789004479593_s013.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/13893","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T18:05:32Z","timestamp":1650477932000},"score":19.216404,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/9789004479593\/B9789004479593_s013.xml"}},"issued":{"date-parts":[[2005,1,1]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9789004479593_013","published":{"date-parts":[[2005,1,1]]}},{"indexed":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T18:42:35Z","timestamp":1650480155627},"reference-count":0,"publisher":"Brill
+        | Nijhoff","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2005,1,1]]},"DOI":"10.1163\/9789004479593_008","type":"book-chapter","created":{"date-parts":[[2021,10,2]],"date-time":"2021-10-02T02:13:11Z","timestamp":1633140791000},"page":"149-185","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Devolution of Extradition Procedure"],"prefix":"10.1163","member":"50","container-title":["Extradition
+        between Canada and the United States"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/9789004479593\/B9789004479593_s008.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/13893","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T18:05:26Z","timestamp":1650477926000},"score":19.216404,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/9789004479593\/B9789004479593_s008.xml"}},"issued":{"date-parts":[[2005,1,1]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9789004479593_008","published":{"date-parts":[[2005,1,1]]}},{"indexed":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T18:41:48Z","timestamp":1650480108783},"reference-count":0,"publisher":"Brill
+        | Nijhoff","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2005,1,1]]},"DOI":"10.1163\/9789004479593_009","type":"book-chapter","created":{"date-parts":[[2021,10,2]],"date-time":"2021-10-02T02:13:11Z","timestamp":1633140791000},"page":"187-225","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Death and Resurrection of Extradition"],"prefix":"10.1163","member":"50","container-title":["Extradition
+        between Canada and the United States"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/9789004479593\/B9789004479593_s009.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/13893","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T18:05:28Z","timestamp":1650477928000},"score":19.203392,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/9789004479593\/B9789004479593_s009.xml"}},"issued":{"date-parts":[[2005,1,1]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9789004479593_009","published":{"date-parts":[[2005,1,1]]}},{"indexed":{"date-parts":[[2022,5,11]],"date-time":"2022-05-11T10:18:14Z","timestamp":1652264294249},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,4,28]]},"DOI":"10.4324\/9780429956683-4","type":"book-chapter","created":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:44Z","timestamp":1651147724000},"page":"42-49","source":"Crossref","is-referenced-by-count":0,"title":["The
+        doctrine of specialty"],"prefix":"10.4324","author":[{"given":"Harmen van
+        der","family":"Wilt","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
+        Law and Practice of Extradition"],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T12:08:49Z","timestamp":1651147729000},"score":18.94132,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429956683\/chapters\/10.4324\/9780429956683-4"}},"issued":{"date-parts":[[2022,4,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429956683-4","published":{"date-parts":[[2022,4,28]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T05:04:11Z","timestamp":1659503051114},"reference-count":0,"publisher":"Oxford
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,6,2]]},"abstract":"<p>Should
+        you favor democratic socialism? If you believe strongly in workplace democracy
+        and are willing to mandate it, or if you attach a high priority to low levels
+        of income and wealth inequality, then possibly yes. Otherwise, you might reasonably
+        prefer to opt for social democratic capitalism, with which we have extensive
+        experience, rather than take a chance on a system that is, to this point in
+        history, untested. Over the coming half century, social democratic capitalism
+        is likely to be the dominant socioeconomic model in the world\u2019s rich
+        democratic nations. This model might evolve to include more economic democracy
+        and more public ownership of firms, which would bring it closer to what contemporary
+        democratic socialists would like. But even if there is no such evolution,
+        that might be okay. Social democratic capitalism isn\u2019t perfect, but it
+        is quite good.<\/p>","DOI":"10.1093\/oso\/9780197636800.003.0017","type":"book-chapter","created":{"date-parts":[[2022,5,19]],"date-time":"2022-05-19T09:25:55Z","timestamp":1652952355000},"page":"163-170","source":"Crossref","is-referenced-by-count":0,"title":["Would
+        Democratic Socialism Be Better Than Social Democratic Capitalism?"],"prefix":"10.1093","author":[{"given":"Lane","family":"Kenworthy","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2022,5,19]]},"container-title":["Would
+        Democratic Socialism Be Better?"],"original-title":["Would Democratic Socialism
+        Be Better Than Social Democratic Capitalism?"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T21:42:30Z","timestamp":1659476550000},"score":18.741892,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/41906\/chapter\/354765322"}},"issued":{"date-parts":[[2022,5,19]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780197636800.003.0017","published":{"date-parts":[[2022,5,19]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Extradition+would+boost+image+of+Honduras\u2019s+Castro+2022+Emerald"}}}'
+  recorded_at: Wed, 04 Jan 2023 22:35:45 GMT
 recorded_with: VCR 6.1.0

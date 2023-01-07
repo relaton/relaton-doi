@@ -1,55 +1,27 @@
-<bibdata type="book" schema-version="v1.2.1">
-  <fetched>2022-12-18</fetched>
-  <title type="main" format="text/plain" language="en" script="Latn">Die Gattungen Pupa, Megaspira, Balea und Tornatellina : in Abbildungen nach der Natur mit Beschreibungen /</title>
-  <uri type="DOI">http://dx.doi.org/10.5962/bhl.title.124254</uri>
-  <docidentifier type="DOI" primary="true">10.5962/bhl.title.124254</docidentifier>
-  <date type="created">
-    <on>2017-01-30</on>
-  </date>
+<bibdata type="misc" schema-version="v1.2.1">
+  <fetched>2023-01-06</fetched>
+  <title type="main" format="text/plain" script="Latn">Extradition would boost image of Honduras’s Castro</title>
+  <uri type="DOI">http://dx.doi.org/10.1108/oxan-es268033</uri>
+  <uri>https://www.emerald.com/insight/content/doi/10.1108/OXAN-ES268033/full/html</uri>
+  <docidentifier type="DOI" primary="true">10.1108/oxan-es268033</docidentifier>
+  <docidentifier type="ISSN.print">2633-304X</docidentifier>
   <date type="issued">
-    <on>1852</on>
+    <on>2022-03-17</on>
   </date>
   <date type="published">
-    <on>1852</on>
+    <on>2022-03-17</on>
   </date>
-  <contributor>
-    <role type="author"/>
-    <person>
-      <name>
-        <forename language="en" script="Latn">H. C.</forename>
-        <surname language="en" script="Latn">Kuster</surname>
-      </name>
-    </person>
-  </contributor>
-  <contributor>
-    <role type="author"/>
-    <person>
-      <name>
-        <forename language="en" script="Latn">Johann Hieronymus</forename>
-        <surname language="en" script="Latn">Chemnitz</surname>
-      </name>
-    </person>
-  </contributor>
-  <contributor>
-    <role type="author"/>
-    <person>
-      <name>
-        <forename language="en" script="Latn">Friedrich Heinrich Wilhelm</forename>
-        <surname language="en" script="Latn">Martini</surname>
-      </name>
-    </person>
-  </contributor>
   <contributor>
     <role type="publisher"/>
     <organization>
-      <name>Verlag von Bauer und Raspe (Julius Merz),</name>
+      <name>Emerald</name>
     </organization>
   </contributor>
-  <place>
-    <city>Nürnberg :</city>
-    <region></region>
-  </place>
+  <abstract format="text/html" language="en" script="Latn">Headline<p>HONDURAS: Extradition would help Castro’s image</p></abstract>
+  <series>
+    <title format="text/plain">Emerald Expert Briefings</title>
+  </series>
   <ext>
-    <doctype>monograph</doctype>
+    <doctype>other</doctype>
   </ext>
 </bibdata>

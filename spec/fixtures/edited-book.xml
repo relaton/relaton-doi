@@ -1,6 +1,6 @@
 <bibdata type="book" schema-version="v1.2.1">
   <fetched>2022-12-24</fetched>
-  <title type="main" format="text/plain" language="en" script="Latn">The New Natural History of Madagascar</title>
+  <title type="main" format="text/plain" script="Latn">The New Natural History of Madagascar</title>
   <uri type="DOI">http://dx.doi.org/10.1515/9780691229409</uri>
   <uri>https://www.degruyter.com/document/doi/10.1515/9780691229409/html</uri>
   <docidentifier type="DOI" primary="true">10.1515/9780691229409</docidentifier>
@@ -29,7 +29,7 @@
   <relation type="related">
     <description format="text/plain">is-identical-to</description>
     <bibitem>
-      <title type="main" format="text/plain" language="en" script="Latn">The New Natural History of Madagascar</title>
+      <title type="main" format="text/plain" script="Latn">The New Natural History of Madagascar</title>
       <docidentifier type="DOI">10.2307/j.ctv2ks6tbb</docidentifier>
     </bibitem>
   </relation>

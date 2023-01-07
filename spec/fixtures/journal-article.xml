@@ -1,9 +1,11 @@
 <bibdata type="article" schema-version="v1.2.1">
-  <fetched>2022-12-18</fetched>
-  <title type="main" format="text/plain" language="en" script="Latn">A watermelon without seeds: A case study in rhetorical rationality</title>
+  <fetched>2023-01-06</fetched>
+  <title type="main" format="text/plain" script="Latn">A watermelon without seeds: A case study in rhetorical rationality</title>
   <uri type="DOI">http://dx.doi.org/10.1515/text.2001.011</uri>
   <uri>https://www.degruyter.com/document/doi/10.1515/text.2001.011/html</uri>
   <docidentifier type="DOI" primary="true">10.1515/text.2001.011</docidentifier>
+  <docidentifier type="ISSN.print">0165-4888</docidentifier>
+  <docidentifier type="ISSN.electronic">1613-4117</docidentifier>
   <date type="issued">
     <on>2001-01-18</on>
   </date>
@@ -14,8 +16,8 @@
     <role type="author"/>
     <person>
       <name>
-        <forename language="en" script="Latn">YAIR</forename>
-        <surname language="en" script="Latn">NEUMAN</surname>
+        <forename language="en" script="Latn">Yair</forename>
+        <surname language="en" script="Latn">Neuman</surname>
       </name>
     </person>
   </contributor>
@@ -23,8 +25,8 @@
     <role type="author"/>
     <person>
       <name>
-        <forename language="en" script="Latn">YOTAM</forename>
-        <surname language="en" script="Latn">LURIE</surname>
+        <forename language="en" script="Latn">Yotam</forename>
+        <surname language="en" script="Latn">Lurie</surname>
       </name>
     </person>
   </contributor>
@@ -32,8 +34,8 @@
     <role type="author"/>
     <person>
       <name>
-        <forename language="en" script="Latn">MICHELE</forename>
-        <surname language="en" script="Latn">ROSENTHAL</surname>
+        <forename language="en" script="Latn">Michele</forename>
+        <surname language="en" script="Latn">Rosenthal</surname>
       </name>
     </person>
   </contributor>

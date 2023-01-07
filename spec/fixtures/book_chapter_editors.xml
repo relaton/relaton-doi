@@ -1,9 +1,8 @@
 <bibdata type="inbook" schema-version="v1.2.1">
-  <fetched>2022-12-19</fetched>
-  <title type="main" format="text/plain" language="en" script="Latn">Culinary arts: Talent and their development.</title>
+  <fetched>2022-12-31</fetched>
+  <title type="main" format="text/plain" script="Latn">Culinary arts: Talent and their development.</title>
   <uri type="DOI">http://dx.doi.org/10.1037/0000120-016</uri>
-  <uri type="pdf">http://psycnet.apa.org/books/16096/016.pdf</uri>
-  <uri>http://content.apa.org/books/16096-016</uri?
+  <uri>http://content.apa.org/books/16096-016</uri>
   <docidentifier type="DOI" primary="true">10.1037/0000120-016</docidentifier>
   <date type="issued">
     <on>2019</on>
@@ -103,9 +102,6 @@
       </contributor>
     </bibitem>
   </relation>
-  <series>
-    <title format="text/plain">Psychology of high performance: Developing human potential into domain-specific talent.</title>
-  </series>
   <place>
     <city>Washington</city>
     <region></region>

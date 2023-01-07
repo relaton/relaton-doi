@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 19 Dec 2022 04:50:17 GMT
+      - Sat, 07 Jan 2023 00:47:53 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '693'
       Set-Cookie:
-      - AWSALB=mMVW7S7gtd+3rT/8ptTvpeRDaHqFmlDaHr6kPxW/WhU7B15GdwIoEnRvb7IrlKahcGxYuiSW8IRuXeX0u+R6kLxq8/s99dR7F8o3n5zgNsiqu3zmGo2xJ+vaOcs0;
-        Expires=Mon, 26 Dec 2022 04:50:17 GMT; Path=/
-      - AWSALBCORS=mMVW7S7gtd+3rT/8ptTvpeRDaHqFmlDaHr6kPxW/WhU7B15GdwIoEnRvb7IrlKahcGxYuiSW8IRuXeX0u+R6kLxq8/s99dR7F8o3n5zgNsiqu3zmGo2xJ+vaOcs0;
-        Expires=Mon, 26 Dec 2022 04:50:17 GMT; Path=/; SameSite=None
+      - AWSALB=QM/EIacUK91vgE0fbMoS2und+uGbYQ+Q3qIm9aQtTzYTH0GUGShZmMCiU6shYK19rhBW8o9Nh+MZFixghlwCq16yvgY/mM5IwxRGwMg74CWU7/yzXQN+ORwOd3B3;
+        Expires=Sat, 14 Jan 2023 00:47:53 GMT; Path=/
+      - AWSALBCORS=QM/EIacUK91vgE0fbMoS2und+uGbYQ+Q3qIm9aQtTzYTH0GUGShZmMCiU6shYK19rhBW8o9Nh+MZFixghlwCq16yvgY/mM5IwxRGwMg74CWU7/yzXQN+ORwOd3B3;
+        Expires=Sat, 14 Jan 2023 00:47:53 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -64,5 +64,5 @@ http_interactions:
         ETS 300218:1994-01, ISDN; Protokolle der unteren Schichten f\u00fcr Videotex
         auf Syntaxbasis f\u00fcr ISDN-Paketmodus (CCITT-Empfehlung_X.31 Fall_A und
         Fall_B); Englische Fassung ETS_300218:1993"],"prefix":"10.31030","member":"15010","container-title":[],"original-title":[],"deposited":{"date-parts":[[2019,3,31]],"date-time":"2019-03-31T17:56:20Z","timestamp":1554054980000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.beuth.de\/de\/-\/-\/2204273"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.31030\/2640440","relation":{}}}'
-  recorded_at: Mon, 19 Dec 2022 04:50:17 GMT
+  recorded_at: Sat, 07 Jan 2023 00:47:53 GMT
 recorded_with: VCR 6.1.0

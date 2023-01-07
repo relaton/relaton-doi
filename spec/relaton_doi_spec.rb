@@ -6,83 +6,55 @@ RSpec.describe RelatonDoi do
   end
 
   context "fetch document" do
-    it "NIST" do
-      VCR.use_cassette "crossref_nist" do
-        file = "spec/fixtures/crossref_nist.xml"
-        resp = RelatonDoi::Crossref.get "doi:10.6028/nist.ir.8245"
-        xml = resp.to_xml bibdata: true
-        File.write file, xml, encoding: "UTF-8" unless File.exist? file
-        expect(resp).to be_instance_of(RelatonNist::NistBibliographicItem)
-        expect(xml).to be_equivalent_to File.read(file, encoding: "UTF-8")
-          .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
-      end
+    it "NIST", vcr: "crossref_nist" do
+      file = "crossref_nist.xml"
+      resp = RelatonDoi::Crossref.get "doi:10.6028/nist.ir.8245"
+      xml = resp.to_xml bibdata: true
+      write_fixture file, xml
+      expect(resp).to be_instance_of(RelatonNist::NistBibliographicItem)
+      expect(xml).to be_equivalent_to read_fixture(file)
     end
 
-    it "RFC" do
-      VCR.use_cassette "crossref_rfc" do
-        file = "spec/fixtures/crossref_rfc.xml"
-        resp = RelatonDoi::Crossref.get "doi:10.17487/RFC0001"
-        xml = resp.to_xml bibdata: true
-        File.write file, xml, encoding: "UTF-8" unless File.exist? file
-        expect(resp).to be_instance_of(RelatonIetf::IetfBibliographicItem)
-        expect(xml).to be_equivalent_to File.read(file, encoding: "UTF-8")
-          .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
-      end
+    it "RFC", vcr: "crossref_rfc" do
+      file = "crossref_rfc.xml"
+      resp = RelatonDoi::Crossref.get "doi:10.17487/RFC0001"
+      xml = resp.to_xml bibdata: true
+      write_fixture file, xml
+      expect(resp).to be_instance_of(RelatonIetf::IetfBibliographicItem)
+      expect(xml).to be_equivalent_to read_fixture(file)
     end
 
-    it "BIPM" do
-      VCR.use_cassette "crossref_bipm" do
-        file = "spec/fixtures/crossref_bipm.xml"
-        resp = RelatonDoi::Crossref.get "doi:10.1088/0026-1394/29/6/001"
-        xml = resp.to_xml bibdata: true
-        File.write file, xml, encoding: "UTF-8" unless File.exist? file
-        expect(resp).to be_instance_of(RelatonBipm::BipmBibliographicItem)
-        expect(xml).to be_equivalent_to File.read(file, encoding: "UTF-8")
-          .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
-      end
+    it "BIPM", vcr: "crossref_bipm" do
+      file = "crossref_bipm.xml"
+      resp = RelatonDoi::Crossref.get "doi:10.1088/0026-1394/29/6/001"
+      xml = resp.to_xml bibdata: true
+      write_fixture file, xml
+      expect(resp).to be_instance_of(RelatonBipm::BipmBibliographicItem)
+      expect(xml).to be_equivalent_to read_fixture(file)
     end
 
-    it "IEEE" do
-      VCR.use_cassette "crossref_ieee" do
-        file = "spec/fixtures/crossref_ieee.xml"
-        resp = RelatonDoi::Crossref.get "doi:10.1109/ieeestd.2014.6835311"
-        xml = resp.to_xml bibdata: true
-        File.write file, xml, encoding: "UTF-8" unless File.exist? file
-        expect(resp).to be_instance_of(RelatonIeee::IeeeBibliographicItem)
-        expect(xml).to be_equivalent_to File.read(file, encoding: "UTF-8")
-          .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
-      end
-    end
-
-    context "fetch edititors" do
-      it "type book-chapter", vcr: "book_chapter_editiors" do
-        file = "spec/fixtures/book_chapter_editiors.xml"
-        resp = RelatonDoi::Crossref.get "doi:10.1037/0000120-016"
-        xml = resp.to_xml bibdata: true
-        File.write file, xml, encoding: "UTF-8" unless File.exist? file
-        expect(xml).to be_equivalent_to File.read(file, encoding: "UTF-8")
-          .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
-      end
-
-      it "type book", vcr: "book_editors" do
-        file = "spec/fixtures/book_editors.xml"
-        resp = RelatonDoi::Crossref.get "doi:10.1007/978-1-4471-1578-6"
-        xml = resp.to_xml bibdata: true
-        File.write file, xml, encoding: "UTF-8" unless File.exist? file
-        expect(xml).to be_equivalent_to File.read(file, encoding: "UTF-8")
-          .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
-      end
+    it "IEEE", vcr: "crossref_ieee" do
+      file = "crossref_ieee.xml"
+      resp = RelatonDoi::Crossref.get "doi:10.1109/ieeestd.2014.6835311"
+      xml = resp.to_xml bibdata: true
+      write_fixture file, xml
+      expect(resp).to be_instance_of(RelatonIeee::IeeeBibliographicItem)
+      expect(xml).to be_equivalent_to read_fixture(file)
     end
 
     shared_examples "fetch document" do |type, doi|
       it type, vcr: type do
-        file = "spec/fixtures/#{type}.xml"
+        file = "#{type}.xml"
         resp = RelatonDoi::Crossref.get "doi:#{doi}"
         xml = resp.to_xml bibdata: true
-        File.write file, xml, encoding: "UTF-8" unless File.exist? file
-        expect(xml).to be_equivalent_to File.read(file, encoding: "UTF-8")
-          .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
+        write_fixture file, xml
+        expect(xml).to be_equivalent_to read_fixture(file)
       end
+    end
+
+    context "fetch edititors" do
+      it_behaves_like "fetch document", "book_chapter_editors", "10.1037/0000120-016"
+      it_behaves_like "fetch document", "book_editors", "10.1007/978-1-4471-1578-6"
     end
 
     it_behaves_like "fetch document", "book-chapter", "10.1515/9783110889406.257"
@@ -105,7 +77,7 @@ RSpec.describe RelatonDoi do
     it_behaves_like "fetch document", "journal", "10.46528/jk"
     it_behaves_like "fetch document", "monograph-1", "10.1515/9783110889406"
     it_behaves_like "fetch document", "monograph-2", "10.5962/bhl.title.124254"
-    it_behaves_like "fetch document", "other", "10.5962/bhl.title.124254"
+    it_behaves_like "fetch document", "other", "10.1108/oxan-es268033"
     it_behaves_like "fetch document", "peer-review", "10.1111/jan.15115/v3/decision1"
     it_behaves_like "fetch document", "posted-content", "10.1101/751156"
     it_behaves_like "fetch document", "proceedings-article", "10.1109/icpadm.1994.414074"

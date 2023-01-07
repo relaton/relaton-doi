@@ -8,6 +8,7 @@ require "relaton_ietf"
 require "relaton_ieee"
 require "relaton_nist"
 require_relative "relaton_doi/version"
+require_relative "relaton_doi/parser"
 require_relative "relaton_doi/crossref"
 
 Serrano.configuration do |config|
@@ -15,6 +16,4 @@ Serrano.configuration do |config|
 end
 
 module RelatonDoi
-  class Error < StandardError; end
-  # Your code goes here...
 end

@@ -1,6 +1,6 @@
 <bibdata type="article" schema-version="v1.2.1">
   <fetched>2022-12-23</fetched>
-  <title type="main" format="text/plain" language="en" script="Latn">Decision letter for "Self‐care of patients with multiple chronic conditions and their caregivers during the COVID‐19 pandemic: A qualitative descriptive study"</title>
+  <title type="main" format="text/plain" script="Latn">Decision letter for "Self‐care of patients with multiple chronic conditions and their caregivers during the COVID‐19 pandemic: A qualitative descriptive study"</title>
   <uri type="DOI">http://dx.doi.org/10.1111/jan.15115/v3/decision1</uri>
   <uri>https://publons.com/publon/50403050</uri>
   <docidentifier type="DOI" primary="true">10.1111/jan.15115/v3/decision1</docidentifier>
@@ -26,7 +26,7 @@
   </contributor>
   <relation type="reviewOf">
     <bibitem>
-       <title type="main" format="text/plain" language="en" script="Latn">Self‐care of patients with multiple chronic conditions and their caregivers during the COVID‐19 pandemic: A qualitative descriptive study</title>
+      <title type="main" format="text/plain" script="Latn">Self‐care of patients with multiple chronic conditions and their caregivers during the COVID‐19 pandemic: A qualitative descriptive study</title>
       <docidentifier type="DOI">10.1111/JAN.15115</docidentifier>
     </bibitem>
   </relation>

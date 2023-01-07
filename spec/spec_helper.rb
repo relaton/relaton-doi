@@ -17,3 +17,13 @@ RSpec.configure do |config|
 
   config.expose_dsl_globally = true
 end
+
+def read_fixture(file)
+  File.read("spec/fixtures/#{file}", encoding: "UTF-8")
+    .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}(?=<\/fetched>)/, Date.today.to_s)
+end
+
+def write_fixture(file, xml)
+  path = "spec/fixtures/#{file}"
+  File.write(path, xml, encoding: "UTF-8") unless File.exist? path
+end
