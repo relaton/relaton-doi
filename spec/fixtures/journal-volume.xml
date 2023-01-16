@@ -1,8 +1,8 @@
 <bibdata type="journal" schema-version="v1.2.1">
-  <fetched>2023-01-04</fetched>
+  <fetched>2023-01-16</fetched>
   <title type="main" format="text/plain" script="Latn">Fall 2020, Innaugural Issue</title>
   <uri type="DOI">http://dx.doi.org/10.46409/001.rlpt5688</uri>
-  <uri>https://soar.usa.edu/sjot/vol1/</uri>
+  <uri type="src">https://soar.usa.edu/sjot/vol1/</uri>
   <docidentifier type="DOI" primary="true">10.46409/001.rlpt5688</docidentifier>
   <docidentifier type="ISSN.electronic">2689-1662</docidentifier>
   <date type="created">

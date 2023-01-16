@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 07 Jan 2023 00:51:40 GMT
+      - Sun, 15 Jan 2023 19:24:37 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '809'
+      - '805'
       Set-Cookie:
-      - AWSALB=kWsQuNgwidWqnIF36HjH5m9whXwSXth1Sw91J46mx8VF7W4Y0r6obJgf5scc3Q5/jKYn4uEqsb3eT7w/7Jrk590U0M6ntLsXOc6fEC14OstcOMaf8UiarwndTr71;
-        Expires=Sat, 14 Jan 2023 00:51:40 GMT; Path=/
-      - AWSALBCORS=kWsQuNgwidWqnIF36HjH5m9whXwSXth1Sw91J46mx8VF7W4Y0r6obJgf5scc3Q5/jKYn4uEqsb3eT7w/7Jrk590U0M6ntLsXOc6fEC14OstcOMaf8UiarwndTr71;
-        Expires=Sat, 14 Jan 2023 00:51:40 GMT; Path=/; SameSite=None
+      - AWSALB=eKTIOO5hueq8TWb0QPMkZetE+HU501sQFZ00Jaey7876BFwDC2VFh9ApurkpIt8m418ethmj75hZGNGvD4ktFm8Pv/32EBQwaDG1eNJhe0ATK5/WWL5yJ47PzF5u;
+        Expires=Sun, 22 Jan 2023 19:24:37 GMT; Path=/
+      - AWSALBCORS=eKTIOO5hueq8TWb0QPMkZetE+HU501sQFZ00Jaey7876BFwDC2VFh9ApurkpIt8m418ethmj75hZGNGvD4ktFm8Pv/32EBQwaDG1eNJhe0ATK5/WWL5yJ47PzF5u;
+        Expires=Sun, 22 Jan 2023 19:24:37 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -58,10 +58,10 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,10,29]],"date-time":"2022-10-29T02:25:33Z","timestamp":1667010333980},"reference-count":0,"publisher":"DE
-        GRUYTER MOUTON","isbn-type":[{"value":"9783110170269","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[2001,12,31]]},"DOI":"10.1515\/9783110889406","type":"book","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":75,"title":["Multilingualism,
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2023,1,11]],"date-time":"2023-01-11T08:49:20Z","timestamp":1673426960366},"reference-count":0,"publisher":"DE
+        GRUYTER MOUTON","isbn-type":[{"value":"9783110170269","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[2001,12,31]]},"DOI":"10.1515\/9783110889406","type":"book","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":76,"title":["Multilingualism,
         Second Language Learning, and Gender"],"prefix":"10.1515","member":"374","published-online":{"date-parts":[[2001,12,31]]},"container-title":[],"original-title":[],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:06Z","timestamp":1618988106000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406\/html"}},"subtitle":[""],"editor":[{"given":"Aneta","family":"Pavlenko","sequence":"first","affiliation":[]},{"given":"Adrian","family":"Blackledge","sequence":"additional","affiliation":[]},{"given":"Ingrid","family":"Piller","sequence":"additional","affiliation":[]},{"given":"Marya","family":"Teutsch-Dwyer","sequence":"additional","affiliation":[]}],"short-title":[],"issued":{"date-parts":[[2001,12,31]]},"ISBN":["9783110170269"],"references-count":0,"alternative-id":["10.1515\/9783110889406"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406","relation":{},"published":{"date-parts":[[2001,12,31]]}}}'
-  recorded_at: Sat, 07 Jan 2023 00:51:40 GMT
+  recorded_at: Sun, 15 Jan 2023 19:24:37 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Multilingualism,%2BSecond%2BLanguage%2BLearning,%2Band%2BGender%2B2001%2BDE%2BGRUYTER%2BMOUTON
@@ -81,11 +81,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 07 Jan 2023 00:51:43 GMT
+      - Sun, 15 Jan 2023 19:24:40 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '17756'
+      - '19128'
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -113,62 +113,62 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1735877,"items":[{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T04:33:23Z","timestamp":1648960403721},"publisher-location":"Berlin,
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1739564,"items":[{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T04:33:23Z","timestamp":1648960403721},"publisher-location":"Berlin,
         New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.1","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"page":"1-14","source":"Crossref","is-referenced-by-count":1,"title":["Introduction:
         Multilingualism, second language learning, and gender Ingrid"],"prefix":"10.1515","author":[{"given":"Piller","family":"Pavlenko","sequence":"first","affiliation":[]},{"given":"Aneta","family":"Pavlenko","sequence":"additional","affiliation":[]}],"member":"374","container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.1\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:06Z","timestamp":1618988106000},"score":49.155678,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.1\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.1"},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T18:50:13Z","timestamp":1648925413143},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.1\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:06Z","timestamp":1618988106000},"score":49.013615,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.1\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.1"},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T18:50:13Z","timestamp":1648925413143},"publisher-location":"Berlin,
         New York","reference-count":1,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.17","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":12,"title":["New
         directions in the study of multilingualism, second language learning, and
         gender"],"prefix":"10.1515","author":[{"given":"Aneta","family":"Pavlenko","sequence":"first","affiliation":[]},{"given":"Ingrid","family":"Piller","sequence":"additional","affiliation":[]}],"member":"374","reference":[{"key":"p_1","doi-asserted-by":"publisher","DOI":"10.1515\/ijsl.1992.94.43"}],"container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.17\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:08Z","timestamp":1618988108000},"score":48.306984,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.17\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.17"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T08:41:24Z","timestamp":1649148084786},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.17\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:08Z","timestamp":1618988108000},"score":48.00494,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.17\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.17"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T08:41:24Z","timestamp":1649148084786},"publisher-location":"Berlin,
         New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.fm","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":0,"title":["Frontmatter"],"prefix":"10.1515","member":"374","container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.fm\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:14Z","timestamp":1618988114000},"score":46.60543,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.fm\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.fm"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T01:59:16Z","timestamp":1648519156013},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.fm\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:14Z","timestamp":1618988114000},"score":46.338562,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.fm\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.fm"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T01:59:16Z","timestamp":1648519156013},"publisher-location":"Berlin,
         New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.345","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":0,"title":["Name
         index"],"prefix":"10.1515","member":"374","container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.345\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:12Z","timestamp":1618988112000},"score":45.841293,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.345\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.345"},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T04:48:25Z","timestamp":1648874905648},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.345\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:12Z","timestamp":1618988112000},"score":45.715416,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.345\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.345"},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T04:48:25Z","timestamp":1648874905648},"publisher-location":"Berlin,
         New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.352","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":0,"title":["Subject
         index"],"prefix":"10.1515","member":"374","container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.352\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:12Z","timestamp":1618988112000},"score":45.81888,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.352\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.352"},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T23:15:10Z","timestamp":1648941310481},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.352\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:12Z","timestamp":1618988112000},"score":45.70632,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.352\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.352"},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T23:15:10Z","timestamp":1648941310481},"publisher-location":"Berlin,
         New York","reference-count":1,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.103","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":3,"title":["Gendering
         the \u2018learner\u2019: Sexual harassment and second language acquisition"],"prefix":"10.1515","author":[{"given":"Susan","family":"Ehrlich","sequence":"first","affiliation":[]}],"member":"374","reference":[{"key":"p_1","first-page":"1183","author":"Abrams
         Kathy","year":"1989","journal-title":"Vanderbilt Law Review"}],"container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.103\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:07Z","timestamp":1618988107000},"score":43.649567,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.103\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.103"},{"indexed":{"date-parts":[[2022,5,6]],"date-time":"2022-05-06T19:26:38Z","timestamp":1651865198792},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.103\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:07Z","timestamp":1618988107000},"score":43.416588,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.103\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.103"},{"indexed":{"date-parts":[[2022,5,6]],"date-time":"2022-05-06T19:26:38Z","timestamp":1651865198792},"publisher-location":"Berlin,
         New York","reference-count":1,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.77","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":5,"title":["Researching
         women\u2019s language practices in multilingual workplaces"],"prefix":"10.1515","author":[{"given":"Tara","family":"Goldstein","sequence":"first","affiliation":[]}],"member":"374","reference":[{"key":"p_1","doi-asserted-by":"crossref","first-page":"249","DOI":"10.3102\/00346543059003249","volume":"59","author":"Anderson
         Gary","year":"1989","journal-title":"Review of Educational Research"}],"container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.77\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:13Z","timestamp":1618988113000},"score":42.834923,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.77\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.77"},{"indexed":{"date-parts":[[2022,10,27]],"date-time":"2022-10-27T09:49:30Z","timestamp":1666864170711},"publisher-location":"Berlin,
-        New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.133","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":24,"title":["\u201cHow
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.77\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:13Z","timestamp":1618988113000},"score":42.756046,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.77\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.77"},{"indexed":{"date-parts":[[2023,1,8]],"date-time":"2023-01-08T06:48:20Z","timestamp":1673160500844},"publisher-location":"Berlin,
+        New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.133","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":25,"title":["\u201cHow
         am I to become a woman in an American vein?\u201d: Transformations of gender
         performance in second language learning"],"prefix":"10.1515","author":[{"given":"Aneta","family":"Pavlenko","sequence":"first","affiliation":[]}],"member":"374","container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.133\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:08Z","timestamp":1618988108000},"score":42.647614,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.133\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.133"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T00:59:30Z","timestamp":1648515570040},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.133\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:08Z","timestamp":1618988108000},"score":42.513607,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.133\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.133"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T00:59:30Z","timestamp":1648515570040},"publisher-location":"Berlin,
         New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.257","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":5,"title":["Gender
         and public space in a bilingual school"],"prefix":"10.1515","author":[{"given":"Monica","family":"Heller","sequence":"first","affiliation":[]}],"member":"374","container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.257\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:10Z","timestamp":1618988110000},"score":42.57104,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.257\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.257"},{"indexed":{"date-parts":[[2022,11,23]],"date-time":"2022-11-23T10:36:16Z","timestamp":1669199776269},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.257\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:10Z","timestamp":1618988110000},"score":42.35446,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.257\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.257"},{"indexed":{"date-parts":[[2022,11,23]],"date-time":"2022-11-23T10:36:16Z","timestamp":1669199776269},"publisher-location":"Berlin,
         New York","reference-count":1,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.199","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":7,"title":["Linguistic
         intermarriage: Language choice and negotiation of identity"],"prefix":"10.1515","author":[{"given":"Ingrid","family":"Piller","sequence":"first","affiliation":[]}],"member":"374","reference":[{"key":"p_1","first-page":"922","author":"Auwarter
         Manfred","year":"1988","journal-title":"Mouton de Gruyter"}],"container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.199\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:09Z","timestamp":1618988109000},"score":42.25699,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.199\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.199"},{"indexed":{"date-parts":[[2022,12,1]],"date-time":"2022-12-01T01:53:53Z","timestamp":1669859633137},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.199\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:09Z","timestamp":1618988109000},"score":42.179913,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.199\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.199"},{"indexed":{"date-parts":[[2022,12,1]],"date-time":"2022-12-01T01:53:53Z","timestamp":1669859633137},"publisher-location":"Berlin,
         New York","reference-count":1,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.307","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":17,"title":["Self-expression,
         gender, and community: A Japanese feminist English class"],"prefix":"10.1515","author":[{"given":"Cheiron","family":"McMahill","sequence":"first","affiliation":[]}],"member":"374","reference":[{"key":"p_1","doi-asserted-by":"crossref","first-page":"647","DOI":"10.2307\/3178206","volume":"21","author":"Abe
         Hideko","year":"1995","journal-title":"Feminist Studies"}],"container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.307\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:11Z","timestamp":1618988111000},"score":41.386375,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.307\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.307"},{"indexed":{"date-parts":[[2022,10,11]],"date-time":"2022-10-11T14:08:34Z","timestamp":1665497314510},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.307\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:11Z","timestamp":1618988111000},"score":41.270782,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.307\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.307"},{"indexed":{"date-parts":[[2023,1,8]],"date-time":"2023-01-08T06:48:47Z","timestamp":1673160527848},"publisher-location":"Berlin,
         New York","reference-count":1,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.175","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":14,"title":["(Re)constructing
         masculinity in a new linguistic reality"],"prefix":"10.1515","author":[{"given":"Marya","family":"Teutsch-Dwyer","sequence":"first","affiliation":[]}],"member":"374","reference":[{"key":"p_1","doi-asserted-by":"crossref","first-page":"341","DOI":"10.1017\/S0272263199003010","volume":"21","author":"Bardovi-Harlig
         Kathleen","year":"1999","journal-title":"Studies in Second Language Acquisition"}],"container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.175\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:09Z","timestamp":1618988109000},"score":39.945183,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.175\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.175"},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T05:51:09Z","timestamp":1648792269135},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.175\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:09Z","timestamp":1618988109000},"score":39.6803,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.175\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.175"},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T05:51:09Z","timestamp":1648792269135},"publisher-location":"Berlin,
         New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.283","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":1,"title":["Cross-cultural
         excursions: Foreign language study and feminist discourses of travel"],"prefix":"10.1515","author":[{"given":"Claire","family":"Kramsch","sequence":"first","affiliation":[]},{"given":"Linda
         von","family":"Hoene","sequence":"additional","affiliation":[]}],"member":"374","container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.283\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:11Z","timestamp":1618988111000},"score":39.099083,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.283\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.283"},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T13:25:53Z","timestamp":1648733153301},"publisher-location":"Berlin,
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.283\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:11Z","timestamp":1618988111000},"score":39.03148,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.283\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.283"},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T13:25:53Z","timestamp":1648733153301},"publisher-location":"Berlin,
         New York","reference-count":1,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.53","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":4,"title":["Complex
         positionings: Women negotiating identity and power in a minority urban setting"],"prefix":"10.1515","author":[{"given":"Adrian","family":"Blackledge","sequence":"first","affiliation":[]}],"member":"374","reference":[{"key":"p_1","first-page":"166","author":"Ball
         Stephen","year":"1991","journal-title":"Doing Educational Research. London:
         Routledge"}],"container-title":["Multilingualism, Second Language Learning,
-        and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.53\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:13Z","timestamp":1618988113000},"score":38.36669,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.53\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.53"},{"indexed":{"date-parts":[[2023,1,3]],"date-time":"2023-01-03T02:30:08Z","timestamp":1672713008656},"publisher-location":"Berlin,
+        and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.53\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:13Z","timestamp":1618988113000},"score":38.141495,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.53\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.53"},{"indexed":{"date-parts":[[2023,1,3]],"date-time":"2023-01-03T02:30:08Z","timestamp":1672713008656},"publisher-location":"Berlin,
         New York","reference-count":1,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110889406.231","type":"book-chapter","created":{"date-parts":[[2011,3,18]],"date-time":"2011-03-18T18:18:11Z","timestamp":1300472291000},"source":"Crossref","is-referenced-by-count":12,"title":["Finding
         one\u2019s voice in Japanese: A study of the pitch levels of L2 users"],"prefix":"10.1515","author":[{"given":"Yumiko","family":"Ohara","sequence":"first","affiliation":[]}],"member":"374","reference":[{"key":"p_1","doi-asserted-by":"crossref","first-page":"207","DOI":"10.1080\/00224545.1976.9924774","volume":"99","author":"Arnovitch
         Charles","year":"1976","journal-title":"The Journal of Social Psychology"}],"container-title":["Multilingualism,
-        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.231\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:10Z","timestamp":1618988110000},"score":37.278904,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.231\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.231"},{"indexed":{"date-parts":[[2022,6,18]],"date-time":"2022-06-18T06:10:58Z","timestamp":1655532658553},"publisher-location":"Cham","reference-count":37,"publisher":"Springer
+        Second Language Learning, and Gender"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.231\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T06:55:10Z","timestamp":1618988110000},"score":37.215614,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110889406.231\/html"}},"issued":{"date-parts":[[null]]},"references-count":1,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110889406.231"},{"indexed":{"date-parts":[[2022,6,18]],"date-time":"2022-06-18T06:10:58Z","timestamp":1655532658553},"publisher-location":"Cham","reference-count":37,"publisher":"Springer
         International Publishing","isbn-type":[{"value":"9783319319537","type":"print"},{"value":"9783319319544","type":"electronic"}],"license":[{"start":{"date-parts":[[2016,1,1]],"date-time":"2016-01-01T00:00:00Z","timestamp":1451606400000},"content-version":"unspecified","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2016]]},"DOI":"10.1007\/978-3-319-31954-4_3","type":"book-chapter","created":{"date-parts":[[2016,4,20]],"date-time":"2016-04-20T15:29:30Z","timestamp":1461166170000},"page":"27-35","source":"Crossref","is-referenced-by-count":1,"title":["Spacetimes
         of Multilingualism"],"prefix":"10.1007","author":[{"given":"Larissa","family":"Aronin","sequence":"first","affiliation":[]},{"given":"Ulrike","family":"Jessner","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2016,4,21]]},"reference":[{"key":"3_CR2","unstructured":"Aronin,
         L. (2007). Current multilingualism as a new linguistic world order. CLCS Occasional
@@ -285,55 +285,13 @@ http_interactions:
         E. (1989). The seven-day circle: The history and meaning of the week. Chicago
         and London: University of Chicago Press."}],"container-title":["Second Language
         Learning and Teaching","Researching Second Language Learning and Teaching
-        from a Psycholinguistic Perspective"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-31954-4_3","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,6,18]],"date-time":"2022-06-18T05:45:37Z","timestamp":1655531137000},"score":32.269424,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-31954-4_3"}},"issued":{"date-parts":[[2016]]},"ISBN":["9783319319537","9783319319544"],"references-count":37,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-31954-4_3","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2016]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T17:53:06Z","timestamp":1648749186790},"publisher-location":"Cham","update-to":[{"updated":{"date-parts":[[2017,7,14]],"date-time":"2017-07-14T00:00:00Z","timestamp":1499990400000},"DOI":"10.1007\/978-3-319-56892-8_4","type":"erratum","label":"Erratum"},{"updated":{"date-parts":[[2017,7,14]],"date-time":"2017-07-14T00:00:00Z","timestamp":1499990400000},"DOI":"10.1007\/978-3-319-56892-8_6","type":"erratum","label":"Erratum"}],"reference-count":0,"publisher":"Springer
+        from a Psycholinguistic Perspective"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-31954-4_3","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,6,18]],"date-time":"2022-06-18T05:45:37Z","timestamp":1655531137000},"score":32.15199,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-31954-4_3"}},"issued":{"date-parts":[[2016]]},"ISBN":["9783319319537","9783319319544"],"references-count":37,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-31954-4_3","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2016]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T17:53:06Z","timestamp":1648749186790},"publisher-location":"Cham","update-to":[{"updated":{"date-parts":[[2017,7,14]],"date-time":"2017-07-14T00:00:00Z","timestamp":1499990400000},"DOI":"10.1007\/978-3-319-56892-8_4","type":"erratum","label":"Erratum"},{"updated":{"date-parts":[[2017,7,14]],"date-time":"2017-07-14T00:00:00Z","timestamp":1499990400000},"DOI":"10.1007\/978-3-319-56892-8_6","type":"erratum","label":"Erratum"}],"reference-count":0,"publisher":"Springer
         International Publishing","isbn-type":[{"value":"9783319568911","type":"print"},{"value":"9783319568928","type":"electronic"}],"license":[{"start":{"date-parts":[[2017,1,1]],"date-time":"2017-01-01T00:00:00Z","timestamp":1483228800000},"content-version":"unspecified","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2017,1,1]],"date-time":"2017-01-01T00:00:00Z","timestamp":1483228800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2017]]},"DOI":"10.1007\/978-3-319-56892-8_13","type":"book-chapter","created":{"date-parts":[[2017,7,13]],"date-time":"2017-07-13T02:43:53Z","timestamp":1499913833000},"page":"E1-E1","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Erratum
         to: Multiculturalism, Multilingualism and the Self"],"prefix":"10.1007","author":[{"given":"Danuta","family":"Gabry\u015b-Barker","sequence":"first","affiliation":[]},{"given":"Dagmara","family":"Ga\u0142ajda","sequence":"additional","affiliation":[]},{"given":"Adam","family":"Wojtaszek","sequence":"additional","affiliation":[]},{"given":"Pawe\u0142","family":"Zakrajewski","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2017,7,14]]},"container-title":["Second
         Language Learning and Teaching","Multiculturalism, Multilingualism and the
-        Self"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-56892-8_13","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,1,16]],"date-time":"2020-01-16T11:53:47Z","timestamp":1579175627000},"score":31.181273,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-56892-8_13"}},"issued":{"date-parts":[[2017]]},"ISBN":["9783319568911","9783319568928"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-56892-8_13","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2017]]},"assertion":[{"value":"14
+        Self"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-56892-8_13","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,1,16]],"date-time":"2020-01-16T11:53:47Z","timestamp":1579175627000},"score":30.934517,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-56892-8_13"}},"issued":{"date-parts":[[2017]]},"ISBN":["9783319568911","9783319568928"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-56892-8_13","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2017]]},"assertion":[{"value":"14
         July 2017","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
-        History"}}]},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T23:29:03Z","timestamp":1649201343964},"publisher-location":"Cham","reference-count":14,"publisher":"Springer
-        International Publishing","isbn-type":[{"value":"9783319014135","type":"print"},{"value":"9783319014142","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014]]},"DOI":"10.1007\/978-3-319-01414-2_17","type":"book-chapter","created":{"date-parts":[[2013,9,18]],"date-time":"2013-09-18T04:25:57Z","timestamp":1379478357000},"page":"291-298","source":"Crossref","is-referenced-by-count":0,"title":["The
-        Homunculus in the Multilingual Brain"],"prefix":"10.1007","author":[{"given":"Kees","family":"de
-        Bot","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2013,9,19]]},"reference":[{"key":"17_CR1","doi-asserted-by":"crossref","first-page":"29","DOI":"10.1016\/0010-0285(78)90018-X","volume":"10","author":"W.
-        Marslen-Wilson","year":"1978","unstructured":"Marslen-Wilson, W. and A. Welsch.
-        1978. Processing interactions and lexical access during word recognition in
-        continuous speech. Cognitive Psychology 10: 29\u201363.","journal-title":"Cognitive
-        Psychology"},{"key":"17_CR2","doi-asserted-by":"crossref","first-page":"480","DOI":"10.1016\/S0022-5371(71)80018-X","volume":"10","author":"J.
-        MacNamara","year":"1967","unstructured":"MacNamara, J. and S. Kushnir. 1967.
-        The linguistic independence of bilinguals: The input switch. Journal of Verbal
-        Learning and Verbal Behavior 10: 480\u2013487.","journal-title":"Journal of
-        Verbal Learning and Verbal Behavior"},{"key":"17_CR3","doi-asserted-by":"crossref","unstructured":"Aronin,
-        L. and D. Singleton. 2012. Multilingualism. Amsterdam\u2014Philadelphia: John
-        Benjamins.","DOI":"10.1075\/impact.30"},{"key":"17_CR4","doi-asserted-by":"crossref","first-page":"452","DOI":"10.1093\/applin\/19.4.452","volume":"19","author":"M.
-        Verhallen","year":"1998","unstructured":"Verhallen, M. and R. Schoonen. 1998.
-        Lexical knowledge of L1 and L2 of third and fifth graders. Applied Linguistics
-        19: 452\u2013470.","journal-title":"Applied Linguistics"},{"key":"17_CR5","unstructured":"Ellis,
-        N. 1994. Vocabulary acquisition: The implicit ins and outs of explicit cognitive
-        mediation. In Implicit and explicit learning of languages, ed. N. Ellis, 211\u2013282.
-        London: Academic Press."},{"key":"17_CR6","doi-asserted-by":"crossref","first-page":"463","DOI":"10.1093\/applin\/21.4.463","volume":"21","author":"A.
-        Wray","year":"2000","unstructured":"Wray, A. 2000. Formulaic sequences in
-        second language teaching: principle and practice. Applied Linguistics 21:
-        463\u2013489.","journal-title":"Applied Linguistics"},{"key":"17_CR7","doi-asserted-by":"crossref","first-page":"221","DOI":"10.1016\/S0010-0277(00)00130-X","volume":"79","author":"D.
-        Dennett","year":"2001","unstructured":"Dennett, D. 2001. Are we explaining
-        consciousness yet? Cognition 79: 221\u2013237.","journal-title":"Cognition"},{"key":"17_CR8","unstructured":"www.urbandictionary.com"},{"key":"17_CR9","doi-asserted-by":"crossref","first-page":"56","DOI":"10.1016\/0093-934X(82)90071-2","volume":"16","author":"L.
-        Galloway","year":"1982","unstructured":"Galloway, L. and R. Scarcella. 1982.
-        Cerebral organization in adult second language acquisition: Is the right hemisphere
-        more involved? Brain and Language 16: 56\u201360.","journal-title":"Brain
-        and Language"},{"key":"17_CR10","doi-asserted-by":"crossref","first-page":"576","DOI":"10.1016\/0093-934X(90)90163-B","volume":"39","author":"M.
-        Paradis","year":"1990","unstructured":"Paradis, M. 1990. Language lateralization
-        in bilinguals: Enough already! Brain and Language 39: 576\u2013586.","journal-title":"Brain
-        and Language"},{"key":"17_CR11","doi-asserted-by":"crossref","unstructured":"Green,
-        D., J. Crinion and C. Price. 2006. Convergence, degeneracy and control. In
-        The cognitive neuroscience of second language acquisition, eds. P. Indefrey
-        and M. Gullberg, 99\u2013125. Malden: Blackwell.","DOI":"10.1111\/j.1467-9922.2006.00357.x"},{"key":"17_CR12","unstructured":"de
-        Bot, K. 2009. Multilingualism and aging. In The new handbook of second language
-        acquisition, ed. T. Bhatia, 425\u2013440. San Diego: Elsevier."},{"key":"17_CR13","doi-asserted-by":"crossref","first-page":"301","DOI":"10.1016\/j.tics.2004.05.003","volume":"8","author":"J.
-        Elman","year":"2005","unstructured":"Elman, J. 2005. An alternative view of
-        the mental lexicon. Trends in Cognitive Sciences 8: 301\u2013306.","journal-title":"Trends
-        in Cognitive Sciences"},{"key":"17_CR14","doi-asserted-by":"crossref","unstructured":"Spivey,
-        M. 2007. The continuity of mind. Oxford: Oxford University Press.","DOI":"10.1093\/acprof:oso\/9780195170788.001.0001"}],"container-title":["Second
-        Language Learning and Teaching","Essential Topics in Applied Linguistics and
-        Multilingualism"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-01414-2_17","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,7,24]],"date-time":"2019-07-24T01:19:34Z","timestamp":1563931174000},"score":30.060112,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-01414-2_17"}},"issued":{"date-parts":[[2013,9,19]]},"ISBN":["9783319014135","9783319014142"],"references-count":14,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-01414-2_17","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2013,9,19]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T07:13:46Z","timestamp":1649056426271},"publisher-location":"Cham","reference-count":65,"publisher":"Springer
+        History"}}]},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T07:13:46Z","timestamp":1649056426271},"publisher-location":"Cham","reference-count":65,"publisher":"Springer
         International Publishing","isbn-type":[{"value":"9783319083520","type":"print"},{"value":"9783319083537","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014]]},"DOI":"10.1007\/978-3-319-08353-7_8","type":"book-chapter","created":{"date-parts":[[2014,9,18]],"date-time":"2014-09-18T17:06:31Z","timestamp":1411059991000},"page":"111-125","source":"Crossref","is-referenced-by-count":1,"title":["Some
         Advantages of Qualitative Methods in Multilingualism Research"],"prefix":"10.1007","author":[{"given":"Teresa
         Maria","family":"W\u0142osowicz","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2014,7,22]]},"reference":[{"key":"8_CR1","unstructured":"Arabski,
@@ -577,147 +535,244 @@ http_interactions:
         Portuguese as a third or additional language, accepted for publication in
         the proceedings of the L3 Conference in Castell\u00f3, Spain, September 13-15,
         2012."}],"container-title":["Second Language Learning and Teaching","Studying
-        Second Language Acquisition from a Qualitative Perspective"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-08353-7_8","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,5,27]],"date-time":"2019-05-27T18:34:45Z","timestamp":1558982085000},"score":29.999846,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-08353-7_8"}},"issued":{"date-parts":[[2014]]},"ISBN":["9783319083520","9783319083537"],"references-count":65,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-08353-7_8","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2014]]}},{"indexed":{"date-parts":[[2022,8,29]],"date-time":"2022-08-29T16:09:00Z","timestamp":1661789340544},"publisher-location":"Cham","reference-count":50,"publisher":"Springer
-        International Publishing","isbn-type":[{"value":"9783319014135","type":"print"},{"value":"9783319014142","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014]]},"DOI":"10.1007\/978-3-319-01414-2_9","type":"book-chapter","created":{"date-parts":[[2013,9,18]],"date-time":"2013-09-18T08:25:57Z","timestamp":1379492757000},"page":"157-173","source":"Crossref","is-referenced-by-count":8,"title":["The
-        Concept of Affordances in Applied Linguistics and Multilingualism"],"prefix":"10.1007","author":[{"given":"Larissa","family":"Aronin","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2013,9,19]]},"reference":[{"key":"9_CR48","unstructured":"Aronin,
-        L. 2007. Current multilingualism as a new linguistic world order. CLCS Occasional
-        Paper #67. Dublin: Trinity College."},{"key":"9_CR1","doi-asserted-by":"crossref","unstructured":"Aronin,
-        L. 2012. Material culture of multilingualism and affectivity. Studies in Second
-        Language Learning and Teaching 2: 179\u2013191.","DOI":"10.14746\/ssllt.2012.2.2.3"},{"key":"9_CR49","unstructured":"Aronin,
-        L. and M. \u00d3 Laoire. 2007. The material culture of multilingualism. Paper
-        presented at the 5th International Conference on Third Language Acquisition
-        and Multilingualism, University of Sterling, Scotland, UK, September."},{"key":"9_CR2","doi-asserted-by":"crossref","unstructured":"Aronin,
-        L. and M. \u00d3 Laoire. 2012a. The material culture of multilingualism. In
-        Minority languages in the linguistic landscape, eds. D. Gorter, H. F. Marten
-        and L. Van Mensel, 299\u2013318. Basingstoke: Palgrave-MacMillan.","DOI":"10.1057\/9780230360235_17"},{"key":"9_CR3","first-page":"17","volume":"6","author":"L.
-        Aronin","year":"2012b","unstructured":"Aronin, L. and M. \u00d3 Laoire. 2012b.
-        The material\u00a0culture of multilingualism: moving beyond the linguistic
-        landscape. International Journal of Multilingualism 6: 17\u201336.","journal-title":"International
-        Journal of Multilingualism"},{"key":"9_CR4","doi-asserted-by":"crossref","first-page":"1","DOI":"10.2167\/ijm072.0","volume":"5","author":"L.
-        Aronin","year":"2008","unstructured":"Aronin, L. and D. Singleton. 2008. Multilingualism
-        as a new linguistic dispensation. International Journal of Multilingualism
-        5: 1\u201316.","journal-title":"International Journal of Multilingualism"},{"key":"9_CR5","doi-asserted-by":"crossref","unstructured":"Aronin,
-        L. and D. Singleton. 2010. Affordances and the diversity of multilingualism.
-        In International Journal of the Sociology of Language 125. Special Issue:
-        The diversity of multilingualism, eds. L. Aronin and D. Singleton, 105\u2013129.
-        Berlin: Mouton de Gruyter.","DOI":"10.1515\/ijsl.2010.041"},{"key":"9_CR6","unstructured":"Aronin,
-        L. and D. Singleton. 2012a. Multilingualism. Amsterdam: John Benjamins."},{"key":"9_CR7","doi-asserted-by":"crossref","unstructured":"Aronin,
-        L. and D. Singleton. 2012b. \u2018Affordances Theory\u2019 in Multilingualism.
-        Studies in Second Language Learning and Teaching 3: 311\u2013331.","DOI":"10.14746\/ssllt.2012.2.3.3"},{"key":"9_CR8","doi-asserted-by":"crossref","unstructured":"Aronin,
-        L., J. A. Fishman, D. Singleton and M. \u00d2 Laoire. 2013. Introduction.
-        Current multilingualism: A new linguistic dispensation. In Current multilingualism:
-        A new linguistic dispensation, eds. D. Singleton, J. A. Fishman, L. Aronin
-        and M. \u00d2 Laoire, 1\u201323. Berlin: Mouton de Gruyter.","DOI":"10.1515\/9781614512813.3"},{"key":"9_CR9","unstructured":"Bossomaier,
-        T. and D. Green. 1998. Patterns in the sand: Computers, complexity, and everyday
-        life. Reading, MA: Perseus Books."},{"key":"9_CR10","first-page":"105","volume":"48","author":"J.
-        -M. Dewaele","year":"2010","unstructured":"Dewaele, J. -M. 2010.\u00a0Multilingualism
-        and affordances: Variation in self-perceived communicative competence and
-        communicative anxiety in French L1, L2, L3 and L4. International Review of
-        Applied Linguistics (IRAL) 48: 105\u2013129.","journal-title":"International
-        Review of Applied Linguistics (IRAL)"},{"key":"9_CR11","first-page":"67","volume":"2","author":"J.
-        A. Fishman","year":"1965","unstructured":"Fishman, J. A. 1965. Who speaks
-        what language to whom and when? La Linguistique 2: 67\u201388.","journal-title":"La
-        Linguistique"},{"key":"9_CR12","unstructured":"Fishman, J. A. 1972. Domains
-        and the relationship between micro- and macrosociolinguistics. In Directions
-        in sociolinguistics. The ethnography of speaking, eds. J. J. Gumperz and D.
-        Hymes, 407\u2013434. New York: Holt, Rinehart & Winston."},{"key":"9_CR13","unstructured":"Gibson,
-        J. J. 1979\/1986. The ecological approach to visual perception. Hillsdale:
-        Lawrence Erlbaum."},{"key":"9_CR14","doi-asserted-by":"crossref","first-page":"265","DOI":"10.1177\/0959354307075046","volume":"17","author":"J.
-        M. M. Good","year":"2007","unstructured":"Good, J. M. M. 2007. The affordances
-        for social psychology of the ecological approach to social knowing. Theory
-        & Psychology 17: 265\u2013295.","journal-title":"Theory & Psychology"},{"key":"9_CR50","doi-asserted-by":"crossref","first-page":"482","DOI":"10.1162\/105474605774785244","volume":"14","author":"D.
-        Gross","year":"2005","unstructured":"Gross, D., K. Stanney and J. Cohn. 2005.
-        Evoking affordances in virtual environments via sensory-stimuli substitution.
-        Presence: Teleoperators and Virtual Environments 14: 482\u2013491. Cambridge,
-        MA, USA: MIT Press.","journal-title":"Presence: Teleoperators and Virtual
-        Environments"},{"key":"9_CR15","unstructured":"Hatukai, L. 2012. Material
-        items of Circassian culture in Kfar-Kama village. Unpublished presentation.
-        Kiriat Tivon: Oranim Academic College of Education."},{"key":"9_CR16","unstructured":"Haugen,
-        E. 1972. The ecology of language. Stanford, CA: Stanford University Press."},{"key":"9_CR17","doi-asserted-by":"crossref","unstructured":"Heft,
-        H. 2001. Ecological psychology in context: James Gibson, Roger Barker, and
-        the legacy of William James\u2019s radical empirism. Mahwah, NJ: Lawrence
-        Erlbaum.","DOI":"10.4324\/9781410600479"},{"key":"9_CR18","doi-asserted-by":"crossref","first-page":"27","DOI":"10.1023\/A:1014548611951","volume":"1","author":"N.
-        Hornberger","year":"2002","unstructured":"Hornberger, N. 2002. Multilingual
-        language policies and continua of biliteracy: An ecological approach. Language
-        Policy 1: 27\u201351.","journal-title":"Language Policy"},{"key":"9_CR19","unstructured":"Huizinga,
-        J. 1936. In the shadow of tomorrow (translated by Jacob Herman Huizinga).
-        New York: W.W. Norton & Company, Inc."},{"key":"9_CR51","doi-asserted-by":"crossref","first-page":"581","DOI":"10.1177\/00380385030373011","volume":"37","author":"I.
-        Hutchby","year":"2003","unstructured":"Hutchby, I. 2003. Affordances and the
-        analysis of technologically mediated interaction. Sociology 37: 581\u2013589.","journal-title":"Sociology"},{"key":"9_CR52","unstructured":"Kinsella,
-        C. 2009. An investigation into the proficiency of successful late learners
-        of French. Unpublished Ph D Thesis, Trinity College Dublin."},{"key":"9_CR20","doi-asserted-by":"crossref","unstructured":"Lawn,
-        M. and I. Grosvenor, eds. 2005. Materialities of schooling: Design \u2013
-        technology \u2013 objects \u2013 routines. Oxford: Symposium Books.","DOI":"10.15730\/books.12"},{"key":"9_CR21","unstructured":"Lednichenko,
-        P. 2011. Material culture and multilingualism: Languages in my family. Unpublished
-        field work report. Oranim Academic College of Education."},{"key":"9_CR22","unstructured":"Le
-        Goff, J. 1984. La Civilisation de l\u2019Occident m\u00e9di\u00e9val. Paris:
-        Arthaud. Arthaud Russian translation: \u0416a\u043a \u041be \u0413o\u0444\u0444.
-        2005. \u0426\u0438\u0432\u0438\u043b\u0438\u0437a\u0446\u0438\u044f cpe\u0434\u043de\u0432e\u043ao\u0432o\u0433o
-        \u0417a\u043fa\u0434a. E\u043aa\u0442ep\u0438\u043d\u0431yp\u0433: \u0423-\u0424a\u043a\u0442op\u0438\u044f."},{"key":"9_CR23","unstructured":"M\u00e4ntyl\u00e4,
-        K., S. Pietik\u00e4inen and H. Dufva. 2009. Informal language learning contexts:
-        multilingualism in a family. In Proceedings of the BAAL Annual Conference
-        2009, 71\u201372. Newcastle: Newcastle University."},{"key":"9_CR24","unstructured":"Marshall,
-        H. W. 1981. Folk architecture in little Dixie: A regional culture in Missouri.
-        Columbia: University of Missouri Press."},{"key":"9_CR25","unstructured":"Mcdermott,
-        M. 2010. Feral (wild) Russian child Oxana Malaya (dog child). http:\/\/www.youtube.com\/watch?v=93HymGXC_wM
-        . Accessed 5 March 2010."},{"key":"9_CR26","unstructured":"Norman, D. A. 1988.
-        The psychology of everyday things. New York: Basic Books."},{"key":"9_CR27","doi-asserted-by":"crossref","first-page":"38","DOI":"10.1145\/301153.301168","volume":"6","author":"D.
-        A. Norman","year":"1999","unstructured":"Norman, D. A. 1999. Affordances,
-        conventions and design. Interactions 6: 38\u201343.","journal-title":"Interactions"},{"key":"9_CR28","unstructured":"Norman,
-        D. A. 2002. The design of everyday things. New York: Basic Books."},{"key":"9_CR29","doi-asserted-by":"crossref","unstructured":"Otwinowska-Kasztelanic,
-        A. 2009. Language awareness in using cognate vocabulary: The case of Polish
-        advanced students of English in the light of the theory of affordances. In
-        Neurolinguistics and psycholinguistic perspectives on SLA, eds. J. Arabski
-        and A. Wojtaszek, 175\u2013190. Bristol: Multilingual Matters.","DOI":"10.21832\/9781847692429-014"},{"key":"9_CR30","doi-asserted-by":"crossref","unstructured":"Otwinowska-Kasztelanic,
-        A. 2011. Awareness and affordances: Multilinguals versus bilinguals and their
-        perceptions of cognates. In New trends in crosslinguistic influence and multilingualism
-        research, eds. G. De Angelis and J. -M. Dewaele, 1\u201318. Bristol: Multilingual
-        Matters.","DOI":"10.21832\/9781847694430-002"},{"key":"9_CR32","unstructured":"Owen,
-        D. H. 2009. Affordance theory concepts and assumptions. http:\/\/www.psyc.canterbury.ac.nz\/courses\/psyc_209\/Owen_Affordance%20Terms.pdf
-        . (accessed 31 August 2009)."},{"key":"9_CR33","doi-asserted-by":"crossref","unstructured":"Pink,
-        S. 2012. Situating everyday life: Practices and places. London: SAGE.","DOI":"10.4135\/9781446250679"},{"key":"9_CR34","doi-asserted-by":"crossref","first-page":"197","DOI":"10.1086\/495962","volume":"15","author":"D.
-        J. Prown","year":"1980","unstructured":"Prown, D. J. 1980. Style as evidence.
-        Winterthur Portfolio 15: 197\u2013210.","journal-title":"Winterthur Portfolio"},{"key":"9_CR35","doi-asserted-by":"crossref","unstructured":"Scarantino,
-        A. 2003. Affordances explained. Philosophy of Science 70: 949\u2013961.","DOI":"10.1086\/377380"},{"key":"9_CR36","unstructured":"Schlereth,
-        T. J., ed. 1985. Material culture: A research guide. Lawrence, KS: University
-        Press of Kansas."},{"key":"9_CR37","doi-asserted-by":"crossref","first-page":"3","DOI":"10.1017\/S0267190501000010","volume":"21","author":"N.
-        Segalowitz","year":"2001","unstructured":"Segalowitz, N. 2001. On the evolving
-        connections between psychology and linguistics. Annual Review of Applied Linguistics
-        21: 3\u201322.","journal-title":"Annual Review of Applied Linguistics"},{"key":"9_CR38","unstructured":"Singleton,
-        D. 2013a. Affective dimensions of second language ultimate attainment. In
-        The affective dimension in second language acquisition, eds. D. Gabrys-Barker
-        and J. Bielska, 29\u201334. Bristol: Multilingual Matters."},{"key":"9_CR39","unstructured":"Singleton,
-        D. 2013b. Qualitative dimensions of age-related research in second language
-        acquisition. Plenary lecture delivered during the 25th international conference
-        on second language acquisition and foreign language learning. Szczyrk, Poland,
-        23\u201325 May 2013."},{"key":"9_CR40","doi-asserted-by":"crossref","first-page":"83","DOI":"10.2167\/illt44.0","volume":"1","author":"D.
-        Singleton","year":"2007","unstructured":"Singleton, D. and L. Aronin. 2007.
-        Multiple language learning in the light of the theory of affordances. Innovation
-        in Language Teaching and Learning 1: 83\u201396.","journal-title":"Language
-        Teaching and Learning"},{"key":"9_CR41","doi-asserted-by":"crossref","unstructured":"Singleton,
-        D., J. A. Fishman, L. Aronin and M. \u00d3 Laoire, eds. 2013. Current multilingualism:
-        A new linguistic dispensation. Berlin: Mouton de Gruyter.","DOI":"10.1515\/9781614512813"},{"key":"9_CR42","doi-asserted-by":"crossref","first-page":"77","DOI":"10.1207\/s15326969eco0302_2","volume":"3","author":"S.
-        S. Valenty","year":"1991","unstructured":"Valenty, S. S. and J. M. M. Good.
-        1991. Social affordances and interaction I: Introduction. Ecological Psychology
-        3: 77\u201398.","journal-title":"Ecological Psychology"},{"key":"9_CR43","doi-asserted-by":"crossref","first-page":"46","DOI":"10.2167\/illt42.0","volume":"1","author":"L.
-        Lier","year":"2007","unstructured":"Van Lier, L. 2007. Action-based teaching,
-        autonomy and identity. Innovation in Language Teaching and Learning 1: 46\u201365.","journal-title":"Innovation
-        in Language Teaching and Learning"},{"key":"9_CR44","unstructured":"Visser,
-        M. 2012. Linguistic (dis)similarity, affordances and the development of second
-        and third language proficiency: Continua of multilingual learning and teaching
-        at Stellenbosch University, South Africa. Presentation at the international
-        conference \u201cMultilingualism in Society, the World of Work, and Politics.
-        New Challenges for Teaching at Institutes of Higher Education\/Universities\u201d
-        April 18-20, 2012 University of Freiburg. http:\/\/www.sli-konferenz-mehrsprachigkeit.de\/fileadmin\/abstracts\/sektion-5\/Abstract_Visser.pdf
-        . Accessed 10.06.2013."},{"key":"9_CR45","unstructured":"Visser, M. 2013.
-        African languages in a new linguistic dispensation. Challenges for research
-        and teaching at universities. Inaugural lecture delivered on April, 9th 2013.
-        Stellenbosch University."},{"key":"9_CR46","first-page":"977","volume":"53","author":"R
-        Warren","year":"1982","unstructured":"Warren, R. and D. H. Owen. 1982. Functional
-        optical invariants: a new methodology for aviation research. Journal of Aviation,
-        Space and Environmental Medicine 53: 977\u2013983.","journal-title":"Journal
-        of Aviation, Space and Environmental Medicine"}],"container-title":["Second
+        Second Language Acquisition from a Qualitative Perspective"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-08353-7_8","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,5,27]],"date-time":"2019-05-27T18:34:45Z","timestamp":1558982085000},"score":29.893227,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-08353-7_8"}},"issued":{"date-parts":[[2014]]},"ISBN":["9783319083520","9783319083537"],"references-count":65,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-08353-7_8","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2014]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T23:29:03Z","timestamp":1649201343964},"publisher-location":"Cham","reference-count":14,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783319014135","type":"print"},{"value":"9783319014142","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014]]},"DOI":"10.1007\/978-3-319-01414-2_17","type":"book-chapter","created":{"date-parts":[[2013,9,18]],"date-time":"2013-09-18T04:25:57Z","timestamp":1379478357000},"page":"291-298","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Homunculus in the Multilingual Brain"],"prefix":"10.1007","author":[{"given":"Kees","family":"de
+        Bot","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2013,9,19]]},"reference":[{"key":"17_CR1","doi-asserted-by":"crossref","first-page":"29","DOI":"10.1016\/0010-0285(78)90018-X","volume":"10","author":"W.
+        Marslen-Wilson","year":"1978","unstructured":"Marslen-Wilson, W. and A. Welsch.
+        1978. Processing interactions and lexical access during word recognition in
+        continuous speech. Cognitive Psychology 10: 29\u201363.","journal-title":"Cognitive
+        Psychology"},{"key":"17_CR2","doi-asserted-by":"crossref","first-page":"480","DOI":"10.1016\/S0022-5371(71)80018-X","volume":"10","author":"J.
+        MacNamara","year":"1967","unstructured":"MacNamara, J. and S. Kushnir. 1967.
+        The linguistic independence of bilinguals: The input switch. Journal of Verbal
+        Learning and Verbal Behavior 10: 480\u2013487.","journal-title":"Journal of
+        Verbal Learning and Verbal Behavior"},{"key":"17_CR3","doi-asserted-by":"crossref","unstructured":"Aronin,
+        L. and D. Singleton. 2012. Multilingualism. Amsterdam\u2014Philadelphia: John
+        Benjamins.","DOI":"10.1075\/impact.30"},{"key":"17_CR4","doi-asserted-by":"crossref","first-page":"452","DOI":"10.1093\/applin\/19.4.452","volume":"19","author":"M.
+        Verhallen","year":"1998","unstructured":"Verhallen, M. and R. Schoonen. 1998.
+        Lexical knowledge of L1 and L2 of third and fifth graders. Applied Linguistics
+        19: 452\u2013470.","journal-title":"Applied Linguistics"},{"key":"17_CR5","unstructured":"Ellis,
+        N. 1994. Vocabulary acquisition: The implicit ins and outs of explicit cognitive
+        mediation. In Implicit and explicit learning of languages, ed. N. Ellis, 211\u2013282.
+        London: Academic Press."},{"key":"17_CR6","doi-asserted-by":"crossref","first-page":"463","DOI":"10.1093\/applin\/21.4.463","volume":"21","author":"A.
+        Wray","year":"2000","unstructured":"Wray, A. 2000. Formulaic sequences in
+        second language teaching: principle and practice. Applied Linguistics 21:
+        463\u2013489.","journal-title":"Applied Linguistics"},{"key":"17_CR7","doi-asserted-by":"crossref","first-page":"221","DOI":"10.1016\/S0010-0277(00)00130-X","volume":"79","author":"D.
+        Dennett","year":"2001","unstructured":"Dennett, D. 2001. Are we explaining
+        consciousness yet? Cognition 79: 221\u2013237.","journal-title":"Cognition"},{"key":"17_CR8","unstructured":"www.urbandictionary.com"},{"key":"17_CR9","doi-asserted-by":"crossref","first-page":"56","DOI":"10.1016\/0093-934X(82)90071-2","volume":"16","author":"L.
+        Galloway","year":"1982","unstructured":"Galloway, L. and R. Scarcella. 1982.
+        Cerebral organization in adult second language acquisition: Is the right hemisphere
+        more involved? Brain and Language 16: 56\u201360.","journal-title":"Brain
+        and Language"},{"key":"17_CR10","doi-asserted-by":"crossref","first-page":"576","DOI":"10.1016\/0093-934X(90)90163-B","volume":"39","author":"M.
+        Paradis","year":"1990","unstructured":"Paradis, M. 1990. Language lateralization
+        in bilinguals: Enough already! Brain and Language 39: 576\u2013586.","journal-title":"Brain
+        and Language"},{"key":"17_CR11","doi-asserted-by":"crossref","unstructured":"Green,
+        D., J. Crinion and C. Price. 2006. Convergence, degeneracy and control. In
+        The cognitive neuroscience of second language acquisition, eds. P. Indefrey
+        and M. Gullberg, 99\u2013125. Malden: Blackwell.","DOI":"10.1111\/j.1467-9922.2006.00357.x"},{"key":"17_CR12","unstructured":"de
+        Bot, K. 2009. Multilingualism and aging. In The new handbook of second language
+        acquisition, ed. T. Bhatia, 425\u2013440. San Diego: Elsevier."},{"key":"17_CR13","doi-asserted-by":"crossref","first-page":"301","DOI":"10.1016\/j.tics.2004.05.003","volume":"8","author":"J.
+        Elman","year":"2005","unstructured":"Elman, J. 2005. An alternative view of
+        the mental lexicon. Trends in Cognitive Sciences 8: 301\u2013306.","journal-title":"Trends
+        in Cognitive Sciences"},{"key":"17_CR14","doi-asserted-by":"crossref","unstructured":"Spivey,
+        M. 2007. The continuity of mind. Oxford: Oxford University Press.","DOI":"10.1093\/acprof:oso\/9780195170788.001.0001"}],"container-title":["Second
         Language Learning and Teaching","Essential Topics in Applied Linguistics and
-        Multilingualism"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-01414-2_9","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,3,6]],"date-time":"2022-03-06T09:54:32Z","timestamp":1646560472000},"score":29.975803,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-01414-2_9"}},"issued":{"date-parts":[[2013,9,19]]},"ISBN":["9783319014135","9783319014142"],"references-count":50,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-01414-2_9","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2013,9,19]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Multilingualism,+Second+Language+Learning,+and+Gender+2001+DE+GRUYTER+MOUTON"}}}'
-  recorded_at: Sat, 07 Jan 2023 00:51:43 GMT
+        Multilingualism"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-01414-2_17","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,7,24]],"date-time":"2019-07-24T01:19:34Z","timestamp":1563931174000},"score":29.84596,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-01414-2_17"}},"issued":{"date-parts":[[2013,9,19]]},"ISBN":["9783319014135","9783319014142"],"references-count":14,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-01414-2_17","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2013,9,19]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T16:48:51Z","timestamp":1648918131129},"publisher-location":"Cham","reference-count":57,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783319568911","type":"print"},{"value":"9783319568928","type":"electronic"}],"license":[{"start":{"date-parts":[[2017,1,1]],"date-time":"2017-01-01T00:00:00Z","timestamp":1483228800000},"content-version":"unspecified","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2017,1,1]],"date-time":"2017-01-01T00:00:00Z","timestamp":1483228800000},"content-version":"unspecified","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017]]},"DOI":"10.1007\/978-3-319-56892-8_6","type":"book-chapter","created":{"date-parts":[[2017,5,13]],"date-time":"2017-05-13T00:44:25Z","timestamp":1494636265000},"page":"77-95","source":"Crossref","is-referenced-by-count":0,"title":["New
+        Approaches to Multilingualism Research: Focus on Metaphors and Similes"],"prefix":"10.1007","author":[{"given":"Danuta","family":"Gabry\u015b-Barker","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2017,5,14]]},"reference":[{"key":"6_CR1","unstructured":"Aronin,
+        L. (2014, June). Spacetimes of multilingualism. Paper presented at the 9th
+        International Conference on Third Language Acquisition and Multilingualism,
+        Uppsala, Sweden"},{"key":"6_CR2","first-page":"1","volume-title":"Multilingual
+        development in the classroom: Current findings from research","author":"L
+        Aronin","year":"2015","unstructured":"Aronin, L. (2015). Current multilingualism
+        and new developments in multilingual research. In P. Safont-Jord\u00e0 & L.
+        Portoles (Eds.), Multilingual development in the classroom: Current findings
+        from research (pp. 1\u201328). Cambridge: Cambridge Scholars Publishing."},{"key":"6_CR3","doi-asserted-by":"crossref","unstructured":"Aronin,
+        L., & Hufeisen, B. (2009). Methods of research in multilingualism studies.
+        In L. Aronin & B. Hufeisen (Eds.), The exploration of multilingualism (pp.
+        103\u2013120). Clevedon: Multlingual Matters","DOI":"10.1075\/aals.6.06ch6"},{"key":"6_CR4","doi-asserted-by":"crossref","unstructured":"Aronin,
+        L., & Jessner, U. (2015). Methodology in bi- and multilingual studies: from
+        simplification to complexity. AILA Review 27: Research Methods and Approaches
+        in Applied Linguistics: Looking Back and Moving Forward, 27, 56\u201379.","DOI":"10.1075\/aila.27.03aro"},{"key":"6_CR5","doi-asserted-by":"crossref","unstructured":"Aronin,
+        L., & Jessner, U. (2016). Spacetimes of multilingualism. In D. Ga\u0142ajda,
+        P. Zakrajewski & M. Pawlak (Eds.), Researching second language learning and
+        teaching from a psycholinguistic perspective. Studies in Honour of Danuta
+        Gabry\u015b-Barker (pp. 27\u201336). Berlin: Springer","DOI":"10.1007\/978-3-319-31954-4_3"},{"key":"6_CR6","unstructured":"Aronin,
+        L., & Politis, V. (2015). Multilingualism as an edge. Theory and Practice
+        of Second Language Acquisition,1(1), 27\u201350."},{"key":"6_CR7","unstructured":"Bargh,
+        J. A., & Barndollar, K. (1996). Automaticity in action: The unconscious as
+        repository of chronic goals and motives. In P. M. Gollwitzer & J. A. Bargh
+        (Eds.), The psychology of action. Linking cognition and motivation to behavior
+        (pp. 457\u2013481) New York: Guildford Press."},{"key":"6_CR8","doi-asserted-by":"crossref","first-page":"553","DOI":"10.1093\/applin\/21.4.553","volume":"21","author":"F
+        Boers","year":"2000","unstructured":"Boers, F. (2000). Metaphor awareness
+        and vocabulary retention. Applied Linguistics, 21, 553\u2013571.","journal-title":"Applied
+        Linguistics"},{"key":"6_CR9","unstructured":"Breakewell, G. (2001). Social
+        representational constraints on identity process. In K. Deaux & G. Philogene
+        (Eds.), Representations of the social: Bridging theoretical traditions (pp.
+        271\u2013284).Oxford: Blackwell"},{"key":"6_CR10","volume-title":"Metaphernanalyse","author":"MB
+        Buchholz","year":"1993","unstructured":"Buchholz, M. B. (1993). Metaphernanalyse.
+        G\u00f6ttingen: Vandenhoeck & Ruprecht."},{"key":"6_CR11","doi-asserted-by":"crossref","unstructured":"Buchholz,
+        M. B., & von Kleist, C. (1995). Metaphernanalyse eines Therapiegespr\u00e4ches.
+        In M. B. Buchholz (Ed.), Psychotherapeutische Interaktion (pp. 93\u2013126).
+        Opladen: Westdeutscher Verlag.","DOI":"10.1007\/978-3-322-83259-7_3"},{"key":"6_CR12","doi-asserted-by":"crossref","first-page":"24","DOI":"10.1080\/07303084.2003.10608375","volume":"74","author":"D
+        Chen","year":"2003","unstructured":"Chen, D. (2003). A classification system
+        of metaphors about teaching. Journal of Physical Education, Recreation & Dance,
+        74, 24\u201331.","journal-title":"Journal of Physical Education, Recreation
+        & Dance"},{"key":"6_CR13","first-page":"103","volume":"7","author":"V Cook","year":"1991","unstructured":"Cook,
+        V. (1991). The poverty of the stimulus argument and multilingualism. Second
+        Language Research, 7, 103\u2013117.","journal-title":"Second Language Research"},{"key":"6_CR14","unstructured":"Cruz-Ferreira,
+        M. (2015). What does multilingual mean? At Beingmultilingual.blogspot.pt,
+        October 3, 2015. Retrieved on November 10, 2015."},{"key":"6_CR15","volume-title":"Representations
+        of the social","year":"2001","unstructured":"Deaux, K., & Philog\u00e9ne,
+        G. (Eds.). (2001). Representations of the social. Oxford: Blackwell."},{"key":"6_CR16","doi-asserted-by":"crossref","first-page":"341","DOI":"10.2307\/3587960","volume":"34","author":"M
+        Guerrero De","year":"2000","unstructured":"De Guerrero, M., & Villamil, O.
+        S. (2000). Exploring ESL teachers\u2019 roles through metaphor analysis. TESOL
+        Quarterly, 34, 341\u2013351.","journal-title":"TESOL Quarterly"},{"key":"6_CR17","unstructured":"Dweck,
+        C. S. (1996). Implicit theories as organizers of goals and behavior. In P.
+        M. Gollwitzer & J. A. Bargh (Eds.), The psychology of action. Linking cognition
+        and motivation to behavior (pp. 69\u201390). New York: Guildford Press."},{"key":"6_CR18","doi-asserted-by":"crossref","first-page":"652","DOI":"10.1111\/j.1469-5812.2009.00608.x","volume":"43","author":"S
+        Farquhar","year":"2011","unstructured":"Farquhar, S., & Fitzsimons, P. (2011).
+        Lost in translation: The power of language. Educational Philosophy and Theory,
+        43, 652\u2013662.","journal-title":"Educational Philosophy and Theory"},{"key":"6_CR19","unstructured":"Gabry\u015b,
+        D. (1993). Retrieval of conventional syntagms in English: Mechanisms and effects.
+        Unpublished Ph.D. thesis, University of Silesia, Katowice."},{"key":"6_CR20","volume-title":"Aspects
+        of multilingual storage, processing and retrieval","author":"D Gabry\u015b-Barker","year":"2005","unstructured":"Gabry\u015b-Barker,
+        D. (2005). Aspects of multilingual storage, processing and retrieval. Katowice:
+        University of Silesia Press."},{"key":"6_CR21","volume-title":"Reflectivity
+        in pre-service teacher education: A survey of theory and practice","author":"D
+        Gabry\u015b-Barker","year":"2012","unstructured":"Gabry\u015b-Barker, D. (2012).
+        Reflectivity in pre-service teacher education: A survey of theory and practice.
+        Katowice: University of Silesia Press."},{"key":"6_CR22","unstructured":"Gabry\u015b-Barker,
+        D. (2016). Applied linguistic and multilingualism. In D. Singleton & L. Aronin
+        (Eds.), Twelve lectures in multilingualism (forthcoming)"},{"key":"6_CR23","first-page":"110","volume":"6","author":"L
+        Gao","year":"2010","unstructured":"Gao, L., & Meng, G. (2010). A study on
+        the effect of metaphor awareness raising on Chinese EFL learners\u2019 vocabulary
+        acquisition and retention. Canadian Social Science, 6, 110\u2013124.","journal-title":"Canadian
+        Social Science"},{"key":"6_CR24","first-page":"99","volume-title":"Mental
+        models","author":"D Gentner","year":"1983","unstructured":"Gentner, D., &
+        Gentner, D. R. (1983). Flowing waters and teeming crowds: Mental models of
+        electricity. In D. Gentner & A. L. Stevens (Eds.), Mental models (pp. 99\u2013129).
+        Hillsdale, NJ: Erlbaum."},{"key":"6_CR25","volume-title":"Embodiment and cognitive
+        science","author":"RW Gibbs Jr","year":"2006","unstructured":"Gibbs, R. W.,
+        Jr. (2006). Embodiment and cognitive science. Cambridge: Cambridge University
+        Press."},{"issue":"1","key":"6_CR26","doi-asserted-by":"crossref","first-page":"3","DOI":"10.1037\/0033-295X.97.1.3","volume":"97","author":"S
+        Gluksberg","year":"1990","unstructured":"Gluksberg, S., & Keysar, B. (1990).
+        Understanding metaphorical comparisons. Psychological Review, 97(1), 3\u201318.","journal-title":"Psychological
+        Review"},{"key":"6_CR27","unstructured":"Ipek Kuru Gonen, S., & Saglam, S.
+        (2012) Teaching culture in the FL Classroom: Teachers\u2019 perspectives.
+        International Journal of Global Education (IJGE), 1(3), 26\u201346."},{"key":"6_CR28","volume-title":"Mental
+        models: Towards a cognitive science of language, inference, and consciousness","author":"PN
+        Johnson-Laird","year":"1983","unstructured":"Johnson-Laird, P. N. (1983).
+        Mental models: Towards a cognitive science of language, inference, and consciousness.
+        Cambridge, MA: Harvard University Press."},{"key":"6_CR29","doi-asserted-by":"crossref","first-page":"57","DOI":"10.1007\/978-3-642-23547-4_4","volume-title":"Psycholinguistic
+        and sociolinguistic perspectives on second language learning and teaching","author":"H
+        Komorowska","year":"2013","unstructured":"Komorowska, H. (2013). Metaphor
+        in language education. In K. Szelest-Drozdzia\u0142 & M. Pawlak (Eds.), Psycholinguistic
+        and sociolinguistic perspectives on second language learning and teaching
+        (pp. 57\u201372). Berlin: Springer."},{"key":"6_CR30","doi-asserted-by":"crossref","first-page":"553","DOI":"10.1111\/0026-7902.00087","volume":"84","author":"C
+        Kramsch","year":"2000","unstructured":"Kramsch, C., & Kramsch, O. (2000).
+        The avatars of literature in language study. Modern Language Journal, 84,
+        553\u2013573.","journal-title":"Modern Language Journal"},{"key":"6_CR31","doi-asserted-by":"crossref","volume-title":"Women,
+        fire, and dangerous things. What categories reveal about the mind","author":"G
+        Lakoff","year":"1987","unstructured":"Lakoff, G. (1987). Women, fire, and
+        dangerous things. What categories reveal about the mind. Chicago: University
+        of Chicago Press.","DOI":"10.7208\/chicago\/9780226471013.001.0001"},{"key":"6_CR32","volume-title":"Metaphors
+        we live by","author":"G Lakoff","year":"1980","unstructured":"Lakoff, G.,
+        & Johnson, M. (1980). Metaphors we live by. Chicago: Chicago University Press."},{"key":"6_CR33","unstructured":"Liebert,
+        W.-A. (1993). Zur soziohistorischen Dynamik von Sprache und Kognition. Die
+        Emergenz des Metaphernmodells \u2018Geld ist Wasser\u2019 im 19. Jahrhundert.
+        Papiere zur Linguistik, 49(2), 151\u2013157."},{"key":"6_CR34","doi-asserted-by":"crossref","first-page":"268","DOI":"10.1093\/applin\/aml004","volume":"27","author":"J
+        Littlemore","year":"2006","unstructured":"Littlemore, J., & Low, G. (2006).
+        Metaphoric competence and communicative language ability. Applied Linguistics,
+        27, 268\u2013294.","journal-title":"Applied Linguistics"},{"key":"6_CR35","first-page":"8","volume-title":"Representations
+        of the social","author":"S Moscovici","year":"2001","unstructured":"Moscovici,
+        S. (2001). Why a theory of social representations. In K. Deaux & G. Plilog\u00e9ne
+        (Eds.), Representations of the social (pp. 8\u201335). Oxford: Blackwell."},{"key":"6_CR36","unstructured":"Moser,
+        K. S. (1998). Selbst, Sprache, Umwelt. Eine Untersuchung der symbolischen
+        Umwelt der Selbstkognition mittels Metaphernanalyse. Dissertation, Universit\u00e4t
+        Z\u00fcrich, Z\u00fcrich. Lengerich: Pabst Science Publishers, Psychologia
+        Universalis Series."},{"key":"6_CR37","first-page":"141","volume-title":"Arbeit
+        und Bildung - das Ende einer Differenz? Travail et formation - la fin d\u2019une
+        distinction? Learning and work\u2014The end of a distinction?","author":"KS
+        Moser","year":"1999","unstructured":"Moser, K. S. (1999). Knowledge Acquisition
+        through Metaphors: Anticipation of Self Change at Transitions from Learning
+        to Work. In H. Hansen, B. Sigrist, H. Goorhuis, & H. Landolt (Eds.), Arbeit
+        und Bildung - das Ende einer Differenz? Travail et formation - la fin d\u2019une
+        distinction? Learning and work\u2014The end of a distinction? (pp. 141\u2013152).
+        Aarau: Bildung Sauerl\u00e4nder."},{"key":"6_CR38","unstructured":"Moser,
+        K. S. (2000) Metaphor analysis in psychology\u2014Method, theory, and fields
+        of application. FQS Forum: Qualitative Social Research, 1(2), Art. 21. Retrieved
+        from \nwww.qualitative-research.net\n\n, on August 19, 2015"},{"key":"6_CR39","unstructured":"Moser,
+        K. S. (in press). Mentale Modelle und ihre Bedeutung: kognitionspsychologische
+        Grundlagen des (Miss) Verstehens. In U. Ganz-Bl\u00e4ttler & P. Michel (Eds.),
+        Sinnbildlich schief: Missgriffe bei Symbolgenese und Symbolgebrauch. Bern:
+        Peter Lang."},{"key":"6_CR40","first-page":"534","volume-title":"Transdisciplinarity:
+        Joint problem-solving among science, technology and society","author":"KS
+        Moser","year":"2000","unstructured":"Moser, K. S., Clases, C., & Wehner, T.
+        (2000). Taking actors\u2019 perspectives seriously: Whose knowledge and what
+        is managed? Knowledge management in a transdisciplinary perspective. In R.
+        H\u00e4berli, R. W. Scholz, A. Bill, & M. Welti (Eds.), Transdisciplinarity:
+        Joint problem-solving among science, technology and society (Vol. 1, pp. 534\u2013538).
+        Zurich: Haffmans Sachbuch Verlag."},{"key":"6_CR41","volume-title":"K\u00f6nnerschaft
+        und implizites Wissen. Zur lehr-lerntheoretischen Bedeutung der Erkenntnis-
+        und Wissenstheorie Michael Polanyis","author":"GH Neuweg","year":"1999","unstructured":"Neuweg,
+        G. H. (1999). K\u00f6nnerschaft und implizites Wissen. Zur lehr-lerntheoretischen
+        Bedeutung der Erkenntnis- und Wissenstheorie Michael Polanyis. M\u00fcnster:
+        Waxmann."},{"key":"6_CR42","unstructured":"Niemeier S. (2000). Straight from
+        the heart\u2014Metonymic and metaphorical explorations. In A. Barcelona (Ed.),
+        Metaphor and metonymy at the crossroads. A cognitive perspective. (pp. 175\u2013213).
+        Berlin\/New York: Mouton De Gruyter"},{"issue":"4","key":"6_CR43","doi-asserted-by":"crossref","first-page":"688","DOI":"10.1037\/0022-3514.77.4.688","volume":"77","author":"V
+        Ottati","year":"1999","unstructured":"Ottati, V., Rhoads, S., & Graesser,
+        A. C. (1999). The effect of metaphor on processing style in an persuasion
+        task: A motivational resonance model. Journal of Personality and Social Psychology,
+        77(4), 688\u2013697.","journal-title":"Journal of Personality and Social Psychology"},{"key":"6_CR44","doi-asserted-by":"crossref","first-page":"3","DOI":"10.1016\/S0346-251X(97)00071-7","volume":"26","author":"R
+        Oxford","year":"1998","unstructured":"Oxford, R., Tomlinson, S., Barcelos,
+        A., Harrtington, C., Lavine, R. Z., & Saleh, A. (1998). Clashing metaphors
+        about Classroom teachers. Towards a systematic typology for the language teaching
+        field. System, 26, 3\u201350.","journal-title":"System"},{"key":"6_CR45","unstructured":"Panda,
+        M., (2012). \u201cBridging\u201d and \u201cexit\u201d as metaphors of multilingual
+        education: A constructivist analysis (research in progress). Psychological
+        Studies. National Academy of Psychology at \nhttp:\/\/www.nmrc-jnu.com\/nmrc_img\/Minati%20Panda\n\n.
+        Accessed on the May 27, 2016"},{"key":"6_CR46","unstructured":"Petrie, H.
+        G., & Oschlag, R. S. (1996). Metaphor and learning. In A. Ortony (Ed.), Metaphor
+        and thought (pp. 561\u2013578). Cambridge: Cambridge University Press"},{"key":"6_CR47","unstructured":"Pontoretto
+        D. (2000). The cohesive role of cognitive metaphor and discourse and conversation.
+        In A. Barcelona (Ed.), Metaphor and metonymy at the crossroads. A cognitive
+        perspective (pp. 283\u2013298). Berlin\/New York: Mouton De Gruyter"},{"key":"6_CR48","volume-title":"The
+        end of education. Redefining the value of school","author":"N Postman","year":"1996","unstructured":"Postman,
+        N. (1996). The end of education. Redefining the value of school. Vintage:
+        Random House."},{"key":"6_CR49","doi-asserted-by":"crossref","volume-title":"Sprachliche
+        Konstruktion der Wirklichkeit. Metaphern in Therapiegespr\u00e4chen","author":"S
+        Roderburg","year":"1998","unstructured":"Roderburg, S. (1998). Sprachliche
+        Konstruktion der Wirklichkeit. Metaphern in Therapiegespr\u00e4chen. Wiesbaden:
+        Deutscher Universit\u00e4ts Verlag.","DOI":"10.1007\/978-3-322-95361-2"},{"key":"6_CR50","unstructured":"Schnotz,
+        W. (1988). Textverstehen als Aufbau mentaler Modelle. In. H. Mandl & H. Spada
+        (Eds.), Wissenpsychologie (pp. 299\u2013330). Munchen: Psychologie Verlags
+        Union."},{"key":"6_CR51","unstructured":"Sroka, M. (2011). Reading in the
+        language classroom. A literature approach to Content and Language Integrated
+        Learning. In H. Komorowska (Ed.), Issues in promoting multilingualism. Teaching\u2014Learning\u2014Assessment
+        (pp. 213\u2013232). Warszawa: FRSE"},{"key":"6_CR52","volume-title":"Tacit
+        knowledge in professional practice. Researcher and practitioner perspectives","year":"1999","unstructured":"Sternberg,
+        R. J., & Horvath, J. A. (Eds.). (1999). Tacit knowledge in professional practice.
+        Researcher and practitioner perspectives. Mahwah, NJ: Lawrence Erlbaum Ass."},{"key":"6_CR53","volume-title":"A
+        cognitive theory of cultural meaning","year":"1997","unstructured":"Strauss,
+        C., & Quinn, N. (Eds.). (1997). A cognitive theory of cultural meaning. Cambridge:
+        Cambridge University Press."},{"key":"6_CR54","volume-title":"Clean Language.
+        Revealing metaphors and opening minds","author":"W Sullivan","year":"2008","unstructured":"Sullivan,
+        W., & Rees, J. (2008). Clean Language. Revealing metaphors and opening minds.
+        Bancyfelin, Carmarthen, Wales: Crown House Publishing Limited."},{"key":"6_CR55","unstructured":"von
+        Kleist, C. (1987). Zur Verwendung von Metaphern in den Selbstdarstellungen
+        von Psychotherapieklienten. In J. B. Bergold & U. Flick (Eds.), Ein-Sichten.
+        Zug\u00e4nge zur Sicht des Subjekts mittels qualitativer Forschung (pp. 115\u2013124).
+        T\u00fcbingen: DGVT."},{"key":"6_CR56","doi-asserted-by":"crossref","first-page":"60","DOI":"10.1017\/CBO9780511529863","volume-title":"Similarity
+        and analogical thinking","author":"S Vosniadou","year":"1989","unstructured":"Vosniadou,
+        S., & Ortony, A. (1989). Similarity and analogical thinking. A synthesis.
+        In S. Vosniadou & A. Ortony (Eds.), Similarity and analogical thinking (pp.
+        60\u201375). Cambridge: Cambridge University Press."},{"key":"6_CR57","doi-asserted-by":"crossref","unstructured":"Yob,
+        I. M. (2003). Thinking constructively with metaphors. A review of Barbara
+        J. Thayer-Bacon 2000, transforming critical thinking: Thinking constructively.
+        Studies in Philosophy and Education, 22, 127\u2013138.","DOI":"10.1023\/A:1022289113443"}],"container-title":["Second
+        Language Learning and Teaching","Multiculturalism, Multilingualism and the
+        Self"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-56892-8_6","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2017,7,12]],"date-time":"2017-07-12T22:50:17Z","timestamp":1499899817000},"score":29.805256,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-56892-8_6"}},"issued":{"date-parts":[[2017]]},"ISBN":["9783319568911","9783319568928"],"references-count":57,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-56892-8_6","ISSN":["2193-7648","2193-7656"],"issn-type":[{"value":"2193-7648","type":"print"},{"value":"2193-7656","type":"electronic"}],"published":{"date-parts":[[2017]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Multilingualism,+Second+Language+Learning,+and+Gender+2001+DE+GRUYTER+MOUTON"}}}'
+  recorded_at: Sun, 15 Jan 2023 19:24:40 GMT
 recorded_with: VCR 6.1.0

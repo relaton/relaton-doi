@@ -1,8 +1,8 @@
 <bibdata type="inbook" schema-version="v1.2.1">
-  <fetched>2022-12-31</fetched>
+  <fetched>2023-01-15</fetched>
   <title type="main" format="text/plain" script="Latn">Culinary arts: Talent and their development.</title>
   <uri type="DOI">http://dx.doi.org/10.1037/0000120-016</uri>
-  <uri>http://content.apa.org/books/16096-016</uri>
+  <uri type="src">http://content.apa.org/books/16096-016</uri>
   <docidentifier type="DOI" primary="true">10.1037/0000120-016</docidentifier>
   <date type="issued">
     <on>2019</on>
@@ -104,7 +104,6 @@
   </relation>
   <place>
     <city>Washington</city>
-    <region></region>
   </place>
   <extent>
     <localityStack>

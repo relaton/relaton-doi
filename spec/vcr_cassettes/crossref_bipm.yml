@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 07 Jan 2023 00:50:58 GMT
+      - Sun, 15 Jan 2023 19:22:27 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1200'
       Set-Cookie:
-      - AWSALB=JJrPav/2dA9Ry/XdkUBwUJ/xDrtzuckxpOTv3nunFZ6yhWx4QsbPZ8SdpBMy+GuurXa9hHGWbIOkj8qVU8z6/pnUAhUlV+oGEsiqsICt0vD2Knz55dTvxXTwSOI4;
-        Expires=Sat, 14 Jan 2023 00:50:58 GMT; Path=/
-      - AWSALBCORS=JJrPav/2dA9Ry/XdkUBwUJ/xDrtzuckxpOTv3nunFZ6yhWx4QsbPZ8SdpBMy+GuurXa9hHGWbIOkj8qVU8z6/pnUAhUlV+oGEsiqsICt0vD2Knz55dTvxXTwSOI4;
-        Expires=Sat, 14 Jan 2023 00:50:58 GMT; Path=/; SameSite=None
+      - AWSALB=z/IIZxVeoFGAYn1eLaNYHHa3lfa+wzWTHuEzj+A9xIQLbZ8IqcRl0+U1XPcA9IDcd0GCVuwOIVnEVxb2uCbQnr0p3JV2jN6tBAnJU0FYNKS03S49t1c/DUyxgzei;
+        Expires=Sun, 22 Jan 2023 19:22:27 GMT; Path=/
+      - AWSALBCORS=z/IIZxVeoFGAYn1eLaNYHHa3lfa+wzWTHuEzj+A9xIQLbZ8IqcRl0+U1XPcA9IDcd0GCVuwOIVnEVxb2uCbQnr0p3JV2jN6tBAnJU0FYNKS03S49t1c/DUyxgzei;
+        Expires=Sun, 22 Jan 2023 19:22:27 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -73,7 +73,7 @@ http_interactions:
         G","year":"1990","journal-title":"Metrologia","ISSN":"http:\/\/id.crossref.org\/issn\/0026-1394","issn-type":"print"},{"key":"9","doi-asserted-by":"crossref","first-page":"111","DOI":"10.1088\/0026-1394\/27\/3\/001","volume":"27","author":"Bich
         W","year":"1990","journal-title":"Metrologia","ISSN":"http:\/\/id.crossref.org\/issn\/0026-1394","issn-type":"print"}],"container-title":["Metrologia"],"original-title":[],"link":[{"URL":"http:\/\/stacks.iop.org\/0026-1394\/29\/i=6\/a=001\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,4,10]],"date-time":"2020-04-10T22:04:49Z","timestamp":1586556289000},"score":1,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/article\/10.1088\/0026-1394\/29\/6\/001"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1993,1,1]]},"references-count":9,"journal-issue":{"issue":"6","published-print":{"date-parts":[[1992,1,1]]}},"URL":"http:\/\/dx.doi.org\/10.1088\/0026-1394\/29\/6\/001","relation":{},"ISSN":["0026-1394","1681-7575"],"issn-type":[{"value":"0026-1394","type":"print"},{"value":"1681-7575","type":"electronic"}],"subject":["General
         Engineering"],"published":{"date-parts":[[1993,1,1]]}}}'
-  recorded_at: Sat, 07 Jan 2023 00:50:58 GMT
+  recorded_at: Sun, 15 Jan 2023 19:22:27 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Decade%2BDesigns%2Bfor%2BWeighings%2Bof%2BNon-uniform%2BVariance%2B1993%2BIOP%2BPublishing
@@ -93,11 +93,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 07 Jan 2023 00:50:58 GMT
+      - Sun, 15 Jan 2023 19:22:31 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '10684'
+      - '10671'
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -125,7 +125,7 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":296704,"items":[{"indexed":{"date-parts":[[2022,7,29]],"date-time":"2022-07-29T04:19:51Z","timestamp":1659068391854},"reference-count":0,"publisher":"Princeton
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":296909,"items":[{"indexed":{"date-parts":[[2022,7,29]],"date-time":"2022-07-29T04:19:51Z","timestamp":1659068391854},"reference-count":0,"publisher":"Princeton
         University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2015,12,29]]},"abstract":"<p>This
         chapter presents solutions to generalizations of Konstantin Knop''s puzzle
         for any number of minutes and any number of parallel scales. It first describes
@@ -141,16 +141,16 @@ http_interactions:
         just-find problem.<\/p>","DOI":"10.23943\/princeton\/9780691164038.003.0007","type":"book-chapter","created":{"date-parts":[[2017,11,21]],"date-time":"2017-11-21T13:41:44Z","timestamp":1511271704000},"source":"Crossref","is-referenced-by-count":0,"title":["Parallel
         Weighings of Coins"],"prefix":"10.23943","author":[{"given":"Tanya","family":"Khovanova","sequence":"first","affiliation":[]}],"member":"10341","published-online":{"date-parts":[[2017,10,19]]},"container-title":["The
         Mathematics of Various Entertaining Subjects"],"original-title":["Parallel
-        Weighings of Coins"],"deposited":{"date-parts":[[2022,7,28]],"date-time":"2022-07-28T14:42:50Z","timestamp":1659019370000},"score":24.610409,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/princeton-scholarship-online\/book\/18317\/chapter\/176351687"}},"issued":{"date-parts":[[2015,12,29]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.23943\/princeton\/9780691164038.003.0007","published":{"date-parts":[[2015,12,29]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T23:47:13Z","timestamp":1649116033700},"edition-number":"0","reference-count":0,"publisher":"Chapman
+        Weighings of Coins"],"deposited":{"date-parts":[[2022,7,28]],"date-time":"2022-07-28T14:42:50Z","timestamp":1659019370000},"score":24.594582,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/princeton-scholarship-online\/book\/18317\/chapter\/176351687"}},"issued":{"date-parts":[[2015,12,29]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.23943\/princeton\/9780691164038.003.0007","published":{"date-parts":[[2015,12,29]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T23:47:13Z","timestamp":1649116033700},"edition-number":"0","reference-count":0,"publisher":"Chapman
         and Hall\/CRC","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004,11,29]]},"DOI":"10.1201\/9780203496817-10","type":"book-chapter","created":{"date-parts":[[2020,11,12]],"date-time":"2020-11-12T21:31:25Z","timestamp":1605216685000},"page":"171-190","source":"Crossref","is-referenced-by-count":0,"title":["Uniform
         and isotropic uniform designs"],"prefix":"10.1201","member":"301","container-title":["Stereology
-        for Statisticians"],"deposited":{"date-parts":[[2020,12,23]],"date-time":"2020-12-23T16:25:28Z","timestamp":1608740728000},"score":23.520489,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780203496817\/chapters\/10.1201\/9780203496817-10"}},"issued":{"date-parts":[[2004,11,29]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9780203496817-10","published":{"date-parts":[[2004,11,29]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T21:13:23Z","timestamp":1648588403099},"publisher-location":"Berlin,
+        for Statisticians"],"deposited":{"date-parts":[[2020,12,23]],"date-time":"2020-12-23T16:25:28Z","timestamp":1608740728000},"score":23.485825,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780203496817\/chapters\/10.1201\/9780203496817-10"}},"issued":{"date-parts":[[2004,11,29]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9780203496817-10","published":{"date-parts":[[2004,11,29]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T21:13:23Z","timestamp":1648588403099},"publisher-location":"Berlin,
         New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110877809.125","type":"book-chapter","created":{"date-parts":[[2010,12,8]],"date-time":"2010-12-08T14:31:36Z","timestamp":1291818696000},"source":"Crossref","is-referenced-by-count":0,"title":["7.
         Violations of assumptions in factorial designs and unbalanced designs"],"prefix":"10.1515","member":"374","container-title":["Statistics
-        in Language Research"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.125\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:58:54Z","timestamp":1618977534000},"score":22.834578,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.125\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110877809.125"},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T12:09:24Z","timestamp":1648642164959},"publisher-location":"Berlin,
+        in Language Research"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.125\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:58:54Z","timestamp":1618977534000},"score":22.79,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.125\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110877809.125"},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T12:09:24Z","timestamp":1648642164959},"publisher-location":"Berlin,
         New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110877809.75","type":"book-chapter","created":{"date-parts":[[2010,12,8]],"date-time":"2010-12-08T14:31:36Z","timestamp":1291818696000},"source":"Crossref","is-referenced-by-count":0,"title":["5.
         Multifactorial designs"],"prefix":"10.1515","member":"374","container-title":["Statistics
-        in Language Research"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.75\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:58:59Z","timestamp":1618977539000},"score":22.483917,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.75\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110877809.75"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T20:03:28Z","timestamp":1648584208071},"publisher-location":"Boston,
+        in Language Research"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.75\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:58:59Z","timestamp":1618977539000},"score":22.446152,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.75\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110877809.75"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T20:03:28Z","timestamp":1648584208071},"publisher-location":"Boston,
         MA","reference-count":80,"publisher":"Springer US","isbn-type":[{"value":"9781461362746","type":"print"},{"value":"9781461529347","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1993]]},"DOI":"10.1007\/978-1-4615-2934-7_36","type":"book-chapter","created":{"date-parts":[[2011,11,8]],"date-time":"2011-11-08T13:37:38Z","timestamp":1320759458000},"page":"411-425","source":"Crossref","is-referenced-by-count":0,"title":["New
         Free Energy Model for Non-Uniform Fluids"],"prefix":"10.1007","author":[{"given":"Yaakov","family":"Rosenfeld","sequence":"first","affiliation":[]}],"member":"297","reference":[{"key":"36_CR1","doi-asserted-by":"publisher","first-page":"143","DOI":"10.1080\/00018737900101365","volume":"28","author":"R
         Evans","year":"1979","unstructured":"R. Evans, Adv.Phys. 28:143 (1979).","journal-title":"Adv.Phys."},{"key":"36_CR2","volume-title":"Molecular
@@ -307,14 +307,11 @@ http_interactions:
         85:2197 (1986).","journal-title":"J.Chem.Phys."},{"key":"36_CR79","unstructured":"A
         recent verification by simulations for the Lennard-Jones system is presented
         by M. Llano-Restrepo and W.G. Chapman, submitted to J.ChemPhys. (1992)."}],"container-title":["Condensed
-        Matter Theories"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4615-2934-7_36.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,5,1]],"date-time":"2021-05-01T10:47:54Z","timestamp":1619866074000},"score":22.445385,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-4615-2934-7_36"}},"issued":{"date-parts":[[1993]]},"ISBN":["9781461362746","9781461529347"],"references-count":80,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4615-2934-7_36","published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T10:00:51Z","timestamp":1648980051613},"publisher-location":"Basel","reference-count":0,"publisher":"Birkh\u00e4user
+        Matter Theories"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4615-2934-7_36.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,5,1]],"date-time":"2021-05-01T10:47:54Z","timestamp":1619866074000},"score":22.444506,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-4615-2934-7_36"}},"issued":{"date-parts":[[1993]]},"ISBN":["9781461362746","9781461529347"],"references-count":80,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4615-2934-7_36","published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T10:00:51Z","timestamp":1648980051613},"publisher-location":"Basel","reference-count":0,"publisher":"Birkh\u00e4user
         Basel","isbn-type":[{"value":"9783034863407","type":"print"},{"value":"9783034863384","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1993]]},"DOI":"10.1007\/978-3-0348-6338-4_7","type":"book-chapter","created":{"date-parts":[[2013,12,29]],"date-time":"2013-12-29T16:57:26Z","timestamp":1388336246000},"page":"77-89","source":"Crossref","is-referenced-by-count":2,"title":["Integrating
         Singularities using Non-uniform Subdivision and Extrapolation"],"prefix":"10.1007","author":[{"given":"Terje
         O.","family":"Espelid","sequence":"first","affiliation":[]}],"member":"297","container-title":["Numerical
-        Integration IV"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-0348-6338-4_7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2013,12,29]],"date-time":"2013-12-29T16:57:36Z","timestamp":1388336256000},"score":22.212017,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-0348-6338-4_7"}},"issued":{"date-parts":[[1993]]},"ISBN":["9783034863407","9783034863384"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-0348-6338-4_7","published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T11:49:10Z","timestamp":1648813750994},"publisher-location":"Hoboken,
-        NJ, USA","reference-count":0,"publisher":"John Wiley & Sons, Inc.","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1002\/9780470072769.ch14","type":"book-chapter","created":{"date-parts":[[2007,4,19]],"date-time":"2007-04-19T17:07:32Z","timestamp":1177002452000},"page":"461-481","source":"Crossref","is-referenced-by-count":0,"title":["Variance-Optimal
-        Designs"],"prefix":"10.1002","member":"311","container-title":["Response Surfaces,
-        Mixtures, and Ridge Analyses"],"link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full\/10.1002\/9780470072769.ch14","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,6,30]],"date-time":"2021-06-30T03:56:35Z","timestamp":1625025395000},"score":22.14554,"resource":{"primary":{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/10.1002\/9780470072769.ch14"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1002\/9780470072769.ch14"},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T00:41:40Z","timestamp":1648514500864},"reference-count":7,"publisher":"Elsevier","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1993]]},"DOI":"10.1016\/b978-0-444-89995-8.50051-5","type":"book-chapter","created":{"date-parts":[[2013,12,19]],"date-time":"2013-12-19T02:28:02Z","timestamp":1387420082000},"page":"297-301","source":"Crossref","is-referenced-by-count":0,"title":["PLASMA
+        Integration IV"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-0348-6338-4_7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2013,12,29]],"date-time":"2013-12-29T16:57:36Z","timestamp":1388336256000},"score":22.175175,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-0348-6338-4_7"}},"issued":{"date-parts":[[1993]]},"ISBN":["9783034863407","9783034863384"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-0348-6338-4_7","published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T00:41:40Z","timestamp":1648514500864},"reference-count":7,"publisher":"Elsevier","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1993]]},"DOI":"10.1016\/b978-0-444-89995-8.50051-5","type":"book-chapter","created":{"date-parts":[[2013,12,19]],"date-time":"2013-12-19T02:28:02Z","timestamp":1387420082000},"page":"297-301","source":"Crossref","is-referenced-by-count":0,"title":["PLASMA
         FACING SURFACES UNDER A POLOIDALLY NON-UNIFORM HEAT INPUT"],"prefix":"10.1016","author":[{"given":"Panayiotis
         J.","family":"Karditsas","sequence":"first","affiliation":[]}],"member":"78","reference":[{"key":"10.1016\/B978-0-444-89995-8.50051-5_bib1","unstructured":"R.
         Siegel, J. R. Howell, Thermal Radiation Heat Transfer, Hemisphere, p. 203."},{"key":"10.1016\/B978-0-444-89995-8.50051-5_bib2","series-title":"The
@@ -328,16 +325,19 @@ http_interactions:
         Monte Carlo analysis of the NET Shielding System","volume":"2","author":"Gallina","year":"1988","journal-title":"Fusion
         Technology"},{"key":"10.1016\/B978-0-444-89995-8.50051-5_bib7","series-title":"Design
         Technology of Fusion Reactors","first-page":"490","author":"Akiyama","year":"1991"}],"container-title":["Fusion
-        Technology 1992"],"deposited":{"date-parts":[[2018,10,7]],"date-time":"2018-10-07T20:58:27Z","timestamp":1538945907000},"score":22.137993,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780444899958500515"}},"issued":{"date-parts":[[1993]]},"references-count":7,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-444-89995-8.50051-5","published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,3,28]],"date-time":"2022-03-28T23:07:38Z","timestamp":1648508858336},"edition-number":"0","reference-count":0,"publisher":"CRC
+        Technology 1992"],"deposited":{"date-parts":[[2018,10,7]],"date-time":"2018-10-07T20:58:27Z","timestamp":1538945907000},"score":22.107214,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780444899958500515"}},"issued":{"date-parts":[[1993]]},"references-count":7,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-444-89995-8.50051-5","published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,3,28]],"date-time":"2022-03-28T23:07:38Z","timestamp":1648508858336},"edition-number":"0","reference-count":0,"publisher":"CRC
         Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1992,2,28]]},"DOI":"10.1201\/9781482277142-21","type":"book-chapter","created":{"date-parts":[[2020,7,9]],"date-time":"2020-07-09T15:58:48Z","timestamp":1594310328000},"page":"133-135","source":"Crossref","is-referenced-by-count":0,"title":["Crossed
         Random Designs"],"prefix":"10.1201","member":"301","container-title":["Confidence
-        Intervals on Variance Components"],"deposited":{"date-parts":[[2020,7,9]],"date-time":"2020-07-09T15:59:04Z","timestamp":1594310344000},"score":22.1324,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781482277142\/chapters\/10.1201\/9781482277142-21"}},"issued":{"date-parts":[[1992,2,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781482277142-21","published":{"date-parts":[[1992,2,28]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T00:21:51Z","timestamp":1648686111312},"publisher-location":"Berlin,
+        Intervals on Variance Components"],"deposited":{"date-parts":[[2020,7,9]],"date-time":"2020-07-09T15:59:04Z","timestamp":1594310344000},"score":22.093754,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781482277142\/chapters\/10.1201\/9781482277142-21"}},"issued":{"date-parts":[[1992,2,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781482277142-21","published":{"date-parts":[[1992,2,28]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T11:49:10Z","timestamp":1648813750994},"publisher-location":"Hoboken,
+        NJ, USA","reference-count":0,"publisher":"John Wiley & Sons, Inc.","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1002\/9780470072769.ch14","type":"book-chapter","created":{"date-parts":[[2007,4,19]],"date-time":"2007-04-19T17:07:32Z","timestamp":1177002452000},"page":"461-481","source":"Crossref","is-referenced-by-count":0,"title":["Variance-Optimal
+        Designs"],"prefix":"10.1002","member":"311","container-title":["Response Surfaces,
+        Mixtures, and Ridge Analyses"],"link":[{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/full\/10.1002\/9780470072769.ch14","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,6,30]],"date-time":"2021-06-30T03:56:35Z","timestamp":1625025395000},"score":22.092148,"resource":{"primary":{"URL":"https:\/\/onlinelibrary.wiley.com\/doi\/10.1002\/9780470072769.ch14"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1002\/9780470072769.ch14"},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T00:21:51Z","timestamp":1648686111312},"publisher-location":"Berlin,
         New York","reference-count":0,"publisher":"DE GRUYTER MOUTON","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110877809.151","type":"book-chapter","created":{"date-parts":[[2010,12,8]],"date-time":"2010-12-08T14:31:36Z","timestamp":1291818696000},"source":"Crossref","is-referenced-by-count":0,"title":["8.
         Repeated measures designs"],"prefix":"10.1515","member":"374","container-title":["Statistics
-        in Language Research"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.151\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:58:55Z","timestamp":1618977535000},"score":22.065567,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.151\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110877809.151"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T18:53:45Z","timestamp":1649184825870},"edition-number":"0","reference-count":0,"publisher":"Chapman
+        in Language Research"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.151\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:58:55Z","timestamp":1618977535000},"score":22.02668,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110877809.151\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110877809.151"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T18:53:45Z","timestamp":1649184825870},"edition-number":"0","reference-count":0,"publisher":"Chapman
         and Hall\/CRC","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2000,5,12]]},"DOI":"10.1201\/9781420035926-11","type":"book-chapter","created":{"date-parts":[[2020,12,22]],"date-time":"2020-12-22T19:16:15Z","timestamp":1608664575000},"page":"187-192","source":"Crossref","is-referenced-by-count":0,"title":["EQUALITY
         OF VARIANCE"],"prefix":"10.1201","member":"301","container-title":["Analysis
-        of Pretest-Posttest Designs"],"deposited":{"date-parts":[[2021,4,10]],"date-time":"2021-04-10T18:51:37Z","timestamp":1618080697000},"score":22.059607,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781420035926\/chapters\/10.1201\/9781420035926-11"}},"issued":{"date-parts":[[2000,5,12]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781420035926-11","published":{"date-parts":[[2000,5,12]]}},{"indexed":{"date-parts":[[2022,4,6]],"date-time":"2022-04-06T03:41:24Z","timestamp":1649216484200},"publisher-location":"Wiesbaden","reference-count":7,"publisher":"Vieweg+Teubner
+        of Pretest-Posttest Designs"],"deposited":{"date-parts":[[2021,4,10]],"date-time":"2021-04-10T18:51:37Z","timestamp":1618080697000},"score":21.996552,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781420035926\/chapters\/10.1201\/9781420035926-11"}},"issued":{"date-parts":[[2000,5,12]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781420035926-11","published":{"date-parts":[[2000,5,12]]}},{"indexed":{"date-parts":[[2022,4,6]],"date-time":"2022-04-06T03:41:24Z","timestamp":1649216484200},"publisher-location":"Wiesbaden","reference-count":7,"publisher":"Vieweg+Teubner
         Verlag","isbn-type":[{"value":"9783528076443","type":"print"},{"value":"9783322878816","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1993]]},"DOI":"10.1007\/978-3-322-87881-6_9","type":"book-chapter","created":{"date-parts":[[2012,7,28]],"date-time":"2012-07-28T20:31:48Z","timestamp":1343507508000},"page":"55-62","source":"Crossref","is-referenced-by-count":0,"title":["Surface
         Modelling Using Coons Multipatch and Non-Uniform Rational Surface"],"prefix":"10.1007","author":[{"given":"E.","family":"Chaput","sequence":"first","affiliation":[]}],"member":"297","reference":[{"key":"9_CR1","doi-asserted-by":"crossref","unstructured":"COONS
         S.A. (1967) - Surfaces for computer. Aided Design of Space Forms MAC-TR41
@@ -360,234 +360,33 @@ http_interactions:
         paper 87\u20130275.","DOI":"10.2514\/6.1987-275"},{"key":"9_CR7","unstructured":"DING
         QIULIN and DAVIES B.J. (1987) - Surface engineering geometry for computed-aided
         design and manufacture, Ellis Horwood Series in Mechanical Engineering, 1987."}],"container-title":["Multiblock
-        Grid Generation"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-322-87881-6_9.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,5,2]],"date-time":"2021-05-02T18:54:45Z","timestamp":1619981685000},"score":21.947136,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-322-87881-6_9"}},"issued":{"date-parts":[[1993]]},"ISBN":["9783528076443","9783322878816"],"references-count":7,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-322-87881-6_9","published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,6,14]],"date-time":"2022-06-14T16:13:48Z","timestamp":1655223228647},"edition-number":"1","reference-count":0,"publisher":"Cambridge
+        Grid Generation"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-322-87881-6_9.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,5,2]],"date-time":"2021-05-02T18:54:45Z","timestamp":1619981685000},"score":21.909704,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-322-87881-6_9"}},"issued":{"date-parts":[[1993]]},"ISBN":["9783528076443","9783322878816"],"references-count":7,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-322-87881-6_9","published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,6,14]],"date-time":"2022-06-14T16:13:48Z","timestamp":1655223228647},"edition-number":"1","reference-count":0,"publisher":"Cambridge
         University Press","license":[{"start":{"date-parts":[[2012,6,5]],"date-time":"2012-06-05T00:00:00Z","timestamp":1338854400000},"content-version":"unspecified","delay-in-days":1373,"URL":"https:\/\/www.cambridge.org\/core\/terms"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2008,9,1]]},"DOI":"10.1017\/cbo9780511801648.018","type":"book-chapter","created":{"date-parts":[[2012,6,15]],"date-time":"2012-06-15T18:15:54Z","timestamp":1339784154000},"page":"488-498","source":"Crossref","is-referenced-by-count":0,"title":["ADVANCED
         TOPICS IN ANALYSIS OF VARIANCE"],"prefix":"10.1017","member":"56","container-title":["Analysis
-        of Variance Designs"],"link":[{"URL":"https:\/\/www.cambridge.org\/core\/services\/aop-cambridge-core\/content\/view\/B6E641D4B67343BEE5BFB281C0206479","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,6,14]],"date-time":"2022-06-14T15:46:58Z","timestamp":1655221618000},"score":21.696396,"resource":{"primary":{"URL":"https:\/\/www.cambridge.org\/core\/product\/identifier\/CBO9780511801648A261\/type\/book_part"}},"issued":{"date-parts":[[2008,9,1]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1017\/cbo9780511801648.018","published":{"date-parts":[[2008,9,1]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T22:15:14Z","timestamp":1649110514665},"edition-number":"1","reference-count":0,"publisher":"Auerbach
+        of Variance Designs"],"link":[{"URL":"https:\/\/www.cambridge.org\/core\/services\/aop-cambridge-core\/content\/view\/B6E641D4B67343BEE5BFB281C0206479","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,6,14]],"date-time":"2022-06-14T15:46:58Z","timestamp":1655221618000},"score":21.687408,"resource":{"primary":{"URL":"https:\/\/www.cambridge.org\/core\/product\/identifier\/CBO9780511801648A261\/type\/book_part"}},"issued":{"date-parts":[[2008,9,1]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1017\/cbo9780511801648.018","published":{"date-parts":[[2008,9,1]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T22:15:14Z","timestamp":1649110514665},"edition-number":"1","reference-count":0,"publisher":"Auerbach
         Publications","isbn-type":[{"value":"9780429108037","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2011,12,14]]},"DOI":"10.1201\/b11692-8","type":"book-chapter","created":{"date-parts":[[2016,9,10]],"date-time":"2016-09-10T00:51:52Z","timestamp":1473468712000},"page":"135-148","source":"Crossref","is-referenced-by-count":0,"title":["What
         Is Time Variance?"],"prefix":"10.1201","author":[{"given":"Fon","family":"Silvers","sequence":"first","affiliation":[]}],"member":"301","container-title":["Data
-        Warehouse Designs"],"link":[{"URL":"http:\/\/www.crcnetbase.com\/doi\/pdf\/10.1201\/b11692-8","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,4]],"date-time":"2021-04-04T18:51:27Z","timestamp":1617562287000},"score":21.688715,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781439870778\/chapters\/10.1201\/b11692-8"}},"issued":{"date-parts":[[2011,12,14]]},"ISBN":["9780429108037"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/b11692-8","published":{"date-parts":[[2011,12,14]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T13:57:13Z","timestamp":1649167033115},"edition-number":"0","reference-count":0,"publisher":"Psychology
+        Warehouse Designs"],"link":[{"URL":"http:\/\/www.crcnetbase.com\/doi\/pdf\/10.1201\/b11692-8","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,4]],"date-time":"2021-04-04T18:51:27Z","timestamp":1617562287000},"score":21.65747,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781439870778\/chapters\/10.1201\/b11692-8"}},"issued":{"date-parts":[[2011,12,14]]},"ISBN":["9780429108037"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/b11692-8","published":{"date-parts":[[2011,12,14]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T13:57:13Z","timestamp":1649167033115},"edition-number":"0","reference-count":0,"publisher":"Psychology
         Press","isbn-type":[{"value":"9781410607676","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2003,6,20]]},"DOI":"10.4324\/9781410607676-16","type":"book-chapter","created":{"date-parts":[[2021,3,6]],"date-time":"2021-03-06T02:01:55Z","timestamp":1614996115000},"page":"157-177","source":"Crossref","is-referenced-by-count":0,"title":["Multivariate
         Analysis of Variance: Designs With Multiple Dependent Variables Tested Simultaneously"],"prefix":"10.4324","member":"301","container-title":["Levine''s
-        Guide to SPSS for Analysis of Variance"],"deposited":{"date-parts":[[2021,4,9]],"date-time":"2021-04-09T04:01:29Z","timestamp":1617940889000},"score":21.52248,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781135674403\/chapters\/10.4324\/9781410607676-16"}},"issued":{"date-parts":[[2003,6,20]]},"ISBN":["9781410607676"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781410607676-16","published":{"date-parts":[[2003,6,20]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T02:51:38Z","timestamp":1648695098154},"edition-number":"1","reference-count":0,"publisher":"Auerbach
+        Guide to SPSS for Analysis of Variance"],"deposited":{"date-parts":[[2021,4,9]],"date-time":"2021-04-09T04:01:29Z","timestamp":1617940889000},"score":21.479538,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781135674403\/chapters\/10.4324\/9781410607676-16"}},"issued":{"date-parts":[[2003,6,20]]},"ISBN":["9781410607676"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781410607676-16","published":{"date-parts":[[2003,6,20]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T02:51:38Z","timestamp":1648695098154},"edition-number":"1","reference-count":0,"publisher":"Auerbach
         Publications","isbn-type":[{"value":"9780429108037","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2011,12,14]]},"DOI":"10.1201\/b11692-10","type":"book-chapter","created":{"date-parts":[[2016,9,10]],"date-time":"2016-09-10T00:51:52Z","timestamp":1473468712000},"page":"155-162","source":"Crossref","is-referenced-by-count":0,"title":["Why
         Is Time Variance Difficult?"],"prefix":"10.1201","author":[{"given":"Fon","family":"Silvers","sequence":"first","affiliation":[]}],"member":"301","container-title":["Data
-        Warehouse Designs"],"link":[{"URL":"http:\/\/www.crcnetbase.com\/doi\/pdf\/10.1201\/b11692-10","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,4]],"date-time":"2021-04-04T18:51:29Z","timestamp":1617562289000},"score":21.459522,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781439870778\/chapters\/10.1201\/b11692-10"}},"issued":{"date-parts":[[2011,12,14]]},"ISBN":["9780429108037"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/b11692-10","published":{"date-parts":[[2011,12,14]]}},{"indexed":{"date-parts":[[2022,4,26]],"date-time":"2022-04-26T19:40:59Z","timestamp":1651002059634},"publisher-location":"2455
-        Teller Road,\u00a0Newbury Park\u00a0California\u00a091320\u00a0United States
-        of America\u00a0","reference-count":0,"publisher":"SAGE Publications, Inc.","isbn-type":[{"value":"9780803923102","type":"print"},{"value":"9781412985222","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1985]]},"DOI":"10.4135\/9781412985222.n5","type":"book-chapter","created":{"date-parts":[[2011,7,15]],"date-time":"2011-07-15T19:48:50Z","timestamp":1310759330000},"page":"69-71","source":"Crossref","is-referenced-by-count":0,"title":["Complex
-        Designs"],"prefix":"10.4135","member":"179","container-title":["Multivariate
-        Analysis of Variance"],"link":[{"URL":"http:\/\/journals.sagepub.com\/doi\/pdf\/10.4135\/9781412985222.n5","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,4,26]],"date-time":"2022-04-26T19:06:20Z","timestamp":1650999980000},"score":21.409908,"resource":{"primary":{"URL":"https:\/\/methods.sagepub.com\/book\/multivariate-analysis-of-variance\/n5.xml"}},"issued":{"date-parts":[[1985]]},"ISBN":["9780803923102","9781412985222"],"references-count":0,"alternative-id":["10.4135\/9781412985222"],"URL":"http:\/\/dx.doi.org\/10.4135\/9781412985222.n5","published":{"date-parts":[[1985]]}},{"indexed":{"date-parts":[[2022,4,27]],"date-time":"2022-04-27T07:10:06Z","timestamp":1651043406814},"publisher-location":"1
-        Oliver''s Yard,\u00a055 City Road,\u00a0London\u00a0England\u00a0EC1Y 1SP\u00a0United
-        Kingdom\u00a0","reference-count":0,"publisher":"SAGE Publications, Ltd","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004]]},"DOI":"10.4135\/9781849208598.n7","type":"book-chapter","created":{"date-parts":[[2011,7,15]],"date-time":"2011-07-15T19:48:50Z","timestamp":1310759330000},"page":"147-172","source":"Crossref","is-referenced-by-count":0,"title":["Mixed
-        Designs"],"prefix":"10.4135","member":"179","container-title":["Analysis of
-        Variance via Confidence Intervals"],"link":[{"URL":"http:\/\/journals.sagepub.com\/doi\/pdf\/10.4135\/9781849208598.n7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,4,26]],"date-time":"2022-04-26T09:15:32Z","timestamp":1650964532000},"score":21.409908,"resource":{"primary":{"URL":"https:\/\/methods.sagepub.com\/book\/analysis-of-variance-via-confidence-intervals\/n7.xml"}},"issued":{"date-parts":[[2004]]},"references-count":0,"alternative-id":["10.4135\/9781849208598"],"URL":"http:\/\/dx.doi.org\/10.4135\/9781849208598.n7","published":{"date-parts":[[2004]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T11:16:48Z","timestamp":1648639008705},"edition-number":"0","reference-count":0,"publisher":"CRC
-        Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1992,2,28]]},"DOI":"10.1201\/9781482277142-6","type":"book-chapter","created":{"date-parts":[[2020,7,9]],"date-time":"2020-07-09T15:58:48Z","timestamp":1594310328000},"page":"44-63","source":"Crossref","is-referenced-by-count":0,"title":["General
-        Results for Balanced Designs"],"prefix":"10.1201","member":"301","container-title":["Confidence
-        Intervals on Variance Components"],"deposited":{"date-parts":[[2020,7,9]],"date-time":"2020-07-09T15:58:53Z","timestamp":1594310333000},"score":21.406033,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781482277142\/chapters\/10.1201\/9781482277142-6"}},"issued":{"date-parts":[[1992,2,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781482277142-6","published":{"date-parts":[[1992,2,28]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T23:36:12Z","timestamp":1648942572556},"reference-count":2,"publisher":"Elsevier","license":[{"start":{"date-parts":[[1993,1,1]],"date-time":"1993-01-01T00:00:00Z","timestamp":725846400000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1993]]},"DOI":"10.1016\/b978-0-444-89991-0.50043-3","type":"book-chapter","created":{"date-parts":[[2014,8,15]],"date-time":"2014-08-15T23:37:00Z","timestamp":1408145820000},"page":"309-314","source":"Crossref","is-referenced-by-count":0,"title":["THERMOELASTIC-PLASTIC
+        Warehouse Designs"],"link":[{"URL":"http:\/\/www.crcnetbase.com\/doi\/pdf\/10.1201\/b11692-10","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,4]],"date-time":"2021-04-04T18:51:29Z","timestamp":1617562289000},"score":21.428932,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781439870778\/chapters\/10.1201\/b11692-10"}},"issued":{"date-parts":[[2011,12,14]]},"ISBN":["9780429108037"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/b11692-10","published":{"date-parts":[[2011,12,14]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T23:36:12Z","timestamp":1648942572556},"reference-count":2,"publisher":"Elsevier","license":[{"start":{"date-parts":[[1993,1,1]],"date-time":"1993-01-01T00:00:00Z","timestamp":725846400000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1993]]},"DOI":"10.1016\/b978-0-444-89991-0.50043-3","type":"book-chapter","created":{"date-parts":[[2014,8,15]],"date-time":"2014-08-15T23:37:00Z","timestamp":1408145820000},"page":"309-314","source":"Crossref","is-referenced-by-count":0,"title":["THERMOELASTIC-PLASTIC
         DEFORMATIONS OF ANISOTROPIC MATERIALS WITH NON-UNIFORM TEMPERATURE"],"prefix":"10.1016","author":[{"given":"A.J.M.","family":"Spencer","sequence":"first","affiliation":[]}],"member":"78","reference":[{"key":"10.1016\/B978-0-444-89991-0.50043-3_bib1","series-title":"\u2018Anisotropy
         and localisation of plastic deformation\u2019","first-page":"28","author":"Spencer","year":"1991"},{"key":"10.1016\/B978-0-444-89991-0.50043-3_bib2","first-page":"67","volume":"2","author":"O''Neill","year":"1988","journal-title":"Math.
         Engng. Ind."}],"container-title":["Advances in Engineering Plasticity and
-        its Applications"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780444899910500433?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780444899910500433?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2018,9,30]],"date-time":"2018-09-30T14:21:35Z","timestamp":1538317295000},"score":21.39914,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780444899910500433"}},"issued":{"date-parts":[[1993]]},"references-count":2,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-444-89991-0.50043-3","published":{"date-parts":[[1993]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Decade+Designs+for+Weighings+of+Non-uniform+Variance+1993+IOP+Publishing"}}}'
-  recorded_at: Sat, 07 Jan 2023 00:50:58 GMT
-- request:
-    method: get
-    uri: http://api.crossref.org/works?filter=type:book&query.bibliographic=%22Metrologia,%20IOP%20Publishing,%20,%201993%22&rows=10
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.10.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 07 Jan 2023 00:51:00 GMT
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '6183'
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Vary:
-      - Accept-Encoding
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Ratelimit-Limit:
-      - '50'
-      X-Ratelimit-Interval:
-      - 1s
-      X-Api-Pool:
-      - public
-      X-Rate-Limit-Limit:
-      - '50'
-      X-Rate-Limit-Interval:
-      - 1s
-      Permissions-Policy:
-      - interest-cohort=()
-      Connection:
-      - close
-    body:
-      encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":7847,"items":[{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T18:04:09Z","timestamp":1648749849876},"reference-count":0,"publisher":"University
-        of Illinois Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,4,20]]},"abstract":"<p>This
-        chapter explores two case studies that each illustrate an attempt to infuse
-        feminist politics into the economically driven apparatus of book publishing:
-        <italic>Sisterhood Is Powerful<\/italic> (1970) and <italic>This Bridge Called
-        My Back: Writings by Radical Women of Color<\/italic> (1981). Exploring the
-        publication history of <italic>Sisterhood Is Powerful<\/italic> provides a
-        landmark case study of feminist experimentation in publishing that was inevitably
-        fraught with controversy due to the ideological struggles of the time over
-        economic and political \u201cpurity.\u201d <italic>This Bridge Called My Back<\/italic>
-        was published under an unusual type of contract in which contributors, rather
-        than receiving a one-time payment at the beginning, would continue to receive
-        payments for every ten thousand copies sold. Overall, these studies show the
-        variety of ways in which feminists tried to get around the \u201ctaint\u201d
-        of publishing''s relationship to the power structure in order to enact a feminist
-        sensibility not just in the content of their writing but also in its production
-        and dissemination.<\/p>","DOI":"10.5406\/illinois\/9780252039805.003.0002","type":"book","created":{"date-parts":[[2017,5,5]],"date-time":"2017-05-05T05:21:25Z","timestamp":1493961685000},"source":"Crossref","is-referenced-by-count":0,"title":["Feminist
-        Publishing\/Publishing Feminism"],"prefix":"10.5406","author":[{"given":"Jennifer","family":"Gilley","sequence":"first","affiliation":[]}],"member":"3673","container-title":["University
-        of Illinois Press"],"original-title":["Feminist Publishing\/Publishing Feminism"],"deposited":{"date-parts":[[2018,4,11]],"date-time":"2018-04-11T10:35:00Z","timestamp":1523442900000},"score":14.002746,"resource":{"primary":{"URL":"http:\/\/illinois.universitypressscholarship.com\/view\/10.5406\/illinois\/9780252039805.001.0001\/upso-9780252039805-chapter-2"}},"issued":{"date-parts":[[2017,4,20]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5406\/illinois\/9780252039805.003.0002","published":{"date-parts":[[2017,4,20]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T12:37:11Z","timestamp":1648643831596},"edition-number":"1","reference-count":0,"publisher":"Societ\u00e0
-        Editrice Esculapio","isbn-type":[{"value":"9788874886074","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2013,9,1]]},"DOI":"10.15651\/978-88-748-8607-4","type":"book","created":{"date-parts":[[2014,8,4]],"date-time":"2014-08-04T09:52:06Z","timestamp":1407145926000},"source":"Crossref","is-referenced-by-count":0,"title":["Metrologia
-        dimensionale. Teoria e Procedure di Taratura"],"prefix":"10.15651","author":[{"given":"Aldo","family":"Ponterio","sequence":"first","affiliation":[]},{"given":"Gianfranco","family":"Malagola","sequence":"additional","affiliation":[]}],"member":"6286","deposited":{"date-parts":[[2014,8,4]],"date-time":"2014-08-04T09:52:07Z","timestamp":1407145927000},"score":13.302983,"resource":{"primary":{"URL":"http:\/\/www.editrice-esculapio.com\/malagola-ponterio-metrologia-dimensionale-teoria-e-procedure-di-taratura\/"}},"issued":{"date-parts":[[2013,9,1]]},"ISBN":["9788874886074"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.15651\/978-88-748-8607-4","published":{"date-parts":[[2013,9,1]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:37:48Z","timestamp":1659501468079},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,6,22]]},"abstract":"<p>Trade
-        publishing at Oxford University Press included those titles aimed at a broader
-        audience, including general non-fiction, illustrated histories and encyclopedias,
-        World\u2019s Classics, and children\u2019s books. Originally a separate operation
-        of the London Business, overseas trade publishing later devolved to the branches
-        while domestic trade titles were amalgamated into the Oxford academic lists.
-        Trade titles involved a higher level of risk, deeper discounts to booksellers,
-        larger author royalty payments, and investment in marketing and sales. The
-        Press gradually minimized these risks by introducing greater oversight from
-        the Delegates on manuscript selection, and by reducing the number of individual
-        titles and concentrating on series. The chapter highlights the significant
-        series and individual trade titles from across the Press, and considers the
-        trade list both in its interaction with OUP\u2019s wider academic and scholarly
-        interests and within the context of commercial trade publishing.<\/p>","DOI":"10.1093\/acprof:oso\/9780199574797.003.0012","type":"book","created":{"date-parts":[[2017,6,22]],"date-time":"2017-06-22T08:16:57Z","timestamp":1498119417000},"source":"Crossref","is-referenced-by-count":0,"title":["Trade
-        Publishing"],"prefix":"10.1093","author":[{"given":"Angus","family":"Phillips","sequence":"first","affiliation":[]}],"member":"286","container-title":["Oxford
-        Scholarship Online"],"original-title":["Trade Publishing"],"deposited":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T00:23:38Z","timestamp":1659486218000},"score":12.726707,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/10146\/chapter\/157675230"}},"issued":{"date-parts":[[2017,6,22]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/acprof:oso\/9780199574797.003.0012","published":{"date-parts":[[2017,6,22]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:38:16Z","timestamp":1659501496675},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,6,22]]},"abstract":"<p>The
-        core of the Oxford University Press is academic publishing, and it was from
-        this strength that the Press developed interests in reference, educational,
-        and trade publishing. Scholarly publishing, although a significant component
-        of the New York Business and a number of the branches, is primarily centred
-        in Oxford and distributed under the imprint of The Clarendon Press. The chapter
-        considers the growth of the university textbook market and the conscious effort
-        of the Press, as recommended by the Waldock Report, to expand the scientific
-        list and to cultivate relationships with the academic faculties of the University
-        of Oxford. The chapter outlines OUP\u2019s response to pedagogic and research
-        developments in universities and the economics of the academic publishing
-        sector. The influence of individual editors and senior management is also
-        considered, as are the Press\u2019s efforts to coordinate its academic programme
-        across the three major markets in America, Europe, and Japan.<\/p>","DOI":"10.1093\/acprof:oso\/9780199574797.003.0011","type":"book","created":{"date-parts":[[2017,6,22]],"date-time":"2017-06-22T08:16:57Z","timestamp":1498119417000},"source":"Crossref","is-referenced-by-count":0,"title":["Academic
-        Publishing"],"prefix":"10.1093","author":[{"given":"Andrew","family":"Schuller","sequence":"first","affiliation":[]}],"member":"286","container-title":["Oxford
-        Scholarship Online"],"original-title":["Academic Publishing"],"deposited":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T00:23:41Z","timestamp":1659486221000},"score":12.726707,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/10146\/chapter\/157672762"}},"issued":{"date-parts":[[2017,6,22]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/acprof:oso\/9780199574797.003.0011","published":{"date-parts":[[2017,6,22]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:38:11Z","timestamp":1659501491407},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,6,22]]},"abstract":"<p>Oxford
-        University Press had a long-established tradition of publishing books for
-        schools and for the education of young readers, a commitment reiterated and
-        commended by the Waldock Report. The Press issued schoolbooks in New York,
-        through all of its overseas branches, and in Britain. This chapter examines
-        the publication of schoolbooks for the UK market as edited and distributed
-        from Oxford with regard to developments in educational approaches\u2014including
-        the appearance of computers in the classroom, fluctuations in state funding
-        for schools, and the introduction of the National Curriculum. The chapter
-        also considers the management, sales, and financial position of the Press\u2019s
-        educational publishing division in the context of the competitive UK schools
-        market. The second half of the chapter presents case studies of important
-        OUP educational titles and series, including Oxford Reading Tree and Oxford
-        dictionaries for schools and young readers.<\/p>","DOI":"10.1093\/acprof:oso\/9780199574797.003.0013","type":"book","created":{"date-parts":[[2017,6,22]],"date-time":"2017-06-22T08:16:58Z","timestamp":1498119418000},"source":"Crossref","is-referenced-by-count":0,"title":["UK
-        Schoolbook Publishing"],"prefix":"10.1093","author":[{"given":"Simon","family":"Catling","sequence":"first","affiliation":[]}],"member":"286","container-title":["Oxford
-        Scholarship Online"],"original-title":["UK Schoolbook Publishing"],"deposited":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T00:23:38Z","timestamp":1659486218000},"score":12.489471,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/10146\/chapter\/157675850"}},"issued":{"date-parts":[[2017,6,22]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/acprof:oso\/9780199574797.003.0013","published":{"date-parts":[[2017,6,22]]}},{"indexed":{"date-parts":[[2022,7,7]],"date-time":"2022-07-07T10:12:21Z","timestamp":1657188741446},"edition-number":"1","reference-count":0,"publisher":"Oxford
-        University Press","isbn-type":[{"value":"9780191863592","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"abstract":"<p>This
-        new dictionary covers the full range of publishing-related topics, defining
-        terms encountered in the processes of editing, producing, printing, and distributing
-        books and digital content. With entries ranging from proofreading and binding
-        to discoverability and royalties, and covering contemporary areas of publishing
-        such as digital workflow and digital rights management, the dictionary provides
-        easy-to-find and accurate information on key terms and concepts. It is an
-        invaluable reference resource for students of publishing, as well as for those
-        currently working in the industry.<\/p>","DOI":"10.1093\/acref\/9780191863592.001.0001","type":"book","created":{"date-parts":[[2019,3,21]],"date-time":"2019-03-21T08:14:24Z","timestamp":1553156064000},"source":"Crossref","is-referenced-by-count":0,"title":["A
-        Dictionary of Publishing"],"prefix":"10.1093","author":[{"given":"Adrian","family":"Bullock","sequence":"first","affiliation":[]},{"given":"Chris","family":"Jennings","sequence":"additional","affiliation":[]},{"given":"Nicola","family":"Timbrell","sequence":"additional","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2019]]},"original-title":["A
-        Dictionary of Publishing"],"deposited":{"date-parts":[[2022,7,6]],"date-time":"2022-07-06T01:28:17Z","timestamp":1657070897000},"score":12.368039,"resource":{"primary":{"URL":"http:\/\/www.oxfordreference.com\/view\/10.1093\/acref\/9780191863592.001.0001\/acref-9780191863592"}},"issued":{"date-parts":[[2019]]},"ISBN":["9780191863592"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/acref\/9780191863592.001.0001","published":{"date-parts":[[2019]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:45:32Z","timestamp":1659501932376},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2018,7]]},"abstract":"<p>The
-        focus of this chapter is on reporting the qualitative research in peer-reviewed
-        journal articles. Researchers may publish the qualitative data in a standalone
-        journal article, or combine quantitative and qualitative process evaluation
-        data in the same article, or combine the qualitative and RCT research in the
-        same article. Writing these articles can be challenging, even when focusing
-        solely on the qualitative research. Researchers need to consider the number
-        of articles to be published from the whole study, the focus of each article,
-        selecting a journal, and communicating implications for the RCT. Guidance
-        is offered on the key issues to report in journal articles that focus solely
-        on the qualitative research undertaken with an RCT.<\/p>","DOI":"10.1093\/med\/9780198802082.003.0012","type":"book","created":{"date-parts":[[2018,8,1]],"date-time":"2018-08-01T03:32:11Z","timestamp":1533094331000},"source":"Crossref","is-referenced-by-count":0,"title":["Publishing
-        journal articles"],"prefix":"10.1093","author":[{"given":"Alicia","family":"O''Cathain","sequence":"additional","affiliation":[]}],"member":"286","container-title":["Oxford
-        Medicine Online"],"original-title":["Publishing journal articles"],"deposited":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T01:40:43Z","timestamp":1659490843000},"score":12.235294,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/24853\/chapter\/188554694"}},"editor":[{"given":"Alicia","family":"O''Cathain","sequence":"first","affiliation":[]}],"issued":{"date-parts":[[2018,7]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/med\/9780198802082.003.0012","published":{"date-parts":[[2018,7]]}},{"indexed":{"date-parts":[[2022,10,28]],"date-time":"2022-10-28T07:08:48Z","timestamp":1666940928201},"edition-number":"1","reference-count":0,"publisher":"Oxford
-        University Press","isbn-type":[{"value":"9780198794202","type":"print"},{"value":"9780191835803","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,4,18]]},"abstract":"<p>Publishing
-        is a global industry with revenues in the hundreds of billions of dollars,
-        employing millions of people. It has both a long history and also a track
-        record, which continues into the present day, of pioneering at the forefront
-        of technological, economic and cultural change. In this unique one volume
-        collection, publishing is surveyed in all its great diversity. Part I, Publishing
-        in Context, looks at the various ways publishing connects with the world,
-        from an overview of its long history, to vital relationships with authors
-        and readers, to its influence on key areas of life and society and then to
-        its corporate social responsibility. Part II, the Dynamics of Publishing,
-        examines key forces at work within publishing like economic pressure and business
-        strategy. The impact of globalization is explored, as is the role of the publisher
-        as a curator, before the three main sectors of publishing \u2013 trade, academic
-        and educational \u2013 are given an overview. Lastly Part III, Publishing
-        in practice, looks at the more operational side. From how publishing houses
-        are structured, to design, rights marketing and technology, the reality of
-        publishing is here analysed, before we turn to key customers for all publishers:
-        libraries and bookshops. In a Coda eight thought experiments probe the future
-        of publishing. This is a critical academic volume, summarising the state of
-        knowledge in the burgeoning field of publishing studies whilst also venturing
-        new arguments and ideas about this still-vital area.<\/p>","DOI":"10.1093\/oxfordhb\/9780198794202.001.0001","type":"book","created":{"date-parts":[[2019,5,9]],"date-time":"2019-05-09T07:21:49Z","timestamp":1557386509000},"source":"Crossref","is-referenced-by-count":3,"title":["The
-        Oxford Handbook of Publishing"],"prefix":"10.1093","member":"286","published-online":{"date-parts":[[2019,5,9]]},"original-title":["The
-        Oxford Handbook of Publishing"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T19:01:20Z","timestamp":1659466880000},"score":12.132122,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/edited-volume\/34231"}},"editor":[{"given":"Angus","family":"Phillips","sequence":"first","affiliation":[]},{"given":"Michael","family":"Bhaskar","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2019,4,18]]},"ISBN":["9780198794202","9780191835803"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oxfordhb\/9780198794202.001.0001","published":{"date-parts":[[2019,4,18]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T09:04:11Z","timestamp":1648803851715},"reference-count":0,"publisher":"University
-        of Illinois Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,4,20]]},"abstract":"<p>This
-        chapter examines the institution of chamber music publishing by looking closely
-        at three internationally significant publishers. In all three cases, publishers
-        sought to balance their production of \u201cmonumental\u201d and \u201cephemeral\u201d
-        products to establish and maintain a reliable source of income and new musical
-        material for themselves and, by extension, the musicians who relied upon them.
-        Individually, the three firms represent different models with diverse priorities
-        and business strategies: a small business established by a chamber music lover
-        and copyright activist (Hofmeister); a larger firm that grew with the musical
-        marketplace, changing hands at several points and evolving to address the
-        needs of a growing public (Peters); and a midsize firm that specialized in
-        practical music for private and public use (Schlesinger, later Lienau-Schlesinger).
-        Together, these three companies provides a picture of the music business as
-        it developed throughout the Romantic era.<\/p>","DOI":"10.5406\/illinois\/9780252039225.003.0001","type":"book","created":{"date-parts":[[2017,5,5]],"date-time":"2017-05-05T09:19:26Z","timestamp":1493975966000},"source":"Crossref","is-referenced-by-count":0,"title":["Publishing
-        Chamber Music"],"prefix":"10.5406","author":[{"given":"Marie Sumner","family":"Lott","sequence":"first","affiliation":[]}],"member":"3673","container-title":["University
-        of Illinois Press"],"original-title":["Publishing Chamber Music"],"deposited":{"date-parts":[[2018,4,11]],"date-time":"2018-04-11T14:33:07Z","timestamp":1523457187000},"score":12.105147,"resource":{"primary":{"URL":"http:\/\/illinois.universitypressscholarship.com\/view\/10.5406\/illinois\/9780252039225.001.0001\/upso-9780252039225-chapter-1"}},"issued":{"date-parts":[[2017,4,20]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5406\/illinois\/9780252039225.003.0001","published":{"date-parts":[[2017,4,20]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:38:14Z","timestamp":1659501494642},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,6,22]]},"abstract":"<p>The
-        Music Department, which remained in London until 1983, published sheet music,
-        performance scores, hymnals, books, and educational materials, but was increasingly
-        developing into a rights-management business. The chapter chronicles the department\u2019s
-        move to Oxford and subsequent streamlining\u2014the list of titles in print
-        was cut back and editorial control over music books transferred to New York.
-        Under the directorship of Andrew Potter, the department sought out new composers
-        and developed particular strengths in church, choral, and early music. Successful
-        series included Oxford Choral Classics, Musica da Camera, and Carols for Choirs.
-        The publication of bibles, prayer books, and hymnals is also considered in
-        this chapter. Although historically a significant part of the OUP list, bible
-        publishing had declined in relative importance, with management of the list
-        moving from department to department. Important publications included the
-        <italic>New English Bible, Revised Standard Version<\/italic>, and the <italic>BBC
-        Songs of Praise<\/italic>.<\/p>","DOI":"10.1093\/acprof:oso\/9780199574797.003.0016","type":"book","created":{"date-parts":[[2017,6,22]],"date-time":"2017-06-22T08:16:52Z","timestamp":1498119412000},"source":"Crossref","is-referenced-by-count":0,"title":["Music
-        Publishing, Bibles, and Hymnals"],"prefix":"10.1093","author":[{"given":"Simon","family":"Wright","sequence":"first","affiliation":[]}],"member":"286","container-title":["Oxford
-        Scholarship Online"],"original-title":["Music Publishing, Bibles, and Hymnals"],"deposited":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T00:23:40Z","timestamp":1659486220000},"score":12.003548,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/10146\/chapter\/157679678"}},"issued":{"date-parts":[[2017,6,22]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/acprof:oso\/9780199574797.003.0016","published":{"date-parts":[[2017,6,22]]}}],"items-per-page":10,"query":{"start-index":0,"search-terms":null}}}'
-  recorded_at: Sat, 07 Jan 2023 00:51:00 GMT
+        its Applications"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780444899910500433?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780444899910500433?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2018,9,30]],"date-time":"2018-09-30T14:21:35Z","timestamp":1538317295000},"score":21.396748,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780444899910500433"}},"issued":{"date-parts":[[1993]]},"references-count":2,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-444-89991-0.50043-3","published":{"date-parts":[[1993]]}},{"indexed":{"date-parts":[[2022,4,26]],"date-time":"2022-04-26T19:40:59Z","timestamp":1651002059634},"publisher-location":"2455
+        Teller Road,\u00a0Newbury Park\u00a0California\u00a091320\u00a0United States
+        of America\u00a0","reference-count":0,"publisher":"SAGE Publications, Inc.","isbn-type":[{"value":"9780803923102","type":"print"},{"value":"9781412985222","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1985]]},"DOI":"10.4135\/9781412985222.n5","type":"book-chapter","created":{"date-parts":[[2011,7,15]],"date-time":"2011-07-15T19:48:50Z","timestamp":1310759330000},"page":"69-71","source":"Crossref","is-referenced-by-count":0,"title":["Complex
+        Designs"],"prefix":"10.4135","member":"179","container-title":["Multivariate
+        Analysis of Variance"],"link":[{"URL":"http:\/\/journals.sagepub.com\/doi\/pdf\/10.4135\/9781412985222.n5","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,4,26]],"date-time":"2022-04-26T19:06:20Z","timestamp":1650999980000},"score":21.39542,"resource":{"primary":{"URL":"https:\/\/methods.sagepub.com\/book\/multivariate-analysis-of-variance\/n5.xml"}},"issued":{"date-parts":[[1985]]},"ISBN":["9780803923102","9781412985222"],"references-count":0,"alternative-id":["10.4135\/9781412985222"],"URL":"http:\/\/dx.doi.org\/10.4135\/9781412985222.n5","published":{"date-parts":[[1985]]}},{"indexed":{"date-parts":[[2022,4,27]],"date-time":"2022-04-27T07:10:06Z","timestamp":1651043406814},"publisher-location":"1
+        Oliver''s Yard,\u00a055 City Road,\u00a0London\u00a0England\u00a0EC1Y 1SP\u00a0United
+        Kingdom\u00a0","reference-count":0,"publisher":"SAGE Publications, Ltd","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2004]]},"DOI":"10.4135\/9781849208598.n7","type":"book-chapter","created":{"date-parts":[[2011,7,15]],"date-time":"2011-07-15T19:48:50Z","timestamp":1310759330000},"page":"147-172","source":"Crossref","is-referenced-by-count":0,"title":["Mixed
+        Designs"],"prefix":"10.4135","member":"179","container-title":["Analysis of
+        Variance via Confidence Intervals"],"link":[{"URL":"http:\/\/journals.sagepub.com\/doi\/pdf\/10.4135\/9781849208598.n7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,4,26]],"date-time":"2022-04-26T09:15:32Z","timestamp":1650964532000},"score":21.39542,"resource":{"primary":{"URL":"https:\/\/methods.sagepub.com\/book\/analysis-of-variance-via-confidence-intervals\/n7.xml"}},"issued":{"date-parts":[[2004]]},"references-count":0,"alternative-id":["10.4135\/9781849208598"],"URL":"http:\/\/dx.doi.org\/10.4135\/9781849208598.n7","published":{"date-parts":[[2004]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T11:16:48Z","timestamp":1648639008705},"edition-number":"0","reference-count":0,"publisher":"CRC
+        Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1992,2,28]]},"DOI":"10.1201\/9781482277142-6","type":"book-chapter","created":{"date-parts":[[2020,7,9]],"date-time":"2020-07-09T15:58:48Z","timestamp":1594310328000},"page":"44-63","source":"Crossref","is-referenced-by-count":0,"title":["General
+        Results for Balanced Designs"],"prefix":"10.1201","member":"301","container-title":["Confidence
+        Intervals on Variance Components"],"deposited":{"date-parts":[[2020,7,9]],"date-time":"2020-07-09T15:58:53Z","timestamp":1594310333000},"score":21.37088,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781482277142\/chapters\/10.1201\/9781482277142-6"}},"issued":{"date-parts":[[1992,2,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781482277142-6","published":{"date-parts":[[1992,2,28]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Decade+Designs+for+Weighings+of+Non-uniform+Variance+1993+IOP+Publishing"}}}'
+  recorded_at: Sun, 15 Jan 2023 19:22:31 GMT
 recorded_with: VCR 6.1.0

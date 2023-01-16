@@ -1,8 +1,8 @@
 <bibdata type="dataset" schema-version="v1.2.1">
-  <fetched>2023-01-05</fetched>
+  <fetched>2023-01-16</fetched>
   <title type="main" format="text/plain" script="Latn">Deciphering the rules underlying xenogeneic silencing and counter-silencing of Lsr2-like proteins</title>
   <uri type="DOI">http://dx.doi.org/10.1101/751156</uri>
-  <uri>http://biorxiv.org/lookup/doi/10.1101/751156</uri>
+  <uri type="src">http://biorxiv.org/lookup/doi/10.1101/751156</uri>
   <docidentifier type="DOI" primary="true">10.1101/751156</docidentifier>
   <date type="issued">
     <on>2019-08-30</on>

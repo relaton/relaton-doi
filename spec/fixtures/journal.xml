@@ -1,9 +1,9 @@
 <bibdata type="journal" schema-version="v1.2.1">
-  <fetched>2023-01-04</fetched>
+  <fetched>2023-01-16</fetched>
   <title type="main" format="text/plain" script="Latn">Juni Khyat Journal</title>
   <title type="short" format="text/plain" script="Latn">Juni Khyat</title>
   <uri type="DOI">http://dx.doi.org/10.46528/jk</uri>
-  <uri>http://www.junikhyat.com/</uri>
+  <uri type="src">http://www.junikhyat.com/</uri>
   <docidentifier type="DOI" primary="true">10.46528/jk</docidentifier>
   <docidentifier type="ISSN.print">2278-4632</docidentifier>
   <date type="created">

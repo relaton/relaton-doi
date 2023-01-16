@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 07 Jan 2023 00:50:56 GMT
+      - Sun, 15 Jan 2023 19:22:22 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '954'
       Set-Cookie:
-      - AWSALB=TctZDDt7uIL+a7va774zHEI7OhfqLxK3q1NREoAvgsImE5JOYwJzeD3ELHzp3hm5av2a0hHOz+R2Ck9yE7X+OzGSzvYppoUxENWNwxdaZslI1VmYYR/+5cJ/AmHS;
-        Expires=Sat, 14 Jan 2023 00:50:56 GMT; Path=/
-      - AWSALBCORS=TctZDDt7uIL+a7va774zHEI7OhfqLxK3q1NREoAvgsImE5JOYwJzeD3ELHzp3hm5av2a0hHOz+R2Ck9yE7X+OzGSzvYppoUxENWNwxdaZslI1VmYYR/+5cJ/AmHS;
-        Expires=Sat, 14 Jan 2023 00:50:56 GMT; Path=/; SameSite=None
+      - AWSALB=Pe0dhD3z9C3+FUrVZ0TkmcweOezAGDiGeru9wC4cKl3b2Ime+xb8a9RPJcZ/1fGNaPP45bky7zAJZ6tqu3X3PldizE9kiomHueXnNPNKOd8fuSZFrisP10Heu9Mz;
+        Expires=Sun, 22 Jan 2023 19:22:22 GMT; Path=/
+      - AWSALBCORS=Pe0dhD3z9C3+FUrVZ0TkmcweOezAGDiGeru9wC4cKl3b2Ime+xb8a9RPJcZ/1fGNaPP45bky7zAJZ6tqu3X3PldizE9kiomHueXnNPNKOd8fuSZFrisP10Heu9Mz;
+        Expires=Sun, 22 Jan 2023 19:22:22 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -70,5 +70,5 @@ http_interactions:
         K","family":"Greene","sequence":"additional","affiliation":[]},{"given":"Susanne","family":"Furman","sequence":"additional","affiliation":[]},{"given":"Michelle","family":"Steves","sequence":"additional","affiliation":[]},{"given":"Sandra
         Spickard","family":"Prettyman","sequence":"additional","affiliation":[]}],"member":"4068","published-online":{"date-parts":[[2019,3]]},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2020,8,20]],"date-time":"2020-08-20T14:05:37Z","timestamp":1597932337000},"score":1,"resource":{"primary":{"URL":"https:\/\/nvlpubs.nist.gov\/nistpubs\/ir\/2019\/NIST.IR.8245.pdf"}},"subtitle":["findings
         from user-centered interviews, phase 1, volume 2"],"short-title":[],"issued":{"date-parts":[[2019,3]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.6028\/nist.ir.8245","relation":{},"published":{"date-parts":[[2019,3]]}}}'
-  recorded_at: Sat, 07 Jan 2023 00:50:55 GMT
+  recorded_at: Sun, 15 Jan 2023 19:22:22 GMT
 recorded_with: VCR 6.1.0

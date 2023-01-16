@@ -1,8 +1,8 @@
 <bibdata type="article" schema-version="v1.2.1">
-  <fetched>2023-01-06</fetched>
+  <fetched>2023-01-16</fetched>
   <title type="main" format="text/plain" script="Latn">A watermelon without seeds: A case study in rhetorical rationality</title>
   <uri type="DOI">http://dx.doi.org/10.1515/text.2001.011</uri>
-  <uri>https://www.degruyter.com/document/doi/10.1515/text.2001.011/html</uri>
+  <uri type="src">https://www.degruyter.com/document/doi/10.1515/text.2001.011/html</uri>
   <docidentifier type="DOI" primary="true">10.1515/text.2001.011</docidentifier>
   <docidentifier type="ISSN.print">0165-4888</docidentifier>
   <docidentifier type="ISSN.electronic">1613-4117</docidentifier>

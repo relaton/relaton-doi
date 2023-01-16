@@ -1,8 +1,8 @@
 <bibdata type="inbook" schema-version="v1.2.1">
-  <fetched>2022-12-31</fetched>
+  <fetched>2023-01-15</fetched>
   <title type="main" format="text/plain" script="Latn">Wholesale commodity price indexes in Richmond, the eastern Confederacy, New York, and San Francisco: 1861-1865</title>
   <uri type="DOI">http://dx.doi.org/10.1017/isbn-9780511132971.eh132-135</uri>
-  <uri>http://hsus.cambridge.org/HSUSWeb/toc/tableToc.do?id=Eh132-135</uri>
+  <uri type="src">http://hsus.cambridge.org/HSUSWeb/toc/tableToc.do?id=Eh132-135</uri>
   <docidentifier type="DOI" primary="true">10.1017/isbn-9780511132971.eh132-135</docidentifier>
   <date type="created">
     <on>2007-03-06</on>

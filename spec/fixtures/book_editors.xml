@@ -1,8 +1,8 @@
 <bibdata type="book" schema-version="v1.2.1">
-  <fetched>2023-01-06</fetched>
+  <fetched>2023-01-15</fetched>
   <title type="main" format="text/plain" script="Latn">Wide Area Workflow Management</title>
   <uri type="DOI">http://dx.doi.org/10.1007/978-1-4471-1578-6</uri>
-  <uri>http://link.springer.com/10.1007/978-1-4471-1578-6</uri>
+  <uri type="src">http://link.springer.com/10.1007/978-1-4471-1578-6</uri>
   <docidentifier type="DOI" primary="true">10.1007/978-1-4471-1578-6</docidentifier>
   <docidentifier type="ISBN">9783540762430</docidentifier>
   <docidentifier type="ISBN">9781447115786</docidentifier>
@@ -38,7 +38,6 @@
   </series>
   <place>
     <city>London</city>
-    <region></region>
   </place>
   <ext>
     <doctype>book</doctype>

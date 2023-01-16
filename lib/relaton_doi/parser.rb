@@ -280,8 +280,8 @@ module RelatonDoi
 
         type =  case l["URL"]
                 when /\.pdf$/ then "pdf"
-                when /\/rfc\d+$|iopscience\.iop\.org|ieeexplore\.ieee\.org/
-                  "src"
+                # when /\/rfc\d+$|iopscience\.iop\.org|ieeexplore\.ieee\.org/
+                else "src"
                 end
         links << RelatonBib::TypedUri.new(type: type, content: l["URL"]) # if type
       end
@@ -615,10 +615,10 @@ module RelatonDoi
       if COUNTRIES.include? pls2
         country = RelatonBib::Place::RegionType.new(name: pls2)
         [RelatonBib::Place.new(city: pls1, country: [country])]
-      elsif pls2 == pls2&.upcase
+      elsif pls2 && pls2 == pls2&.upcase
         region = RelatonBib::Place::RegionType.new(name: pls2)
         [RelatonBib::Place.new(city: pls1, region: [region])]
-      elsif pls1 == pls2
+      elsif pls1 == pls2 || pls2.nil? || pls2.empty?
         [RelatonBib::Place.new(city: pls1)]
       else
         [RelatonBib::Place.new(city: pls1), RelatonBib::Place.new(city: pls2)]
