@@ -4,7 +4,7 @@
   <uri type="DOI">http://dx.doi.org/10.15405/epsbs(2357-1330).2021.6.1</uri>
   <uri type="src">https://europeanproceedings.com/book-series/EpSBS/books/vol109-cipe-2020</uri>
   <docidentifier type="DOI" primary="true">10.15405/epsbs(2357-1330).2021.6.1</docidentifier>
-  <docidentifier type="ISSN.print">2357-1330</docidentifier>
+  <docidentifier type="issn.print">2357-1330</docidentifier>
   <date type="created">
     <on>2021-05-31</on>
   </date>

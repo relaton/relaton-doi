@@ -3,8 +3,8 @@
   <uri type="DOI">http://dx.doi.org/10.1111/read.1991.25.issue-1</uri>
   <uri type="src">http://doi.wiley.com/10.1111/read.1991.25.issue-1</uri>
   <docidentifier type="DOI" primary="true">10.1111/read.1991.25.issue-1</docidentifier>
-  <docidentifier type="ISSN.print">1741-4350</docidentifier>
-  <docidentifier type="ISSN.electronic">1741-4369</docidentifier>
+  <docidentifier type="issn.print">1741-4350</docidentifier>
+  <docidentifier type="issn.electronic">1741-4369</docidentifier>
   <date type="issued">
     <on>1991-04</on>
   </date>

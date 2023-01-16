@@ -4,7 +4,7 @@
   <uri type="DOI">http://dx.doi.org/10.3133/ofr72419</uri>
   <uri type="src">http://pubs.er.usgs.gov/publication/ofr72419</uri>
   <docidentifier type="DOI" primary="true">10.3133/ofr72419</docidentifier>
-  <docidentifier type="ISSN.print">2331-1258</docidentifier>
+  <docidentifier type="issn.print">2331-1258</docidentifier>
   <date type="issued">
     <on>1972</on>
   </date>

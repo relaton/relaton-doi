@@ -233,7 +233,7 @@ module RelatonDoi
       return type unless type == "ISSN"
 
       t = @src["issn-type"]&.find { |it| it["value"] == id }&.dig("type")
-      t ? "ISSN.#{t}" : type
+      t ? "issn.#{t}" : type.downcase
     end
 
     #

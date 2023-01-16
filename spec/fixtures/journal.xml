@@ -5,7 +5,7 @@
   <uri type="DOI">http://dx.doi.org/10.46528/jk</uri>
   <uri type="src">http://www.junikhyat.com/</uri>
   <docidentifier type="DOI" primary="true">10.46528/jk</docidentifier>
-  <docidentifier type="ISSN.print">2278-4632</docidentifier>
+  <docidentifier type="issn.print">2278-4632</docidentifier>
   <date type="created">
     <on>2020-06-05</on>
   </date>
