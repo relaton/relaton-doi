@@ -448,13 +448,29 @@ module RelatonDoi
       [contributor(org, "authorizer")]
     end
 
+    #
+    # Parse enabler contributor from the source hash.
+    #
+    # @return [Array<RelatonBib::ContributionInfo>] The enabler contributor.
+    #
     def org_enabler
       RelatonBib.array(@src["project"]).each_with_object([]) do |proj, memo|
         proj["funding"].each do |f|
-          org = RelatonBib::Organization.new name: f.dig("funder", "name")
-          memo << contributor(org, "enabler")
+          memo << create_enabler(f.dig("funder", "name"))
         end
-      end
+      end + RelatonBib.array(@src["funder"]).map { |f| create_enabler f["name"] }
+    end
+
+    #
+    # Create enabler contributor with type "enabler".
+    #
+    # @param [String] name <description>
+    #
+    # @return [RelatonBib::ContributionInfo] The enabler contributor.
+    #
+    def create_enabler(name)
+      org = RelatonBib::Organization.new name: name
+      contributor(org, "enabler")
     end
 
     #
