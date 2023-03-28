@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 15 Jan 2023 19:25:54 GMT
+      - Mon, 27 Mar 2023 16:02:56 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '693'
+      - '1284'
       Set-Cookie:
-      - AWSALB=L5u17bPvdwtC0Y9SNayOjWGdLOZU9R44GYDdh/FHP4h6Ue7LQJ50zMp4LNZpsG20sb9Nx2WUzmoYPBwHFX61qKeX1ZzmXAZOKe/m0Br5/J6xX5TPViygQp7PYJpx;
-        Expires=Sun, 22 Jan 2023 19:25:54 GMT; Path=/
-      - AWSALBCORS=L5u17bPvdwtC0Y9SNayOjWGdLOZU9R44GYDdh/FHP4h6Ue7LQJ50zMp4LNZpsG20sb9Nx2WUzmoYPBwHFX61qKeX1ZzmXAZOKe/m0Br5/J6xX5TPViygQp7PYJpx;
-        Expires=Sun, 22 Jan 2023 19:25:54 GMT; Path=/; SameSite=None
+      - AWSALB=MjzuPpG6i1Jfnly9obJSwitwVlVRccpoIdmzvnev8c+4zzcDcsehekBm/LUdCF7RET4O0Va8njEVkJ36kyI+DzZR1Bbhi7tHu9o7ce9Xaf3tdn0aJmNxOCXQr/Hw;
+        Expires=Mon, 03 Apr 2023 16:02:56 GMT; Path=/
+      - AWSALBCORS=MjzuPpG6i1Jfnly9obJSwitwVlVRccpoIdmzvnev8c+4zzcDcsehekBm/LUdCF7RET4O0Va8njEVkJ36kyI+DzZR1Bbhi7tHu9o7ce9Xaf3tdn0aJmNxOCXQr/Hw;
+        Expires=Mon, 03 Apr 2023 16:02:56 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -64,5 +64,5 @@ http_interactions:
         ETS 300218:1994-01, ISDN; Protokolle der unteren Schichten f\u00fcr Videotex
         auf Syntaxbasis f\u00fcr ISDN-Paketmodus (CCITT-Empfehlung_X.31 Fall_A und
         Fall_B); Englische Fassung ETS_300218:1993"],"prefix":"10.31030","member":"15010","container-title":[],"original-title":[],"deposited":{"date-parts":[[2019,3,31]],"date-time":"2019-03-31T17:56:20Z","timestamp":1554054980000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.beuth.de\/de\/-\/-\/2204273"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.31030\/2640440","relation":{}}}'
-  recorded_at: Sun, 15 Jan 2023 19:25:54 GMT
+  recorded_at: Mon, 27 Mar 2023 16:02:56 GMT
 recorded_with: VCR 6.1.0

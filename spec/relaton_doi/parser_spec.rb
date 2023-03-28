@@ -109,4 +109,16 @@ describe RelatonDoi::Parser do
     expect(relation[1].bibitem.title[0].title.content).to eq "Review of"
     expect(relation[2].bibitem.title[0].title.content).to eq "Identical to"
   end
+
+  context "parse place" do
+    it "with 2 different places" do
+      subject.instance_variable_set :@src, { "publisher-location" => "Place 1, Place 2" }
+      place = subject.parse_place
+      expect(place).to be_instance_of(Array)
+      expect(place[0]).to be_instance_of(RelatonBib::Place)
+      expect(place[0].city).to eq "Place 1"
+      expect(place[1]).to be_instance_of(RelatonBib::Place)
+      expect(place[1].city).to eq "Place 2"
+    end
+  end
 end

@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 15 Jan 2023 19:24:45 GMT
+      - Mon, 27 Mar 2023 16:02:31 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '727'
+      - '1447'
       Set-Cookie:
-      - AWSALB=HeTSR4hTOlsHAVeWgwDlgMVOKK4uShKrk2b7CCukwjTunKhumX3Y7Td0j/nsIdsSJJ/+5QlcDbS0jgb9pa3jGuE/Kgubp+tbjtscB1UVdmCZn2t+g/lUb6p0iwKn;
-        Expires=Sun, 22 Jan 2023 19:24:44 GMT; Path=/
-      - AWSALBCORS=HeTSR4hTOlsHAVeWgwDlgMVOKK4uShKrk2b7CCukwjTunKhumX3Y7Td0j/nsIdsSJJ/+5QlcDbS0jgb9pa3jGuE/Kgubp+tbjtscB1UVdmCZn2t+g/lUb6p0iwKn;
-        Expires=Sun, 22 Jan 2023 19:24:44 GMT; Path=/; SameSite=None
+      - AWSALB=BVV6By4wFpla985sWHJHD29E0ozq0Dm4cpT0OwwjyAsKiOtvqen6CdHHs08atuDRHArNWH6uHHffMsCo3wgq+YZOGlVTj1DpukCuG4hKiqg4x2s2SBokbiCJZm+w;
+        Expires=Mon, 03 Apr 2023 16:02:31 GMT; Path=/
+      - AWSALBCORS=BVV6By4wFpla985sWHJHD29E0ozq0Dm4cpT0OwwjyAsKiOtvqen6CdHHs08atuDRHArNWH6uHHffMsCo3wgq+YZOGlVTj1DpukCuG4hKiqg4x2s2SBokbiCJZm+w;
+        Expires=Mon, 03 Apr 2023 16:02:31 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -63,7 +63,7 @@ http_interactions:
         their caregivers during the COVID\u201019 pandemic: A qualitative descriptive
         study\""],"prefix":"10.1111","member":"311","container-title":[],"review":{"type":"editor-report","running-number":"E1V3","revision-round":"3","stage":"pre-publication"},"original-title":[],"deposited":{"date-parts":[[2021,12,1]],"date-time":"2021-12-01T21:08:11Z","timestamp":1638392891000},"score":1,"resource":{"primary":{"URL":"https:\/\/publons.com\/publon\/50403050"}},"subtitle":[],"editor":[{"family":"Debra
         Jackson","sequence":"first","affiliation":[]}],"short-title":[],"issued":{"date-parts":[[2021,10,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1111\/jan.15115\/v3\/decision1","relation":{"is-review-of":[{"id-type":"doi","id":"10.1111\/JAN.15115","asserted-by":"subject"}]},"published":{"date-parts":[[2021,10,17]]}}}'
-  recorded_at: Sun, 15 Jan 2023 19:24:44 GMT
+  recorded_at: Mon, 27 Mar 2023 16:02:31 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Decision%2Bletter%2Bfor%2B%22Self%E2%80%90care%2Bof%2Bpatients%2Bwith%2Bmultiple%2Bchronic%2Bconditions%2Band%2Btheir%2Bcaregivers%2Bduring%2Bthe%2BCOVID%E2%80%9019%2Bpandemic:%2BA%2Bqualitative%2Bdescriptive%2Bstudy%22%2B2021%2BWiley
@@ -72,7 +72,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v1.10.2
+      - Faraday v1.10.3
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -83,7 +83,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 15 Jan 2023 19:24:47 GMT
+      - Mon, 27 Mar 2023 16:02:32 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -115,14 +115,14 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":25514,"items":[{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T06:07:37Z","timestamp":1648793257527},"reference-count":0,"publisher":"\u0438\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":27020,"items":[{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T06:07:37Z","timestamp":1648793257527},"reference-count":0,"publisher":"\u0438\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e
         \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.11621\/rpo.2021.13","type":"book-chapter","created":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:08Z","timestamp":1634221508000},"page":"333-344","source":"Crossref","is-referenced-by-count":0,"title":["\u201cSelf-care\u201d
         as vector of psychological awareness raising during the pandemic"],"prefix":"10.11621","author":[{"given":"N.A.","family":"Nizovskykh","sequence":"first","affiliation":[]}],"member":"4893","published-online":{"date-parts":[[2021]]},"container-title":["PSYCHOLOGICAL
         GUIDANCE DURING THE COVID-19 PANDEMIC"],"original-title":["\u00ab\u0417\u0430\u0431\u043e\u0442\u0430
         \u043e \u0441\u0435\u0431\u0435\u00bb \u043a\u0430\u043a \u0432\u0435\u043a\u0442\u043e\u0440
         \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e
         \u043f\u0440\u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u044f \u0432
-        \u043f\u0435\u0440\u0438\u043e\u0434 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438"],"deposited":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:20Z","timestamp":1634221520000},"score":39.823753,"resource":{"primary":{"URL":"https:\/\/msupress.com\/catalogue\/books\/chapter\/3199\/"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11621\/rpo.2021.13","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T01:24:07Z","timestamp":1648949047218},"reference-count":35,"publisher":"Elsevier","license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1016\/b978-0-323-82691-4.00004-2","type":"book-chapter","created":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:42:09Z","timestamp":1630053729000},"page":"123-129","source":"Crossref","is-referenced-by-count":0,"title":["Neuro-Oncologic
+        \u043f\u0435\u0440\u0438\u043e\u0434 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438"],"deposited":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:20Z","timestamp":1634221520000},"score":39.841404,"resource":{"primary":{"URL":"https:\/\/msupress.com\/catalogue\/books\/chapter\/3199\/"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11621\/rpo.2021.13","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T01:24:07Z","timestamp":1648949047218},"reference-count":35,"publisher":"Elsevier","license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1016\/b978-0-323-82691-4.00004-2","type":"book-chapter","created":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:42:09Z","timestamp":1630053729000},"page":"123-129","source":"Crossref","is-referenced-by-count":0,"title":["Neuro-Oncologic
         Care During the COVID-19 Pandemic"],"prefix":"10.1016","author":[{"given":"James
         M.","family":"Snyder","sequence":"first","affiliation":[]},{"given":"Mohammed
         F.","family":"Rehman","sequence":"additional","affiliation":[]}],"member":"78","reference":[{"issue":"7","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0010","doi-asserted-by":"crossref","first-page":"928","DOI":"10.1093\/neuonc\/noaa113","article-title":"Neuro-oncology
@@ -204,7 +204,7 @@ http_interactions:
         Soc Clin Oncol Educ Book Am Soc Clin Oncol Meet"},{"key":"10.1016\/B978-0-323-82691-4.00004-2_bb0180","series-title":"Best
         Care at Lower Cost: The Path to Continuously Learning Health Care in America","year":"2013"},{"issue":"5","key":"10.1016\/B978-0-323-82691-4.00004-2_bb0185","doi-asserted-by":"crossref","DOI":"10.1007\/s11912-020-00904-z","article-title":"Developing
         real-world evidence-ready datasets: time for clinician engagement","volume":"22","author":"Snyder","year":"2020","journal-title":"Curr
-        Oncol Rep"}],"container-title":["Neurological Care and the COVID-19 Pandemic"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000042?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000042?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:42:38Z","timestamp":1630053758000},"score":39.472237,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780323826914000042"}},"issued":{"date-parts":[[2021]]},"references-count":35,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-323-82691-4.00004-2","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,9,25]],"date-time":"2022-09-25T04:59:19Z","timestamp":1664081959506},"publisher-location":"Cham","reference-count":15,"publisher":"Springer
+        Oncol Rep"}],"container-title":["Neurological Care and the COVID-19 Pandemic"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000042?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000042?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:42:38Z","timestamp":1630053758000},"score":39.428493,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780323826914000042"}},"issued":{"date-parts":[[2021]]},"references-count":35,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-323-82691-4.00004-2","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,9,25]],"date-time":"2022-09-25T04:59:19Z","timestamp":1664081959506},"publisher-location":"Cham","reference-count":15,"publisher":"Springer
         International Publishing","isbn-type":[{"value":"9783031102110","type":"print"},{"value":"9783031102127","type":"electronic"}],"license":[{"start":{"date-parts":[[2022,9,25]],"date-time":"2022-09-25T00:00:00Z","timestamp":1664064000000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,9,25]],"date-time":"2022-09-25T00:00:00Z","timestamp":1664064000000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2023]]},"DOI":"10.1007\/978-3-031-10212-7_75","type":"book-chapter","created":{"date-parts":[[2022,9,24]],"date-time":"2022-09-24T05:02:51Z","timestamp":1663995771000},"page":"915-925","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Hospitals
         in UAE Between Normal and COVID-19 Patients: A Descriptive Study of the Beginning
         of the Pandemic"],"prefix":"10.1007","author":[{"ORCID":"http:\/\/orcid.org\/0000-0002-7215-1022","authenticated-orcid":false,"given":"Anis","family":"Bachta","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2022,9,25]]},"reference":[{"key":"75_CR1","doi-asserted-by":"publisher","first-page":"790","DOI":"10.3389\/fpsyt.2020.00790","volume":"11","author":"R
@@ -264,14 +264,14 @@ http_interactions:
         Toh, M.P., Lee, V.J.: Presymptomatic transmission of SARS-CoV-2\u2014Singapore.
         Morb. Mortal. Wkly Rep. 69(14), 411 (2020)","journal-title":"Morb. Mortal.
         Wkly Rep."}],"container-title":["Studies in Systems, Decision and Control","The
-        Implementation of Smart Technologies for Business Success and Sustainability"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-031-10212-7_75","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,24]],"date-time":"2022-09-24T05:27:50Z","timestamp":1663997270000},"score":38.212906,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-031-10212-7_75"}},"issued":{"date-parts":[[2022,9,25]]},"ISBN":["9783031102110","9783031102127"],"references-count":15,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-031-10212-7_75","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2022,9,25]]},"assertion":[{"value":"25
+        Implementation of Smart Technologies for Business Success and Sustainability"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-031-10212-7_75","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,24]],"date-time":"2022-09-24T05:27:50Z","timestamp":1663997270000},"score":38.199177,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-031-10212-7_75"}},"issued":{"date-parts":[[2022,9,25]]},"ISBN":["9783031102110","9783031102127"],"references-count":15,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-031-10212-7_75","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2022,9,25]]},"assertion":[{"value":"25
         September 2022","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
         History"}}]},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T03:31:07Z","timestamp":1648524667954},"reference-count":0,"publisher":"\u0438\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e
         \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.11621\/rpo.2021.08","type":"book-chapter","created":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:08Z","timestamp":1634221508000},"page":"189-198","source":"Crossref","is-referenced-by-count":0,"title":["Coping
         with stress during the COVID-19 pandemic and self-isolation"],"prefix":"10.11621","author":[{"given":"T.L.","family":"Kryukova","sequence":"first","affiliation":[]},{"given":"E.A.","family":"Silina","sequence":"additional","affiliation":[]},{"given":"A.M.","family":"Govorkova","sequence":"additional","affiliation":[]},{"given":"O.A.","family":"Ekimchik","sequence":"additional","affiliation":[]}],"member":"4893","published-online":{"date-parts":[[2021]]},"container-title":["PSYCHOLOGICAL
         GUIDANCE DURING THE COVID-19 PANDEMIC"],"original-title":["\u0421\u043e\u0432\u043b\u0430\u0434\u0430\u043d\u0438\u0435
         \u0441\u043e \u0441\u0442\u0440\u0435\u0441\u0441\u043e\u043c \u0432 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438
-        \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438 COVID-19 \u0438 \u0441\u0430\u043c\u043e\u0438\u0437\u043e\u043b\u044f\u0446\u0438\u0438"],"deposited":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:16Z","timestamp":1634221516000},"score":37.01144,"resource":{"primary":{"URL":"https:\/\/msupress.com\/catalogue\/books\/chapter\/3194\/"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11621\/rpo.2021.08","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2023,1,8]],"date-time":"2023-01-08T05:40:19Z","timestamp":1673156419882},"publisher-location":"Cham","reference-count":54,"publisher":"Springer
+        \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438 COVID-19 \u0438 \u0441\u0430\u043c\u043e\u0438\u0437\u043e\u043b\u044f\u0446\u0438\u0438"],"deposited":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:16Z","timestamp":1634221516000},"score":37.02703,"resource":{"primary":{"URL":"https:\/\/msupress.com\/catalogue\/books\/chapter\/3194\/"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11621\/rpo.2021.08","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2023,1,24]],"date-time":"2023-01-24T14:34:51Z","timestamp":1674570891699},"publisher-location":"Cham","reference-count":54,"publisher":"Springer
         International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_19","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"305-317","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":2,"title":["Using
         mHealth Apps in Health Education of Schoolchildren with Chronic Disease During
         COVID-19 Pandemic Era"],"prefix":"10.1007","author":[{"given":"Abdulaziz Mansoor","family":"Al
@@ -456,7 +456,7 @@ http_interactions:
         supporting communication between teenagers with asthma and the RN care coordinator
         (in Eng). Comput. Inform. Nurs. 31(6), 266\u2013271, quiz 272-3 (2013). https:\/\/doi.org\/10.1097\/nxn.0b013e318295e5ba","DOI":"10.1097\/nxn.0b013e318295e5ba"}],"container-title":["Studies
         in Systems, Decision and Control","Emerging Technologies During the Era of
-        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_19","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,1,7]],"date-time":"2023-01-07T21:09:17Z","timestamp":1673125757000},"score":36.11022,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_19"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":54,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_19","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
+        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_19","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,1,7]],"date-time":"2023-01-07T21:09:17Z","timestamp":1673125757000},"score":36.10171,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_19"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":54,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_19","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
         March 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
         History"}}]},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T04:32:33Z","timestamp":1649133153297},"reference-count":10,"publisher":"IntechOpen","license":[{"start":{"date-parts":[[2021,12,8]],"date-time":"2021-12-08T00:00:00Z","timestamp":1638921600000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/3.0\/legalcode"}],"content-domain":{"domain":[],"crossmark-restriction":false},"abstract":"<jats:p>High
         mortality rate for the coronavirus disease (COVID-19) has been reported worldwide
@@ -506,7 +506,7 @@ http_interactions:
         HA, Oliveira CF, Jacober FC, Deus ER, Canuto F. Home Care as a safe alternative
         during the COVID-19 crisis. Rev Assoc Med Bras (1992). 2020 Nov;66(11):1482-1486.
         doi: 10.1590\/1806-9282.66.11.1482.","DOI":"10.1590\/1806-9282.66.11.1482"}],"container-title":["Fighting
-        the COVID-19 Pandemic"],"link":[{"URL":"http:\/\/www.intechopen.com\/download\/pdf\/77142","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,12,9]],"date-time":"2021-12-09T11:58:27Z","timestamp":1639051107000},"score":35.711792,"resource":{"primary":{"URL":"https:\/\/www.intechopen.com\/books\/fighting-the-covid-19-pandemic\/home-care-as-a-safe-alternative-during-covid-19-crisis"}},"issued":{"date-parts":[[2021,12,8]]},"references-count":10,"URL":"http:\/\/dx.doi.org\/10.5772\/intechopen.98529","published":{"date-parts":[[2021,12,8]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T11:25:04Z","timestamp":1648985104024},"publisher-location":"Cham","reference-count":30,"publisher":"Springer
+        the COVID-19 Pandemic"],"link":[{"URL":"http:\/\/www.intechopen.com\/download\/pdf\/77142","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,12,9]],"date-time":"2021-12-09T11:58:27Z","timestamp":1639051107000},"score":35.66611,"resource":{"primary":{"URL":"https:\/\/www.intechopen.com\/books\/fighting-the-covid-19-pandemic\/home-care-as-a-safe-alternative-during-covid-19-crisis"}},"issued":{"date-parts":[[2021,12,8]]},"references-count":10,"URL":"http:\/\/dx.doi.org\/10.5772\/intechopen.98529","published":{"date-parts":[[2021,12,8]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T11:25:04Z","timestamp":1648985104024},"publisher-location":"Cham","reference-count":30,"publisher":"Springer
         International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_12","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"183-196","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Mid-Term
         Forecasting of Fatalities Due to COVID-19 Pandemic: A Case Study in Nine Most
         Affected Countries"],"prefix":"10.1007","author":[{"given":"Sneha","family":"Rai","sequence":"first","affiliation":[]},{"given":"Mala","family":"De","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,3,21]]},"reference":[{"key":"12_CR1","doi-asserted-by":"publisher","first-page":"109850","DOI":"10.1016\/j.chaos.2020.109850","volume":"135","author":"T
@@ -610,14 +610,14 @@ http_interactions:
         regression. IEEE 978 (2017)","DOI":"10.1109\/IRSEC.2017.8477278"},{"key":"12_CR30","unstructured":"Johnson,
         A.T.: Curve Fitting. Chapter 13. Elsevier (1991)"}],"container-title":["Studies
         in Systems, Decision and Control","Emerging Technologies During the Era of
-        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_12","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:26:34Z","timestamp":1629699994000},"score":35.465748,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_12"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":30,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_12","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
+        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_12","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:26:34Z","timestamp":1629699994000},"score":35.5411,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_12"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":30,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_12","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
         March 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
         History"}}]},{"indexed":{"date-parts":[[2023,1,4]],"date-time":"2023-01-04T16:34:06Z","timestamp":1672850046753},"reference-count":0,"publisher":"\u0438\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e
         \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.11621\/rpo.2021.02","type":"book-chapter","created":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:08Z","timestamp":1634221508000},"page":"31-61","source":"Crossref","is-referenced-by-count":3,"title":["Psychological
         risks during the COVID-19 pandemic"],"prefix":"10.11621","author":[{"given":"S.B.","family":"Malykh","sequence":"first","affiliation":[]},{"given":"M.A.","family":"Sitnikova","sequence":"additional","affiliation":[]}],"member":"4893","published-online":{"date-parts":[[2021]]},"container-title":["PSYCHOLOGICAL
         GUIDANCE DURING THE COVID-19 PANDEMIC"],"original-title":["\u041f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435
         \u0440\u0438\u0441\u043a\u0438 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438
-        \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0430 COVID-19"],"deposited":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:11Z","timestamp":1634221511000},"score":34.812103,"resource":{"primary":{"URL":"https:\/\/msupress.com\/catalogue\/books\/chapter\/3188\/"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11621\/rpo.2021.02","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T15:42:37Z","timestamp":1649173357471},"publisher-location":"Cham","reference-count":35,"publisher":"Springer
+        \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0430 COVID-19"],"deposited":{"date-parts":[[2021,10,14]],"date-time":"2021-10-14T14:25:11Z","timestamp":1634221511000},"score":34.84073,"resource":{"primary":{"URL":"https:\/\/msupress.com\/catalogue\/books\/chapter\/3188\/"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.11621\/rpo.2021.02","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T15:42:37Z","timestamp":1649173357471},"publisher-location":"Cham","reference-count":35,"publisher":"Springer
         International Publishing","isbn-type":[{"value":"9783030614416","type":"print"},{"value":"9783030614423","type":"electronic"}],"license":[{"start":{"date-parts":[[2020,12,13]],"date-time":"2020-12-13T00:00:00Z","timestamp":1607817600000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,12,13]],"date-time":"2020-12-13T00:00:00Z","timestamp":1607817600000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,12,13]],"date-time":"2020-12-13T00:00:00Z","timestamp":1607817600000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,12,13]],"date-time":"2020-12-13T00:00:00Z","timestamp":1607817600000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-61442-3_37","type":"book-chapter","created":{"date-parts":[[2020,12,12]],"date-time":"2020-12-12T11:02:44Z","timestamp":1607770964000},"page":"357-367","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":2,"title":["The
         COVID-19 Self-Care Survival Guide: A Framework for Clinicians to Categorize
         and Utilize Self-Care Strategies and Practices"],"prefix":"10.1007","author":[{"given":"Julian","family":"Cohen-Serrins","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2020,12,13]]},"reference":[{"issue":"2","key":"37_CR1","doi-asserted-by":"publisher","first-page":"79","DOI":"10.1080\/13554794.2020.1731553","volume":"26","author":"N
@@ -737,7 +737,7 @@ http_interactions:
         Alterations in brain structure and amplitude of low-frequency after 8 weeks
         of mindfulness meditation training in meditation-na\u00efve subjects. Scientific
         Reports, 9(1), 1\u201310.","journal-title":"Scientific Reports"}],"container-title":["Essential
-        Clinical Social Work Series","Shared Trauma, Shared Resilience During a Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-61442-3_37","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,23]],"date-time":"2021-04-23T15:47:03Z","timestamp":1619192823000},"score":34.35133,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-61442-3_37"}},"issued":{"date-parts":[[2020,12,13]]},"ISBN":["9783030614416","9783030614423"],"references-count":35,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-61442-3_37","ISSN":["2520-162X","2520-1611"],"issn-type":[{"value":"2520-162X","type":"print"},{"value":"2520-1611","type":"electronic"}],"published":{"date-parts":[[2020,12,13]]},"assertion":[{"value":"13
+        Clinical Social Work Series","Shared Trauma, Shared Resilience During a Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-61442-3_37","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,23]],"date-time":"2021-04-23T15:47:03Z","timestamp":1619192823000},"score":34.398094,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-61442-3_37"}},"issued":{"date-parts":[[2020,12,13]]},"ISBN":["9783030614416","9783030614423"],"references-count":35,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-61442-3_37","ISSN":["2520-162X","2520-1611"],"issn-type":[{"value":"2520-162X","type":"print"},{"value":"2520-1611","type":"electronic"}],"published":{"date-parts":[[2020,12,13]]},"assertion":[{"value":"13
         December 2020","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
         History"}}]},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T19:30:48Z","timestamp":1649100648511},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781003273462","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,1,26]]},"DOI":"10.4324\/9781003273462-7","type":"book-chapter","created":{"date-parts":[[2022,1,26]],"date-time":"2022-01-26T09:49:27Z","timestamp":1643190567000},"page":"99-114","source":"Crossref","is-referenced-by-count":0,"title":["\u201cWe
         Are Saving Their Bodies and Destroying Their Souls.\u201d: Family Caregivers''
@@ -746,16 +746,16 @@ http_interactions:
         M.","family":"Harris","sequence":"additional","affiliation":[]},{"given":"Kimberly
         E.","family":"Heller","sequence":"additional","affiliation":[]},{"given":"Brandon
         D.","family":"Mitchell","sequence":"additional","affiliation":[]}],"member":"301","container-title":["The
-        COVID-19 Pandemic and Older Adults"],"deposited":{"date-parts":[[2022,1,26]],"date-time":"2022-01-26T09:49:37Z","timestamp":1643190577000},"score":34.27804,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003273462\/chapters\/10.4324\/9781003273462-7"}},"issued":{"date-parts":[[2022,1,26]]},"ISBN":["9781003273462"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781003273462-7","published":{"date-parts":[[2022,1,26]]}},{"indexed":{"date-parts":[[2022,5,16]],"date-time":"2022-05-16T10:27:38Z","timestamp":1652696858908},"publisher-location":"Cham","update-to":[{"updated":{"date-parts":[[2021,6,18]],"date-time":"2021-06-18T00:00:00Z","timestamp":1623974400000},"DOI":"10.1007\/978-3-030-67716-9","type":"correction","label":"Correction"}],"reference-count":0,"publisher":"Springer
+        COVID-19 Pandemic and Older Adults"],"deposited":{"date-parts":[[2022,1,26]],"date-time":"2022-01-26T09:49:37Z","timestamp":1643190577000},"score":34.250195,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003273462\/chapters\/10.4324\/9781003273462-7"}},"issued":{"date-parts":[[2022,1,26]]},"ISBN":["9781003273462"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781003273462-7","published":{"date-parts":[[2022,1,26]]}},{"indexed":{"date-parts":[[2022,5,16]],"date-time":"2022-05-16T10:27:38Z","timestamp":1652696858908},"publisher-location":"Cham","update-to":[{"updated":{"date-parts":[[2021,6,18]],"date-time":"2021-06-18T00:00:00Z","timestamp":1623974400000},"DOI":"10.1007\/978-3-030-67716-9","type":"correction","label":"Correction"}],"reference-count":0,"publisher":"Springer
         International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_24","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"C1-C1","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":1,"title":["Correction
         to: Emerging Technologies During the Era of COVID-19 Pandemic"],"prefix":"10.1007","author":[{"ORCID":"http:\/\/orcid.org\/0000-0001-5628-0388","authenticated-orcid":false,"given":"Ibrahim","family":"Arpaci","sequence":"first","affiliation":[]},{"ORCID":"http:\/\/orcid.org\/0000-0002-0015-6908","authenticated-orcid":false,"given":"Mostafa","family":"Al-Emran","sequence":"additional","affiliation":[]},{"given":"Mohammed","family":"A.
         Al-Sharafi","sequence":"additional","affiliation":[]},{"given":"Gon\u00e7alo","family":"Marques","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,6,18]]},"container-title":["Studies
         in Systems, Decision and Control","Emerging Technologies During the Era of
-        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_24","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:35:27Z","timestamp":1629700527000},"score":34.141853,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_24"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_24","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"18
+        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_24","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:35:27Z","timestamp":1629700527000},"score":34.135376,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_24"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_24","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"18
         June 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
         History"}},{"value":"This content has been made available to all.","name":"free","label":"Free
-        to read"}]},{"indexed":{"date-parts":[[2022,10,1]],"date-time":"2022-10-01T15:29:34Z","timestamp":1664638174712},"publisher-location":"Cham","reference-count":36,"publisher":"Springer
-        International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_1","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"1-8","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":7,"title":["A
+        to read"}]},{"indexed":{"date-parts":[[2023,1,19]],"date-time":"2023-01-19T07:29:39Z","timestamp":1674113379306},"publisher-location":"Cham","reference-count":36,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030677152","type":"print"},{"value":"9783030677169","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-67716-9_1","type":"book-chapter","created":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:02:43Z","timestamp":1629698563000},"page":"1-8","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":8,"title":["A
         Survey of Using Machine Learning Algorithms During the COVID-19 Pandemic"],"prefix":"10.1007","author":[{"ORCID":"http:\/\/orcid.org\/0000-0002-5269-5380","authenticated-orcid":false,"given":"Mostafa","family":"Al-Emran","sequence":"first","affiliation":[]},{"given":"Mohammed
         N.","family":"Al-Kabi","sequence":"additional","affiliation":[]},{"ORCID":"http:\/\/orcid.org\/0000-0001-5834-6571","authenticated-orcid":false,"given":"Gon\u00e7alo","family":"Marques","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,3,21]]},"reference":[{"key":"1_CR1","doi-asserted-by":"publisher","author":"N
         Zhu","year":"2020","unstructured":"Zhu, N., et al.: A novel coronavirus from
@@ -859,19 +859,35 @@ http_interactions:
         J., Pham, K.H., Lam, C.S.N., Luengo-Oroz, M.: Mapping the landscape of artificial
         intelligence applications against COVID-19 (2020). arXiv preprint: arXiv:2003.11336","DOI":"10.1613\/jair.1.12162"}],"container-title":["Studies
         in Systems, Decision and Control","Emerging Technologies During the Era of
-        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:23:46Z","timestamp":1629699826000},"score":34.1002,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_1"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":36,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_1","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
+        COVID-19 Pandemic"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-67716-9_1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,8,23]],"date-time":"2021-08-23T06:23:46Z","timestamp":1629699826000},"score":34.12863,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-67716-9_1"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030677152","9783030677169"],"references-count":36,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-67716-9_1","ISSN":["2198-4182","2198-4190"],"issn-type":[{"value":"2198-4182","type":"print"},{"value":"2198-4190","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
         March 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
         History"}}]},{"indexed":{"date-parts":[[2022,10,12]],"date-time":"2022-10-12T04:35:25Z","timestamp":1665549325739},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781003159155","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2022,10,11]]},"DOI":"10.4324\/9781003159155-10","type":"book-chapter","created":{"date-parts":[[2022,10,11]],"date-time":"2022-10-11T15:54:58Z","timestamp":1665503698000},"page":"211-239","source":"Crossref","is-referenced-by-count":0,"title":["A
         descriptive study of workplace bullying in U.S. libraries during the COVID-19
         pandemic"],"prefix":"10.4324","author":[{"ORCID":"http:\/\/orcid.org\/0000-0003-2621-4317","authenticated-orcid":false,"given":"Carol
         Anne","family":"Geary","sequence":"first","affiliation":[]},{"ORCID":"http:\/\/orcid.org\/0000-0001-9371-2418","authenticated-orcid":false,"given":"Spencer","family":"Acadia","sequence":"additional","affiliation":[]}],"member":"301","container-title":["Libraries
-        as Dysfunctional Organizations and Workplaces"],"deposited":{"date-parts":[[2022,10,11]],"date-time":"2022-10-11T21:22:31Z","timestamp":1665523351000},"score":34.079247,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003159155\/chapters\/10.4324\/9781003159155-10"}},"issued":{"date-parts":[[2022,10,11]]},"ISBN":["9781003159155"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781003159155-10","published":{"date-parts":[[2022,10,11]]}},{"indexed":{"date-parts":[[2023,1,10]],"date-time":"2023-01-10T06:11:55Z","timestamp":1673331115978},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781003341963","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,1,9]]},"DOI":"10.4324\/9781003341963-43","type":"book-chapter","created":{"date-parts":[[2023,1,9]],"date-time":"2023-01-09T12:26:44Z","timestamp":1673267204000},"page":"327-333","source":"Crossref","is-referenced-by-count":0,"title":["Psycho-Social
+        as Dysfunctional Organizations and Workplaces"],"deposited":{"date-parts":[[2022,10,11]],"date-time":"2022-10-11T21:22:31Z","timestamp":1665523351000},"score":34.052715,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003159155\/chapters\/10.4324\/9781003159155-10"}},"issued":{"date-parts":[[2022,10,11]]},"ISBN":["9781003159155"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781003159155-10","published":{"date-parts":[[2022,10,11]]}},{"indexed":{"date-parts":[[2023,1,10]],"date-time":"2023-01-10T06:11:55Z","timestamp":1673331115978},"publisher-location":"London","edition-number":"1","reference-count":0,"publisher":"Routledge","isbn-type":[{"value":"9781003341963","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,1,9]]},"DOI":"10.4324\/9781003341963-43","type":"book-chapter","created":{"date-parts":[[2023,1,9]],"date-time":"2023-01-09T12:26:44Z","timestamp":1673267204000},"page":"327-333","source":"Crossref","is-referenced-by-count":0,"title":["Psycho-Social
         Support Based Intervention for Patients and Caregivers Stranded During the
         Lock-Down During COVID-19 Pandemic: A Case Study Report from India"],"prefix":"10.4324","author":[{"given":"N.
         S.","family":"Devaki","sequence":"first","affiliation":[]},{"given":"Sekar","family":"Kasi","sequence":"additional","affiliation":[]},{"given":"Ajay
         Kumar","family":"Goyal","sequence":"additional","affiliation":[]},{"given":"Sanjeev
         Kumar","family":"Manikappa","sequence":"additional","affiliation":[]}],"member":"301","container-title":["5th
-        World Congress on Disaster Management: Volume III"],"deposited":{"date-parts":[[2023,1,9]],"date-time":"2023-01-09T12:28:07Z","timestamp":1673267287000},"score":33.714977,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003341963\/chapters\/10.4324\/9781003341963-43"}},"issued":{"date-parts":[[2023,1,9]]},"ISBN":["9781003341963"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781003341963-43","published":{"date-parts":[[2023,1,9]]}},{"indexed":{"date-parts":[[2022,9,20]],"date-time":"2022-09-20T05:19:49Z","timestamp":1663651189890},"publisher-location":"Singapore","reference-count":43,"publisher":"Springer
+        World Congress on Disaster Management: Volume III"],"deposited":{"date-parts":[[2023,1,9]],"date-time":"2023-01-09T12:28:07Z","timestamp":1673267287000},"score":33.758923,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003341963\/chapters\/10.4324\/9781003341963-43"}},"issued":{"date-parts":[[2023,1,9]]},"ISBN":["9781003341963"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781003341963-43","published":{"date-parts":[[2023,1,9]]}},{"indexed":{"date-parts":[[2023,1,24]],"date-time":"2023-01-24T13:55:04Z","timestamp":1674568504248},"reference-count":0,"publisher":"Policy
+        Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,7,29]]},"abstract":"<p>The
+        lockdown imposed by the four governments of the UK in late March 2020 represented
+        an extraordinary, rapid, and radical restriction on normal life for the entire
+        population. What did the UK public think about this unprecedented governmental
+        intervention? Specifically, what was the popular rights consciousness with
+        respect to the lockdown restrictions? The chapter argues that, despite notable
+        and powerful public statements about the extent to which lockdown represented
+        an unacceptable violation of basic rights and liberties, this claim failed
+        to capture the public imagination. Instead, most people either regarded the
+        violation of basic rights as acceptable, given the context of the pandemic,
+        or simply failed to think of the lockdown in terms of basic rights at all.
+        The chapter suggests that such popular rights consciousness has been shaped
+        by the strength of social solidarity during the crisis \u2013 what we might
+        describe as a kind of popular \u2018obligation\u2019 consciousness.<\/p>","DOI":"10.1332\/policypress\/9781529218916.003.0007","type":"book-chapter","created":{"date-parts":[[2022,1,20]],"date-time":"2022-01-20T18:54:29Z","timestamp":1642704869000},"page":"79-92","source":"Crossref","is-referenced-by-count":1,"title":["Rights
+        and Solidarity during COVID-19"],"prefix":"10.1332","author":[{"given":"Simon","family":"Halliday","sequence":"first","affiliation":[]},{"given":"Jed","family":"Meers","sequence":"additional","affiliation":[]},{"given":"Joe","family":"Tomlinson","sequence":"additional","affiliation":[]}],"member":"165","published-online":{"date-parts":[[2022,1,20]]},"container-title":["Pandemic
+        Legalities"],"original-title":["Rights and Solidarity during COVID-19"],"deposited":{"date-parts":[[2022,7,28]],"date-time":"2022-07-28T19:02:19Z","timestamp":1659034939000},"score":33.33202,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/policy-press-scholarship-online\/book\/42699\/chapter\/360674828"}},"issued":{"date-parts":[[2021,7,29]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1332\/policypress\/9781529218916.003.0007","relation":{"is-identical-to":[{"id-type":"doi","id":"10.51952\/9781529218947.ch006","asserted-by":"object"}]},"published":{"date-parts":[[2021,7,29]]}},{"indexed":{"date-parts":[[2022,9,20]],"date-time":"2022-09-20T05:19:49Z","timestamp":1663651189890},"publisher-location":"Singapore","reference-count":43,"publisher":"Springer
         Nature Singapore","isbn-type":[{"value":"9789811908088","type":"print"},{"value":"9789811908095","type":"electronic"}],"license":[{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2022,1,1]],"date-time":"2022-01-01T00:00:00Z","timestamp":1640995200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2022]]},"DOI":"10.1007\/978-981-19-0809-5_7","type":"book-chapter","created":{"date-parts":[[2022,5,14]],"date-time":"2022-05-14T22:02:26Z","timestamp":1652565746000},"page":"123-136","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Negotiating
         Access to Maternal Health Services During COVID-19 Pandemic in Kilifi County,
         Kenya: Rapid Qualitative Study"],"prefix":"10.1007","author":[{"given":"Stephen
@@ -1012,121 +1028,16 @@ http_interactions:
         Castro-, J. A. (2020). Challenges of COVID-19 in children in low- and middle-income
         countries. Paediatric Respiratory Reviews. https:\/\/doi.org\/10.1016\/j.prrv.2020.06.016","journal-title":"Paediatric
         Respiratory Reviews","DOI":"10.1016\/j.prrv.2020.06.016"}],"container-title":["Understanding
-        Post-COVID-19 Social and Cultural Realities"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-981-19-0809-5_7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,19]],"date-time":"2022-09-19T17:05:27Z","timestamp":1663607127000},"score":33.371,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-981-19-0809-5_7"}},"issued":{"date-parts":[[2022]]},"ISBN":["9789811908088","9789811908095"],"references-count":43,"URL":"http:\/\/dx.doi.org\/10.1007\/978-981-19-0809-5_7","published":{"date-parts":[[2022]]},"assertion":[{"value":"15
+        Post-COVID-19 Social and Cultural Realities"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-981-19-0809-5_7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,19]],"date-time":"2022-09-19T17:05:27Z","timestamp":1663607127000},"score":33.291065,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-981-19-0809-5_7"}},"issued":{"date-parts":[[2022]]},"ISBN":["9789811908088","9789811908095"],"references-count":43,"URL":"http:\/\/dx.doi.org\/10.1007\/978-981-19-0809-5_7","published":{"date-parts":[[2022]]},"assertion":[{"value":"15
         May 2022","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
-        History"}}]},{"indexed":{"date-parts":[[2022,7,29]],"date-time":"2022-07-29T04:41:08Z","timestamp":1659069668442},"reference-count":0,"publisher":"Policy
-        Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,7,29]]},"abstract":"<p>The
-        lockdown imposed by the four governments of the UK in late March 2020 represented
-        an extraordinary, rapid, and radical restriction on normal life for the entire
-        population. What did the UK public think about this unprecedented governmental
-        intervention? Specifically, what was the popular rights consciousness with
-        respect to the lockdown restrictions? The chapter argues that, despite notable
-        and powerful public statements about the extent to which lockdown represented
-        an unacceptable violation of basic rights and liberties, this claim failed
-        to capture the public imagination. Instead, most people either regarded the
-        violation of basic rights as acceptable, given the context of the pandemic,
-        or simply failed to think of the lockdown in terms of basic rights at all.
-        The chapter suggests that such popular rights consciousness has been shaped
-        by the strength of social solidarity during the crisis \u2013 what we might
-        describe as a kind of popular \u2018obligation\u2019 consciousness.<\/p>","DOI":"10.1332\/policypress\/9781529218916.003.0007","type":"book-chapter","created":{"date-parts":[[2022,1,20]],"date-time":"2022-01-20T18:54:29Z","timestamp":1642704869000},"page":"79-92","source":"Crossref","is-referenced-by-count":0,"title":["Rights
-        and Solidarity during COVID-19"],"prefix":"10.1332","author":[{"given":"Simon","family":"Halliday","sequence":"first","affiliation":[]},{"given":"Jed","family":"Meers","sequence":"additional","affiliation":[]},{"given":"Joe","family":"Tomlinson","sequence":"additional","affiliation":[]}],"member":"165","published-online":{"date-parts":[[2022,1,20]]},"container-title":["Pandemic
-        Legalities"],"original-title":["Rights and Solidarity during COVID-19"],"deposited":{"date-parts":[[2022,7,28]],"date-time":"2022-07-28T19:02:19Z","timestamp":1659034939000},"score":33.304443,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/policy-press-scholarship-online\/book\/42699\/chapter\/360674828"}},"issued":{"date-parts":[[2021,7,29]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1332\/policypress\/9781529218916.003.0007","relation":{"is-identical-to":[{"id-type":"doi","id":"10.51952\/9781529218947.ch006","asserted-by":"object"}]},"published":{"date-parts":[[2021,7,29]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T07:56:13Z","timestamp":1648799773263},"reference-count":0,"publisher":"University
+        History"}}]},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T07:56:13Z","timestamp":1648799773263},"reference-count":0,"publisher":"University
         of Calgary Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,12,15]]},"DOI":"10.2307\/j.ctv25m8djx.7","type":"book-chapter","created":{"date-parts":[[2021,12,16]],"date-time":"2021-12-16T20:20:18Z","timestamp":1639686018000},"page":"51-72","source":"Crossref","is-referenced-by-count":0,"title":["Supply
         Chains during the COVID-19 Pandemic"],"prefix":"10.2307","member":"1121","container-title":["Stress
-        Tested"],"deposited":{"date-parts":[[2021,12,16]],"date-time":"2021-12-16T20:20:27Z","timestamp":1639686027000},"score":33.244766,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv25m8djx.7"}},"issued":{"date-parts":[[2021,12,15]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv25m8djx.7","published":{"date-parts":[[2021,12,15]]}},{"indexed":{"date-parts":[[2022,4,21]],"date-time":"2022-04-21T23:05:09Z","timestamp":1650582309298},"reference-count":28,"publisher":"IntechOpen","license":[{"start":{"date-parts":[[2021,12,1]],"date-time":"2021-12-01T00:00:00Z","timestamp":1638316800000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/3.0\/legalcode"}],"content-domain":{"domain":[],"crossmark-restriction":false},"abstract":"<jats:p>COVID-19
-        has affected millions worldwide. To combat the infectious pandemic in resource
-        limited settings, healthcare workers and techies have come up with multiple
-        innovations. Nations with scarcity of resources have resorted to innovative
-        strategies involving optimal utilization and repurposing of available commodities
-        to overcome the demand\u2013supply mismatch. Emergency rooms overburdened
-        with diseased population are resorting to local innovative ideas to overcome
-        obstacles in COVID-19 patient care. Point of care testing strategies in emergency
-        rooms, sampling booths to reduce Personal Protective Equipment (PPE) use,
-        disinfection strategies such as tunnel disinfection and local production of
-        sanitizers, face masks\/shields, aerosol containment chambers, novel triage
-        protocols, telehealth care strategies reaching out to remote population and
-        utilizing point for care ultrasound for resuscitation are few of the novel
-        innovations which have benefitted medical fraternity and patient care in testing
-        times. Medical innovations have emerged as the positive outcome of otherwise
-        devastating COVID-19 pandemic. These practice changing innovations could also
-        prove beneficial in future infectious pandemics.<\/jats:p>","DOI":"10.5772\/intechopen.98293","type":"book-chapter","created":{"date-parts":[[2021,6,16]],"date-time":"2021-06-16T13:52:20Z","timestamp":1623851540000},"source":"Crossref","is-referenced-by-count":1,"title":["Practice
-        Changing Innovations for Emergency Care during the COVID-19 Pandemic in Resource
-        Limited Settings"],"prefix":"10.5772","author":[{"given":"Tej","family":"Prakash
-        Sinha","sequence":"first","affiliation":[]},{"given":"Brunda","family":"RL","sequence":"additional","affiliation":[]},{"given":"Sakshi","family":"Yadav","sequence":"additional","affiliation":[]},{"given":"Sanjeev","family":"Bhoi","sequence":"additional","affiliation":[]}],"member":"3774","published-online":{"date-parts":[[2021,12,1]]},"reference":[{"key":"ref=1","doi-asserted-by":"crossref","unstructured":"Mathew
-        JL, Mathew TL. Invention, Innovation, and Imitation in India\u2014Necessity
-        Arising from the COVID-19 Pandemic. Annals of the National Academy of Medical
-        Sciences (India). 21.06.2020. 2020 Jun 8;56(02):077-86","DOI":"10.1055\/s-0040-1713719"},{"key":"ref=2","doi-asserted-by":"crossref","unstructured":"Chowdhury
-        R, Luhar S, Khan N, Choudhury SR, Matin I, Franco OH. Long-term strategies
-        to control COVID-19 in low and middle-income countries: an options overview
-        of community-based, non-pharmacological interventions. European Journal of
-        Epidemiology [Internet]. 2020 Aug 1;35(8):743-748. Available from: https:\/\/doi.org\/10.1007\/s10654-020-00660-1","DOI":"10.1007\/s10654-020-00660-1"},{"key":"ref=3","doi-asserted-by":"crossref","unstructured":"Narinx
-        N, Smismans A, Symons R, Frans J, Demeyere A, Gillis M. Feasibility of using
-        point-of-care lung ultrasound for early triage of COVID-19 patients in the
-        emergency room. Emerg Radiol [Internet]. 2020\/09\/10 ed. 2020 Dec;27(6):663-70.
-        Available from: https:\/\/pubmed.ncbi.nlm.nih.gov\/32910323","DOI":"10.1007\/s10140-020-01849-3"},{"key":"ref=4","doi-asserted-by":"crossref","unstructured":"Freund
-        Y. The challenge of emergency medicine facing the COVID-19 outbreak. European
-        Journal of Emergency Medicine [Internet]. 2020;27(3). Available from: https:\/\/journals.lww.com\/euro-emergencymed\/Fulltext\/2020\/06000\/The_challenge_of_emergency_medicine_facing_the.1.aspx","DOI":"10.1097\/MEJ.0000000000000699"},{"key":"ref=5","unstructured":"https:\/\/innohealthmagazine.com\/2020\/covid19\/innovation-for-hospitalsduring-covid-19\/"},{"key":"ref=6","unstructured":"Sruthi
-        (2020) India\u2019s 1st walk-in COVID-19 test kiosks become functional in
-        Kerala. https:\/\/www.biotecnika.org\/2020\/04\/first-walk-in-covid-19-test-booth-functional-in-kerala\/.
-        Accessed 10 Apr 2020"},{"key":"ref=7","doi-asserted-by":"crossref","unstructured":"Joshi
-        JR. COVSACK: an innovative portable isolated and safe COVID-19 sample collection
-        kiosk with automatic disinfection. Transactions of the Indian National Academy
-        of Engineering [Internet]. 2020 Jun 1;5(2):269-275. Available from: https:\/\/doi.org\/10.1007\/s41403-020-00139-1","DOI":"10.1007\/s41403-020-00139-1"},{"key":"ref=8","doi-asserted-by":"crossref","unstructured":"Nair
-        SS, Prajapati AK, Venkatesan RB, Vayalappil MC, Kishore A. Design and Evaluation
-        of Chitra Swab Collection Booths for Health Professionals in COVID-19 Pandemic.
-        Transactions of the Indian National Academy of Engineering [Internet]. 2020
-        Aug 31; Available from: https:\/\/doi.org\/10.1007\/s41403-020-00167-x","DOI":"10.1007\/s41403-020-00167-x"},{"key":"ref=9","doi-asserted-by":"crossref","unstructured":"Lee
-        D, Lee J. Testing on the move: South Korea\u2019s rapid response to the COVID-19
-        pandemic. Transportation Research Interdisciplinary Perspectives [Internet].
-        2020\/04\/21 ed. 2020 May;5:100111-100111. Available from: https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7172645\/","DOI":"10.1016\/j.trip.2020.100111"},{"key":"ref=10","unstructured":"Guidance
-        on Rapid Antibody Kits for COVID-19. Available at: https:\/\/www.icmr.gov.in\/pdf\/covid\/kits\/Antibody_based_tests_14052020.pdf.
-        Accessed May 18, 2020"},{"key":"ref=11","unstructured":"Rajalakshmi N. Explained:
-        How Does India\u2019s Feluda COVID-19 Test Work? 2020 Oct 28; Available from:
-        https:\/\/science.thewire.in\/the-sciences\/explained-feluda-covid-19-test-india-crispr-technology\/"},{"key":"ref=12","unstructured":"Tamil
-        Nadu: Ventilator Splitters Being 3D Printed in Case of Shortage for Covid-19
-        Patients. Available at: https:\/\/www.indiatoday.in\/india\/story\/tamil-nadu-ventilator-splitters-being-3d-printed-in-case-of-shortage-for-covid-19-patients-1668167-2020-04-17.
-        Accessed May 17, 2020"},{"key":"ref=13","unstructured":"Badve A. Coronavirus
-        India: Nagpur\u2019s Dr Anand Sancheti Develops Ventilator Splitters. Avilable
-        at: https:\/\/www.sakaltimes.com\/coronavirus-maharashtra\/coronavirus-india-nagpur\u2019s-dr-anand-sancheti-develops-ventilator-splitters.
-        Accessed May 17, 2020"},{"key":"ref=14","unstructured":"Railways New Innovative
-        Device, \u2018Intubation Boxes\u2019, to Aid the Medical Fraternity In Our
-        Fight Against COVID-19. Available at: https:\/\/news.fresherslive.com\/articles\/railway-s-new-innovative-device-intubation-boxes-to-aid-the-medical-fraternity-in-our-fight-against-covid-19-126438.
-        Accessed May 18, 2020"},{"key":"ref=15","unstructured":"Singh B. IIT Guwahati
-        Students Design Low-Cost Intubation Box to Help Doctors in Covid-19 Fight.
-        Available at: https:\/\/economictimes.indiatimes.com\/industry\/healthcare\/biotech\/healthcare\/iit-guwahati-students-design-low-cost-intubation-box-to-help-doctors-in-covid-19-fight\/articleshow\/75475246.cms?from=mdr.
-        Accessed May 18, 2020"},{"key":"ref=16","unstructured":"Harrison K. Innovative
-        infection isolation tent humanises treatment for COVID-19 patients. 2020 Jul
-        29; Available from: https:\/\/newsroom.unsw.edu.au\/news\/art-architecture-design\/innovative-infection-isolation-tent-humanises-treatment-covid-19"},{"key":"ref=17","unstructured":"https:\/\/indiabioscience.org\/columns\/indian-scenario\/innovations-to-make-india-self-reliant-in-tackling-covid-19"},{"key":"ref=18","unstructured":"Global
-        health innovators mobilize to help developing countries combat COVID-19 |
-        EurekAlert! Science News: https:\/\/www.eurekalert.org\/pub_releases\/2020-04\/tca-imt042120.php"},{"key":"ref=19","doi-asserted-by":"crossref","unstructured":"Keri
-        VC, R.L B, Sinha TP, Wig N, Bhoi S. Tele-healthcare to combat COVID-19 pandemic
-        in developing countries: A proposed single centre and integrated national
-        level model. The International Journal of Health Planning and Management [Internet].
-        2020 Aug 3 [cited 2020 Oct 16];n\/a(n\/a). Available from: https:\/\/doi.org\/10.1002\/hpm.3036","DOI":"10.1002\/hpm.3036"},{"key":"ref=20","unstructured":"Sh.
-        R Ramanan(Additional Secretary and Mission Director, Himanshu Agrawal(Young
-        Professional, AIM, NITI Aayog)AIM, NITI Aayog), Naman Agrawal(Innovation Lead,
-        AIM, NITI Aayog). Telemedicine: A Blessing In Disguise In Time Of COVID-19.
-        2020"},{"key":"ref=21","unstructured":"Rl B, Keri V, Sinha T, Bhoi S. Re-purposing
-        humanoid robots for patient care in COVID-19 pandemic. The International Journal
-        of Health Planning and Management. 2020 Sep 1;"},{"key":"ref=22","unstructured":"Barnes
-        S. Boy scout 3D prints \u2018ear guards\u2019 to help relieve hospital workers\u2019
-        pain caused by facemasks. https:\/\/mymodernmet.com\/3d-printed-ear-guards\/"},{"key":"ref=23","unstructured":"Peters
-        J. Volunteers produce 3D-printed valves for life-saving coronavirus treatments.https:\/\/www.theverge.com\/2020\/3\/17\/21184308\/coronavirus-italy-medical-3d-print-valves-treatments"},{"key":"ref=24","unstructured":"Digital
-        Healthcare Innovating During Pandemic| VMware Radius: https:\/\/www.vmware.com\/radius\/impact\/digital-healthcare-pandemic\/"},{"key":"ref=25","unstructured":"How
-        Delivery Drones Are Being Used to Tackle COVID-19 (Updated) [Internet]. We
-        Robotics- The power of Local. 2020. Available from: https:\/\/blog.werobotics.org\/2020\/04\/25\/cargo-drones-covid-19\/"},{"key":"ref=26","unstructured":"Peach
-        kathy, Gray I. Five ways collective intelligence can help beat coronavirus
-        in developing countries [Internet]. 2020. Available from: https:\/\/theconversation.com\/five-ways-collective-intelligence-can-help-beat-coronavirus-in-developing-countries-136548"},{"key":"ref=27","unstructured":"Ganesh
-        M. It\u2019s Time ASHAs And Anganwadi Workers Are Given Recognition As Healthcare
-        Employees. 2020 May 28; Available from: https:\/\/www.outlookindia.com\/website\/story\/opinion-its-time-ashas-and-anganwadi-workers-are-given-recognition-as-healthcare-employees\/353769"},{"key":"ref=28","doi-asserted-by":"crossref","unstructured":"Bryant
-        JL, Sosin DM, Wiedrich TW, Redd SC. Emergency Operations Centers and Incident
-        Management Structure. In: CDC Field Epidemiology manual. 4th ed. Oxford University
-        press 2019;","DOI":"10.1093\/oso\/9780190933692.003.0016"}],"container-title":["SARS-CoV-2
-        Origin and COVID-19 Pandemic Across the Globe"],"link":[{"URL":"http:\/\/www.intechopen.com\/download\/pdf\/76912","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,12,2]],"date-time":"2021-12-02T09:50:14Z","timestamp":1638438614000},"score":33.181545,"resource":{"primary":{"URL":"https:\/\/www.intechopen.com\/books\/sars-cov-2-origin-and-covid-19-pandemic-across-the-globe\/practice-changing-innovations-for-emergency-care-during-the-covid-19-pandemic-in-resource-limited-se"}},"issued":{"date-parts":[[2021,12,1]]},"references-count":28,"URL":"http:\/\/dx.doi.org\/10.5772\/intechopen.98293","published":{"date-parts":[[2021,12,1]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T11:18:26Z","timestamp":1648639106683},"reference-count":0,"publisher":"inScience
+        Tested"],"deposited":{"date-parts":[[2021,12,16]],"date-time":"2021-12-16T20:20:27Z","timestamp":1639686027000},"score":33.257545,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv25m8djx.7"}},"issued":{"date-parts":[[2021,12,15]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv25m8djx.7","published":{"date-parts":[[2021,12,15]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T11:18:26Z","timestamp":1648639106683},"reference-count":0,"publisher":"inScience
         Press","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.36315\/2021padvii21","type":"book-chapter","created":{"date-parts":[[2022,3,16]],"date-time":"2022-03-16T11:29:56Z","timestamp":1647430196000},"source":"Crossref","is-referenced-by-count":0,"title":["Anxiety
         and Depression in Post Acute Myocardial Infarction Patients During COVID-19
         Pandemic"],"prefix":"10.36315","member":"22118","published-online":{"date-parts":[[2021,12,15]]},"container-title":["Psychology
-        Applications &amp; Developments VII"],"deposited":{"date-parts":[[2022,3,16]],"date-time":"2022-03-16T11:30:19Z","timestamp":1647430219000},"score":33.154205,"resource":{"primary":{"URL":"http:\/\/press.insciencepress.org\/index.php\/press\/catalog\/view\/15\/28\/389-1"}},"issued":{"date-parts":[[2021,12,15]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.36315\/2021padvii21","published":{"date-parts":[[2021,12,15]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T23:47:32Z","timestamp":1649029652830},"reference-count":42,"publisher":"Elsevier","license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1016\/b978-0-323-82691-4.00001-7","type":"book-chapter","created":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:41:20Z","timestamp":1630053680000},"page":"115-121","source":"Crossref","is-referenced-by-count":0,"title":["Pediatric
+        Applications &amp; Developments VII"],"deposited":{"date-parts":[[2022,3,16]],"date-time":"2022-03-16T11:30:19Z","timestamp":1647430219000},"score":33.17154,"resource":{"primary":{"URL":"http:\/\/press.insciencepress.org\/index.php\/press\/catalog\/view\/15\/28\/389-1"}},"issued":{"date-parts":[[2021,12,15]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.36315\/2021padvii21","published":{"date-parts":[[2021,12,15]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T23:47:32Z","timestamp":1649029652830},"reference-count":42,"publisher":"Elsevier","license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1016\/b978-0-323-82691-4.00001-7","type":"book-chapter","created":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:41:20Z","timestamp":1630053680000},"page":"115-121","source":"Crossref","is-referenced-by-count":0,"title":["Pediatric
         Neurology and the COVID-19 Pandemic"],"prefix":"10.1016","author":[{"given":"Ghada
         A.","family":"Mohamed","sequence":"first","affiliation":[]},{"given":"Jules
         E.C.","family":"Constantinou","sequence":"additional","affiliation":[]}],"member":"78","reference":[{"key":"10.1016\/B978-0-323-82691-4.00001-7_bb0010","first-page":"2302","article-title":"Human
@@ -1220,8 +1131,97 @@ http_interactions:
         outcomes in children","volume":"26","author":"Condie","year":"2020","journal-title":"Child
         Neuropsychol"},{"key":"10.1016\/B978-0-323-82691-4.00001-7_bb0210","doi-asserted-by":"crossref","first-page":"264","DOI":"10.1016\/j.jpeds.2020.03.013","article-title":"Behavioral
         and emotional disorders in children during the COVID-19 epidemic","volume":"221","author":"Jiao","year":"2020","journal-title":"J
-        Pediatr"}],"container-title":["Neurological Care and the COVID-19 Pandemic"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000017?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000017?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:42:08Z","timestamp":1630053728000},"score":33.118446,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780323826914000017"}},"issued":{"date-parts":[[2021]]},"references-count":42,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-323-82691-4.00001-7","published":{"date-parts":[[2021]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Decision+letter+for+\"Self\u2010care+of+patients+with+multiple+chronic+conditions+and+their+caregivers+during+the+COVID\u201019+pandemic:+A+qualitative+descriptive+study\"+2021+Wiley"}}}'
-  recorded_at: Sun, 15 Jan 2023 19:24:47 GMT
+        Pediatr"}],"container-title":["Neurological Care and the COVID-19 Pandemic"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000017?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780323826914000017?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2021,8,27]],"date-time":"2021-08-27T08:42:08Z","timestamp":1630053728000},"score":33.1474,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780323826914000017"}},"issued":{"date-parts":[[2021]]},"references-count":42,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-323-82691-4.00001-7","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,21]],"date-time":"2022-04-21T23:05:09Z","timestamp":1650582309298},"reference-count":28,"publisher":"IntechOpen","license":[{"start":{"date-parts":[[2021,12,1]],"date-time":"2021-12-01T00:00:00Z","timestamp":1638316800000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/3.0\/legalcode"}],"content-domain":{"domain":[],"crossmark-restriction":false},"abstract":"<jats:p>COVID-19
+        has affected millions worldwide. To combat the infectious pandemic in resource
+        limited settings, healthcare workers and techies have come up with multiple
+        innovations. Nations with scarcity of resources have resorted to innovative
+        strategies involving optimal utilization and repurposing of available commodities
+        to overcome the demand\u2013supply mismatch. Emergency rooms overburdened
+        with diseased population are resorting to local innovative ideas to overcome
+        obstacles in COVID-19 patient care. Point of care testing strategies in emergency
+        rooms, sampling booths to reduce Personal Protective Equipment (PPE) use,
+        disinfection strategies such as tunnel disinfection and local production of
+        sanitizers, face masks\/shields, aerosol containment chambers, novel triage
+        protocols, telehealth care strategies reaching out to remote population and
+        utilizing point for care ultrasound for resuscitation are few of the novel
+        innovations which have benefitted medical fraternity and patient care in testing
+        times. Medical innovations have emerged as the positive outcome of otherwise
+        devastating COVID-19 pandemic. These practice changing innovations could also
+        prove beneficial in future infectious pandemics.<\/jats:p>","DOI":"10.5772\/intechopen.98293","type":"book-chapter","created":{"date-parts":[[2021,6,16]],"date-time":"2021-06-16T13:52:20Z","timestamp":1623851540000},"source":"Crossref","is-referenced-by-count":1,"title":["Practice
+        Changing Innovations for Emergency Care during the COVID-19 Pandemic in Resource
+        Limited Settings"],"prefix":"10.5772","author":[{"given":"Tej","family":"Prakash
+        Sinha","sequence":"first","affiliation":[]},{"given":"Brunda","family":"RL","sequence":"additional","affiliation":[]},{"given":"Sakshi","family":"Yadav","sequence":"additional","affiliation":[]},{"given":"Sanjeev","family":"Bhoi","sequence":"additional","affiliation":[]}],"member":"3774","published-online":{"date-parts":[[2021,12,1]]},"reference":[{"key":"ref=1","doi-asserted-by":"crossref","unstructured":"Mathew
+        JL, Mathew TL. Invention, Innovation, and Imitation in India\u2014Necessity
+        Arising from the COVID-19 Pandemic. Annals of the National Academy of Medical
+        Sciences (India). 21.06.2020. 2020 Jun 8;56(02):077-86","DOI":"10.1055\/s-0040-1713719"},{"key":"ref=2","doi-asserted-by":"crossref","unstructured":"Chowdhury
+        R, Luhar S, Khan N, Choudhury SR, Matin I, Franco OH. Long-term strategies
+        to control COVID-19 in low and middle-income countries: an options overview
+        of community-based, non-pharmacological interventions. European Journal of
+        Epidemiology [Internet]. 2020 Aug 1;35(8):743-748. Available from: https:\/\/doi.org\/10.1007\/s10654-020-00660-1","DOI":"10.1007\/s10654-020-00660-1"},{"key":"ref=3","doi-asserted-by":"crossref","unstructured":"Narinx
+        N, Smismans A, Symons R, Frans J, Demeyere A, Gillis M. Feasibility of using
+        point-of-care lung ultrasound for early triage of COVID-19 patients in the
+        emergency room. Emerg Radiol [Internet]. 2020\/09\/10 ed. 2020 Dec;27(6):663-70.
+        Available from: https:\/\/pubmed.ncbi.nlm.nih.gov\/32910323","DOI":"10.1007\/s10140-020-01849-3"},{"key":"ref=4","doi-asserted-by":"crossref","unstructured":"Freund
+        Y. The challenge of emergency medicine facing the COVID-19 outbreak. European
+        Journal of Emergency Medicine [Internet]. 2020;27(3). Available from: https:\/\/journals.lww.com\/euro-emergencymed\/Fulltext\/2020\/06000\/The_challenge_of_emergency_medicine_facing_the.1.aspx","DOI":"10.1097\/MEJ.0000000000000699"},{"key":"ref=5","unstructured":"https:\/\/innohealthmagazine.com\/2020\/covid19\/innovation-for-hospitalsduring-covid-19\/"},{"key":"ref=6","unstructured":"Sruthi
+        (2020) India\u2019s 1st walk-in COVID-19 test kiosks become functional in
+        Kerala. https:\/\/www.biotecnika.org\/2020\/04\/first-walk-in-covid-19-test-booth-functional-in-kerala\/.
+        Accessed 10 Apr 2020"},{"key":"ref=7","doi-asserted-by":"crossref","unstructured":"Joshi
+        JR. COVSACK: an innovative portable isolated and safe COVID-19 sample collection
+        kiosk with automatic disinfection. Transactions of the Indian National Academy
+        of Engineering [Internet]. 2020 Jun 1;5(2):269-275. Available from: https:\/\/doi.org\/10.1007\/s41403-020-00139-1","DOI":"10.1007\/s41403-020-00139-1"},{"key":"ref=8","doi-asserted-by":"crossref","unstructured":"Nair
+        SS, Prajapati AK, Venkatesan RB, Vayalappil MC, Kishore A. Design and Evaluation
+        of Chitra Swab Collection Booths for Health Professionals in COVID-19 Pandemic.
+        Transactions of the Indian National Academy of Engineering [Internet]. 2020
+        Aug 31; Available from: https:\/\/doi.org\/10.1007\/s41403-020-00167-x","DOI":"10.1007\/s41403-020-00167-x"},{"key":"ref=9","doi-asserted-by":"crossref","unstructured":"Lee
+        D, Lee J. Testing on the move: South Korea\u2019s rapid response to the COVID-19
+        pandemic. Transportation Research Interdisciplinary Perspectives [Internet].
+        2020\/04\/21 ed. 2020 May;5:100111-100111. Available from: https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7172645\/","DOI":"10.1016\/j.trip.2020.100111"},{"key":"ref=10","unstructured":"Guidance
+        on Rapid Antibody Kits for COVID-19. Available at: https:\/\/www.icmr.gov.in\/pdf\/covid\/kits\/Antibody_based_tests_14052020.pdf.
+        Accessed May 18, 2020"},{"key":"ref=11","unstructured":"Rajalakshmi N. Explained:
+        How Does India\u2019s Feluda COVID-19 Test Work? 2020 Oct 28; Available from:
+        https:\/\/science.thewire.in\/the-sciences\/explained-feluda-covid-19-test-india-crispr-technology\/"},{"key":"ref=12","unstructured":"Tamil
+        Nadu: Ventilator Splitters Being 3D Printed in Case of Shortage for Covid-19
+        Patients. Available at: https:\/\/www.indiatoday.in\/india\/story\/tamil-nadu-ventilator-splitters-being-3d-printed-in-case-of-shortage-for-covid-19-patients-1668167-2020-04-17.
+        Accessed May 17, 2020"},{"key":"ref=13","unstructured":"Badve A. Coronavirus
+        India: Nagpur\u2019s Dr Anand Sancheti Develops Ventilator Splitters. Avilable
+        at: https:\/\/www.sakaltimes.com\/coronavirus-maharashtra\/coronavirus-india-nagpur\u2019s-dr-anand-sancheti-develops-ventilator-splitters.
+        Accessed May 17, 2020"},{"key":"ref=14","unstructured":"Railways New Innovative
+        Device, \u2018Intubation Boxes\u2019, to Aid the Medical Fraternity In Our
+        Fight Against COVID-19. Available at: https:\/\/news.fresherslive.com\/articles\/railway-s-new-innovative-device-intubation-boxes-to-aid-the-medical-fraternity-in-our-fight-against-covid-19-126438.
+        Accessed May 18, 2020"},{"key":"ref=15","unstructured":"Singh B. IIT Guwahati
+        Students Design Low-Cost Intubation Box to Help Doctors in Covid-19 Fight.
+        Available at: https:\/\/economictimes.indiatimes.com\/industry\/healthcare\/biotech\/healthcare\/iit-guwahati-students-design-low-cost-intubation-box-to-help-doctors-in-covid-19-fight\/articleshow\/75475246.cms?from=mdr.
+        Accessed May 18, 2020"},{"key":"ref=16","unstructured":"Harrison K. Innovative
+        infection isolation tent humanises treatment for COVID-19 patients. 2020 Jul
+        29; Available from: https:\/\/newsroom.unsw.edu.au\/news\/art-architecture-design\/innovative-infection-isolation-tent-humanises-treatment-covid-19"},{"key":"ref=17","unstructured":"https:\/\/indiabioscience.org\/columns\/indian-scenario\/innovations-to-make-india-self-reliant-in-tackling-covid-19"},{"key":"ref=18","unstructured":"Global
+        health innovators mobilize to help developing countries combat COVID-19 |
+        EurekAlert! Science News: https:\/\/www.eurekalert.org\/pub_releases\/2020-04\/tca-imt042120.php"},{"key":"ref=19","doi-asserted-by":"crossref","unstructured":"Keri
+        VC, R.L B, Sinha TP, Wig N, Bhoi S. Tele-healthcare to combat COVID-19 pandemic
+        in developing countries: A proposed single centre and integrated national
+        level model. The International Journal of Health Planning and Management [Internet].
+        2020 Aug 3 [cited 2020 Oct 16];n\/a(n\/a). Available from: https:\/\/doi.org\/10.1002\/hpm.3036","DOI":"10.1002\/hpm.3036"},{"key":"ref=20","unstructured":"Sh.
+        R Ramanan(Additional Secretary and Mission Director, Himanshu Agrawal(Young
+        Professional, AIM, NITI Aayog)AIM, NITI Aayog), Naman Agrawal(Innovation Lead,
+        AIM, NITI Aayog). Telemedicine: A Blessing In Disguise In Time Of COVID-19.
+        2020"},{"key":"ref=21","unstructured":"Rl B, Keri V, Sinha T, Bhoi S. Re-purposing
+        humanoid robots for patient care in COVID-19 pandemic. The International Journal
+        of Health Planning and Management. 2020 Sep 1;"},{"key":"ref=22","unstructured":"Barnes
+        S. Boy scout 3D prints \u2018ear guards\u2019 to help relieve hospital workers\u2019
+        pain caused by facemasks. https:\/\/mymodernmet.com\/3d-printed-ear-guards\/"},{"key":"ref=23","unstructured":"Peters
+        J. Volunteers produce 3D-printed valves for life-saving coronavirus treatments.https:\/\/www.theverge.com\/2020\/3\/17\/21184308\/coronavirus-italy-medical-3d-print-valves-treatments"},{"key":"ref=24","unstructured":"Digital
+        Healthcare Innovating During Pandemic| VMware Radius: https:\/\/www.vmware.com\/radius\/impact\/digital-healthcare-pandemic\/"},{"key":"ref=25","unstructured":"How
+        Delivery Drones Are Being Used to Tackle COVID-19 (Updated) [Internet]. We
+        Robotics- The power of Local. 2020. Available from: https:\/\/blog.werobotics.org\/2020\/04\/25\/cargo-drones-covid-19\/"},{"key":"ref=26","unstructured":"Peach
+        kathy, Gray I. Five ways collective intelligence can help beat coronavirus
+        in developing countries [Internet]. 2020. Available from: https:\/\/theconversation.com\/five-ways-collective-intelligence-can-help-beat-coronavirus-in-developing-countries-136548"},{"key":"ref=27","unstructured":"Ganesh
+        M. It\u2019s Time ASHAs And Anganwadi Workers Are Given Recognition As Healthcare
+        Employees. 2020 May 28; Available from: https:\/\/www.outlookindia.com\/website\/story\/opinion-its-time-ashas-and-anganwadi-workers-are-given-recognition-as-healthcare-employees\/353769"},{"key":"ref=28","doi-asserted-by":"crossref","unstructured":"Bryant
+        JL, Sosin DM, Wiedrich TW, Redd SC. Emergency Operations Centers and Incident
+        Management Structure. In: CDC Field Epidemiology manual. 4th ed. Oxford University
+        press 2019;","DOI":"10.1093\/oso\/9780190933692.003.0016"}],"container-title":["SARS-CoV-2
+        Origin and COVID-19 Pandemic Across the Globe"],"link":[{"URL":"http:\/\/www.intechopen.com\/download\/pdf\/76912","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,12,2]],"date-time":"2021-12-02T09:50:14Z","timestamp":1638438614000},"score":33.139603,"resource":{"primary":{"URL":"https:\/\/www.intechopen.com\/books\/sars-cov-2-origin-and-covid-19-pandemic-across-the-globe\/practice-changing-innovations-for-emergency-care-during-the-covid-19-pandemic-in-resource-limited-se"}},"issued":{"date-parts":[[2021,12,1]]},"references-count":28,"URL":"http:\/\/dx.doi.org\/10.5772\/intechopen.98293","published":{"date-parts":[[2021,12,1]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Decision+letter+for+\"Self\u2010care+of+patients+with+multiple+chronic+conditions+and+their+caregivers+during+the+COVID\u201019+pandemic:+A+qualitative+descriptive+study\"+2021+Wiley"}}}'
+  recorded_at: Mon, 27 Mar 2023 16:02:32 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1111%2FJAN.15115
@@ -1230,9 +1230,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -1243,16 +1243,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 15 Jan 2023 19:24:47 GMT
+      - Mon, 27 Mar 2023 16:02:32 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '3100'
+      - '11111'
       Set-Cookie:
-      - AWSALB=l7WcLXYzsxVeT6TAKayelaz34KEG+2xwNpYb9ByJlcpUbQ7D6k09zY3atCEGyDwGzfRPo5P0S5lgKvvEFoqCvYq0zKCB+IvOc2A+Tnv/CSl1LktU/LUH2UCrwLld;
-        Expires=Sun, 22 Jan 2023 19:24:47 GMT; Path=/
-      - AWSALBCORS=l7WcLXYzsxVeT6TAKayelaz34KEG+2xwNpYb9ByJlcpUbQ7D6k09zY3atCEGyDwGzfRPo5P0S5lgKvvEFoqCvYq0zKCB+IvOc2A+Tnv/CSl1LktU/LUH2UCrwLld;
-        Expires=Sun, 22 Jan 2023 19:24:47 GMT; Path=/; SameSite=None
+      - AWSALB=RrkeQJr/dLDhsmsTPFGKBWB1llRJbyNTepVPtcg8wbq71pO52q73n/GSGn+w+vfIh5BQVOjGMKUSm6Kfkw833P0SqApqDyN6wbPEs6q8+jpGWJW3opwcwUZlX1eV;
+        Expires=Mon, 03 Apr 2023 16:02:32 GMT; Path=/
+      - AWSALBCORS=RrkeQJr/dLDhsmsTPFGKBWB1llRJbyNTepVPtcg8wbq71pO52q73n/GSGn+w+vfIh5BQVOjGMKUSm6Kfkw833P0SqApqDyN6wbPEs6q8+jpGWJW3opwcwUZlX1eV;
+        Expires=Mon, 03 Apr 2023 16:02:32 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -1280,8 +1280,8 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,11,7]],"date-time":"2022-11-07T19:50:16Z","timestamp":1667850616667},"reference-count":62,"publisher":"Wiley","issue":"5","license":[{"start":{"date-parts":[[2021,11,30]],"date-time":"2021-11-30T00:00:00Z","timestamp":1638230400000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/onlinelibrary.wiley.com\/termsAndConditions#vor"},{"start":{"date-parts":[[2021,11,30]],"date-time":"2021-11-30T00:00:00Z","timestamp":1638230400000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/doi.wiley.com\/10.1002\/tdm_license_1.1"}],"content-domain":{"domain":["onlinelibrary.wiley.com"],"crossmark-restriction":true},"short-container-title":["Journal
-        of Advanced Nursing"],"published-print":{"date-parts":[[2022,5]]},"DOI":"10.1111\/jan.15115","type":"journal-article","created":{"date-parts":[[2021,11,30]],"date-time":"2021-11-30T21:50:43Z","timestamp":1638309043000},"page":"1431-1447","update-policy":"http:\/\/dx.doi.org\/10.1002\/crossmark_policy","source":"Crossref","is-referenced-by-count":3,"title":["Self\u2010care
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2023,3,20]],"date-time":"2023-03-20T05:31:37Z","timestamp":1679290297227},"reference-count":62,"publisher":"Wiley","issue":"5","license":[{"start":{"date-parts":[[2021,11,30]],"date-time":"2021-11-30T00:00:00Z","timestamp":1638230400000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/onlinelibrary.wiley.com\/termsAndConditions#vor"},{"start":{"date-parts":[[2021,11,30]],"date-time":"2021-11-30T00:00:00Z","timestamp":1638230400000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/doi.wiley.com\/10.1002\/tdm_license_1.1"}],"content-domain":{"domain":["onlinelibrary.wiley.com"],"crossmark-restriction":true},"short-container-title":["Journal
+        of Advanced Nursing"],"published-print":{"date-parts":[[2022,5]]},"DOI":"10.1111\/jan.15115","type":"journal-article","created":{"date-parts":[[2021,11,30]],"date-time":"2021-11-30T21:50:43Z","timestamp":1638309043000},"page":"1431-1447","update-policy":"http:\/\/dx.doi.org\/10.1002\/crossmark_policy","source":"Crossref","is-referenced-by-count":5,"title":["Self\u2010care
         of patients with multiple chronic conditions and their caregivers during the
         COVID\u201019 pandemic: A qualitative descriptive study"],"prefix":"10.1111","volume":"78","author":[{"ORCID":"http:\/\/orcid.org\/0000-0003-0507-0158","authenticated-orcid":false,"given":"Maddalena","family":"De
         Maria","sequence":"first","affiliation":[{"name":"Department of Biomedicine
@@ -1312,5 +1312,5 @@ http_interactions:
         History"}},{"value":"2021-11-05","order":1,"name":"accepted","label":"Accepted","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"2021-11-30","order":2,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}}]}}'
-  recorded_at: Sun, 15 Jan 2023 19:24:47 GMT
+  recorded_at: Mon, 27 Mar 2023 16:02:32 GMT
 recorded_with: VCR 6.1.0

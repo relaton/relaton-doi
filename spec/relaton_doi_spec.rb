@@ -52,7 +52,7 @@ RSpec.describe RelatonDoi do
       end
     end
 
-    context "fetch edititors" do
+    context "fetch editors" do
       it_behaves_like "fetch document", "book_chapter_editors", "10.1037/0000120-016"
       it_behaves_like "fetch document", "book_editors", "10.1007/978-1-4471-1578-6"
     end

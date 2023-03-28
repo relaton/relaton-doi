@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v1.10.2 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 15 Jan 2023 19:25:13 GMT
+      - Mon, 27 Mar 2023 16:02:36 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '649'
+      - '1247'
       Set-Cookie:
-      - AWSALB=Nwi/+G+13HLTvkPWFkylxcQI575mQzro/KbPXTIw1PfvSq/m8T+OJ7MM7h4MUCHujlY9Gj0MZ5jx9kAh4XNvRf3NgdW3ITHr+GdIyraZVOVETyzr/TKn9zC/fCho;
-        Expires=Sun, 22 Jan 2023 19:25:13 GMT; Path=/
-      - AWSALBCORS=Nwi/+G+13HLTvkPWFkylxcQI575mQzro/KbPXTIw1PfvSq/m8T+OJ7MM7h4MUCHujlY9Gj0MZ5jx9kAh4XNvRf3NgdW3ITHr+GdIyraZVOVETyzr/TKn9zC/fCho;
-        Expires=Sun, 22 Jan 2023 19:25:13 GMT; Path=/; SameSite=None
+      - AWSALB=6W0agyJbQ2BsFn/s+yPa9vFBrGIIxRV21MtefwOUfqW1aBqo+wqaaYgWuQ5r7fkLFSUzjUxtm6/KROL0rY2XQsMv73DI3yAA+hAPTob5MpcAOcqoc4Pm3jQQ712f;
+        Expires=Mon, 03 Apr 2023 16:02:36 GMT; Path=/
+      - AWSALBCORS=6W0agyJbQ2BsFn/s+yPa9vFBrGIIxRV21MtefwOUfqW1aBqo+wqaaYgWuQ5r7fkLFSUzjUxtm6/KROL0rY2XQsMv73DI3yAA+hAPTob5MpcAOcqoc4Pm3jQQ712f;
+        Expires=Mon, 03 Apr 2023 16:02:36 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -62,7 +62,7 @@ http_interactions:
         Publisher","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.15405\/epsbs(2357-1330).2021.6.1","type":"proceedings-series","created":{"date-parts":[[2021,5,31]],"date-time":"2021-05-31T11:58:47Z","timestamp":1622462327000},"source":"Crossref","is-referenced-by-count":0,"title":["European
         Proceedings of Social and Behavioural Sciences"],"prefix":"10.15405","member":"6078","event":{"name":"Psychosocial
         Risks in Education and Quality Educational Processes","acronym":"CIPE 2020"},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2022,1,17]],"date-time":"2022-01-17T12:55:18Z","timestamp":1642424118000},"score":1,"resource":{"primary":{"URL":"https:\/\/europeanproceedings.com\/book-series\/EpSBS\/books\/vol109-cipe-2020"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.15405\/epsbs(2357-1330).2021.6.1","relation":{},"ISSN":["2357-1330"],"issn-type":[{"value":"2357-1330","type":"print"}]}}'
-  recorded_at: Sun, 15 Jan 2023 19:25:13 GMT
+  recorded_at: Mon, 27 Mar 2023 16:02:36 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=European%2BProceedings%2Bof%2BSocial%2Band%2BBehavioural%2BSciences%2B2021%2BEuropean%2BPublisher
@@ -71,7 +71,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v1.10.2
+      - Faraday v1.10.3
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -82,11 +82,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 15 Jan 2023 19:25:18 GMT
+      - Mon, 27 Mar 2023 16:02:37 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '25520'
+      - '70183'
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -114,29 +114,29 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1806979,"items":[{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T14:22:34Z","timestamp":1648822954545},"reference-count":0,"publisher":"Hart
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":1832515,"items":[{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T14:22:34Z","timestamp":1648822954545},"reference-count":0,"publisher":"Hart
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781474203463.ch-002","type":"book-chapter","created":{"date-parts":[[2015,12,22]],"date-time":"2015-12-22T09:52:20Z","timestamp":1450777940000},"source":"Crossref","is-referenced-by-count":0,"title":["Behavioural
         Sciences in Practice: Lessons for EU Rulemakers"],"prefix":"10.5040","member":"2984","container-title":["Nudge
-        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:28:59Z","timestamp":1590092939000},"score":24.502647,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch2-behavioural-sciences-in-practice-lessons-for-eu-rulemakers"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-002"},{"indexed":{"date-parts":[[2022,3,28]],"date-time":"2022-03-28T23:58:44Z","timestamp":1648511924391},"reference-count":0,"publisher":"Hart
+        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:28:59Z","timestamp":1590092939000},"score":24.577,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch2-behavioural-sciences-in-practice-lessons-for-eu-rulemakers"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-002"},{"indexed":{"date-parts":[[2022,3,28]],"date-time":"2022-03-28T23:58:44Z","timestamp":1648511924391},"reference-count":0,"publisher":"Hart
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781474203463.ch-009","type":"book-chapter","created":{"date-parts":[[2015,12,22]],"date-time":"2015-12-22T09:52:20Z","timestamp":1450777940000},"source":"Crossref","is-referenced-by-count":1,"title":["EU
         Consumer Protection and Behavioural Sciences: Revolution or Reform?"],"prefix":"10.5040","member":"2984","container-title":["Nudge
-        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:29:16Z","timestamp":1590092956000},"score":24.145714,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch9-eu-consumer-protection-and-behavioural-sciences-revolution-or-reform"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-009"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T03:59:48Z","timestamp":1649131188608},"reference-count":0,"publisher":"Hart
+        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:29:16Z","timestamp":1590092956000},"score":24.21888,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch9-eu-consumer-protection-and-behavioural-sciences-revolution-or-reform"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-009"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T03:59:48Z","timestamp":1649131188608},"reference-count":0,"publisher":"Hart
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781474203463.ch-007","type":"book-chapter","created":{"date-parts":[[2015,12,22]],"date-time":"2015-12-22T09:52:20Z","timestamp":1450777940000},"source":"Crossref","is-referenced-by-count":0,"title":["Behavioural
         Sciences and EU Data Protection Law: Challenges and Opportunities"],"prefix":"10.5040","member":"2984","container-title":["Nudge
-        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:27:56Z","timestamp":1590092876000},"score":23.813314,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch7-behavioural-sciences-and-eu-data-protection-law-challenges-and-opportunities"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-007"},{"indexed":{"date-parts":[[2023,1,11]],"date-time":"2023-01-11T22:55:28Z","timestamp":1673477728453},"reference-count":0,"publisher":"Hart
+        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:27:56Z","timestamp":1590092876000},"score":23.92345,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch7-behavioural-sciences-and-eu-data-protection-law-challenges-and-opportunities"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-007"},{"indexed":{"date-parts":[[2023,1,11]],"date-time":"2023-01-11T22:55:28Z","timestamp":1673477728453},"reference-count":0,"publisher":"Hart
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781474203463.ch-008","type":"book-chapter","created":{"date-parts":[[2015,12,22]],"date-time":"2015-12-22T09:52:20Z","timestamp":1450777940000},"source":"Crossref","is-referenced-by-count":2,"title":["Behavioural
         Sciences and the Regulation of Privacy on the Internet"],"prefix":"10.5040","member":"2984","container-title":["Nudge
-        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:28:59Z","timestamp":1590092939000},"score":23.756153,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch8-behavioural-sciences-and-the-regulation-of-privacy-on-the-internet"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-008"},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T22:34:44Z","timestamp":1648938884001},"reference-count":0,"publisher":"Edward
+        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:28:59Z","timestamp":1590092939000},"score":23.8329,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch8-behavioural-sciences-and-the-regulation-of-privacy-on-the-internet"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-008"},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T22:34:44Z","timestamp":1648938884001},"reference-count":0,"publisher":"Edward
         Elgar Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.4337\/9781789903645.00011","type":"book-part","created":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:41Z","timestamp":1627314761000},"page":"1-1","source":"Crossref","is-referenced-by-count":0,"title":["GENERAL
         ISSUES REGARDING THE EUROPEAN SOCIAL CHARTER"],"prefix":"10.4337","member":"2918","container-title":["The
-        Revised European Social Charter"],"deposited":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:48Z","timestamp":1627314768000},"score":23.309006,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781789903638\/10_partI.xhtml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781789903645.00011","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:23:17Z","timestamp":1648977797844},"reference-count":0,"publisher":"Edward
+        Revised European Social Charter"],"deposited":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:48Z","timestamp":1627314768000},"score":23.472097,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781789903638\/10_partI.xhtml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781789903645.00011","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:23:17Z","timestamp":1648977797844},"reference-count":0,"publisher":"Edward
         Elgar Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.4337\/9781789903645.00014","type":"book-part","created":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:41Z","timestamp":1627314761000},"page":"25-25","source":"Crossref","is-referenced-by-count":0,"title":["SUBSTANTIVE
         PROVISIONS OF THE REVISED EUROPEAN SOCIAL CHARTER"],"prefix":"10.4337","member":"2918","container-title":["The
-        Revised European Social Charter"],"deposited":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:52Z","timestamp":1627314772000},"score":23.096,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781789903638\/13_partII.xhtml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781789903645.00014","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T01:06:29Z","timestamp":1648602389363},"reference-count":0,"publisher":"Edward
+        Revised European Social Charter"],"deposited":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:52Z","timestamp":1627314772000},"score":23.238646,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781789903638\/13_partII.xhtml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781789903645.00014","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T01:06:29Z","timestamp":1648602389363},"reference-count":0,"publisher":"Edward
         Elgar Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.4337\/9781789903645.00047","type":"book-part","created":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:41Z","timestamp":1627314761000},"page":"339-339","source":"Crossref","is-referenced-by-count":0,"title":["SELECTED
         PROCEDURAL PROVISIONS OF THE REVISED EUROPEAN SOCIAL CHARTER"],"prefix":"10.4337","member":"2918","container-title":["The
-        Revised European Social Charter"],"deposited":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:53:37Z","timestamp":1627314817000},"score":22.870897,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781789903638\/46_partIII.xhtml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781789903645.00047","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T18:48:37Z","timestamp":1649098117494},"publisher-location":"Cham","reference-count":36,"publisher":"Springer
-        International Publishing","isbn-type":[{"value":"9783319116341","type":"print"},{"value":"9783319116358","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2015]]},"DOI":"10.1007\/978-3-319-11635-8_1","type":"book-chapter","created":{"date-parts":[[2015,2,9]],"date-time":"2015-02-09T02:56:14Z","timestamp":1423450574000},"page":"3-16","source":"Crossref","is-referenced-by-count":0,"title":["European
+        Revised European Social Charter"],"deposited":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:53:37Z","timestamp":1627314817000},"score":22.979744,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781789903638\/46_partIII.xhtml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781789903645.00047","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2023,2,20]],"date-time":"2023-02-20T21:40:44Z","timestamp":1676929244549},"publisher-location":"Cham","reference-count":36,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783319116341","type":"print"},{"value":"9783319116358","type":"electronic"}],"license":[{"start":{"date-parts":[[2015,1,1]],"date-time":"2015-01-01T00:00:00Z","timestamp":1420070400000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2015,1,1]],"date-time":"2015-01-01T00:00:00Z","timestamp":1420070400000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2015]]},"DOI":"10.1007\/978-3-319-11635-8_1","type":"book-chapter","created":{"date-parts":[[2015,2,9]],"date-time":"2015-02-09T07:56:14Z","timestamp":1423468574000},"page":"3-16","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":1,"title":["European
         and American Perspectives on Behavioural Law and Economics"],"prefix":"10.1007","author":[{"given":"Thomas
         S.","family":"Ulen","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2015,2,10]]},"reference":[{"key":"1_CR1","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1257\/pol.6.1.1","volume":"6","author":"Alessandro
         Barbarino","year":"2014","unstructured":"Barbarino, Alessandro, and Giovanni
@@ -220,10 +220,10 @@ http_interactions:
         of Economic Literature"},{"key":"1_CR27","unstructured":"Raphael, Steven,
         and Michael A. Stoll. 2014. A new approach to reducing incarceration while
         maintaining low rates of crime. The Hamilton Project, Discussion Paper 14-03.
-        Washington: The Brookings Institution 1\u201325."},{"key":"1_CR28","unstructured":"Rebonato,
+        Washington: The Brookings Institution 1\u201325."},{"key":"1_CR28","doi-asserted-by":"crossref","unstructured":"Rebonato,
         Riccardo. 2013. A critical assessment of libertarian paternalism. Working
-        Paper 1-68, University of Oxford and University of Edinburgh. \n                    www.ssrn.com\n                    \n                  .
-        Accessed 8 June 2014."},{"key":"1_CR29","doi-asserted-by":"publisher","first-page":"173","DOI":"10.1093\/ojls\/24.2.173","volume":"24","author":"Paul
+        Paper 1-68, University of Oxford and University of Edinburgh. www.ssrn.com.
+        Accessed 8 June 2014.","DOI":"10.2139\/ssrn.2346212"},{"key":"1_CR29","doi-asserted-by":"publisher","first-page":"173","DOI":"10.1093\/ojls\/24.2.173","volume":"24","author":"Paul
         H. Robinson","year":"2004","unstructured":"Robinson, Paul H., and John M.
         Darley. 2004. Does criminal law deter? A behavioral science investigation.
         Oxford Journal of Legal Studies 24:173\u2013205.","journal-title":"Oxford
@@ -250,10 +250,12 @@ http_interactions:
         crime decline","author":"Franklin E. Zimring","year":"2008","unstructured":"Zimring,
         Franklin E. 2008. The great American crime decline. Oxford: Oxford University
         Press."}],"container-title":["European Perspectives on Behavioural Law and
-        Economics"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-11635-8_1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,5,29]],"date-time":"2019-05-29T03:37:37Z","timestamp":1559101057000},"score":22.669994,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-11635-8_1"}},"issued":{"date-parts":[[2015]]},"ISBN":["9783319116341","9783319116358"],"references-count":36,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-11635-8_1","published":{"date-parts":[[2015]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T19:37:03Z","timestamp":1648582623890},"reference-count":0,"publisher":"Edward
+        Economics"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-11635-8_1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,2,20]],"date-time":"2023-02-20T21:19:00Z","timestamp":1676927940000},"score":22.755493,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-319-11635-8_1"}},"issued":{"date-parts":[[2015]]},"ISBN":["9783319116341","9783319116358"],"references-count":36,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-11635-8_1","published":{"date-parts":[[2015]]},"assertion":[{"value":"10
+        February 2015","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T19:37:03Z","timestamp":1648582623890},"reference-count":0,"publisher":"Edward
         Elgar Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.4337\/9781789903645.00012","type":"book-chapter","created":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:41Z","timestamp":1627314761000},"page":"2-20","source":"Crossref","is-referenced-by-count":0,"title":["THE
         EUROPEAN SOCIAL CHARTER \u2013 ITS HISTORY, APPLICATION, PROCEDURES AND IMPACT"],"prefix":"10.4337","member":"2918","container-title":["The
-        Revised European Social Charter"],"deposited":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:50Z","timestamp":1627314770000},"score":22.626942,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781789903638\/11_chapter1.xhtml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781789903645.00012","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T12:39:19Z","timestamp":1648903159694},"publisher-location":"Cham","reference-count":19,"publisher":"Springer
+        Revised European Social Charter"],"deposited":{"date-parts":[[2021,7,26]],"date-time":"2021-07-26T15:52:50Z","timestamp":1627314770000},"score":22.741947,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781789903638\/11_chapter1.xhtml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781789903645.00012","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T12:39:19Z","timestamp":1648903159694},"publisher-location":"Cham","reference-count":19,"publisher":"Springer
         International Publishing","isbn-type":[{"value":"9783030782320","type":"print"},{"value":"9783030782337","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-78233-7_7","type":"book-chapter","created":{"date-parts":[[2021,9,1]],"date-time":"2021-09-01T07:04:20Z","timestamp":1630479860000},"page":"247-278","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Controlling
         the Purse: How the European Parliament Shaped Social Policy Through the European
         Social Fund"],"prefix":"10.1007","author":[{"given":"Mechthild","family":"Roos","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,9,2]]},"reference":[{"key":"7_CR1","unstructured":"Anderson,
@@ -305,21 +307,21 @@ http_interactions:
         M. (1990). The origin and development of the question time procedure in the
         European Parliament (EUI Working Paper No. 90\/4). EUI."}],"container-title":["Palgrave
         Studies in European Union Politics","The Parliamentary Roots of European Social
-        Policy"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-78233-7_7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,9,1]],"date-time":"2021-09-01T07:58:57Z","timestamp":1630483137000},"score":22.589537,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-78233-7_7"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030782320","9783030782337"],"references-count":19,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-78233-7_7","ISSN":["2662-5873","2662-5881"],"issn-type":[{"value":"2662-5873","type":"print"},{"value":"2662-5881","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"2
+        Policy"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-78233-7_7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,9,1]],"date-time":"2021-09-01T07:58:57Z","timestamp":1630483137000},"score":22.695993,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-78233-7_7"}},"issued":{"date-parts":[[2021]]},"ISBN":["9783030782320","9783030782337"],"references-count":19,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-78233-7_7","ISSN":["2662-5873","2662-5881"],"issn-type":[{"value":"2662-5873","type":"print"},{"value":"2662-5881","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"2
         September 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
         History"}}]},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T05:42:38Z","timestamp":1649050958498},"reference-count":0,"publisher":"Hart
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781474203463.ch-012","type":"book-chapter","created":{"date-parts":[[2015,12,22]],"date-time":"2015-12-22T09:52:20Z","timestamp":1450777940000},"source":"Crossref","is-referenced-by-count":1,"title":["Making
         Sense of Nudge-Scepticism: Three Challenges to EU Law\u2019s Learning from
         Behavioural Sciences"],"prefix":"10.5040","member":"2984","container-title":["Nudge
-        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:29:16Z","timestamp":1590092956000},"score":22.467915,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch12-making-sense-of-nudge-scepticism-three-challenges-to-eu-law-s-learning-from-behavioural-sciences"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-012"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T07:29:40Z","timestamp":1649143780547},"reference-count":0,"publisher":"Hart
+        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:29:16Z","timestamp":1590092956000},"score":22.549374,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch12-making-sense-of-nudge-scepticism-three-challenges-to-eu-law-s-learning-from-behavioural-sciences"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-012"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T07:29:40Z","timestamp":1649143780547},"reference-count":0,"publisher":"Hart
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781474203463.ch-010","type":"book-chapter","created":{"date-parts":[[2015,12,22]],"date-time":"2015-12-22T09:52:20Z","timestamp":1450777940000},"source":"Crossref","is-referenced-by-count":0,"title":["What
         can EU Health Law Learn from Behavioural Sciences? The Case of EU Lifestyle
         Regulation"],"prefix":"10.5040","member":"2984","container-title":["Nudge
-        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:27:52Z","timestamp":1590092872000},"score":22.167393,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch10-what-can-eu-health-law-learn-from-behavioural-sciences-the-case-of-eu-lifestyle-regulation"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-010"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T06:47:49Z","timestamp":1649141269553},"reference-count":0,"publisher":"Hart
+        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:27:52Z","timestamp":1590092872000},"score":22.24981,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch10-what-can-eu-health-law-learn-from-behavioural-sciences-the-case-of-eu-lifestyle-regulation"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-010"},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T06:47:49Z","timestamp":1649141269553},"reference-count":0,"publisher":"Hart
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781474203463.ch-001","type":"book-chapter","created":{"date-parts":[[2015,12,22]],"date-time":"2015-12-22T09:52:20Z","timestamp":1450777940000},"source":"Crossref","is-referenced-by-count":0,"title":["The
         Emergence of Behavioural Policy-Making: A European Perspective"],"prefix":"10.5040","member":"2984","container-title":["Nudge
-        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:28:47Z","timestamp":1590092927000},"score":22.08943,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch1-the-emergence-of-behavioural-policy-making-a-european-perspective"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-001"},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T08:17:47Z","timestamp":1649060267863},"publisher-location":"Cham","reference-count":111,"publisher":"Springer
-        International Publishing","isbn-type":[{"value":"9783030497903","type":"print"},{"value":"9783030497910","type":"electronic"}],"license":[{"start":{"date-parts":[[2020,11,22]],"date-time":"2020-11-22T00:00:00Z","timestamp":1606003200000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,11,22]],"date-time":"2020-11-22T00:00:00Z","timestamp":1606003200000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,11,22]],"date-time":"2020-11-22T00:00:00Z","timestamp":1606003200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,11,22]],"date-time":"2020-11-22T00:00:00Z","timestamp":1606003200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-49791-0_2","type":"book-chapter","created":{"date-parts":[[2020,11,21]],"date-time":"2020-11-21T07:02:36Z","timestamp":1605942156000},"page":"7-59","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":1,"title":["Pufendorf
+        and the Law : A European Perspective"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T20:28:47Z","timestamp":1590092927000},"score":22.171778,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/nudge-and-the-law-a-european-perspective\/ch1-the-emergence-of-behavioural-policy-making-a-european-perspective"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781474203463.ch-001"},{"indexed":{"date-parts":[[2023,1,27]],"date-time":"2023-01-27T05:40:41Z","timestamp":1674798041070},"publisher-location":"Cham","reference-count":111,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030497903","type":"print"},{"value":"9783030497910","type":"electronic"}],"license":[{"start":{"date-parts":[[2020,11,22]],"date-time":"2020-11-22T00:00:00Z","timestamp":1606003200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,11,22]],"date-time":"2020-11-22T00:00:00Z","timestamp":1606003200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,11,22]],"date-time":"2020-11-22T00:00:00Z","timestamp":1606003200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2020,11,22]],"date-time":"2020-11-22T00:00:00Z","timestamp":1606003200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-49791-0_2","type":"book-chapter","created":{"date-parts":[[2020,11,21]],"date-time":"2020-11-21T07:02:36Z","timestamp":1605942156000},"page":"7-59","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":1,"title":["Pufendorf
         and His Importance for the European Enlightenment in General"],"prefix":"10.1007","author":[{"given":"Arild","family":"S\u00e6ther","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2020,11,22]]},"reference":[{"key":"2_CR1","doi-asserted-by":"crossref","unstructured":"Aure
         AH (2014) Hugo Grotius\u00a0\u2013 Individual Rights as the Core of Natural
         Law. In G Fl\u00f8istad [Ed.] (2014), pp. 75-94","DOI":"10.1007\/978-94-017-9175-5_6"},{"key":"2_CR2","volume-title":"The
@@ -345,7 +347,7 @@ http_interactions:
         V [Ed.] (1994) The Cambridge Companion to Locke, Cambridge: Cambridge University
         Press","DOI":"10.1017\/CCOL0521383714"},{"key":"2_CR11","unstructured":"Cohler
         A M (1989 [1748]) Introduction. In Montesquieu (1989) The Spirit of the Laws.
-        Cambridge: Cambridge University Press"},{"key":"2_CR12","doi-asserted-by":"crossref","volume-title":"The
+        Cambridge: Cambridge University Press"},{"key":"2_CR12","doi-asserted-by":"publisher","volume-title":"The
         Changing Profile of Natural Law","author":"MB Crowe","year":"1977","unstructured":"Crowe
         M B (1977) The Changing Profile of Natural Law. The Hague: Nijhoff","DOI":"10.1007\/978-94-015-0913-8"},{"key":"2_CR13","volume-title":"Pufendorf
         (1632-94). In Klassiker des Politischen Denkens, Zweiter Band von Locke bis
@@ -385,11 +387,11 @@ http_interactions:
         writings"},{"key":"2_CR27","volume-title":"The School of Salamanca","author":"M
         Grice-Hutchinson","year":"1952","unstructured":"Grice-Hutchinson M (1952)
         The School of Salamanca. London: Oxford University Press"},{"key":"2_CR28","unstructured":"Grimsley
-        R (1967) Jean-Jacques Rousseau. In P Edwards [Ed.]"},{"key":"2_CR29","doi-asserted-by":"crossref","volume-title":"Natural
+        R (1967) Jean-Jacques Rousseau. In P Edwards [Ed.]"},{"key":"2_CR29","doi-asserted-by":"publisher","volume-title":"Natural
         law and moral philosophy. From Grotius to the Scottish Enlightenment","author":"K
         Haakonssen","year":"1996","unstructured":"Haakonssen K (1996) Natural law
         and moral philosophy. From Grotius to the Scottish Enlightenment. Cambridge:
-        Cambridge University Press","DOI":"10.1017\/CBO9781139172905"},{"key":"2_CR30","doi-asserted-by":"crossref","first-page":"3","DOI":"10.1017\/CHOL9780521867429","volume-title":"The
+        Cambridge University Press","DOI":"10.1017\/CBO9781139172905"},{"key":"2_CR30","doi-asserted-by":"publisher","first-page":"3","DOI":"10.1017\/CHOL9780521867429","volume-title":"The
         History of Eighteenth-Century Philosophy: History or Philosophy? In Haakonssen,
         K [Ed.] p","author":"K Haakonssen","year":"2006","unstructured":"Haakonssen
         K (2006a) The History of Eighteenth-Century Philosophy: History or Philosophy?
@@ -413,14 +415,14 @@ http_interactions:
         der Wirtschaftsgeschichte. Denker, Unternehmer und Politiker in 900 Portr\u00e4ts.
         2 Auflage","author":"H Hesse","year":"2009","unstructured":"Hesse H (2009)
         Personenlexikon der Wirtschaftsgeschichte. Denker, Unternehmer und Politiker
-        in 900 Portr\u00e4ts. 2 Auflage. Stuttgart: Sch\u00e4ffer-Poeschel Verlag"},{"key":"2_CR36","doi-asserted-by":"crossref","volume-title":"Natural
+        in 900 Portr\u00e4ts. 2 Auflage. Stuttgart: Sch\u00e4ffer-Poeschel Verlag"},{"key":"2_CR36","doi-asserted-by":"publisher","volume-title":"Natural
         Law Theories in the Early Enlightenment","author":"TJ Hochstrasser","year":"2000","unstructured":"Hochstrasser,
         T J (2000) Natural Law Theories in the Early Enlightenment. Cambridge UK:
         Cambridge University Press","DOI":"10.1017\/CBO9780511490552"},{"key":"2_CR37","volume-title":"Collected
         Works Volume IV","author":"F Hutcheson","year":"1969","unstructured":"Hutcheson
         F (1969 [1747]) A Short Introduction to Moral Philosophy, in three books;
         containing the Elements of Ethicks and the Law of Nature. Collected Works
-        Volume IV, Hildesheim: GOs Verlagsbuchhandlung"},{"key":"2_CR38","doi-asserted-by":"crossref","volume-title":"Two
+        Volume IV, Hildesheim: GOs Verlagsbuchhandlung"},{"key":"2_CR38","doi-asserted-by":"publisher","volume-title":"Two
         texts on Human Nature","author":"F Hutcheson","year":"1993","unstructured":"Hutcheson
         F (1993) Two texts on Human Nature. Reflections on our common systems of morality.
         On the social nature of man. Edited by T Mautner. Cambridge UK: Cambridge
@@ -429,11 +431,11 @@ http_interactions:
         with an Introduction and notes by Peter Kivy, Martinus Nijhoff. The Hague."},{"key":"2_CR39","volume-title":"Before
         Adam Smith. The Emergence of Political Economy. 1662-1776","author":"T Hutchison","year":"1988","unstructured":"Hutchison
         T (1988) Before Adam Smith. The Emergence of Political Economy. 1662-1776.
-        Oxford: Basil Blackwell"},{"key":"2_CR40","doi-asserted-by":"crossref","volume-title":"Radical
+        Oxford: Basil Blackwell"},{"key":"2_CR40","doi-asserted-by":"publisher","volume-title":"Radical
         Enlightenment. Philosophy and the Making of Maternity 1650-1750","author":"JI
         Israel","year":"2001","unstructured":"Israel J I (2001) Radical Enlightenment.
         Philosophy and the Making of Maternity 1650-1750. Oxford: Oxford University
-        Press","DOI":"10.1093\/acprof:oso\/9780198206088.001.0001"},{"key":"2_CR41","doi-asserted-by":"crossref","volume-title":"Enlightenment
+        Press","DOI":"10.1093\/acprof:oso\/9780198206088.001.0001"},{"key":"2_CR41","doi-asserted-by":"publisher","volume-title":"Enlightenment
         Contested. Philosophy, Modernity, and the Emancipation of Man 1670-1752","author":"JI
         Israel","year":"2006","unstructured":"Israel J I (2006) Enlightenment Contested.
         Philosophy, Modernity, and the Emancipation of Man 1670-1752. Oxford: Oxford
@@ -493,7 +495,7 @@ http_interactions:
         Co., Publisher to the University"},{"key":"2_CR68","volume-title":"Common-sense
         Moralist, Sceptical Metaphysician","author":"DF Norton","year":"1982","unstructured":"Norton
         D F (1982) Common-sense Moralist, Sceptical Metaphysician. Princeton NJ: Princeton
-        University Press"},{"key":"2_CR69","doi-asserted-by":"crossref","volume-title":"Berlin
+        University Press"},{"key":"2_CR69","doi-asserted-by":"publisher","volume-title":"Berlin
         und die Verbreitung des Naturrechts in Europa","author":"SC Othmer","year":"1970","unstructured":"Othmer
         S C (1970) Berlin und die Verbreitung des Naturrechts in Europa. Berlin: Walter
         de Gruyter & Co","DOI":"10.1515\/9783110829891"},{"key":"2_CR70","first-page":"3","volume-title":"Aspects
@@ -560,10 +562,10 @@ http_interactions:
         and PG Stein 1978, Oxford: Clarendon Press. Photographic reproduced and published
         Indianapolis: Liberty Classic"},{"key":"2_CR88","unstructured":"Smith A (1965
         [1937\/1763]) An early draft of part of the wealth of nations. In R W Scott
-        (1965[1937]): Adam Smith as Student and Professor, pp. 317\u2013356"},{"key":"2_CR89","doi-asserted-by":"crossref","unstructured":"Smith
+        (1965[1937]): Adam Smith as Student and Professor, pp. 317\u2013356"},{"key":"2_CR89","unstructured":"Smith
         A (1976 [1904 \/1789\/1776]) An Inquiry into the Nature and Causes of the
         Wealth of Nations. Fifth edition, Edinburgh. Reprint of the 1904 Cannan edition
-        with a new Preface by G J Stigler. Chicago: The University of Chicago Press","DOI":"10.7208\/chicago\/9780226763750.001.0001"},{"key":"2_CR90","doi-asserted-by":"crossref","unstructured":"Soper
+        with a new Preface by G J Stigler. Chicago: The University of Chicago Press"},{"key":"2_CR90","doi-asserted-by":"crossref","unstructured":"Soper
         P (1992) Some natural confusions about Natural Law. Michigan Law Review. Vol.
         90. No.8, pp. 2343\u20132423","DOI":"10.2307\/1289576"},{"key":"2_CR91","first-page":"99","volume-title":"Paul
         Edwards The Encyclopedia of Philosophy","author":"E Sprague","year":"1967","unstructured":"Sprague
@@ -578,7 +580,7 @@ http_interactions:
         Pufendorf and the History of Economics","author":"A S\u00e6ther","year":"2017","unstructured":"S\u00e6ther
         A (2017b) Natural Law and the Origin of Political Economy. Samuel Pufendorf
         and the History of Economics. London and New York: Routledge. Taylor & Francis
-        Group"},{"key":"2_CR97","doi-asserted-by":"crossref","first-page":"251","DOI":"10.1111\/j.1813-6982.1955.tb01704.x","volume":"23","author":"WL
+        Group"},{"key":"2_CR97","doi-asserted-by":"publisher","first-page":"251","DOI":"10.1111\/j.1813-6982.1955.tb01704.x","volume":"23","author":"WL
         Taylor","year":"1955","unstructured":"Taylor W L (1955) Gershom Carmichael
         A Neglected Figure in British Political Economy. South African Journal of
         Economics. Vol. 23, pp. 251\u2013255","journal-title":"South African Journal
@@ -599,7 +601,7 @@ http_interactions:
         Dritter Theil: Die Neuzeit, Berlin: Mittler"},{"key":"2_CR104","unstructured":"Vet
         de JJVM (1996) Some Periodicals of the United Provinces on Pufendorf: Reconnoitring
         the Reception of his Ideas in the Seventeenth and Eighteenth Centuries. In
-        Palladini F und G Hartung [Hg.]"},{"key":"2_CR105","doi-asserted-by":"crossref","volume-title":"Montesquieu
+        Palladini F und G Hartung [Hg.]"},{"key":"2_CR105","doi-asserted-by":"publisher","volume-title":"Montesquieu
         and the Philosophy of Natural Law","author":"MH Waddicor","year":"1970","unstructured":"Waddicor
         MH (1970) Montesquieu and the Philosophy of Natural Law. The Hague: Niijhoff","DOI":"10.1007\/978-94-010-3238-4"},{"key":"2_CR106","unstructured":"Wehberg
         H (1922) Introduction to Pufendorf (1931 [1660, 1672])"},{"key":"2_CR0106","unstructured":"West
@@ -632,288 +634,16 @@ http_interactions:
         of the State of Research and Editions. Central European History. Vol. 31,
         No.4, pp. 413\u2013428","DOI":"10.1017\/S0008938900017076"}],"container-title":["Samuel
         Pufendorf and the Emergence of Economics as a Social Science","The European
-        Heritage in Economics and the Social Sciences"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-49791-0_2","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,5,6]],"date-time":"2021-05-06T13:11:03Z","timestamp":1620306663000},"score":21.726856,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-49791-0_2"}},"issued":{"date-parts":[[2020,11,22]]},"ISBN":["9783030497903","9783030497910"],"references-count":111,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-49791-0_2","ISSN":["1572-1744","2197-5892"],"issn-type":[{"value":"1572-1744","type":"print"},{"value":"2197-5892","type":"electronic"}],"published":{"date-parts":[[2020,11,22]]},"assertion":[{"value":"22
+        Heritage in Economics and the Social Sciences"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-49791-0_2","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,1,27]],"date-time":"2023-01-27T01:15:53Z","timestamp":1674782153000},"score":21.839802,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-49791-0_2"}},"issued":{"date-parts":[[2020,11,22]]},"ISBN":["9783030497903","9783030497910"],"references-count":111,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-49791-0_2","ISSN":["1572-1744","2197-5892"],"issn-type":[{"value":"1572-1744","type":"print"},{"value":"2197-5892","type":"electronic"}],"published":{"date-parts":[[2020,11,22]]},"assertion":[{"value":"22
         November 2020","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
-        History"}}]},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T02:51:02Z","timestamp":1649127062115},"publisher-location":"Cham","reference-count":89,"publisher":"Springer
-        International Publishing","isbn-type":[{"value":"9783319116341","type":"print"},{"value":"9783319116358","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2015]]},"DOI":"10.1007\/978-3-319-11635-8_11","type":"book-chapter","created":{"date-parts":[[2015,2,9]],"date-time":"2015-02-09T07:56:14Z","timestamp":1423468574000},"page":"211-242","source":"Crossref","is-referenced-by-count":0,"title":["Behavioural
-        Antitrust"],"prefix":"10.1007","author":[{"given":"Andreas","family":"Heinemann","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2015,2,10]]},"reference":[{"key":"11_CR1","unstructured":"Almunia,
-        Joaqu\u00edn. 2014. Statement on the Google investigation. SPEECH\/14\/93
-        of 5.2.2014."},{"key":"11_CR2","volume-title":"A course in behavioral economics","author":"Erik
-        Angner","year":"2012","unstructured":"Angner, Erik. 2012. A course in behavioral
-        economics. Houndmills: Palgrave Macmillan."},{"key":"11_CR3","volume-title":"Predictably
-        irrational: The hidden forces that shape our decisions","author":"Dan Ariely","year":"2009","unstructured":"Ariely,
-        Dan. 2009. Predictably irrational: The hidden forces that shape our decisions.
-        New York: Harper."},{"issue":"1","key":"11_CR4","first-page":"3","volume":"6","author":"Mark
-        Armstrong","year":"2010","unstructured":"Armstrong, Mark, and Steffen Huck.
-        2010. Behavioral economics as applied to firms: A primer. Competition Policy
-        International 6 (1): 3\u201345.","journal-title":"Competition Policy International"},{"key":"11_CR5","first-page":"77","volume":"2","author":"Luca
-        Arnaudo","year":"2013","unstructured":"Arnaudo, Luca. 2013. The quest for
-        behavioral antitrust: Beyond the label battle, towards a \u00adcognitive approach.
-        The Dovenschmidt Quarterly 2:77\u201388.","journal-title":"The Dovenschmidt
-        Quarterly"},{"key":"11_CR6","doi-asserted-by":"publisher","first-page":"131","DOI":"10.1257\/089533005774357897","volume":"19","author":"Nava
-        Ashraf","year":"2005","unstructured":"Ashraf, Nava, Colin F. Camerer, and
-        George Loewenstein. 2005. Adam Smith, behavioral economist. Journal of Economic
-        Perspective 19:131\u2013145.","journal-title":"Journal of Economic Perspective"},{"key":"11_CR7","unstructured":"Baer,
-        William J., and Ronald T. Hosko. 2013. Cartel prosecution: Stopping price
-        fixers and \u00adprotecting consumers. Statement of 14.11.2013."},{"issue":"4","key":"11_CR8","first-page":"1373","volume":"98","author":"Oren
-        Bar-Gill","year":"2004","unstructured":"Bar-Gill, Oren. 2004. Seduction by
-        plastic. Northwestern University Law Review 98 (4): \u00ad1373\u20131434.","journal-title":"Northwestern
-        University Law Review"},{"key":"11_CR9","volume-title":"Contestable markets
-        and the theory of industry structure","author":"William J. Baumol","year":"1982","unstructured":"Baumol,
-        William J., John C. Panzar, and Robert D. Willig. 1982. Contestable markets
-        and the theory of industry structure. San Diego: Harcourt Brace Jovanovich."},{"key":"11_CR10","doi-asserted-by":"publisher","volume-title":"Die
-        Kontrolle von Sekund\u00e4rm\u00e4rkten-Eine juristische und \u00f6konomische
-        Untersuchung im Kartell- und Immaterialg\u00fcterrecht","author":"Stefan Bechtold","year":"2007","unstructured":"Bechtold,
-        Stefan. 2007. Die Kontrolle von Sekund\u00e4rm\u00e4rkten-Eine juristische
-        und \u00f6konomische Untersuchung im Kartell- und Immaterialg\u00fcterrecht.
-        Baden-Baden: Nomos.","DOI":"10.5771\/9783845200620"},{"issue":"1","key":"11_CR11","first-page":"111","volume":"6","author":"Matthew
-        Bennett","year":"2010","unstructured":"Bennett, Matthew, John Fingleton, Amelia
-        Fletcher, Liz Hurley, and David Ruck. 2010. What does behavioral economics
-        mean for competition policy? Competition Policy International 6 (1): 111\u2013137.","journal-title":"Competition
-        Policy International"},{"key":"11_CR12","volume-title":"The antitrust paradox-a
-        policy at war with itself","author":"Robert Bork","year":"1993","unstructured":"Bork,
-        Robert. 1993 (1978). The antitrust paradox-a policy at war with itself. 2nd\u00a0ed.
-        (1st ed.) New York: The Free Press."},{"issue":"1","key":"11_CR13","doi-asserted-by":"publisher","first-page":"335","DOI":"10.1257\/aer.103.1.335","volume":"103","author":"Stefan
-        Buehler","year":"2013","unstructured":"Buehler, Stefan, and Dennis L. G\u00e4rtner.
-        2013. Making sense of nonbinding retail-price recommendations. American Economic
-        Review 103 (1): 335\u2013359.","journal-title":"American Economic Review"},{"issue":"5","key":"11_CR14","first-page":"1425","volume":"2010","author":"Deven
-        R. Desai","year":"2010","unstructured":"Desai, Deven R., and Spencer Waller.
-        2010. Brands, competition, and the law. Brigham Young University Law Review
-        2010 (5): 1425\u20131499.","journal-title":"Brigham Young University Law Review"},{"issue":"1","key":"11_CR15","first-page":"1","volume":"63","author":"Frank
-        H. Easterbrook","year":"1984","unstructured":"Easterbrook, Frank H. 1984.
-        The limits of antitrust. Texas Law Review 63 (1): 1\u201340.","journal-title":"Texas
-        Law Review"},{"key":"11_CR16","volume-title":"The law and economics of intellectual
-        property in the digital age: The limits of analysis","author":"Niva Elkin-Koren","year":"2013","unstructured":"Elkin-Koren,
-        Niva, and Eli M. Salzberger. 2013. The law and economics of intellectual property
-        in the digital age: The limits of analysis. Milton Park: Routledge."},{"key":"11_CR17","unstructured":"Engel,
-        Christoph. 2011. Die Bedeutung der Verhaltens\u00f6konomie f\u00fcr das Kartellrecht.
-        In Beitrag der Verhaltens\u00f6konomie (Behavioral Economics) zum Handels-
-        und Wirtschaftsrecht, eds. Holger Fleischer and Daniel Zimmer. 100\u2013121.
-        Frankfurt a.\u00a0M.: Verlag Recht und Wirtschaft."},{"key":"11_CR18","volume-title":"Recht
-        und Verhalten: Beitr\u00e4ge zu Behavioral Law and Economics","author":"Christoph
-        Engel","year":"2007","unstructured":"Engel, Christoph, Markus Englerth, J\u00f6rn
-        L\u00fcdemann and Indra Spiecker genannt D\u00f6hmann, eds. 2007. Recht und
-        Verhalten: Beitr\u00e4ge zu Behavioral Law and Economics. T\u00fcbingen: Mohr
-        Siebeck."},{"key":"11_CR19","unstructured":"Englerth, Markus. 2010. Verhaltens\u00f6konomie.
-        In \u00d6konomische Methoden im Recht, ed. Emanuel V. Towfigh and Niels Petersen,
-        165\u2013199. T\u00fcbingen: Mohr Siebeck."},{"key":"11_CR20","volume-title":"Die
-        Dynamik des Wettbewerbsschutzes im US-amerikanischen, europ\u00e4ischen und
-        australischen Kartellrecht-Eine rechtsvergleichende Untersuchung zu Sec. 2
-        Sherman Act, Art.\u00a0102 AEUV und Sec. 46 CCA 2010","author":"Romy Nicole
-        Fleischer","year":"2013","unstructured":"Fleischer, Romy Nicole. 2013. Die
-        Dynamik des Wettbewerbsschutzes im US-amerikanischen, europ\u00e4ischen und
-        australischen Kartellrecht-Eine rechtsvergleichende Untersuchung zu Sec. 2
-        Sherman Act, Art.\u00a0102 AEUV und Sec. 46 CCA\n                  2010. Cologne:
-        Carl Heymanns Verlag."},{"key":"11_CR21","volume-title":"Beitrag der Verhaltens\u00f6konomie
-        (Behavioral Economics) zum Handels- und Wirtschaftsrecht","author":"Holger
-        Fleischer","year":"2011","unstructured":"Fleischer, Holger, and Daniel Zimmer,
-        eds. 2011. Beitrag der Verhaltens\u00f6konomie (Behavioral Economics) zum
-        Handels- und Wirtschaftsrecht. Frankfurt a.\u00a0M.: Verlag Recht und Wirtschaft."},{"key":"11_CR22","doi-asserted-by":"publisher","first-page":"659","DOI":"10.1007\/s00355-011-0629-z","volume":"38","author":"Bruno
-        S. Frey","year":"2012","unstructured":"Frey, Bruno S., and Alois Stutzer.
-        2012. The use of happiness research for public policy. Social Choice and Welfare
-        38:659\u2013674.","journal-title":"Social Choice and Welfare"},{"key":"11_CR23","doi-asserted-by":"publisher","first-page":"505","DOI":"10.1162\/qjec.2006.121.2.505","volume":"121","author":"Xavier
-        Gabaix","year":"2006","unstructured":"Gabaix, Xavier, and David, Laibson.
-        2006. Shrouded attributes, consumer myopia, and information suppression in
-        competitive markets. Quarterly Journal of Economics 121:505\u2013540.","journal-title":"Quarterly
-        Journal of Economics"},{"issue":"1","key":"11_CR24","first-page":"145","volume":"6","author":"Eliana
-        Garc\u00e9s","year":"2010","unstructured":"Garc\u00e9s, Eliana. 2010. The
-        impact of behavioral economics on consumer and competition policies. Competition
-        Policy International 6 (1): 145\u2013152.","journal-title":"Competition Policy
-        International"},{"key":"11_CR25","first-page":"755","volume":"39","author":"Harry
-        S Gerla","year":"1985","unstructured":"Gerla, Harry S. 1985. The psychology
-        of predatory pricing: Why predatory pricing pays. Southwestern Law Journal
-        39:755\u2013780.","journal-title":"Southwestern Law Journal"},{"key":"11_CR26","volume-title":"Law
-        and the mind: Biological origins of human behavior","author":"Margaret Gruter","year":"1991","unstructured":"Gruter,
-        Margaret. 1991. Law and the mind: Biological origins of human behavior. Newbury
-        Park: Sage Publications."},{"key":"11_CR27","unstructured":"Haucap, Justus.
-        2011. Bounded rationality and competition policy. In Competition policy and
-        the economic approach: Foundations and limitations, eds. Josef Drexl, Wolfgang
-        Kerber, and Rupprecht Podszun, 217\u2013229. Cheltenham: Edward Elgar."},{"key":"11_CR28","first-page":"63","volume":"36","author":"Andreas
-        Heinemann","year":"2005","unstructured":"Heinemann, Andreas. 2005. Compulsory
-        licences and product integration in european competition law: Assessment of
-        the european commission\u2019s microsoft decision. International Review of
-        Intellectual Property and Competition Law 36:63\u201382.","journal-title":"International
-        Review of Intellectual Property and Competition Law"},{"key":"11_CR29","unstructured":"Heinemann,
-        Andreas. 2009. Intellectual property rights and merger control: How to secure
-        incentives to innovate in the long run. In Technology and competition: Contributions
-        in honour of Hanns Ullrich, eds. Josef Drexl, Reto M.Hilty, Laurence Boy,
-        Christine Godt, and Bernard Remiche, 601\u2013626. Brussels: Larcier."},{"issue":"1","key":"11_CR30","first-page":"105","volume":"78","author":"Max
-        Huffman","year":"2012","unstructured":"Huffman, Max. 2012. Marrying neo-Chicago
-        with behavioral antitrust. Antitrust Law Journal 78 (1): 105\u2013145.","journal-title":"Antitrust
-        Law Journal"},{"key":"11_CR31","doi-asserted-by":"publisher","first-page":"387","DOI":"10.1086\/316965","volume":"106","author":"Paul
-        Ingram","year":"2000","unstructured":"Ingram, Paul, and Peter W. Roberts.
-        2000. Friendships among competitors in the sydney hotel industry. American
-        Journal of Sociology 106:387\u2013423.","journal-title":"American Journal
-        of Sociology"},{"issue":"1","key":"11_CR32","doi-asserted-by":"publisher","first-page":"199","DOI":"10.1086\/500096","volume":"35","author":"Christine,
-        Jolls","year":"2006","unstructured":"Jolls, Christine, and Cass, R. Sunstein.
-        2006. Debiasing through law. Journal of Legal Studies 35 (1): 199\u2013241.","journal-title":"Journal
-        of Legal Studies"},{"key":"11_CR33","doi-asserted-by":"crossref","unstructured":"Jolls,
-        Christine, Cass R. Sunstein, and Richard Thaler. 1998. A behavioral approach
-        to law and economics. Stanford Law Review 50:1471\u20131550.","DOI":"10.2307\/1229304"},{"key":"11_CR34","doi-asserted-by":"crossref","unstructured":"Kahneman,
-        Daniel. 2003a. Maps of bounded rationality: Psychology for behavioral economics.
-        American Economic Review 93:1449\u20131475.","DOI":"10.1257\/000282803322655392"},{"key":"11_CR35","doi-asserted-by":"crossref","unstructured":"Kahneman,
-        Daniel. 2003b. A perspective on judgment and choice: Mapping bounded rationality.
-        American Psychologist 58:697\u2013720.","DOI":"10.1037\/0003-066X.58.9.697"},{"key":"11_CR36","unstructured":"Kahneman,
-        Daniel. 2011. Thinking, fast and slow. London: Allen Lane."},{"key":"11_CR37","doi-asserted-by":"publisher","first-page":"263","DOI":"10.2307\/1914185","volume":"47","author":"Daniel,
-        Kahneman","year":"1979","unstructured":"Kahneman, Daniel, and Amos Tversky.
-        1979. Prospect theory: An analysis of decision under risk. Econometrica\n                  47:263\u2013291.","journal-title":"Econometrica"},{"issue":"1","key":"11_CR38","doi-asserted-by":"publisher","first-page":"193","DOI":"10.1257\/jep.5.1.193","volume":"5","author":"Daniel
-        Kahneman","year":"1991","unstructured":"Kahneman, Daniel, Jack L. Knetsch,
-        and Richard H. Thaler. 1991. The endowment effect, loss aversion, and status
-        quo bias. Journal of Economic Perspectives 5 (1): 193\u2013206.","journal-title":"Journal
-        of Economic Perspectives"},{"key":"11_CR39","volume-title":"Homo Oeconomicus","author":"Gebhard
-        Kirchg\u00e4ssner","year":"2013","unstructured":"Kirchg\u00e4ssner, Gebhard.
-        2013. Homo Oeconomicus. 4th\u00a0ed. T\u00fcbingen: Mohr Siebeck."},{"issue":"4","key":"11_CR40","doi-asserted-by":"publisher","first-page":"1051","DOI":"10.2307\/3481255","volume":"88","author":"Russell
-        B. Korobkin","year":"2000","unstructured":"Korobkin, Russell B., and Thomas
-        S. Ulen. 2000. Law and behavioral science: Removing the rationality assumption
-        from law and economics. California Law Review 88 (4): 1051\u20131144.","journal-title":"California
-        Law Review"},{"key":"11_CR41","unstructured":"Kottak, Conrad Phillip. 2012.
-        Cultural anthropology. 15th\u00a0ed. New York: McGraw-Hill."},{"issue":"4","key":"11_CR42","first-page":"779","volume":"8","author":"William
-        E. Kovacic","year":"2012","unstructured":"Kovacic, William E., and James C.
-        Cooper. 2012. Behavioral economics and its meaning for antitrust agency decision
-        making. Journal of Law, Economics & Policy 8 (4): 779\u2013800.","journal-title":"Journal
-        of Law, Economics & Policy"},{"issue":"3","key":"11_CR43","first-page":"291","volume":"64","author":"Anne
-        Krueger","year":"1974","unstructured":"Krueger, Anne. 1974. The political
-        economy of the rent-seeking society. American Economic Review 64 (3): 291\u2013303.","journal-title":"American
-        Economic Review"},{"key":"11_CR44","doi-asserted-by":"publisher","first-page":"652","DOI":"10.2307\/1599506","volume":"50","author":"William
-        M Landes","year":"1983","unstructured":"Landes, William M. 1983. Optimal sanctions
-        for antitrust violations. University of Chicago Law Review 50:652\u2013678.","journal-title":"University
-        of Chicago Law Review"},{"issue":"2","key":"11_CR45","first-page":"261","volume":"158","author":"Christopher
-        R Leslie","year":"2010","unstructured":"Leslie, Christopher R. 2010. Rationality
-        analysis in antitrust. University of Pennsylvania Law Review 158 (2): 261\u2013353.","journal-title":"University
-        of Pennsylvania Law Review"},{"issue":"4","key":"11_CR46","first-page":"630","volume":"86","author":"Arthur
-        L Liman","year":"1977","unstructured":"Liman, Arthur L. 1977. The paper label
-        sentences: Critique. The Yale Law Journal 86 (4): 630\u2013635.","journal-title":"The
-        Yale Law Journal"},{"key":"11_CR47","unstructured":"Loacker, Leander D. 2012.
-        Verhaltens\u00f6konomik als Erkenntnisquelle f\u00fcr die Rechtsetzung. In
-        Interdisciplinary studies of comparative and private international law, ed.
-        Bea Verschraegen, 45\u201397. Vienna: Jan Sramek Verlag."},{"key":"11_CR48","unstructured":"Metha,
-        Judith, ed. 2013. Behavioural economics in competition and consumer policy.
-        Norwich: ESRC Centre for Competition Policy."},{"key":"11_CR49","doi-asserted-by":"publisher","volume-title":"(Behavioral)
-        Law and Economics im europ\u00e4ischen Wettbewerbsrecht-Missbrauchsaufsicht
-        \u00fcber Zielrabatte","author":"Alexander Morell","year":"2011","unstructured":"Morell,
-        Alexander. 2011. (Behavioral) Law and Economics im europ\u00e4ischen Wettbewerbsrecht-Missbrauchsaufsicht
-        \u00fcber Zielrabatte. Baden-Baden: Nomos.","DOI":"10.5771\/9783845233178"},{"key":"11_CR50","doi-asserted-by":"crossref","volume-title":"Competition
-        policy. Theory and practice","author":"Massimo Motta","year":"2004","unstructured":"Motta,
-        Massimo. 2004. Competition policy. Theory and practice. Cambridge: Cambridge
-        University Press.","DOI":"10.1017\/CBO9780511804038"},{"issue":"1","key":"11_CR51","first-page":"139","volume":"6","author":"Alison
-        Oldale","year":"2010","unstructured":"Oldale, Alison. 2010. Behavioral economics
-        and merger analysis. Competition Policy International 6 (1): 139\u2013143.","journal-title":"Competition
-        Policy International"},{"key":"11_CR52","doi-asserted-by":"crossref","unstructured":"Petit,
-        Nicolas, and Norman Neyrinck. 2010. Behavioral economics and abuse of dominance:
-        A fresh look at the article 102 TFEU case-law. Austrian Competition Journal203\u2013209.","DOI":"10.2139\/ssrn.1641431"},{"key":"11_CR53","volume-title":"Antitrust
-        law: An economic Perspective","author":"Richard A Posner","year":"1976","unstructured":"Posner,
-        Richard A. 1976. Antitrust law: An economic Perspective. Chicago: University
-        of Chicago Press."},{"issue":"4","key":"11_CR54","doi-asserted-by":"publisher","first-page":"925","DOI":"10.2307\/3311787","volume":"127","author":"Richard
-        A. Posner","year":"1979","unstructured":"Posner, Richard A. 1979. The Chicago
-        school of antitrust analysis. University of Pennsylvania Law Review 127 (4):
-        925\u2013948.","journal-title":"University of Pennsylvania Law Review"},{"key":"11_CR55","doi-asserted-by":"publisher","first-page":"1551","DOI":"10.2307\/1229305","volume":"50","author":"Richard
-        A. Posner","year":"1998","unstructured":"Posner, Richard A. 1998. Rational
-        choice, behavioral economics, and the law. Stanford Law Review 50:1551\u20131575.","journal-title":"Stanford
-        Law Review"},{"key":"11_CR56","doi-asserted-by":"publisher","first-page":"317","DOI":"10.1111\/j.1468-0335.2009.00827.x","volume":"78","author":"Clemens
-        Puppe","year":"2011","unstructured":"Puppe, Clemens, and Stephanie Rosenkranz.
-        2011. Why suggest non-binding retail prices? Economica 78:317\u2013329.","journal-title":"Economica"},{"key":"11_CR57","first-page":"1527","volume":"86","author":"Amanda
-        P Reeves","year":"2011","unstructured":"Reeves, Amanda P., and Maurice E.
-        Stucke. 2011. Behavioral antitrust. Indiana Law Journal 86:1527\u20131586.","journal-title":"Indiana
-        Law Journal"},{"issue":"1","key":"11_CR58","first-page":"103","volume":"6","author":"Vivien
-        Rose","year":"2010","unstructured":"Rose, Vivien. 2010. The role of behavioral
-        economics in competition law: A judicial perspective. Competition Policy International
-        6 (1): 103\u2013109.","journal-title":"Competition Policy International"},{"key":"11_CR59","unstructured":"Roux,
-        Catherine, and Christian Th\u00f6ni. 2013. Collusion among many firms: The
-        disciplinary power of targeted punishment.\u2009\u2009 Accessed 11 Feb 2014."},{"issue":"4","key":"11_CR60","doi-asserted-by":"publisher","first-page":"1207","DOI":"10.1111\/1468-2354.t01-1-00106","volume":"44","author":"Ariel
-        Rubinstein","year":"2003","unstructured":"Rubinstein, Ariel. 2003. \u201cEconomics
-        and psychology\u201d? The case of hyperbolic discounting. International Economic
-        Review 44 (4): 1207\u20131216.","journal-title":"International Economic Review"},{"issue":"1","key":"11_CR61","first-page":"65","volume":"6","author":"Michael
-        A. Salinger","year":"2010","unstructured":"Salinger, Michael A. 2010. Behavioral
-        economics, consumer protection, and antitrust. Competition Policy International
-        6 (1): 65\u201386.","journal-title":"Competition Policy International"},{"issue":"17","key":"11_CR62","doi-asserted-by":"publisher","first-page":"61","DOI":"10.2307\/2548836","volume":"5","author":"Paul
-        A. Samuelson","year":"1938","unstructured":"Samuelson, Paul A. 1938. A note
-        on the pure theory of consumer\u2019s behaviour. Economica 5 (17): 61\u201371.","journal-title":"Economica"},{"key":"11_CR63","unstructured":"Schweitzer,
-        Heike. 2009. The role of consumer welfare in EU competition law. In Technology
-        and competition: Contributions in honour of Hanns Ullrich, eds. Josef Drexl,
-        Reto M. Hilty, Laurence Boy, Christine Godt, and Bernard Remiche, 511\u2013539.
-        Brussels: Larcier."},{"issue":"2","key":"11_CR64","doi-asserted-by":"publisher","first-page":"129","DOI":"10.1037\/h0042769","volume":"63","author":"Herbert
-        A Simon","year":"1956","unstructured":"Simon, Herbert A. 1956. Rational choice
-        and the structure of the environment. Psychological Review 63 (2): 129\u2013138.","journal-title":"Psychological
-        Review"},{"key":"11_CR65","volume-title":"Models of man-social and rational","author":"Herbert
-        A Simon","year":"1957","unstructured":"Simon, Herbert A. 1957. Models of man-social
-        and rational. New York: Wiley."},{"key":"11_CR66","volume-title":"The theory
-        of moral sentiments","author":"Adam Smith","year":"1997","unstructured":"Smith,
-        Adam. 1997 (first edition 1759). The theory of moral sentiments. Washington:
-        Regnery Publishing."},{"key":"11_CR67","first-page":"513","volume":"38","author":"Maurice
-        E Stucke","year":"2007","unstructured":"Stucke, Maurice E. 2007. Behavioral
-        economists at the gate: Antitrust in the twenty-first century. Loyola University
-        Chicago Law Journal 38:513\u2013591.","journal-title":"Loyola University Chicago
-        Law Journal"},{"key":"11_CR68","doi-asserted-by":"publisher","first-page":"545","DOI":"10.1093\/joclec\/nhs018","volume":"8","author":"Maurice
-        E Stucke","year":"2012","unstructured":"Stucke, Maurice E. 2012. Behavioral
-        antitrust and monopolization. Journal of Competition Law & Economics 8:545\u2013574.","journal-title":"Journal
-        of Competition Law & Economics"},{"key":"11_CR69","doi-asserted-by":"crossref","unstructured":"Stucke,
-        Maurice E. 2013. The implications of behavioral antitrust. The University
-        of Tennessee: College of Law Faculty Scholarship.","DOI":"10.2139\/ssrn.2109713"},{"key":"11_CR70","doi-asserted-by":"crossref","unstructured":"Sunstein,
-        Cass R., ed. 2000. Behavioral law & economics. Cambridge: Cambridge University
-        Press.","DOI":"10.1017\/CBO9781139175197"},{"key":"11_CR71","doi-asserted-by":"crossref","unstructured":"Sunstein,
-        Cass R., David Schkade, and Daniel Kahneman. 2000. Do people want optimal
-        deterrence? The Journal of Legal Studies 29 (1): 237\u2013253.","DOI":"10.1086\/468069"},{"key":"11_CR72","volume-title":"Nudge:
-        Improving decisions about health, wealth and happiness","author":"Richard
-        H Thaler","year":"2009","unstructured":"Thaler, Richard H., and Cass R. Sunstein.
-        2009. Nudge: Improving decisions about health, wealth and happiness. London:
-        Penguin Books."},{"issue":"2","key":"11_CR73","doi-asserted-by":"publisher","first-page":"482","DOI":"10.2307\/1290548","volume":"101","author":"Avishalom
-        Tor","year":"2002","unstructured":"Tor, Avishalom. 2002. The fable of entry:
-        Bounded rationality, market discipline, and legal policy. Michigan Law Review
-        101 (2): 482\u2013568.","journal-title":"Michigan Law Review"},{"issue":"1","key":"11_CR74","first-page":"52","volume":"18","author":"Avishalom
-        Tor","year":"2003","unstructured":"Tor, Avishalom. 2003. Illustrating a behaviorally
-        informed approach to antitrust law: The case of predatory pricing. Antitrust
-        18 (1): 52\u201359.","journal-title":"Antitrust"},{"issue":"1","key":"11_CR75","first-page":"2","volume":"14","author":"Avishalom
-        Tor","year":"2004","unstructured":"Tor, Avishalom. 2004. A behavioural approach
-        to antitrust law and economics. Consumer Policy Review 14 (1): 2\u20135.","journal-title":"Consumer
-        Policy Review"},{"key":"11_CR76","first-page":"237","volume":"4","author":"Avishalom
-        Tor","year":"2008","unstructured":"Tor, Avishalom. 2008. The methodology of
-        the behavioral analysis of law. Haifa Law Review 4:237\u2013327.","journal-title":"Haifa
-        Law Review"},{"key":"11_CR77","doi-asserted-by":"crossref","unstructured":"Tor,
-        Avishalom. 2013. Understanding behavioral antitrust. Texas Law Review 92(forthcoming).","DOI":"10.2139\/ssrn.2293508"},{"key":"11_CR78","unstructured":"Tor,
-        Avishalom, and William J. Rinner. 2011. Behavioral antitrust: A new approach
-        to the rule of reason Leegin. University of Illinois Law Review 2011:805\u2013864."},{"issue":"3","key":"11_CR79","first-page":"224","volume":"5","author":"Gordon
-        Tullock","year":"1967","unstructured":"Tullock, Gordon. 1967. The welfare
-        costs of tariffs, monopolies, and theft. Western Economic Journal 5 (3): 224\u2013232.","journal-title":"Western
-        Economic Journal"},{"key":"11_CR80","doi-asserted-by":"publisher","first-page":"453","DOI":"10.1126\/science.7455683","volume":"211","author":"Amos,
-        Tversky","year":"1981","unstructured":"Tversky, Amos, and Daniel Kahneman.
-        1981. The framing of decisions and the psychology of choice. Science 211:453\u2013458.","journal-title":"Science"},{"key":"11_CR81","doi-asserted-by":"publisher","first-page":"203","DOI":"10.1093\/joclec\/nhs042","volume":"9","author":"Roger
-        Bergh Van den","year":"2013","unstructured":"Van den Bergh, Roger. 2013. Behavioral
-        antitrust: Not ready for the main stage. Journal of Competition Law & Economics
-        9:203\u2013229.","journal-title":"Journal of Competition Law & Economics"},{"key":"11_CR82","unstructured":"Vanberg,
-        Viktor J. 2011. Consumer welfare, total welfare and economic freedom: On the
-        normative foundations of competition policy. In Competition policy and the
-        economic approach: Foundations and limitations, eds. Josef Drexl, Wolfgang
-        Kerber, and Rupprecht Podszun, 44\u201371. Cheltenham: Edward Elgar."},{"key":"11_CR83","doi-asserted-by":"crossref","unstructured":"Werden,
-        Gregory J., Luke M. Froeb, and Mikhael Shor. 2011. Behavioral antitrust and
-        merger control. Journal of Institutional and Theoretical Economics 167:126\u2013142.","DOI":"10.1628\/093245611794656426"},{"key":"11_CR84","doi-asserted-by":"crossref","volume-title":"An
-        Introduction to behavioral economics","author":"Nick, Wilkinson","year":"2012","unstructured":"Wilkinson,
-        Nick, and Matthias Klaes. 2012. An Introduction to behavioral economics. 2nd\u00a0ed.
-        Houndmills: Palgrave Macmillan.","DOI":"10.1007\/978-0-230-39103-1"},{"key":"11_CR85","volume-title":"Efficiency
-        and justice in European antitrust enforcement","author":"Wouter P. J Wils","year":"2008","unstructured":"Wils,
-        Wouter P. J. 2008. Efficiency and justice in European antitrust enforcement.
-        Oxford: Hart Publishing."},{"issue":"3","key":"11_CR86","first-page":"1033","volume":"106","author":"Joshua
-        D Wright","year":"2012","unstructured":"Wright, Joshua D., and Douglas H.
-        Ginsburg. 2012. Behavioral law and economics: Its origins, fatal flaws, and
-        implications for liberty. Northwestern University Law Review 106 (3): 1033\u20131088.","journal-title":"Northwestern
-        University Law Review"},{"issue":"4","key":"11_CR87","first-page":"1517","volume":"33","author":"Joshua
-        D Wright","year":"2012","unstructured":"Wright, Joshua D., and Judd E. Stone
-        II. 2012. Misbehavioral economics: The case against behavioral antitrust.
-        Cardozo Law Review 33 (4): 1517\u20131553.","journal-title":"Cardozo Law Review"},{"key":"11_CR88","unstructured":"Z\u00e4ch,
-        Roger, and Adrian K\u00fcnzler. 2009. Reining in the \u2018more economic approach\u2019:
-        Some overriding constraints from constitutional law and economics. In Technology
-        and competition: Contributions in honour of Hanns Ullrich, eds. Josef Drexl,
-        Reto M. Hilty, Laurence Boy, Christine Godt, and Bernard Remiche, 541\u2013555.
-        Brussels: Larcier."},{"key":"11_CR89","doi-asserted-by":"publisher","volume-title":"The
-        goals of competition law","author":"Daniel Zimmer","year":"2012","unstructured":"Zimmer,
-        Daniel, ed. 2012. The goals of competition law. Cheltenham: Edward Elgar","DOI":"10.4337\/9780857936615"}],"container-title":["European
-        Perspectives on Behavioural Law and Economics"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-319-11635-8_11","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,5,29]],"date-time":"2019-05-29T08:14:31Z","timestamp":1559117671000},"score":21.605223,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-319-11635-8_11"}},"issued":{"date-parts":[[2015]]},"ISBN":["9783319116341","9783319116358"],"references-count":89,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-319-11635-8_11","published":{"date-parts":[[2015]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T21:53:42Z","timestamp":1648763622430},"edition-number":"1","reference-count":1,"publisher":"Routledge","isbn-type":[{"value":"9780203086476","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2006,9,27]]},"DOI":"10.4324\/9780203086476-3","type":"book-chapter","created":{"date-parts":[[2020,10,19]],"date-time":"2020-10-19T17:10:49Z","timestamp":1603127449000},"page":"14-24","source":"Crossref","is-referenced-by-count":6,"title":["Social
+        History"}}]},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T21:53:42Z","timestamp":1648763622430},"edition-number":"1","reference-count":1,"publisher":"Routledge","isbn-type":[{"value":"9780203086476","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2006,9,27]]},"DOI":"10.4324\/9780203086476-3","type":"book-chapter","created":{"date-parts":[[2020,10,19]],"date-time":"2020-10-19T17:10:49Z","timestamp":1603127449000},"page":"14-24","source":"Crossref","is-referenced-by-count":6,"title":["Social
         theory and the social sciences"],"prefix":"10.4324","author":[{"given":"Patrick","family":"Baert","sequence":"first","affiliation":[]}],"member":"301","reference":[{"key":"ref2","doi-asserted-by":"crossref","unstructured":"Archer,
         M. (1995) Realist Social Theory: the Morphogenetic Approch, Cambridge: Cambridge
         University Press.","DOI":"10.1017\/CBO9780511557675"}],"container-title":["Handbook
-        of Contemporary European Social Theory"],"deposited":{"date-parts":[[2020,10,31]],"date-time":"2020-10-31T18:48:24Z","timestamp":1604170104000},"score":21.60358,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781134255474\/chapters\/10.4324\/9780203086476-3"}},"issued":{"date-parts":[[2006,9,27]]},"ISBN":["9780203086476"],"references-count":1,"URL":"http:\/\/dx.doi.org\/10.4324\/9780203086476-3","published":{"date-parts":[[2006,9,27]]}},{"indexed":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T20:12:38Z","timestamp":1651176758590},"reference-count":0,"publisher":"Edward
+        of Contemporary European Social Theory"],"deposited":{"date-parts":[[2020,10,31]],"date-time":"2020-10-31T18:48:24Z","timestamp":1604170104000},"score":21.676981,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781134255474\/chapters\/10.4324\/9780203086476-3"}},"issued":{"date-parts":[[2006,9,27]]},"ISBN":["9780203086476"],"references-count":1,"URL":"http:\/\/dx.doi.org\/10.4324\/9780203086476-3","published":{"date-parts":[[2006,9,27]]}},{"indexed":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T20:12:38Z","timestamp":1651176758590},"reference-count":0,"publisher":"Edward
         Elgar Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,12,9]]},"DOI":"10.4337\/9781788116398.00012","type":"book-chapter","created":{"date-parts":[[2021,12,20]],"date-time":"2021-12-20T12:47:36Z","timestamp":1640004456000},"source":"Crossref","is-referenced-by-count":0,"title":["Council
         of Europe: European Social Charter and European Convention on Human Rights"],"prefix":"10.4337","member":"2918","container-title":["EU
-        Collective Labour Law"],"link":[{"URL":"https:\/\/www.elgaronline.com\/view\/edcoll\/9781788116381\/9781788116381.00012.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.elgaronline.com\/view\/edcoll\/9781788116381\/9781788116381.xml","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T19:38:14Z","timestamp":1651174694000},"score":21.464853,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/edcoll\/9781788116381\/9781788116381.00012.xml"}},"issued":{"date-parts":[[2021,12,9]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781788116398.00012","published":{"date-parts":[[2021,12,9]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T05:01:01Z","timestamp":1659502861411},"reference-count":0,"publisher":"Oxford
+        Collective Labour Law"],"link":[{"URL":"https:\/\/www.elgaronline.com\/view\/edcoll\/9781788116381\/9781788116381.00012.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.elgaronline.com\/view\/edcoll\/9781788116381\/9781788116381.xml","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,4,28]],"date-time":"2022-04-28T19:38:14Z","timestamp":1651174694000},"score":21.61357,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/edcoll\/9781788116381\/9781788116381.00012.xml"}},"issued":{"date-parts":[[2021,12,9]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781788116398.00012","published":{"date-parts":[[2021,12,9]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T05:01:01Z","timestamp":1659502861411},"reference-count":0,"publisher":"Oxford
         University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,10,21]]},"abstract":"<p>A
         European social contract is possible\u2014if the discussion shifts from who
         has the right to act to who can help. Education is a striking example of Europe\u2019s
@@ -932,12 +662,14 @@ http_interactions:
         a guiding vision for twenty-first-century learning.<\/p>","DOI":"10.1093\/oso\/9780192895820.003.0004","type":"book-chapter","created":{"date-parts":[[2021,11,17]],"date-time":"2021-11-17T17:36:35Z","timestamp":1637170595000},"page":"51-66","source":"Crossref","is-referenced-by-count":0,"title":["Education
         and the European Social Contract"],"prefix":"10.1093","author":[{"given":"Xavier
         Prats","family":"Monn\u00e9","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,11,18]]},"container-title":["Europe''s
-        Transformations"],"original-title":["Education and the European Social Contract"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:32:07Z","timestamp":1659472327000},"score":21.446259,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39086\/chapter\/338468381"}},"issued":{"date-parts":[[2021,10,21]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192895820.003.0004","published":{"date-parts":[[2021,10,21]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T17:02:29Z","timestamp":1649178149415},"reference-count":0,"publisher":"Edward
+        Transformations"],"original-title":["Education and the European Social Contract"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:32:07Z","timestamp":1659472327000},"score":21.605986,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39086\/chapter\/338468381"}},"issued":{"date-parts":[[2021,10,21]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192895820.003.0004","published":{"date-parts":[[2021,10,21]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T17:02:29Z","timestamp":1649178149415},"reference-count":0,"publisher":"Edward
         Elgar Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.4337\/9781800378070.00015","type":"book-chapter","created":{"date-parts":[[2021,2,16]],"date-time":"2021-02-16T17:50:56Z","timestamp":1613497856000},"page":"200-220","source":"Crossref","is-referenced-by-count":0,"title":["Building
         a European home: mechanisms for the construction of a common social space
         within the European Union"],"prefix":"10.4337","author":[{"given":"Giuseppe","family":"Moro","sequence":"first","affiliation":[]}],"member":"2918","container-title":["The
-        European Social Model and an Economy of Well-being"],"deposited":{"date-parts":[[2021,2,16]],"date-time":"2021-02-16T17:51:17Z","timestamp":1613497877000},"score":21.416906,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781800378063.00015.xml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781800378070.00015","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T14:52:13Z","timestamp":1649170333104},"edition-number":"0","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,2,3]]},"DOI":"10.4324\/9781315062150-87","type":"book-chapter","created":{"date-parts":[[2020,12,24]],"date-time":"2020-12-24T18:45:51Z","timestamp":1608835551000},"page":"613-613","source":"Crossref","is-referenced-by-count":0,"title":["Feminism,
+        European Social Model and an Economy of Well-being"],"deposited":{"date-parts":[[2021,2,16]],"date-time":"2021-02-16T17:51:17Z","timestamp":1613497877000},"score":21.543678,"resource":{"primary":{"URL":"https:\/\/www.elgaronline.com\/view\/9781800378063.00015.xml"}},"issued":{"date-parts":[[2021]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4337\/9781800378070.00015","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T07:04:01Z","timestamp":1648710241112},"edition-number":"0","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,2,3]]},"DOI":"10.4324\/9781315062150-79","type":"book-chapter","created":{"date-parts":[[2020,12,24]],"date-time":"2020-12-24T18:45:51Z","timestamp":1608835551000},"page":"561-569","source":"Crossref","is-referenced-by-count":0,"title":["European
+        single currency"],"prefix":"10.4324","member":"301","container-title":["Reader''s
+        Guide to the Social Sciences"],"deposited":{"date-parts":[[2020,12,24]],"date-time":"2020-12-24T18:46:53Z","timestamp":1608835613000},"score":21.473434,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781135932268\/chapters\/10.4324\/9781315062150-79"}},"issued":{"date-parts":[[2014,2,3]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781315062150-79","published":{"date-parts":[[2014,2,3]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T14:52:13Z","timestamp":1649170333104},"edition-number":"0","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,2,3]]},"DOI":"10.4324\/9781315062150-87","type":"book-chapter","created":{"date-parts":[[2020,12,24]],"date-time":"2020-12-24T18:45:51Z","timestamp":1608835551000},"page":"613-613","source":"Crossref","is-referenced-by-count":0,"title":["Feminism,
         Eastern European"],"prefix":"10.4324","member":"301","container-title":["Reader''s
-        Guide to the Social Sciences"],"deposited":{"date-parts":[[2020,12,24]],"date-time":"2020-12-24T18:46:59Z","timestamp":1608835619000},"score":21.387165,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781135932268\/chapters\/10.4324\/9781315062150-87"}},"issued":{"date-parts":[[2014,2,3]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781315062150-87","published":{"date-parts":[[2014,2,3]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"European+Proceedings+of+Social+and+Behavioural+Sciences+2021+European+Publisher"}}}'
-  recorded_at: Sun, 15 Jan 2023 19:25:18 GMT
+        Guide to the Social Sciences"],"deposited":{"date-parts":[[2020,12,24]],"date-time":"2020-12-24T18:46:59Z","timestamp":1608835619000},"score":21.453724,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781135932268\/chapters\/10.4324\/9781315062150-87"}},"issued":{"date-parts":[[2014,2,3]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9781315062150-87","published":{"date-parts":[[2014,2,3]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"European+Proceedings+of+Social+and+Behavioural+Sciences+2021+European+Publisher"}}}'
+  recorded_at: Mon, 27 Mar 2023 16:02:37 GMT
 recorded_with: VCR 6.1.0

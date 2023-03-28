@@ -1,5 +1,5 @@
 <bibdata type="book" schema-version="v1.2.1">
-  <fetched>2023-01-16</fetched>
+  <fetched>2023-03-28</fetched>
   <title type="main" format="text/plain" script="Latn">Multilingualism, Second Language Learning, and Gender</title>
   <title type="subtitle" format="text/plain" script="Latn"/>
   <uri type="DOI">http://dx.doi.org/10.1515/9783110889406</uri>
@@ -54,13 +54,7 @@
       <name>DE GRUYTER MOUTON</name>
     </organization>
   </contributor>
-  <place>
-    <city>Berlin</city>
-  </place>
-  <place>
-    <city>New York</city>
-  </place>
   <ext>
-    <doctype>book</doctype>
+    <doctype>edited-book</doctype>
   </ext>
 </bibdata>

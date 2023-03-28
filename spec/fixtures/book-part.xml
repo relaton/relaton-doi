@@ -1,5 +1,5 @@
 <bibdata type="inbook" schema-version="v1.2.1">
-  <fetched>2023-01-15</fetched>
+  <fetched>2023-03-28</fetched>
   <title type="main" format="text/plain" script="Latn">Occupied Haiti (1915–1934)</title>
   <uri type="DOI">http://dx.doi.org/10.1215/9781478007609-047</uri>
   <uri type="src">http://read.dukeupress.edu/books/book/2710/chapter/2008410/Occupied-Haiti-19151934</uri>
@@ -10,51 +10,6 @@
   <date type="published">
     <on>2020</on>
   </date>
-  <contributor>
-    <role type="editor"/>
-    <person>
-      <name>
-        <forename language="en" script="Latn">Laurent</forename>
-        <surname language="en" script="Latn">Dubois</surname>
-      </name>
-    </person>
-  </contributor>
-  <contributor>
-    <role type="editor"/>
-    <person>
-      <name>
-        <forename language="en" script="Latn">Kaiama L.</forename>
-        <surname language="en" script="Latn">Glover</surname>
-      </name>
-    </person>
-  </contributor>
-  <contributor>
-    <role type="editor"/>
-    <person>
-      <name>
-        <forename language="en" script="Latn">Nadève</forename>
-        <surname language="en" script="Latn">Ménard</surname>
-      </name>
-    </person>
-  </contributor>
-  <contributor>
-    <role type="editor"/>
-    <person>
-      <name>
-        <forename language="en" script="Latn">Millery</forename>
-        <surname language="en" script="Latn">Polyné</surname>
-      </name>
-    </person>
-  </contributor>
-  <contributor>
-    <role type="editor"/>
-    <person>
-      <name>
-        <forename language="en" script="Latn">Chantalle F.</forename>
-        <surname language="en" script="Latn">Verna</surname>
-      </name>
-    </person>
-  </contributor>
   <contributor>
     <role type="publisher"/>
     <organization>

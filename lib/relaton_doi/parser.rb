@@ -376,10 +376,7 @@ module RelatonDoi
       has_editors = contribs.any? { |c| c.role&.any? { |r| r.type == "editor" } }
       return [] if has_authors && has_editors
 
-      item = fetch_parent
-      authors = create_authors_editors(has_authors, "author", item)
-      editors = create_authors_editors(has_editors, "editor", item)
-      authors + editors
+      create_authors_editors(has_authors, "author")
     end
 
     #
@@ -387,12 +384,14 @@ module RelatonDoi
     #
     # @return [Hash, nil] parent item
     #
-    def fetch_parent # rubocop:disable Metrics/AbcSize
-      query = [@src["container-title"][0], fetch_year].compact.join "+"
-      filter = "type:#{%w[book book-set edited-book monograph reference-book].join ',type:'}"
-      resp = Faraday.get "https://api.crossref.org/works?query=#{query}&filter=#{filter}"
-      json = JSON.parse resp.body
-      json["message"]["items"].detect { |i| i["title"].include? @src["container-title"][0] }
+    def parent_item # rubocop:disable Metrics/AbcSize
+      @parent_item ||= begin
+        query = [@src["container-title"][0], fetch_year].compact.join "+"
+        filter = "type:#{%w[book book-set edited-book monograph reference-book].join ',type:'}"
+        resp = Faraday.get "https://api.crossref.org/works?query=#{query}&filter=#{filter}"
+        json = JSON.parse resp.body
+        json["message"]["items"].detect { |i| i["title"].include? @src["container-title"][0] }
+      end
     end
 
     #
@@ -400,14 +399,13 @@ module RelatonDoi
     #
     # @param [Boolean] has true if authors or editors are present in the book part
     # @param [String] type "author" or "editor"
-    # @param [Hash, nil] item parent item
     #
     # @return [Array<RelatonBib::ContributionInfo>] authors or editors
     #
-    def create_authors_editors(has, type, item)
-      return [] if has || !item
+    def create_authors_editors(has, type)
+      return [] if has || !parent_item
 
-      RelatonBib.array(item[type]).map { |a| contributor(create_person(a), type) }
+      RelatonBib.array(parent_item[type]).map { |a| contributor(create_person(a), type) }
     end
 
     #
@@ -705,38 +703,10 @@ module RelatonDoi
       return [] unless @src["container-title"] && types.include?(@src["type"])
 
       @src["container-title"].map do |ct|
-        contrib = included_in_editors(ct)
+        contrib = create_authors_editors false, "editor"
         bib = RelatonBib::BibliographicItem.new(title: [content: ct], contributor: contrib)
         RelatonBib::DocumentRelation.new(type: "includedIn", bibitem: bib)
       end
-    end
-
-    #
-    # Fetch included in editors.
-    #
-    # @param [String] title container-title
-    #
-    # @return [Array<RelatonBib::ContributionInfo>] The editors contribution info.
-    #
-    def included_in_editors(title)
-      item = fetch_included_in title
-      return [] unless item
-
-      item["editor"].map { |e| contributor(create_person(e), "editor") }
-    end
-
-    #
-    # Fetch included in relation.
-    #
-    # @param [String] title container-title
-    #
-    # @return [Hash] The included in relation item.
-    #
-    def fetch_included_in(title)
-      query = CGI.escape [title, @src["publisher"], @src["publisher-location"], fetch_year].join(", ")
-      resp = Faraday.get %{http://api.crossref.org/works?query.bibliographic="#{query}"&rows=10&filter=type:book}
-      json = JSON.parse resp.body
-      json["message"]["items"].detect { |i| i["title"].include?(title) && i["editor"] }
     end
 
     #
