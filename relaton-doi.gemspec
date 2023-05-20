@@ -8,13 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ribose Inc."]
   spec.email         = ["open.source@ribose.com"]
 
-  spec.summary       = "RelatonDOI: retrieve Standards for bibliographic "\
+  spec.summary       = "RelatonDOI: retrieve Standards for bibliographic " \
                        "using DOI through Crossrefand provide Relaton object."
-  spec.description   = "RelatonDOI: retrieve Standards for bibliographic "\
+  spec.description   = "RelatonDOI: retrieve Standards for bibliographic " \
                        "using DOI through Crossrefand provide Relaton object."
   spec.homepage      = "https://github.com/relaton/relaton-doi"
   spec.license       = "BSD-2-Clause"
-  spec.required_ruby_version = ">= 2.5.0"
+  spec.required_ruby_version = ">= 2.7.0"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
 
@@ -33,13 +33,6 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
-  spec.add_development_dependency "equivalent-xml", "~> 0.6"
-  # spec.add_development_dependency "ruby-jing"
-  spec.add_development_dependency "rubocop-performance"
-  spec.add_development_dependency "rubocop-rails"
-  spec.add_development_dependency "simplecov"
-  spec.add_development_dependency "vcr"
-  spec.add_development_dependency "webmock"
 
   spec.add_dependency "relaton-bib", "~> 1.14.3"
   spec.add_dependency "relaton-bipm", "~> 1.14.0"
@@ -47,7 +40,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "relaton-ietf", "~> 1.14.0"
   spec.add_dependency "relaton-nist", "~> 1.14.0"
   # spec.add_dependency "relaton-w3c", "~> 1.10.0"
-  spec.add_dependency "serrano", "~> 1.0.0"
+  spec.add_dependency "serrano", "~> 1.4.0"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html

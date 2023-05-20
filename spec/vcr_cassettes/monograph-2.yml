@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.4 Serrano/v1.4 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v1.10.3 Serrano/v1.0.0 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.4 Serrano/v1.4 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 27 Mar 2023 16:02:30 GMT
+      - Sat, 20 May 2023 22:56:24 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1483'
       Set-Cookie:
-      - AWSALB=BVIBK/ody3iUycaAhfXp+vm6r2IOzFF8UN9XiivL1PlOFrAzdQN0fH0jwSZO786GLGzX6jHcCTCJRFTcFYAKyfXvLPZdyzhH5pgbPOQUU3i0c7tWLnFz2SQl+EN/;
-        Expires=Mon, 03 Apr 2023 16:02:30 GMT; Path=/
-      - AWSALBCORS=BVIBK/ody3iUycaAhfXp+vm6r2IOzFF8UN9XiivL1PlOFrAzdQN0fH0jwSZO786GLGzX6jHcCTCJRFTcFYAKyfXvLPZdyzhH5pgbPOQUU3i0c7tWLnFz2SQl+EN/;
-        Expires=Mon, 03 Apr 2023 16:02:30 GMT; Path=/; SameSite=None
+      - AWSALB=nleV+alFriltGYkEEPDzhTtvW17LO+1wW2I6vl+NfKb6ZgLx4Ew9IDIf5Sjb4E3Ff59PQjvAsWeakOmYyRn10GgENXXeHseZ//4tSO3nqEbs9mLhLWtOG8NmQhPi;
+        Expires=Sat, 27 May 2023 22:56:24 GMT; Path=/
+      - AWSALBCORS=nleV+alFriltGYkEEPDzhTtvW17LO+1wW2I6vl+NfKb6ZgLx4Ew9IDIf5Sjb4E3Ff59PQjvAsWeakOmYyRn10GgENXXeHseZ//4tSO3nqEbs9mLhLWtOG8NmQhPi;
+        Expires=Sat, 27 May 2023 22:56:24 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -64,5 +64,5 @@ http_interactions:
         Natur mit Beschreibungen \/"],"prefix":"10.5962","author":[{"given":"H. C.","family":"Kuster","sequence":"first","affiliation":[]},{"given":"Johann
         Hieronymus","family":"Chemnitz","sequence":"additional","affiliation":[]},{"given":"Friedrich
         Heinrich Wilhelm","family":"Martini","sequence":"additional","affiliation":[]}],"member":"3444","container-title":[],"original-title":[],"deposited":{"date-parts":[[2017,1,30]],"date-time":"2017-01-30T01:00:18Z","timestamp":1485738018000},"score":1,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/124254"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1852]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.124254","relation":{},"published":{"date-parts":[[1852]]}}}'
-  recorded_at: Mon, 27 Mar 2023 16:02:30 GMT
+  recorded_at: Sat, 20 May 2023 22:56:23 GMT
 recorded_with: VCR 6.1.0
