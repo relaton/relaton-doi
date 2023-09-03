@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.7.4 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.10 Serrano/v1.4 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v2.7.4 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.10 Serrano/v1.4 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 20 May 2023 22:55:57 GMT
+      - Fri, 01 Sep 2023 03:55:33 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1501'
       Set-Cookie:
-      - AWSALB=S080xrglLLG931IfkVERyI4U0e3ivCLpHw0kHZxnplbw1SChWjZuSPxYxrSXHA2O8iUAR+E2FtwJRgumuz4s775Dl+UxMuGGfxUbOOO17OdxMdz8AkrXpTw+4MGZ;
-        Expires=Sat, 27 May 2023 22:55:57 GMT; Path=/
-      - AWSALBCORS=S080xrglLLG931IfkVERyI4U0e3ivCLpHw0kHZxnplbw1SChWjZuSPxYxrSXHA2O8iUAR+E2FtwJRgumuz4s775Dl+UxMuGGfxUbOOO17OdxMdz8AkrXpTw+4MGZ;
-        Expires=Sat, 27 May 2023 22:55:57 GMT; Path=/; SameSite=None
+      - AWSALB=wto0COKq37TB/Z0mBHjb+Q0k14v88V001w2cV4UMGSW945nuWTNfLMZySl1XuBiaslhg7svGq1LkhY33OEWpg56wnEVitX9OOTOI/lUfCEJUDNXYKWPPOTwORccQ;
+        Expires=Fri, 08 Sep 2023 03:55:33 GMT; Path=/
+      - AWSALBCORS=wto0COKq37TB/Z0mBHjb+Q0k14v88V001w2cV4UMGSW945nuWTNfLMZySl1XuBiaslhg7svGq1LkhY33OEWpg56wnEVitX9OOTOI/lUfCEJUDNXYKWPPOTwORccQ;
+        Expires=Fri, 08 Sep 2023 03:55:33 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -62,5 +62,5 @@ http_interactions:
         NJ, USA","standards-body":{"name":"Software &amp; Systems Engineering Standards
         Committee of the IEEE Computer Society","acronym":"IEEE"},"reference-count":0,"publisher":"IEEE","isbn-type":[{"value":"9780738191683","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.1109\/ieeestd.2014.6835311","type":"standard","created":{"date-parts":[[2014,6,19]],"date-time":"2014-06-19T20:13:47Z","timestamp":1403208827000},"approved":{"date-parts":[[2014,3,27]]},"source":"Crossref","is-referenced-by-count":6,"title":["IEEE
         Standard for Software Quality Assurance Processes"],"prefix":"10.1109","member":"263","container-title":[],"original-title":[],"link":[{"URL":"http:\/\/xplorestaging.ieee.org\/ielx7\/6835309\/6835310\/06835311.pdf?arnumber=6835311","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,10,14]],"date-time":"2020-10-14T15:36:09Z","timestamp":1602689769000},"score":1,"resource":{"primary":{"URL":"https:\/\/ieeexplore.ieee.org\/document\/6835311"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"ISBN":["9780738191683"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1109\/ieeestd.2014.6835311","relation":{}}}'
-  recorded_at: Sat, 20 May 2023 22:55:57 GMT
-recorded_with: VCR 6.1.0
+  recorded_at: Fri, 01 Sep 2023 03:55:33 GMT
+recorded_with: VCR 6.2.0
