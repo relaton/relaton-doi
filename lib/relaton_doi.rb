@@ -16,4 +16,11 @@ Serrano.configuration do |config|
 end
 
 module RelatonDoi
+  extend self
+
+  def grammar_hash
+    Digest::MD5.hexdigest(
+      RelatonNist::VERSION + RelatonIetf::VERSION + RelatonIeee::VERSION + RelatonBipm::VERSION + RelatonBib::VERSION,
+    )
+  end
 end

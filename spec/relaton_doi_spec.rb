@@ -5,6 +5,10 @@ RSpec.describe RelatonDoi do
     expect(RelatonDoi::VERSION).not_to be nil
   end
 
+  it "returs grammar hash" do
+    expect(RelatonDoi.grammar_hash.size).to eq 32
+  end
+
   context "fetch document" do
     it "NIST", vcr: "crossref_nist" do
       file = "crossref_nist.xml"

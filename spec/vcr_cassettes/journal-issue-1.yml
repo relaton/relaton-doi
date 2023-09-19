@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.7.10 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.11 Serrano/v1.4 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v2.7.10 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.11 Serrano/v1.4 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 01 Sep 2023 03:59:29 GMT
+      - Tue, 19 Sep 2023 18:20:54 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '4025'
       Set-Cookie:
-      - AWSALB=ExCK0O+fLSEnzATwMBZ+DuhWqoIGeYl0FTnc6wuUUbRlC1QKmSH9wKMHGQJnjhNm5ZNe84RYNzx6GtcYMrErbQl5pcM5HX5GSkX3zjrKIdEyfS0jm4MrTnH8GFHS;
-        Expires=Fri, 08 Sep 2023 03:59:29 GMT; Path=/
-      - AWSALBCORS=ExCK0O+fLSEnzATwMBZ+DuhWqoIGeYl0FTnc6wuUUbRlC1QKmSH9wKMHGQJnjhNm5ZNe84RYNzx6GtcYMrErbQl5pcM5HX5GSkX3zjrKIdEyfS0jm4MrTnH8GFHS;
-        Expires=Fri, 08 Sep 2023 03:59:29 GMT; Path=/; SameSite=None
+      - AWSALB=+g5yRGYdEyxxClWz5ojAQUviwZ6ekyVQi8BdeFZPzfJ8UpsMNVm9KPzGfN37vJK2jB2WOigGcs+hhx2KnXnG/EmFCLKahZVR9fxvYKUfkAWBdUVr+/c41rM7kjdQ;
+        Expires=Tue, 26 Sep 2023 18:20:54 GMT; Path=/
+      - AWSALBCORS=+g5yRGYdEyxxClWz5ojAQUviwZ6ekyVQi8BdeFZPzfJ8UpsMNVm9KPzGfN37vJK2jB2WOigGcs+hhx2KnXnG/EmFCLKahZVR9fxvYKUfkAWBdUVr+/c41rM7kjdQ;
+        Expires=Tue, 26 Sep 2023 18:20:54 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -58,7 +58,7 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2023,8,19]],"date-time":"2023-08-19T09:42:09Z","timestamp":1692438129024},"reference-count":15,"publisher":"Walter
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2023,9,12]],"date-time":"2023-09-12T08:39:52Z","timestamp":1694507992124},"reference-count":15,"publisher":"Walter
         de Gruyter GmbH","issue":"2","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[2007,1,19]]},"DOI":"10.1515\/cog.2007.005","type":"journal-article","created":{"date-parts":[[2007,9,25]],"date-time":"2007-09-25T11:32:28Z","timestamp":1190719948000},"source":"Crossref","is-referenced-by-count":73,"title":["The
         semantic categories of cutting and breaking events: A crosslinguistic perspective"],"prefix":"10.1515","volume":"18","author":[{"given":"Asifa","family":"Majid","sequence":"first","affiliation":[]},{"given":"Melissa","family":"Bowerman","sequence":"additional","affiliation":[]},{"given":"Miriam
         van","family":"Staden","sequence":"additional","affiliation":[]},{"given":"James
@@ -79,7 +79,7 @@ http_interactions:
         David P","year":"1995","journal-title":"Cognitive Linguistics"}],"container-title":["Cognitive
         Linguistics"],"original-title":[],"link":[{"URL":"https:\/\/www.degruyter.com\/view\/j\/cogl.2007.18.issue-2\/cog.2007.005\/cog.2007.005.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,2,28]],"date-time":"2021-02-28T03:08:36Z","timestamp":1614481716000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/COG.2007.005\/html"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2007,1,19]]},"references-count":15,"journal-issue":{"issue":"2"},"URL":"http:\/\/dx.doi.org\/10.1515\/cog.2007.005","relation":{},"ISSN":["0936-5907","1613-3641"],"issn-type":[{"value":"0936-5907","type":"print"},{"value":"1613-3641","type":"electronic"}],"subject":["Linguistics
         and Language","Developmental and Educational Psychology","Language and Linguistics"],"published":{"date-parts":[[2007,1,19]]}}}'
-  recorded_at: Fri, 01 Sep 2023 03:59:29 GMT
+  recorded_at: Tue, 19 Sep 2023 18:20:54 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=The%2Bsemantic%2Bcategories%2Bof%2Bcutting%2Band%2Bbreaking%2Bevents:%2BA%2Bcrosslinguistic%2Bperspective%2B2007%2BWalter%2Bde%2BGruyter%2BGmbH
@@ -88,7 +88,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.7.10
+      - Faraday v2.7.11
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -99,11 +99,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 01 Sep 2023 03:59:33 GMT
+      - Tue, 19 Sep 2023 18:20:55 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '94068'
+      - '26666'
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -131,636 +131,73 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":34667,"items":[{"indexed":{"date-parts":[[2023,6,18]],"date-time":"2023-06-18T04:04:50Z","timestamp":1687061090841},"reference-count":0,"publisher":"BRILL","isbn-type":[{"value":"9789004362826","type":"electronic"},{"value":"9789004353022","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2018,6,25]]},"DOI":"10.1163\/9789004362826_005","type":"book-chapter","created":{"date-parts":[[2019,8,2]],"date-time":"2019-08-02T03:04:15Z","timestamp":1564715055000},"page":"71-98","source":"Crossref","is-referenced-by-count":0,"title":["The
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":34817,"items":[{"indexed":{"date-parts":[[2023,6,18]],"date-time":"2023-06-18T04:04:50Z","timestamp":1687061090841},"reference-count":0,"publisher":"BRILL","isbn-type":[{"value":"9789004362826","type":"electronic"},{"value":"9789004353022","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2018,6,25]]},"DOI":"10.1163\/9789004362826_005","type":"book-chapter","created":{"date-parts":[[2019,8,2]],"date-time":"2019-08-02T03:04:15Z","timestamp":1564715055000},"page":"71-98","source":"Crossref","is-referenced-by-count":0,"title":["The
         Crosslinguistic Categorization of Everyday Events: The Case of \u201cCutting
         and Breaking\u201d"],"prefix":"10.1163","author":[{"given":"Melissa","family":"Bowerman","sequence":"first","affiliation":[]}],"member":"50","container-title":["Ten
-        Lectures on Language, Cognition, and Language Acquisition"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/9789004362826\/BP000012.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/35672","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2023,6,17]],"date-time":"2023-06-17T04:16:52Z","timestamp":1686975412000},"score":37.08403,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/9789004362826\/BP000012.xml"}},"issued":{"date-parts":[[2018,6,25]]},"ISBN":["9789004362826","9789004353022"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9789004362826_005","published":{"date-parts":[[2018,6,25]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:51:08Z","timestamp":1690203068032},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Lectures on Language, Cognition, and Language Acquisition"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/9789004362826\/BP000012.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/35672","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2023,6,17]],"date-time":"2023-06-17T04:16:52Z","timestamp":1686975412000},"score":37.0148,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/9789004362826\/BP000012.xml"}},"issued":{"date-parts":[[2018,6,25]]},"ISBN":["9789004362826","9789004353022"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9789004362826_005","published":{"date-parts":[[2018,6,25]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:51:08Z","timestamp":1690203068032},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012]]},"DOI":"10.1075\/tsl.100.13and","type":"book-chapter","created":{"date-parts":[[2014,3,23]],"date-time":"2014-03-23T22:21:38Z","timestamp":1395613298000},"page":"183-200","source":"Crossref","is-referenced-by-count":3,"title":["The
         semantic role of agentive control in Hungarian placement events"],"prefix":"10.1075","author":[{"given":"Attila","family":"Andics","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Typological
-        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:40Z","timestamp":1405025320000},"score":35.413574,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.13and"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.13and","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:51:27Z","timestamp":1690203087487},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:40Z","timestamp":1405025320000},"score":35.35591,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.13and"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.13and","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:51:27Z","timestamp":1690203087487},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012]]},"DOI":"10.1075\/tsl.100.20kop","type":"book-chapter","created":{"date-parts":[[2014,3,23]],"date-time":"2014-03-23T18:21:38Z","timestamp":1395598898000},"page":"327-348","source":"Crossref","is-referenced-by-count":7,"title":["Semantic
         granularity of placement and removal expressions in Polish"],"prefix":"10.1075","author":[{"given":"Anetta","family":"Kopecka","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Typological
-        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T16:48:44Z","timestamp":1405010924000},"score":33.58017,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.20kop"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.20kop","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T17:33:00Z","timestamp":1649093580828},"reference-count":0,"publisher":"Bloomsbury
-        Academic","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781501323591.ch-006","type":"book-chapter","created":{"date-parts":[[2016,10,28]],"date-time":"2016-10-28T11:16:55Z","timestamp":1477653415000},"source":"Crossref","is-referenced-by-count":1,"title":["Meaningfulness,
-        Eternity, and Theism\n                  Originally appeared in Beatrix Himmelmann,
-        ed. On Meaning in Life (Boston\/Berlin: De Gruyter, 2013): 99\u2013112. Copyright
-        \u00a9 2013, Walter de Gruyter GmbH."],"prefix":"10.5040","member":"2984","container-title":["God
-        and Meaning : New Essays"],"deposited":{"date-parts":[[2020,5,21]],"date-time":"2020-05-21T22:45:25Z","timestamp":1590101125000},"score":33.3685,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/book\/god-and-meaning-new-essays\/ch6-meaningfulness-eternity-and-theism-originally-appeared-in-beatrix-himmelmann-ed-on-meaning-in-life-boston-berlin-de-gruyter-2013-99-112-copyright-"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781501323591.ch-006"},{"indexed":{"date-parts":[[2023,8,25]],"date-time":"2023-08-25T08:44:09Z","timestamp":1692953049716},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T16:48:44Z","timestamp":1405010924000},"score":33.572186,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.20kop"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.20kop","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,8,25]],"date-time":"2023-08-25T08:44:09Z","timestamp":1692953049716},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012]]},"DOI":"10.1075\/tsl.100.03nar","type":"book-chapter","created":{"date-parts":[[2014,3,23]],"date-time":"2014-03-23T22:21:38Z","timestamp":1395613298000},"page":"1-18","source":"Crossref","is-referenced-by-count":17,"title":["Putting
         and taking events"],"prefix":"10.1075","author":[{"given":"Bhuvana","family":"Narasimhan","sequence":"first","affiliation":[]},{"given":"Anetta","family":"Kopecka","sequence":"additional","affiliation":[]},{"given":"Melissa
         F.","family":"Bowerman","sequence":"additional","affiliation":[]},{"given":"Marianne","family":"Gullberg","sequence":"additional","affiliation":[]},{"given":"Asifa","family":"Majid","sequence":"additional","affiliation":[]}],"member":"1757","container-title":["Typological
-        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:33Z","timestamp":1405025313000},"score":32.309883,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.03nar"}},"subtitle":["A
-        crosslinguistic perspective"],"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.03nar","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,2,20]],"date-time":"2023-02-20T06:51:59Z","timestamp":1676875919477},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:33Z","timestamp":1405025313000},"score":32.403736,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.03nar"}},"subtitle":["A
+        crosslinguistic perspective"],"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.03nar","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,9,12]],"date-time":"2023-09-12T10:46:52Z","timestamp":1694515612116},"reference-count":0,"publisher":"Bloomsbury
+        Academic","isbn-type":[{"value":"9781628927597","type":"print"},{"value":"9781628927610","type":"print"},{"value":"9781628927627","type":"electronic"},{"value":"9781628927634","type":"electronic"},{"value":"9781501323591","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781501323591.ch-006","type":"book-chapter","created":{"date-parts":[[2016,10,28]],"date-time":"2016-10-28T11:16:55Z","timestamp":1477653415000},"source":"Crossref","is-referenced-by-count":1,"title":["Meaningfulness,
+        Eternity, and Theism\n                  Originally appeared in Beatrix Himmelmann,
+        ed. On Meaning in Life (Boston\/Berlin: De Gruyter, 2013): 99\u2013112. Copyright
+        \u00a9 2013, Walter de Gruyter GmbH."],"prefix":"10.5040","member":"2984","container-title":["God
+        and Meaning : New Essays"],"deposited":{"date-parts":[[2023,9,11]],"date-time":"2023-09-11T21:07:09Z","timestamp":1694466429000},"score":31.75344,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/monograph-detail?docid=b-9781501323591&tocid=b-9781501323591-chapter6"}},"issued":{"date-parts":[[null]]},"ISBN":["9781628927597","9781628927610","9781628927627","9781628927634","9781501323591"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781501323591.ch-006"},{"indexed":{"date-parts":[[2023,2,20]],"date-time":"2023-02-20T06:51:59Z","timestamp":1676875919477},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007]]},"DOI":"10.1075\/hcp.21.05sut","type":"book-chapter","created":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T12:28:16Z","timestamp":1395664096000},"page":"41-65","source":"Crossref","is-referenced-by-count":4,"title":["3.
         Language, memory, and concepts of memory: Semantic diversity and scientific
         psychology"],"prefix":"10.1075","author":[{"given":"John","family":"Sutton","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Human
-        Cognitive Processing","The Language of Memory in a Crosslinguistic Perspective"],"deposited":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T12:34:04Z","timestamp":1395664444000},"score":29.212463,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/hcp.21.05sut"}},"issued":{"date-parts":[[2007]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/hcp.21.05sut","ISSN":["1387-6724"],"issn-type":[{"value":"1387-6724","type":"print"}],"published":{"date-parts":[[2007]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T20:33:49Z","timestamp":1648586029722},"publisher-location":"Berlin,
+        Cognitive Processing","The Language of Memory in a Crosslinguistic Perspective"],"deposited":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T12:34:04Z","timestamp":1395664444000},"score":29.186157,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/hcp.21.05sut"}},"issued":{"date-parts":[[2007]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/hcp.21.05sut","ISSN":["1387-6724"],"issn-type":[{"value":"1387-6724","type":"print"}],"published":{"date-parts":[[2007]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T20:33:49Z","timestamp":1648586029722},"publisher-location":"Berlin,
         Boston","reference-count":0,"publisher":"DE GRUYTER","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1515\/9783110847864-007","type":"book-chapter","created":{"date-parts":[[2015,4,28]],"date-time":"2015-04-28T17:01:42Z","timestamp":1430240502000},"source":"Crossref","is-referenced-by-count":6,"title":["Dr.
         Walter de Gruyter"],"prefix":"10.1515","member":"374","container-title":["Der
-        Verlag Walter de Gruyter &amp; Co."],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110847864-007\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:32:34Z","timestamp":1618975954000},"score":28.942402,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110847864-007\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110847864-007"},{"indexed":{"date-parts":[[2023,7,25]],"date-time":"2023-07-25T08:07:48Z","timestamp":1690272468975},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Verlag Walter de Gruyter &amp; Co."],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110847864-007\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,21]],"date-time":"2021-04-21T03:32:34Z","timestamp":1618975954000},"score":28.798668,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110847864-007\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1515\/9783110847864-007"},{"indexed":{"date-parts":[[2023,9,2]],"date-time":"2023-09-02T08:12:10Z","timestamp":1693642330095},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2008]]},"DOI":"10.1075\/slcs.106.17van","type":"book-chapter","created":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T03:41:33Z","timestamp":1395632493000},"page":"341-370","source":"Crossref","is-referenced-by-count":27,"title":["Semantic
         associations between sensory modalities, prehension and mental perceptions:
         A crosslinguistic perspective"],"prefix":"10.1075","author":[{"given":"Martine","family":"Vanhove","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Studies
-        in Language Companion Series","From Polysemy to Semantic Change"],"deposited":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T04:46:31Z","timestamp":1395636391000},"score":28.252878,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/slcs.106.17van"}},"issued":{"date-parts":[[2008]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/slcs.106.17van","ISSN":["0165-7763"],"issn-type":[{"value":"0165-7763","type":"print"}],"published":{"date-parts":[[2008]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T07:41:54Z","timestamp":1648798914333},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        in Language Companion Series","From Polysemy to Semantic Change"],"deposited":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T04:46:31Z","timestamp":1395636391000},"score":28.331419,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/slcs.106.17van"}},"issued":{"date-parts":[[2008]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/slcs.106.17van","ISSN":["0165-7763"],"issn-type":[{"value":"0165-7763","type":"print"}],"published":{"date-parts":[[2008]]}},{"indexed":{"date-parts":[[2023,9,17]],"date-time":"2023-09-17T16:30:13Z","timestamp":1694968213147},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012]]},"DOI":"10.1075\/tsl.100.02pre","type":"book-chapter","created":{"date-parts":[[2014,3,23]],"date-time":"2014-03-23T22:21:38Z","timestamp":1395613298000},"page":"xi-xvi","source":"Crossref","is-referenced-by-count":2,"title":["Preface"],"prefix":"10.1075","author":[{"given":"Stephen
         C.","family":"Levinson","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Typological
-        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:33Z","timestamp":1405025313000},"score":28.108868,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.02pre"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.02pre","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T15:09:01Z","timestamp":1648998541643},"edition-number":"0","reference-count":1,"publisher":"Psychology
+        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:33Z","timestamp":1405025313000},"score":28.099997,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.02pre"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.02pre","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T15:09:01Z","timestamp":1648998541643},"edition-number":"0","reference-count":1,"publisher":"Psychology
         Press","isbn-type":[{"value":"9780203837887","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2010,10,18]]},"DOI":"10.4324\/9780203837887-51","type":"book-chapter","created":{"date-parts":[[2021,3,5]],"date-time":"2021-03-05T21:12:04Z","timestamp":1614978724000},"page":"485-500","source":"Crossref","is-referenced-by-count":0,"title":["Why
         Some Spatial Semantic Categories Are Harder to Learn Than Others: The Typological
         Prevalence Hypothesis"],"prefix":"10.4324","member":"301","reference":[{"key":"ref39","unstructured":"Bloom,
         L. (1973). One word at a time. The Hague: Mouton."}],"container-title":["Crosslinguistic
-        Approaches to the Psychology of Language"],"deposited":{"date-parts":[[2021,3,5]],"date-time":"2021-03-05T21:13:28Z","timestamp":1614978808000},"score":28.00782,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781136873683\/chapters\/10.4324\/9780203837887-51"}},"issued":{"date-parts":[[2010,10,18]]},"ISBN":["9780203837887"],"references-count":1,"URL":"http:\/\/dx.doi.org\/10.4324\/9780203837887-51","published":{"date-parts":[[2010,10,18]]}},{"indexed":{"date-parts":[[2023,7,27]],"date-time":"2023-07-27T11:31:50Z","timestamp":1690457510463},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Approaches to the Psychology of Language"],"deposited":{"date-parts":[[2021,3,5]],"date-time":"2021-03-05T21:13:28Z","timestamp":1614978808000},"score":27.975197,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781136873683\/chapters\/10.4324\/9780203837887-51"}},"issued":{"date-parts":[[2010,10,18]]},"ISBN":["9780203837887"],"references-count":1,"URL":"http:\/\/dx.doi.org\/10.4324\/9780203837887-51","published":{"date-parts":[[2010,10,18]]}},{"indexed":{"date-parts":[[2023,9,17]],"date-time":"2023-09-17T16:27:57Z","timestamp":1694968077866},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012]]},"DOI":"10.1075\/tsl.100.10ant","type":"book-chapter","created":{"date-parts":[[2014,3,23]],"date-time":"2014-03-23T22:21:38Z","timestamp":1395613298000},"page":"123-144","source":"Crossref","is-referenced-by-count":19,"title":["Placement
         and removal events in Basque and Spanish"],"prefix":"10.1075","author":[{"given":"Iraide","family":"Ibarretxe-Antu\u00f1ano","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Typological
-        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:35Z","timestamp":1405025315000},"score":27.94994,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.10ant"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.10ant","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:51:51Z","timestamp":1690203111129},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:35Z","timestamp":1405025315000},"score":27.907951,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.10ant"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.10ant","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:51:51Z","timestamp":1690203111129},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012]]},"DOI":"10.1075\/tsl.100.05bur","type":"book-chapter","created":{"date-parts":[[2014,3,23]],"date-time":"2014-03-23T22:21:38Z","timestamp":1395613298000},"page":"21-36","source":"Crossref","is-referenced-by-count":2,"title":["The
         linguistic encoding of placement and removal events in Jahai"],"prefix":"10.1075","author":[{"given":"Niclas","family":"Burenhult","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Typological
-        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:33Z","timestamp":1405025313000},"score":27.7846,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.05bur"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.05bur","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2022,4,21]],"date-time":"2022-04-21T18:40:36Z","timestamp":1650566436073},"reference-count":0,"publisher":"BRILL","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,20]]},"DOI":"10.1163\/9789004362628_007","type":"book-chapter","created":{"date-parts":[[2021,9,28]],"date-time":"2021-09-28T02:02:03Z","timestamp":1632794523000},"page":"99-115","source":"Crossref","is-referenced-by-count":0,"title":["Semantic
+        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:33Z","timestamp":1405025313000},"score":27.810772,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.05bur"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.05bur","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2022,4,21]],"date-time":"2022-04-21T18:40:36Z","timestamp":1650566436073},"reference-count":0,"publisher":"BRILL","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,20]]},"DOI":"10.1163\/9789004362628_007","type":"book-chapter","created":{"date-parts":[[2021,9,28]],"date-time":"2021-09-28T02:02:03Z","timestamp":1632794523000},"page":"99-115","source":"Crossref","is-referenced-by-count":0,"title":["Semantic
         Typology: the Crosslinguistic Study of Semantic Categorization"],"prefix":"10.1163","member":"50","container-title":["Ten
-        Lectures on Field Semantics and Semantic Typology"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/9789004362628\/BP000015.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/36311","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T16:25:03Z","timestamp":1650471903000},"score":27.241482,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/9789004362628\/BP000015.xml"}},"issued":{"date-parts":[[2021,9,20]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9789004362628_007","published":{"date-parts":[[2021,9,20]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T14:26:26Z","timestamp":1648823186996},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
-        Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007]]},"DOI":"10.1075\/tsl.69.02ara","type":"book-chapter","created":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T03:41:33Z","timestamp":1395632493000},"page":"1-23","source":"Crossref","is-referenced-by-count":2,"title":["Split
+        Lectures on Field Semantics and Semantic Typology"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/9789004362628\/BP000015.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/36311","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T16:25:03Z","timestamp":1650471903000},"score":27.274467,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/9789004362628\/BP000015.xml"}},"issued":{"date-parts":[[2021,9,20]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9789004362628_007","published":{"date-parts":[[2021,9,20]]}},{"indexed":{"date-parts":[[2023,9,9]],"date-time":"2023-09-09T19:13:01Z","timestamp":1694286781091},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007]]},"DOI":"10.1075\/tsl.69.02ara","type":"book-chapter","created":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T03:41:33Z","timestamp":1395632493000},"page":"1-23","source":"Crossref","is-referenced-by-count":3,"title":["Split
         auxiliary selection from a crosslinguistic perspective"],"prefix":"10.1075","author":[{"given":"Ra\u00fal","family":"Aranovich","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Split
-        Auxiliary Systems","Typological Studies in Language"],"deposited":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T04:12:22Z","timestamp":1395634342000},"score":27.224478,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.69.02ara"}},"issued":{"date-parts":[[2007]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.69.02ara","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2007]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:52:37Z","timestamp":1690203157014},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Auxiliary Systems","Typological Studies in Language"],"deposited":{"date-parts":[[2014,3,24]],"date-time":"2014-03-24T04:12:22Z","timestamp":1395634342000},"score":27.182625,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.69.02ara"}},"issued":{"date-parts":[[2007]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.69.02ara","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2007]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:52:37Z","timestamp":1690203157014},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012]]},"DOI":"10.1075\/tsl.100.08rap","type":"book-chapter","created":{"date-parts":[[2014,3,23]],"date-time":"2014-03-23T22:21:38Z","timestamp":1395613298000},"page":"79-98","source":"Crossref","is-referenced-by-count":2,"title":["The
         encoding of placement and removal events in \ue003\u0100khoe Hai\ue002om"],"prefix":"10.1075","author":[{"given":"Christian
         J.","family":"Rapold","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Typological
-        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:35Z","timestamp":1405025315000},"score":27.060186,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.08rap"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.08rap","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:52:31Z","timestamp":1690203151731},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T20:48:35Z","timestamp":1405025315000},"score":27.015024,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.08rap"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.08rap","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,5,17]],"date-time":"2023-05-17T04:44:58Z","timestamp":1684298698516},"reference-count":0,"publisher":"BRILL","isbn-type":[{"value":"9780585492230","type":"electronic"},{"value":"9780126135312","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1998,1,1]]},"DOI":"10.1163\/9780585492230_002","type":"book-chapter","created":{"date-parts":[[2020,4,21]],"date-time":"2020-04-21T02:27:28Z","timestamp":1587436048000},"page":"1-10","source":"Crossref","is-referenced-by-count":0,"title":["From
+        Alexander To Wilhelm Von Humboldt: A Crosslinguistic Perspective"],"prefix":"10.1163","author":[{"given":"Dieter","family":"Hillert","sequence":"first","affiliation":[]}],"member":"50","container-title":["Sentence
+        Processing: A Crosslinguistic Perspective"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/edcoll\/9780585492230\/B9780585492230-s002.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/23200","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2023,5,16]],"date-time":"2023-05-16T05:12:38Z","timestamp":1684213958000},"score":26.968418,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/edcoll\/9780585492230\/B9780585492230-s002.xml"}},"issued":{"date-parts":[[1998,1,1]]},"ISBN":["9780585492230","9780126135312"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9780585492230_002","published":{"date-parts":[[1998,1,1]]}},{"indexed":{"date-parts":[[2023,9,17]],"date-time":"2023-09-17T16:29:52Z","timestamp":1694968192602},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
         Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012]]},"DOI":"10.1075\/tsl.100.12gul","type":"book-chapter","created":{"date-parts":[[2014,3,23]],"date-time":"2014-03-23T18:21:38Z","timestamp":1395598898000},"page":"167-182","source":"Crossref","is-referenced-by-count":7,"title":["Probing
         the linguistic encoding of placement and removal events in Swedish"],"prefix":"10.1075","author":[{"given":"Marianne","family":"Gullberg","sequence":"first","affiliation":[]},{"given":"Niclas","family":"Burenhult","sequence":"additional","affiliation":[]}],"member":"1757","container-title":["Typological
-        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T16:48:37Z","timestamp":1405010917000},"score":26.945744,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.12gul"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.12gul","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,5,17]],"date-time":"2023-05-17T04:44:58Z","timestamp":1684298698516},"reference-count":0,"publisher":"BRILL","isbn-type":[{"value":"9780585492230","type":"electronic"},{"value":"9780126135312","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1998,1,1]]},"DOI":"10.1163\/9780585492230_002","type":"book-chapter","created":{"date-parts":[[2020,4,21]],"date-time":"2020-04-21T02:27:28Z","timestamp":1587436048000},"page":"1-10","source":"Crossref","is-referenced-by-count":0,"title":["From
-        Alexander To Wilhelm Von Humboldt: A Crosslinguistic Perspective"],"prefix":"10.1163","author":[{"given":"Dieter","family":"Hillert","sequence":"first","affiliation":[]}],"member":"50","container-title":["Sentence
-        Processing: A Crosslinguistic Perspective"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/edcoll\/9780585492230\/B9780585492230-s002.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/23200","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2023,5,16]],"date-time":"2023-05-16T05:12:38Z","timestamp":1684213958000},"score":26.914597,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/edcoll\/9780585492230\/B9780585492230-s002.xml"}},"issued":{"date-parts":[[1998,1,1]]},"ISBN":["9780585492230","9780126135312"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9780585492230_002","published":{"date-parts":[[1998,1,1]]}},{"indexed":{"date-parts":[[2023,8,31]],"date-time":"2023-08-31T09:14:14Z","timestamp":1693473254377},"reference-count":0,"publisher":"DE
+        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T16:48:37Z","timestamp":1405010917000},"score":26.902163,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.12gul"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.12gul","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,8,31]],"date-time":"2023-08-31T09:14:14Z","timestamp":1693473254377},"reference-count":0,"publisher":"DE
         GRUYTER","isbn-type":[{"value":"9783484305106","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2007,12,31]]},"DOI":"10.1515\/9783110934823.183","type":"book-chapter","created":{"date-parts":[[2012,3,22]],"date-time":"2012-03-22T15:18:53Z","timestamp":1332429533000},"page":"183-220","source":"Crossref","is-referenced-by-count":0,"title":["7.
         The Crosslinguistic Perspective"],"prefix":"10.1515","member":"374","container-title":["Vowel
-        Epenthesis in Loanword Adaptation"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110934823.183\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110934823.183\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,8,30]],"date-time":"2023-08-30T05:28:28Z","timestamp":1693373308000},"score":26.719559,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110934823.183\/html"}},"issued":{"date-parts":[[2007,12,31]]},"ISBN":["9783484305106"],"references-count":0,"alternative-id":["10.1515\/9783110934823.183","10.1515\/9783110934823"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110934823.183","published":{"date-parts":[[2007,12,31]]}},{"indexed":{"date-parts":[[2022,8,12]],"date-time":"2022-08-12T20:12:08Z","timestamp":1660335128720},"edition-number":"1","reference-count":505,"publisher":"Oxford
-        University PressOxford","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2001,10,25]]},"abstract":"<jats:title>Abstract<\/jats:title>\n               <jats:p>Radical
-        Construction Grammar, like other construction grammars, treats constructions
-        as pairings of form and meaning, and like typology, uses meaning as the basis
-        for crosslinguistic comparison. Semantic or linguistic relativity poses a
-        potential problem for Radical Construction Grammar, because it hypothesizes
-        that meaning varies depending on the formal constructions used. This chapter
-        argues that arguments for semantic relativity contain several hidden assumptions
-        which are implausible: contrast across languages implies contrast within a
-        language; semantic analyses always involve monosemy, not polysemy; linguistic
-        analyses must avoid syntagmatic semantic redundancy; and one can only posit
-        a relativistic analysis of one part of a construction by assuming a universal
-        analysis of another part of the construction (the Semantic Uncertainty Principle).
-        Instead, grammatical differences are the result of different patterns of semantic
-        extension and grammaticalization, and semantic change eventually reasserts
-        the universal semantics of particular situation types.<\/jats:p>","DOI":"10.1093\/acprof:oso\/9780198299554.003.0003","type":"book-chapter","created":{"date-parts":[[2007,9,18]],"date-time":"2007-09-18T09:54:04Z","timestamp":1190109244000},"page":"108-131","source":"Crossref","is-referenced-by-count":0,"title":["Syntactic
-        Categories and Semantic Relativity"],"prefix":"10.1093","author":[{"given":"William","family":"Croft","sequence":"first","affiliation":[]}],"member":"286","reference":[{"key":"2022081219434798000_","unstructured":"Abney,
-        Stephen P. (1987). \u2018The English noun phrase in its sentential aspect\u2019,
-        Ph.D. dissertation, MIT."},{"key":"2022081219434798000_","volume-title":"Classifiers:
-        A Typology of Noun Categorization Devices","year":"2000"},{"key":"2022081219434798000_","volume-title":"Papers
-        in Mayan Linguistics","year":"1980"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Tzotzil
-        clause structurei","year":"1987","DOI":"10.1007\/978-94-009-3741-3"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Sentence
-        types and the form-function fit","year":"1984","journal-title":"Natural Language
-        and Linguistic Theory","DOI":"10.1007\/BF00233711"},{"key":"2022081219434798000_","volume-title":"Prosodic
-        Patterns in Spoken English: Studies in the Correlation between Prosody and
-        Grammar for Text-to-speech Conversion","year":"1987"},{"key":"2022081219434798000_","volume-title":"Towards
-        Tomorrow''s Linguistics","year":"1974"},{"key":"2022081219434798000_","volume-title":"Tense-Aspect:
-        Between Semantics and Pragmatics","year":"1982"},{"key":"2022081219434798000_","volume-title":"Evidentially:
-        The Linguistic Encoding of Epistemology","year":"1986"},{"key":"2022081219434798000_","volume-title":"Papers
-        from the 23rd Annual Regional Meeting of the Chicago Linguistic Society, Part
-        One: The General Session","year":"1987"},{"key":"2022081219434798000_","article-title":"On
-        the role of deep structure in semantic interpretation","year":"1971","journal-title":"Foundations
-        of Language"},{"key":"2022081219434798000_","volume-title":"Subject and Topic","year":"1976"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"A-morphous
-        Morphology","year":"1992","DOI":"10.1017\/CBO9780511586262"},{"key":"2022081219434798000_","volume-title":"Introduction
-        to Classical Nahuatl","year":"1975"},{"key":"2022081219434798000_","volume-title":"Papers
-        from the Sixth Regional Meeting of the Chicago Linguistic Society","year":"1970"},{"key":"2022081219434798000_","article-title":"Parts
-        of speech: a challenge for typology","year":"1997","journal-title":"Language
-        Typology"},{"key":"2022081219434798000_","volume-title":"Accessing Noun Phrase
-        Antecedents","year":"1990"},{"key":"2022081219434798000_","volume-title":"Functionalism
-        and Formalism in Linguistics, vol. II: Case studies","year":"1998"},{"key":"2022081219434798000_","unstructured":"370Ariff,
-        Syed Zainal Jamaluddin. (2000). \u2018The Evolution of the Grammatical Meaning
-        and Function of the Prefixes per-, ber- and memper- between the Seventeenth
-        and Twentieth Centuries in Malay\u2019. Ph.D. dissertation submitted to the
-        University of Manchester."},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"On
-        diachronic sources and synchronic patterns: An investigation into the origin
-        of linguistic universals","year":"1991","journal-title":"Language","DOI":"10.2307\/415537"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Marking
-        and hierarchy types and the grammaticalization of case-markers","year":"1997","journal-title":"Studies
-        in Language","DOI":"10.1075\/sl.21.2.04ari"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","volume-title":"A
-        Luganda Grammar","year":"1954"},{"key":"2022081219434798000_","volume-title":"Cours
-        pratique de Bambara t.III.","year":"1977"},{"key":"2022081219434798000_","unstructured":"Barlow,
-        Michael. (1988). \u2018A situated theory of agreement\u2019, Ph.D. dissertation,
-        Stanford University. (Published by Garland Press, New York.)"},{"key":"2022081219434798000_","volume-title":"Cognitive
-        Psychology: An Overview for Cognitive Scientists","year":"1992"},{"key":"2022081219434798000_","article-title":"A
-        note on anaphora and double objects","year":"1986","journal-title":"Linguistic
-        Inquiry"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Be-heading
-        the Word","year":"1990","journal-title":"Journal of Linguistics","DOI":"10.1017\/S0022226700014407"},{"key":"2022081219434798000_","volume-title":"Tzeltal
-        Numeral Classifiers","year":"1968"},{"key":"2022081219434798000_","volume-title":"Longman
-        Grammar of Spoken and Written English","year":"1999"},{"key":"2022081219434798000_","article-title":"Relative
-        clauses in Bambara","year":"1968","journal-title":"Journal of West African
-        Languages"},{"key":"2022081219434798000_","volume-title":"Information Status
-        and Noncanonical Word Order in English","year":"1998"},{"key":"2022081219434798000_","volume-title":"Language","year":"1933"},{"key":"2022081219434798000_","volume-title":"The
-        Menomini Language","year":"1962"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Adjectives
-        in English: attribution and predication","year":"1967","journal-title":"Lingua","DOI":"10.1016\/0024-3841(67)90018-6"},{"key":"2022081219434798000_","volume-title":"Meaning
-        and Form","year":"1977"},{"key":"2022081219434798000_","volume-title":"Syntactic
-        Diffusion and the Definite Article","year":"1980"},{"key":"2022081219434798000_","volume-title":"Language,
-        the Loaded Weapon","year":"1980"},{"key":"2022081219434798000_","volume-title":"Rethinking
-        Linguistic Relativity","year":"1996"},{"key":"2022081219434798000_","article-title":"Monographs
-        of the Society for Research in Child Development","year":"1976","journal-title":"Children''s
-        First Word Combinations"},{"key":"2022081219434798000_","volume-title":"The
-        Mental Representation of Grammatical Relations","year":"1982"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Topic,
-        pronoun and agreement in Chichewa","year":"1987","journal-title":"Language","DOI":"10.2307\/415717"},{"key":"2022081219434798000_","volume-title":"Proceedings
-        of the First West Coast Conference on Formal Linguistics","year":"1982"},{"key":"2022081219434798000_","volume-title":"Morphology:
-        An Inquiry into the Relation between Meaning and Form","year":"1985"},{"key":"2022081219434798000_","volume-title":"Papers
-        from the Panels, 34th Annual Meeting of the Chicago Linguistic Society","year":"1998"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        creation of tense and aspect systems in the languages of the world","year":"1989","journal-title":"Studies
-        in Language","DOI":"10.1075\/sl.13.1.03byb"},{"key":"2022081219434798000_","volume-title":"The
-        Evolution of Grammar: Tense, Aspect and Modality in the Languages of the World","year":"1994"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"A
-        Grammar of Supyire","year":"1994","DOI":"10.1515\/9783110883053"},{"key":"2022081219434798000_","volume-title":"Caddoan
-        Texts","year":"1977"},{"key":"2022081219434798000_","volume-title":"Discourse
-        and Syntax","year":"1979"},{"key":"2022081219434798000_","volume-title":"The
-        Pear Stories","year":"1980"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","volume-title":"Discourse,
-        Consciousness and Time: The Flow and Displacement of Conscious Experience
-        in Speaking and Writing","year":"1994"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Learning
-        to express motion events in English and Korean: The influence of language-specific
-        lexicalization patterns","year":"1991","journal-title":"Cognition","DOI":"10.1016\/0010-0277(91)90033-Z"},{"key":"2022081219434798000_","volume-title":"Syntactic
-        Structures","year":"1957"},{"key":"2022081219434798000_","volume-title":"Aspects
-        of the Theory of Syntax","year":"1965"},{"key":"2022081219434798000_","volume-title":"Readings
-        in English Transformational Grammar","year":"1970"},{"key":"2022081219434798000_","volume-title":"Lectures
-        on Government and Binding","year":"1981"},{"key":"2022081219434798000_","volume-title":"Barriers","year":"1986"},{"key":"2022081219434798000_","volume-title":"Principles
-        and Parameters in Comparative Grammar","year":"1991"},{"key":"2022081219434798000_","volume-title":"The
-        Minimalist Program","year":"1995"},{"key":"2022081219434798000_","volume-title":"Case
-        Marking and Grammatical Relations in Polynesian","year":"1976"},{"key":"2022081219434798000_","volume-title":"Mechanisms
-        of Syntactic Change","year":"1977"},{"key":"2022081219434798000_","volume-title":"Tongan
-        Grammar","year":"1953"},{"key":"2022081219434798000_","volume-title":"Xundzuri
-        ena","year":"1962"},{"key":"2022081219434798000_","volume-title":"Universals
-        of Human Language, Vol. 4: Syntax","year":"1978"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"The
-        Lexicon in Acquisition","year":"1993","DOI":"10.1017\/CBO9780511554377"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"When
-        nouns surface as verbs","year":"1979","journal-title":"Language","DOI":"10.2307\/412745"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Using
-        Language","year":"1996","DOI":"10.1017\/CBO9780511620539"},{"key":"2022081219434798000_","volume-title":"Imbabura
-        Quechua","year":"1982"},{"key":"2022081219434798000_","volume-title":"Syntax
-        and Semantics 16: The Syntax of Native American languages","year":"1984"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        acquisition of subjecthood","year":"1980","journal-title":"Language","DOI":"10.2307\/413485"},{"key":"2022081219434798000_","volume-title":"Papers
-        from the Eleventh Regional Meeting of the Chicago Linguistic Society","year":"1975"},{"key":"2022081219434798000_","volume-title":"Aspect","year":"1976"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        syntax of action nominals: a cross-language study","year":"1976","journal-title":"Lingua","DOI":"10.1016\/0024-3841(76)90093-0"},{"key":"2022081219434798000_","volume-title":"Grammatical
-        Relations","year":"1977"},{"key":"2022081219434798000_","volume-title":"Syntactic
-        Typology","year":"1978"},{"key":"2022081219434798000_","article-title":"Inverse
-        verb forms in Siberia: evidence from Chukchee, Koryak and Kamchadal","year":"1980","journal-title":"Folia
-        Linguistica"},{"key":"2022081219434798000_","volume-title":"Wegezur Universalien
-        Forschung","year":"1980"},{"key":"2022081219434798000_","volume-title":"Studies
-        in Transitivity","year":"1982"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Markedness,","year":"1986","DOI":"10.1007\/978-1-4757-5718-7_6"},{"key":"2022081219434798000_","volume-title":"Language
-        Universals and Linguistic Typology","year":"1989"},{"key":"2022081219434798000_","article-title":"Rethinking
-        the typology of relative clauses","year":"1998","journal-title":"Language
-        Design"},{"key":"2022081219434798000_","volume-title":"Discourse Grammar and
-        Typology: Papers in Honor of John W. M. Verhaar","year":"1995"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Transitivity
-        and Discourse Continuity in Chamorro Narratives","year":"1987","DOI":"10.1515\/9783110851014"},{"key":"2022081219434798000_","volume-title":"Voice:
-        Form and Function","year":"1994"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        agreement hierarchy","year":"1979","journal-title":"Journal of Linguistics","DOI":"10.1017\/S0022226700016352"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Gender","year":"1991","DOI":"10.1017\/CBO9781139166119"},{"key":"2022081219434798000_","article-title":"Gender
-        agreement in Chichewa","year":"1987","journal-title":"Studies in African Linguistics"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Heads
-        in Grammatical Theory","year":"1993","DOI":"10.1017\/CBO9780511659454"},{"key":"2022081219434798000_","volume-title":"A
-        Concise Introduction to Syntactic Theory","year":"1992"},{"key":"2022081219434798000_","volume-title":"Noun
-        Classes and Categorization","year":"1986"},{"key":"2022081219434798000_","unstructured":"Cristofaro,
-        Sonia. (1998). \u2018Subordination strategies: a typological study\u2019.
-        Revised version of Ph.D. dissertation, University of Pavia."},{"key":"2022081219434798000_","volume-title":"Papers
-        from the Parasession on Lexical Semantics, Twentieth Regional Meeting of the
-        Chicago Linguistic Society","year":"1984"},{"key":"2022081219434798000_","unstructured":"Croft,
-        William. (1986). \u2018Categories and relations in syntax: the clause-level
-        organization of information\u2019. Ph.D. dissertation, Stanford University."},{"key":"2022081219434798000_","volume-title":"Agreement
-        in Natural Language: Approaches, Theories, Descriptions","year":"1988"},{"key":"2022081219434798000_","volume-title":"Typology
-        and Universals","year":"1990"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"A
-        conceptual framework for grammatical categories (or, a taxonomy of propositional
-        acts","year":"1990","journal-title":"Journal of Semantics","DOI":"10.1093\/jos\/7.3.245"},{"key":"2022081219434798000_","volume-title":"Meanings
-        and Prototypes: Studies on Linguistic Categorization","year":"1990"},{"key":"2022081219434798000_","volume-title":"Syntactic
-        Categories and Grammatical Relations: The Cognitive Organization of Information","year":"1991"},{"key":"2022081219434798000_","volume-title":"Proceedings
-        of the Nineteenth Annual Meeting of the Berkeley Linguistics Society","year":"1993"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Semantics
-        and the Lexicon","year":"1993","DOI":"10.1007\/978-94-011-1972-6_5"},{"key":"2022081219434798000_","volume-title":"Voice:
-        Form and Function","year":"1994"},{"key":"2022081219434798000_","article-title":"Semantic
-        universals in classifier systems","year":"1994","journal-title":"Word"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Autonomy
-        and functionalist linguistics","year":"1995","journal-title":"Language","DOI":"10.2307\/416218"},{"key":"2022081219434798000_","volume-title":"Approaches
-        to Language Typology: Past and Present","year":"1995"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Intonation
-        units and grammatical structure","year":"1995","journal-title":"Linguistics","DOI":"10.1515\/ling.1995.33.5.839"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","year":"1995","journal-title":"Nordic
-        Journal of Linguistics","DOI":"10.1017\/S0332586500003127"},{"key":"2022081219434798000_","volume-title":"Multiple
-        Perspectives on the Historical Dimensions of Language","year":"1996"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Phrase
-        Structure and the Lexicon","year":"1996","DOI":"10.1007\/978-94-015-8617-7_3"},{"key":"2022081219434798000_","unstructured":"Croft,
-        William 1997. \u2018Intonation units and grammatical structure in Wardaman
-        and English\u2019. Paper presented to the Santa Barbara Workshop on Constituency."},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Linguistic
-        evidence and mental representations","year":"1998","journal-title":"Cognitive
-        Linguistics","DOI":"10.1515\/cogl.1998.9.2.151"},{"key":"2022081219434798000_","volume-title":"Projecting
-        from the Lexicon","year":"1998"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Cognitive
-        Linguistics: Foundations, Scope and Methodology","year":"1999","DOI":"10.1515\/9783110803464.61"},{"key":"2022081219434798000_","volume-title":"Explaining
-        Language Change: An Evolutionary Approach","year":"2000"},{"key":"2022081219434798000_","volume-title":"Approaches
-        to the Typology of Word Classes","year":"2000"},{"key":"2022081219434798000_","volume-title":"Motivation
-        in Language: Studies in Honour ofGiinter Radden","year":"2000"},{"key":"2022081219434798000_","volume-title":"Verbs:
-        Aspect and Argument Linking"},{"key":"2022081219434798000_","volume-title":"Papers
-        from the 7th International Conference on Historical Linguistics","year":"1987"},{"key":"2022081219434798000_","volume-title":"Lexical
-        Semantics","year":"1986"},{"key":"2022081219434798000_","article-title":"Monosemy
-        vs. polysemy","year":"1992","journal-title":"Linguistics"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Cognitive
-        Linguistics","DOI":"10.1017\/S0022226700015048"},{"key":"2022081219434798000_","volume-title":"The
-        English Tone of Voice: Essays on Intonation, Prosody and Paralanguage","year":"1975"},{"key":"2022081219434798000_","article-title":"Semantic
-        subordination despite syntactic coordination","year":"1997","journal-title":"Linguistic
-        Inquiry"},{"key":"2022081219434798000_","volume-title":"Concepts of Case","year":"1979"},{"key":"2022081219434798000_","volume-title":"Tzutujil
-        Reference Grammar","year":"1985"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"An
-        interpretation of split ergativity and related patterns","year":"1981","journal-title":"Language","DOI":"10.2307\/414343"},{"key":"2022081219434798000_","volume-title":"Tense-Aspect:
-        Between Semantics and Pragmatics","year":"1982"},{"key":"2022081219434798000_","unstructured":"De
-        Le\u00f3n, Lourdes. (1987). \u2018Noun and numeral classifiers in Mixtec and
-        Tzotzil: a referential view\u2019, Ph.D. dissertation, University of Sussex."},{"key":"2022081219434798000_","volume-title":"Demonstratives:
-        Form, Function and Grammaticalization","year":"1999"},{"key":"2022081219434798000_","volume-title":"The
-        Theory of Functional Grammar","year":"1997"},{"key":"2022081219434798000_","volume-title":"The
-        Turkana Language","year":"1983"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"The
-        Dyirbal Language of North Queensland","year":"1972","DOI":"10.1017\/CBO9781139084987"},{"key":"2022081219434798000_","volume-title":"Grammatical
-        Categories in Australian Languages","year":"1976"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Where
-        have all the adjectives gone?","year":"1977","journal-title":"Studies in Language","DOI":"10.1075\/sl.1.1.04dix"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Ergativity","year":"1979","journal-title":"Language","DOI":"10.2307\/412519"},{"key":"2022081219434798000_","volume-title":"The
-        Languages of Australia","year":"1980"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Ergativity","year":"1994","DOI":"10.1017\/CBO9780511611896"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Thematic
-        proto-roles and argument selection","year":"1991","journal-title":"Language","DOI":"10.2307\/415037"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Primary
-        objects, secondary objects and antidative","year":"1986","journal-title":"Language","DOI":"10.2307\/415173"},{"key":"2022081219434798000_","volume-title":"On
-        the intransitivity of passive clauses","year":"1995"},{"key":"2022081219434798000_","volume-title":"CLS
-        33: Papers from the Panels","year":"1997"},{"key":"2022081219434798000_","volume-title":"Essays
-        on Language Function and Language Type","year":"1997"},{"key":"2022081219434798000_","volume-title":"Iconicity
-        in Syntax","year":"1985"},{"key":"2022081219434798000_","volume-title":"A
-        Grammar of Acehnese on the Basis of a Dialect of North Aceh","year":"1985"},{"key":"2022081219434798000_","volume-title":"Proceedings
-        of the Twelfth Annual Meeting of the Berkeley Linguistics Society","year":"1986"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        so-called passive of Acehnese","year":"1988","journal-title":"Language","DOI":"10.2307\/414788"},{"key":"2022081219434798000_","volume-title":"Discourse
-        Grammar and Typology: Papers in Honor of John W. M. Verhaar","year":"1995"},{"key":"2022081219434798000_","volume-title":"Complex
-        Predicates","year":"1997"},{"key":"2022081219434798000_","volume-title":"Echoes
-        of a Culture: A Grammar of Rennell and Bellona","year":"1988"},{"key":"2022081219434798000_","volume-title":"From
-        the Two Canoes","year":"1965"},{"key":"2022081219434798000_","volume-title":"Speech
-        and Language, Vol. 10","year":"1984"},{"key":"2022081219434798000_","volume-title":"Rethinking
-        Innateness: A Connectionist Perspective on Development","year":"1996"},{"key":"2022081219434798000_","volume-title":"Studies
-        in Vietnamese (Annamese) Grammar","year":"1951"},{"key":"2022081219434798000_","volume-title":"A
-        Grammar of Mam, a Mayan Language","year":"1983"},{"key":"2022081219434798000_","volume-title":"Passive
-        and Voice","year":"1988"},{"key":"2022081219434798000_","volume-title":"Mental
-        Spaces","year":"1985"},{"key":"2022081219434798000_","volume-title":"Proceedings
-        of the First Annual Meeting of the Berkeley Linguistics Society","year":"1975"},{"key":"2022081219434798000_","volume-title":"Linguistic
-        Structures Processing","year":"1977"},{"key":"2022081219434798000_","volume-title":"Linguistics
-        in the Morning Calm","year":"1982"},{"key":"2022081219434798000_","article-title":"Frames
-        and the semantics of understanding","year":"1985","journal-title":"Quaderni
-        di semantica"},{"key":"2022081219434798000_","volume-title":"Proceedings of
-        the Twelfth Annual Meeting of the Berkeley Linguistics Society","year":"1986"},{"key":"2022081219434798000_","volume-title":"Construction
-        Grammar Coursebook, Chapters 1 thru 11 (Reading Materials for Ling. X20)","year":"1993"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","year":"1988","journal-title":"Language","DOI":"10.2307\/414531"},{"key":"2022081219434798000_","volume-title":"The
-        Papuan Languages of New Guinea","year":"1986"},{"key":"2022081219434798000_","volume-title":"The
-        Yimas Language of New Guinea","year":"1991"},{"key":"2022081219434798000_","volume-title":"Grammar
-        Inside and Outside the Clause","year":"1985"},{"key":"2022081219434798000_","volume-title":"Functional
-        Syntax and Universal Grammar","year":"1984"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","unstructured":"Ford,
-        Cecilia E., Barbara A. Fox, and Sandra A. Thompson. (1997). \u2018Increments
-        in conversation and their relevance to constituency\u2019. Paper presented
-        at the Workshop on Constituency, University of California, Santa Barbara."},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","volume-title":"Big
-        Nambas Grammar","year":"1979"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        Noun Phrase Accessibility Hierarchy revisited","year":"1987","journal-title":"Language","DOI":"10.2307\/415720"},{"key":"2022081219434798000_","volume-title":"Voice:
-        Form and Function","year":"1994"},{"key":"2022081219434798000_","volume-title":"Alternative
-        Linguistics: Descriptive and Theoretical Modes","year":"1995"},{"key":"2022081219434798000_","volume-title":"A
-        Grammar of Upriver Halkomelem","year":"1993"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        early acquisition of Spanish verbal morphology: across-the-board or piecemeal
-        know-ledge?","year":"1999","journal-title":"International Journal of Bilingualism","DOI":"10.1177\/13670069990030020401"},{"key":"2022081219434798000_","volume-title":"Proceedings
-        of the Twelfth Annual Meeting of the Berkeley Linguistics Society","year":"1986"},{"key":"2022081219434798000_","volume-title":"Approaches
-        to Grammaticalization","year":"1991"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Psycholinguistic
-        studies on the conceptual basis of idiomaticity","year":"1990","journal-title":"Cognitive
-        Linguistics","DOI":"10.1515\/cogl.1990.1.4.417"},{"key":"2022081219434798000_","volume-title":"Subject
-        and Topic","year":"1976"},{"key":"2022081219434798000_","volume-title":"On
-        Understanding Grammar","year":"1979"},{"key":"2022081219434798000_","volume-title":"Ute
-        Reference Grammar","year":"1980"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        binding hierarchy and the typology of complements","year":"1980","journal-title":"Studies
-        in Language","DOI":"10.1075\/sl.4.3.03giv"},{"key":"2022081219434798000_","volume-title":"Topic
-        Continuity in Discourse","year":"1983"},{"key":"2022081219434798000_","volume-title":"Syntax:
-        A Functional-Typological Introduction, Volume I","year":"1984"},{"key":"2022081219434798000_","volume-title":"Syntax:
-        A Functional-Typological Introduction, Volume II","year":"1991"},{"key":"2022081219434798000_","volume-title":"Voice
-        and Inversion","year":"1994"},{"key":"2022081219434798000_","volume-title":"Functionalism
-        and Grammar","year":"1995"},{"key":"2022081219434798000_","volume-title":"The
-        Grammar of Modern Hebrew","year":"1989"},{"key":"2022081219434798000_","volume-title":"Sememic
-        and Grammatical Structures in Gurung (Nepal)","year":"1974"},{"key":"2022081219434798000_","volume-title":"Constructions:
-        A Construction Grammar Approach to Argument Structure","year":"1995"},{"key":"2022081219434798000_","volume-title":"Papers
-        from the General Session at the Twenty-First Regional Meeting, Chicago Linguistic
-        Society","year":"1985"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        origin of the Masai passive","year":"1959","journal-title":"Africa","DOI":"10.2307\/1157519"},{"key":"2022081219434798000_","volume-title":"Language
-        Universals, With Special Reference to Feature Hierarchies","year":"1966"},{"key":"2022081219434798000_","volume-title":"Universals
-        of Grammar","author":"Greenberg,","year":"1966"},{"key":"2022081219434798000_","article-title":"Numeral
-        classifiers and substantival number: problems in the genesis of a linguistic
-        type","year":"1977","journal-title":"Linguistics at the Crossroads"},{"key":"2022081219434798000_","volume-title":"Universals
-        of Human Language, Vol. 3: Word Structure","author":"Greenberg,","year":"1978"},{"key":"2022081219434798000_","volume-title":"Universals
-        of Human Language, Vol 3: Word Structure","author":"Greenberg,","year":"1978"},{"key":"2022081219434798000_","volume-title":"On
-        Language: Selected Writings of Joseph H. Greenberg","year":"1990"},{"key":"2022081219434798000_","volume-title":"A
-        Description of Colloquial Guarani","year":"1967"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"On
-        the failure of generative grammar","year":"1979","journal-title":"Language","DOI":"10.2307\/412748"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Cognitive
-        status and the form of referring expressions in discourse","year":"1993","journal-title":"Language","DOI":"10.2307\/416535"},{"key":"2022081219434798000_","volume-title":"Introduction
-        to Government and Binding Theory","year":"1994"},{"key":"2022081219434798000_","volume-title":"Historical
-        Syntax","year":"1984"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Conditionals
-        are topics","year":"1978","journal-title":"Language","DOI":"10.2307\/412787"},{"key":"2022081219434798000_","article-title":"The
-        iconicity of grammar: isomorphism and motivation","year":"1980","journal-title":"Language"},{"key":"2022081219434798000_","volume-title":"Hua:
-        A Papuan Language of the Eastern Highlands of New Guinea","year":"1980"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Dictionaries
-        and encyclopedias","year":"1980","journal-title":"Lingua","DOI":"10.1016\/0024-3841(80)90089-3"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","year":"1983","journal-title":"Journal
-        of Pragmatics","DOI":"10.1016\/0378-2166(83)90014-0"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Iconic
-        and economic motivation","year":"1983","journal-title":"Language","DOI":"10.2307\/413373"},{"key":"2022081219434798000_","volume-title":"Natural
-        Syntax","year":"1985"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"On
-        some origins of medial verb morphology in Papuan languages","year":"1987","journal-title":"Studies
-        in Language","DOI":"10.1075\/sl.11.2.04hai"},{"key":"2022081219434798000_","volume-title":"Switch-Reference
-        and Universal Grammar","year":"1983"},{"key":"2022081219434798000_","article-title":"\u201cSubordination\u201d
-        in universal grammar","year":"1984","journal-title":"BLS"},{"key":"2022081219434798000_","volume-title":"Clause
-        Combining in Grammar and Discourse","year":"1988"},{"key":"2022081219434798000_","volume-title":"A
-        Festschrift for Morris Halle","year":"1973"},{"key":"2022081219434798000_","volume-title":"Grammatical
-        Categories in Australian Languages","year":"1976"},{"key":"2022081219434798000_","volume-title":"Papers
-        in Warlpiri Grammar in Memory of Lothar Jagst","year":"1982"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Warlpiri
-        and the grammar of nonconfigurational languages","year":"1983","journal-title":"Natural
-        Language and Linguistic Theory","DOI":"10.1007\/BF00210374"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Historical
-        Syntax in Cross-linguistic Perspective","year":"1995","DOI":"10.1017\/CBO9780511620553"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"From
-        morpheme to utterance","year":"1946","journal-title":"Language","DOI":"10.2307\/410205"},{"key":"2022081219434798000_","volume-title":"Methods
-        in Structural Linguistics","year":"1951"},{"key":"2022081219434798000_","volume-title":"Mokilese
-        Reference Grammar","year":"1976"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"From
-        purposive to infinitive\u2014a universal path of grammaticalization","year":"1989","journal-title":"Folia
-        Linguistica Historica","DOI":"10.1515\/flih.1989.10.1-2.287"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        grammaticization of passive morphology","year":"1990","journal-title":"Studies
-        in Language","DOI":"10.1075\/sl.14.1.03has"},{"key":"2022081219434798000_","volume-title":"Morphology
-        Now","year":"1992"},{"key":"2022081219434798000_","volume-title":"Causatives
-        and Transitivity","year":"1993"},{"key":"2022081219434798000_","article-title":"Functional
-        categories, X-bar theory, and grammaticalization theory","year":"1994","journal-title":"Sprachtypologie
-        und Universalienforschung"},{"key":"2022081219434798000_","volume-title":"Con-verbs
-        in Cross-linguistic Perspective: Structure and Meaning of Adverbial Verb Forms\u2014Adverbials,
-        Participles, Gerunds","year":"1995"},{"key":"2022081219434798000_","volume-title":"Indefinite
-        Pronouns","year":"1997"},{"key":"2022081219434798000_","volume-title":"From
-        Space to Time: Temporal Adverbials in the World''s Languages","year":"1997"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Long
-        distance agreement in Godoberi (Daghestanian) complement clauses","year":"1999","journal-title":"Folia
-        Linguistica","DOI":"10.1515\/flin.1999.33.1-2.131"},{"key":"2022081219434798000_","volume-title":"The
-        New Psychology of Language,"},{"key":"2022081219434798000_","volume-title":"Grammatical
-        Categories in Australian Languages","year":"1976"},{"key":"2022081219434798000_","volume-title":"Auxiliaries:
-        Cognitive Forces and Grammaticalization","year":"1993"},{"key":"2022081219434798000_","volume-title":"Grammaticalization
-        and Reanalysis in African Languages","year":"1984"},{"key":"2022081219434798000_","volume-title":"Grammaticalization:
-        A Conceptual Framework","year":"1991"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Non-verbal
-        Predication: Theory, Typology, Diachrony","year":"1992","DOI":"10.1515\/9783110883282"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Semantics
-        and pragmatics of locative expressions","year":"1985","journal-title":"Cognitive
-        Science","DOI":"10.1016\/S0364-0213(85)80003-3"},{"key":"2022081219434798000_","volume-title":"Literature
-        and Cognition","year":"1990"},{"key":"2022081219434798000_","volume-title":"A
-        Grammar of the Margi Language","year":"1963"},{"key":"2022081219434798000_","volume-title":"Mundari
-        Grammar","year":"1903"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        case of the intransitive subject in Tsova-Tush (Batsbi)","year":"1987","journal-title":"Lingua","DOI":"10.1016\/0024-3841(87)90069-6"},{"key":"2022081219434798000_","volume-title":"Greek:
-        A Comprehensive Grammar of the Modern Language","year":"1997"},{"key":"2022081219434798000_","article-title":"The
-        perfective adverb in Bhitrauti","year":"1988","journal-title":"Word"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","unstructured":"Hopper,
-        Paul. (2000).\u2018Grammatical constructions and their discourse origins:
-        prototype or family resemblance?\u2019 Paper presented at the 28th LAUD Symposium,
-        Landau, Germany."},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Transitivity
-        in grammar and discourse","year":"1980","journal-title":"Language","DOI":"10.2307\/413757"},{"key":"2022081219434798000_","volume-title":"Grammaticalization","year":"1993"},{"key":"2022081219434798000_","volume-title":"Pragmatics
-        (Syntax and semantics 9","year":"1979"},{"key":"2022081219434798000_","volume-title":"Word
-        Grammar","year":"1984"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Zwicky
-        on heads","year":"1987","journal-title":"Journal of Linguistics","DOI":"10.1017\/S0022226700011051"},{"key":"2022081219434798000_","volume-title":"English
-        Word Grammar","year":"1990"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Science
-        as a Process: An Evolutionary Account of the Social and Conceptual Development
-        of Science","year":"1988","DOI":"10.7208\/chicago\/9780226360492.001.0001"},{"key":"2022081219434798000_","volume-title":"The
-        Kanuri Language: A Reference Grammar","year":"1981"},{"key":"2022081219434798000_","volume-title":"X''
-        Syntax: A Study of Phrase Structure","year":"1977"},{"key":"2022081219434798000_","volume-title":"Semantic
-        Structures","year":"1990"},{"key":"2022081219434798000_","article-title":"On
-        Larson''s treatment of the double object construction","year":"1990","journal-title":"Linguistic
-        Inquiry"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Twistin","year":"1997","journal-title":"Language","DOI":"10.2307\/415883"},{"key":"2022081219434798000_","volume-title":"The
-        Victoria Conference on Northwestern Languages","year":"1979"},{"key":"2022081219434798000_","volume-title":"Syntax
-        and Semantics 16: The Syntax of Native American languages","year":"1984"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Empty
-        categories, case, and configurationality","year":"1984","journal-title":"Natural
-        Language and Linguistic Theory","DOI":"10.1007\/BF00233713"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        agent hierarchy and voice in some Coast Salishan languages","year":"1983","journal-title":"International
-        Journal of American Linguistics","DOI":"10.1086\/465780"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Predicates
-        and pronominal arguments in Straits Salish","year":"1994","journal-title":"Language","DOI":"10.2307\/416325"},{"key":"2022081219434798000_","volume-title":"The
-        Philosophy of Grammar","year":"1924"},{"key":"2022081219434798000_","volume-title":"Readings
-        in Linguistics I","year":"1957"},{"key":"2022081219434798000_","volume-title":"Palauan
-        Reference Grammar","year":"1975"},{"key":"2022081219434798000_","volume-title":"The
-        Mental Representation of Grammatical Relations","year":"1982"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","year":"1999","journal-title":"Language","DOI":"10.2307\/417472"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"What
-        is the Sapir-Whorf Hypothesis?","year":"1984","journal-title":"American Anthropologist","DOI":"10.1525\/aa.1984.86.1.02a00050"},{"key":"2022081219434798000_","article-title":"Split
-        syntactic ergativity: toward an implicational hierarchy","year":"1994","journal-title":"Sprachtypololgie
-        und Universalienforschung"},{"key":"2022081219434798000_","volume-title":"Subject
-        and Topic","year":"1976"},{"key":"2022081219434798000_","volume-title":"Language
-        Typology and Syntactic Description, Vol. 1: Clause Structure","year":"1985"},{"key":"2022081219434798000_","volume-title":"Universal
-        Grammar","year":"1977"},{"key":"2022081219434798000_","volume-title":"The
-        Middle Voice","year":"1993"},{"key":"2022081219434798000_","volume-title":"Ergativity","year":"1979"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Trends
-        in Soviet Linguistics","year":"1973","DOI":"10.1007\/978-94-010-2536-2_3"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Salish
-        evidence against the universality of \u201cnoun\u201d and \u201cverb\u201d","year":"1983","journal-title":"Lingua","DOI":"10.1016\/0024-3841(83)90045-1"},{"key":"2022081219434798000_","volume-title":"Grammatical
-        Voice","year":"1991"},{"key":"2022081219434798000_","volume-title":"Principles
-        of Gestalt Psychology","year":"1935"},{"key":"2022081219434798000_","volume-title":"Gestalt
-        Psychology","year":"1947"},{"key":"2022081219434798000_","volume-title":"Gramatika
-        na Makedonskiot literaturen jazik","year":"1967"},{"key":"2022081219434798000_","volume-title":"A
-        Relational Grammar of Kinyarwanda","year":"1980"},{"key":"2022081219434798000_","volume-title":"Nominalizations","year":"1993"},{"key":"2022081219434798000_","volume-title":"The
-        Circum-Baltic Languages: Their Typology and Contacts","author":"Koptjevskaja-Tamm,"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Adverbial
-        Subordination: A Typology and History of Adverbial Subordinators Based on
-        European Languages","year":"1997","DOI":"10.1515\/9783110812428"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"A
-        holistic understanding of Arizona Tewa passives","year":"1985","journal-title":"Language","DOI":"10.2307\/414147"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        categories verb\u2013noun and transitive\u2013intransitive in English and
-        Squamish","year":"1968","journal-title":"Lingua","DOI":"10.1016\/0024-3841(68)90080-6"},{"key":"2022081219434798000_","volume-title":"The
-        Structure of the Japanese Language","year":"1973"},{"key":"2022081219434798000_","volume-title":"Functional
-        Syntax: Anaphora, Discourse and Empathy","year":"1987"},{"key":"2022081219434798000_","volume-title":"Language
-        in the Inner City","year":"1972"},{"key":"2022081219434798000_","volume-title":"GrammaireBasque","year":"1962"},{"key":"2022081219434798000_","volume-title":"Papers
-        from the Twenty-second Annual Regional Meeting of the Chicago Linguistic Society","year":"1986"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Women,
-        Fire and Dangerous Things: What Categories Reveal about the Mind","year":"1987","DOI":"10.7208\/chicago\/9780226471013.001.0001"},{"key":"2022081219434798000_","volume-title":"Introduction
-        to Biblical Hebrew","year":"1971"},{"key":"2022081219434798000_","volume-title":"Proceedings
-        of the Sixteenth Annual Meeting of the Berkeley Linguistics Society","year":"1990"},{"key":"2022081219434798000_","article-title":"Semantic
-        representations and the linguistic relativity hypothesis","year":"1976","journal-title":"Foundations
-        of Language"},{"key":"2022081219434798000_","volume-title":"Foundations of
-        Cognitive Grammar, Vol I: Theoretical Pre-requisites","year":"1987"},{"key":"2022081219434798000_","volume-title":"Topics
-        in Cognitive Linguistics","year":"1988"},{"key":"2022081219434798000_","volume-title":"Foundations
-        of Cognitive Grammar, Vol II: Descriptive Application","year":"1991"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Concept,
-        Image, and Symbol: The Cognitive Basis of Grammar","year":"1991","DOI":"10.1515\/9783110857733"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Raising
-        and transparency","year":"1995","journal-title":"Language","DOI":"10.2307\/415962"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Constituency,
-        dependency, and conceptual grouping","year":"1997","journal-title":"Cognitive
-        Linguistics","DOI":"10.1515\/cogl.1997.8.1.1"},{"key":"2022081219434798000_","volume-title":"Proceedings
-        of the Seventh Annual Meeting of the Berkeley Linguistics Society","year":"1981"},{"key":"2022081219434798000_","unstructured":"383Larson,
-        Richard. (1983). \u2018Restrictive modification: relative clauses and adverbs\u2019,
-        Ph.D. dissertation, Department of Linguistics, University of Wisconsin at
-        Madison."},{"key":"2022081219434798000_","article-title":"On the double object
-        construction","year":"1988","journal-title":"Linguistic Inquiry"},{"key":"2022081219434798000_","article-title":"Double
-        objects revisited: reply to Jackendoff","year":"1990","journal-title":"Linguistic
-        Inquiry"},{"key":"2022081219434798000_","volume-title":"Latvian","year":"1966"},{"key":"2022081219434798000_","volume-title":"The
-        Whorf Theory Complex: A Critical Reconstruction","year":"1996"},{"key":"2022081219434798000_","volume-title":"Apprehension:
-        Das sprachliche Erfassen von Gegenst\u00e4nden","year":"1982"},{"key":"2022081219434798000_","volume-title":"Thoughts
-        on Grammaticalization: A Programmatic Sketch, Vol. I","year":"1982"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Directions
-        for interlinear morphemic translations","year":"1982","journal-title":"Folia
-        Linguistica","DOI":"10.1515\/flin.1982.16.1-4.199"},{"key":"2022081219434798000_","volume-title":"Der
-        Relativsatz: Typologie seiner Strukturen, Theorie seiner Funktionen, Kompendium
-        seiner Grammatik","year":"1984"},{"key":"2022081219434798000_","article-title":"Grammaticalization:
-        synchronic variation and diachronic change","year":"1985","journal-title":"Lingua
-        e Stile"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"On
-        the typology of relative clauses","year":"1986","journal-title":"Linguistics","DOI":"10.1515\/ling.1986.24.4.663"},{"key":"2022081219434798000_","article-title":"Towards
-        a typology of clause linkage","year":"1988"},{"key":"2022081219434798000_","volume-title":"English
-        Verb Classes and Alternations","year":"1993"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"A
-        preliminary analysis of causative verbs in English","year":"1994","journal-title":"Lingua","DOI":"10.1016\/0024-3841(94)90337-9"},{"key":"2022081219434798000_","volume-title":"Convention","year":"1969"},{"key":"2022081219434798000_","volume-title":"Turkish
-        Grammar","year":"1967"},{"key":"2022081219434798000_","volume-title":"Mandarin
-        Chinese: A Functional Reference Grammar","year":"1981"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Relational
-        classifiers","year":"1983","journal-title":"Lingua","DOI":"10.1016\/0024-3841(83)90072-4"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Lexically-based
-        learning and early grammatical development","year":"1997","journal-title":"Journal
-        of Child Language","DOI":"10.1017\/S0305000996002930"},{"key":"2022081219434798000_","volume-title":"Papers
-        from the Parasession on Diachronic Syntax, Chicago Linguistic Society","year":"1976"},{"key":"2022081219434798000_","volume-title":"Historical
-        Change in Serial Verb Constructions","year":"1993"},{"key":"2022081219434798000_","volume-title":"The
-        Burushaski Language","year":"1935"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Language,
-        Diversity and Thought: A Reformulation of the Linguistic Relativity Hypothesis","year":"1992","DOI":"10.1017\/CBO9780511620843"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Grammatical
-        Categories and Cognition: A Case Study of the Linguistic Relativity Hypothesis","year":"1992","DOI":"10.1017\/CBO9780511620713"},{"key":"2022081219434798000_","volume-title":"A
-        Grammar of Lenakel","year":"1978"},{"key":"2022081219434798000_","volume-title":"Defining
-        a Lingustic Area: South Asia","year":"1976"},{"key":"2022081219434798000_","volume-title":"The
-        Indo-Aryan Languages","year":"1991"},{"key":"2022081219434798000_","volume-title":"A
-        Short Grammar of Lithuanian","year":"1996"},{"key":"2022081219434798000_","volume-title":"Noun
-        Modifying Constructions in Japanese: A Frame-semantic Approach","year":"1997"},{"key":"2022081219434798000_","volume-title":"Syntax","year":"1981"},{"key":"2022081219434798000_","volume-title":"Cantonese:
-        A Comprehensive Grammar","year":"1994"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","volume-title":"Uhuru
-        wa Watumwa","year":"1934"},{"key":"2022081219434798000_","volume-title":"A
-        Linguistic Flea Circus","year":"1991"},{"key":"2022081219434798000_","volume-title":"The
-        Syntactic Phenomena of English","year":"1998"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Ergativity,
-        case, and transitivity in Eastern Porno","year":"1978","journal-title":"International
-        Journal of American Linguistics","DOI":"10.1086\/465512"},{"key":"2022081219434798000_","volume-title":"Semiotic
-        Grammar","year":"1997"},{"key":"2022081219434798000_","volume-title":"Linguistique
-        historique et Linguistique g\u00e9n\u00e9rale","year":"1915"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"A
-        Grammar of Wardaman","year":"1994","DOI":"10.1515\/9783110871371"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Toward
-        a construction-based theory of language functions: the case of nominal extraposition","year":"1996","journal-title":"Language","DOI":"10.2307\/416650"},{"key":"2022081219434798000_","volume-title":"Grammaire
-        d''arm\u00e9enien oriental","year":"1980"},{"key":"2022081219434798000_","volume-title":"Kapampangan
-        Syntax","year":"1972"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        evolution of noun incorporation","year":"1984","journal-title":"Language","DOI":"10.2307\/413800"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Active\/agentive
-        case marking and its motivations","year":"1991","journal-title":"Language","DOI":"10.2307\/415036"},{"key":"2022081219434798000_","volume-title":"Approaches
-        to the Typology of Word Classes","year":"2000"},{"key":"2022081219434798000_","volume-title":"Basic
-        Quich\u00e9 Grammar","year":"1978"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"On
-        the distribution of ergative and accusative patterns","year":"1978","journal-title":"Lingua","DOI":"10.1016\/0024-3841(78)90026-8"},{"key":"2022081219434798000_","volume-title":"Ergativity
-        in Coast Tsimshian (Sm''algyax","year":"1994"},{"key":"2022081219434798000_","volume-title":"Studies
-        in Transitivity","year":"1982"},{"key":"2022081219434798000_","volume-title":"Syntax
-        and Semantics 16: The Syntax of Native American Languages","year":"1984"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Categoriality
-        and clustering","year":"1988","journal-title":"Studies in Language","DOI":"10.1075\/sl.12.2.02myh"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Nominal
-        agent incorporation in Indonesian","year":"1988","journal-title":"Journal
-        of Linguistics","DOI":"10.1017\/S0022226700011580"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","article-title":"Aspect,
-        aspectual class and the temporal structure of narrative","year":"1988","journal-title":"Computational
-        Linguistics"},{"key":"2022081219434798000_","volume-title":"Colloquial Rumanian","year":"1945"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Semantic
-        interpretation vs. lexical governance: clitic climbing in Italian","year":"1981","journal-title":"Language","DOI":"10.2307\/414244"},{"key":"2022081219434798000_","volume-title":"Yokuts
-        Language of California","year":"1944"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Iconicity
-        and generative grammar","year":"1992","journal-title":"Language","DOI":"10.2307\/416852"},{"key":"2022081219434798000_","volume-title":"Language
-        Form and Language Function","year":"1998"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Head-marking
-        and dependent-marking grammar","year":"1986","journal-title":"Language","DOI":"10.2307\/415601"},{"key":"2022081219434798000_","volume-title":"Morphology","year":"1949"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"A
-        Grammar of Lango","year":"1992","DOI":"10.1515\/9783110850512"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        nonuniqueness of semantic solutions: polysemy","year":"1979","journal-title":"Linguistics
-        and Philosophy","DOI":"10.1007\/BF00126509"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Idioms","year":"1994","journal-title":"Language","DOI":"10.2307\/416483"},{"key":"2022081219434798000_","volume-title":"Contemporary
-        Linguistics: An Introduction","year":"1997"},{"key":"2022081219434798000_","volume-title":"A
-        Tentative Description of the Gunwinggu Language (of Western Arnhem Land","year":"1964"},{"key":"2022081219434798000_","volume-title":"Cognitive-functional
-        linguistics in an East Asian context"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Functional
-        Categories and Parametric Variation","year":"1991","DOI":"10.4324\/9780203412015"},{"key":"2022081219434798000_","volume-title":"Djabugay.
-        The Handbook of Australian Languages","year":"1991"},{"key":"2022081219434798000_","volume-title":"Coherence
-        and Grounding in Discourse","year":"1987"},{"key":"2022081219434798000_","volume-title":"The
-        Role of Theory in Language Description","year":"1993"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Information
-        structuring in Papago narrative discourse","year":"1987","journal-title":"Language","DOI":"10.2307\/415718"},{"key":"2022081219434798000_","volume-title":"Voice:
-        Form and Function","year":"1994"},{"key":"2022081219434798000_","volume-title":"Voice
-        and Inversion","year":"1994"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"The
-        decline of ergativity in Pamir languages","year":"1980","journal-title":"Lingua","DOI":"10.1016\/0024-3841(80)90005-4"},{"key":"2022081219434798000_","volume-title":"Voice
-        and Inversion","year":"1994"},{"key":"2022081219434798000_","volume-title":"Tipologiya
-        i teoriya yazyka ot opisaniya k ob''''yasneniyu","year":"1999"},{"key":"2022081219434798000_","volume-title":"Essays
-        on Language Function and Language Type","year":"1997"},{"key":"2022081219434798000_","volume-title":"Studies
-        in Relational Grammar 1","year":"1983"},{"key":"2022081219434798000_","article-title":"Slot
-        and frame patterns and the development of the determiner category","year":"1997","journal-title":"Journal
-        of Child Language"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Comparing
-        different models of the development of the English verb category","year":"1998","journal-title":"Linguistics","DOI":"10.1515\/ling.1998.36.4.807"},{"key":"2022081219434798000_","article-title":"Agreement
-        in Tsez","year":"1999","journal-title":"Folia Linguistica"},{"key":"2022081219434798000_","volume-title":"Information-based
-        Syntax and Semantics, Vol. 1: Fundamentals","year":"1987"},{"key":"2022081219434798000_","volume-title":"Head-driven
-        Phrase Structure Grammar","year":"1993"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","year":"1978","journal-title":"Language","DOI":"10.2307\/413238"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Russian","DOI":"10.2753\/PET1061-1991391230"},{"key":"2022081219434798000_","unstructured":"Quirk,
-        Randolph, Anne P. Duckworth, J. Svartvik, J. P. L. Rusiecki, and A. J. T.
-        Colin. (1964). \u2018Studies in the correspondence of prosodic to grammatical
-        features in English\u2019, Proceedings of the IX International Congress of
-        Linguists. The Hague: Mouton, 679\u201391."},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Transformational
-        Grammar: A First Course","year":"1988","DOI":"10.1017\/CBO9780511840425"},{"key":"2022081219434798000_","volume-title":"Yup''ik
-        Eskimo Grammar","year":"1977"},{"key":"2022081219434798000_","volume-title":"Structures
-        and their Functions in Usan","year":"1987"},{"key":"2022081219434798000_","volume-title":"Ponapean
-        Reference Grammar","year":"1981"},{"key":"2022081219434798000_","article-title":"Principles
-        of gestalt perception in the temporal organization of narrative texts","year":"1984","journal-title":"Linguistics"},{"key":"2022081219434798000_","volume-title":"Papers
-        from the Thirteenth Regional Meeting, Chicago Linguistic Society","year":"1977"},{"key":"2022081219434798000_","unstructured":"Rice,
-        Sally A. (1987). \u2018Towards a cognitive model of transivity\u2019, Ph.D.
-        dissertation, University of California, San Diego."},{"key":"2022081219434798000_","volume-title":"The
-        Noun Phrase: A Typological Study of its Form and Structure","year":"1992"},{"key":"2022081219434798000_","volume-title":"Amele","year":"1987"},{"key":"2022081219434798000_","article-title":"Amele
-        switch-reference and the theory of grammar","year":"1988","journal-title":"Linguistic
-        Inquiry"},{"key":"2022081219434798000_","volume-title":"The Yurok Language:
-        Grammar, Texts, Lexicon","year":"1958"},{"key":"2022081219434798000_","volume-title":"Wege
-        zur Universalienforschung","year":"1980"},{"key":"2022081219434798000_","volume-title":"Cognition
-        and Categorization","year":"1978"},{"key":"2022081219434798000_","volume-title":"Studies
-        in Relational Grammar 2","year":"1984"},{"key":"2022081219434798000_","unstructured":"Ross,
-        John R. (1967). \u2018Constraints on variables in syntax\u2019, Ph.D. dissertation,
-        MIT."},{"key":"2022081219434798000_","volume-title":"Yoruba","year":"1969"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Subject-verb
-        agreement in Brazilian Portuguese: what low error rates hide","year":"1998","journal-title":"Journal
-        of Child Language","DOI":"10.1017\/S0305000997003310"},{"key":"2022081219434798000_","volume-title":"A
-        Guide to the World''s Languages, Vol. 1: Classification","year":"1991"},{"key":"2022081219434798000_","volume-title":"Autolexical
-        Syntax","year":"1991"},{"key":"2022081219434798000_","volume-title":"Basque","year":"1988"},{"key":"2022081219434798000_","volume-title":"Language","year":"1921"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Der
-        irokesische Sprachtyp","year":"1988","journal-title":"Zeitschrift fiir Sprachwissenschaft","DOI":"10.1515\/ZFSW.1988.7.2.173"},{"key":"2022081219434798000_","volume-title":"Semantic
-        Universals and Universal Semantics","year":"1991"},{"key":"2022081219434798000_","volume-title":"Cours
-        de linguistique g\u00e9n\u00e9rale","year":"1916"},{"key":"2022081219434798000_","volume-title":"A
-        Reference Grammar of Modern Bulgarian","year":"1983"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Focus
-        and relativization","year":"1973","journal-title":"Language","DOI":"10.2307\/412101"},{"key":"2022081219434798000_","article-title":"A
-        non-transformational account of serial verbs","year":"1974","journal-title":"Studies
-        in African Linguistics"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Constraints
-        on coordination","year":"1977","journal-title":"Language","DOI":"10.2307\/413057"},{"key":"2022081219434798000_","volume-title":"Syntax
-        and Semantics 8: Grammatical Relations","year":"1977"},{"key":"2022081219434798000_","volume-title":"Language
-        Typology and Syntactic Description, Vol. 1: Clause Structure","year":"1985"},{"key":"2022081219434798000_","volume-title":"Manual
-        of Basic Spanish Constructions","year":"1970"},{"key":"2022081219434798000_","unstructured":"Schiller,
-        Eric. (1990). \u2018An autolexical account of subordinating serial constructions\u2019,
-        Ph.D. dissertation, Department of Linguistics, University of Chicago."},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Speech
-        Acts: An Essay in the Philosophy of Language","year":"1969","DOI":"10.1017\/CBO9781139173438"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Expression
-        and Meaning","year":"1979","DOI":"10.1017\/CBO9780511609213"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Kilivila:
-        The Language of the Trobriand Islanders","year":"1986","DOI":"10.1515\/9783110861846"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Passive
-        and related constructions: a prototype analysis","year":"1985","journal-title":"Language","DOI":"10.2307\/414491"},{"key":"2022081219434798000_","volume-title":"Passive
-        and Voice","year":"1988"},{"key":"2022081219434798000_","volume-title":"Language
-        Typology and Syntactic Description, Vol. 1: Clause Structure","year":"1985"},{"key":"2022081219434798000_","volume-title":"Language
-        Typology and Syntactic Description, Vol. 2: Complex Constructions","year":"1985"},{"key":"2022081219434798000_","volume-title":"Language
-        Typology and Syntactic Description, Vol. 3: Grammatical Categories and the
-        Lexicon","year":"1985"},{"key":"2022081219434798000_","article-title":"On
-        the so-called Finnish passive","year":"1988","journal-title":"Word"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Phrasal
-        discontinuity in Polish","year":"1984","journal-title":"Australian Journal
-        of Linguistics","DOI":"10.1080\/07268608408599320"},{"key":"2022081219434798000_","volume-title":"The
-        Passive: A Comparative Linguistic Analysis","year":"1985"},{"key":"2022081219434798000_","volume-title":"Reconnecting
-        Language: Morphology and Syntax in Functonal Perspectives","year":"1997"},{"key":"2022081219434798000_","volume-title":"Grammatical
-        Categories in Australian Languages","year":"1976"},{"key":"2022081219434798000_","volume-title":"Uzbek
-        Structural Grammar","year":"1963"},{"key":"2022081219434798000_","volume-title":"Woleaian
-        Reference Grammar","year":"1975"},{"key":"2022081219434798000_","volume-title":"Kunjen
-        Syntax: A Generative View","year":"1972"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","year":"1993","journal-title":"Language","DOI":"10.2307\/416700"},{"key":"2022081219434798000_","volume-title":"Comparison
-        and Universal Grammar","year":"1985"},{"key":"2022081219434798000_","volume-title":"Intransitive
-        Predication","year":"1997"},{"key":"2022081219434798000_","volume-title":"The
-        Grammatical Structures of English and Spanish","year":"1965"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Agreement
-        vs. incorporation in Breton","year":"1984","journal-title":"Natural Language
-        and Linguistic Theory","DOI":"10.1007\/BF00133790"},{"key":"2022081219434798000_","volume-title":"On
-        voice in the English Verb","year":"1966"},{"key":"2022081219434798000_","volume-title":"A
-        New English Grammar, Logical and Historical","year":"1891"},{"key":"2022081219434798000_","unstructured":"Talmy,
-        Leonard. (1972). \u2018Semantic Structures in English and Atsugewi\u2019,
-        Ph.D. dissertation, Department of Linguistics, University of California, Berkeley."},{"key":"2022081219434798000_","volume-title":"Syntax
-        and Semantics 4","year":"1974"},{"key":"2022081219434798000_","volume-title":"The
-        Grammar of Causative Constructions","year":"1976"},{"key":"2022081219434798000_","volume-title":"Universals
-        of Human Language, Vol. 4: Syntax","year":"1978"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Force
-        dynamics in language and cognition","year":"1988","journal-title":"Cognitive
-        Science","DOI":"10.1016\/0364-0213(88)90008-0"},{"key":"2022081219434798000_","article-title":"Path
-        to realization: a typology of event integration","year":"1991","journal-title":"Buffalo
-        Working Papers in Linguistics"},{"key":"2022081219434798000_","volume-title":"Talking
-        Voices: Repetition, Dialogue, and Imagery in Conversational Discourse","year":"1989"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Possessive
-        genitives in English","year":"1989","journal-title":"Linguistics","DOI":"10.1515\/ling.1989.27.4.663"},{"key":"2022081219434798000_","volume-title":"Linguistic
-        Categorization: Prototypes in Linguistic Theory","year":"1995"},{"key":"2022081219434798000_","volume-title":"Simple
-        Sentences in Tongan","year":"1981"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_"},{"key":"2022081219434798000_","volume-title":"Converbs
-        in Cross-linguistic Perspective: Structure and Meaning of Adverbial Verb Forms\u2014Adverbials
-        Participles, Gerunds","year":"1995"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"First
-        Verbs: A Case Study of Early Grammatical Development","year":"1992","DOI":"10.1017\/CBO9780511527678"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Do
-        young children have adult syntactic competence?","year":"2000","journal-title":"Cognition","DOI":"10.1016\/S0010-0277(99)00069-4"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Differential
-        productivity in young children''s use of nouns and verbs","year":"1997","journal-title":"Journal
-        of Child Language","DOI":"10.1017\/S0305000997003085"},{"key":"2022081219434798000_","article-title":"Foreground-background
-        information and the syntax of subordi-nation","year":"1985","journal-title":"Text"},{"key":"2022081219434798000_","volume-title":"Coherence
-        and Grounding in Discourse","year":"1987"},{"key":"2022081219434798000_","volume-title":"Iconicity
-        in Syntax","year":"1985"},{"key":"2022081219434798000_","volume-title":"Approaches
-        to grammaticalization","year":"1991"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"On
-        Conditionals","year":"1986","DOI":"10.1017\/CBO9780511753466"},{"key":"2022081219434798000_","unstructured":"Tsukiashi,
-        Ayumi. (1997). \u2018A usage-based analysis of the Japanese passive construction\u2019,
-        M. A. dissertation, University of Manchester."},{"key":"2022081219434798000_","volume-title":"Linguistic
-        Analysis: The Non-Bantu Languages of North-Eastern Africa","year":"1966"},{"key":"2022081219434798000_","volume-title":"A
-        Maasai Grammar with Vocabulary","year":"1955"},{"key":"2022081219434798000_","volume-title":"Syntactic
-        Categories in Japanese: A Cognitive and Typological Introduction","year":"1998"},{"key":"2022081219434798000_","article-title":"Modality''s
-        semantic map","year":"1998","journal-title":"Linguistic Typology"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Noun
-        and verb in Salish","year":"1986","journal-title":"Lingua","DOI":"10.1016\/0024-3841(86)90061-6"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Semantic
-        parameters of split intransitivity","year":"1990","journal-title":"Language","DOI":"10.2307\/414886"},{"key":"2022081219434798000_","volume-title":"Advances
-        in Role and Reference Grammar","author":"Van","year":"1993"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Syntax:
-        Structure, Meaning and Function","year":"1997","DOI":"10.1017\/CBO9781139166799"},{"key":"2022081219434798000_","volume-title":"Towards
-        a Reference Grammar of Tok Pisin: An Experiment in Corpus Linguistics","year":"1995"},{"key":"2022081219434798000_","volume-title":"A
-        Grammar ofKiowa","year":"1984"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Constraints
-        on the agentless passive","year":"1983","journal-title":"Journal of Linguistics","DOI":"10.1017\/S0022226700007441"},{"key":"2022081219434798000_","volume-title":"A
-        Source Book of Gestalt Psychology","year":"1950"},{"key":"2022081219434798000_","volume-title":"The
-        Shilluk People","year":"1912"},{"key":"2022081219434798000_","volume-title":"Meaning
-        and Grammar: Cross-linguistic Perspectives","year":"1992"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"The
-        Typology of Adjectival Predication","year":"1996","DOI":"10.1515\/9783110813586"},{"key":"2022081219434798000_","volume-title":"Colloquial
-        Hungarian","year":"1944"},{"key":"2022081219434798000_","unstructured":"Wiegand,
-        Nancy. (1987). \u2018Causal connectives in the early history of English: a
-        study in diachronic syntax\u2019, Ph.D. dissertation, Department of Linguistics,
-        Stanford University."},{"key":"2022081219434798000_","volume-title":"Lingua
-        mentalis: The Semantics of Natural Language","year":"1980"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"What''s
-        in a noun? (or: how do nouns differ in meaning from adjectives?)","year":"1986","journal-title":"Studies
-        in Language","DOI":"10.1075\/sl.10.2.05wie"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Boys
-        will be boys","year":"1987","journal-title":"Language","DOI":"10.2307\/415385"},{"key":"2022081219434798000_","volume-title":"The
-        Semantics of Grammar","year":"1988"},{"key":"2022081219434798000_","volume-title":"A
-        Grammar of Yuwaalaraay","year":"1980"},{"key":"2022081219434798000_","article-title":"On
-        the notions \u201clexically related\u201d and \u201chead of a word\u201d","year":"1981","journal-title":"Linguistic
-        Inquiry"},{"key":"2022081219434798000_","volume-title":"A Grammar of Tuscarora","year":"1976"},{"key":"2022081219434798000_","volume-title":"Meet
-        Cree: A Guide to the Cree Language","year":"1981"},{"key":"2022081219434798000_","volume-title":"Grammar
-        ofKaro Batak, Sumatra","year":"1996"},{"key":"2022081219434798000_","volume-title":"A
-        Papago Grammar","year":"1983"},{"key":"2022081219434798000_","volume-title":"Kommunikativnaja
-        grammatika russkogo jazyka","year":"1998"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","article-title":"Heads","year":"1985","journal-title":"Journal
-        of Linguistics","DOI":"10.1017\/S0022226700010008"},{"key":"2022081219434798000_","doi-asserted-by":"publisher","volume-title":"Heads
-        in Grammatical Theory","year":"1993","DOI":"10.1017\/CBO9780511659454.013"}],"container-title":["Radical
-        Construction Grammar"],"link":[{"URL":"https:\/\/academic.oup.com\/book\/chapter-pdf\/44535980\/book_32815_section_274867342.ag.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,8,12]],"date-time":"2022-08-12T19:44:59Z","timestamp":1660333499000},"score":26.712875,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/32815\/chapter\/274867342"}},"issued":{"date-parts":[[2001,10,25]]},"references-count":505,"URL":"http:\/\/dx.doi.org\/10.1093\/acprof:oso\/9780198299554.003.0003","published":{"date-parts":[[2001,10,25]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T09:13:02Z","timestamp":1649149982065},"publisher-location":"Bingley","reference-count":0,"publisher":"Emerald
-        Group Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1108\/s0092-4563(1998)0000031003","type":"book-chapter","created":{"date-parts":[[2010,2,6]],"date-time":"2010-02-06T12:14:56Z","timestamp":1265458496000},"page":"1-10","source":"Crossref","is-referenced-by-count":0,"title":["FROM
+        Epenthesis in Loanword Adaptation"],"link":[{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110934823.183\/xml","content-type":"application\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110934823.183\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,8,30]],"date-time":"2023-08-30T05:28:28Z","timestamp":1693373308000},"score":26.787971,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.1515\/9783110934823.183\/html"}},"issued":{"date-parts":[[2007,12,31]]},"ISBN":["9783484305106"],"references-count":0,"alternative-id":["10.1515\/9783110934823.183","10.1515\/9783110934823"],"URL":"http:\/\/dx.doi.org\/10.1515\/9783110934823.183","published":{"date-parts":[[2007,12,31]]}},{"indexed":{"date-parts":[[2023,7,24]],"date-time":"2023-07-24T12:53:19Z","timestamp":1690203199617},"publisher-location":"Amsterdam","reference-count":0,"publisher":"John
+        Benjamins Publishing Company","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012]]},"DOI":"10.1075\/tsl.100.16gab","type":"book-chapter","created":{"date-parts":[[2014,3,23]],"date-time":"2014-03-23T18:21:38Z","timestamp":1395598898000},"page":"233-252","source":"Crossref","is-referenced-by-count":2,"title":["The
+        Thaayorre lexicon of putting and taking"],"prefix":"10.1075","author":[{"given":"Alice","family":"Gaby","sequence":"first","affiliation":[]}],"member":"1757","container-title":["Typological
+        Studies in Language","Events of Putting and Taking"],"deposited":{"date-parts":[[2014,7,10]],"date-time":"2014-07-10T16:48:41Z","timestamp":1405010921000},"score":26.440493,"resource":{"primary":{"URL":"https:\/\/benjamins.com\/catalog\/tsl.100.16gab"}},"issued":{"date-parts":[[2012]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1075\/tsl.100.16gab","ISSN":["0167-7373"],"issn-type":[{"value":"0167-7373","type":"print"}],"published":{"date-parts":[[2012]]}},{"indexed":{"date-parts":[[2023,9,13]],"date-time":"2023-09-13T20:52:47Z","timestamp":1694638367557},"publisher-location":"Bingley","reference-count":0,"publisher":"Emerald
+        Group Publishing","isbn-type":[{"value":"9780126135312","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1108\/s0092-4563(1998)0000031003","type":"book-chapter","created":{"date-parts":[[2010,2,6]],"date-time":"2010-02-06T12:14:56Z","timestamp":1265458496000},"page":"1-10","source":"Crossref","is-referenced-by-count":0,"title":["FROM
         ALEXANDER TO WILHELM VON HUMBOLDT: A CROSSLINGUISTIC PERSPECTIVE"],"prefix":"10.1163","author":[{"given":"DIETER","family":"HILLERT","sequence":"first","affiliation":[]}],"member":"50","container-title":["Sentence
-        Processing: A Crosslinguistic Perspective","Syntax and Semantics"],"deposited":{"date-parts":[[2022,3,11]],"date-time":"2022-03-11T20:00:17Z","timestamp":1647028817000},"score":26.585127,"resource":{"primary":{"URL":"https:\/\/www.emerald.com\/insight\/content\/doi\/10.1108\/S0092-4563(1998)0000031003\/full\/html"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1108\/s0092-4563(1998)0000031003","ISSN":["0092-4563"],"issn-type":[{"value":"0092-4563","type":"print"}]}],"items-per-page":20,"query":{"start-index":0,"search-terms":"The+semantic+categories+of+cutting+and+breaking+events:+A+crosslinguistic+perspective+2007+Walter+de+Gruyter+GmbH"}}}'
-  recorded_at: Fri, 01 Sep 2023 03:59:33 GMT
+        Processing: A Crosslinguistic Perspective","Syntax and Semantics"],"deposited":{"date-parts":[[2022,3,11]],"date-time":"2022-03-11T20:00:17Z","timestamp":1647028817000},"score":26.398096,"resource":{"primary":{"URL":"https:\/\/www.emerald.com\/insight\/content\/doi\/10.1108\/S0092-4563(1998)0000031003\/full\/html"}},"issued":{"date-parts":[[null]]},"ISBN":["9780126135312"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1108\/s0092-4563(1998)0000031003","ISSN":["0092-4563"],"issn-type":[{"value":"0092-4563","type":"print"}]}],"items-per-page":20,"query":{"start-index":0,"search-terms":"The+semantic+categories+of+cutting+and+breaking+events:+A+crosslinguistic+perspective+2007+Walter+de+Gruyter+GmbH"}}}'
+  recorded_at: Tue, 19 Sep 2023 18:20:55 GMT
 recorded_with: VCR 6.2.0

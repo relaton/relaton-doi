@@ -45,7 +45,7 @@ module RelatonDoi
     # Returns hash of XML grammar
     # @return [String]
     def grammar_hash
-      @grammar_hash ||= ::RelatonBib.grammar_hash
+      @grammar_hash ||= ::RelatonDoi.grammar_hash
     end
   end
 end
