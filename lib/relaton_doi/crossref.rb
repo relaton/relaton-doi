@@ -12,11 +12,14 @@ module RelatonDoi
     #   RelatonNist::NistBibliographicItem] The bibitem.
     #
     def get(doi)
-      warn "[relaton-doi] [\"#{doi}\"] fetching..."
+      Util.warn "(#{doi}) fetching..."
       id = doi.sub(%r{^doi:}, "")
       message = get_by_id id
-      warn "[relaton-doi] [\"#{doi}\"] found #{message['DOI']}"
+      Util.warn "(#{doi}) found `#{message['DOI']}`"
       Parser.parse message
+    rescue Serrano::NotFound
+      Util.warn "(#{doi}) not found"
+      nil
     end
 
     #

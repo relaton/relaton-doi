@@ -39,6 +39,20 @@ $ gem install relaton-doi
 
 == Usage
 
+=== Configuration
+
+Configuration is optional. The available option is `logger` which is a `Logger` instance. By default, the logger is `Logger.new($stderr)` with `Logger::WARN` level. To change the logger level, use `RelatonDoi.configure` block.
+
+[source,ruby]
+----
+require 'relaton_doi'
+=> true
+
+RelatonDoi.configure do |config|
+  config.logger.level = Logger::DEBUG
+end
+----
+
 === Retrieving items of known type using DOI
 
 If the resulting bibliographic item returned from CrossRef is a known Relaton

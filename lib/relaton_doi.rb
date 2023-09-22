@@ -8,6 +8,8 @@ require "relaton_ietf"
 require "relaton_ieee"
 require "relaton_nist"
 require_relative "relaton_doi/version"
+require_relative "relaton_doi/config"
+require_relative "relaton_doi/util"
 require_relative "relaton_doi/parser"
 require_relative "relaton_doi/crossref"
 
