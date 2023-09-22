@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 RSpec.describe RelatonDoi do
+  before { RelatonDoi.instance_variable_set :@configuration, nil }
+
   it "has a version number" do
     expect(RelatonDoi::VERSION).not_to be nil
   end
@@ -10,6 +12,12 @@ RSpec.describe RelatonDoi do
   end
 
   context "fetch document" do
+    it "not found", vcr: "not_found" do
+      expect do
+        expect(RelatonDoi::Crossref.get("doi:10.11111/RFC0000")).to be_nil
+      end.to output(/\[relaton-doi\] \(doi:10.11111\/RFC0000\) not found/).to_stderr
+    end
+
     it "NIST", vcr: "crossref_nist" do
       file = "crossref_nist.xml"
       resp = RelatonDoi::Crossref.get "doi:10.6028/nist.ir.8245"
