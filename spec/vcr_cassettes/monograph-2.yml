@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 19 Sep 2023 18:21:01 GMT
+      - Sun, 08 Oct 2023 01:21:15 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1483'
       Set-Cookie:
-      - AWSALB=to2w/gj3HV/Fugvx4mKD1acte3nA4IrWQ8AqPRsZDEXNYZFlsYobhXLwXwCCe8da6WtHhK3vFts8I0bZJlLFxMznGnQKBGV59K75LHLrvrZaOHlk09QApIW19Fev;
-        Expires=Tue, 26 Sep 2023 18:21:01 GMT; Path=/
-      - AWSALBCORS=to2w/gj3HV/Fugvx4mKD1acte3nA4IrWQ8AqPRsZDEXNYZFlsYobhXLwXwCCe8da6WtHhK3vFts8I0bZJlLFxMznGnQKBGV59K75LHLrvrZaOHlk09QApIW19Fev;
-        Expires=Tue, 26 Sep 2023 18:21:01 GMT; Path=/; SameSite=None
+      - AWSALB=AxkxbXy6w+nKRF6lh8x2tzWSBVsWeNGqCxfMdfcWFzcPOkmOnaq4p4t+B6zQLfXlBxs4vuElHPTCuXs9O/GiEXL9rK4ppphOjPkElhsTW+U2jNpgpIzxhwjiHgjY;
+        Expires=Sun, 15 Oct 2023 01:21:15 GMT; Path=/
+      - AWSALBCORS=AxkxbXy6w+nKRF6lh8x2tzWSBVsWeNGqCxfMdfcWFzcPOkmOnaq4p4t+B6zQLfXlBxs4vuElHPTCuXs9O/GiEXL9rK4ppphOjPkElhsTW+U2jNpgpIzxhwjiHgjY;
+        Expires=Sun, 15 Oct 2023 01:21:15 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -64,5 +64,5 @@ http_interactions:
         Natur mit Beschreibungen \/"],"prefix":"10.5962","author":[{"given":"H. C.","family":"Kuster","sequence":"first","affiliation":[]},{"given":"Johann
         Hieronymus","family":"Chemnitz","sequence":"additional","affiliation":[]},{"given":"Friedrich
         Heinrich Wilhelm","family":"Martini","sequence":"additional","affiliation":[]}],"member":"3444","container-title":[],"original-title":[],"deposited":{"date-parts":[[2017,1,30]],"date-time":"2017-01-30T01:00:18Z","timestamp":1485738018000},"score":1,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/124254"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1852]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.124254","relation":{},"published":{"date-parts":[[1852]]}}}'
-  recorded_at: Tue, 19 Sep 2023 18:21:01 GMT
+  recorded_at: Sun, 08 Oct 2023 01:21:15 GMT
 recorded_with: VCR 6.2.0
