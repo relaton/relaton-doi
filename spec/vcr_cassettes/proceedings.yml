@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.7.11 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.12 Serrano/v1.4 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v2.7.11 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.12 Serrano/v1.4 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 08 Oct 2023 01:21:35 GMT
+      - Thu, 23 Nov 2023 05:43:24 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1434'
       Set-Cookie:
-      - AWSALB=6TtLPDHOzpJPDXWukXM55DrIkHpcefBE9ahuG8ZJI2KirbdKS06EdH+N09F04PBxlkrjGlP7ejo1g1k6NT3GjKg58NnbmLzgEmewzO00iWrqKrC6FgHzDlhyLQy+;
-        Expires=Sun, 15 Oct 2023 01:21:35 GMT; Path=/
-      - AWSALBCORS=6TtLPDHOzpJPDXWukXM55DrIkHpcefBE9ahuG8ZJI2KirbdKS06EdH+N09F04PBxlkrjGlP7ejo1g1k6NT3GjKg58NnbmLzgEmewzO00iWrqKrC6FgHzDlhyLQy+;
-        Expires=Sun, 15 Oct 2023 01:21:35 GMT; Path=/; SameSite=None
+      - AWSALB=uiwzWAE08bH0/BNKlYsENpSgnt11bMY6bnf+ryNj4fKTw5FGRF6uQNWpwpGXzx5sYB/eNgUC0TAwTNS5frk/7q8eUYJnCYtoGRzzWUYeJxUbGEXKgbiuehuose6t;
+        Expires=Thu, 30 Nov 2023 05:43:24 GMT; Path=/
+      - AWSALBCORS=uiwzWAE08bH0/BNKlYsENpSgnt11bMY6bnf+ryNj4fKTw5FGRF6uQNWpwpGXzx5sYB/eNgUC0TAwTNS5frk/7q8eUYJnCYtoGRzzWUYeJxUbGEXKgbiuehuose6t;
+        Expires=Thu, 30 Nov 2023 05:43:24 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -64,5 +64,5 @@ http_interactions:
         - ICCCS ''11"],"prefix":"10.1145","member":"320","event":{"name":"the 2011
         International Conference","location":"Rourkela, Odisha, India","acronym":"ICCCS
         ''11","number":"2011","start":{"date-parts":[[2011,2,12]]},"end":{"date-parts":[[2011,2,14]]}},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2011,3,4]],"date-time":"2011-03-04T13:14:55Z","timestamp":1299244495000},"score":1,"resource":{"primary":{"URL":"http:\/\/portal.acm.org\/citation.cfm?doid=1947940"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2011]]},"ISBN":["9781450304641"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1145\/1947940","relation":{},"published":{"date-parts":[[2011]]}}}'
-  recorded_at: Sun, 08 Oct 2023 01:21:35 GMT
+  recorded_at: Thu, 23 Nov 2023 05:43:24 GMT
 recorded_with: VCR 6.2.0

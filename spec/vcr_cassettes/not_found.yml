@@ -8,9 +8,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.7.11 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.12 Serrano/v1.4 (mailto:open.source@ribose.com)
       X-User-Agent:
-      - Faraday/v2.7.11 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Faraday/v2.7.12 Serrano/v1.4 (mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +21,16 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Sun, 08 Oct 2023 01:20:18 GMT
+      - Thu, 23 Nov 2023 05:42:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
       - chunked
       Set-Cookie:
-      - AWSALB=IdKXpp3d4ya4tDdZ6YzE6ND3sMC3kW1bCgjSPmeYnv5Pjgx07rw1VNB+Kw5caz5KhURQEwUHIy4ctk95ruzcFF8fNvGgjNyLhEIOsICeJehFFi9IvCgpvShz3nSk;
-        Expires=Sun, 15 Oct 2023 01:20:18 GMT; Path=/
-      - AWSALBCORS=IdKXpp3d4ya4tDdZ6YzE6ND3sMC3kW1bCgjSPmeYnv5Pjgx07rw1VNB+Kw5caz5KhURQEwUHIy4ctk95ruzcFF8fNvGgjNyLhEIOsICeJehFFi9IvCgpvShz3nSk;
-        Expires=Sun, 15 Oct 2023 01:20:18 GMT; Path=/; SameSite=None
+      - AWSALB=o223QLisEjXq8v3Nv2jWdkskrdtpnIyesYow1RwKn37vpgTxhBwotQrZwMCdK5vIIETE24zoFW3n0Y7T7yKUliXMLTn907E/L/DIEiJScMLiW5pWJwVLPo8Tl8Zw;
+        Expires=Thu, 30 Nov 2023 05:42:37 GMT; Path=/
+      - AWSALBCORS=o223QLisEjXq8v3Nv2jWdkskrdtpnIyesYow1RwKn37vpgTxhBwotQrZwMCdK5vIIETE24zoFW3n0Y7T7yKUliXMLTn907E/L/DIEiJScMLiW5pWJwVLPo8Tl8Zw;
+        Expires=Thu, 30 Nov 2023 05:42:37 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -57,5 +57,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: Resource not found.
-  recorded_at: Sun, 08 Oct 2023 01:20:18 GMT
+  recorded_at: Thu, 23 Nov 2023 05:42:37 GMT
 recorded_with: VCR 6.2.0

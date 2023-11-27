@@ -142,7 +142,7 @@ module RelatonDoi
     # @return [String] The document type.
     #
     def parse_doctype
-      @src["type"]
+      RelatonBib::DocumentType.new type: @src["type"]
     end
 
     #
