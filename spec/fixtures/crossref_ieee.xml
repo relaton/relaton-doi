@@ -1,5 +1,5 @@
-<bibdata type="standard" schema-version="v1.2.5">
-  <fetched>2023-03-29</fetched>
+<bibdata type="standard" schema-version="v1.2.8">
+  <fetched>2023-12-02</fetched>
   <title type="main" format="text/plain" script="Latn">IEEE Standard for Software Quality Assurance Processes</title>
   <uri type="DOI">http://dx.doi.org/10.1109/ieeestd.2014.6835311</uri>
   <uri type="src">https://ieeexplore.ieee.org/document/6835311</uri>
@@ -25,7 +25,7 @@
     <city>Piscataway</city>
     <region>NJ</region>
   </place>
-  <ext schema-version="v1.0.0">
+  <ext schema-version="v1.0.1">
     <doctype>standard</doctype>
   </ext>
 </bibdata>
