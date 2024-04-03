@@ -14,6 +14,8 @@ https://github.com/metanorma/metanorma-model-iso#iso-bibliographic-item[IsoBibli
 You can use it to retrieve metadata of Standards from https://crossref.org, and
 access such metadata through the `BibliographicItem` object.
 
+To collect metadata this gem makes a few requests to the CrossRef API. It may take a few seconds to get the metadata.
+
 == Installation
 
 Add this line to your application's Gemfile:
