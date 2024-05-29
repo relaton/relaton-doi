@@ -1,9 +1,13 @@
 <bibdata type="inbook" schema-version="v1.2.8">
-  <fetched>2023-03-29</fetched>
+  <fetched>2024-04-03</fetched>
   <title type="main" format="text/plain" script="Latn">Culinary arts: Talent and their development.</title>
   <uri type="DOI">http://dx.doi.org/10.1037/0000120-016</uri>
-  <uri type="src">http://content.apa.org/books/16096-016</uri>
+  <uri type="src">https://content.apa.org/books/16096-016</uri>
   <docidentifier type="DOI" primary="true">10.1037/0000120-016</docidentifier>
+  <docidentifier type="ISBN">1433829886</docidentifier>
+  <docidentifier type="ISBN">1433830388</docidentifier>
+  <docidentifier type="ISBN">9781433829888</docidentifier>
+  <docidentifier type="ISBN">9781433830389</docidentifier>
   <date type="issued">
     <on>2019</on>
   </date>

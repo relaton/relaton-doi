@@ -21,16 +21,16 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Wed, 03 Jan 2024 04:23:49 GMT
+      - Wed, 03 Apr 2024 15:03:42 GMT
       Content-Type:
-      - application/json
+      - text/plain
       Transfer-Encoding:
       - chunked
       Set-Cookie:
-      - AWSALB=Bk+7Kq40PZX0tiPhTF2Gr43rarij0839btHMB3WF/FJBiW303AhyqGzhPom/StMYflH2pZVfmTVc50Wpre3fb5mjLnS4kcYVSysW7bmCE5QH7zin2ms0trGEIyJY;
-        Expires=Wed, 10 Jan 2024 04:23:49 GMT; Path=/
-      - AWSALBCORS=Bk+7Kq40PZX0tiPhTF2Gr43rarij0839btHMB3WF/FJBiW303AhyqGzhPom/StMYflH2pZVfmTVc50Wpre3fb5mjLnS4kcYVSysW7bmCE5QH7zin2ms0trGEIyJY;
-        Expires=Wed, 10 Jan 2024 04:23:49 GMT; Path=/; SameSite=None
+      - AWSALB=tSQbLFO4b2Y/C9ZOide2a/KYBr3Z9q/ZdwMc8C9CAJTz8DRZU1B2NTsw5XSdPFRVWAwNpHDZku/riSguMapxuJuBObZdLw9EyuV4EY0Ltr3TCiTsZbYYOw7i+n9d;
+        Expires=Wed, 10 Apr 2024 15:03:42 GMT; Path=/
+      - AWSALBCORS=tSQbLFO4b2Y/C9ZOide2a/KYBr3Z9q/ZdwMc8C9CAJTz8DRZU1B2NTsw5XSdPFRVWAwNpHDZku/riSguMapxuJuBObZdLw9EyuV4EY0Ltr3TCiTsZbYYOw7i+n9d;
+        Expires=Wed, 10 Apr 2024 15:03:42 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -57,5 +57,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: Resource not found.
-  recorded_at: Wed, 03 Jan 2024 04:23:49 GMT
+  recorded_at: Wed, 03 Apr 2024 15:03:42 GMT
 recorded_with: VCR 6.2.0
