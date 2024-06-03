@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 03 Apr 2024 15:09:36 GMT
+      - Thu, 30 May 2024 15:47:23 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1215'
+      - '1189'
       Set-Cookie:
-      - AWSALB=XQAQnS/vPIe7rtc/7nriaiedD5hKKc3oHTLj/xdZufDCCa4vZQx7e54Xcf66oEuOn0HAnx5/VIqNJW6rZxJjuLcKPKV4N6mwgJEkayGH3jzDOWNFL6vAzvT3bIPR;
-        Expires=Wed, 10 Apr 2024 15:09:36 GMT; Path=/
-      - AWSALBCORS=XQAQnS/vPIe7rtc/7nriaiedD5hKKc3oHTLj/xdZufDCCa4vZQx7e54Xcf66oEuOn0HAnx5/VIqNJW6rZxJjuLcKPKV4N6mwgJEkayGH3jzDOWNFL6vAzvT3bIPR;
-        Expires=Wed, 10 Apr 2024 15:09:36 GMT; Path=/; SameSite=None
+      - AWSALB=8qavWljsnu7Se69nRmc08Q665rGErJOdIsOYBDdgvmgOSlkS61jsm+KhYd/WwAVIRhv7YMYtXv5jznkCOWQjLzAJWwxRiQAwv2zRUZ8wXsnu2tBFyhnFzOPJlZAa;
+        Expires=Thu, 06 Jun 2024 15:47:16 GMT; Path=/
+      - AWSALBCORS=8qavWljsnu7Se69nRmc08Q665rGErJOdIsOYBDdgvmgOSlkS61jsm+KhYd/WwAVIRhv7YMYtXv5jznkCOWQjLzAJWwxRiQAwv2zRUZ8wXsnu2tBFyhnFzOPJlZAa;
+        Expires=Thu, 06 Jun 2024 15:47:16 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -61,9 +61,8 @@ http_interactions:
       string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:10:25Z","timestamp":1648977025943},"reference-count":0,"publisher":"University
         of St. Augustine for Health Sciences Library","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":["SJOT"],"DOI":"10.46409\/001.rlpt5688","type":"journal-volume","created":{"date-parts":[[2021,12,31]],"date-time":"2021-12-31T05:46:13Z","timestamp":1640929573000},"source":"Crossref","is-referenced-by-count":0,"title":[],"prefix":"10.46409","volume":"1","member":"23747","container-title":["Fall
         2020, Innaugural Issue","Student Journal of Occupational Therapy"],"original-title":[],"deposited":{"date-parts":[[2021,12,31]],"date-time":"2021-12-31T05:46:13Z","timestamp":1640929573000},"score":1,"resource":{"primary":{"URL":"https:\/\/soar.usa.edu\/sjot\/vol1\/"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.46409\/001.rlpt5688","archive":["Internet
-        Archive"],"relation":{},"ISSN":["2689-1662"],"issn-type":[{"value":"2689-1662","type":"electronic"}],"subject":["General
-        Computer Science"]}}'
-  recorded_at: Wed, 03 Apr 2024 15:09:36 GMT
+        Archive"],"relation":{},"ISSN":["2689-1662"],"issn-type":[{"value":"2689-1662","type":"electronic"}],"subject":[]}}'
+  recorded_at: Thu, 30 May 2024 15:47:23 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Fall%2B2020,%2BInnaugural%2BIssue%2B2021%2BUniversity%2Bof%2BSt.%2BAugustine%2Bfor%2BHealth%2BSciences%2BLibrary
@@ -83,11 +82,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 03 Apr 2024 15:09:47 GMT
+      - Thu, 30 May 2024 15:47:29 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '33522'
+      - '82718'
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -115,8 +114,8 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":196915,"items":[{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T05:01:30Z","timestamp":1659502890001},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>For
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":197771,"items":[{"indexed":{"date-parts":[[2024,5,28]],"date-time":"2024-05-28T08:10:50Z","timestamp":1716883850359},"edition-number":"1","reference-count":0,"publisher":"Oxford
+        University PressOxford","isbn-type":[{"value":"0192846035","type":"print"},{"value":"9780192846037","type":"print"},{"value":"9780191938405","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<jats:title>Abstract<\/jats:title>\n               <jats:p>For
         Augustine, angels became demons in their failure to love God above all. This
         chapter gives an overview of that fall, beginning with Augustine\u2019s understanding
         of evil as pride\u2019s apostasy from God, moving on to examine two issues
@@ -133,166 +132,611 @@ http_interactions:
         treatment of the story of the fall of Adam and Eve, where the comparison of
         the fall of the angels to the human fall reveals a crucial component of Augustine\u2019s
         demonology: demons must assume some kind of embodiment in order to interact
-        with humans in history.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0003","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T19:39:19Z","timestamp":1634758759000},"page":"53-93","source":"Crossref","is-referenced-by-count":0,"title":["The
-        Fall of the Angels"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
-        Angels in the Theology of St Augustine"],"original-title":["The Fall of the
-        Angels"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:47Z","timestamp":1659472967000},"score":34.766876,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338633947"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0003","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T00:05:11Z","timestamp":1648685111156},"reference-count":0,"publisher":"University
+        with humans in history.<\/jats:p>","DOI":"10.1093\/oso\/9780192846037.003.0003","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T19:39:19Z","timestamp":1634758759000},"page":"53-93","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Fall of the Angels"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","container-title":["Fallen
+        Angels in the Theology of St Augustine"],"language":"en","link":[{"URL":"https:\/\/academic.oup.com\/book\/chapter-pdf\/57941581\/oso-9780192846037-chapter-3.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2024,5,28]],"date-time":"2024-05-28T07:39:55Z","timestamp":1716881995000},"score":29.259962,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338633947"}},"issued":{"date-parts":[[2021,9,23]]},"ISBN":["0192846035","9780192846037","9780191938405"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0003","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T00:05:11Z","timestamp":1648685111156},"reference-count":0,"publisher":"University
         of South Carolina Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,7,17]]},"DOI":"10.2307\/j.ctvrxk35v.10","type":"book-chapter","created":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:42Z","timestamp":1595365242000},"page":"39-50","source":"Crossref","is-referenced-by-count":0,"title":["The
         Reception at St. Augustine"],"prefix":"10.2307","member":"1121","container-title":["Patriots
-        in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:56Z","timestamp":1595365256000},"score":26.706738,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.10"}},"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.10","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:21Z","timestamp":1659502761802},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>The
-        concluding chapter considers the import of Augustine\u2019s religious or sacramental
-        understanding of demons presented in the work as a whole, against the backdrop
-        of the suspicion that Augustine\u2019s demonology is an obsolete aspect of
-        his thought, remote in one way or another from present-day concerns. This
-        import is articulated first in terms of the theology of atonement and the
-        specific question of ransoming the devil, which suggests that restoration
-        of humanity\u2019s relationship with God simultaneously requires freedom from
-        the fallen social, political, and religious powers that enslave them. The
-        risk of missing this is then explored briefly in an assessment of Charles
-        Mathewes\u2019 rejection of demons in his Augustinian and Arendtian \u2018political
-        ontology.\u2019 This assessment makes it clear that dismissing demons as irrelevant
-        to or undermining the socio-political order threatens to construct exactly
-        the demonic idols, the gods of the nations, about which Augustine is most
-        concerned.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0008","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:30:12Z","timestamp":1634765412000},"page":"222-232","source":"Crossref","is-referenced-by-count":0,"title":["Conclusion"],"prefix":"10.1093","author":[{"given":"Gregory
-        D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
-        Angels in the Theology of St Augustine"],"original-title":["Conclusion"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:49Z","timestamp":1659472969000},"score":26.508718,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338636124"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0008","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T05:01:40Z","timestamp":1659502900392},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>The
-        Introduction sets the context of the project within scholarly suspicion that
-        demons are an archaic holdover from the Christianity of Augustine\u2019s historical
-        setting. It proceeds to suggest that before demons are dismissed in this manner,
-        a greater effort should be made to understand what Augustine means in the
-        first place when he speaks of demons, and that this is the principle goal
-        of the work as a whole. Following an overview of the chapter structure of
-        the work, some notes on sources are offered to provide additional context
-        for the project. First, the principal works of Augustine\u2019s consulted
-        throughout the study are identified, with particular attention paid to the
-        <italic>City of God<\/italic>. After this, the principle sources Augustine
-        himself used for his demonology are highlighted, especially Apuleius of Madaura
-        and Porphyry of Tyre.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0001","type":"book-chapter","created":{"date-parts":[[2021,10,26]],"date-time":"2021-10-26T06:27:33Z","timestamp":1635229653000},"page":"1-15","source":"Crossref","is-referenced-by-count":0,"title":["Introduction"],"prefix":"10.1093","author":[{"given":"Gregory
-        D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
-        Angels in the Theology of St Augustine"],"original-title":["Introduction"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:47Z","timestamp":1659472967000},"score":26.499973,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338632863"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0001","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:50Z","timestamp":1659502790758},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
-        chapter considers a variety of phenomena by which demons are perceived, focusing
-        upon the more wondrous or miraculous. For Augustine, demons have power only
-        over bodies and appearances, not human understanding and will. This restricts
-        demonic power to the natural, causal limitations of corporeal things, which
-        they only know externally\u2014scientifically, as it were\u2014and not contemplatively
-        in God as the angels do. It also makes it possible for the saints to resist
-        them with virtue, by which demons are made the \u2018sport of angels\u2019.
-        This is demonstrated by a review of a variety of demonic phenomena that appear
-        in Augustine\u2019s writings including divination, prodigies, signs, temptation,
-        and possession, which are analysed according to the two basic categories of
-        deception and affliction. The chapter ends with a comparison of angelic and
-        demonic miracles. Occasionally Augustine claims that angelic miracles have
-        greater power than those of demons, but it is more essential in his work to
-        differentiate them not according to their perceived power but by their meaning.
-        The self-love in which they fell is the self-love to which all the works of
-        demons ultimately refer and by which they are identifiable in those works.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0005","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T19:13:41Z","timestamp":1634757221000},"page":"120-146","source":"Crossref","is-referenced-by-count":0,"title":["Demonic
-        Phenomena"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
-        Angels in the Theology of St Augustine"],"original-title":["Demonic Phenomena"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:48Z","timestamp":1659472968000},"score":26.065014,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338635182"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0005","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:16Z","timestamp":1659502756266},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
-        chapter continues the investigation of signs and sacraments of demons in pagan
-        religion and its gods, which Augustine sees as the very foundation of Rome\u2019s
-        history of moral corruption. It shows what Augustine thinks is particularly
-        demonic in Roman polytheism, both as it is presented most straightforwardly
-        to the public and as it is understood by its most clever interpreters, chiefly
-        the Platonists, Apuleius, and Porphyry. This analysis reveals that Augustine\u2019s
-        demons interact with and manifest among humanity in three principal ways:
-        the straightforward imitation of demonic pride, the demons\u2019 administration
-        of false religion as though they were true angels, and, folding these two
-        together, the promotion of religion known to be false for the sake of possessing
-        other people politically. The chapter concludes with Augustine\u2019s commendation
-        of ecclesial incorporation into Christ as true and good, where demonic religion
-        is false and wicked, and thus as the primary means by which humanity is to
-        find freedom from such possession by the lordship of demons.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0007","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T19:20:38Z","timestamp":1634757638000},"page":"178-221","source":"Crossref","is-referenced-by-count":0,"title":["Pagan
-        Demonolatry"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
-        Angels in the Theology of St Augustine"],"original-title":["Pagan Demonolatry"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:49Z","timestamp":1659472969000},"score":26.046345,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338635735"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0007","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:50Z","timestamp":1659502790826},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
-        chapter further investigates the question of demons and bodies, beginning
-        with the traditional belief that demons have bodies of air which Augustine
-        inherited from both Christians and philosophers. In Augustine\u2019s philosophically
-        rigorous reflections upon the nature of visions, he adopts a scripturally
-        prescribed reticence to speculate about the causal origins of visions that
-        makes it impossible to say that the demon\u2019s aerial body is the means
-        by which it appears to humans. In this way Augustine maintains a crucial ontological
-        distinction between the demonic nature itself and the various miracles, possessions,
-        and other phenomena by which it appears. An aerial body is not, strictly speaking,
-        a historical body per se, and is instead a way of speaking about the unknowable
-        methods by which demons do, in fact, appear among humans.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0004","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:46:07Z","timestamp":1634766367000},"page":"94-119","source":"Crossref","is-referenced-by-count":0,"title":["Demonic
-        Bodies"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
-        Angels in the Theology of St Augustine"],"original-title":["Demonic Bodies"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:48Z","timestamp":1659472968000},"score":26.031153,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338634638"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0004","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T13:07:53Z","timestamp":1648904873965},"reference-count":0,"publisher":"University
+        in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:56Z","timestamp":1595365256000},"score":26.672037,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.10"}},"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.10","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T13:07:53Z","timestamp":1648904873965},"reference-count":0,"publisher":"University
         Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2015,9,9]]},"DOI":"10.2307\/j.ctvx06z6g.10","type":"book-chapter","created":{"date-parts":[[2020,2,19]],"date-time":"2020-02-19T20:21:06Z","timestamp":1582143666000},"page":"104-133","source":"Crossref","is-referenced-by-count":0,"title":["Historic
         Preservation in St. Augustine"],"prefix":"10.2307","member":"1121","container-title":["Hotel
-        Ponce de Leon"],"deposited":{"date-parts":[[2020,2,19]],"date-time":"2020-02-19T20:21:41Z","timestamp":1582143701000},"score":25.97358,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvx06z6g.10"}},"issued":{"date-parts":[[2015,9,9]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvx06z6g.10","published":{"date-parts":[[2015,9,9]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T06:38:18Z","timestamp":1648708698427},"reference-count":0,"publisher":"University
+        Ponce de Leon"],"deposited":{"date-parts":[[2020,2,19]],"date-time":"2020-02-19T20:21:41Z","timestamp":1582143701000},"score":25.806166,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvx06z6g.10"}},"issued":{"date-parts":[[2015,9,9]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvx06z6g.10","published":{"date-parts":[[2015,9,9]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T06:38:18Z","timestamp":1648708698427},"reference-count":0,"publisher":"University
         of South Carolina Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,7,17]]},"DOI":"10.2307\/j.ctvrxk35v.21","type":"book-chapter","created":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:42Z","timestamp":1595365242000},"page":"169-172","source":"Crossref","is-referenced-by-count":0,"title":["Appendix
-        B"],"prefix":"10.2307","member":"1121","container-title":["Patriots in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:01:12Z","timestamp":1595365272000},"score":25.530193,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.21"}},"subtitle":["How
-        Many Patriots Were Exiled to St. Augustine?"],"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.21","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2023,9,13]],"date-time":"2023-09-13T19:15:09Z","timestamp":1694632509923},"publisher-location":"Dordrecht","reference-count":0,"publisher":"Springer
+        B"],"prefix":"10.2307","member":"1121","container-title":["Patriots in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:01:12Z","timestamp":1595365272000},"score":25.45302,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.21"}},"subtitle":["How
+        Many Patriots Were Exiled to St. Augustine?"],"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.21","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2024,4,28]],"date-time":"2024-04-28T11:15:14Z","timestamp":1714302914926},"publisher-location":"Dordrecht","reference-count":0,"publisher":"Springer
         Netherlands","isbn-type":[{"value":"9781402056130","type":"print"},{"value":"9781402056147","type":"electronic"}],"license":[{"start":{"date-parts":[[2008,1,1]],"date-time":"2008-01-01T00:00:00Z","timestamp":1199145600000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2008,1,1]],"date-time":"2008-01-01T00:00:00Z","timestamp":1199145600000},"content-version":"vor","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2008,1,1]],"date-time":"2008-01-01T00:00:00Z","timestamp":1199145600000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2008,1,1]],"date-time":"2008-01-01T00:00:00Z","timestamp":1199145600000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2008]]},"DOI":"10.1007\/978-1-4020-5614-7_3356","type":"book-chapter","created":{"date-parts":[[2008,6,2]],"date-time":"2008-06-02T13:28:55Z","timestamp":1212413335000},"page":"1348-1348","source":"Crossref","is-referenced-by-count":0,"title":["St.
         Augustine"],"prefix":"10.1007","member":"297","container-title":["Encyclopedia
-        of Public Health"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4020-5614-7_3356","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,2]],"date-time":"2022-09-02T17:59:45Z","timestamp":1662141585000},"score":25.282942,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-1-4020-5614-7_3356"}},"issued":{"date-parts":[[2008]]},"ISBN":["9781402056130","9781402056147"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4020-5614-7_3356","published":{"date-parts":[[2008]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:27Z","timestamp":1659502767075},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
-        chapter establishes the creator-created, eternal-temporal distinction that
-        is foundational for Augustine\u2019s theology. This distinction forms the
-        basis for his reflections upon the creation account of Genesis, in which he
-        attempts to locate creation of the angels. But it also defines the problem
-        that the angels are to help solve, namely, how humans are to know and love
-        God in the remoteness of God\u2019s eternity. For Augustine, angels are created
-        wisdom, enlightened in their love of God, perfected at the beginning of their
-        creation, always beholding the Father\u2019s face. As perfected intellectual
-        spirits, angels possess a knowledge of creation in God that allows them to
-        oversee all of creation. In this administrative role it is the angels\u2019
-        responsibility to be God\u2019s external, volitional mode of providence for
-        the whole cosmos, seeing in God through their ceaseless contemplation what
-        ought to occur in God\u2019s creation and carrying it out as required. For
-        Augustine, the primary goal of this angelic office is to testify to the incarnation
-        of the Son of God, not only with miracles and theophanies, but also by working
-        through human institutions, most notably in their administration of the Holy
-        Scriptures themselves.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0002","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:58:15Z","timestamp":1634767095000},"page":"16-52","source":"Crossref","is-referenced-by-count":0,"title":["The
-        Angels of God"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
-        Angels in the Theology of St Augustine"],"original-title":["The Angels of
-        God"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:48Z","timestamp":1659472968000},"score":25.204039,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338633138"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0002","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T09:39:09Z","timestamp":1648805949682},"reference-count":0,"publisher":"University
-        of South Carolina Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,7,17]]},"DOI":"10.2307\/j.ctvrxk35v.20","type":"book-chapter","created":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:42Z","timestamp":1595365242000},"page":"155-168","source":"Crossref","is-referenced-by-count":0,"title":["Appendix
-        A"],"prefix":"10.2307","member":"1121","container-title":["Patriots in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:01:10Z","timestamp":1595365270000},"score":25.02811,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.20"}},"subtitle":["Who
-        Were the Patriots Exiled to St. Augustine in 1780?"],"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.20","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2023,9,13]],"date-time":"2023-09-13T08:10:59Z","timestamp":1694592659895},"reference-count":0,"publisher":"Bloomsbury
+        of Public Health"],"language":"en","link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4020-5614-7_3356","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,2]],"date-time":"2022-09-02T17:59:45Z","timestamp":1662141585000},"score":25.167294,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-1-4020-5614-7_3356"}},"issued":{"date-parts":[[2008]]},"ISBN":["9781402056130","9781402056147"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4020-5614-7_3356","published":{"date-parts":[[2008]]}},{"indexed":{"date-parts":[[2023,9,13]],"date-time":"2023-09-13T08:10:59Z","timestamp":1694592659895},"reference-count":0,"publisher":"Bloomsbury
         Academic","isbn-type":[{"value":"9780826426611","type":"print"},{"value":"9781472541529","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781472541529.ch-007","type":"book-chapter","created":{"date-parts":[[2014,9,12]],"date-time":"2014-09-12T14:52:14Z","timestamp":1410533534000},"source":"Crossref","is-referenced-by-count":0,"title":["St.
         Augustine and the Defense of Liberal Education"],"prefix":"10.5040","member":"2984","container-title":["St
-        Augustine"],"deposited":{"date-parts":[[2023,9,12]],"date-time":"2023-09-12T02:23:39Z","timestamp":1694485419000},"score":25.024206,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/monograph-detail?docid=b-9781472541529&tocid=b-9781472541529-chapter7"}},"issued":{"date-parts":[[null]]},"ISBN":["9780826426611","9781472541529"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781472541529.ch-007"},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:59:22Z","timestamp":1659502762597},"reference-count":0,"publisher":"Oxford
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,9,23]]},"abstract":"<p>This
-        chapter begins to consider Augustine\u2019s perception of the history of Rome
-        and its false gods as the history of the demons themselves, as the most profound
-        works of demons are not individual miracles but the religious institutions
-        of the earthly city. The demons\u2019 fall away from God produces a rival
-        symbolic order to Christ\u2019s angelic ministers, one which manifests in
-        a corporate opposition to Christ\u2019s body. The contrary referents of the
-        work of angels and demons correspond to contrary sacraments, which constitute
-        contrary historical bodies: the body of Christ, which is identified with the
-        church in Augustine\u2019s doctrine of <italic>totus Christus<\/italic>, and
-        the body of the devil, the exemplar of which, for Augustine, is pagan Rome.
-        Augustine\u2019s understanding of the earthly city is informed by a concept
-        of disordered, demonic sacraments, and the paradigm for this is his discussion
-        of Hermetic \u2018god-making\u2019. In this paradigm, human myths and artefacts
-        manifest a demonic sacramental regime when they are elevated to divine status
-        and given cult, a euhemeristic movement that demons both receive as worship
-        and confirm with wonders.<\/p>","DOI":"10.1093\/oso\/9780192846037.003.0006","type":"book-chapter","created":{"date-parts":[[2021,10,20]],"date-time":"2021-10-20T21:17:09Z","timestamp":1634764629000},"page":"147-177","source":"Crossref","is-referenced-by-count":0,"title":["The
-        Devil and His Body"],"prefix":"10.1093","author":[{"given":"Gregory D.","family":"Wiebe","sequence":"first","affiliation":[]}],"member":"286","published-online":{"date-parts":[[2021,10,21]]},"container-title":["Fallen
-        Angels in the Theology of St Augustine"],"original-title":["The Devil and
-        His Body"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T20:42:48Z","timestamp":1659472968000},"score":24.818764,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/39169\/chapter\/338635445"}},"issued":{"date-parts":[[2021,9,23]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/oso\/9780192846037.003.0006","published":{"date-parts":[[2021,9,23]]}},{"indexed":{"date-parts":[[2023,9,13]],"date-time":"2023-09-13T08:10:54Z","timestamp":1694592654116},"reference-count":0,"publisher":"Bloomsbury
+        Augustine"],"deposited":{"date-parts":[[2023,9,12]],"date-time":"2023-09-12T02:23:39Z","timestamp":1694485419000},"score":24.94561,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/monograph-detail?docid=b-9781472541529&tocid=b-9781472541529-chapter7"}},"issued":{"date-parts":[[null]]},"ISBN":["9780826426611","9781472541529"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781472541529.ch-007"},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T09:39:09Z","timestamp":1648805949682},"reference-count":0,"publisher":"University
+        of South Carolina Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,7,17]]},"DOI":"10.2307\/j.ctvrxk35v.20","type":"book-chapter","created":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:42Z","timestamp":1595365242000},"page":"155-168","source":"Crossref","is-referenced-by-count":0,"title":["Appendix
+        A"],"prefix":"10.2307","member":"1121","container-title":["Patriots in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:01:10Z","timestamp":1595365270000},"score":24.931404,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.20"}},"subtitle":["Who
+        Were the Patriots Exiled to St. Augustine in 1780?"],"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.20","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2023,9,13]],"date-time":"2023-09-13T08:10:54Z","timestamp":1694592654116},"reference-count":0,"publisher":"Bloomsbury
         Academic","isbn-type":[{"value":"9780826426611","type":"print"},{"value":"9781472541529","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781472541529.ch-001","type":"book-chapter","created":{"date-parts":[[2014,9,12]],"date-time":"2014-09-12T14:52:14Z","timestamp":1410533534000},"source":"Crossref","is-referenced-by-count":0,"title":["Approaching
-        Augustine"],"prefix":"10.5040","member":"2984","container-title":["St Augustine"],"deposited":{"date-parts":[[2023,9,12]],"date-time":"2023-09-12T02:23:33Z","timestamp":1694485413000},"score":24.80119,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/monograph-detail?docid=b-9781472541529&tocid=b-9781472541529-chapter1"}},"issued":{"date-parts":[[null]]},"ISBN":["9780826426611","9781472541529"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781472541529.ch-001"},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T23:19:42Z","timestamp":1648768782096},"reference-count":0,"publisher":"University
+        Augustine"],"prefix":"10.5040","member":"2984","container-title":["St Augustine"],"deposited":{"date-parts":[[2023,9,12]],"date-time":"2023-09-12T02:23:33Z","timestamp":1694485413000},"score":24.743675,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/monograph-detail?docid=b-9781472541529&tocid=b-9781472541529-chapter1"}},"issued":{"date-parts":[[null]]},"ISBN":["9780826426611","9781472541529"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781472541529.ch-001"},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T23:19:42Z","timestamp":1648768782096},"reference-count":0,"publisher":"University
         Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,5,27]]},"DOI":"10.5744\/florida\/9780813049373.003.0009","type":"book-chapter","created":{"date-parts":[[2014,10,14]],"date-time":"2014-10-14T17:28:20Z","timestamp":1413307700000},"page":"101-124","source":"Crossref","is-referenced-by-count":0,"title":["Transforming
         St. Augustine, 1887"],"prefix":"10.5744","author":[{"given":"Thomas","family":"Graham","sequence":"first","affiliation":[]}],"member":"3749","container-title":["Mr.
-        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-9","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:20Z","timestamp":1469474300000},"score":24.768585,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-9"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0009","published":{"date-parts":[[2014,5,27]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T20:11:49Z","timestamp":1649189509377},"reference-count":0,"publisher":"University
+        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-9","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:20Z","timestamp":1469474300000},"score":24.689829,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-9"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0009","published":{"date-parts":[[2014,5,27]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T20:11:49Z","timestamp":1649189509377},"reference-count":0,"publisher":"University
         Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,5,27]]},"DOI":"10.5744\/florida\/9780813049373.003.0021","type":"book-chapter","created":{"date-parts":[[2014,10,14]],"date-time":"2014-10-14T17:28:20Z","timestamp":1413307700000},"page":"442-475","source":"Crossref","is-referenced-by-count":0,"title":["Returning
         to St. Augustine, 1906\u20131911"],"prefix":"10.5744","author":[{"given":"Thomas","family":"Graham","sequence":"first","affiliation":[]}],"member":"3749","container-title":["Mr.
-        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-21","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:23Z","timestamp":1469474303000},"score":24.333374,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-21"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0021","published":{"date-parts":[[2014,5,27]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T11:04:10Z","timestamp":1648724650215},"reference-count":0,"publisher":"The
+        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-21","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:23Z","timestamp":1469474303000},"score":24.300308,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-21"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0021","published":{"date-parts":[[2014,5,27]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T11:04:10Z","timestamp":1648724650215},"reference-count":0,"publisher":"The
         Lutterworth Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021,1,28]]},"DOI":"10.2307\/j.ctv1j13z2z.7","type":"book-chapter","created":{"date-parts":[[2021,3,18]],"date-time":"2021-03-18T20:19:42Z","timestamp":1616098782000},"page":"32-40","source":"Crossref","is-referenced-by-count":0,"title":["Augustine"],"prefix":"10.2307","member":"1121","container-title":["Truth
-        and Reality"],"deposited":{"date-parts":[[2021,3,18]],"date-time":"2021-03-18T20:19:49Z","timestamp":1616098789000},"score":24.207846,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv1j13z2z.7"}},"issued":{"date-parts":[[2021,1,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv1j13z2z.7","published":{"date-parts":[[2021,1,28]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T04:34:42Z","timestamp":1648960482614},"reference-count":0,"publisher":"University
-        Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,5,27]]},"DOI":"10.5744\/florida\/9780813049373.003.0001","type":"book-chapter","created":{"date-parts":[[2014,10,14]],"date-time":"2014-10-14T17:28:20Z","timestamp":1413307700000},"page":"1-9","source":"Crossref","is-referenced-by-count":0,"title":["Dr.
-        Anderson of St. Augustine, 1839\u20131880"],"prefix":"10.5744","author":[{"given":"Thomas","family":"Graham","sequence":"first","affiliation":[]}],"member":"3749","container-title":["Mr.
-        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:17Z","timestamp":1469474297000},"score":24.10033,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-1"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0001","published":{"date-parts":[[2014,5,27]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T04:13:38Z","timestamp":1648700018322},"reference-count":0,"publisher":"University
+        and Reality"],"deposited":{"date-parts":[[2021,3,18]],"date-time":"2021-03-18T20:19:49Z","timestamp":1616098789000},"score":24.15506,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctv1j13z2z.7"}},"issued":{"date-parts":[[2021,1,28]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctv1j13z2z.7","published":{"date-parts":[[2021,1,28]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T04:13:38Z","timestamp":1648700018322},"reference-count":0,"publisher":"University
         Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,5,27]]},"DOI":"10.5744\/florida\/9780813049373.003.0015","type":"book-chapter","created":{"date-parts":[[2014,10,14]],"date-time":"2014-10-14T17:28:20Z","timestamp":1413307700000},"page":"265-292","source":"Crossref","is-referenced-by-count":0,"title":["The
         Season in St. Augustine, 1892\u20131893"],"prefix":"10.5744","author":[{"given":"Thomas","family":"Graham","sequence":"first","affiliation":[]}],"member":"3749","container-title":["Mr.
-        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-15","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:22Z","timestamp":1469474302000},"score":24.10033,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-15"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0015","published":{"date-parts":[[2014,5,27]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Fall+2020,+Innaugural+Issue+2021+University+of+St.+Augustine+for+Health+Sciences+Library"}}}'
-  recorded_at: Wed, 03 Apr 2024 15:09:47 GMT
+        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-15","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:22Z","timestamp":1469474302000},"score":23.982391,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-15"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0015","published":{"date-parts":[[2014,5,27]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T04:34:42Z","timestamp":1648960482614},"reference-count":0,"publisher":"University
+        Press of Florida","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014,5,27]]},"DOI":"10.5744\/florida\/9780813049373.003.0001","type":"book-chapter","created":{"date-parts":[[2014,10,14]],"date-time":"2014-10-14T17:28:20Z","timestamp":1413307700000},"page":"1-9","source":"Crossref","is-referenced-by-count":0,"title":["Dr.
+        Anderson of St. Augustine, 1839\u20131880"],"prefix":"10.5744","author":[{"given":"Thomas","family":"Graham","sequence":"first","affiliation":[]}],"member":"3749","container-title":["Mr.
+        Flagler''s St. Augustine"],"link":[{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,7,25]],"date-time":"2016-07-25T19:18:17Z","timestamp":1469474297000},"score":23.982391,"resource":{"primary":{"URL":"http:\/\/florida.universitypressscholarship.com\/view\/10.5744\/florida\/9780813049373.001.0001\/upso-9780813049373-chapter-1"}},"issued":{"date-parts":[[2014,5,27]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5744\/florida\/9780813049373.003.0001","published":{"date-parts":[[2014,5,27]]}},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T10:23:38Z","timestamp":1648895018987},"reference-count":0,"publisher":"Catholic
+        University of America Press","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.2307\/j.ctt2853js.8","type":"book-chapter","created":{"date-parts":[[2017,9,7]],"date-time":"2017-09-07T05:17:15Z","timestamp":1504761435000},"page":"23-41","source":"Crossref","is-referenced-by-count":0,"title":["Robert
+        O\u2019Connell on the Fall of Soul in Augustine"],"prefix":"10.2307","member":"1121","container-title":["Saint
+        Augustine and the Fall of the Soul"],"deposited":{"date-parts":[[2018,5,9]],"date-time":"2018-05-09T09:30:25Z","timestamp":1525858225000},"score":23.598808,"resource":{"primary":{"URL":"https:\/\/www.jstor.org\/stable\/10.2307\/j.ctt2853js.8"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctt2853js.8"},{"indexed":{"date-parts":[[2023,9,13]],"date-time":"2023-09-13T08:10:54Z","timestamp":1694592654995},"reference-count":0,"publisher":"Bloomsbury
+        Academic","isbn-type":[{"value":"9780826426611","type":"print"},{"value":"9781472541529","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5040\/9781472541529.ch-006","type":"book-chapter","created":{"date-parts":[[2014,9,12]],"date-time":"2014-09-12T14:52:14Z","timestamp":1410533534000},"source":"Crossref","is-referenced-by-count":0,"title":["Augustine
+        and Some Philosophers of Education"],"prefix":"10.5040","member":"2984","container-title":["St
+        Augustine"],"deposited":{"date-parts":[[2023,9,12]],"date-time":"2023-09-12T02:23:38Z","timestamp":1694485418000},"score":23.47588,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/monograph-detail?docid=b-9781472541529&tocid=b-9781472541529-chapter6"}},"issued":{"date-parts":[[null]]},"ISBN":["9780826426611","9781472541529"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781472541529.ch-006"},{"indexed":{"date-parts":[[2024,5,11]],"date-time":"2024-05-11T18:58:36Z","timestamp":1715453916847},"publisher-location":"Cham","reference-count":166,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030053253","type":"print"},{"value":"9783030053253","type":"electronic"}],"license":[{"start":{"date-parts":[[2020,12,21]],"date-time":"2020-12-21T00:00:00Z","timestamp":1608508800000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,12,21]],"date-time":"2020-12-21T00:00:00Z","timestamp":1608508800000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,12,21]],"date-time":"2020-12-21T00:00:00Z","timestamp":1608508800000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2020,12,21]],"date-time":"2020-12-21T00:00:00Z","timestamp":1608508800000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-3-030-05325-3_119-1","type":"book-chapter","created":{"date-parts":[[2021,1,30]],"date-time":"2021-01-30T04:37:50Z","timestamp":1611981470000},"page":"1-32","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["United
+        Nations and Global Health"],"prefix":"10.1007","author":[{"given":"Doris","family":"Kirigia","sequence":"first","affiliation":[]},{"given":"Augustine","family":"Asante","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2020,12,21]]},"reference":[{"issue":"2","key":"119-1_CR1","first-page":"56","volume":"14","author":"WA
+        Adedeji","year":"2016","unstructured":"Adedeji WA (2016) The treasure called
+        antibiotics. Ann Ibadan Postgrad Med 14(2):56\u201357","journal-title":"Ann
+        Ibadan Postgrad Med"},{"key":"119-1_CR2","volume-title":"Deaths in Australia","author":"AIHW","year":"2020","unstructured":"AIHW
+        (2020) Deaths in Australia. Australian Institute of Health and Welfare, Canberra"},{"key":"119-1_CR3","unstructured":"Amnesty
+        International (2020). Exposed, silenced, attacked: Failures to protect health
+        and essential workers during the covid-19 pandemic, Amnesty International.
+        Available at: https:\/\/www.amnesty.org\/download\/Documents\/POL4025722020ENGLISH.PDF"},{"issue":"2","key":"119-1_CR4","doi-asserted-by":"publisher","DOI":"10.1136\/bmjgh-2016-000200","volume":"2","author":"AD
+        Asante","year":"2017","unstructured":"Asante AD, Irava W, Limwattananon S,
+        Hayen A, Martins J, Guinness L et al (2017) Financing for universal health
+        coverage in small island states: evidence from the Fiji Islands. BMJ Glob
+        Health 2(2):e000200","journal-title":"BMJ Glob Health"},{"issue":"10219","key":"119-1_CR5","doi-asserted-by":"publisher","first-page":"240","DOI":"10.1016\/S0140-6736(19)32523-1","volume":"395","author":"S
+        Asma","year":"2020","unstructured":"Asma S, Lozano R, Chatterji S, Swaminathan
+        S, de F\u00e1tima Marinho M, Yamamoto N et al (2020) Monitoring the health-related
+        Sustainable Development Goals: lessons learned and recommendations for improved
+        measurement. Lancet 395(10219):240\u2013246","journal-title":"Lancet"},{"key":"119-1_CR6","doi-asserted-by":"publisher","first-page":"610","DOI":"10.1016\/j.ijid.2020.05.059","volume":"96","author":"G
+        Bearman","year":"2020","unstructured":"Bearman G, Pryor R, Vokes R, Cooper
+        K, Doll M, Godbout EJ et al (2020) Reflections on the COVID-19 pandemic in
+        the USA: will we be better prepared next time? Int J Infect Dis 96:610\u2013613","journal-title":"Int
+        J Infect Dis"},{"issue":"10152","key":"119-1_CR7","doi-asserted-by":"publisher","first-page":"1072","DOI":"10.1016\/S0140-6736(18)31992-5","volume":"392","author":"JE
+        Bennett","year":"2018","unstructured":"Bennett JE, Stevens GA, Mathers CD,
+        Bonita R, Rehm J, Kruk ME et al (2018) NCD Countdown 2030: worldwide trends
+        in non-communicable disease mortality and progress towards Sustainable Development
+        Goal target 3.4. Lancet 392(10152):1072\u20131088","journal-title":"Lancet"},{"issue":"2","key":"119-1_CR8","doi-asserted-by":"publisher","first-page":"7","DOI":"10.1080\/00396338.2003.10321303","volume":"45","author":"M
+        Berdal","year":"2003","unstructured":"Berdal M (2003) The UN security council:
+        ineffective but indispensable. Survival 45(2):7\u201330","journal-title":"Survival"},{"issue":"10","key":"119-1_CR9","doi-asserted-by":"publisher","first-page":"909","DOI":"10.1136\/jech.2006.055590","volume":"62","author":"S
+        Bhattacharya","year":"2008","unstructured":"Bhattacharya S (2008) The World
+        Health Organization and global smallpox eradication. J Epidemiol Community
+        Health 62(10):909\u2013912","journal-title":"J Epidemiol Community Health"},{"key":"119-1_CR10","doi-asserted-by":"publisher","DOI":"10.1136\/bmj.k4433","volume":"363","author":"ZA
+        Bhutta","year":"2018","unstructured":"Bhutta ZA, Atun R, Ladher N, Abbasi
+        K (2018) Alma Ata and primary healthcare: back to the future. BMJ 363:k4433.
+        British Medical Journal Publishing Group","journal-title":"BMJ"},{"key":"119-1_CR11","volume-title":"Membership
+        in the United Nations and its specialized agencies","author":"L Blanchfield","year":"2014","unstructured":"Blanchfield
+        L, Browne MA (2014) Membership in the United Nations and its specialized agencies.
+        Congressional Research Service, Washington, DC"},{"key":"119-1_CR12","doi-asserted-by":"publisher","first-page":"549","DOI":"10.3389\/fimmu.2019.00549","volume":"10","author":"DE
+        Bloom","year":"2019","unstructured":"Bloom DE, Cadarette DJF i i (2019) Infectious
+        disease threats in the twenty-first century: strengthening the global response.
+        Front Immunol 10:549","journal-title":"Front Immunol"},{"key":"119-1_CR13","doi-asserted-by":"publisher","DOI":"10.1056\/NEJM198011273032204","volume-title":"The
+        confirmation and maintenance of smallpox eradication","author":"JG Breman","year":"1980","unstructured":"Breman
+        JG, Arita I, Unit SE, World Health Organization (1980) The confirmation and
+        maintenance of smallpox eradication. World Health Organization, Geneva"},{"issue":"1","key":"119-1_CR14","doi-asserted-by":"publisher","first-page":"62","DOI":"10.2105\/AJPH.2004.050831","volume":"96","author":"TM
+        Brown","year":"2006","unstructured":"Brown TM, Cueto M, Fee E (2006) The World
+        Health Organization and the transition from \u201cinternational\u201d to \u201cglobal\u201d
+        public health. Am J Public Health 96(1):62\u201372","journal-title":"Am J
+        Public Health"},{"key":"119-1_CR15","first-page":"66","volume":"78","author":"F
+        Castro-Leal","year":"2000","unstructured":"Castro-Leal F, Dayton J, Demery
+        L, Mehra K (2000) Public spending on health care in Africa: do the poor benefit?
+        Bull World Health Organ 78:66\u201374","journal-title":"Bull World Health
+        Organ"},{"key":"119-1_CR16","doi-asserted-by":"publisher","first-page":"55","DOI":"10.18356\/29f6bfc5-en","volume":"44","author":"M
+        Chan","year":"2007","unstructured":"Chan M (2007) Health and the MDGs the
+        challenges ahead. UN Chronicle 44:55","journal-title":"UN Chronicle"},{"key":"119-1_CR17","volume-title":"Swords
+        into plowshares: the problems and progress of international organization","author":"IL
+        Claude","year":"1971","unstructured":"Claude IL, Claude IL Jr (1971) Swords
+        into plowshares: the problems and progress of international organization.
+        Random House, New York"},{"issue":"2","key":"119-1_CR18","doi-asserted-by":"publisher","first-page":"277","DOI":"10.1377\/hlthaff.2015.1104","volume":"35","author":"SL
+        Cochi","year":"2016","unstructured":"Cochi SL, Hegg L, Kaur A, Pandak C, Jafari
+        H (2016) The global polio eradication initiative: progress, lessons learned,
+        and polio legacy transition planning. Health Aff 35(2):277\u2013283","journal-title":"Health
+        Aff"},{"key":"119-1_CR19","volume-title":"Closing the gap in a generation:
+        health equity through action on the social determinants of health: final report
+        of the commission on social determinants of health","author":"CSDH","year":"2008","unstructured":"CSDH
+        (2008) Closing the gap in a generation: health equity through action on the
+        social determinants of health: final report of the commission on social determinants
+        of health. Commission on Social Determinants of Health, World Health Organization,
+        Geneva"},{"issue":"11","key":"119-1_CR20","doi-asserted-by":"publisher","first-page":"1864","DOI":"10.2105\/AJPH.94.11.1864","volume":"94","author":"M
+        Cueto","year":"2004","unstructured":"Cueto M (2004) The origins of primary
+        health care and selective primary health care. J Am J Public Health 94(11):1864\u20131874","journal-title":"J
+        Am J Public Health"},{"issue":"5","key":"119-1_CR21","doi-asserted-by":"publisher","first-page":"287","DOI":"10.1155\/2006\/707296","volume":"17","author":"J
+        Davies","year":"2006","unstructured":"Davies J (2006) Where have all the antibiotics
+        gone? Can J Infect Dis Med Microbiol 17(5):\u200a287\u2013290","journal-title":"Can
+        J Infect Dis Med Microbiol"},{"issue":"581","key":"119-1_CR22","doi-asserted-by":"publisher","first-page":"875","DOI":"10.3399\/bjgp10X543998","volume":"60","author":"J
+        De Maeseneer","year":"2010","unstructured":"De Maeseneer J, Twagirumukiza
+        M (2010) The contribution of primary health care to global health. Br J Gen
+        Pract 60(581):875\u2013876","journal-title":"Br J Gen Pract"},{"issue":"2","key":"119-1_CR23","doi-asserted-by":"publisher","first-page":"81","DOI":"10.1080\/17571472.2008.11493214","volume":"1","author":"M
+        Exworthy","year":"2008","unstructured":"Exworthy M (2008) The enduring legacy
+        of Alma Ata: 30 years on. Lond J Primary Care 1(2):\u200a81\u201384","journal-title":"Lond
+        J Primary Care"},{"key":"119-1_CR24","volume-title":"An insider\u2019s guide
+        to the UN","author":"LM Fasulo","year":"2015","unstructured":"Fasulo LM (2015)
+        An insider\u2019s guide to the UN. Yale University Press, New Haven"},{"issue":"6","key":"119-1_CR25","doi-asserted-by":"publisher","first-page":"1629","DOI":"10.1377\/hlthaff.28.6.1629","volume":"28","author":"AS
+        Fauci","year":"2009","unstructured":"Fauci AS, Folkers GK (2009) Investing
+        to meet the scientific challenges of HIV\/AIDS. Health Aff 28(6):1629\u20131641","journal-title":"Health
+        Aff"},{"key":"119-1_CR26","volume-title":"Smallpox and its eradication","author":"F
+        Fenner","year":"1988","unstructured":"Fenner F, Henderson DA, Arita I, Jezek
+        Z, Ladnyi ID (1988) Smallpox and its eradication. World Health Organization,
+        Geneva"},{"key":"119-1_CR27","first-page":"229","volume":"9","author":"J Fitzpatrick","year":"1996","unstructured":"Fitzpatrick
+        J (1996) Revitalizing the 1951 refugee convention. Harv Human Rights J 9:229","journal-title":"Harv
+        Human Rights J"},{"issue":"19","key":"119-1_CR28","first-page":"1973","volume":"319","author":"MJ
+        Friedrich","year":"2018","unstructured":"Friedrich MJ (2018) Antibiotic consumption
+        increasing globally. JAMA 319(19):1973\u20131973","journal-title":"JAMA"},{"key":"119-1_CR29","doi-asserted-by":"publisher","first-page":"225","DOI":"10.1146\/annurev-publhealth-031210-101220","volume":"32","author":"S
+        Friel","year":"2011","unstructured":"Friel S, Marmot MG (2011) Action on the
+        social determinants of health and health inequities goes global. Annu Rev
+        Public Health 32:225\u2013236","journal-title":"Annu Rev Public Health"},{"issue":"7643","key":"119-1_CR30","doi-asserted-by":"publisher","first-page":"536","DOI":"10.1136\/bmj.39469.432118.AD","volume":"336","author":"S
+        Gillam","year":"2008","unstructured":"Gillam S (2008) Is the declaration of
+        Alma Ata still relevant to primary health care? BMJ (Clin Res ed) 336(7643):536\u2013538","journal-title":"BMJ
+        (Clin Res ed)"},{"issue":"3","key":"119-1_CR31","doi-asserted-by":"publisher","first-page":"273","DOI":"10.1093\/oxfordjournals.heapol.a018882","volume":"12","author":"L
+        Gilson","year":"1997","unstructured":"Gilson L (1997) The lessons of user
+        fee experience in Africa. Health Policy Plan 12(3):273\u2013285","journal-title":"Health
+        Policy Plan"},{"key":"119-1_CR32","volume-title":"Polio endgame strategy 2019\u20132023:
+        eradication, integration, certification and containment","author":"Global
+        Polio Eradication Initiative","year":"2019","unstructured":"Global Polio Eradication
+        Initiative (2019) Polio endgame strategy 2019\u20132023: eradication, integration,
+        certification and containment. World Health Organization, Geneva"},{"issue":"9951","key":"119-1_CR33","doi-asserted-by":"publisher","first-page":"1323","DOI":"10.1016\/S0140-6736(14)61791-8","volume":"384","author":"LO
+        Gostin","year":"2014","unstructured":"Gostin LO, Friedman EA (2014) Ebola:
+        a crisis in global health leadership. Lancet 384(9951):1323\u20131325","journal-title":"Lancet"},{"key":"119-1_CR34","first-page":"981","volume":"80","author":"FP
+        Grad","year":"2002","unstructured":"Grad FP (2002) The preamble of the constitution
+        of the World Health Organization. Bull World Health Organ 80:981\u2013981","journal-title":"Bull
+        World Health Organ"},{"issue":"4","key":"119-1_CR35","doi-asserted-by":"publisher","first-page":"657","DOI":"10.1177\/0020731415585986","volume":"45","author":"RA
+        Hahn","year":"2015","unstructured":"Hahn RA, Truman BI (2015) Education improves
+        public health and promotes health equity. Int J Health Serv 45(4):657\u2013678","journal-title":"Int
+        J Health Serv"},{"issue":"9","key":"119-1_CR36","doi-asserted-by":"publisher","first-page":"576","DOI":"10.5694\/mja13.10516","volume":"199","author":"JJ
+        Hall","year":"2013","unstructured":"Hall JJ, Gillespie JA, Rosewell A, Mapira
+        P (2013) The Papua New Guinea cholera outbreak: implications for PNG, Australia
+        and the Torres Strait. Med J Aust 199(9):576\u2013577","journal-title":"Med
+        J Aust"},{"issue":"9980","key":"119-1_CR37","doi-asserted-by":"publisher","first-page":"1884","DOI":"10.1016\/S0140-6736(15)60858-3","volume":"385","author":"DL
+        Heymann","year":"2015","unstructured":"Heymann DL, Chen L, Takemi K, Fidler
+        DP, Tappero JW, Thomas MJ et al (2015) Global health security: the wider lessons
+        from the west African Ebola virus disease epidemic. Lancet 385(9980):1884\u20131901","journal-title":"Lancet"},{"key":"119-1_CR38","doi-asserted-by":"crossref","unstructured":"Horton
+        R (2004) UNICEF leadership 2005\u20132015: a call for strategic change. Lancet
+        364(9451):2071\u20132074","DOI":"10.1016\/S0140-6736(04)17560-0"},{"issue":"9","key":"119-1_CR39","doi-asserted-by":"publisher","first-page":"654","DOI":"10.2471\/BLT.18.210401","volume":"96","author":"AR
+        Hosseinpoor","year":"2018","unstructured":"Hosseinpoor AR, Bergen N, Schlotheuber
+        A, Grove J (2018) Measuring health inequalities in the context of sustainable
+        development goals. Bull World Health Organ 96(9):654","journal-title":"Bull
+        World Health Organ"},{"issue":"6","key":"119-1_CR40","doi-asserted-by":"publisher","first-page":"e710","DOI":"10.1016\/S2214-109X(19)30163-9","volume":"7","author":"L
+        Hug","year":"2019","unstructured":"Hug L, Alexander M, You D, Alkema L, UN
+        Inter-Agency Group for Child Mortality Estimation (2019) National, regional,
+        and global levels and trends in neonatal mortality between 1990 and 2017,
+        with scenario-based projections to 2030: a systematic analysis. Lancet Global
+        Health 7(6):e710\u2013e720","journal-title":"Lancet Global Health"},{"key":"119-1_CR41","doi-asserted-by":"publisher","first-page":"72","DOI":"10.1016\/j.mib.2019.10.008","volume":"51","author":"MI
+        Hutchings","year":"2019","unstructured":"Hutchings MI, Truman AW, Wilkinson
+        B (2019) Antibiotics: past, present and future. Curr Opin Microbiol 51:72\u201380","journal-title":"Curr
+        Opin Microbiol"},{"issue":"5","key":"119-1_CR42","doi-asserted-by":"publisher","first-page":"310","DOI":"10.1093\/heapol\/czh036","volume":"19","author":"B
+        Jacobs","year":"2004","unstructured":"Jacobs B, Price N (2004) The impact
+        of the introduction of user fees at a district hospital in Cambodia. Health
+        Policy Plan 19(5):310\u2013321","journal-title":"Health Policy Plan"},{"key":"119-1_CR43","unstructured":"Johnson
+        A, Walker MW, Droznin M (2017) Role of international organizations in health
+        systems. Comparative Health Systems - A global perspective. In: Johnson JA,
+        Stoskopf C, Shi L. Jones & Bartlett Learning"},{"key":"119-1_CR44","first-page":"445","volume":"11","author":"CC
+        Joyner","year":"1981","unstructured":"Joyner CC (1981) UN General Assembly
+        resolutions and international law: rethinking the contemporary dynamics of
+        norm-creation. Calif West Int Law J 11:445","journal-title":"Calif West Int
+        Law J"},{"issue":"4","key":"119-1_CR45","doi-asserted-by":"publisher","first-page":"431","DOI":"10.1016\/S1473-3099(15)00350-3","volume":"16","author":"R
+        Kelly","year":"2016","unstructured":"Kelly R, Zoubiane G, Walsh D, Ward R,
+        Goossens H (2016) Public funding for research on antibacterial resistance
+        in the JPIAMR countries, the European Commission, and related European Union
+        agencies: a systematic observational analysis. Lancet Infect Dis 16(4):431\u2013440","journal-title":"Lancet
+        Infect Dis"},{"issue":"6","key":"119-1_CR46","doi-asserted-by":"publisher","first-page":"e758","DOI":"10.1016\/S2214-109X(20)30135-2","volume":"8","author":"A
+        Kentikelenis","year":"2020","unstructured":"Kentikelenis A, Gabor D, Ortiz
+        I, Stubbs T, McKee M, Stuckler D (2020) Softening the blow of the pandemic:
+        will the International Monetary Fund and World Bank make things worse? Lancet
+        Glob Health 8(6):e758\u2013e759","journal-title":"Lancet Glob Health"},{"issue":"9918","key":"119-1_CR47","doi-asserted-by":"publisher","first-page":"685","DOI":"10.1016\/S0140-6736(14)60246-4","volume":"383","author":"S
+        Keshavjee","year":"2014","unstructured":"Keshavjee S (2014) People and their
+        health: embracing a new path. Lancet 383(9918):685\u2013686","journal-title":"Lancet"},{"key":"119-1_CR48","doi-asserted-by":"publisher","DOI":"10.1080\/14034940600973059","volume-title":"The
+        need for a European strategy on global health","author":"I Kickbusch","year":"2006","unstructured":"Kickbusch
+        I (2006) The need for a European strategy on global health. Sage, London"},{"issue":"4","key":"119-1_CR49","doi-asserted-by":"publisher","first-page":"37","DOI":"10.18356\/23c0b63c-en","volume":"48","author":"I
+        Kickbusch","year":"2011","unstructured":"Kickbusch I (2011) Advancing the
+        global health agenda. UN Chron 48(4):37\u201340","journal-title":"UN Chron"},{"key":"119-1_CR50","first-page":"1\u00c171","volume-title":"Health
+        in the post 2015 development agenda","author":"I Kickbusch","year":"2013","unstructured":"Kickbusch
+        I, Brindley C (2013) Health in the post 2015 development agenda. WHO, Geneva,
+        p 1\u00c171"},{"key":"119-1_CR51","volume-title":"Protecting humanity from
+        future health crises: Report of the High-level Panel on the Global Response
+        to Health Crises","author":"J Kikwete","year":"2016","unstructured":"Kikwete
+        J, Amorim C, Calmy-Rey M, Natalegawa M, Phumaphi J, Shah R, UN High-Level
+        Panel on the Global Response to Health Crises (2016) Protecting humanity from
+        future health crises: Report of the High-level Panel on the Global Response
+        to Health Crises. United Nations, New York"},{"issue":"2","key":"119-1_CR52","doi-asserted-by":"publisher","first-page":"174","DOI":"10.1016\/S1473-3099(20)30012-8","volume":"20","author":"T
+        Kirby","year":"2020","unstructured":"Kirby T (2020) WHO celebrates 40 years
+        since eradication of smallpox. Lancet Infect Dis 20(2):174","journal-title":"Lancet
+        Infect Dis"},{"issue":"10156","key":"119-1_CR53","doi-asserted-by":"publisher","first-page":"1372","DOI":"10.1016\/S0140-6736(18)32482-6","volume":"392","author":"H
+        Kluge","year":"2018","unstructured":"Kluge H, Kelley E, Barkley S, Theodorakis
+        PN, Yamamoto N, Tsoy A et al (2018) How primary health care can make universal
+        health coverage a reality, ensure healthy lives, and promote wellbeing for
+        all. Lancet 392(10156):1372\u20131374","journal-title":"Lancet"},{"issue":"9679","key":"119-1_CR54","doi-asserted-by":"publisher","first-page":"1993","DOI":"10.1016\/S0140-6736(09)60332-9","volume":"373","author":"JP
+        Koplan","year":"2009","unstructured":"Koplan JP, Bond TC, Merson MH, Reddy
+        KS, Rodriguez MH, Sewankambo NK et al (2009) Towards a common definition of
+        global health. Lancet 373(9679):1993\u20131995","journal-title":"Lancet"},{"issue":"1","key":"119-1_CR55","doi-asserted-by":"publisher","first-page":"1","DOI":"10.4103\/0970-0218.170955","volume":"41","author":"S
+        Kumar","year":"2016","unstructured":"Kumar S, Kumar N, Vivekadhish S (2016)
+        Millennium development goals (MDGS) to sustainable development goals (SDGS):
+        addressing unfinished agenda and strengthening sustainable development and
+        partnership. Indian J Community Med 41(1):1","journal-title":"Indian J Community
+        Med"},{"key":"119-1_CR56","doi-asserted-by":"publisher","first-page":"602","DOI":"10.2471\/BLT.12.113985","volume":"91","author":"J
+        Kutzin","year":"2013","unstructured":"Kutzin J (2013) Health financing for
+        universal coverage and health system performance: concepts and implications
+        for policy. Bull World Health Organ 91:602\u2013611","journal-title":"Bull
+        World Health Organ"},{"issue":"3","key":"119-1_CR57","doi-asserted-by":"publisher","first-page":"261","DOI":"10.1016\/S1473-3099(17)30703-X","volume":"18","author":"HH
+        Kyu","year":"2018","unstructured":"Kyu HH, Maddison ER, Henry NJ, Murray CJL
+        (2018) The global burden of tuberculosis: results from the Global Burden of
+        Disease Study 2015. Lancet Infect Dis 18(3):261\u2013284","journal-title":"Lancet
+        Infect Dis"},{"issue":"6","key":"119-1_CR58","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pmed.1001465","volume":"10","author":"C
+        Lachat","year":"2013","unstructured":"Lachat C, Otchere S, Roberfroid D, Abdulai
+        A, Seret FMA, Milesevic J et al (2013) Diet and physical activity for the
+        prevention of noncommunicable diseases in low- and middle-income countries:
+        a systematic policy review. PLoS Med 10(6):e1001465","journal-title":"PLoS
+        Med"},{"issue":"10041","key":"119-1_CR59","doi-asserted-by":"publisher","first-page":"218","DOI":"10.1016\/S0140-6736(16)31079-0","volume":"388","author":"R
+        Laxminarayan","year":"2016","unstructured":"Laxminarayan R, Am\u00e1bile-Cuevas
+        CF, Cars O, Evans T, Heymann DL, Hoffman S et al (2016) UN high-level meeting
+        on antimicrobials \u2013 what do we need? Lancet 388(10041):218\u2013220","journal-title":"Lancet"},{"key":"119-1_CR60","first-page":"931","volume":"49","author":"T-L
+        Lee","year":"2016","unstructured":"Lee T-L (2016) Making international health
+        regulations work: lessons from the 2014 Ebola outbreak. Vand J Transnat Law
+        49:931","journal-title":"Vand J Transnat Law"},{"key":"119-1_CR61","doi-asserted-by":"crossref","unstructured":"Lee
+        K (2020) WHO under fire: the need to elevate the quality of politics in global
+        health. Glob Soc Policy 1468018120966661","DOI":"10.1177\/1468018120966661"},{"issue":"1","key":"119-1_CR62","doi-asserted-by":"publisher","first-page":"17","DOI":"10.1016\/S1473-3099(19)30674-7","volume":"20","author":"VJ
+        Lee","year":"2020","unstructured":"Lee VJ, Aguilera X, Heymann D, Wilder-Smith
+        A, Lee VJ, Heymann DL et al (2020) Preparedness for emerging epidemic threats:
+        a Lancet Infectious Diseases Commission. Lancet 20(1):17\u201319","journal-title":"Lancet"},{"key":"119-1_CR63","doi-asserted-by":"publisher","first-page":"l251","DOI":"10.1136\/bmj.l251","volume":"364","author":"M
+        Marmot","year":"2019","unstructured":"Marmot M, Bell R (2019) Social determinants
+        and non-communicable diseases: time for integrated action. BMJ 364:l251","journal-title":"BMJ"},{"issue":"9921","key":"119-1_CR64","doi-asserted-by":"publisher","first-page":"939","DOI":"10.1016\/S0140-6736(14)60452-9","volume":"383","author":"J
+        Maurice","year":"2014","unstructured":"Maurice J (2014) Polio eradication
+        effort sees progress, but problems remain. Lancet 383(9921):939\u2013940","journal-title":"Lancet"},{"issue":"9584","key":"119-1_CR65","doi-asserted-by":"publisher","first-page":"307","DOI":"10.1016\/S0140-6736(07)61144-1","volume":"370","author":"M
+        McCarthy","year":"2007","unstructured":"McCarthy M (2007) The Global Fund:
+        5 years on. Lancet 370(9584):307\u2013308","journal-title":"Lancet"},{"issue":"9","key":"119-1_CR66","doi-asserted-by":"publisher","first-page":"e461","DOI":"10.1016\/S2468-2667(20)30179-1","volume":"5","author":"L
+        McCauley","year":"2020","unstructured":"McCauley L, Hayes R (2020) Taking
+        responsibility for front-line health-care workers. Lancet Public Health 5(9):e461\u2013e462","journal-title":"Lancet
+        Public Health"},{"key":"119-1_CR67","doi-asserted-by":"crossref","unstructured":"McCracken
+        K, Phillips DR (2017) Global health: An introduction to current and future
+        trends, Routledge, Taylor & Francis","DOI":"10.4324\/9781315691800"},{"issue":"1","key":"119-1_CR68","doi-asserted-by":"publisher","DOI":"10.1186\/s12879-016-1862-y","volume":"16","author":"ZM
+        McLaren","year":"2016","unstructured":"McLaren ZM, Milliken AA, Meyer AJ,
+        Sharp AR (2016) Does directly observed therapy improve tuberculosis treatment?
+        More evidence is needed to guide tuberculosis policy. BMC Infect Dis 16(1):537","journal-title":"BMC
+        Infect Dis"},{"key":"119-1_CR69","doi-asserted-by":"publisher","first-page":"126","DOI":"10.1016\/S0140-6736(12)60357-2","volume":"380","author":"A
+        Mills","year":"2012","unstructured":"Mills A, Ataguba JE, Akazili J, Borghi
+        J, Garshong B, Makawia S et al (2012) Equity in financing and use of health
+        care in Ghana, South Africa, and Tanzania: implications for paths to universal
+        coverage. Lancet 380:126","journal-title":"Lancet"},{"issue":"9508","key":"119-1_CR70","doi-asserted-by":"publisher","first-page":"425","DOI":"10.1016\/S0140-6736(06)68143-9","volume":"367","author":"ZS
+        Moore","year":"2006","unstructured":"Moore ZS, Seward JF, Lane JM (2006) Smallpox.
+        Lancet 367(9508):425\u2013435","journal-title":"Lancet"},{"key":"119-1_CR71","volume-title":"Global
+        health and the future role of the United States","author":"National Academies
+        of Sciences, E. and Medicine","year":"2017","unstructured":"National Academies
+        of Sciences, E. and Medicine (2017) Addressing continuous threats: HIV\/AIDS,
+        Tuberculosis, and Malaria. In: Global health and the future role of the United
+        States. National Academies Press, Washington, DC"},{"issue":"6","key":"119-1_CR72","doi-asserted-by":"publisher","DOI":"10.1183\/13993003.01445-2020","volume":"55","author":"S
+        Nava","year":"2020","unstructured":"Nava S, Tonelli R, Clini EM (2020) An
+        Italian sacrifice to the COVID-19 epidemic. Eur Respir J 55(6):2001445","journal-title":"Eur
+        Respir J"},{"issue":"1","key":"119-1_CR73","doi-asserted-by":"publisher","first-page":"1310","DOI":"10.1186\/s12889-019-7707-z","volume":"19","author":"JB
+        Nuzzo","year":"2019","unstructured":"Nuzzo JB, Meyer D, Snyder M, Ravi SJ,
+        Lapascu A, Souleles J et al (2019) What makes health systems resilient against
+        infectious disease outbreaks and natural hazards? Results from a scoping review.
+        BMC Public Health 19(1):1310\u20131310","journal-title":"BMC Public Health"},{"issue":"1","key":"119-1_CR74","doi-asserted-by":"publisher","first-page":"179","DOI":"10.1016\/S0277-9536(02)00373-8","volume":"57","author":"J
+        Ogden","year":"2003","unstructured":"Ogden J, Walt G, Lush L (2003) The politics
+        of \u2018branding\u2019 in policy transfer: the case of DOTS for tuberculosis
+        control. Soc Sci Med 57(1):179\u2013188","journal-title":"Soc Sci Med"},{"issue":"5","key":"119-1_CR75","doi-asserted-by":"publisher","first-page":"334","DOI":"10.1093\/inthealth\/ihz062","volume":"11","author":"P
+        Piot","year":"2019","unstructured":"Piot P, Soka MJ, Spencer J (2019) Emergent
+        threats: lessons learnt from Ebola. Int Health 11(5):334\u2013337","journal-title":"Int
+        Health"},{"issue":"9","key":"119-1_CR76","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pmed.1002130","volume":"13","author":"PLOS
+        Medicine Editors","year":"2016","unstructured":"PLOS Medicine Editors (2016)
+        Antimicrobial resistance: is the world UN prepared? PLoS Med 13(9):e1002130-e1002130","journal-title":"PLoS
+        Med"},{"issue":"10046","key":"119-1_CR77","doi-asserted-by":"publisher","first-page":"743","DOI":"10.1016\/S0140-6736(16)31336-8","volume":"388","author":"NK
+        Poku","year":"2016","unstructured":"Poku NK (2016) UN political declaration
+        on HIV and AIDS: where to begin? Lancet 388(10046):743","journal-title":"Lancet"},{"issue":"1","key":"119-1_CR78","doi-asserted-by":"publisher","first-page":"31","DOI":"10.1016\/j.inhe.2009.02.001","volume":"1","author":"SB
+        Rifkin","year":"2009","unstructured":"Rifkin SB (2009) Lessons from community
+        participation in health programmes: a review of the post Alma-Ata experience.
+        J Int Health 1(1):31\u201336","journal-title":"J Int Health"},{"key":"119-1_CR79","doi-asserted-by":"publisher","unstructured":"Rifkin
+        SB (2018) Health for All and Primary Health Care, 1978\u20132018: A Historical
+        Perspective on Policies and Programs over 40 Years. Oxford Research Encyclopedia
+        of Global Public Health. Available at: https:\/\/doi.org\/10.1093\/acrefore\/9780190632366.013.55","DOI":"10.1093\/acrefore\/9780190632366.013.55"},{"key":"119-1_CR80","volume-title":"The
+        economic and social council of the United Nations. An issues paper (Occasional
+        paper no. 15)","author":"G Rosenthal","year":"2005","unstructured":"Rosenthal
+        G (2005) The economic and social council of the United Nations. An issues
+        paper (Occasional paper no. 15). Friedrich-Ebert-Foundation, New York"},{"issue":"1","key":"119-1_CR81","doi-asserted-by":"publisher","first-page":"60","DOI":"10.2105\/AJPH.2004.042002","volume":"95","author":"JP
+        Ruger","year":"2005","unstructured":"Ruger JP (2005) The changing role of
+        the World Bank in global health. Am J Public Health 95(1):60\u201370","journal-title":"Am
+        J Public Health"},{"issue":"9597","key":"119-1_CR82","doi-asserted-by":"publisher","first-page":"1471","DOI":"10.1016\/S0140-6736(07)61619-5","volume":"370","author":"JP
+        Ruger","year":"2007","unstructured":"Ruger JP (2007) Global health governance
+        and the World Bank. Lancet (Lond, Engl) 370(9597):1471\u20131474","journal-title":"Lancet
+        (Lond, Engl)"},{"issue":"10228","key":"119-1_CR83","doi-asserted-by":"publisher","first-page":"928","DOI":"10.1016\/S0140-6736(20)30565-1","volume":"395","author":"S
+        Sahu","year":"2020","unstructured":"Sahu S, Ditiu L, Lawson L, Ntoumi F, Arakaki
+        D, Zumla A (2020) UN General Assembly tuberculosis targets: are we on track?
+        Lancet 395(10228):928\u2013930","journal-title":"Lancet"},{"issue":"2","key":"119-1_CR84","doi-asserted-by":"publisher","first-page":"152","DOI":"10.1016\/S1473-3099(17)30023-3","volume":"17","author":"C
+        Sansom","year":"2017","unstructured":"Sansom C (2017) Preparing for pandemics:
+        no time to lose. Lancet Infect Dis 17(2):152","journal-title":"Lancet Infect
+        Dis"},{"issue":"11","key":"119-1_CR85","doi-asserted-by":"publisher","first-page":"2883","DOI":"10.1093\/jac\/dku346","volume":"69","author":"LJ
+        Shallcross","year":"2014","unstructured":"Shallcross LJ, Davies SC (2014)
+        The World Health Assembly resolution on antimicrobial resistance. J Antimicrob
+        Chemother 69(11):2883\u20132885","journal-title":"J Antimicrob Chemother"},{"key":"119-1_CR86","volume-title":"The
+        charter of the United Nations","author":"B Simma","year":"1995","unstructured":"Simma
+        B (1995) The charter of the United Nations. OUP, Oxford, UK"},{"key":"119-1_CR87","doi-asserted-by":"publisher","DOI":"10.1136\/bmj.j3339","volume":"358","author":"D
+        Sridhar","year":"2017","unstructured":"Sridhar D, Winters J, Strong E (2017)
+        World Bank\u2019s financing, priorities, and lending structures for global
+        health. BMJ 358:j3339","journal-title":"BMJ"},{"issue":"11","key":"119-1_CR88","doi-asserted-by":"publisher","first-page":"e1500","DOI":"10.1016\/S2214-109X(19)30416-4","volume":"7","author":"K
+        Stenberg","year":"2019","unstructured":"Stenberg K, Hanssen O, Bertram M,
+        Brindley C, Meshreky A, Barkley S et al (2019) Guide posts for investment
+        in primary health care and projected resource needs in 67 low-income and middle-income
+        countries: a modelling study. Lancet Glob Health 7(11):e1500\u2013e1510","journal-title":"Lancet
+        Glob Health"},{"issue":"10156","key":"119-1_CR89","doi-asserted-by":"publisher","first-page":"1369","DOI":"10.1016\/S0140-6736(18)32478-4","volume":"392","author":"The
+        Lancet","year":"2018","unstructured":"The Lancet (2018) The Astana declaration:
+        the future of primary health care? Lancet 392(10156):1369","journal-title":"Lancet"},{"issue":"10225","key":"119-1_CR90","doi-asserted-by":"publisher","first-page":"659","DOI":"10.1016\/S0140-6736(20)30455-4","volume":"395","author":"The
+        Lancet","year":"2020","unstructured":"The Lancet (2020) Taking urgent action
+        on health inequities. Lancet (Lond, Engl) 395(10225):659","journal-title":"Lancet
+        (Lond, Engl)"},{"issue":"1","key":"119-1_CR91","doi-asserted-by":"publisher","first-page":"13","DOI":"10.1186\/s40985-017-0059-2","volume":"38","author":"M
+        Thomson","year":"2017","unstructured":"Thomson M, Kentikelenis A, Stubbs T
+        (2017) Structural adjustment programmes adversely affect vulnerable populations:
+        a systematic-narrative review of their effect on child and maternal health.
+        Public Health Rev 38(1):13","journal-title":"Public Health Rev"},{"issue":"9437","key":"119-1_CR92","doi-asserted-by":"publisher","first-page":"900","DOI":"10.1016\/S0140-6736(04)16987-0","volume":"364","author":"P
+        Travis","year":"2004","unstructured":"Travis P, Bennett S, Haines A, Pang
+        T, Bhutta Z, Hyder AA et al (2004) Overcoming health-systems constraints to
+        achieve the Millennium Development Goals. Lancet 364(9437):900\u2013906","journal-title":"Lancet"},{"key":"119-1_CR93","first-page":"1","volume-title":"United
+        Nations Millennium Declaration. 55\/2","author":"UN","year":"2000","unstructured":"UN
+        (2000) United Nations Millennium Declaration. 55\/2. United Nations, New York,
+        pp 1\u20139"},{"key":"119-1_CR94","unstructured":"UN (2002) Millennium Development
+        Goals. Available at: http:\/\/www.un.org\/millenniumgoals"},{"key":"119-1_CR95","volume-title":"The
+        Millennium Development Goals report 2015","author":"UN","year":"2015","unstructured":"UN
+        (2015) The Millennium Development Goals report 2015. United Nations, New York"},{"key":"119-1_CR167","unstructured":"UN
+        (2019) The United Nations Systems chart. United Nations Department of Global
+        Communications: New York. Available at: https:\/\/www.un.org\/en\/pdfs\/un_system_chart.pdf"},{"key":"119-1_CR96","unstructured":"UN
+        (2020) Sustainable Development Goals: decade of action. https:\/\/www.un.org\/sustainabledevelopment\/decade-of-action\/.
+        Date Accessed 30 Oct 2020"},{"key":"119-1_CR97","volume-title":"Achieving
+        the global public health agenda: dialogues at the economic and social council","author":"UN
+        Economic and Social Council","year":"2009","unstructured":"UN Economic and
+        Social Council (2009) Achieving the global public health agenda: dialogues
+        at the economic and social council. United Nations Publications, New York"},{"key":"119-1_CR98","volume-title":"Progress
+        towards the Sustainable Development Goals \u2013 report of the Secretary General","author":"UN
+        Economic and Social Council","year":"2020","unstructured":"UN Economic and
+        Social Council (2020) Progress towards the Sustainable Development Goals \u2013
+        report of the Secretary General. United Nations, New York"},{"key":"119-1_CR99","unstructured":"UNAIDS
+        (2014) Fast-track: ending the AIDS epidemic by 2030. Joint United Nations
+        Programme on HIV\/AIDS. Geneva, Switzerland. Available at: https:\/\/www.unaids.org\/sites\/default\/files\/media_asset\/JC2686_WAD2014report_en.pdf"},{"key":"119-1_CR100","unstructured":"UNAIDS
+        (2020) Global HIV & AIDS statistics \u2013 2020 fact sheet, 2020. Joint United
+        Nations Programme on HIV\/AIDS"},{"key":"119-1_CR101","volume-title":"Human
+        development report 2019: beyond income, beyond averages, beyond today: inequalities
+        in human development in the 21st century","author":"UNDP","year":"2019","unstructured":"UNDP
+        (2019) Human development report 2019: beyond income, beyond averages, beyond
+        today: inequalities in human development in the 21st century. United Nations
+        Development Programme, New York"},{"key":"119-1_CR102","unstructured":"UNGA
+        (1948) Universal declaration of human rights. United Nations General Assembly
+        302(2)"},{"key":"119-1_CR103","volume-title":"Resolution adopted by the General
+        Assembly: United Nations Millennium Declaration (A\/RES\/55\/2)","author":"UNGA","year":"2000","unstructured":"UNGA
+        (2000) Resolution adopted by the General Assembly: United Nations Millennium
+        Declaration (A\/RES\/55\/2). United Nations, New York"},{"key":"119-1_CR104","unstructured":"UNGA
+        (2008) 2001\u20132010: decade to roll back malaria in developing countries,
+        particularly in Africa: resolution\/adopted by the General Assembly, 7 March
+        2008, A\/RES\/62\/180. United Nations General Assembly, New York. Available
+        at: https:\/\/www.refworld.org\/docid\/47f1f0622.html. Accessed 7 Nov 2020"},{"key":"119-1_CR105","volume-title":"66th
+        session. Political declaration of the high-level meeting of the General Assembly
+        on the prevention and control of non-communicable diseases","author":"UNGA","year":"2011","unstructured":"UNGA
+        (2011) 66th session. Political declaration of the high-level meeting of the
+        General Assembly on the prevention and control of non-communicable diseases.
+        United Nations General Assembly, New York"},{"key":"119-1_CR106","volume-title":"Transforming
+        our world: the 2030 agenda for Sustainable Development","author":"UNGA","year":"2015","unstructured":"UNGA
+        (2015) Transforming our world: the 2030 agenda for Sustainable Development.
+        United Nations, Division for Sustainable Development Goals, New York"},{"key":"119-1_CR107","unstructured":"UNGA
+        (2016a) Political declaration on HIV and AIDS: on the fast-track to accelerate
+        the fight against HIV and to end the AIDS epidemic by 2030, UN General Assembly.
+        UN General Assembly"},{"key":"119-1_CR108","volume-title":"Strengthening the
+        global health architecture: implementation of the recommendations of the high-level
+        panel on the global response to health crises. Report of the Secretary-General","author":"UNGA","year":"2016","unstructured":"UNGA
+        (2016b) Strengthening the global health architecture: implementation of the
+        recommendations of the high-level panel on the global response to health crises.
+        Report of the Secretary-General. United Nations General Assembly, New York"},{"key":"119-1_CR109","volume-title":"The
+        United Nations secretary-general\u2019s high-level panel on access to medicines
+        report: promoting innovation and access to health technologies","author":"UNGA","year":"2016","unstructured":"UNGA
+        (2016c) The United Nations secretary-general\u2019s high-level panel on access
+        to medicines report: promoting innovation and access to health technologies.
+        United Nations, New York"},{"key":"119-1_CR110","volume-title":"Resolution
+        adopted by the General Assembly on 10 October 2018: political declaration
+        of the high-level meeting of the General Assembly on the fight against tuberculosis.
+        A\/RES\/73\/3","author":"UNGA","year":"2018","unstructured":"UNGA (2018) Resolution
+        adopted by the General Assembly on 10 October 2018: political declaration
+        of the high-level meeting of the General Assembly on the fight against tuberculosis.
+        A\/RES\/73\/3. United Nations General Assembly, New York"},{"key":"119-1_CR111","volume-title":"The
+        2016 global report","author":"UNHCR","year":"2019","unstructured":"UNHCR (2019)
+        The 2016 global report. UNHCR, Geneva"},{"key":"119-1_CR112","volume-title":"UNHCR
+        global report 2019","author":"UNHCR","year":"2020","unstructured":"UNHCR (2020)
+        UNHCR global report 2019. United Nations High Commissioner for Refugees (UNHCR),
+        Geneva"},{"key":"119-1_CR113","volume-title":"For every child, reimagine.
+        UNICEF annual report 2019","author":"UNICEF","year":"2020","unstructured":"UNICEF
+        (2020) For every child, reimagine. UNICEF annual report 2019. United Nations
+        Children\u2019s Fund (UNICEF), New York"},{"issue":"9979","key":"119-1_CR114","doi-asserted-by":"publisher","first-page":"1799","DOI":"10.1016\/S0140-6736(15)60570-0","volume":"385","author":"M
+        Uplekar","year":"2015","unstructured":"Uplekar M, Weil D, Lonnroth K, Jaramillo
+        E, Lienhardt C, Dias HM et al (2015) WHO''s new end TB strategy. Lancet 385(9979):1799\u20131801","journal-title":"Lancet"},{"issue":"8","key":"119-1_CR115","doi-asserted-by":"publisher","first-page":"742","DOI":"10.1016\/S1473-3099(14)70780-7","volume":"14","author":"TP
+        Van Boeckel","year":"2014","unstructured":"Van Boeckel TP, Gandra S, Ashok
+        A, Caudron Q, Grenfell BT, Levin SA et al (2014) Global antibiotic consumption
+        2000 to 2010: an analysis of national pharmaceutical sales data. Lancet Infect
+        Dis 14(8):742\u2013750","journal-title":"Lancet Infect Dis"},{"key":"119-1_CR116","doi-asserted-by":"publisher","first-page":"565","DOI":"10.1163\/ej.9789004180048.i-962.476","volume-title":"A
+        concise encyclopedia of the United Nations","author":"H Volger","year":"2010","unstructured":"Volger
+        H (2010) Principal organs, subsidiary organs, treaty bodies. In: A concise
+        encyclopedia of the United Nations. Brill Nijhoff, Leiden, pp 565\u2013568"},{"issue":"1","key":"119-1_CR117","doi-asserted-by":"publisher","first-page":"e39","DOI":"10.1016\/S2214-109X(19)30463-2","volume":"8","author":"A
+        Wagstaff","year":"2020","unstructured":"Wagstaff A, Neelsen S (2020) A comprehensive
+        assessment of universal health coverage in 111 countries: a retrospective
+        observational study. Lancet Glob Health 8(1):e39\u2013e49","journal-title":"Lancet
+        Glob Health"},{"issue":"18","key":"119-1_CR118","doi-asserted-by":"publisher","first-page":"967","DOI":"10.1056\/NEJM197911013011804","volume":"301","author":"JA
+        Walsh","year":"1979","unstructured":"Walsh JA, Warren KS (1979) Selective
+        primary health care: an interim strategy for disease control in developing
+        countries. N Engl J Med 301(18):967\u2013974","journal-title":"N Engl J Med"},{"issue":"4","key":"119-1_CR119","doi-asserted-by":"publisher","first-page":"147","DOI":"10.1162\/016366003322387163","volume":"26","author":"TG
+        Weiss","year":"2003","unstructured":"Weiss TG (2003) The illusion of UN Security
+        Council reform. Wash Q 26(4):147\u2013161","journal-title":"Wash Q"},{"key":"119-1_CR120","volume-title":"Primary
+        health care: report of the international conference on primary health care,
+        Alma-Ata, USSR, 6\u201312 September 1978","author":"WHO","year":"1978","unstructured":"WHO
+        (1978) Primary health care: report of the international conference on primary
+        health care, Alma-Ata, USSR, 6\u201312 September 1978. World Health Organization,
+        Geneva"},{"issue":"20","key":"119-1_CR121","first-page":"148","volume":"55","author":"WHO","year":"1980","unstructured":"WHO
+        (1980) Declaration of global eradication of smallpox. Wkly Epidemiol Rec 55(20):148\u2013148","journal-title":"Wkly
+        Epidemiol Rec"},{"key":"119-1_CR122","volume-title":"Constitution of the world
+        health organization","author":"WHO","year":"1995","unstructured":"WHO (1995)
+        Constitution of the world health organization. World Health Organization,
+        Geneva"},{"key":"119-1_CR123","volume-title":"The world health report: 1996:
+        fighting disease, fostering development","author":"WHO","year":"1996","unstructured":"WHO
+        (1996) The world health report: 1996: fighting disease, fostering development.
+        World Health Organization, Geneva"},{"issue":"29","key":"119-1_CR124","first-page":"213","volume":"72","author":"WHO","year":"1997","unstructured":"WHO
+        (1997) Revision of the international health regulations: progress report,
+        July 1997. Wkly Epidemiol Rec 72(29):213\u2013215","journal-title":"Wkly Epidemiol
+        Rec"},{"key":"119-1_CR125","volume-title":"Fifty-first world health assembly
+        item 21.3, emerging and other communicable diseases: antimicrobial resistance","author":"WHO","year":"1998","unstructured":"WHO
+        (1998) Fifty-first world health assembly item 21.3, emerging and other communicable
+        diseases: antimicrobial resistance. World Health Organization, Geneva"},{"key":"119-1_CR126","volume-title":"A
+        guide to understanding the WHO-recommended TB control strategy known as DOTS","author":"WHO","year":"1999","unstructured":"WHO
+        (1999) A guide to understanding the WHO-recommended TB control strategy known
+        as DOTS. World Health Organization, Geneva"},{"key":"119-1_CR127","volume-title":"World
+        health report 2000: health systems \u2013 improving performance","author":"WHO","year":"2000","unstructured":"WHO
+        (2000) World health report 2000: health systems \u2013 improving performance.
+        World Health Organization, Geneva"},{"key":"119-1_CR128","first-page":"139","volume":"58","author":"WHO","year":"2005","unstructured":"WHO
+        (2005) Sustainable health financing, universal coverage and social health
+        insurance. World Health Organ 58:139\u2013140","journal-title":"World Health
+        Organ"},{"key":"119-1_CR129","volume-title":"Everybody\u2019s business \u2013
+        strengthening health systems to improve health outcomes: WHO\u2019s framework
+        for action","author":"WHO","year":"2007","unstructured":"WHO (2007) Everybody\u2019s
+        business \u2013 strengthening health systems to improve health outcomes: WHO\u2019s
+        framework for action. World Health Organization, Geneva"},{"key":"119-1_CR130","volume-title":"Commission
+        on social determinants of health-CSDH","author":"WHO","year":"2008","unstructured":"WHO
+        (2008a) Commission on social determinants of health-CSDH. World Health Organization,
+        Geneva"},{"key":"119-1_CR131","volume-title":"International health regulations
+        (2005)","author":"WHO","year":"2008","unstructured":"WHO (2008b) International
+        health regulations (2005). World Health Organization, Geneva"},{"key":"119-1_CR132","volume-title":"Pandemic
+        influenza preparedness and response: a WHO guidance document","author":"WHO","year":"2009","unstructured":"WHO
+        (2009) Pandemic influenza preparedness and response: a WHO guidance document.
+        World Health Organization, Geneva"},{"key":"119-1_CR133","volume-title":"Monitoring
+        the building blocks of health systems: a handbook of indicators and their
+        measurement strategies","author":"WHO","year":"2010","unstructured":"WHO (2010)
+        Monitoring the building blocks of health systems: a handbook of indicators
+        and their measurement strategies. World Health Organization, Geneva"},{"key":"119-1_CR134","volume-title":"Global
+        action plan for the prevention and control of noncommunicable diseases 2013\u20132020","author":"WHO","year":"2013","unstructured":"WHO
+        (2013) Global action plan for the prevention and control of noncommunicable
+        diseases 2013\u20132020. World Health Organization, Geneva"},{"key":"119-1_CR135","volume-title":"Antimicrobial
+        resistance: summary report on progress made in implementing resolution WHA67.25
+        on antimicrobial resistance \u2013 report by the Secretariat","author":"WHO","year":"2015","unstructured":"WHO
+        (2015a) Antimicrobial resistance: summary report on progress made in implementing
+        resolution WHA67.25 on antimicrobial resistance \u2013 report by the Secretariat.
+        World Health Organization, Geneva"},{"key":"119-1_CR136","volume-title":"Global
+        action plan on antimicrobial resistance","author":"WHO","year":"2015","unstructured":"WHO
+        (2015b) Global action plan on antimicrobial resistance. World Health Organization,
+        Geneva"},{"key":"119-1_CR137","volume-title":"Health in 2015: from MDGs, Millennium
+        Development Goals to SDGs, Sustainable Development Goals","author":"WHO","year":"2015","unstructured":"WHO
+        (2015c) Health in 2015: from MDGs, Millennium Development Goals to SDGs, Sustainable
+        Development Goals. World Health Organization, Geneva"},{"key":"119-1_CR138","volume-title":"The
+        global guardian of public health","author":"WHO","year":"2016","unstructured":"WHO
+        (2016a) The global guardian of public health. World Health Organization, Geneva"},{"key":"119-1_CR139","volume-title":"World
+        health statistics 2016: monitoring health for the SDGs Sustainable Development
+        Goals","author":"WHO","year":"2016","unstructured":"WHO (2016b) World health
+        statistics 2016: monitoring health for the SDGs Sustainable Development Goals.
+        World Health Organization, Geneva"},{"key":"119-1_CR140","volume-title":"Ten
+        years in public health, 2007\u20132017: report by Dr Margaret Chan, Director-General,
+        World Health Organization","author":"WHO","year":"2017","unstructured":"WHO
+        (2017a) Ten years in public health, 2007\u20132017: report by Dr Margaret
+        Chan, Director-General, World Health Organization. World Health Organization,
+        Geneva"},{"key":"119-1_CR141","volume-title":"WHO guidelines on use of medically
+        important antimicrobials in food-producing animals: web annex a: evidence
+        base","author":"WHO","year":"2017","unstructured":"WHO (2017b) WHO guidelines
+        on use of medically important antimicrobials in food-producing animals: web
+        annex a: evidence base. World Health Organization, Geneva"},{"key":"119-1_CR142","volume-title":"Global
+        conference on primary health care","author":"WHO","year":"2018","unstructured":"WHO
+        (2018a) Global conference on primary health care. World Health Organization,
+        Geneva"},{"key":"119-1_CR143","volume-title":"A healthier humanity: the WHO
+        investment case for 2019\u20132023","author":"WHO","year":"2018","unstructured":"WHO
+        (2018b) A healthier humanity: the WHO investment case for 2019\u20132023.
+        World Health Organization, Geneva"},{"key":"119-1_CR144","volume-title":"Noncommunicable
+        diseases country profiles 2018","author":"WHO","year":"2018","unstructured":"WHO
+        (2018c) Noncommunicable diseases country profiles 2018. World Health Organization,
+        Geneva"},{"key":"119-1_CR145","volume-title":"A vision for primary health
+        care in the 21st century: towards universal health coverage and the Sustainable
+        Development Goals","author":"WHO","year":"2018","unstructured":"WHO (2018d)
+        A vision for primary health care in the 21st century: towards universal health
+        coverage and the Sustainable Development Goals. World Health Organization,
+        Geneva"},{"key":"119-1_CR146","volume-title":"WHO report on surveillance of
+        antibiotic consumption: 2016\u20132018 early implementation","author":"WHO","year":"2018","unstructured":"WHO
+        (2018e) WHO report on surveillance of antibiotic consumption: 2016\u20132018
+        early implementation. World Health Organization, Geneva"},{"key":"119-1_CR147","volume-title":"World
+        health statistics 2018: monitoring health for the Sustainable Development
+        Goals (SDGs)","author":"WHO","year":"2018","unstructured":"WHO (2018f) World
+        health statistics 2018: monitoring health for the Sustainable Development
+        Goals (SDGs). World Health Organization, Geneva"},{"key":"119-1_CR148","volume-title":"Fact
+        sheet \u2013 poliomyelitis","author":"WHO","year":"2019","unstructured":"WHO
+        (2019a) Fact sheet \u2013 poliomyelitis. World Health Organization, Geneva"},{"key":"119-1_CR149","volume-title":"No
+        time to wait: securing the future from drug-resistant infections","author":"WHO","year":"2019","unstructured":"WHO
+        (2019b) No time to wait: securing the future from drug-resistant infections.
+        World Health Organization, Geneva"},{"key":"119-1_CR150","volume-title":"World
+        health statistics overview 2019: monitoring health for the SDGs, Sustainable
+        Development Goals","author":"WHO","year":"2019","unstructured":"WHO (2019c)
+        World health statistics overview 2019: monitoring health for the SDGs, Sustainable
+        Development Goals. World Health Organization, Geneva"},{"key":"119-1_CR151","volume-title":"World
+        malaria report 2019","author":"WHO","year":"2019","unstructured":"WHO (2019d)
+        World malaria report 2019. World Health Organization, Geneva"},{"key":"119-1_CR152","volume-title":"Monitoring
+        health for the SDGs Sustainable Development Goals","author":"WHO","year":"2020","unstructured":"WHO
+        (2020a) Monitoring health for the SDGs Sustainable Development Goals. World
+        Health Organization, Geneva"},{"key":"119-1_CR153","volume-title":"Noncommunicable
+        diseases: progress monitor 2020","author":"WHO","year":"2020","unstructured":"WHO
+        (2020b) Noncommunicable diseases: progress monitor 2020. World Health Organization,
+        Geneva"},{"key":"119-1_CR154","unstructured":"WHO (2020c) Urgent health challenges
+        for the next decade. World Health Organization. https:\/\/www.who.int\/news-room\/photo-story\/photo-story-detail\/urgent-health-challenges-for-the-next-decade.
+        Accessed 30 Oct 2020"},{"key":"119-1_CR155","volume-title":"WHO basic documents","author":"WHO","year":"2020","unstructured":"WHO
+        (2020d) WHO basic documents, 49th edn. World Health Organization, Geneva","edition":"49"},{"key":"119-1_CR156","volume-title":"WHO
+        results report \u2013 programme budgeting 2018\u20132019: driving impact in
+        every country","author":"WHO","year":"2020","unstructured":"WHO (2020e) WHO
+        results report \u2013 programme budgeting 2018\u20132019: driving impact in
+        every country. World Health Organization, Geneva"},{"key":"119-1_CR157","volume-title":"World
+        health statistics 2020: monitoring health for the Sustainable Development
+        Goals (SDGs)","author":"WHO","year":"2020","unstructured":"WHO (2020f) World
+        health statistics 2020: monitoring health for the Sustainable Development
+        Goals (SDGs). World Health Organization, Geneva"},{"key":"119-1_CR158","volume-title":"Global
+        conference on primary health care: from Alma-Ata towards universal health
+        coverage and the Sustainable Development Goals, Astana, Kazakhstan, 25 and
+        26 October 2018","author":"WHO","year":"2018","unstructured":"WHO, UNICEF
+        (2018) Global conference on primary health care: from Alma-Ata towards universal
+        health coverage and the Sustainable Development Goals, Astana, Kazakhstan,
+        25 and 26 October 2018. WHO, Geneva"},{"key":"119-1_CR160","unstructured":"WHO,
+        UNICEF, UNAIDS (2011) Global HIV\/AIDS response: epidemic update and health
+        sector progress towards universal access \u2013 progress report 2011. WHO.
+        Online at: http:\/\/www.who.int\/hiv\/pub\/progress_report2011\/hiv_full_report_2011.pdf"},{"issue":"1","key":"119-1_CR161","doi-asserted-by":"publisher","first-page":"138","DOI":"10.1186\/s12939-018-0822-0","volume":"17","author":"V
+        Wiseman","year":"2018","unstructured":"Wiseman V, Thabrany H, Asante A, Haemmerli
+        M, Kosen S, Gilson L et al (2018) An evaluation of health systems equity in
+        Indonesia: study protocol. Int J Equity Health 17(1):138","journal-title":"Int
+        J Equity Health"},{"key":"119-1_CR162","volume-title":"From MDGs to SDGs:
+        what are the sustainable development goals","author":"M Woodbridge","year":"2015","unstructured":"Woodbridge
+        M, Zimmermann M (2015) From MDGs to SDGs: what are the sustainable development
+        goals. ICLEI \u2013 Local Governments for Sustainability, Bonn"},{"key":"119-1_CR163","doi-asserted-by":"publisher","DOI":"10.1596\/0-1952-0890-0","volume-title":"World
+        development report 1993: investing in health","author":"World Bank","year":"1993","unstructured":"World
+        Bank (1993) World development report 1993: investing in health. Oxford University
+        Press, New York"},{"key":"119-1_CR164","volume-title":"From panic and neglect
+        to investing in health security: financing pandemic preparedness at a national
+        level","author":"World Bank","year":"2017","unstructured":"World Bank (2017)
+        From panic and neglect to investing in health security: financing pandemic
+        preparedness at a national level. The World Bank, Washington, DC"},{"key":"119-1_CR165","doi-asserted-by":"publisher","DOI":"10.1596\/978-1-4648-1619-2","volume-title":"The
+        World Bank annual report 2020: supporting countries in unprecedented times","author":"World
+        Bank","year":"2020","unstructured":"World Bank (2020a) The World Bank annual
+        report 2020: supporting countries in unprecedented times. The World Bank,
+        Washington, DC"},{"key":"119-1_CR166","volume-title":"Global economic prospects","author":"World
+        Bank","year":"2020","unstructured":"World Bank (2020b) Global economic prospects.
+        The World Bank, Washington, DC"}],"container-title":["Handbook of Global Health"],"language":"en","link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-05325-3_119-1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,1,28]],"date-time":"2023-01-28T20:17:06Z","timestamp":1674937026000},"score":23.273882,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-030-05325-3_119-1"}},"issued":{"date-parts":[[2020,12,21]]},"ISBN":["9783030053253","9783030053253"],"references-count":166,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-05325-3_119-1","published":{"date-parts":[[2020,12,21]]},"assertion":[{"value":"26
+        November 2020, 00:00:00","order":1,"name":"received","label":"Received","group":{"name":"ChapterHistory","label":"Chapter
+        History"}},{"value":"26 November 2020, 00:00:00","order":2,"name":"accepted","label":"Accepted","group":{"name":"ChapterHistory","label":"Chapter
+        History"}},{"value":"21 December 2020","order":3,"name":"first_online","label":"First
+        Online","group":{"name":"ChapterHistory","label":"Chapter History"}}]},{"indexed":{"date-parts":[[2024,5,9]],"date-time":"2024-05-09T14:09:15Z","timestamp":1715263755782},"reference-count":0,"publisher":"NYU
+        Press","isbn-type":[{"value":"9780814724323","type":"print"},{"value":"9780814770634","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2017,7,25]]},"abstract":"<p>This
+        chapter examines the sacramental theology of Augustine of Hippo, the great
+        Western Church Father who emphasized the mystery of God and the fruit of love,
+        and identified sacraments as \u201cvisible sign that connect us to the mystery
+        of our saving God.\u201d Baptism was to occur only once in a believer\u2019s
+        life and marked not only the entrance of the believer into the Church but
+        also the believer\u2019s identity with the death and resurrection of Jesus
+        Christ. Augustine encouraged infant baptism and considered marriage and ordination
+        to be sacraments as well. In addition, for Augustine, \u201cthe Eucharist
+        is the summit of sacramental theology because it is so obviously and closely
+        connected to the Incarnate Christ himself and because it is a visible sign
+        that connects us to the mystery of salvation in Christ which is fulfilled
+        in love.\u201d Augustine\u2019s work on the sacraments was in many ways seminal
+        and has continued to influence Christian sacramental theology ever since.\n<\/p>","DOI":"10.18574\/nyu\/9780814724323.003.0004","type":"book-chapter","created":{"date-parts":[[2018,9,24]],"date-time":"2018-09-24T08:07:24Z","timestamp":1537776444000},"source":"Crossref","is-referenced-by-count":0,"title":["St.
+        Augustine of Hippo"],"prefix":"10.18574","author":[{"given":"Thomas L.","family":"Humphries","sequence":"first","affiliation":[]}],"member":"7832","published-online":{"date-parts":[[2018,9,20]]},"container-title":["Christian
+        Theologies of the Sacraments"],"original-title":["St. Augustine of Hippo"],"language":"en","deposited":{"date-parts":[[2022,7,29]],"date-time":"2022-07-29T20:07:53Z","timestamp":1659125273000},"score":23.151768,"resource":{"primary":{"URL":"http:\/\/nyu.universitypressscholarship.com\/view\/10.18574\/nyu\/9780814724323.001.0001\/upso-9780814724323-chapter-004"},"secondary":[{"URL":"https:\/\/academic.oup.com\/nyu-press-scholarship-online\/book\/18006\/chapter\/175854539"}]},"issued":{"date-parts":[[2017,7,25]]},"ISBN":["9780814724323","9780814770634"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.18574\/nyu\/9780814724323.003.0004","published":{"date-parts":[[2017,7,25]]}},{"indexed":{"date-parts":[[2023,9,12]],"date-time":"2023-09-12T17:42:18Z","timestamp":1694540538752},"reference-count":0,"publisher":"Bloomsbury
+        Academic","isbn-type":[{"value":"9781350053298","type":"print"},{"value":"9781350053281","type":"electronic"},{"value":"9781350053304","type":"electronic"},{"value":"9781350053311","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.5040\/9781350053311.0026","type":"book-chapter","created":{"date-parts":[[2020,8,23]],"date-time":"2020-08-23T21:49:20Z","timestamp":1598219360000},"source":"Crossref","is-referenced-by-count":0,"title":["St.
+        Augustine"],"prefix":"10.5040","author":[{"given":"Charles E.","family":"Snyder","sequence":"first","affiliation":[]}],"member":"2984","container-title":["The
+        Bloomsbury Companion to Arendt"],"deposited":{"date-parts":[[2023,9,11]],"date-time":"2023-09-11T23:45:28Z","timestamp":1694475928000},"score":23.123999,"resource":{"primary":{"URL":"https:\/\/www.bloomsburycollections.com\/monograph-detail?docid=b-9781350053311&tocid=b-9781350053311-chapter20"}},"issued":{"date-parts":[[2021]]},"ISBN":["9781350053298","9781350053281","9781350053304","9781350053311"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5040\/9781350053311.0026","published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T22:49:04Z","timestamp":1649026144119},"reference-count":0,"publisher":"University
+        of South Carolina Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,7,17]]},"DOI":"10.2307\/j.ctvrxk35v.18","type":"book-chapter","created":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:42Z","timestamp":1595365242000},"page":"138-151","source":"Crossref","is-referenced-by-count":0,"title":["Homecoming"],"prefix":"10.2307","member":"1121","container-title":["Patriots
+        in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:01:09Z","timestamp":1595365269000},"score":22.77807,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.18"}},"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.18","published":{"date-parts":[[2020,7,17]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T23:36:23Z","timestamp":1649201783848},"reference-count":0,"publisher":"University
+        of South Carolina Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2020,7,17]]},"DOI":"10.2307\/j.ctvrxk35v.24","type":"book-chapter","created":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:00:42Z","timestamp":1595365242000},"page":"209-220","source":"Crossref","is-referenced-by-count":0,"title":["Bibliography"],"prefix":"10.2307","member":"1121","container-title":["Patriots
+        in Exile"],"deposited":{"date-parts":[[2020,7,21]],"date-time":"2020-07-21T21:01:16Z","timestamp":1595365276000},"score":22.77807,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvrxk35v.24"}},"issued":{"date-parts":[[2020,7,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvrxk35v.24","published":{"date-parts":[[2020,7,17]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Fall+2020,+Innaugural+Issue+2021+University+of+St.+Augustine+for+Health+Sciences+Library"}}}'
+  recorded_at: Thu, 30 May 2024 15:47:29 GMT
 recorded_with: VCR 6.2.0

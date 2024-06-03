@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 03 Apr 2024 15:11:40 GMT
+      - Thu, 30 May 2024 15:51:22 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1434'
+      - '1447'
       Set-Cookie:
-      - AWSALB=UA2C689LnbOJzg+S/0lvk1AhCYl5peHkh4JMVh/TXMN1gD0d783HH0bs11jhQxeeC+BPMfnlpisNhH0LTElj/3av6z8X6OAhI8VYa09jlD1vZQaKKWm8Dk8E2VSk;
-        Expires=Wed, 10 Apr 2024 15:11:40 GMT; Path=/
-      - AWSALBCORS=UA2C689LnbOJzg+S/0lvk1AhCYl5peHkh4JMVh/TXMN1gD0d783HH0bs11jhQxeeC+BPMfnlpisNhH0LTElj/3av6z8X6OAhI8VYa09jlD1vZQaKKWm8Dk8E2VSk;
-        Expires=Wed, 10 Apr 2024 15:11:40 GMT; Path=/; SameSite=None
+      - AWSALB=cS+xKYnHizZdb4xip/pr98IrAGf4R26NZefXY256ebNSN8GSPXWedJs59UoMTZTxOgURwtKGH5qKtuGoAGT9ch/IO4NVPL0DBIPm2DGAnd0IKsb3noPChhnb9Pma;
+        Expires=Thu, 06 Jun 2024 15:51:22 GMT; Path=/
+      - AWSALBCORS=cS+xKYnHizZdb4xip/pr98IrAGf4R26NZefXY256ebNSN8GSPXWedJs59UoMTZTxOgURwtKGH5qKtuGoAGT9ch/IO4NVPL0DBIPm2DGAnd0IKsb3noPChhnb9Pma;
+        Expires=Thu, 06 Jun 2024 15:51:22 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -63,6 +63,6 @@ http_interactions:
         of the 2011 International Conference on Communication, Computing &amp; Security
         - ICCCS ''11"],"prefix":"10.1145","member":"320","event":{"name":"the 2011
         International Conference","location":"Rourkela, Odisha, India","acronym":"ICCCS
-        ''11","number":"2011","start":{"date-parts":[[2011,2,12]]},"end":{"date-parts":[[2011,2,14]]}},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2011,3,4]],"date-time":"2011-03-04T13:14:55Z","timestamp":1299244495000},"score":1,"resource":{"primary":{"URL":"http:\/\/portal.acm.org\/citation.cfm?doid=1947940"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2011]]},"ISBN":["9781450304641"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1145\/1947940","relation":{},"published":{"date-parts":[[2011]]}}}'
-  recorded_at: Wed, 03 Apr 2024 15:11:40 GMT
+        ''11","number":"2011","start":{"date-parts":[[2011,2,12]]},"end":{"date-parts":[[2011,2,14]]}},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2011,3,4]],"date-time":"2011-03-04T13:14:55Z","timestamp":1299244495000},"score":1,"resource":{"primary":{"URL":"http:\/\/portal.acm.org\/citation.cfm?doid=1947940"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2011]]},"ISBN":["9781450304641"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1145\/1947940","relation":{},"subject":[],"published":{"date-parts":[[2011]]}}}'
+  recorded_at: Thu, 30 May 2024 15:51:22 GMT
 recorded_with: VCR 6.2.0

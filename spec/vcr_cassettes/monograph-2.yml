@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 03 Apr 2024 15:10:16 GMT
+      - Thu, 30 May 2024 15:48:35 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1483'
+      - '1496'
       Set-Cookie:
-      - AWSALB=3eeceNYyx5xP5/dx94uSSDKM8bVNhkf9168pTPsviRSXtK//+sOexLyaU6YwjCM/vD/KrWAC44rido5CgZNEdEbK4DcdTZOsZ9XpSszYhF+6jCK9w8xlhNCG/aKJ;
-        Expires=Wed, 10 Apr 2024 15:10:16 GMT; Path=/
-      - AWSALBCORS=3eeceNYyx5xP5/dx94uSSDKM8bVNhkf9168pTPsviRSXtK//+sOexLyaU6YwjCM/vD/KrWAC44rido5CgZNEdEbK4DcdTZOsZ9XpSszYhF+6jCK9w8xlhNCG/aKJ;
-        Expires=Wed, 10 Apr 2024 15:10:16 GMT; Path=/; SameSite=None
+      - AWSALB=A73QKjyp4f43kcPt/BqfkyqLVrQZzmny1Dh8i+sLYHgxJz9bGcSRs4qbJOqQM50zaKEonimhBlLlipSihafeSTrlpcyM/QlBBmpY6DBWW7o3ucUgDGyr2Ud1z7w+;
+        Expires=Thu, 06 Jun 2024 15:48:27 GMT; Path=/
+      - AWSALBCORS=A73QKjyp4f43kcPt/BqfkyqLVrQZzmny1Dh8i+sLYHgxJz9bGcSRs4qbJOqQM50zaKEonimhBlLlipSihafeSTrlpcyM/QlBBmpY6DBWW7o3ucUgDGyr2Ud1z7w+;
+        Expires=Thu, 06 Jun 2024 15:48:27 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -63,6 +63,6 @@ http_interactions:
         Gattungen Pupa, Megaspira, Balea und Tornatellina : in Abbildungen nach der
         Natur mit Beschreibungen \/"],"prefix":"10.5962","author":[{"given":"H. C.","family":"Kuster","sequence":"first","affiliation":[]},{"given":"Johann
         Hieronymus","family":"Chemnitz","sequence":"additional","affiliation":[]},{"given":"Friedrich
-        Heinrich Wilhelm","family":"Martini","sequence":"additional","affiliation":[]}],"member":"3444","container-title":[],"original-title":[],"deposited":{"date-parts":[[2017,1,30]],"date-time":"2017-01-30T01:00:18Z","timestamp":1485738018000},"score":1,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/124254"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1852]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.124254","relation":{},"published":{"date-parts":[[1852]]}}}'
-  recorded_at: Wed, 03 Apr 2024 15:10:16 GMT
+        Heinrich Wilhelm","family":"Martini","sequence":"additional","affiliation":[]}],"member":"3444","container-title":[],"original-title":[],"deposited":{"date-parts":[[2017,1,30]],"date-time":"2017-01-30T01:00:18Z","timestamp":1485738018000},"score":1,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/124254"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1852]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5962\/bhl.title.124254","relation":{},"subject":[],"published":{"date-parts":[[1852]]}}}'
+  recorded_at: Thu, 30 May 2024 15:48:35 GMT
 recorded_with: VCR 6.2.0
