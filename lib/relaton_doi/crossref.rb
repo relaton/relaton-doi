@@ -1,3 +1,5 @@
+require "faraday"
+
 module RelatonDoi
   module Crossref
     extend self
@@ -38,7 +40,7 @@ module RelatonDoi
     def get_by_id(id)
       # resp = Serrano.works ids: id
       n = 0
-      url = "https://api.crossref.org/works/#{ERB::Util.url_encode(id)}"
+      url = "https://api.crossref.org/works/#{CGI.escape(id)}"
       loop do
         resp = Faraday.get url, nil, HEADER
         case resp.status

@@ -40,7 +40,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "relaton-ietf", "~> 1.18.0"
   spec.add_dependency "relaton-nist", "~> 1.18.0"
   # spec.add_dependency "relaton-w3c", "~> 1.10.0"
-  # spec.add_dependency "serrano", "~> 1.4.0"
+  spec.add_dependency "faraday", "~> 2.7"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
