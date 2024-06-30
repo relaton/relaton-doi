@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 19 Mar 2024 03:23:16 GMT
+      - Thu, 30 May 2024 15:39:09 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1501'
+      - '1514'
       Set-Cookie:
-      - AWSALB=a0hQgRhmOzYSL1GHZfn7D+nDq0oCKUdfHnICumiIyzvvNDVqLmtXSe/FHtEbD4lqiufpKdwomYWDmvZ8E3Qz0msLwZbRZfXFh18t9TRGbW1QCTK+H5xfkZzO0NfD;
-        Expires=Tue, 26 Mar 2024 03:23:16 GMT; Path=/
-      - AWSALBCORS=a0hQgRhmOzYSL1GHZfn7D+nDq0oCKUdfHnICumiIyzvvNDVqLmtXSe/FHtEbD4lqiufpKdwomYWDmvZ8E3Qz0msLwZbRZfXFh18t9TRGbW1QCTK+H5xfkZzO0NfD;
-        Expires=Tue, 26 Mar 2024 03:23:16 GMT; Path=/; SameSite=None
+      - AWSALB=reWlrQpr/U7OUiivhvVWSnh3gz7rI7JJ9VAKxA9x4mygt8FNLc6TK1VuVcY7gUN8yYt/FczWFttTCjHMJLcJ5ov8G+Yh0WlbCdf5Vcc2Dhyj41jVgnXJBoseNRHh;
+        Expires=Thu, 06 Jun 2024 15:38:49 GMT; Path=/
+      - AWSALBCORS=reWlrQpr/U7OUiivhvVWSnh3gz7rI7JJ9VAKxA9x4mygt8FNLc6TK1VuVcY7gUN8yYt/FczWFttTCjHMJLcJ5ov8G+Yh0WlbCdf5Vcc2Dhyj41jVgnXJBoseNRHh;
+        Expires=Thu, 06 Jun 2024 15:38:49 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -61,6 +61,6 @@ http_interactions:
       string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2023,5,3]],"date-time":"2023-05-03T09:43:20Z","timestamp":1683107000368},"publisher-location":"Piscataway,
         NJ, USA","standards-body":{"name":"Software &amp; Systems Engineering Standards
         Committee of the IEEE Computer Society","acronym":"IEEE"},"reference-count":0,"publisher":"IEEE","isbn-type":[{"value":"9780738191683","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"DOI":"10.1109\/ieeestd.2014.6835311","type":"standard","created":{"date-parts":[[2014,6,19]],"date-time":"2014-06-19T20:13:47Z","timestamp":1403208827000},"approved":{"date-parts":[[2014,3,27]]},"source":"Crossref","is-referenced-by-count":6,"title":["IEEE
-        Standard for Software Quality Assurance Processes"],"prefix":"10.1109","member":"263","container-title":[],"original-title":[],"link":[{"URL":"http:\/\/xplorestaging.ieee.org\/ielx7\/6835309\/6835310\/06835311.pdf?arnumber=6835311","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,10,14]],"date-time":"2020-10-14T15:36:09Z","timestamp":1602689769000},"score":1,"resource":{"primary":{"URL":"https:\/\/ieeexplore.ieee.org\/document\/6835311"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"ISBN":["9780738191683"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1109\/ieeestd.2014.6835311","relation":{}}}'
-  recorded_at: Tue, 19 Mar 2024 03:23:16 GMT
+        Standard for Software Quality Assurance Processes"],"prefix":"10.1109","member":"263","container-title":[],"original-title":[],"link":[{"URL":"http:\/\/xplorestaging.ieee.org\/ielx7\/6835309\/6835310\/06835311.pdf?arnumber=6835311","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,10,14]],"date-time":"2020-10-14T15:36:09Z","timestamp":1602689769000},"score":1,"resource":{"primary":{"URL":"https:\/\/ieeexplore.ieee.org\/document\/6835311"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"ISBN":["9780738191683"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1109\/ieeestd.2014.6835311","relation":{},"subject":[]}}'
+  recorded_at: Thu, 30 May 2024 15:39:09 GMT
 recorded_with: VCR 6.2.0

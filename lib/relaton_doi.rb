@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "serrano"
+# require "serrano"
 require "relaton_bipm"
 # require "relaton_iso_bib"
 # require "relaton_w3c"
@@ -12,9 +12,9 @@ require_relative "relaton_doi/util"
 require_relative "relaton_doi/parser"
 require_relative "relaton_doi/crossref"
 
-Serrano.configuration do |config|
-  config.mailto = "open.source@ribose.com"
-end
+# Serrano.configuration do |config|
+#   config.mailto = "open.source@ribose.com"
+# end
 
 module RelatonDoi
   extend self

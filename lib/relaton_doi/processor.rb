@@ -47,5 +47,11 @@ module RelatonDoi
     def grammar_hash
       @grammar_hash ||= ::RelatonDoi.grammar_hash
     end
+
+    # Returns number of threads
+    # @return [Integer]
+    def threads
+      2
+    end
   end
 end

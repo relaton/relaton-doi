@@ -1,6 +1,12 @@
+require "faraday"
+
 module RelatonDoi
   module Crossref
     extend self
+
+    HEADER = {
+      "User-Agent" => "Relaton/RelatonDoi (https://www.relaton.org/guides/doi/; mailto:open.source@ribose.com)"
+    }.freeze
 
     #
     # Get a document by DOI from the CrossRef API.
@@ -15,11 +21,13 @@ module RelatonDoi
       Util.info "Fetching from search.crossref.org ...", key: doi
       id = doi.sub(%r{^doi:}, "")
       message = get_by_id id
-      Util.info "Found: `#{message['DOI']}`", key: doi
-      Parser.parse message
-    rescue Serrano::NotFound
-      Util.info "Not found.", key: doi
-      nil
+      if message
+        Util.info "Found: `#{message['DOI']}`", key: doi
+        Parser.parse message
+      else
+        Util.info "Not found.", key: doi
+        nil
+      end
     end
 
     #
@@ -30,8 +38,24 @@ module RelatonDoi
     # @return [Hash] The document.
     #
     def get_by_id(id)
-      resp = Serrano.works ids: id
-      resp[0]["message"]
+      # resp = Serrano.works ids: id
+      n = 0
+      url = "https://api.crossref.org/works/#{CGI.escape(id)}"
+      loop do
+        resp = Faraday.get url, nil, HEADER
+        case resp.status
+        when 200
+          work = JSON.parse resp.body
+          return work["message"] if work["status"] == "ok"
+        when 404 then return nil
+        end
+
+        if n > 1
+          raise RelatonBib::RequestError, "Crossref error: #{resp.body}"
+        end
+        n += 1
+        sleep resp.headers["x-rate-limit-interval"].to_i * n
+      end
     end
   end
 end

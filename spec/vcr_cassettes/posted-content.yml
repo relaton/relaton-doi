@@ -21,16 +21,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 19 Mar 2024 03:26:45 GMT
+      - Thu, 30 May 2024 15:50:20 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '13843'
+      - '13856'
       Set-Cookie:
-      - AWSALB=i0kNzs4bucP4WEvOWM0lWrfZsAJzWBmxnSXJ4RaR+MTccVBOVQIaBEm3SrawLUdrPyqqZ/D9ow9n4WXOKlKobRQJizV5WkEqnwqGYi7QyASNHs5IIj1lMfWO6/Xj;
-        Expires=Tue, 26 Mar 2024 03:26:45 GMT; Path=/
-      - AWSALBCORS=i0kNzs4bucP4WEvOWM0lWrfZsAJzWBmxnSXJ4RaR+MTccVBOVQIaBEm3SrawLUdrPyqqZ/D9ow9n4WXOKlKobRQJizV5WkEqnwqGYi7QyASNHs5IIj1lMfWO6/Xj;
-        Expires=Tue, 26 Mar 2024 03:26:45 GMT; Path=/; SameSite=None
+      - AWSALB=m/TAvq/KTeN2wBpevM0qLCbCLQ3XkppdTvWeTKMpWhY2YqVRsAO9vCjhG9hIG6boF8qnvT7RkqZYqkk9vSXqRZPirTfAQgGuwojCsdUBrr0xSdWt2gQF0vIGkyTV;
+        Expires=Thu, 06 Jun 2024 15:50:16 GMT; Path=/
+      - AWSALBCORS=m/TAvq/KTeN2wBpevM0qLCbCLQ3XkppdTvWeTKMpWhY2YqVRsAO9vCjhG9hIG6boF8qnvT7RkqZYqkk9vSXqRZPirTfAQgGuwojCsdUBrr0xSdWt2gQF0vIGkyTV;
+        Expires=Thu, 06 Jun 2024 15:50:16 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -115,8 +115,8 @@ http_interactions:
         J , Russel WD . 2001. Molecular Cloning: A Laboratory Manual (3rd edition).
         Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY."},{"key":"2019090110484600000_751156v1.66","doi-asserted-by":"publisher","DOI":"10.1038\/nmeth.1318"},{"key":"2019090110484600000_751156v1.67","doi-asserted-by":"publisher","DOI":"10.1099\/13500872-140-8-1817"},{"key":"2019090110484600000_751156v1.68","doi-asserted-by":"publisher","DOI":"10.1007\/s002030100262"},{"key":"2019090110484600000_751156v1.69","doi-asserted-by":"publisher","DOI":"10.1186\/s12864-016-2539-z"},{"key":"2019090110484600000_751156v1.70","doi-asserted-by":"publisher","DOI":"10.1016\/S0168-1656(03)00154-8"},{"key":"2019090110484600000_751156v1.71","unstructured":"R
         Development Core Team. 2016. R: A language and environment for statistical
-        computing, R Foundation for Statistical Computing, Vienna, Austria."}],"container-title":[],"original-title":[],"link":[{"URL":"https:\/\/syndication.highwire.org\/content\/doi\/10.1101\/751156","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,12,15]],"date-time":"2021-12-15T17:45:03Z","timestamp":1639590303000},"score":1,"resource":{"primary":{"URL":"http:\/\/biorxiv.org\/lookup\/doi\/10.1101\/751156"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2019,8,30]]},"references-count":71,"URL":"http:\/\/dx.doi.org\/10.1101\/751156","relation":{"is-preprint-of":[{"id-type":"doi","id":"10.1128\/mbio.02273-19","asserted-by":"subject"}]},"published":{"date-parts":[[2019,8,30]]},"subtype":"preprint"}}'
-  recorded_at: Tue, 19 Mar 2024 03:26:45 GMT
+        computing, R Foundation for Statistical Computing, Vienna, Austria."}],"container-title":[],"original-title":[],"link":[{"URL":"https:\/\/syndication.highwire.org\/content\/doi\/10.1101\/751156","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,12,15]],"date-time":"2021-12-15T17:45:03Z","timestamp":1639590303000},"score":1,"resource":{"primary":{"URL":"http:\/\/biorxiv.org\/lookup\/doi\/10.1101\/751156"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2019,8,30]]},"references-count":71,"URL":"http:\/\/dx.doi.org\/10.1101\/751156","relation":{"is-preprint-of":[{"id-type":"doi","id":"10.1128\/mbio.02273-19","asserted-by":"subject"}]},"subject":[],"published":{"date-parts":[[2019,8,30]]},"subtype":"preprint"}}'
+  recorded_at: Thu, 30 May 2024 15:50:20 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Deciphering%2Bthe%2Brules%2Bunderlying%2Bxenogeneic%2Bsilencing%2Band%2Bcounter-silencing%2Bof%2BLsr2-like%2Bproteins%2B2019%2BCold%2BSpring%2BHarbor%2BLaboratory
@@ -136,7 +136,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 19 Mar 2024 03:26:50 GMT
+      - Thu, 30 May 2024 15:50:24 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -168,7 +168,7 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":164,"items":[{"indexed":{"date-parts":[[2023,12,9]],"date-time":"2023-12-09T09:43:49Z","timestamp":1702115029244},"publisher-location":"Singapore","reference-count":174,"publisher":"Springer
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":165,"items":[{"indexed":{"date-parts":[[2024,5,10]],"date-time":"2024-05-10T02:46:49Z","timestamp":1715309209944},"publisher-location":"Singapore","reference-count":174,"publisher":"Springer
         Singapore","isbn-type":[{"value":"9789811334108","type":"print"},{"value":"9789811334115","type":"electronic"}],"license":[{"start":{"date-parts":[[2019,1,1]],"date-time":"2019-01-01T00:00:00Z","timestamp":1546300800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2019,1,1]],"date-time":"2019-01-01T00:00:00Z","timestamp":1546300800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2019]]},"DOI":"10.1007\/978-981-13-3411-5_1","type":"book-chapter","created":{"date-parts":[[2019,2,21]],"date-time":"2019-02-21T06:24:47Z","timestamp":1550730287000},"page":"1-27","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":2,"title":["Xenogeneic
         Silencing and Horizontal Gene Transfer"],"prefix":"10.1007","author":[{"given":"Chiho","family":"Suzuki-Minakuchi","sequence":"first","affiliation":[]},{"given":"William
         Wiley","family":"Navarre","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2019,2,22]]},"reference":[{"key":"1_CR1","doi-asserted-by":"publisher","first-page":"616","DOI":"10.1016\/j.gde.2004.09.004","volume":"14","author":"V
@@ -853,16 +853,36 @@ http_interactions:
         on IncP-7 plasmid pCAR1 and the host chromosome regulate the host transcriptome
         cooperatively but differently. Appl Environ Microbiol. 2016;82:832\u201342.
         https:\/\/doi.org\/10.1128\/AEM.03071-15 .","journal-title":"Appl Environ
-        Microbiol"}],"container-title":["DNA Traffic in the Environment"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-981-13-3411-5_1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,12]],"date-time":"2022-09-12T07:29:52Z","timestamp":1662967792000},"score":37.36785,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-981-13-3411-5_1"}},"issued":{"date-parts":[[2019]]},"ISBN":["9789811334108","9789811334115"],"references-count":174,"URL":"http:\/\/dx.doi.org\/10.1007\/978-981-13-3411-5_1","published":{"date-parts":[[2019]]},"assertion":[{"value":"22
+        Microbiol"}],"container-title":["DNA Traffic in the Environment"],"language":"en","link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-981-13-3411-5_1","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,12]],"date-time":"2022-09-12T07:29:52Z","timestamp":1662967792000},"score":37.411404,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-981-13-3411-5_1"}},"issued":{"date-parts":[[2019]]},"ISBN":["9789811334108","9789811334115"],"references-count":174,"URL":"http:\/\/dx.doi.org\/10.1007\/978-981-13-3411-5_1","published":{"date-parts":[[2019]]},"assertion":[{"value":"22
         February 2019","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
-        History"}}]},{"indexed":{"date-parts":[[2022,4,2]],"date-time":"2022-04-02T22:04:38Z","timestamp":1648937078973},"edition-number":"0","reference-count":3,"publisher":"CRC
+        History"}}]},{"indexed":{"date-parts":[[2024,5,9]],"date-time":"2024-05-09T23:48:28Z","timestamp":1715298508807},"edition-number":"0","reference-count":3,"publisher":"CRC
         Press","isbn-type":[{"value":"9780429112089","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2009,11,18]]},"DOI":"10.1201\/b15106-26","type":"book-chapter","created":{"date-parts":[[2013,6,19]],"date-time":"2013-06-19T20:47:24Z","timestamp":1371674844000},"page":"229-242","source":"Crossref","is-referenced-by-count":0,"title":["Protein
         Engineering and Gene Silencing"],"prefix":"10.1201","member":"301","reference":[{"key":"p_1","volume-title":"et
         al","author":"Korf I.","year":"2003"},{"key":"p_2","volume-title":"Bioinformatics:
         Sequence Alignment and Markov Models","author":"Sharma K. L.","year":"2008"},{"key":"p_3","volume-title":"Cold
         Spring Harbor Laboratory Press","author":"Dear P. H."}],"container-title":["Introduction
-        to Peptides and Proteins"],"link":[{"URL":"http:\/\/www.crcnetbase.com\/doi\/pdf\/10.1201\/b15106-26","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,10]],"date-time":"2021-04-10T15:51:16Z","timestamp":1618069876000},"score":30.519325,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781439882047\/chapters\/10.1201\/b15106-26"}},"issued":{"date-parts":[[2009,11,18]]},"ISBN":["9780429112089"],"references-count":3,"URL":"http:\/\/dx.doi.org\/10.1201\/b15106-26","published":{"date-parts":[[2009,11,18]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T03:55:09Z","timestamp":1648698909102},"publisher-location":"Washington,
-        DC, USA","reference-count":6,"publisher":"ASM Press","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1128\/9781555816810.ch3","type":"book-chapter","created":{"date-parts":[[2014,4,9]],"date-time":"2014-04-09T21:28:00Z","timestamp":1397078880000},"page":"23-25","source":"Crossref","is-referenced-by-count":1,"title":["Phage
+        to Peptides and Proteins"],"language":"en","link":[{"URL":"http:\/\/www.crcnetbase.com\/doi\/pdf\/10.1201\/b15106-26","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,10]],"date-time":"2021-04-10T15:51:16Z","timestamp":1618069876000},"score":30.508142,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781439882047\/chapters\/10.1201\/b15106-26"}},"issued":{"date-parts":[[2009,11,18]]},"ISBN":["9780429112089"],"references-count":3,"URL":"http:\/\/dx.doi.org\/10.1201\/b15106-26","published":{"date-parts":[[2009,11,18]]}},{"indexed":{"date-parts":[[2024,4,30]],"date-time":"2024-04-30T02:30:07Z","timestamp":1714444207558},"reference-count":125,"publisher":"CRC
+        Press","isbn-type":[{"value":"9781578087167","type":"print"},{"value":"9781439873250","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2011,4,20]]},"DOI":"10.1201\/b10882-3","type":"book-chapter","created":{"date-parts":[[2011,5,4]],"date-time":"2011-05-04T16:50:20Z","timestamp":1304527820000},"page":"17-46","source":"Crossref","is-referenced-by-count":1,"title":["Deciphering
+        post-transcriptional Gene Silencing Pathways Through Genetic Screens"],"prefix":"10.1201","author":[{"given":"Vincent","family":"Jauvion","sequence":"first","affiliation":[]},{"given":"Allison","family":"Mallory","sequence":"additional","affiliation":[]},{"given":"Herv\u00e9","family":"Vaucheret","sequence":"additional","affiliation":[]}],"member":"301","published-online":{"date-parts":[[2011,5,4]]},"reference":[{"key":"p_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2006.03.035"},{"key":"p_2","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2005.04.004"},{"key":"p_3","doi-asserted-by":"publisher","DOI":"10.1111\/j.1365-313X.2006.02802.x"},{"key":"p_4","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2006.09.032"},{"key":"p_5","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0505461102"},{"key":"p_6","doi-asserted-by":"publisher","DOI":"10.1126\/science.1146565"},{"key":"p_7","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(02)00792-3"},{"key":"p_8","doi-asserted-by":"publisher","DOI":"10.1101\/gr.080275.108"},{"key":"p_9","doi-asserted-by":"publisher","DOI":"10.1093\/nar\/gkl886"},{"key":"p_10","doi-asserted-by":"publisher","DOI":"10.1093\/emboj\/17.1.170"},{"key":"p_11","doi-asserted-by":"publisher","DOI":"10.1038\/emboj.2009.292"},{"key":"p_12","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2007.07.061"},{"key":"p_13","doi-asserted-by":"publisher","DOI":"10.1038\/sj.emboj.7601217"},{"key":"p_14","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(03)00293-8"},{"key":"p_15","doi-asserted-by":"publisher","DOI":"10.1126\/science.1159151"},{"key":"p_16","doi-asserted-by":"publisher","DOI":"10.1093\/nar\/gkq590"},{"key":"p_17","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.1001738107"},{"key":"p_18","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1770009"},{"key":"p_19","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0913203107"},{"key":"p_20","doi-asserted-by":"publisher","DOI":"10.1038\/nsmb.1866"},{"key":"p_21","doi-asserted-by":"publisher","DOI":"10.1093\/emboj\/20.8.2069"},{"key":"p_22","doi-asserted-by":"publisher","DOI":"10.1016\/S0092-8674(00)80864-8"},{"key":"p_23","doi-asserted-by":"publisher","DOI":"10.1104\/pp.108.118307"},{"key":"p_24","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.91.12.5538"},{"key":"p_25","doi-asserted-by":"publisher","DOI":"10.1126\/science.1128214"},{"key":"p_26","doi-asserted-by":"publisher","DOI":"10.1038\/nri2824"},{"key":"p_27","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2007.07.039"},{"key":"p_28","doi-asserted-by":"publisher","DOI":"10.1128\/JVI.00272-08"},{"key":"p_29","doi-asserted-by":"publisher","DOI":"10.1038\/ng1675"},{"key":"p_30","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.020719"},{"key":"p_31","doi-asserted-by":"publisher","DOI":"10.1038\/ng2081"},{"key":"p_32","doi-asserted-by":"publisher","DOI":"10.1126\/science.1185880"},{"key":"p_33","doi-asserted-by":"publisher","DOI":"10.1038\/emboj.2010.65"},{"key":"p_34","doi-asserted-by":"publisher","DOI":"10.1186\/1758-907X-1-15"},{"key":"p_35","doi-asserted-by":"publisher","DOI":"10.1111\/j.1742-4658.2008.06828.x"},{"key":"p_36","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.10.10.1747"},{"key":"p_37","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.200217597"},{"key":"p_38","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2007.04.005"},{"key":"p_39","doi-asserted-by":"publisher","DOI":"10.1038\/embor.2008.247"},{"key":"p_40","doi-asserted-by":"publisher","DOI":"10.1038\/35888"},{"key":"p_41","doi-asserted-by":"publisher","DOI":"10.1093\/pcp\/pcm099"},{"key":"p_42","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2005.07.024"},{"key":"p_43","doi-asserted-by":"publisher","DOI":"10.1126\/science.1101092"},{"key":"p_44","doi-asserted-by":"publisher","DOI":"10.1016\/j.devcel.2008.04.005"},{"key":"p_45","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.107.055319"},{"key":"p_46","doi-asserted-by":"publisher","DOI":"10.1126\/science.286.5441.950"},{"key":"p_47","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0307969100"},{"key":"p_48","doi-asserted-by":"publisher","DOI":"10.1038\/ng1804"},{"key":"p_49","doi-asserted-by":"publisher","DOI":"10.1111\/j.1365-313X.2007.03043.x"},{"key":"p_50","doi-asserted-by":"publisher","DOI":"10.1126\/science.1106910"},{"key":"p_51","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0606536103"},{"key":"p_52","doi-asserted-by":"publisher","DOI":"10.1093\/emboj\/cdg431"},{"key":"p_53","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2003.09.004"},{"key":"p_54","doi-asserted-by":"publisher","DOI":"10.1242\/dev.02491"},{"key":"p_55","doi-asserted-by":"publisher","DOI":"10.1038\/nbt831"},{"key":"p_56","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.110.076638"},{"key":"p_57","doi-asserted-by":"publisher","DOI":"10.1016\/j.febslet.2004.04.043"},{"key":"p_58","doi-asserted-by":"publisher","DOI":"10.1093\/pcp\/pcn146"},{"key":"p_59","doi-asserted-by":"publisher","DOI":"10.1046\/j.1365-313X.1996.10030437.x"},{"key":"p_60","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0403115101"},{"key":"p_61","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0802493105"},{"key":"p_62","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2005.07.029"},{"key":"p_63","doi-asserted-by":"publisher","DOI":"10.1038\/sj.embor.7400806"},{"key":"p_64","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.106.045724"},{"key":"p_65","doi-asserted-by":"publisher","DOI":"10.1038\/embor.2009.32"},{"key":"p_66","doi-asserted-by":"publisher","DOI":"10.1038\/sj.emboj.7600340"},{"key":"p_67","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pgen.1000646"},{"key":"p_68","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0903444106"},{"key":"p_69","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.109.072553"},{"key":"p_70","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2008.02.034"},{"key":"p_71","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pone.0001755"},{"key":"p_72","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0604627103"},{"key":"p_73","doi-asserted-by":"publisher","DOI":"10.1126\/science.1187959"},{"key":"p_74","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2008.02.033"},{"key":"p_75","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.010358"},{"key":"p_76","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(00)00862-9"},{"key":"p_77","doi-asserted-by":"publisher","DOI":"10.1016\/S0092-8674(00)80863-6"},{"key":"p_78","doi-asserted-by":"publisher","DOI":"10.1007\/s11103-006-9125-8"},{"key":"p_79","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.2.4.279"},{"key":"p_80","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pgen.1000320"},{"key":"p_81","doi-asserted-by":"publisher","DOI":"10.1038\/nature01958"},{"key":"p_82","doi-asserted-by":"publisher","DOI":"10.1007\/BF00019126"},{"key":"p_83","doi-asserted-by":"publisher","DOI":"10.1093\/emboj\/16.15.4738"},{"key":"p_84","doi-asserted-by":"crossref","first-page":"1447","DOI":"10.1104\/pp.112.4.1447","volume":"112","author":"Palauqui
+        J.C.","year":"1996","journal-title":"Plant Physiol."},{"key":"p_85","doi-asserted-by":"publisher","DOI":"10.1101\/gad.307804"},{"key":"p_86","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0405570102"},{"key":"p_87","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(02)01017-5"},{"key":"p_88","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1231804"},{"key":"p_89","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pgen.1000096"},{"key":"p_90","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pone.0004971"},{"key":"p_91","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0805760105"},{"key":"p_92","doi-asserted-by":"publisher","DOI":"10.1128\/JVI.79.24.15209-15217.2005"},{"key":"p_93","doi-asserted-by":"publisher","DOI":"10.1016\/j.devcel.2005.01.018"},{"key":"p_94","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1476406"},{"key":"p_95","doi-asserted-by":"publisher","DOI":"10.1126\/science.1163728"},{"key":"p_96","doi-asserted-by":"publisher","DOI":"10.1146\/annurev.arplant.043008.092111"},{"key":"p_97","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.105.039834"},{"key":"p_98","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pone.0005980"},{"key":"p_99","doi-asserted-by":"publisher","DOI":"10.1104\/pp.105.063537"},{"key":"p_100","doi-asserted-by":"publisher","DOI":"10.1101\/gad.579910"},{"key":"p_101","doi-asserted-by":"publisher","DOI":"10.1007\/BF00262443"},{"key":"p_102","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.107.051540"},{"key":"p_103","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0812729106"},{"key":"p_104","doi-asserted-by":"publisher","DOI":"10.1016\/j.molcel.2004.06.006"},{"key":"p_105","doi-asserted-by":"publisher","DOI":"10.1093\/pcp\/pcn043"},{"key":"p_106","doi-asserted-by":"publisher","DOI":"10.1104\/pp.108.117119"},{"key":"p_107","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.2.4.291"},{"key":"p_108","doi-asserted-by":"publisher","DOI":"10.1016\/j.tplants.2008.04.007"},{"key":"p_109","doi-asserted-by":"publisher","DOI":"10.1016\/j.molcel.2006.03.011"},{"key":"p_110","doi-asserted-by":"publisher","DOI":"10.1007\/BF02191598"},{"key":"p_111","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1201404"},{"key":"p_112","doi-asserted-by":"publisher","DOI":"10.1093\/nar\/gkn670"},{"key":"p_113","doi-asserted-by":"publisher","DOI":"10.1016\/j.molcel.2004.09.028"},{"key":"p_114","doi-asserted-by":"publisher","DOI":"10.1038\/39215"},{"key":"p_115","doi-asserted-by":"publisher","DOI":"10.1016\/S0092-8674(00)81749-3"},{"key":"p_116","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0904086107"},{"key":"p_117","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.95.23.13959"},{"key":"p_118","doi-asserted-by":"publisher","DOI":"10.1016\/j.molcel.2010.03.008"},{"key":"p_119","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(03)00281-1"},{"key":"p_120","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0506426102"},{"key":"p_121","doi-asserted-by":"publisher","DOI":"10.1111\/j.1365-313X.2006.02835.x"},{"key":"p_122","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0911341107"},{"key":"p_123","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1352605"},{"key":"p_124","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0804218105"},{"key":"p_125","doi-asserted-by":"publisher","DOI":"10.1093\/nar\/gkq348"}],"container-title":["RNAi
+        Technology"],"language":"en","link":[{"URL":"http:\/\/www.crcnetbase.com\/doi\/pdf\/10.1201\/b10882-3","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2017,6,19]],"date-time":"2017-06-19T23:45:13Z","timestamp":1497915913000},"score":29.33463,"resource":{"primary":{"URL":"http:\/\/www.crcnetbase.com\/doi\/10.1201\/b10882-3"}},"issued":{"date-parts":[[2011,4,20]]},"ISBN":["9781578087167","9781439873250"],"references-count":125,"alternative-id":["10.1201\/b10882-3","10.1201\/b10882"],"URL":"http:\/\/dx.doi.org\/10.1201\/b10882-3","published":{"date-parts":[[2011,4,20]]}},{"indexed":{"date-parts":[[2024,5,3]],"date-time":"2024-05-03T10:32:45Z","timestamp":1714732365668},"publisher-location":"Basel","reference-count":4,"publisher":"Birkh\u00e4user
+        Basel","isbn-type":[{"value":"9783034863674","type":"print"},{"value":"9783034863667","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1995]]},"DOI":"10.1007\/978-3-0348-6366-7_7","type":"book-chapter","created":{"date-parts":[[2013,10,4]],"date-time":"2013-10-04T02:24:20Z","timestamp":1380853460000},"page":"117-128","source":"Crossref","is-referenced-by-count":0,"title":["Cold
+        Spring Harbor"],"prefix":"10.1007","author":[{"given":"Evelyn Fox","family":"Keller","sequence":"first","affiliation":[]}],"member":"297","reference":[{"key":"7_CR1","first-page":"3","volume":"41","author":"V
+        Bush","year":"1942","unstructured":"Bush V (1942) President\u2019s Report
+        of 1942. Carnegie Institution of Washington Yearbook 41:3.","journal-title":"Carnegie
+        Institution of Washington Yearbook"},{"key":"7_CR2","unstructured":"Aus einem
+        Brief Barbara McClintocks an Tracy Sonneborn vom 14. Mai 1944."},{"key":"7_CR3","unstructured":"Eintr\u00e4ge
+        aus Warren Weavers Tagebuch vom 10. bis 20. April 1946. Rockefeller Foundation
+        Archives, R.G. 1.1, Serie 200, Fach 160: Ordner 1968."},{"key":"7_CR4","unstructured":"Zitiert
+        in: Holton G Thematic Origins of Scientific Thought. A.a.O., Seite 378."}],"container-title":["Barbara
+        McClintock"],"language":"de","link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-0348-6366-7_7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,5,17]],"date-time":"2019-05-17T18:38:29Z","timestamp":1558118309000},"score":29.143473,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-0348-6366-7_7"}},"issued":{"date-parts":[[1995]]},"ISBN":["9783034863674","9783034863667"],"references-count":4,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-0348-6366-7_7","published":{"date-parts":[[1995]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T19:02:41Z","timestamp":1649185361097},"edition-number":"1","reference-count":0,"publisher":"Fordham
+        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,9,17]]},"DOI":"10.2307\/j.ctvpg85h7.7","type":"book-chapter","created":{"date-parts":[[2019,9,17]],"date-time":"2019-09-17T17:56:27Z","timestamp":1568742987000},"page":"12-14","source":"Crossref","is-referenced-by-count":0,"title":["The
+        Silencing of Imus"],"prefix":"10.2307","member":"1121","container-title":["Radio
+        Active"],"deposited":{"date-parts":[[2019,9,17]],"date-time":"2019-09-17T17:56:38Z","timestamp":1568742998000},"score":28.814823,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvpg85h7.7"}},"issued":{"date-parts":[[2019,9,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvpg85h7.7","published":{"date-parts":[[2019,9,17]]}},{"indexed":{"date-parts":[[2024,4,29]],"date-time":"2024-04-29T02:29:30Z","timestamp":1714357770615},"publisher-location":"UK","edition-number":"1","reference-count":0,"publisher":"CABI","isbn-type":[{"value":"9781845935740","type":"print"},{"value":"9781845935757","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2009,1]]},"DOI":"10.1079\/9781845935740.0001","type":"book-chapter","created":{"date-parts":[[2009,11,16]],"date-time":"2009-11-16T18:23:31Z","timestamp":1258395811000},"page":"1-35","source":"Crossref","is-referenced-by-count":3,"title":["Plant
+        RNA-silencing immunity and viral counter-defence strategies."],"prefix":"10.1079","author":[{"given":"S.","family":"Wadsworth","sequence":"first","affiliation":[{"name":"Institut
+        de Biologie Mol\u00e9culaire des PlantesStrasbourgFrance"}]},{"given":"P.","family":"Dunoyer","sequence":"additional","affiliation":[]}],"member":"242","published-online":{"date-parts":[[2009,9,16]]},"container-title":["Molecular
+        plant-microbe interactions"],"language":"en","deposited":{"date-parts":[[2023,8,16]],"date-time":"2023-08-16T19:09:20Z","timestamp":1692212960000},"score":28.387062,"resource":{"primary":{"URL":"http:\/\/www.cabidigitallibrary.org\/doi\/10.1079\/9781845935740.0001"}},"issued":{"date-parts":[[2009,1]]},"ISBN":["9781845935740","9781845935757"],"references-count":0,"alternative-id":["10.1079\/9781845935740.0001","10.1079\/9781845935740.0000"],"URL":"http:\/\/dx.doi.org\/10.1079\/9781845935740.0001","published":{"date-parts":[[2009,1]]}},{"indexed":{"date-parts":[[2024,5,11]],"date-time":"2024-05-11T22:37:20Z","timestamp":1715467040796},"publisher-location":"Washington,
+        DC, USA","reference-count":6,"publisher":"ASM Press","isbn-type":[{"value":"9781683671237","type":"electronic"},{"value":"9781555816810","type":"electronic"},{"value":"9781555815387","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1128\/9781555816810.ch3","type":"book-chapter","created":{"date-parts":[[2014,4,9]],"date-time":"2014-04-09T21:28:00Z","timestamp":1397078880000},"page":"23-25","source":"Crossref","is-referenced-by-count":1,"title":["Phage
         and Bacterial Genetics at Cold Spring Harbor Laboratory"],"prefix":"10.1128","author":[{"given":"Stanley","family":"Maloy","sequence":"first","affiliation":[{"name":"Department
         of Biology; San Diego State University; San Diego CA 92182-4614"}]},{"given":"Kelly
         T.","family":"Hughes","sequence":"additional","affiliation":[{"name":"Biology
@@ -874,24 +894,7 @@ http_interactions:
         Cloning","author":"Maniatis","year":"1982"},{"key":"10.1128\/9781555816810.ch3-BIB0005|c03-cit-0005","volume-title":"Experiments
         in Molecular Genetics","author":"Miller","year":"1972"},{"key":"10.1128\/9781555816810.ch3-BIB0006|c03-cit-0006","volume-title":"Experiments
         with Gene Fusions","author":"Silhavy","year":"1984"}],"container-title":["<i>The
-        Lure of<\/i> Bacterial Genetics"],"link":[{"URL":"https:\/\/api.wiley.com\/onlinelibrary\/tdm\/v1\/articles\/10.1128%2F9781555816810.ch3","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/onlinelibrary.wiley.com\/wol1\/doi\/10.1128\/9781555816810.ch3\/fullpdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,8,14]],"date-time":"2020-08-14T01:32:00Z","timestamp":1597368720000},"score":29.409973,"resource":{"primary":{"URL":"http:\/\/doi.wiley.com\/10.1128\/9781555816810.ch3"}},"issued":{"date-parts":[[2014,4,9]]},"references-count":6,"URL":"http:\/\/dx.doi.org\/10.1128\/9781555816810.ch3","published":{"date-parts":[[2014,4,9]]}},{"indexed":{"date-parts":[[2022,4,1]],"date-time":"2022-04-01T16:54:29Z","timestamp":1648832069656},"reference-count":125,"publisher":"CRC
-        Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2011,4,20]]},"DOI":"10.1201\/b10882-3","type":"book-chapter","created":{"date-parts":[[2011,5,4]],"date-time":"2011-05-04T12:50:20Z","timestamp":1304513420000},"page":"17-46","source":"Crossref","is-referenced-by-count":1,"title":["Deciphering
-        post-transcriptional Gene Silencing Pathways Through Genetic Screens"],"prefix":"10.1201","author":[{"given":"Vincent","family":"Jauvion","sequence":"first","affiliation":[]},{"given":"Allison","family":"Mallory","sequence":"additional","affiliation":[]},{"given":"Herv\u00e9","family":"Vaucheret","sequence":"additional","affiliation":[]}],"member":"301","published-online":{"date-parts":[[2011,5,4]]},"reference":[{"key":"p_1","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2006.03.035"},{"key":"p_2","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2005.04.004"},{"key":"p_3","doi-asserted-by":"publisher","DOI":"10.1111\/j.1365-313X.2006.02802.x"},{"key":"p_4","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2006.09.032"},{"key":"p_5","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0505461102"},{"key":"p_6","doi-asserted-by":"publisher","DOI":"10.1126\/science.1146565"},{"key":"p_7","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(02)00792-3"},{"key":"p_8","doi-asserted-by":"publisher","DOI":"10.1101\/gr.080275.108"},{"key":"p_9","doi-asserted-by":"publisher","DOI":"10.1093\/nar\/gkl886"},{"key":"p_10","doi-asserted-by":"publisher","DOI":"10.1093\/emboj\/17.1.170"},{"key":"p_11","doi-asserted-by":"publisher","DOI":"10.1038\/emboj.2009.292"},{"key":"p_12","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2007.07.061"},{"key":"p_13","doi-asserted-by":"publisher","DOI":"10.1038\/sj.emboj.7601217"},{"key":"p_14","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(03)00293-8"},{"key":"p_15","doi-asserted-by":"publisher","DOI":"10.1126\/science.1159151"},{"key":"p_16","doi-asserted-by":"publisher","DOI":"10.1093\/nar\/gkq590"},{"key":"p_17","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.1001738107"},{"key":"p_18","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1770009"},{"key":"p_19","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0913203107"},{"key":"p_20","doi-asserted-by":"publisher","DOI":"10.1038\/nsmb.1866"},{"key":"p_21","doi-asserted-by":"publisher","DOI":"10.1093\/emboj\/20.8.2069"},{"key":"p_22","doi-asserted-by":"publisher","DOI":"10.1016\/S0092-8674(00)80864-8"},{"key":"p_23","doi-asserted-by":"publisher","DOI":"10.1104\/pp.108.118307"},{"key":"p_24","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.91.12.5538"},{"key":"p_25","doi-asserted-by":"publisher","DOI":"10.1126\/science.1128214"},{"key":"p_26","doi-asserted-by":"publisher","DOI":"10.1038\/nri2824"},{"key":"p_27","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2007.07.039"},{"key":"p_28","doi-asserted-by":"publisher","DOI":"10.1128\/JVI.00272-08"},{"key":"p_29","doi-asserted-by":"publisher","DOI":"10.1038\/ng1675"},{"key":"p_30","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.020719"},{"key":"p_31","doi-asserted-by":"publisher","DOI":"10.1038\/ng2081"},{"key":"p_32","doi-asserted-by":"publisher","DOI":"10.1126\/science.1185880"},{"key":"p_33","doi-asserted-by":"publisher","DOI":"10.1038\/emboj.2010.65"},{"key":"p_34","doi-asserted-by":"publisher","DOI":"10.1186\/1758-907X-1-15"},{"key":"p_35","doi-asserted-by":"publisher","DOI":"10.1111\/j.1742-4658.2008.06828.x"},{"key":"p_36","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.10.10.1747"},{"key":"p_37","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.200217597"},{"key":"p_38","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2007.04.005"},{"key":"p_39","doi-asserted-by":"publisher","DOI":"10.1038\/embor.2008.247"},{"key":"p_40","doi-asserted-by":"publisher","DOI":"10.1038\/35888"},{"key":"p_41","doi-asserted-by":"publisher","DOI":"10.1093\/pcp\/pcm099"},{"key":"p_42","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2005.07.024"},{"key":"p_43","doi-asserted-by":"publisher","DOI":"10.1126\/science.1101092"},{"key":"p_44","doi-asserted-by":"publisher","DOI":"10.1016\/j.devcel.2008.04.005"},{"key":"p_45","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.107.055319"},{"key":"p_46","doi-asserted-by":"publisher","DOI":"10.1126\/science.286.5441.950"},{"key":"p_47","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0307969100"},{"key":"p_48","doi-asserted-by":"publisher","DOI":"10.1038\/ng1804"},{"key":"p_49","doi-asserted-by":"publisher","DOI":"10.1111\/j.1365-313X.2007.03043.x"},{"key":"p_50","doi-asserted-by":"publisher","DOI":"10.1126\/science.1106910"},{"key":"p_51","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0606536103"},{"key":"p_52","doi-asserted-by":"publisher","DOI":"10.1093\/emboj\/cdg431"},{"key":"p_53","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2003.09.004"},{"key":"p_54","doi-asserted-by":"publisher","DOI":"10.1242\/dev.02491"},{"key":"p_55","doi-asserted-by":"publisher","DOI":"10.1038\/nbt831"},{"key":"p_56","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.110.076638"},{"key":"p_57","doi-asserted-by":"publisher","DOI":"10.1016\/j.febslet.2004.04.043"},{"key":"p_58","doi-asserted-by":"publisher","DOI":"10.1093\/pcp\/pcn146"},{"key":"p_59","doi-asserted-by":"publisher","DOI":"10.1046\/j.1365-313X.1996.10030437.x"},{"key":"p_60","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0403115101"},{"key":"p_61","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0802493105"},{"key":"p_62","doi-asserted-by":"publisher","DOI":"10.1016\/j.cub.2005.07.029"},{"key":"p_63","doi-asserted-by":"publisher","DOI":"10.1038\/sj.embor.7400806"},{"key":"p_64","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.106.045724"},{"key":"p_65","doi-asserted-by":"publisher","DOI":"10.1038\/embor.2009.32"},{"key":"p_66","doi-asserted-by":"publisher","DOI":"10.1038\/sj.emboj.7600340"},{"key":"p_67","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pgen.1000646"},{"key":"p_68","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0903444106"},{"key":"p_69","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.109.072553"},{"key":"p_70","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2008.02.034"},{"key":"p_71","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pone.0001755"},{"key":"p_72","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0604627103"},{"key":"p_73","doi-asserted-by":"publisher","DOI":"10.1126\/science.1187959"},{"key":"p_74","doi-asserted-by":"publisher","DOI":"10.1016\/j.cell.2008.02.033"},{"key":"p_75","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.010358"},{"key":"p_76","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(00)00862-9"},{"key":"p_77","doi-asserted-by":"publisher","DOI":"10.1016\/S0092-8674(00)80863-6"},{"key":"p_78","doi-asserted-by":"publisher","DOI":"10.1007\/s11103-006-9125-8"},{"key":"p_79","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.2.4.279"},{"key":"p_80","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pgen.1000320"},{"key":"p_81","doi-asserted-by":"publisher","DOI":"10.1038\/nature01958"},{"key":"p_82","doi-asserted-by":"publisher","DOI":"10.1007\/BF00019126"},{"key":"p_83","doi-asserted-by":"publisher","DOI":"10.1093\/emboj\/16.15.4738"},{"key":"p_84","doi-asserted-by":"crossref","first-page":"1447","DOI":"10.1104\/pp.112.4.1447","volume":"112","author":"Palauqui
-        J.C.","year":"1996","journal-title":"Plant Physiol."},{"key":"p_85","doi-asserted-by":"publisher","DOI":"10.1101\/gad.307804"},{"key":"p_86","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0405570102"},{"key":"p_87","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(02)01017-5"},{"key":"p_88","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1231804"},{"key":"p_89","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pgen.1000096"},{"key":"p_90","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pone.0004971"},{"key":"p_91","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0805760105"},{"key":"p_92","doi-asserted-by":"publisher","DOI":"10.1128\/JVI.79.24.15209-15217.2005"},{"key":"p_93","doi-asserted-by":"publisher","DOI":"10.1016\/j.devcel.2005.01.018"},{"key":"p_94","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1476406"},{"key":"p_95","doi-asserted-by":"publisher","DOI":"10.1126\/science.1163728"},{"key":"p_96","doi-asserted-by":"publisher","DOI":"10.1146\/annurev.arplant.043008.092111"},{"key":"p_97","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.105.039834"},{"key":"p_98","doi-asserted-by":"publisher","DOI":"10.1371\/journal.pone.0005980"},{"key":"p_99","doi-asserted-by":"publisher","DOI":"10.1104\/pp.105.063537"},{"key":"p_100","doi-asserted-by":"publisher","DOI":"10.1101\/gad.579910"},{"key":"p_101","doi-asserted-by":"publisher","DOI":"10.1007\/BF00262443"},{"key":"p_102","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.107.051540"},{"key":"p_103","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0812729106"},{"key":"p_104","doi-asserted-by":"publisher","DOI":"10.1016\/j.molcel.2004.06.006"},{"key":"p_105","doi-asserted-by":"publisher","DOI":"10.1093\/pcp\/pcn043"},{"key":"p_106","doi-asserted-by":"publisher","DOI":"10.1104\/pp.108.117119"},{"key":"p_107","doi-asserted-by":"publisher","DOI":"10.1105\/tpc.2.4.291"},{"key":"p_108","doi-asserted-by":"publisher","DOI":"10.1016\/j.tplants.2008.04.007"},{"key":"p_109","doi-asserted-by":"publisher","DOI":"10.1016\/j.molcel.2006.03.011"},{"key":"p_110","doi-asserted-by":"publisher","DOI":"10.1007\/BF02191598"},{"key":"p_111","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1201404"},{"key":"p_112","doi-asserted-by":"publisher","DOI":"10.1093\/nar\/gkn670"},{"key":"p_113","doi-asserted-by":"publisher","DOI":"10.1016\/j.molcel.2004.09.028"},{"key":"p_114","doi-asserted-by":"publisher","DOI":"10.1038\/39215"},{"key":"p_115","doi-asserted-by":"publisher","DOI":"10.1016\/S0092-8674(00)81749-3"},{"key":"p_116","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0904086107"},{"key":"p_117","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.95.23.13959"},{"key":"p_118","doi-asserted-by":"publisher","DOI":"10.1016\/j.molcel.2010.03.008"},{"key":"p_119","doi-asserted-by":"publisher","DOI":"10.1016\/S0960-9822(03)00281-1"},{"key":"p_120","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0506426102"},{"key":"p_121","doi-asserted-by":"publisher","DOI":"10.1111\/j.1365-313X.2006.02835.x"},{"key":"p_122","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0911341107"},{"key":"p_123","doi-asserted-by":"publisher","DOI":"10.1101\/gad.1352605"},{"key":"p_124","doi-asserted-by":"publisher","DOI":"10.1073\/pnas.0804218105"},{"key":"p_125","doi-asserted-by":"publisher","DOI":"10.1093\/nar\/gkq348"}],"container-title":["RNAi
-        Technology"],"link":[{"URL":"http:\/\/www.crcnetbase.com\/doi\/pdf\/10.1201\/b10882-3","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2017,6,19]],"date-time":"2017-06-19T19:45:13Z","timestamp":1497901513000},"score":29.382088,"resource":{"primary":{"URL":"http:\/\/www.crcnetbase.com\/doi\/10.1201\/b10882-3"}},"issued":{"date-parts":[[2011,4,20]]},"references-count":125,"alternative-id":["10.1201\/b10882-3","10.1201\/b10882"],"URL":"http:\/\/dx.doi.org\/10.1201\/b10882-3","published":{"date-parts":[[2011,4,20]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T11:09:13Z","timestamp":1648552153126},"publisher-location":"Basel","reference-count":4,"publisher":"Birkh\u00e4user
-        Basel","isbn-type":[{"value":"9783034863674","type":"print"},{"value":"9783034863667","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[1995]]},"DOI":"10.1007\/978-3-0348-6366-7_7","type":"book-chapter","created":{"date-parts":[[2013,10,4]],"date-time":"2013-10-04T02:24:20Z","timestamp":1380853460000},"page":"117-128","source":"Crossref","is-referenced-by-count":0,"title":["Cold
-        Spring Harbor"],"prefix":"10.1007","author":[{"given":"Evelyn Fox","family":"Keller","sequence":"first","affiliation":[]}],"member":"297","reference":[{"key":"7_CR1","first-page":"3","volume":"41","author":"V
-        Bush","year":"1942","unstructured":"Bush V (1942) President\u2019s Report
-        of 1942. Carnegie Institution of Washington Yearbook 41:3.","journal-title":"Carnegie
-        Institution of Washington Yearbook"},{"key":"7_CR2","unstructured":"Aus einem
-        Brief Barbara McClintocks an Tracy Sonneborn vom 14. Mai 1944."},{"key":"7_CR3","unstructured":"Eintr\u00e4ge
-        aus Warren Weavers Tagebuch vom 10. bis 20. April 1946. Rockefeller Foundation
-        Archives, R.G. 1.1, Serie 200, Fach 160: Ordner 1968."},{"key":"7_CR4","unstructured":"Zitiert
-        in: Holton G Thematic Origins of Scientific Thought. A.a.O., Seite 378."}],"container-title":["Barbara
-        McClintock"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-0348-6366-7_7","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,5,17]],"date-time":"2019-05-17T18:38:29Z","timestamp":1558118309000},"score":29.121056,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-0348-6366-7_7"}},"issued":{"date-parts":[[1995]]},"ISBN":["9783034863674","9783034863667"],"references-count":4,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-0348-6366-7_7","published":{"date-parts":[[1995]]}},{"indexed":{"date-parts":[[2022,4,5]],"date-time":"2022-04-05T19:02:41Z","timestamp":1649185361097},"edition-number":"1","reference-count":0,"publisher":"Fordham
-        University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,9,17]]},"DOI":"10.2307\/j.ctvpg85h7.7","type":"book-chapter","created":{"date-parts":[[2019,9,17]],"date-time":"2019-09-17T17:56:27Z","timestamp":1568742987000},"page":"12-14","source":"Crossref","is-referenced-by-count":0,"title":["The
-        Silencing of Imus"],"prefix":"10.2307","member":"1121","container-title":["Radio
-        Active"],"deposited":{"date-parts":[[2019,9,17]],"date-time":"2019-09-17T17:56:38Z","timestamp":1568742998000},"score":28.7492,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/j.ctvpg85h7.7"}},"issued":{"date-parts":[[2019,9,17]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/j.ctvpg85h7.7","published":{"date-parts":[[2019,9,17]]}},{"indexed":{"date-parts":[[2023,5,20]],"date-time":"2023-05-20T04:47:37Z","timestamp":1684558057467},"reference-count":0,"publisher":"Yale
+        Lure of<\/i> Bacterial Genetics"],"language":"en","link":[{"URL":"https:\/\/api.wiley.com\/onlinelibrary\/tdm\/v1\/articles\/10.1128%2F9781555816810.ch3","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/onlinelibrary.wiley.com\/wol1\/doi\/10.1128\/9781555816810.ch3\/fullpdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,8,14]],"date-time":"2020-08-14T01:32:00Z","timestamp":1597368720000},"score":28.382154,"resource":{"primary":{"URL":"http:\/\/doi.wiley.com\/10.1128\/9781555816810.ch3"}},"issued":{"date-parts":[[2014,4,9]]},"ISBN":["9781683671237","9781555816810","9781555815387"],"references-count":6,"URL":"http:\/\/dx.doi.org\/10.1128\/9781555816810.ch3","published":{"date-parts":[[2014,4,9]]}},{"indexed":{"date-parts":[[2024,5,14]],"date-time":"2024-05-14T04:48:50Z","timestamp":1715662130657},"reference-count":0,"publisher":"Yale
         University Press","isbn-type":[{"value":"9780300263565","type":"print"},{"value":"9780300269086","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,1,10]]},"abstract":"<p>This
         chapter describes how the evolution of Cold Spring Harbor Laboratory as the
         spiritual home of the American Phage Group was born from the result of both
@@ -906,16 +909,13 @@ http_interactions:
         Harbor Laboratory was born out of the late-nineteenth-century scientific optimism
         and philanthropic interest in marine biology.<\/p>","DOI":"10.12987\/yale\/9780300263565.003.0008","type":"book-chapter","created":{"date-parts":[[2023,5,19]],"date-time":"2023-05-19T14:09:22Z","timestamp":1684505362000},"page":"152-171","source":"Crossref","is-referenced-by-count":0,"title":["Place
         in Science"],"prefix":"10.12987","author":[{"given":"William C.","family":"Summers","sequence":"first","affiliation":[]}],"member":"5164","published-online":{"date-parts":[[2023,5,18]]},"container-title":["The
-        American Phage Group"],"original-title":["Place in Science"],"deposited":{"date-parts":[[2023,5,19]],"date-time":"2023-05-19T14:09:23Z","timestamp":1684505363000},"score":27.868353,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/yale-scholarship-online\/book\/46248\/chapter\/406180062"}},"subtitle":["Cold
-        Spring Harbor from Quantitative Biology to Phage"],"issued":{"date-parts":[[2023,1,10]]},"ISBN":["9780300263565","9780300269086"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.12987\/yale\/9780300263565.003.0008","published":{"date-parts":[[2023,1,10]]}},{"indexed":{"date-parts":[[2023,8,17]],"date-time":"2023-08-17T04:04:06Z","timestamp":1692245046982},"publisher-location":"UK","edition-number":"1","reference-count":0,"publisher":"CABI","isbn-type":[{"value":"9781845935740","type":"print"},{"value":"9781845935757","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2009,1]]},"DOI":"10.1079\/9781845935740.0001","type":"book-chapter","created":{"date-parts":[[2009,11,16]],"date-time":"2009-11-16T18:23:31Z","timestamp":1258395811000},"page":"1-35","source":"Crossref","is-referenced-by-count":3,"title":["Plant
-        RNA-silencing immunity and viral counter-defence strategies."],"prefix":"10.1079","author":[{"given":"S.","family":"Wadsworth","sequence":"first","affiliation":[{"name":"Institut
-        de Biologie Mol\u00e9culaire des PlantesStrasbourgFrance"}]},{"given":"P.","family":"Dunoyer","sequence":"additional","affiliation":[]}],"member":"242","published-online":{"date-parts":[[2009,9,16]]},"container-title":["Molecular
-        plant-microbe interactions"],"deposited":{"date-parts":[[2023,8,16]],"date-time":"2023-08-16T19:09:20Z","timestamp":1692212960000},"score":27.716764,"resource":{"primary":{"URL":"http:\/\/www.cabidigitallibrary.org\/doi\/10.1079\/9781845935740.0001"}},"issued":{"date-parts":[[2009,1]]},"ISBN":["9781845935740","9781845935757"],"references-count":0,"alternative-id":["10.1079\/9781845935740.0001","10.1079\/9781845935740.0000"],"URL":"http:\/\/dx.doi.org\/10.1079\/9781845935740.0001","published":{"date-parts":[[2009,1]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T12:36:08Z","timestamp":1649075768243},"reference-count":0,"publisher":"Springer
-        Berlin Heidelberg","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1007\/3-540-29623-9_5945","type":"book-chapter","created":{"date-parts":[[2006,9,13]],"date-time":"2006-09-13T11:56:25Z","timestamp":1158148585000},"page":"2019-2019","source":"Crossref","is-referenced-by-count":0,"title":["X-Chromosome
+        American Phage Group"],"original-title":["Place in Science"],"language":"en","deposited":{"date-parts":[[2023,5,19]],"date-time":"2023-05-19T14:09:23Z","timestamp":1684505363000},"score":27.839668,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/yale-scholarship-online\/book\/46248\/chapter\/406180062"}},"subtitle":["Cold
+        Spring Harbor from Quantitative Biology to Phage"],"issued":{"date-parts":[[2023,1,10]]},"ISBN":["9780300263565","9780300269086"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.12987\/yale\/9780300263565.003.0008","published":{"date-parts":[[2023,1,10]]}},{"indexed":{"date-parts":[[2024,4,27]],"date-time":"2024-04-27T10:19:39Z","timestamp":1714213179485},"reference-count":0,"publisher":"Springer
+        Berlin Heidelberg","isbn-type":[{"value":"9783540442448","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1007\/3-540-29623-9_5945","type":"book-chapter","created":{"date-parts":[[2006,9,13]],"date-time":"2006-09-13T11:56:25Z","timestamp":1158148585000},"page":"2019-2019","source":"Crossref","is-referenced-by-count":0,"title":["X-Chromosome
         Silencing"],"prefix":"10.1007","member":"297","container-title":["Encyclopedic
-        Reference of Genomics and Proteomics in Molecular Medicine"],"deposited":{"date-parts":[[2019,11,4]],"date-time":"2019-11-04T06:44:32Z","timestamp":1572849872000},"score":27.552916,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/3-540-29623-9_5945"}},"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/3-540-29623-9_5945"},{"indexed":{"date-parts":[[2023,5,7]],"date-time":"2023-05-07T04:24:29Z","timestamp":1683433469433},"reference-count":0,"publisher":"punctum
+        Reference of Genomics and Proteomics in Molecular Medicine"],"language":"en","deposited":{"date-parts":[[2019,11,4]],"date-time":"2019-11-04T06:44:32Z","timestamp":1572849872000},"score":27.149975,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/3-540-29623-9_5945"}},"issued":{"date-parts":[[null]]},"ISBN":["9783540442448"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/3-540-29623-9_5945"},{"indexed":{"date-parts":[[2023,5,7]],"date-time":"2023-05-07T04:24:29Z","timestamp":1683433469433},"reference-count":0,"publisher":"punctum
         books","isbn-type":[{"value":"9781950192380","type":"electronic"},{"value":"9781950192373","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,11,28]]},"DOI":"10.2307\/jj.2353837.9","type":"book-chapter","created":{"date-parts":[[2023,5,6]],"date-time":"2023-05-06T14:19:55Z","timestamp":1683382795000},"page":"172-205","source":"Crossref","is-referenced-by-count":0,"title":["SILENCING"],"prefix":"10.2307","member":"1121","container-title":["Steal
-        This Classroom"],"deposited":{"date-parts":[[2023,5,6]],"date-time":"2023-05-06T20:25:29Z","timestamp":1683404729000},"score":26.863213,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/jj.2353837.9"}},"issued":{"date-parts":[[2019,11,28]]},"ISBN":["9781950192380","9781950192373"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/jj.2353837.9","published":{"date-parts":[[2019,11,28]]}},{"indexed":{"date-parts":[[2023,1,31]],"date-time":"2023-01-31T05:15:16Z","timestamp":1675142116908},"publisher-location":"Boston,
+        This Classroom"],"deposited":{"date-parts":[[2023,5,6]],"date-time":"2023-05-06T20:25:29Z","timestamp":1683404729000},"score":26.938812,"resource":{"primary":{"URL":"http:\/\/www.jstor.org\/stable\/10.2307\/jj.2353837.9"}},"issued":{"date-parts":[[2019,11,28]]},"ISBN":["9781950192380","9781950192373"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.2307\/jj.2353837.9","published":{"date-parts":[[2019,11,28]]}},{"indexed":{"date-parts":[[2024,4,27]],"date-time":"2024-04-27T13:47:42Z","timestamp":1714225662681},"publisher-location":"Boston,
         MA","reference-count":51,"publisher":"Springer US","isbn-type":[{"value":"9780306482298","type":"print"},{"value":"9780387274218","type":"electronic"}],"license":[{"start":{"date-parts":[[2005,1,1]],"date-time":"2005-01-01T00:00:00Z","timestamp":1104537600000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2005,1,1]],"date-time":"2005-01-01T00:00:00Z","timestamp":1104537600000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2005]]},"DOI":"10.1007\/0-387-27421-9_21","type":"book-chapter","created":{"date-parts":[[2007,2,27]],"date-time":"2007-02-27T01:40:13Z","timestamp":1172540413000},"page":"151-155","source":"Crossref","is-referenced-by-count":2,"title":["KRAB
         Zinc Finger Proteins: A Family of Repressors Mediating Heterochromatin-Associated
         Gene Silencing"],"prefix":"10.1007","author":[{"given":"Shiro","family":"Iuchi","sequence":"first","affiliation":[]}],"member":"297","reference":[{"key":"21_CR1","volume-title":"The
@@ -1105,14 +1105,10 @@ http_interactions:
         J Cell Sci 1999; 112 Pt 18:3039\u20133047.","journal-title":"J Cell Sci"},{"key":"21_CR51","doi-asserted-by":"publisher","first-page":"1149","DOI":"10.1007\/PL00000755","volume":"57","author":"S.G.
         Roberts","year":"2000","unstructured":"Roberts SG. Mechanisms of action of
         transcripton activation and repression domains. Cell Mol Life Sci 2000; 57:1149\u20131160.","journal-title":"Cell
-        Mol Life Sci"}],"container-title":["Zinc Finger Proteins"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/0-387-27421-9_21","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,1,30]],"date-time":"2023-01-30T14:37:16Z","timestamp":1675089436000},"score":26.754177,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/0-387-27421-9_21"}},"issued":{"date-parts":[[2005]]},"ISBN":["9780306482298","9780387274218"],"references-count":51,"URL":"http:\/\/dx.doi.org\/10.1007\/0-387-27421-9_21","published":{"date-parts":[[2005]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:32:53Z","timestamp":1659501173505},"reference-count":0,"publisher":"Oxford
+        Mol Life Sci"}],"container-title":["Zinc Finger Proteins"],"language":"en","link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/0-387-27421-9_21","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,1,30]],"date-time":"2023-01-30T14:37:16Z","timestamp":1675089436000},"score":26.731785,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/0-387-27421-9_21"}},"issued":{"date-parts":[[2005]]},"ISBN":["9780306482298","9780387274218"],"references-count":51,"URL":"http:\/\/dx.doi.org\/10.1007\/0-387-27421-9_21","published":{"date-parts":[[2005]]}},{"indexed":{"date-parts":[[2022,8,3]],"date-time":"2022-08-03T04:32:53Z","timestamp":1659501173505},"reference-count":0,"publisher":"Oxford
         University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2012,12,20]]},"DOI":"10.1093\/acprof:osobl\/9780199732593.003.0002","type":"book-chapter","created":{"date-parts":[[2015,3,16]],"date-time":"2015-03-16T13:18:10Z","timestamp":1426511890000},"page":"6-20","source":"Crossref","is-referenced-by-count":0,"title":["Culture
         Clash at Cold Spring Harbor"],"prefix":"10.1093","author":[{"given":"Marjorie","family":"Senechal","sequence":"first","affiliation":[]}],"member":"286","container-title":["I
-        Died for Beauty"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T22:22:55Z","timestamp":1659478975000},"score":26.6894,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/4495\/chapter\/146548589"}},"issued":{"date-parts":[[2012,12,20]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/acprof:osobl\/9780199732593.003.0002","published":{"date-parts":[[2012,12,20]]}},{"indexed":{"date-parts":[[2022,3,31]],"date-time":"2022-03-31T10:04:36Z","timestamp":1648721076201},"reference-count":0,"publisher":"InTech","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5772\/62137","type":"book-chapter","created":{"date-parts":[[2016,3,18]],"date-time":"2016-03-18T09:27:03Z","timestamp":1458293223000},"source":"Crossref","is-referenced-by-count":0,"title":["Small-molecule
-        Nucleic-acid-based Gene-silencing Strategies"],"prefix":"10.5772","author":[{"given":"Zhijie","family":"Xu","sequence":"first","affiliation":[]},{"given":"Lifang","family":"Yang","sequence":"additional","affiliation":[]}],"member":"3774","published-online":{"date-parts":[[2016,3,16]]},"container-title":["Nucleic
-        Acids - From Basic Aspects to Laboratory Tools"],"link":[{"URL":"http:\/\/www.intechopen.com\/download\/pdf\/49798","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,12,29]],"date-time":"2016-12-29T11:01:54Z","timestamp":1483009314000},"score":26.688313,"resource":{"primary":{"URL":"http:\/\/www.intechopen.com\/books\/nucleic-acids-from-basic-aspects-to-laboratory-tools\/small-molecule-nucleic-acid-based-gene-silencing-strategies"}},"issued":{"date-parts":[[2016,3,16]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5772\/62137","published":{"date-parts":[[2016,3,16]]}},{"indexed":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T17:12:19Z","timestamp":1650474739179},"reference-count":0,"publisher":"BRILL","license":[{"start":{"date-parts":[[2019,3,22]],"date-time":"2019-03-22T00:00:00Z","timestamp":1553212800000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by-nc\/4.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,3,22]]},"DOI":"10.1163\/9789004396722_004","type":"book-chapter","created":{"date-parts":[[2019,5,28]],"date-time":"2019-05-28T14:18:10Z","timestamp":1559053090000},"page":"28-50","source":"Crossref","is-referenced-by-count":0,"title":["The
-        Violence of Silencing"],"prefix":"10.1163","member":"50","container-title":["Pacifism,
-        Politics, and Feminism"],"link":[{"URL":"https:\/\/brill.com\/view\/book\/9789004396722\/BP000003.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/brill.com\/downloadpdf\/title\/54143","content-type":"text\/html","content-version":"vor","intended-application":"syndication"}],"deposited":{"date-parts":[[2022,4,20]],"date-time":"2022-04-20T16:56:03Z","timestamp":1650473763000},"score":26.516102,"resource":{"primary":{"URL":"https:\/\/brill.com\/view\/book\/9789004396722\/BP000003.xml"}},"issued":{"date-parts":[[2019,3,22]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1163\/9789004396722_004","published":{"date-parts":[[2019,3,22]]}},{"indexed":{"date-parts":[[2023,10,19]],"date-time":"2023-10-19T08:05:30Z","timestamp":1697702730665},"publisher-location":"Totowa,
+        Died for Beauty"],"deposited":{"date-parts":[[2022,8,2]],"date-time":"2022-08-02T22:22:55Z","timestamp":1659478975000},"score":26.654484,"resource":{"primary":{"URL":"https:\/\/academic.oup.com\/book\/4495\/chapter\/146548589"}},"issued":{"date-parts":[[2012,12,20]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1093\/acprof:osobl\/9780199732593.003.0002","published":{"date-parts":[[2012,12,20]]}},{"indexed":{"date-parts":[[2023,10,19]],"date-time":"2023-10-19T08:05:30Z","timestamp":1697702730665},"publisher-location":"Totowa,
         NJ","reference-count":68,"publisher":"Humana Press","isbn-type":[{"value":"9781588298270","type":"print"},{"value":"9781597451024","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2008]]},"DOI":"10.1007\/978-1-59745-102-4_5","type":"book-chapter","created":{"date-parts":[[2008,3,15]],"date-time":"2008-03-15T22:50:22Z","timestamp":1205621422000},"page":"69-79","source":"Crossref","is-referenced-by-count":27,"title":["Role
         of Silencing Suppressor Proteins"],"prefix":"10.1007","author":[{"given":"J\u00f3zsef","family":"Burgy\u00e1n","sequence":"first","affiliation":[]}],"member":"297","reference":[{"issue":"3","key":"5_CR1_5","doi-asserted-by":"publisher","first-page":"206","DOI":"10.1038\/nrg1555","volume":"6","author":"O.
         Voinnet","year":"2005","unstructured":"1. Voinnet, O., Induction and suppression
@@ -1338,12 +1334,7 @@ http_interactions:
         Cao","year":"2005","unstructured":"68. Cao, X., et al. Identification of an
         RNA silencing suppressor from a plant double-stranded RNA virus. J Virol,
         2005. 79(20): p. 13018\u201327.","journal-title":"J Virol"}],"container-title":["Plant
-        Virology Protocols","Methods in Molecular Biology\u2122"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-59745-102-4_5.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,5,1]],"date-time":"2021-05-01T21:24:37Z","timestamp":1619904277000},"score":26.478962,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-59745-102-4_5"}},"issued":{"date-parts":[[2008]]},"ISBN":["9781588298270","9781597451024"],"references-count":68,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-59745-102-4_5","ISSN":["1064-3745","1940-6029"],"issn-type":[{"value":"1064-3745","type":"print"},{"value":"1940-6029","type":"electronic"}],"published":{"date-parts":[[2008]]}},{"indexed":{"date-parts":[[2023,4,21]],"date-time":"2023-04-21T16:40:30Z","timestamp":1682095230943},"publisher-location":"Wiesbaden","reference-count":0,"publisher":"Springer
-        Fachmedien Wiesbaden","isbn-type":[{"value":"9783658084981","type":"print"},{"value":"9783658084998","type":"electronic"}],"license":[{"start":{"date-parts":[[2014,12,27]],"date-time":"2014-12-27T00:00:00Z","timestamp":1419638400000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2014,12,27]],"date-time":"2014-12-27T00:00:00Z","timestamp":1419638400000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2015]]},"DOI":"10.1007\/978-3-658-08499-8_5","type":"book-chapter","created":{"date-parts":[[2014,12,26]],"date-time":"2014-12-26T10:04:47Z","timestamp":1419588287000},"page":"141-153","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Period
-        3 (1995-2000): Repression and Silencing"],"prefix":"10.1007","author":[{"given":"Annette","family":"Ranko","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2014,12,27]]},"container-title":["The
-        Muslim Brotherhood and its Quest for Hegemony in Egypt"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-658-08499-8_5","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,4,21]],"date-time":"2023-04-21T15:59:17Z","timestamp":1682092757000},"score":26.305552,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-658-08499-8_5"}},"issued":{"date-parts":[[2014,12,27]]},"ISBN":["9783658084981","9783658084998"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-658-08499-8_5","published":{"date-parts":[[2014,12,27]]},"assertion":[{"value":"27
-        December 2014","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
-        History"}}]},{"indexed":{"date-parts":[[2023,8,29]],"date-time":"2023-08-29T08:30:00Z","timestamp":1693297800852},"edition-number":"1","reference-count":52,"publisher":"Cambridge
+        Virology Protocols","Methods in Molecular Biology\u2122"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-59745-102-4_5.pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,5,1]],"date-time":"2021-05-01T21:24:37Z","timestamp":1619904277000},"score":26.467709,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-59745-102-4_5"}},"issued":{"date-parts":[[2008]]},"ISBN":["9781588298270","9781597451024"],"references-count":68,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-59745-102-4_5","ISSN":["1064-3745","1940-6029"],"issn-type":[{"value":"1064-3745","type":"print"},{"value":"1940-6029","type":"electronic"}],"published":{"date-parts":[[2008]]}},{"indexed":{"date-parts":[[2023,8,29]],"date-time":"2023-08-29T08:30:00Z","timestamp":1693297800852},"edition-number":"1","reference-count":52,"publisher":"Cambridge
         University Press","license":[{"start":{"date-parts":[[2019,6,30]],"date-time":"2019-06-30T00:00:00Z","timestamp":1561852800000},"content-version":"unspecified","delay-in-days":0,"URL":"https:\/\/www.cambridge.org\/core\/terms"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,7,31]]},"DOI":"10.1017\/9781108345552.010","type":"book-chapter","created":{"date-parts":[[2019,6,30]],"date-time":"2019-06-30T07:39:36Z","timestamp":1561880376000},"page":"165-185","source":"Crossref","is-referenced-by-count":2,"title":["The
         Language Ideology of Silence and Silencing in Public Discourse"],"prefix":"10.1017","author":[{"given":"Melani","family":"Schr\u04e7ter","sequence":"first","affiliation":[]}],"member":"56","reference":[{"key":"9781108345552#CN-bp-9_REFe-r-9.050","first-page":"20","volume-title":"Language
         ideologies: Practice and theory","author":"Woolard","year":"1998"},{"key":"9781108345552#CN-bp-9_REFe-r-9.049","doi-asserted-by":"publisher","DOI":"10.4135\/9781446270073"},{"key":"9781108345552#CN-bp-9_REFe-r-9.048","unstructured":"185
@@ -1368,8 +1359,8 @@ http_interactions:
         Wahrheit und ihr Preis: Meinung, Macht und Medien","author":"Herman","year":"2010"},{"key":"9781108345552#CN-bp-9_REFe-r-9.019","volume-title":"Das
         Prinzip Arche Noah","author":"Herman","year":"2007"},{"key":"9781108345552#CN-bp-9_REFe-r-9.018","volume-title":"Das
         Eva-Prinzip","author":"Herman","year":"2006"},{"key":"9781108345552#CN-bp-9_REFe-r-9.017","volume-title":"Die
-        Diktatur der Guten. Political correctness","author":"Groth","year":"1996"},{"key":"9781108345552#CN-bp-9_REFe-r-9.013","doi-asserted-by":"crossref","first-page":"15","volume-title":"Metalanguage.
-        Social and ideological perspectives","author":"Coupland","year":"2004","DOI":"10.1515\/9783110907377.15"},{"key":"9781108345552#CN-bp-9_REFe-r-9.012","doi-asserted-by":"crossref","volume-title":"Why
+        Diktatur der Guten. Political correctness","author":"Groth","year":"1996"},{"key":"9781108345552#CN-bp-9_REFe-r-9.013","doi-asserted-by":"crossref","first-page":"15","DOI":"10.1515\/9783110907377.15","volume-title":"Metalanguage.
+        Social and ideological perspectives","author":"Coupland","year":"2004"},{"key":"9781108345552#CN-bp-9_REFe-r-9.012","doi-asserted-by":"crossref","volume-title":"Why
         voice matters. Culture and politics after neoliberalism","author":"Couldry","year":"2010","DOI":"10.4135\/9781446269114"},{"key":"9781108345552#CN-bp-9_REFe-r-9.011","first-page":"221","volume-title":"Reporting
         talk. Reported speech in interaction","author":"Clayman","year":"2007"},{"key":"9781108345552#CN-bp-9_REFe-r-9.010","volume-title":"Discourse
         in late modernity","author":"Chouliaraki","year":"1999"},{"key":"9781108345552#CN-bp-9_REFe-r-9.008","doi-asserted-by":"publisher","DOI":"10.4324\/9780203417843"},{"key":"9781108345552#CN-bp-9_REFe-r-9.007","doi-asserted-by":"publisher","DOI":"10.1017\/CBO9780511610295"},{"key":"9781108345552#CN-bp-9_REFe-r-9.003","volume-title":"Politische
@@ -1388,10 +1379,19 @@ http_interactions:
         Die Zeit. Retrieved from www.zeit.de\/1993\/43\/pc-oder-da-hoert-die-gemuetlichkeit-auf"},{"key":"9781108345552#CN-bp-9_REFe-r-9.033","volume-title":"Deutsches
         Phrasenlexikon. Politisch korrekt von A bis Z","author":"R\u00f6hl","year":"1995"},{"key":"9781108345552#CN-bp-9_REFe-r-9.039","doi-asserted-by":"publisher","DOI":"10.1007\/978-3-319-64580-3"},{"key":"9781108345552#CN-bp-9_REFe-r-9.005","doi-asserted-by":"publisher","DOI":"10.1080\/00335638809383833"},{"key":"9781108345552#CN-bp-9_REFe-r-9.022","volume-title":"Der
         Fall Eva Herman. Hexenjagd in den Medien","author":"Hoffmann","year":"2007"},{"key":"9781108345552#CN-bp-9_REFe-r-9.014","doi-asserted-by":"publisher","DOI":"10.14361\/9783839402382"},{"key":"9781108345552#CN-bp-9_REFe-r-9.051","doi-asserted-by":"publisher","DOI":"10.1093\/acprof:oso\/9780195187175.001.0001"},{"key":"9781108345552#CN-bp-9_REFe-r-9.025","doi-asserted-by":"publisher","DOI":"10.1515\/9783110263435"}],"container-title":["Qualitative
-        Studies of Silence"],"link":[{"URL":"https:\/\/www.cambridge.org\/core\/services\/aop-cambridge-core\/content\/view\/D279CA3316B6298F17221BFA290B1A76","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,22]],"date-time":"2022-09-22T12:33:53Z","timestamp":1663850033000},"score":26.251284,"resource":{"primary":{"URL":"https:\/\/www.cambridge.org\/core\/product\/identifier\/9781108345552%23CN-bp-9\/type\/book_part"}},"subtitle":["Claims
+        Studies of Silence"],"link":[{"URL":"https:\/\/www.cambridge.org\/core\/services\/aop-cambridge-core\/content\/view\/D279CA3316B6298F17221BFA290B1A76","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,9,22]],"date-time":"2022-09-22T12:33:53Z","timestamp":1663850033000},"score":26.346605,"resource":{"primary":{"URL":"https:\/\/www.cambridge.org\/core\/product\/identifier\/9781108345552%23CN-bp-9\/type\/book_part"}},"subtitle":["Claims
         to Silencing as Metadiscursive Moves in German Anti-Political Correctness
-        Discourse"],"issued":{"date-parts":[[2019,7,31]]},"references-count":52,"URL":"http:\/\/dx.doi.org\/10.1017\/9781108345552.010","published":{"date-parts":[[2019,7,31]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T15:41:00Z","timestamp":1649086860999},"edition-number":"1","reference-count":0,"publisher":"Routledge","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,7,19]]},"DOI":"10.4324\/9780429261459-1","type":"book-chapter","created":{"date-parts":[[2019,10,8]],"date-time":"2019-10-08T09:35:35Z","timestamp":1570527335000},"page":"1-25","source":"Crossref","is-referenced-by-count":0,"title":["Introduction"],"prefix":"10.4324","author":[{"given":"Ronald","family":"Charles","sequence":"first","affiliation":[]}],"member":"301","container-title":["The
-        Silencing of Slaves in Early Jewish and Christian Texts"],"deposited":{"date-parts":[[2021,4,3]],"date-time":"2021-04-03T17:19:31Z","timestamp":1617470371000},"score":25.794825,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9780429523571\/chapters\/10.4324\/9780429261459-1"}},"issued":{"date-parts":[[2019,7,19]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.4324\/9780429261459-1","published":{"date-parts":[[2019,7,19]]}},{"indexed":{"date-parts":[[2024,3,2]],"date-time":"2024-03-02T10:10:12Z","timestamp":1709374212364},"publisher-location":"Totowa,
+        Discourse"],"issued":{"date-parts":[[2019,7,31]]},"references-count":52,"URL":"http:\/\/dx.doi.org\/10.1017\/9781108345552.010","published":{"date-parts":[[2019,7,31]]}},{"indexed":{"date-parts":[[2024,5,5]],"date-time":"2024-05-05T14:25:54Z","timestamp":1714919154359},"publisher-location":"Wiesbaden","reference-count":0,"publisher":"Springer
+        Fachmedien Wiesbaden","isbn-type":[{"value":"9783658084981","type":"print"},{"value":"9783658084998","type":"electronic"}],"license":[{"start":{"date-parts":[[2014,12,27]],"date-time":"2014-12-27T00:00:00Z","timestamp":1419638400000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2014,12,27]],"date-time":"2014-12-27T00:00:00Z","timestamp":1419638400000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2015]]},"DOI":"10.1007\/978-3-658-08499-8_5","type":"book-chapter","created":{"date-parts":[[2014,12,26]],"date-time":"2014-12-26T10:04:47Z","timestamp":1419588287000},"page":"141-153","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Period
+        3 (1995-2000): Repression and Silencing"],"prefix":"10.1007","author":[{"given":"Annette","family":"Ranko","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2014,12,27]]},"container-title":["The
+        Muslim Brotherhood and its Quest for Hegemony in Egypt"],"language":"en","link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-658-08499-8_5","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,4,21]],"date-time":"2023-04-21T15:59:17Z","timestamp":1682092757000},"score":26.226315,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-3-658-08499-8_5"}},"issued":{"date-parts":[[2014,12,27]]},"ISBN":["9783658084981","9783658084998"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-658-08499-8_5","published":{"date-parts":[[2014,12,27]]},"assertion":[{"value":"27
+        December 2014","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2024,5,6]],"date-time":"2024-05-06T14:29:29Z","timestamp":1715005769698},"reference-count":0,"publisher":"InTech","isbn-type":[{"value":"9789535146162","type":"print"},{"value":"9789535122647","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.5772\/62137","type":"book-chapter","created":{"date-parts":[[2016,3,18]],"date-time":"2016-03-18T09:27:03Z","timestamp":1458293223000},"source":"Crossref","is-referenced-by-count":0,"title":["Small-molecule
+        Nucleic-acid-based Gene-silencing Strategies"],"prefix":"10.5772","author":[{"given":"Zhijie","family":"Xu","sequence":"first","affiliation":[]},{"given":"Lifang","family":"Yang","sequence":"additional","affiliation":[]}],"member":"3774","published-online":{"date-parts":[[2016,3,16]]},"container-title":["Nucleic
+        Acids - From Basic Aspects to Laboratory Tools"],"language":"en","link":[{"URL":"http:\/\/www.intechopen.com\/download\/pdf\/49798","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2016,12,29]],"date-time":"2016-12-29T11:01:54Z","timestamp":1483009314000},"score":26.003464,"resource":{"primary":{"URL":"http:\/\/www.intechopen.com\/books\/nucleic-acids-from-basic-aspects-to-laboratory-tools\/small-molecule-nucleic-acid-based-gene-silencing-strategies"}},"issued":{"date-parts":[[2016,3,16]]},"ISBN":["9789535146162","9789535122647"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.5772\/62137","published":{"date-parts":[[2016,3,16]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T01:47:54Z","timestamp":1648604874395},"publisher-location":"Ithaca,
+        NY","reference-count":0,"publisher":"Cornell University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,5,15]]},"DOI":"10.7591\/9781501744594-005","type":"book-chapter","created":{"date-parts":[[2019,11,5]],"date-time":"2019-11-05T17:03:11Z","timestamp":1572973391000},"page":"107-146","source":"Crossref","is-referenced-by-count":0,"title":["3.
+        Silencing Jealousy: Responding to Rivals"],"prefix":"10.7591","member":"4434","container-title":["Closer
+        and Closer Apart"],"link":[{"URL":"http:\/\/www.degruyter.com\/view\/books\/9781501744594\/9781501744594-005\/9781501744594-005.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.7591\/9781501744594-005\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,23]],"date-time":"2021-04-23T04:31:16Z","timestamp":1619152276000},"score":25.747364,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.7591\/9781501744594-005\/html"}},"issued":{"date-parts":[[2019,5,15]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.7591\/9781501744594-005","published":{"date-parts":[[2019,5,15]]}},{"indexed":{"date-parts":[[2024,3,2]],"date-time":"2024-03-02T10:10:12Z","timestamp":1709374212364},"publisher-location":"Totowa,
         NJ","reference-count":61,"publisher":"Humana Press","isbn-type":[{"value":"9781603275460","type":"print"},{"value":"9781603275477","type":"electronic"}],"license":[{"start":{"date-parts":[[2008,10,13]],"date-time":"2008-10-13T00:00:00Z","timestamp":1223856000000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2008,10,13]],"date-time":"2008-10-13T00:00:00Z","timestamp":1223856000000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2009]]},"DOI":"10.1007\/978-1-60327-547-7_2","type":"book-chapter","created":{"date-parts":[[2008,11,7]],"date-time":"2008-11-07T16:52:37Z","timestamp":1226076757000},"page":"1-19","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":7,"title":["Deciphering
         the Code of Innate Immunity Recognition of siRNAs"],"prefix":"10.1007","author":[{"given":"Mouldy","family":"Sioud","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2008,10,13]]},"reference":[{"key":"2_CR1_2","doi-asserted-by":"publisher","first-page":"340","DOI":"10.1016\/0167-7799(90)90220-R","volume":"8","author":"R
         Jorgensen","year":"1990","unstructured":"Jorgensen, R. (1990) Altered gene
@@ -1589,13 +1589,734 @@ http_interactions:
         et al. (2004) Silencing of SOCS1 enhances antigen presentation by dendritic
         cells and antigen-specific anti-tumor immunity. Nat Biotechnol, 22, 1546\u20131553.","journal-title":"Nat
         Biotechnol"}],"container-title":["Methods in Molecular Biology","siRNA and
-        miRNA Gene Silencing"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-60327-547-7_2","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2024,3,2]],"date-time":"2024-03-02T09:53:03Z","timestamp":1709373183000},"score":25.75729,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-1-60327-547-7_2"}},"issued":{"date-parts":[[2008,10,13]]},"ISBN":["9781603275460","9781603275477"],"references-count":61,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-60327-547-7_2","ISSN":["1064-3745","1940-6029"],"issn-type":[{"value":"1064-3745","type":"print"},{"value":"1940-6029","type":"electronic"}],"published":{"date-parts":[[2008,10,13]]},"assertion":[{"value":"13
+        miRNA Gene Silencing"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-60327-547-7_2","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2024,3,2]],"date-time":"2024-03-02T09:53:03Z","timestamp":1709373183000},"score":25.685692,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-1-60327-547-7_2"}},"issued":{"date-parts":[[2008,10,13]]},"ISBN":["9781603275460","9781603275477"],"references-count":61,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-60327-547-7_2","ISSN":["1064-3745","1940-6029"],"issn-type":[{"value":"1064-3745","type":"print"},{"value":"1940-6029","type":"electronic"}],"published":{"date-parts":[[2008,10,13]]},"assertion":[{"value":"13
         October 2008","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
-        History"}}]},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T01:47:54Z","timestamp":1648604874395},"publisher-location":"Ithaca,
-        NY","reference-count":0,"publisher":"Cornell University Press","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2019,5,15]]},"DOI":"10.7591\/9781501744594-005","type":"book-chapter","created":{"date-parts":[[2019,11,5]],"date-time":"2019-11-05T17:03:11Z","timestamp":1572973391000},"page":"107-146","source":"Crossref","is-referenced-by-count":0,"title":["3.
-        Silencing Jealousy: Responding to Rivals"],"prefix":"10.7591","member":"4434","container-title":["Closer
-        and Closer Apart"],"link":[{"URL":"http:\/\/www.degruyter.com\/view\/books\/9781501744594\/9781501744594-005\/9781501744594-005.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.7591\/9781501744594-005\/pdf","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,23]],"date-time":"2021-04-23T04:31:16Z","timestamp":1619152276000},"score":25.73859,"resource":{"primary":{"URL":"https:\/\/www.degruyter.com\/document\/doi\/10.7591\/9781501744594-005\/html"}},"issued":{"date-parts":[[2019,5,15]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.7591\/9781501744594-005","published":{"date-parts":[[2019,5,15]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Deciphering+the+rules+underlying+xenogeneic+silencing+and+counter-silencing+of+Lsr2-like+proteins+2019+Cold+Spring+Harbor+Laboratory"}}}'
-  recorded_at: Tue, 19 Mar 2024 03:26:50 GMT
+        History"}}]},{"indexed":{"date-parts":[[2024,5,10]],"date-time":"2024-05-10T16:01:32Z","timestamp":1715356892308},"publisher-location":"Cham","reference-count":198,"publisher":"Springer
+        International Publishing","isbn-type":[{"value":"9783030182472","type":"print"},{"value":"9783030182489","type":"electronic"}],"license":[{"start":{"date-parts":[[2019,1,1]],"date-time":"2019-01-01T00:00:00Z","timestamp":1546300800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2019]]},"DOI":"10.1007\/978-3-030-18248-9_10","type":"book-chapter","created":{"date-parts":[[2019,7,12]],"date-time":"2019-07-12T12:03:30Z","timestamp":1562933010000},"page":"171-196","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":0,"title":["Geminiviruses
+        Versus Host\u2019s Gene Silencing Mechanism"],"prefix":"10.1007","author":[{"given":"Omid","family":"Eini","sequence":"first","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2019,7,13]]},"reference":[{"key":"10_CR1","doi-asserted-by":"publisher","first-page":"5077","DOI":"10.1128\/MCB.17.9.5077","volume":"17","author":"RA
+        Ach","year":"1997","unstructured":"Ach RA, Durfee T, Miller A, Taranto P,
+        Hanley-Bowdoin L, Zambryski PC, Gruissem W (1997) RRB1 and RRB2 encode maize
+        retinoblastoma-related proteins that interact with a plant D-type cyclin and
+        geminivirus replication protein. Mol Cell Biol 17:5077\u20135086","journal-title":"Mol
+        Cell Biol"},{"key":"10_CR2","doi-asserted-by":"publisher","first-page":"304","DOI":"10.1111\/j.1438-8677.2010.00374.x","volume":"13","author":"T
+        Ai","year":"2011","unstructured":"Ai T, Zhang L, Gao Z, Zhu CX, Guo X (2011)
+        Highly efficient virus resistance mediated by artificial microRNAs that target
+        the suppressor of PVX and PVY in plants. Plant Biol 13:304\u2013316","journal-title":"Plant
+        Biol"},{"key":"10_CR3","doi-asserted-by":"publisher","first-page":"462","DOI":"10.1093\/nar\/gkj447","volume":"34","author":"R
+        Akbergenov","year":"2006","unstructured":"Akbergenov R, Si-Ammour A, Blevins
+        T, Amin I, Kutter C, Vanderschuren H, Zhang P, Gruissem W, Meins F Jr, Hohn
+        T, Pooggin MM (2006) Molecular characterization of geminivirus-derived small
+        RNAs in different plant species. Nucleic Acids Res 34:462\u2013471","journal-title":"Nucleic
+        Acids Res"},{"key":"10_CR4","doi-asserted-by":"publisher","first-page":"2113","DOI":"10.1126\/science.279.5359.2113","volume":"279","author":"NS
+        Kaff Al","year":"1998","unstructured":"Al Kaff NS, Covey SN, Kreike MM, Page
+        AM, Pinder R, Dale PJ (1998) Transcriptional and posttranscriptional plant
+        gene silencing in response to a pathogen. Science 279:2113\u20132115","journal-title":"Science"},{"key":"10_CR5","doi-asserted-by":"publisher","first-page":"207","DOI":"10.1016\/j.cell.2005.04.004","volume":"121","author":"E
+        Allen","year":"2005","unstructured":"Allen E, Xie Z, Gustafson AM, Carrington
+        JC (2005) microRNA-directed phasing during trans-acting siRNA biogenesis in
+        plants. Cell 121:207\u2013221","journal-title":"Cell"},{"key":"10_CR6","doi-asserted-by":"publisher","first-page":"973","DOI":"10.1094\/MPMI-01-11-0001","volume":"24","author":"I
+        Amin","year":"2011","unstructured":"Amin I, Hussain K, Akbergenov R, Yadav
+        JS, Qazi J, Mansoor S, Hohn T, Fauquet CM, Briddon RW (2011a) Suppressors
+        of RNA silencing encoded by the components of the cotton leaf curl begomovirus-betasatellite
+        complex. Mol Plant-Microbe Interact 24:973\u2013983","journal-title":"Mol
+        Plant-Microbe Interact"},{"key":"10_CR7","doi-asserted-by":"publisher","first-page":"143","DOI":"10.1186\/1743-422X-8-143","volume":"8","author":"I
+        Amin","year":"2011","unstructured":"Amin I, Patil B, Briddon R, Mansoor S,
+        Fauquet C (2011b) A common set of developmental miRNAs are upregulated in
+        Nicotiana benthamiana by diverse begomoviruses. Virol J 8:143","journal-title":"Virol
+        J"},{"key":"10_CR8","doi-asserted-by":"publisher","first-page":"434","DOI":"10.1080\/03235408.2016.1228737","volume":"49","author":"F
+        Amirnia","year":"2016","unstructured":"Amirnia F, Eini O, Koolivand D (2016)
+        In silico analysis of microRNA binding to the genome of Beet curly top Iran
+        virus in tomato. Arch Phytopathol Plant Protect 49:434\u2013444","journal-title":"Arch
+        Phytopathol Plant Protect"},{"key":"10_CR9","doi-asserted-by":"publisher","first-page":"3675","DOI":"10.1093\/emboj\/16.12.3675","volume":"16","author":"SM
+        Angell","year":"1997","unstructured":"Angell SM, Baulcombe DC (1997) Consistent
+        gene silencing in transgenic plants expressing a replicating potato virus
+        X RNA. EMBO J 16:3675\u20133684","journal-title":"EMBO J"},{"key":"10_CR10","doi-asserted-by":"publisher","first-page":"e1002941","DOI":"10.1371\/journal.ppat.1002941","volume":"8","author":"M
+        Aregger","year":"2012","unstructured":"Aregger M, Borah BK, Seguin J, Rajeswaran
+        R, Gubaeva EG, Zvereva AS, Windels D, Vazquez F, Blevins T, Farinelli L, Pooggin
+        MM (2012) Primary and secondary siRNAs in geminivirus-induced gene silencing.
+        PLoS Pathog 8:e1002941","journal-title":"PLoS Pathog"},{"key":"10_CR11","doi-asserted-by":"publisher","first-page":"90","DOI":"10.1006\/viro.1994.1458","volume":"203","author":"GR
+        Arguello-Astorga","year":"1994","unstructured":"Arguello-Astorga GR, Guevara-Gonzalez
+        RG, Herrera-Estrella LR, Rivera-Bustamante RF (1994) Geminivirus replication
+        origins have a group-specific organization of iterative elements: a model
+        for replication. Virology 203:90\u2013100","journal-title":"Virology"},{"key":"10_CR12","doi-asserted-by":"publisher","first-page":"16499","DOI":"10.1073\/pnas.162371499","volume":"99","author":"W
+        Aufsatz","year":"2002","unstructured":"Aufsatz W, Mette MF, Winden JVD, Matzke
+        AJM, Matzke M (2002) RNA-directed DNA methylation in arabidopsis. Proc Natl
+        Acad Sci USA 99:16499\u201316506","journal-title":"Proc Natl Acad Sci USA"},{"key":"10_CR13","doi-asserted-by":"publisher","first-page":"281","DOI":"10.1016\/S0092-8674(04)00045-5","volume":"116","author":"DP
+        Bartel","year":"2004","unstructured":"Bartel DP (2004) MicroRNAs: genomics,
+        biogenesis, mechanism, and function. Cell 116:281\u2013297","journal-title":"Cell"},{"key":"10_CR14","doi-asserted-by":"publisher","first-page":"356","DOI":"10.1038\/nature02874","volume":"431","author":"D
+        Baulcombe","year":"2004","unstructured":"Baulcombe D (2004) RNA silencing
+        in plants. Nature 431:356\u2013363","journal-title":"Nature"},{"key":"10_CR15","doi-asserted-by":"publisher","first-page":"199","DOI":"10.1126\/science.1138030","volume":"315","author":"DC
+        Baulcombe","year":"2007","unstructured":"Baulcombe DC (2007) Molecular biology:
+        amplified silencing. Science 315:199\u2013200","journal-title":"Science"},{"key":"10_CR16","doi-asserted-by":"publisher","first-page":"12157","DOI":"10.1073\/pnas.0705114104","volume":"104","author":"AA
+        Bazzini","year":"2007","unstructured":"Bazzini AA, Hopp HE, Beachy RN, Asurmendi
+        S (2007) Infection and coaccumulation of tobacco mosaic virus proteins alter
+        microRNA levels, correlating with symptom and plant development. PNAS 104:12157\u201312162","journal-title":"PNAS"},{"key":"10_CR17","doi-asserted-by":"publisher","first-page":"521","DOI":"10.1016\/j.pbi.2004.07.003","volume":"7","author":"J
+        Bender","year":"2004","unstructured":"Bender J (2004) Chromatin-based silencing
+        mechanisms. Curr Opin Plant Biol 7:521\u2013526","journal-title":"Curr Opin
+        Plant Biol"},{"key":"10_CR18","doi-asserted-by":"publisher","first-page":"158","DOI":"10.1016\/j.virol.2005.09.041","volume":"344","author":"DM
+        Bisaro","year":"2006","unstructured":"Bisaro DM (2006) Silencing suppression
+        by geminivirus proteins. Virology 344:158\u2013168","journal-title":"Virology"},{"key":"10_CR19","doi-asserted-by":"publisher","first-page":"6233","DOI":"10.1093\/nar\/gkl886","volume":"34","author":"T
+        Blevins","year":"2006","unstructured":"Blevins T, Rajeswaran R, Shivaprasad
+        PV, Beknazariants D, Si-Ammour A, Park H-S, Vazquez F, Robertson D, Meins
+        F, Hohn T, Pooggin MM (2006) Four plant dicers mediate viral small RNA biogenesis
+        and DNA virus induced silencing. Nuclic Acids Res 34:6233\u20136246","journal-title":"Nuclic
+        Acids Res"},{"key":"10_CR20","doi-asserted-by":"publisher","first-page":"473","DOI":"10.1146\/annurev-arplant-050213-035728","volume":"65","author":"NG
+        Bologna","year":"2014","unstructured":"Bologna NG, Voinnet O (2014) The diversity,
+        biogenesis, and activities of endogenous silencing small RNAs in arabidopsis.
+        Annu Rev Plant Biol 65:473\u2013503","journal-title":"Annu Rev Plant Biol"},{"key":"10_CR21","doi-asserted-by":"publisher","first-page":"1615","DOI":"10.1016\/j.cub.2007.07.061","volume":"17","author":"D
+        Bortolamiol","year":"2007","unstructured":"Bortolamiol D, Pazhouhandeh M,
+        Marrocco K, Genschik P, Ziegler-Graff V (2007) The polerovirus F box protein
+        P0 targets ARGONAUTE1 to suppress RNA silencing. Curr Biol 17:1615\u20131621","journal-title":"Curr
+        Biol"},{"key":"10_CR22","doi-asserted-by":"publisher","first-page":"3347","DOI":"10.1038\/sj.emboj.7601217","volume":"25","author":"N
+        Bouch\u00e9","year":"2006","unstructured":"Bouch\u00e9 N, Lauressergues D,
+        Gasciolli V, H V. (2006) An antagonistic function for Arabidopsis DCL2 in
+        development and a new function for DCL4 in generating viral siRNAs. EMBO J
+        25:3347\u20133356","journal-title":"EMBO J"},{"key":"10_CR23","doi-asserted-by":"publisher","first-page":"843","DOI":"10.1016\/S0960-9822(03)00293-8","volume":"13","author":"S
+        Boutet","year":"2003","unstructured":"Boutet S, Vazquez F, Liu J, Beclin C,
+        Fagard M, Gratias A, Morel J-B, Crete P, Chen X, Vaucheret H (2003) Arabidopsis
+        HEN1: a genetic link between endogenous miRNA controlling development and
+        siRNA controlling transgene silencing and virus resistance. Curr Biol 13:843\u2013848","journal-title":"Curr
+        Biol"},{"key":"10_CR24","doi-asserted-by":"publisher","first-page":"234","DOI":"10.1006\/viro.2001.0949","volume":"285","author":"RW
+        Briddon","year":"2001","unstructured":"Briddon RW, Mansoor S, Bedford ID,
+        Pinner MS, Saunders K, Stanley J, Zafar Y, Malik KA, Markham PG (2001) Identification
+        of DNA components required for induction of cotton leaf curl disease. Virology
+        285:234\u2013243","journal-title":"Virology"},{"key":"10_CR25","doi-asserted-by":"publisher","first-page":"106","DOI":"10.1016\/S0042-6822(03)00200-9","volume":"312","author":"RW
+        Briddon","year":"2003","unstructured":"Briddon RW, Bull SE, Amin I, Idris
+        AM, Mansoor S, Bedford ID, Dhawan P, Rishi N, Siwatch SS, Abdel-Salam AM,
+        Brown JK, Zafar Y, Markham PG (2003) Diversity of DNA beta, a satellite molecule
+        associated with some monopartite begomoviruses. Virology 312:106\u2013121","journal-title":"Virology"},{"key":"10_CR26","doi-asserted-by":"publisher","first-page":"462","DOI":"10.1016\/j.virol.2004.03.041","volume":"324","author":"RW
+        Briddon","year":"2004","unstructured":"Briddon RW, Bull SE, Amin I, Mansoor
+        S, Bedford ID, Rishi N, Siwatch SS, Zafar Y, Abdel-Salam AM, Markham PG (2004)
+        Diversity of DNA 1: a satellite-like molecule associated with monopartite
+        begomovirus-DNA beta complexes. Virology 324:462\u2013474","journal-title":"Virology"},{"key":"10_CR27","doi-asserted-by":"publisher","first-page":"268","DOI":"10.1016\/j.tig.2006.03.003","volume":"22","author":"P
+        Brodersen","year":"2006","unstructured":"Brodersen P, Voinnet O (2006) The
+        diversity of RNA silencing pathways in plants. Trends Genet 22:268\u2013280","journal-title":"Trends
+        Genet"},{"key":"10_CR28","doi-asserted-by":"publisher","first-page":"703","DOI":"10.1007\/BF00020012","volume":"18","author":"CL
+        Brough","year":"1992","unstructured":"Brough CL, Gardiner WE, Inamdar NM,
+        Zhang X-Y, Ehrlich M, Bisaro DM (1992) DNA methylation inhibits propagation
+        of tomato golden mosaic virus DNA in transfected protoplasts. Plant Mol Biol
+        18:703\u2013712","journal-title":"Plant Mol Biol"},{"key":"10_CR29","first-page":"351","volume-title":"Virus
+        taxonomy: ninth report of the international committee on taxonomy of viruses","author":"JK
+        Brown","year":"2012","unstructured":"Brown JK, Fauquet CM, Briddon RW, Zerbini
+        M, Moriones E, Navas CJ (2012) Geminiviridae. In: King AMQ et al (eds) Virus
+        taxonomy: ninth report of the international committee on taxonomy of viruses.
+        Elsevier, London, pp 351\u2013373"},{"key":"10_CR30","doi-asserted-by":"publisher","first-page":"5005","DOI":"10.1128\/JVI.01771-08","volume":"83","author":"RC
+        Buchmann","year":"2009","unstructured":"Buchmann RC, Asad S, Wolf JN, Mohannath
+        G, Bisaro DM (2009) Geminivirus AL2 and L2 proteins suppress transcriptional
+        gene silencing and cause genome-wide reductions in cytosine methylation. J
+        Virol 83:5005\u20135013","journal-title":"J Virol"},{"key":"10_CR31","doi-asserted-by":"publisher","first-page":"69","DOI":"10.1007\/978-1-59745-102-4_5","volume-title":"Plant
+        virology protocols: from viral sequence to protein function","author":"J Burgy\u00e1n","year":"2008","unstructured":"Burgy\u00e1n
+        J (2008) Role of silencing suppressor proteins. In: Foster GD et al (eds)
+        Plant virology protocols: from viral sequence to protein function. Humana
+        Press, Totowa, NJ, pp 69\u201379"},{"key":"10_CR32","doi-asserted-by":"publisher","first-page":"111","DOI":"10.1016\/j.pbi.2015.06.013","volume":"27","author":"A
+        Carbonell","year":"2015","unstructured":"Carbonell A, Carrington JC (2015)
+        Antiviral roles of plant argonautes. Curr Opin Plant Biol 27:111\u2013117","journal-title":"Curr
+        Opin Plant Biol"},{"key":"10_CR33","doi-asserted-by":"publisher","first-page":"336","DOI":"10.1126\/science.1085242","volume":"301","author":"JC
+        Carrington","year":"2003","unstructured":"Carrington JC, Victor A (2003) Role
+        of microRNAs in plant and animal development. Science 301:336\u2013338","journal-title":"Science"},{"key":"10_CR34","doi-asserted-by":"publisher","first-page":"10905","DOI":"10.1128\/JVI.01243-07","volume":"81","author":"B
+        Chantal","year":"2007","unstructured":"Chantal B, Jean-Francois L (2007) The
+        poly(A) binding protein is internalized in virus-induced vesicles or redistributed
+        to the nucleolus during turnip mosaic virus infection. J Virol 81:10905\u201310913","journal-title":"J
+        Virol"},{"key":"10_CR35","doi-asserted-by":"publisher","first-page":"1179","DOI":"10.1101\/gad.1201204","volume":"18","author":"EJ
+        Chapman","year":"2004","unstructured":"Chapman EJ, Prokhnevsky AI, Gopinath
+        K, Dolja VV, Carrington JC (2004) Viral RNA silencing suppressors inhibit
+        the microRNA pathway at an intermediate step. Genes Dev 18:1179\u20131186","journal-title":"Genes
+        Dev"},{"key":"10_CR36","doi-asserted-by":"publisher","first-page":"7465","DOI":"10.1128\/JVI.78.14.7465-7477.2004","volume":"78","author":"P
+        Chellappan","year":"2004","unstructured":"Chellappan P, Vanitharani R, Fauquet
+        CM (2004) Short interfering RNA accumulation correlates with host recovery
+        in DNA virus-infected hosts, and gene silencing targets specific viral sequences.
+        J Virol 78:7465\u20137477","journal-title":"J Virol"},{"key":"10_CR37","doi-asserted-by":"publisher","first-page":"10381","DOI":"10.1073\/pnas.0504439102","volume":"102","author":"P
+        Chellappan","year":"2005","unstructured":"Chellappan P, Vanitharani R, Fauquet
+        CM (2005a) MicroRNA-binding viral protein interferes with Arabidopsis development.
+        PNAS 102:10381\u201310386","journal-title":"PNAS"},{"key":"10_CR38","doi-asserted-by":"publisher","first-page":"1828","DOI":"10.1104\/pp.105.066563","volume":"138","author":"P
+        Chellappan","year":"2005","unstructured":"Chellappan P, Vanitharani R, Ogbe
+        F, Fauquet CM (2005b) Effect of temperature on geminivirus-induced RNA silencing
+        in plants. Plant Physiol 138:1828\u20131841","journal-title":"Plant Physiol"},{"key":"10_CR39","doi-asserted-by":"publisher","first-page":"10233","DOI":"10.1073\/pnas.94.19.10233","volume":"94","author":"C
+        Cogoni","year":"1997","unstructured":"Cogoni C, Giuseppe M (1997) Isolation
+        of quelling-defective (qde) mutants impaired in posttranscriptional transgene-induced
+        gene silencing in Neurosporacrassa. PNAS 94:10233\u201310238","journal-title":"PNAS"},{"key":"10_CR40","first-page":"1","volume-title":"Current
+        research topics in plant virology","author":"T Csorba","year":"2016","unstructured":"Csorba
+        T, Burgy\u00e1n J (2016) Antiviral silencing and suppression of gene silencing
+        in plants. In: Wang A, Zhou X (eds) Current research topics in plant virology.
+        Springer, Cham, pp 1\u201333"},{"key":"10_CR41","doi-asserted-by":"publisher","first-page":"11768","DOI":"10.1128\/JVI.01230-07","volume":"81","author":"T
+        Csorba","year":"2007","unstructured":"Csorba T, Bovi A, Dalmay T, Burgyan
+        J (2007) The p122 subunit of tobacco mosaic virus replicase is a potent silencing
+        suppressor and compromises both small interfering RNA- and microRNA-mediated
+        pathways. J Virol 81:11768\u201311780","journal-title":"J Virol"},{"issue":"16","key":"10_CR42","doi-asserted-by":"publisher","first-page":"10764","DOI":"10.1128\/JVI.79.16.10764-10775.2005","volume":"79","author":"X
+        Cui","year":"2005","unstructured":"Cui X, Li G, Wang D, Hu D, Zhou X (2005)
+        A begomovirus DNA \u03b2 encoded protein binds DNA, functions as a suppressor
+        of RNA silencing, and targets the cell nucleus. J Virol 79(16):10764\u201310775","journal-title":"J
+        Virol"},{"key":"10_CR43","doi-asserted-by":"publisher","first-page":"543","DOI":"10.1016\/S0092-8674(00)80864-8","volume":"101","author":"T
+        Dalmay","year":"2000","unstructured":"Dalmay T, Hamilton A, Rudd S, Angell
+        S, Baulcombe DC (2000) An RNA-dependent RNA polymerase gene in arabidopsis
+        is required for posttranscriptional gene silencing mediated by a transgene
+        but not by a virus. Cell 101:543\u2013553","journal-title":"Cell"},{"key":"10_CR44","doi-asserted-by":"publisher","first-page":"68","DOI":"10.1126\/science.1128214","volume":"313","author":"A
+        Deleris","year":"2006","unstructured":"Deleris A, Gallego-Bartolome J, Bao
+        J, Kasschau KD, Carrington JC, Voinnet O (2006) Hierarchical action and inhibition
+        of plant dicer-like proteins in antiviral defense. Science 313:68\u201371","journal-title":"Science"},{"key":"10_CR45","doi-asserted-by":"publisher","first-page":"413","DOI":"10.1016\/j.cell.2007.07.039","volume":"130","author":"S-W
+        Ding","year":"2007","unstructured":"Ding S-W, Voinnet O (2007) Antiviral immunity
+        directed by small RNAs. Cell 130:413\u2013426","journal-title":"Cell"},{"key":"10_CR46","doi-asserted-by":"publisher","first-page":"109","DOI":"10.1016\/j.virusres.2004.01.021","volume":"102","author":"SW
+        Ding","year":"2004","unstructured":"Ding SW, Li HW, Lu R, Li F, Li WX (2004)
+        RNA silencing: a conserved antiviral immunity of plants and animals. Virus
+        Res 102:109\u2013115","journal-title":"Virus Res"},{"key":"10_CR47","doi-asserted-by":"publisher","first-page":"25","DOI":"10.1007\/s11103-009-9506-x","volume":"71","author":"S
+        Dogra","year":"2009","unstructured":"Dogra S, Eini O, Rezaian M, Randles J
+        (2009) A novel shaggy-like kinase interacts with the tomato leaf curl virus
+        pathogenicity determinant C4 protein. Plant Mol Biol 71:25\u201338","journal-title":"Plant
+        Mol Biol"},{"key":"10_CR48","doi-asserted-by":"publisher","first-page":"1065","DOI":"10.1094\/MPMI.1997.10.9.1065","volume":"10","author":"Y-P
+        Duan","year":"1997","unstructured":"Duan Y-P, Powell CA, Purcifull DE, Broglio
+        P, Hiebert E (1997) Phenotypic variation in transgenic tobacco expressing
+        mutated geminivirus movement\/pathogenicity (BC1) proteins. Mol Plant-Microbe
+        Interact 10:1065\u20131074","journal-title":"Mol Plant-Microbe Interact"},{"key":"10_CR49","doi-asserted-by":"publisher","first-page":"11084","DOI":"10.1128\/JVI.01377-08","volume":"82","author":"C-G
+        Duan","year":"2008","unstructured":"Duan C-G, Wang C-H, Fang R-X, Guo H-S
+        (2008) Artificial microRNAs highly accessible to targets confer efficient
+        virus resistance in plants. J Virol 82:11084\u201311095","journal-title":"J
+        Virol"},{"key":"10_CR50","doi-asserted-by":"publisher","first-page":"415","DOI":"10.1016\/j.pbi.2005.05.012","volume":"8","author":"P
+        Dunoyer","year":"2005","unstructured":"Dunoyer P, Voinnet O (2005) The complex
+        interplay between plant viruses and host RNA-silencing pathways. Curr Opin
+        Plant Biol 8:415\u2013423","journal-title":"Curr Opin Plant Biol"},{"key":"10_CR51","doi-asserted-by":"publisher","first-page":"1235","DOI":"10.1105\/tpc.020719","volume":"16","author":"P
+        Dunoyer","year":"2004","unstructured":"Dunoyer P, Lecellier CH, Parizotto
+        EA, Himber C, Voinnet O (2004) Probing the microRNA and small interfering
+        RNA pathways with virus-encoded suppressors of RNA silencing. Plant Cell 16:1235\u20131250","journal-title":"Plant
+        Cell"},{"key":"10_CR52","doi-asserted-by":"publisher","first-page":"579","DOI":"10.1134\/S0026893317030037","volume":"51","author":"O
+        Eini","year":"2017","unstructured":"Eini O (2017) A betasatellite-encoded
+        protein regulates key components of gene silencing system in plants. Mol Biol
+        51:579\u2013585","journal-title":"Mol Biol"},{"key":"10_CR53","doi-asserted-by":"publisher","first-page":"97","DOI":"10.1016\/j.virusres.2012.03.012","volume":"167","author":"O
+        Eini","year":"2012","unstructured":"Eini O, Dogra SC, Dry IB, Randles JW (2012)
+        Silencing suppressor activity of a begomovirus DNA \u03b2 encoded protein
+        and its effect on heterologous helper virus replication. Virus Res 167:97\u2013101","journal-title":"Virus
+        Res"},{"key":"10_CR54","doi-asserted-by":"publisher","first-page":"188","DOI":"10.1101\/gad.862301","volume":"15","author":"SM
+        Elbashir","year":"2001","unstructured":"Elbashir SM, Lendeckel W, Tuschl T
+        (2001) RNA interference is mediated by 21- and 22-nucleotide RNAs. Genes Dev
+        15:188\u2013200","journal-title":"Genes Dev"},{"key":"10_CR55","doi-asserted-by":"publisher","first-page":"7043","DOI":"10.1093\/nar\/16.14.7043","volume":"16","author":"JS
+        Elmer","year":"1988","unstructured":"Elmer JS, Brand L, Sunter G, Gardiner
+        WE, Bisaro DM, Rogers SG (1988) Genetic analysis of the tomato golden mosaic
+        virus. II. The product of the AL1 coding sequence is required for replication.
+        Nucleic Acids Res 16:7043\u20137060","journal-title":"Nucleic Acids Res"},{"key":"10_CR56","doi-asserted-by":"publisher","first-page":"11650","DOI":"10.1073\/pnas.200217597","volume":"97","author":"M
+        Fagard","year":"2000","unstructured":"Fagard M, Boutet S, Morel J-B, Bellini
+        C, Vaucheret H (2000) AGO1, QDE-2, and RDE-1 are related proteins required
+        for post-transcriptional gene silencing in plants, quelling in fungi, and
+        RNA interference in animals. PNAS 97:11650\u201311654","journal-title":"PNAS"},{"issue":"2","key":"10_CR57","doi-asserted-by":"publisher","first-page":"150","DOI":"10.1111\/j.1467-7652.2011.00647.x","volume":"10","author":"M
+        Fahim","year":"2012","unstructured":"Fahim M, Millar AA, Wood CC, Larkin PJ
+        (2012) Resistance to wheat streak mosaic virus generated by expression of
+        an artificial polycistronic microRNA in wheat. Plant Biotechnol J 10(2):150\u2013163","journal-title":"Plant
+        Biotechnol J"},{"key":"10_CR58","doi-asserted-by":"publisher","first-page":"51","DOI":"10.1007\/978-1-60327-005-2_4","volume-title":"Plant
+        microRNAs","author":"N Fahlgren","year":"2010","unstructured":"Fahlgren N,
+        Carrington J (2010) miRNA target prediction in plants. In: Meyers BC, Green
+        PJ (eds) Plant microRNAs. Humana Press, New York, pp 51\u201357"},{"key":"10_CR59","doi-asserted-by":"publisher","first-page":"e1003921","DOI":"10.1371\/journal.ppat.1003921","volume":"10","author":"L
+        Fangfang","year":"2014","unstructured":"Fangfang L, Changjun H, Zhenghe L,
+        Xueping Z (2014) Suppression of RNA silencing by a plant DNA virus satellite
+        requires a host calmodulin-like protein to repress RDR6 expression. PLoS Pathog
+        10:e1003921","journal-title":"PLoS Pathog"},{"key":"10_CR60","doi-asserted-by":"publisher","first-page":"4421","DOI":"10.1166\/jnn.2013.7161","volume":"13","author":"J
+        Feng","year":"2013","unstructured":"Feng J, Chen J (2013) In silico analysis
+        the complementarity of tomato microRNA\/microRNA* sequences with cucumber
+        mosaic virus (CMV) genomic RNAs. J Nanosci Nanotechnol 13:4421\u20134426","journal-title":"J
+        Nanosci Nanotechnol"},{"key":"10_CR61","doi-asserted-by":"publisher","first-page":"4689","DOI":"10.1242\/jcs.00838","volume":"116","author":"EJ
+        Finnegan","year":"2003","unstructured":"Finnegan EJ, Matzke MA (2003) The
+        small RNA world. J Cell Sci 116:4689\u20134693","journal-title":"J Cell Sci"},{"key":"10_CR62","doi-asserted-by":"publisher","first-page":"806","DOI":"10.1038\/35888","volume":"391","author":"A
+        Fire","year":"1998","unstructured":"Fire A, Xu S, Montgomery MK, Kostas SA,
+        Driver SE, Mello CC (1998) Potent and specific genetic interference by double-stranded
+        RNA in Caenorhabditis elegans. Nature 391:806\u2013811","journal-title":"Nature"},{"key":"10_CR63","doi-asserted-by":"publisher","first-page":"635","DOI":"10.1111\/mpp.12032","volume":"14","author":"VN
+        Fondong","year":"2013","unstructured":"Fondong VN (2013) Geminivirus protein
+        structure and function. Mol Plant Pathol 14:635\u2013649","journal-title":"Mol
+        Plant Pathol"},{"key":"10_CR64","doi-asserted-by":"publisher","first-page":"380","DOI":"10.1094\/MPMI-20-4-0380","volume":"20","author":"V
+        Fondong","year":"2007","unstructured":"Fondong V, Reddy R, Lu C, Hankoua B,
+        Felton C, Czymmek K, Achenjang F (2007) The consensus N-myristoylation motif
+        of a geminivirus AC4 protein is required for membrane binding and pathogenicity.
+        Mol Plant-Microbe Interact 20:380\u2013391","journal-title":"Mol Plant-Microbe
+        Interact"},{"key":"10_CR65","doi-asserted-by":"publisher","first-page":"262","DOI":"10.1016\/j.virusres.2007.02.009","volume":"126","author":"MR
+        Fontenelle","year":"2007","unstructured":"Fontenelle MR, Luz DF, Gomes APS,
+        Florentino LH, Zerbini FM, Fontes EPB (2007) Functional analysis of the naturally
+        recombinant DNA-A of the bipartite begomovirus tomato chlorotic mottle virus.
+        Virus Res 126:262\u2013267","journal-title":"Virus Res"},{"key":"10_CR66","doi-asserted-by":"publisher","first-page":"33","DOI":"10.1007\/s10265-016-0877-1","volume":"130","author":"A
+        Fukudome","year":"2017","unstructured":"Fukudome A, Fukuhara T (2017) Plant
+        dicer-like proteins: double-stranded RNA-cleaving enzymes for small RNA biogenesis.
+        J Plant Res 130:33\u201344","journal-title":"J Plant Res"},{"key":"10_CR67","doi-asserted-by":"publisher","first-page":"545","DOI":"10.1038\/emboj.2009.2","volume":"28","author":"R
+        Fukunaga","year":"2009","unstructured":"Fukunaga R, Doudna JA (2009) dsRNA
+        with 5\u2032 overhangs contributes to endogenous and antiviral RNA silencing
+        pathways in plants. EMBO J 28:545\u2013555","journal-title":"EMBO J"},{"key":"10_CR68","doi-asserted-by":"publisher","first-page":"1168","DOI":"10.1038\/sj.embor.7400837","volume":"7","author":"AF
+        Fusaro","year":"2006","unstructured":"Fusaro AF, Matthew L, Smith NA, Curtin
+        SJ, Dedic-Hagan J, Ellacott GA, Watson J, Wang M-B, Brosnan C, Carroll BJ,
+        Waterhouse PM (2006) RNA interference-inducing hairpin RNAs in plants act
+        through the viral defence pathway. EMBO Rep 7:1168\u20131175","journal-title":"EMBO
+        Rep"},{"key":"10_CR69","doi-asserted-by":"publisher","first-page":"e48736","DOI":"10.1371\/journal.pone.0048736","volume":"7","author":"R
+        Gao","year":"2012","unstructured":"Gao R, Liu P, Wong S-M (2012) Identification
+        of a plant viral RNA genome in the nucleus. PLoS One 7:e48736","journal-title":"PLoS
+        One"},{"key":"10_CR70","doi-asserted-by":"publisher","first-page":"481","DOI":"10.1105\/tpc.109.073056","volume":"22","author":"H
+        Garcia-Ruiz","year":"2010","unstructured":"Garcia-Ruiz H, Takeda A, Chapman
+        EJ, Sullivan CM, Fahlgren N, Brempelis KJ, Carrington JC (2010) Arabidopsis
+        RNA-dependent RNA polymerases and dicer-like proteins in antiviral defense
+        and small interfering RNA biogenesis during turnip mosaic virus infection.
+        Plant Cell 22:481","journal-title":"Plant Cell"},{"key":"10_CR71","doi-asserted-by":"publisher","first-page":"276","DOI":"10.1016\/j.bbaexp.2007.01.009","volume":"1769","author":"M
+        Gehring","year":"2007","unstructured":"Gehring M, Henikoff S (2007) DNA methylation
+        dynamics in plant genomes. Biochim Biophys Acta 1769:276\u2013286","journal-title":"Biochim
+        Biophys Acta"},{"key":"10_CR72","first-page":"555","volume":"98","author":"M
+        Ghanbari","year":"2016","unstructured":"Ghanbari M, Eini O, Ebrahimi S (2016)
+        Differntial expression of MYB33 and AP2 genes and response of Ty resistant
+        plants beet curly top Iran vitus infection in tomato. J Plant Pathol 98:555\u2013562","journal-title":"J
+        Plant Pathol"},{"key":"10_CR73","doi-asserted-by":"publisher","first-page":"157","DOI":"10.1073\/pnas.0709036105","volume":"105","author":"E
+        Glick","year":"2008","unstructured":"Glick E, Zrachya A, Levy Y, Mett A, Gidoni
+        D, Belausov E, Citovsky V, Gafni Y (2008) Interaction with host SGS3 is required
+        for suppression of RNA silencing by tomato yellow leaf curl virus V2 protein.
+        PNAS 105:157\u2013161","journal-title":"PNAS"},{"issue":"1","key":"10_CR74","doi-asserted-by":"publisher","first-page":"9","DOI":"10.1016\/j.virusres.2006.07.014","volume":"123","author":"P
+        Gopal","year":"2007","unstructured":"Gopal P, Pravin Kumar P, Sinilal B, Jose
+        J, Kasin Yadunandam A, Usha R (2007) Differential roles of C4 and \u03b2C1
+        in mediating suppression of post-transcriptional gene silencing: evidence
+        for transactivation by the C2 of Bhendi yellow vein mosaic virus, a monopartite
+        begomovirus. Virus Res 123(1):9\u201318","journal-title":"Virus Res"},{"key":"10_CR75","doi-asserted-by":"publisher","first-page":"375","DOI":"10.1016\/j.chom.2008.05.002","volume":"3","author":"E
+        Gottwein","year":"2008","unstructured":"Gottwein E, Cullen BR (2008) Viral
+        and cellular microRNAs as determinants of viral pathogenesis and immunity.
+        Cell Host Microbe 3:375\u2013387","journal-title":"Cell Host Microbe"},{"key":"10_CR76","doi-asserted-by":"publisher","first-page":"1164","DOI":"10.1111\/jipb.12233","volume":"56","author":"M
+        Gu","year":"2014","unstructured":"Gu M, Liu W, Meng Q, Zhang W, Chen A, Sun
+        S, Xu G (2014) Identification of microRNAs in six solanaceous plants and their
+        potential link with phosphate and mycorrhizal signalings. J Integr Plant Biol
+        56:1164\u20131178","journal-title":"J Integr Plant Biol"},{"key":"10_CR77","doi-asserted-by":"publisher","first-page":"4671","DOI":"10.1093\/emboj\/cdf464","volume":"21","author":"A
+        Hamilton","year":"2002","unstructured":"Hamilton A, Voinnet O, Chappell L,
+        Baulcombe D (2002) Two classes of short interfering RNA in RNA silencing.
+        EMBO J 21:4671\u20134679","journal-title":"EMBO J"},{"key":"10_CR78","doi-asserted-by":"publisher","first-page":"71","DOI":"10.1080\/07352689991309162","volume":"18","author":"L
+        Hanley-Bowdoin","year":"1999","unstructured":"Hanley-Bowdoin L, Settlage SB,
+        Orozco BM, Nagar S, Robertson D (1999) Geminiviruses: models for plant DNA
+        replication, transcription, and cell cycle regulation. Crit Rev Plant Sci
+        18:71\u2013106","journal-title":"Crit Rev Plant Sci"},{"issue":"11","key":"10_CR79","doi-asserted-by":"publisher","first-page":"777","DOI":"10.1038\/nrmicro3117","volume":"11","author":"L
+        Hanley-Bowdoin","year":"2013","unstructured":"Hanley-Bowdoin L, Bejarano ER,
+        Robertson D, Mansoor S (2013) Geminiviruses: masters at redirecting and reprogramming
+        plant processes. Nat Rev Microbiol 11(11):777","journal-title":"Nat Rev Microbiol"},{"key":"10_CR80","doi-asserted-by":"publisher","first-page":"1060","DOI":"10.1080\/15476286.2016.1218591","volume":"13","author":"TJ
+        Hardcastle","year":"2016","unstructured":"Hardcastle TJ, Lewsey MG (2016)
+        Mobile small RNAs and their role in regulating cytosine methylation of DNA.
+        RNA Biol 13:1060\u20131067","journal-title":"RNA Biol"},{"key":"10_CR81","first-page":"1552","volume":"7","author":"J
+        Huang","year":"2016","unstructured":"Huang J, Yang M, Lu L, Zhang X (2016)
+        Diverse functions of small RNAs in different plant\u2013pathogen communications.
+        Front Microbiol 7:1552","journal-title":"Front Microbiol"},{"key":"10_CR82","volume-title":"Mattews\u2019
+        plant virology","author":"R Hull","year":"2002","unstructured":"Hull R (2002)
+        Mattews\u2019 plant virology, 4th edn. Academic Press, London","edition":"4"},{"key":"10_CR83","doi-asserted-by":"publisher","first-page":"22","DOI":"10.1038\/nrm2321","volume":"9","author":"G
+        Hutvagner","year":"2008","unstructured":"Hutvagner G, Simard MJ (2008) Argonaute
+        proteins: key players in RNA silencing. Nat Rev Mol Cell Biol 9:22\u201332","journal-title":"Nat
+        Rev Mol Cell Biol"},{"key":"10_CR84","doi-asserted-by":"publisher","first-page":"715","DOI":"10.1094\/MPMI.2001.14.6.715","volume":"14","author":"L-H
+        Ji","year":"2001","unstructured":"Ji L-H, Ding S-W (2001) The suppressor of
+        transgene RNA silencing encoded by cucumber mosaic virus interferes with salicylic
+        acid-mediated virus resistance. Mol Plant-Microbe Interact 14:715\u2013724","journal-title":"Mol
+        Plant-Microbe Interact"},{"key":"10_CR85","doi-asserted-by":"publisher","first-page":"109","DOI":"10.1007\/s11427-012-4279-x","volume":"55","author":"L
+        Jiang","year":"2012","unstructured":"Jiang L, Wei C, Li Y (2012) Viral suppression
+        of RNA silencing. Sci China Life Sci 55:109\u2013118","journal-title":"Sci
+        China Life Sci"},{"key":"10_CR86","doi-asserted-by":"publisher","first-page":"6385","DOI":"10.1093\/emboj\/17.21.6385","volume":"17","author":"AL
+        Jones","year":"1998","unstructured":"Jones AL, Thomas CL, Maule AJ (1998)
+        De novo methylation and co-suppression induced by a cytoplasmically replicating
+        plant RNA virus. EMBO J 17:6385\u20136393","journal-title":"EMBO J"},{"key":"10_CR87","doi-asserted-by":"publisher","first-page":"1577","DOI":"10.1126\/science.1113329","volume":"309","author":"CL
+        Jopling","year":"2005","unstructured":"Jopling CL, Yi M, Lancaster AM, Lemon
+        SM, Sarnow P (2005) Modulation of hepatitis C virus RNA abundance by a liver-specific
+        microRNA. Science 309:1577\u20131581","journal-title":"Science"},{"key":"10_CR88","doi-asserted-by":"publisher","first-page":"13","DOI":"10.1042\/BC20070079","volume":"100","author":"K
+        Kalantidis","year":"2008","unstructured":"Kalantidis K, Schumacher HT, Alexiadis
+        T, Helm JM (2008) RNA silencing movement in plants. Biol Cell 100:13\u201326","journal-title":"Biol
+        Cell"},{"key":"10_CR89","doi-asserted-by":"publisher","first-page":"629","DOI":"10.1094\/PHYTO.2000.90.6.629","volume":"90","author":"A
+        Kheyr-Pour","year":"2000","unstructured":"Kheyr-Pour A, Bananej K, Dafalla
+        GA, Caciagli P, Noris E, Ahoonmanesh A, Lecoq H, Gronenborn B (2000) Watermelon
+        chlorotic stunt virus from the Sudan and Iran: sequence comparisons and identification
+        of a whitefly-transmission determinant. Phytopathology 90:629\u2013635","journal-title":"Phytopathology"},{"key":"10_CR90","doi-asserted-by":"publisher","first-page":"427","DOI":"10.1111\/mpp.12291","volume":"17","author":"A
+        Kis","year":"2016","unstructured":"Kis A (2016) Polycistronic artificial miRNA
+        mediated resistance to wheat dwarf virus in barley is highly efficient at
+        low temperature. Mol Plant Pathol 17:427\u2013437","journal-title":"Mol Plant
+        Pathol"},{"key":"10_CR91","doi-asserted-by":"publisher","first-page":"1273","DOI":"10.1007\/s00705-007-0957-6","volume":"152","author":"T
+        Kon","year":"2007","unstructured":"Kon T, Sharma P, Ikegami M (2007) Suppressor
+        of RNA silencing encoded by the monopartite tomato leaf curl Java begomovirus.
+        Arch Virol 152:1273\u20131282","journal-title":"Arch Virol"},{"key":"10_CR92","doi-asserted-by":"publisher","first-page":"3485","DOI":"10.1093\/emboj\/19.13.3485","volume":"19","author":"LJ
+        Kong","year":"2000","unstructured":"Kong LJ, Orozco BM, Roe JL, Nagar S, Ou
+        S, Feiler HS, Durfee T, Miller AB, Gruissem W, Robertson D, Hanley-Bowdoin
+        L (2000) A geminivirus replication protein interacts with the retinoblastoma
+        protein through a novel domain to determine symptoms and tissue specificity
+        of infection in plants. EMBO J 19:3485\u20133495","journal-title":"EMBO J"},{"key":"10_CR93","doi-asserted-by":"publisher","first-page":"7093","DOI":"10.1128\/JVI.02911-13","volume":"88","author":"J
+        Kumar","year":"2014","unstructured":"Kumar J, Kumar J, Singh SP, Tuli R (2014)
+        Association of satellites with a mastrevirus in natural infection: complexity
+        of wheat dwarf India virus disease. J Virol 88:7093\u20137104","journal-title":"J
+        Virol"},{"key":"10_CR94","doi-asserted-by":"publisher","first-page":"158","DOI":"10.1016\/j.virol.2015.08.015","volume":"486","author":"V
+        Kumar","year":"2015","unstructured":"Kumar V, Mishra SK, Rahman J, Taneja
+        J, Sundaresan G, Mishra NS, Mukherjee SK (2015) Mungbean yellow mosaic Indian
+        virus encoded AC2 protein suppresses RNA silencing by inhibiting Arabidopsis
+        RDR6 and AGO1 activities. Virology 486:158\u2013172","journal-title":"Virology"},{"key":"10_CR95","doi-asserted-by":"publisher","first-page":"8254","DOI":"10.1128\/JVI.00914-13","volume":"87","author":"G
+        Lafforgue","year":"2013","unstructured":"Lafforgue G, Mart\u00ednez F, Niu
+        Q-W, Chua N-H, Dar\u00f2s J-A, Elena SF (2013) Improving the effectiveness
+        of artificial microRNA (amiR)-mediated resistance against turnip mosaic virus
+        by combining two amiRs or by targeting highly conserved viral genomic regions.
+        J Virol 87:8254\u20138256","journal-title":"J Virol"},{"key":"10_CR96","doi-asserted-by":"publisher","first-page":"2768","DOI":"10.1038\/sj.emboj.7601164","volume":"25","author":"L
+        Lakatos","year":"2006","unstructured":"Lakatos L, Csorba T, Pantaleo V, Chapman
+        EJ, Carrington JC, Liu Y-P, Dolja VV, Calvino LF, L\u00f3pez-Moya JJ, Burgy\u00e1n
+        J (2006) Small RNA binding is a common strategy to suppress RNA silencing
+        by several viral suppressors. EMBO J 25:2768\u20132780","journal-title":"EMBO
+        J"},{"key":"10_CR97","doi-asserted-by":"publisher","first-page":"285","DOI":"10.1111\/j.0105-2896.2004.00128.x","volume":"198","author":"C
+        Lecellier","year":"2004","unstructured":"Lecellier C, Voinnet O (2004) RNA
+        silencing: no mercy for viruses? Immunol Rev 198:285","journal-title":"Immunol
+        Rev"},{"key":"10_CR98","doi-asserted-by":"publisher","first-page":"503","DOI":"10.1146\/annurev.micro.60.080805.142205","volume":"60","author":"F
+        Li","year":"2006","unstructured":"Li F, Ding S-W (2006) Virus counterdefense:
+        diverse strategies for evading the RNA-silencing immunity. Annu Rev Microbiol
+        60:503\u2013531","journal-title":"Annu Rev Microbiol"},{"key":"10_CR99","doi-asserted-by":"publisher","first-page":"1507","DOI":"10.1105\/tpc.113.112235","volume":"25","author":"J-F
+        Li","year":"2013","unstructured":"Li J-F, Chung HS, Niu Y, Bush J, McCormack
+        M, Sheen J (2013) Comprehensive protein-based artificial microRNA screens
+        for effective gene silencing in plants. Plant Cell 25:1507","journal-title":"Plant
+        Cell"},{"key":"10_CR100","doi-asserted-by":"publisher","first-page":"555","DOI":"10.1111\/nph.13473","volume":"208","author":"F
+        Li","year":"2015","unstructured":"Li F, Xu X, Huang C, Gu Z, Cao L, Hu T,
+        Ding M, Li Z, Zhou X (2015) The AC5 protein encoded by Mungbean yellow mosaic
+        India virus is a pathogenicity determinant that suppresses RNA silencing-based
+        antiviral defenses. New Phytol 208:555\u2013569","journal-title":"New Phytol"},{"key":"10_CR101","doi-asserted-by":"publisher","first-page":"e1000312","DOI":"10.1371\/journal.ppat.1000312","volume":"5","author":"S-S
+        Lin","year":"2009","unstructured":"Lin S-S, Wu H-W, Elena SF, Chen K-C, Niu
+        Q-W, Yeh S-D, Chen C-C, Chua N-H (2009) Molecular evolution of a viral non-coding
+        sequence under the selective pressure of amiRNA-mediated silencing. PLoS Pathog
+        5:e1000312","journal-title":"PLoS Pathog"},{"key":"10_CR102","doi-asserted-by":"publisher","first-page":"1801","DOI":"10.3389\/fmicb.2017.01801","volume":"8","author":"S-R
+        Liu","year":"2017","unstructured":"Liu S-R, Zhou J-J, Hu C-G, Wei C-L, Zhang
+        J-Z (2017) MicroRNA-mediated gene silencing in plant defense and viral counter-defense.
+        Front Microbiol 8:1801","journal-title":"Front Microbiol"},{"key":"10_CR103","doi-asserted-by":"publisher","first-page":"1571","DOI":"10.1007\/s00299-008-0584-z","volume":"27","author":"Y-D
+        Lu","year":"2008","unstructured":"Lu Y-D, Gan Q-H, Chi X-Y, Qin S (2008) Roles
+        of microRNA in plant defense and virus offense interaction. Plant Cell Rep
+        27:1571\u20131579","journal-title":"Plant Cell Rep"},{"key":"10_CR104","doi-asserted-by":"publisher","first-page":"6785","DOI":"10.1128\/JVI.77.12.6785-6798.2003","volume":"77","author":"A
+        Lucioli","year":"2003","unstructured":"Lucioli A, Noris E, Brunetti A, Tavazza
+        R, Ruzza V, Castillo AG, Bejarano ER, Accotto GP, Tavazza M (2003) Tomato
+        yellow leaf curl Sardinia virus rep-derived resistance to homologous and heterologous
+        geminiviruses occurs by different mechanisms and is vercome if virus-mediated
+        transgene silencing is activated. J Virol 77:6785\u20136798","journal-title":"J
+        Virol"},{"key":"10_CR105","doi-asserted-by":"publisher","first-page":"2607","DOI":"10.1099\/jgv.0.000933","volume":"98","author":"AP
+        Luna","year":"2017","unstructured":"Luna AP, Rodr\u00edguez-Negrete EA, Morilla
+        G, Wang L, Lozano-Dur\u00e1n R, Castillo AG, Bejarano ER (2017) V2 from a
+        curtovirus is a suppressor of post-transcriptional gene silencing. J Gen Virol
+        98:2607\u20132614","journal-title":"J Gen Virol"},{"key":"10_CR106","doi-asserted-by":"publisher","first-page":"e98263","DOI":"10.1371\/journal.pone.0098263","volume":"9","author":"F
+        Maghuly","year":"2014","unstructured":"Maghuly F, Ramkat RC, Laimer M (2014)
+        Virus versus host plant microRNAs: who determines the outcome of the interaction?
+        PLoS One 9:e98263","journal-title":"PLoS One"},{"key":"10_CR107","doi-asserted-by":"publisher","first-page":"24","DOI":"10.1038\/nrg1500","volume":"6","author":"MA
+        Matzke","year":"2005","unstructured":"Matzke MA, Birchler JA (2005) RNAi-mediated
+        pathways in the nucleus. Nat Rev Genet 6:24\u201335","journal-title":"Nat
+        Rev Genet"},{"key":"10_CR1000","doi-asserted-by":"publisher","first-page":"5397","DOI":"10.1128\/JVI.00234-13","volume":"87","author":"TA
+        Melgarejo","year":"2013","unstructured":"Melgarejo TA, Kon T, Rojas MR, Paz-Carrasco
+        L, Zerbini FM, Gilbertson RL (2013) Characterization of a new world monopartite
+        begomovirus causing leaf curl disease of Tomato in Ecuador and Peru reveals
+        a new direction in geminivirus evolution. J Virol 87:5397\u20135413","journal-title":"J
+        Virol"},{"issue":"1\u20134","key":"10_CR108","first-page":"35","volume":"239","author":"K
+        Mills-Lujan","year":"2010","unstructured":"Mills-Lujan K, Deom C (2010) Geminivirus
+        C4 protein alters Arabidopsis development. Protoplasma 239(1\u20134):35\u2013110","journal-title":"Protoplasma"},{"key":"10_CR109","doi-asserted-by":"publisher","first-page":"s289","DOI":"10.1105\/tpc.001677","volume":"14","author":"S
+        Mlotshwa","year":"2002","unstructured":"Mlotshwa S, Voinnet O, Mette MF, Matzke
+        M, Vaucheret H, Ding SW, Pruss G, Vance VB (2002) RNA silencing and the mobile
+        silencing signal. Plant Cell 14:s289\u2013s301","journal-title":"Plant Cell"},{"key":"10_CR110","doi-asserted-by":"publisher","first-page":"71","DOI":"10.1111\/j.1364-3703.2004.00207.x","volume":"5","author":"G
+        Moissiard","year":"2004","unstructured":"Moissiard G, Voinnet O (2004) Viral
+        suppression of RNA silencing in plants. Mol Plant Pathol 5:71\u201382","journal-title":"Mol
+        Plant Pathol"},{"key":"10_CR111","doi-asserted-by":"publisher","first-page":"629","DOI":"10.1105\/tpc.010358","volume":"14","author":"J-B
+        Morel","year":"2002","unstructured":"Morel J-B, Godon C, Mourrain P, Beclin
+        C, Boutet S, Feuerbach F, Proux F, Vaucheret H (2002) Fertile hypomorphic
+        ARGONAUTE (ago1) mutants impaired in post-transcriptional gene silencing and
+        virus resistance. Plant Cell 14:629\u2013639","journal-title":"Plant Cell"},{"key":"10_CR112","doi-asserted-by":"publisher","first-page":"169","DOI":"10.1016\/j.tim.2006.02.007","volume":"14","author":"V
+        Nair","year":"2006","unstructured":"Nair V, Zavolan M (2006) Virus-encoded
+        microRNAs: novel regulators of gene expression. Trends Microbiol 14:169\u2013175","journal-title":"Trends
+        Microbiol"},{"key":"10_CR113","doi-asserted-by":"publisher","first-page":"279","DOI":"10.2307\/3869076","volume":"2","author":"C
+        Napoli","year":"1990","unstructured":"Napoli C, Lemieux C, Jorgensen R (1990)
+        Introduction of a chimeric chalcone synthase gene into petunia results in
+        reversible co-suppression of homologous genes in trans. Plant Cell 2:279\u2013289","journal-title":"Plant
+        Cell"},{"issue":"1","key":"10_CR114","doi-asserted-by":"publisher","first-page":"281","DOI":"10.1186\/1743-422X-7-281","volume":"7","author":"Afsar
+        R Naqvi","year":"2010","unstructured":"Naqvi A, Haq Q, Mukherjee S (2010)
+        MicroRNA profiling of tomato leaf curl New Delhi virus (ToLCNDV) infected
+        tomato leaves indicates that deregulation of mir159\/319 and mir172 might
+        be linked with leaf curl disease. Virol J 7:281\u2013297","journal-title":"Virology
+        Journal"},{"key":"10_CR116","doi-asserted-by":"publisher","first-page":"13","DOI":"10.1016\/j.plaphy.2010.09.013","volume":"49","author":"AR
+        Naqvi","year":"2011","unstructured":"Naqvi AR, Choudhury NR, Mukherjee SK,
+        Haq QMR (2011) In silico analysis reveals that several tomato microRNA\/microRNA\u2217
+        sequences exhibit propensity to bind to tomato leaf curl virus (ToLCV) associated
+        genomes and most of their encoded open reading frames (ORFs). Plant Physiol
+        Biochem 49:13\u201317","journal-title":"Plant Physiol Biochem"},{"key":"10_CR117","doi-asserted-by":"publisher","first-page":"300","DOI":"10.1016\/j.virol.2010.06.024","volume":"405","author":"MS
+        Nawaz-ul-Rehman","year":"2010","unstructured":"Nawaz-ul-Rehman MS, Nahid N,
+        Mansoor S, Briddon RW, Fauquet CM (2010) Post-transcriptional gene silencing
+        suppressor activity of two non-pathogenic alphasatellites associated with
+        a begomovirus. Virology 405:300\u2013308","journal-title":"Virology"},{"key":"10_CR118","doi-asserted-by":"publisher","first-page":"1420","DOI":"10.1038\/nbt1255","volume":"24","author":"Q-W
+        Niu","year":"2006","unstructured":"Niu Q-W, Lin S-S, Reyes JL, Chen K-C, Wu
+        H-W, Yeh S-D, Chua N-H (2006) Expression of artificial microRNAs in transgenic
+        Arabidopsis thaliana confers virus resistance. Nat Biotechnol 24:1420","journal-title":"Nat
+        Biotechnol"},{"key":"10_CR119","doi-asserted-by":"publisher","first-page":"1382","DOI":"10.1104\/pp.103.021980","volume":"132","author":"I
+        Papp","year":"2003","unstructured":"Papp I, Mette MF, Aufsatz W, Daxinger
+        L, Schauer SE, Ray A, Winden JVD, Matzke M, Matzke AJM (2003) Evidence for
+        nuclear processing of plant micro RNA and short interfering RNA precursors.
+        Plant Physiol 132:1382\u20131390","journal-title":"Plant Physiol"},{"key":"10_CR120","doi-asserted-by":"publisher","first-page":"148","DOI":"10.1016\/j.virol.2010.05.003","volume":"404","author":"T
+        Paprotka","year":"2010","unstructured":"Paprotka T, Metzler V, Jeske H (2010)
+        The first DNA 1-like \u03b1 satellites in association with New World begomoviruses
+        in natural infections. Virology 404:148\u2013157","journal-title":"Virology"},{"key":"10_CR121","doi-asserted-by":"publisher","first-page":"1377","DOI":"10.1007\/s00299-010-0923-8","volume":"29","author":"J
+        Park","year":"2010","unstructured":"Park J, Hwang H-S, Buckley K, Park J-B,
+        Auh C-K, Kim D-G, Lee S, Davis K (2010) C4 protein of beet severe curly top
+        virus is a pathomorphogenetic factor in Arabidopsis. Plant Cell Rep 29:1377\u20131389","journal-title":"Plant
+        Cell Rep"},{"key":"10_CR122","doi-asserted-by":"publisher","first-page":"141","DOI":"10.2174\/1874357901105010141","volume":"5","author":"Y
+        Peretz","year":"2011","unstructured":"Peretz Y, Eybishtz A, Sela I (2011)
+        Silencing of ORFs C2 and C4 of tomato yellow leaf curl virus engenders resistant
+        or tolerant plants. The Open Virology Journal 5:141\u2013147","journal-title":"The
+        Open Virology Journal"},{"key":"10_CR123","doi-asserted-by":"publisher","first-page":"138","DOI":"10.1186\/1471-2229-10-138","volume":"10","author":"A
+        Perez-Quintero","year":"2010","unstructured":"Perez-Quintero A, Neme R, Zapata
+        A, Lopez C (2010) Plant microRNAs and their role in defense against viruses:
+        a bioinformatics approach. BMC Plant Biol 10:138\u2013150","journal-title":"BMC
+        Plant Biol"},{"key":"10_CR124","doi-asserted-by":"publisher","first-page":"734","DOI":"10.1126\/science.1096781","volume":"304","author":"S
+        Pfeffer","year":"2004","unstructured":"Pfeffer S, Zavolan M, Grasser FA, Chien
+        M, Russo JJ, Ju J, John B, Enright AJ, Marks D, Sander C, Tuschl T (2004)
+        Identification of virus-encoded microRNAs. Science 304:734\u2013736","journal-title":"Science"},{"key":"10_CR125","doi-asserted-by":"publisher","first-page":"871","DOI":"10.1007\/s00018-003-2245-2","volume":"60","author":"AS
+        Pickford","year":"2003","unstructured":"Pickford AS, Cogoni C (2003) RNA-mediated
+        gene silencing. Cell Mol Life Sci 60:871\u2013882","journal-title":"Cell Mol
+        Life Sci"},{"key":"10_CR126","doi-asserted-by":"publisher","first-page":"131","DOI":"10.1038\/nbt0203-131b","volume":"21","author":"M
+        Pooggin","year":"2003","unstructured":"Pooggin M, Shivaprasad PV, Veluthambi
+        K, Hohn T (2003) RNAi targeting of DNA virus in plants. Nat Biotech 21:131\u2013132","journal-title":"Nat
+        Biotech"},{"key":"10_CR127","doi-asserted-by":"publisher","first-page":"e26929","DOI":"10.1371\/journal.pone.0026929","volume":"6","author":"CG
+        Poornima Priyadarshini","year":"2011","unstructured":"Poornima Priyadarshini
+        CG, Ambika MV, Tippeswamy R, Savithri HS (2011) Functional characterization
+        of coat protein and V2 involved in cell to cell movement of cotton leaf curl
+        kokhran virus-dabawali. PLoS One 6:e26929","journal-title":"PLoS One"},{"key":"10_CR128","doi-asserted-by":"publisher","first-page":"745","DOI":"10.1038\/nrmicro3120","volume":"11","author":"N
+        Pumplin","year":"2013","unstructured":"Pumplin N, Voinnet O (2013) RNA silencing
+        suppression by plant pathogens: defence, counter-defence and counter-counter-defence.
+        Nat Rev Micro 11:745\u2013760","journal-title":"Nat Rev Micro"},{"key":"10_CR129","doi-asserted-by":"publisher","first-page":"4900","DOI":"10.1002\/j.1460-2075.1996.tb00870.x","volume":"15","author":"AR-B
+        Qi Xie","year":"1996","unstructured":"Qi Xie AR-B, Gutierrez GJHAC (1996)
+        Plant cells contain a novel member of the retinoblastoma family of growth
+        regulatory proteins. EMBO J 15:4900\u20134908","journal-title":"EMBO J"},{"key":"10_CR1001","doi-asserted-by":"publisher","first-page":"2405","DOI":"10.1128\/JVI.78.5.2405-2413.2004","volume":"78","author":"V
+        Raghavan","year":"2004","unstructured":"Raghavan V, Malik PS, Choudhury NR,
+        Mukherjee SK (2004) The DNA-A component of a plant geminivirus (Indian mung
+        bean yellow mosaic virus) replicates in budding yeast cells. J Virol 78:2405\u20132413","journal-title":"J
+        Virol"},{"key":"10_CR130","doi-asserted-by":"publisher","first-page":"758","DOI":"10.1007\/s12010-012-9702-z","volume":"167","author":"J
+        Rahman","year":"2012","unstructured":"Rahman J, Karjee S, Mukherjee S (2012)
+        MYMIV-AC2, a geminiviral RNAi suppressor protein, has potential to increase
+        the transgene expression. Appl Biochem Biotechnol 167:758\u2013775","journal-title":"Appl
+        Biochem Biotechnol"},{"key":"10_CR131","doi-asserted-by":"publisher","first-page":"8997","DOI":"10.1128\/JVI.00719-08","volume":"82","author":"P
+        Raja","year":"2008","unstructured":"Raja P, Sanville BC, Buchmann RC, Bisaro
+        DM (2008) Viral genome methylation as an epigenetic defense against geminiviruses.
+        J Virol 82:8997\u20139007","journal-title":"J Virol"},{"key":"10_CR133","doi-asserted-by":"publisher","first-page":"2611","DOI":"10.1128\/JVI.02305-13","volume":"88","author":"P
+        Raja","year":"2014","unstructured":"Raja P, Jackel JN, Li S, Heard IM, Bisaro
+        DM (2014) Arabidopsis double-stranded RNA binding protein DRB3 participates
+        in methylation-mediated defense against geminiviruses. J Virol 88:2611\u20132622","journal-title":"J
+        Virol"},{"key":"10_CR134","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1007\/s11262-014-1038-z","volume":"48","author":"S
+        Ramesh","year":"2014","unstructured":"Ramesh S, Ratnaparkhe M, Kumawat G,
+        Gupta G, Husain S (2014a) Plant miRNAome and antiviral resistance: a retrospective
+        view and prospective challenges. Virus Genes 48:1\u201314","journal-title":"Virus
+        Genes"},{"issue":"1","key":"10_CR135","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1007\/s11262-014-1038-z","volume":"48","author":"SV
+        Ramesh","year":"2014","unstructured":"Ramesh SV, Ratnaparkhe MB, Kumawat G,
+        Gupta GK, Husain SM (2014b) Plant miRNAome and antiviral resistance: a retrospective
+        view and prospective challenges. Virus Genes 48(1):1\u201314","journal-title":"Virus
+        Genes"},{"key":"10_CR136","doi-asserted-by":"publisher","first-page":"13","DOI":"10.1016\/j.pmpp.2017.05.001","volume":"100","author":"SV
+        Ramesh","year":"2017","unstructured":"Ramesh SV, Chouhan BS, Kumar G, Praveen
+        S, Chand S (2017) Expression dynamics of Glycine max (L.) Merrill microRNAs
+        (miRNAs) and their targets during mungbean yellow mosaic India virus (MYMIV)
+        infection. Physiol Mol Plant Pathol 100:13\u201322","journal-title":"Physiol
+        Mol Plant Pathol"},{"key":"10_CR137","doi-asserted-by":"publisher","first-page":"1616","DOI":"10.1101\/gad.1004402","volume":"16","author":"BJ
+        Reinhart","year":"2002","unstructured":"Reinhart BJ, Weinstein EG, Rhoades
+        MW, Bartel B, Bartel DP (2002) MicroRNAs in plants. Genes Dev 16:1616\u20131626","journal-title":"Genes
+        Dev"},{"key":"10_CR138","doi-asserted-by":"publisher","first-page":"101","DOI":"10.1016\/B978-0-12-415795-8.00002-7","volume":"102","author":"APE
+        Roberts","year":"2011","unstructured":"Roberts APE, Lewis AP, Jopling CL (2011)
+        The role of microRNAs in viral infection. Prog Mol Biol Transl Sci 102:101\u2013139","journal-title":"Prog
+        Mol Biol Transl Sci"},{"issue":"3","key":"10_CR139","doi-asserted-by":"publisher","first-page":"1332","DOI":"10.1128\/JVI.01474-08","volume":"83","author":"EA
+        Rodriguez-Negrete","year":"2008","unstructured":"Rodriguez-Negrete EA, Carrillo-Tripp
+        J, Rivera-Bustamante RF (2008) RNA silencing against geminivirus: complementary
+        action of PTGS and TGS in host-recovery. J Virol 83(3):1332\u20131340","journal-title":"J
+        Virol"},{"key":"10_CR140","doi-asserted-by":"publisher","first-page":"464","DOI":"10.1111\/nph.12286","volume":"199","author":"E
+        Rodr\u00edguez-Negrete","year":"2013","unstructured":"Rodr\u00edguez-Negrete
+        E, Lozano-Dur\u00e1n R, Piedra-Aguilera A, Cruzado L, Bejarano ER, Castillo
+        AG (2013) Geminivirus rep protein interferes with the plant DNA methylation
+        machinery and suppresses transcriptional gene silencing. New Phytol 199:464\u2013475","journal-title":"New
+        Phytol"},{"key":"10_CR141","doi-asserted-by":"publisher","first-page":"97","DOI":"10.1016\/j.virusres.2004.01.020","volume":"102","author":"BM
+        Roth","year":"2004","unstructured":"Roth BM, Gail JP, Vicki BV (2004) Plant
+        viral suppressors of RNA silencing. Virus Res 102:97\u2013108","journal-title":"Virus
+        Res"},{"key":"10_CR143","doi-asserted-by":"publisher","first-page":"7","DOI":"10.1094\/MPMI-18-0007","volume":"18","author":"M
+        Saeed","year":"2005","unstructured":"Saeed M, Behjatnia SAA, Shahid M, Yusuf
+        Z, Shahida H, Rezaian MA (2005) A single complementary-sense transcript of
+        a geminiviral DNA beta satellite is determinant of pathogenicity. Mol Plant-Microbe
+        Interact 18:7\u201314","journal-title":"Mol Plant-Microbe Interact"},{"key":"10_CR144","doi-asserted-by":"publisher","first-page":"697","DOI":"10.3390\/biology4040697","volume":"4","author":"M
+        Saeed","year":"2015","unstructured":"Saeed M, Briddon RW, Dalakouras A, Krczal
+        G, Wassenegger M (2015) Functional analysis of cotton leaf curl kokhran virus\/cotton
+        leaf curl Multan betasatellite RNA silencing suppressors. Biology 4:697\u2013714","journal-title":"Biology"},{"key":"10_CR145","doi-asserted-by":"publisher","first-page":"1185","DOI":"10.2307\/3870094","volume":"7","author":"AA
+        Sanderfoot","year":"1995","unstructured":"Sanderfoot AA, Lazarowitz SG (1995)
+        Cooperation in viral movement: the geminivirus BL1 movement protein interacts
+        with BR1 and redirects it from the nucleus to the cell periphery. Plant Cell
+        7:1185\u20131194","journal-title":"Plant Cell"},{"key":"10_CR146","doi-asserted-by":"publisher","first-page":"142","DOI":"10.1006\/viro.1999.9948","volume":"264","author":"K
+        Saunders","year":"1999","unstructured":"Saunders K, Stanley J (1999) A nanovirus-like
+        DNA component associated with yellow vein disease of Ageratum conyzoides:
+        evidence for interfamilial recombination between plant DNA viruses. Virology
+        264:142\u2013152","journal-title":"Virology"},{"key":"10_CR147","doi-asserted-by":"publisher","first-page":"6890","DOI":"10.1073\/pnas.97.12.6890","volume":"97","author":"K
+        Saunders","year":"2000","unstructured":"Saunders K, Bedford ID, Briddon RW,
+        Markham PG, Wong SM, Stanley J (2000) A unique virus complex causes Ageratum
+        yellow vein disease. PNAS 97:6890\u20136895","journal-title":"PNAS"},{"key":"10_CR148","doi-asserted-by":"publisher","first-page":"68","DOI":"10.1186\/1742-4690-3-68","volume":"3","author":"V
+        Scaria","year":"2006","unstructured":"Scaria V, Hariharan M, Maiti S, Pillai
+        B, Brahmachari S (2006) Host-virus interaction: a new role for microRNAs.
+        Retrovirology 3:68","journal-title":"Retrovirology"},{"key":"10_CR149","doi-asserted-by":"publisher","first-page":"1121","DOI":"10.1105\/tpc.105.039834","volume":"18","author":"R
+        Schwab","year":"2006","unstructured":"Schwab R, Ossowski S, Riester M, Warthmann
+        N, Weigel D (2006) Highly specific gene silencing by artificial microRNAs
+        in Arabidopsis. Plant Cell 18:1121\u20131133","journal-title":"Plant Cell"},{"key":"10_CR150","doi-asserted-by":"publisher","first-page":"505","DOI":"10.1016\/S1097-2765(02)00474-4","volume":"9","author":"M
+        Schwartz","year":"2002","unstructured":"Schwartz M, Chen J, Janda M, Sullivan
+        M, den Boon J, Ahlquist P (2002) A positive-strand RNA virus replication complex
+        parallels form and function of retrovirus capsids. Mol Cell 9:505\u2013514","journal-title":"Mol
+        Cell"},{"key":"10_CR151","doi-asserted-by":"publisher","first-page":"429","DOI":"10.1094\/MPMI.2003.16.5.429","volume":"16","author":"M
+        Seemanpillai","year":"2003","unstructured":"Seemanpillai M, Dry I, Randles
+        J, Rezaian A (2003) Transcriptional silencing of geminiviral promoter-driven
+        transgenes following homologous virus infection. Mol Plant-Microbe Interact
+        16:429\u2013438","journal-title":"Mol Plant-Microbe Interact"},{"key":"10_CR152","doi-asserted-by":"publisher","first-page":"103","DOI":"10.1016\/j.virusres.2007.05.023","volume":"130","author":"M
+        Shams-Bakhsh","year":"2007","unstructured":"Shams-Bakhsh M, Canto T, Palukaitis
+        P (2007) Enhanced resistance and neutralization of defense responses by suppressors
+        of RNA silencing. Virus Res 130:103\u2013109","journal-title":"Virus Res"},{"key":"10_CR153","doi-asserted-by":"publisher","first-page":"e1002021","DOI":"10.1371\/journal.ppat.1002021","volume":"7","author":"H
+        Shimura","year":"2011","unstructured":"Shimura H, Pantaleo V, Ishihara T,
+        Myojo N, Inaba J-I, Sueda K, Burgy\u00e1n J, Masuta C (2011) A viral satellite
+        RNA induces yellow symptoms on tobacco by targeting a gene involved in chlorophyll
+        biosynthesis using the RNA silencing machinery. PLoS Pathog 7:e1002021","journal-title":"PLoS
+        Pathog"},{"key":"10_CR154","doi-asserted-by":"publisher","first-page":"465","DOI":"10.1016\/S0092-8674(01)00576-1","volume":"107","author":"T
+        Sijen","year":"2001","unstructured":"Sijen T, Fleenor J, Simmer F, Thijssen
+        KL, Parrish S, Timmons L, Plasterk RHA, Fire A (2001) On the role of RNA amplification
+        in dsRNA-triggered gene silencing. Cell 107:465\u2013476","journal-title":"Cell"},{"key":"10_CR155","doi-asserted-by":"publisher","first-page":"76","DOI":"10.1016\/j.tplants.2003.12.010","volume":"9","author":"D
+        Silhavy","year":"2004","unstructured":"Silhavy D, Burgyan J (2004) Effects
+        and side-effects of viral RNA silencing suppressors on short RNAs. Trends
+        Plant Sci 9:76\u201383","journal-title":"Trends Plant Sci"},{"key":"10_CR156","doi-asserted-by":"publisher","first-page":"e1002022","DOI":"10.1371\/journal.ppat.1002022","volume":"7","author":"NA
+        Smith","year":"2011","unstructured":"Smith NA, Eamens AL, Wang M-B (2011)
+        Viral small interfering RNAs target host genes to mediate disease symptoms
+        in plants. PLoS Pathog 7:e1002022","journal-title":"PLoS Pathog"},{"issue":"1","key":"10_CR157","doi-asserted-by":"publisher","first-page":"127","DOI":"10.1007\/s11240-016-0983-8","volume":"126","author":"L
+        Sun","year":"2016","unstructured":"Sun L, Lin C, Du J, Song Y, Jiang M, Liu
+        H, Zhou S, Wen F, Zhu C (2016) Dimeric artificial microRNAs mediate high resistance
+        to RSV and RBSDV in transgenic rice plants. Plant Cell Tissue Organ Cult 126(1):127\u2013139","journal-title":"Plant
+        Cell Tissue Organ Cult"},{"key":"10_CR158","first-page":"1321","volume":"4","author":"G
+        Sunter","year":"1992","unstructured":"Sunter G, Bisaro DM (1992) Transactivation
+        of geminivirus AR1 and BR1 gene expression by the viral AL2 gene product occurs
+        at the level of transcription. Plant Cell 4:1321\u20131331","journal-title":"Plant
+        Cell"},{"key":"10_CR159","doi-asserted-by":"publisher","first-page":"59","DOI":"10.1006\/viro.2001.0950","volume":"285","author":"G
+        Sunter","year":"2001","unstructured":"Sunter G, Sunter JL, Bisaro DM (2001)
+        Plants expressing tomato golden mosaic virus AL2 or beet curly top virus L2
+        transgenes show enhanced susceptibility to infection by DNA and RNA viruses.
+        Virology 285:59\u201370","journal-title":"Virology"},{"key":"10_CR160","doi-asserted-by":"publisher","first-page":"49","DOI":"10.1101\/gad.1048103","volume":"17","author":"G
+        Tang","year":"2003","unstructured":"Tang G, Reinhart BJ, Bartel DP, Zamore
+        PD (2003) A biochemical framework for RNA silencing in plants. Genes Dev 17:49\u201363","journal-title":"Genes
+        Dev"},{"key":"10_CR161","doi-asserted-by":"publisher","first-page":"11280","DOI":"10.1371\/journal.pone.0011280","volume":"24","author":"KCH
+        Teng","year":"2010","unstructured":"Teng KCH, Lai J, Zhang Z, Fang Y, Xia
+        R, Zhou X, Guo H, Xie Q (2010) Involvement of C4 protein of beet severe curly
+        top virus (family Geminiviridae) in virus movement. PLoS One 24:11280","journal-title":"PLoS
+        One"},{"key":"10_CR162","doi-asserted-by":"publisher","first-page":"1","DOI":"10.1007\/s11103-014-0224-7","volume":"86","author":"M
+        Tiwari","year":"2014","unstructured":"Tiwari M, Sharma D, Trivedi PK (2014)
+        Artificial microRNA mediated gene silencing in plants: progress and perspectives.
+        Plant Mol Biol 86:1\u201318","journal-title":"Plant Mol Biol"},{"key":"10_CR163","first-page":"15","volume":"5","author":"N
+        Tousi","year":"2016","unstructured":"Tousi N, Eini O (2016) Various tomato
+        microRNAs could target a mild and a severe strain of tomato leaf curl virus.
+        Genet Eng Biosaf J 5:15\u201322","journal-title":"Genet Eng Biosaf J"},{"key":"10_CR164","doi-asserted-by":"publisher","first-page":"379","DOI":"10.1007\/s13313-017-0500-5","volume":"46","author":"N
+        Tousi","year":"2017","unstructured":"Tousi N, Eini O, Ahmadvand R, Carra A,
+        Miozzi L, Noris E, Accotto GP (2017) In silico prediction of miRNAs targeting
+        ToLCV and their regulation in susceptible and resistant tomato plants. Australas
+        Plant Pathol 46:379\u2013386","journal-title":"Australas Plant Pathol"},{"key":"10_CR165","doi-asserted-by":"publisher","first-page":"33","DOI":"10.1002\/j.1460-2075.1985.tb02313.x","volume":"4","author":"R
+        Townsend","year":"1985","unstructured":"Townsend R, Stanley J, Curson SJ,
+        Short MN (1985) Major polyadenylated transcripts of cassava latent virus and
+        location of the gene encoding coat protein. EMBO J 4:33\u201337","journal-title":"EMBO
+        J"},{"key":"10_CR166","doi-asserted-by":"publisher","first-page":"2517","DOI":"10.1128\/JVI.79.4.2517-2527.2005","volume":"79","author":"D
+        Trinks","year":"2005","unstructured":"Trinks D, Rajeswaran R, Shivaprasad
+        PV, Akbergenov R, Oakeley EJ, Veluthambi K, Hohn T, Pooggin MM (2005) Suppression
+        of RNA silencing by a geminivirus nuclear protein, AC2, correlates with transactivation
+        of host genes. J Virol 79:2517\u20132527","journal-title":"J Virol"},{"key":"10_CR167","doi-asserted-by":"publisher","first-page":"857","DOI":"10.1105\/tpc.010480","volume":"14","author":"FE
+        Vaistij","year":"2002","unstructured":"Vaistij FE, Jones L, Baulcombe DC (2002)
+        Spreading of RNA targeting and DNA methylation in RNA silencing requires transcription
+        of the target gene and a putative RNA-dependent RNA polymerase. Plant Cell
+        14:857\u2013867","journal-title":"Plant Cell"},{"issue":"3","key":"10_CR168","doi-asserted-by":"publisher","first-page":"203","DOI":"10.1094\/MPMI.2002.15.3.203","volume":"15","author":"R
+        Wezel van","year":"2002","unstructured":"van Wezel R, Dong X, Liu H, Tien
+        P, Stanley J, Hong Y (2002) Mutation of three cysteine residues in tomato
+        yellow leaf curl virus-China C2 protein causes dysfunction in pathogenesis
+        and posttranscriptional gene-silencing suppression. Mol Plant-Microbe Interact
+        15(3):203\u2013208","journal-title":"Mol Plant-Microbe Interact"},{"key":"10_CR169","first-page":"538","volume":"206","author":"V
+        Vance","year":"1995","unstructured":"Vance V, Berger P, Carrington J, Hunt
+        A, Shi X (1995) 5\u2032 proximal potyviral sequences mediate potato virus
+        X\/potyviral synergistic disease in transgenic tobacco. Virology 206:538\u2013590","journal-title":"Virology"},{"key":"10_CR170","doi-asserted-by":"publisher","first-page":"9487","DOI":"10.1128\/JVI.78.17.9487-9498.2004","volume":"78","author":"R
+        Vanitharani","year":"2004","unstructured":"Vanitharani R, Chellappan P, Pita
+        J, Fauquet C (2004a) Differential roles of AC2 and AC4 of cassava geminiviruses
+        in mediating synergism and suppression of post-transcriptional gene silencing.
+        J Virol 78:9487","journal-title":"J Virol"},{"key":"10_CR171","doi-asserted-by":"publisher","first-page":"9487","DOI":"10.1128\/JVI.78.17.9487-9498.2004","volume":"78","author":"R
+        Vanitharani","year":"2004","unstructured":"Vanitharani R, Chellappan P, Pita
+        JS, Fauquet CM (2004b) Differential roles of AC2 and AC4 of cassava geminiviruses
+        in mediating synergism and suppression of posttranscriptional gene silencing.
+        J Virol 78:9487\u20139498","journal-title":"J Virol"},{"key":"10_CR172","doi-asserted-by":"publisher","first-page":"144","DOI":"10.1016\/j.tplants.2005.01.005","volume":"10","author":"R
+        Vanitharani","year":"2005","unstructured":"Vanitharani R, Chellappan P, Fauquet
+        CM (2005) Geminiviruses and RNA silencing. Trends Plant Sci 10:144\u2013151","journal-title":"Trends
+        Plant Sci"},{"key":"10_CR173","doi-asserted-by":"publisher","first-page":"1819","DOI":"10.1007\/s00705-017-3268-6","volume":"162","author":"A
+        Varsani","year":"2017","unstructured":"Varsani A, Roumagnac P, Fuchs M, Navas-Castillo
+        J, Moriones E, Idris A, Briddon RW, Rivera-Bustamante R, Murilo Zerbini F,
+        Martin DP (2017) Capulavirus and grablovirus: two new genera in the family
+        geminiviridae. Arch Virol 162:1819\u20131831","journal-title":"Arch Virol"},{"key":"10_CR174","doi-asserted-by":"publisher","first-page":"29","DOI":"10.1016\/S0168-9525(00)02166-1","volume":"17","author":"H
+        Vaucheret","year":"2001","unstructured":"Vaucheret H, Fagard M (2001) Transcriptional
+        gene silencing in plants: targets, inducers and regulators. Trends Genet 17:29\u201335","journal-title":"Trends
+        Genet"},{"key":"10_CR175","doi-asserted-by":"publisher","first-page":"265","DOI":"10.1007\/s00299-013-1527-x","volume":"33","author":"C
+        Viswanathan","year":"2014","unstructured":"Viswanathan C, Anburaj J, Prabu
+        G (2014) Identification and validation of sugarcane streak mosaic virus-encoded
+        microRNAs and their targets in sugarcane. Plant Cell Rep 33:265\u2013276","journal-title":"Plant
+        Cell Rep"},{"key":"10_CR176","doi-asserted-by":"publisher","first-page":"206","DOI":"10.1038\/nrg1555","volume":"6","author":"O
+        Voinnet","year":"2005","unstructured":"Voinnet O (2005) Induction and suppression
+        of RNA silencing: insights from viral infections. Nat Rev Genet 6:206\u2013220","journal-title":"Nat
+        Rev Genet"},{"key":"10_CR177","doi-asserted-by":"publisher","first-page":"669","DOI":"10.1016\/j.cell.2009.01.046","volume":"136","author":"O
+        Voinnet","year":"2009","unstructured":"Voinnet O (2009) Origin, biogenesis,
+        and activity of plant microRNAs. Cell 136:669\u2013687","journal-title":"Cell"},{"key":"10_CR178","doi-asserted-by":"publisher","first-page":"177","DOI":"10.1016\/S0092-8674(00)81749-3","volume":"95","author":"O
+        Voinnet","year":"1998","unstructured":"Voinnet O, Vain P, Angell S, Baulcombe
+        DC (1998) Systemic spread of sequence-specific transgene RNA degradation in
+        plants is initiated by localized introduction of ectopic promoterless DNA.
+        Cell 95:177\u2013187","journal-title":"Cell"},{"key":"10_CR179","first-page":"14147","volume":"96","author":"O
+        Voinnet","year":"1999","unstructured":"Voinnet O, Pinto YM, Baulcombe DC (1999)
+        Suppression of gene silencing: a general strategy used by diverse DNA and
+        RNA viruses of plants. Plant J 96:14147\u201314152","journal-title":"Plant
+        J"},{"key":"10_CR180","doi-asserted-by":"publisher","first-page":"3020","DOI":"10.1105\/tpc.015180","volume":"15","author":"H
+        Wang","year":"2003","unstructured":"Wang H, Hao L, Shung C-Y, Sunter G, Bisaro
+        DM (2003) Adenosine kinase is inactivated by geminivirus AL2 and L2 proteins.
+        Plant Cell 15:3020\u20133032","journal-title":"Plant Cell"},{"key":"10_CR181","doi-asserted-by":"publisher","first-page":"3275","DOI":"10.1073\/pnas.0400104101","volume":"101","author":"M-B
+        Wang","year":"2004","unstructured":"Wang M-B, Bian X-Y, Wu L-M, Liu L-X, Smith
+        NA, Isenegger D, Wu R-M, Masuta C, Vance VB, Watson JM, Rezaian A, Dennis
+        ES, Waterhouse PM (2004) On the role of RNA silencing in the pathogenicity
+        and evolution of viroids and viral satellites. PNAS 101:3275\u20133280","journal-title":"PNAS"},{"key":"10_CR182","doi-asserted-by":"publisher","first-page":"7410","DOI":"10.1128\/JVI.79.12.7410-7418.2005","volume":"79","author":"H
+        Wang","year":"2005","unstructured":"Wang H, Buckley KJ, Yang X, Buchmann RC,
+        Bisaro DM (2005) Adenosine kinase inhibition and suppression of RNA silencing
+        by geminivirus AL2 and L2 proteins. J Virol 79:7410\u20137418","journal-title":"J
+        Virol"},{"key":"10_CR183","doi-asserted-by":"publisher","first-page":"1625","DOI":"10.1105\/tpc.110.082305","volume":"23","author":"X-B
+        Wang","year":"2011","unstructured":"Wang X-B, Jovel J, Udomporn P, Wang Y,
+        Wu Q, Li W-X, Gasciolli V, Vaucheret H, Ding S-W (2011) The 21-nucleotide,
+        but not 22-nucleotide, viral secondary small interfering RNAs direct potent
+        antiviral defense by two cooperative argonautes in Arabidopsis thaliana. Plant
+        Cell 23:1625","journal-title":"Plant Cell"},{"key":"10_CR184","doi-asserted-by":"publisher","first-page":"1275","DOI":"10.1094\/MPMI-04-12-0093-CR","volume":"25","author":"M-B
+        Wang","year":"2012","unstructured":"Wang M-B, Masuta C, Smith NA, Shimura
+        H (2012) RNA silencing and plant viral diseases. Mol Plant-Microbe Interact
+        25:1275\u20131285","journal-title":"Mol Plant-Microbe Interact"},{"key":"10_CR185","unstructured":"Wang
+        B, Yang X, Wang Y, Xie Y, Zhou X (2018) Tomato yellow leaf curl virus V2 interacts
+        with host HDA6 to suppress methylation-mediated transcriptional gene silencing
+        in plants. J Virol 92: e00036-18"},{"key":"10_CR186","doi-asserted-by":"publisher","first-page":"567","DOI":"10.1016\/0092-8674(94)90119-8","volume":"76","author":"M
+        Wassenegger","year":"1994","unstructured":"Wassenegger M, Heimes S, Riedel
+        L, Sanger HL (1994) RNA-directed de novo methylation of genomic sequences
+        in plants. Cell 76:567\u2013576","journal-title":"Cell"},{"key":"10_CR187","doi-asserted-by":"publisher","first-page":"2145","DOI":"10.1104\/pp.105.062943","volume":"138","author":"Z
+        Xie","year":"2005","unstructured":"Xie Z, Allen E, Fahlgren N, Calamar A,
+        Givan SA, Carrington JC (2005a) Expression of arabidopsis MIRNA genes. Plant
+        Physiol 138:2145\u20132154","journal-title":"Plant Physiol"},{"key":"10_CR188","doi-asserted-by":"publisher","first-page":"12984","DOI":"10.1073\/pnas.0506426102","volume":"102","author":"Z
+        Xie","year":"2005","unstructured":"Xie Z, Allen E, Wilken A, Carrington JC
+        (2005b) DICER-LIKE 4 functions in trans-acting small interfering RNA biogenesis
+        and vegetative phase change in Arabidopsis thaliana. PNAS 102:12984\u201312989","journal-title":"PNAS"},{"key":"10_CR189","doi-asserted-by":"publisher","first-page":"2564","DOI":"10.1101\/gad.1682208","volume":"22","author":"J-Y
+        Yang","year":"2008","unstructured":"Yang J-Y, Iwasaki M, Machida C, Machida
+        Y, Zhou X, Chua N-H (2008) \u03b2C1, the pathogenicity factor of TYLCCNV,
+        interacts with AS1 to alter leaf development and suppress selective jasmonic
+        acid responses. Genes Dev 22:2564\u20132577","journal-title":"Genes Dev"},{"key":"10_CR190","first-page":"1","volume":"7","author":"X
+        Yang","year":"2011","unstructured":"Yang X, Yan X, Raja P, Sizhun L, Wolf
+        JN, Shen Q, Bisaro DM, Zhou X (2011) Suppression of methylation-mediated transcriptional
+        gene silencing by \u03b2C1-SAHH protein interaction during geminivirus-betasatellite
+        infection. PLoS Path 7:1\u201313","journal-title":"PLoS Path"},{"key":"10_CR191","doi-asserted-by":"publisher","first-page":"108","DOI":"10.1016\/j.virol.2014.04.034","volume":"460\u2013461","author":"H
+        Yong Chung","year":"2014","unstructured":"Yong Chung H, Lacatus G, Sunter
+        G (2014) Geminivirus AL2 protein induces expression of, and interacts with,
+        a calmodulin-like gene, an endogenous regulator of gene silencing. Virology
+        460\u2013461:108\u2013118","journal-title":"Virology"},{"key":"10_CR192","doi-asserted-by":"publisher","first-page":"3753","DOI":"10.1016\/j.febslet.2006.05.063","volume":"580","author":"B
+        Zhang","year":"2006","unstructured":"Zhang B, Pan X, Anderson TA (2006a) Identification
+        of 188 conserved maize microRNAs and their targets. FEBS Lett 580:3753\u20133762","journal-title":"FEBS
+        Lett"},{"key":"10_CR193","doi-asserted-by":"publisher","first-page":"3255","DOI":"10.1101\/gad.1495506","volume":"20","author":"X
+        Zhang","year":"2006","unstructured":"Zhang X, Yuan Y-R, Pei Y, Lin S-S, Tuschl
+        T, Patel DJ, Chua N-H (2006b) Cucumber mosaic virus-encoded 2b suppressor
+        inhibits Arabidopsis Argonaute1 cleavage activity to counter plant defense.
+        Genes Dev 20:3255\u20133268","journal-title":"Genes Dev"},{"key":"10_CR194","doi-asserted-by":"publisher","first-page":"273","DOI":"10.1105\/tpc.110.081695","volume":"23","author":"Z
+        Zhang","year":"2011","unstructured":"Zhang Z, Chen H, Huang X, Xia R, Zhao
+        Q, Lai J, Teng K, Li Y, Liang L, Du Q, Zhou X, Guo H, Xie Q (2011) BSCTV C2
+        attenuates the degradation of SAMDC1 to suppress DNA methylation-mediated
+        gene silencing in Arabidopsis. Plant Cell 23:273\u2013288","journal-title":"Plant
+        Cell"},{"key":"10_CR195","doi-asserted-by":"publisher","first-page":"51","DOI":"10.1016\/j.virusres.2011.08.009","volume":"163","author":"J
+        Zhang","year":"2012","unstructured":"Zhang J, Dong J, Xu Y, Wu J (2012) V2
+        protein encoded by tomato yellow leaf curl China virus is an RNA silencing
+        suppressor. Virus Res 163:51\u201358","journal-title":"Virus Res"},{"key":"10_CR196","doi-asserted-by":"publisher","first-page":"4945","DOI":"10.3390\/v7092853","volume":"7","author":"J
+        Zhang","year":"2015","unstructured":"Zhang J, Dang M, Huang Q, Qian Y (2015)
+        Determinants of disease phenotype differences caused by closely-related isolates
+        of begomovirus betasatellites inoculated with the same species of helper virus.
+        Viruses 7:4945\u20134959","journal-title":"Viruses"},{"key":"10_CR197","doi-asserted-by":"publisher","first-page":"39","DOI":"10.1016\/j.coviro.2015.12.002","volume":"17","author":"J-H
+        Zhao","year":"2016","unstructured":"Zhao J-H, Hua C-L, Fang Y-Y, Guo H-S (2016)
+        The dual edge of RNA silencing suppressors in the virus\u2013host interactions.
+        Curr Opin Virol 17:39\u201344","journal-title":"Curr Opin Virol"},{"key":"10_CR198","doi-asserted-by":"publisher","first-page":"716","DOI":"10.1126\/science.1079695","volume":"299","author":"D
+        Zilberman","year":"2003","unstructured":"Zilberman D, Cao X, Jacobsen SE (2003)
+        ARGONAUTE4 control of locus-specific siRNA accumulation and DNA and histone
+        methylation. Science 299:716\u2013719","journal-title":"Science"},{"key":"10_CR199","doi-asserted-by":"publisher","first-page":"159","DOI":"10.1016\/j.virol.2006.08.016","volume":"358","author":"A
+        Zrachya","year":"2007","unstructured":"Zrachya A, Glick E, Levy Y, Arazi T,
+        Citovsky V, Gafni Y (2007) Suppressor of RNA silencing encoded by tomato yellow
+        leaf curl virus-Israel. Virology 358:159\u2013165","journal-title":"Virology"}],"container-title":["Geminiviruses"],"language":"en","link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-18248-9_10","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2019,7,12]],"date-time":"2019-07-12T12:24:16Z","timestamp":1562934256000},"score":25.681017,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-3-030-18248-9_10"}},"issued":{"date-parts":[[2019]]},"ISBN":["9783030182472","9783030182489"],"references-count":198,"URL":"http:\/\/dx.doi.org\/10.1007\/978-3-030-18248-9_10","published":{"date-parts":[[2019]]},"assertion":[{"value":"13
+        July 2019","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2024,5,3]],"date-time":"2024-05-03T06:46:01Z","timestamp":1714718761735},"publisher-location":"K\u00f6ln","reference-count":0,"publisher":"B\u00f6hlau
+        Verlag","isbn-type":[{"value":"9783412205294","type":"print"},{"value":"9783412212681","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2010,12,31]]},"DOI":"10.7788\/boehlau.9783412212681.220","type":"book-chapter","created":{"date-parts":[[2013,10,8]],"date-time":"2013-10-08T20:03:33Z","timestamp":1381262613000},"page":"220-227","source":"Crossref","is-referenced-by-count":0,"title":["Cold
+        Spring Harbor, Long Island"],"prefix":"10.7788","member":"16089","published-online":{"date-parts":[[2010,3,6]]},"container-title":["Mekkas
+        der Moderne"],"language":"de","link":[{"URL":"http:\/\/www.degruyter.com\/view\/books\/boehlau.9783412212681\/boehlau.9783412212681.220\/boehlau.9783412212681.220.xml","content-type":"text\/html","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/www.vr-elibrary.de\/doi\/pdf\/10.7788\/boehlau.9783412212681.220","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"http:\/\/www.degruyter.com\/view\/books\/boehlau.9783412212681\/boehlau.9783412212681.220\/boehlau.9783412212681.220.xml","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,11,3]],"date-time":"2021-11-03T11:44:54Z","timestamp":1635939894000},"score":25.618137,"resource":{"primary":{"URL":"https:\/\/vr-elibrary.de\/doi\/10.7788\/boehlau.9783412212681.220"}},"subtitle":["Wohnzimmer
+        mit Wissenschaft"],"issued":{"date-parts":[[2010,3,6]]},"ISBN":["9783412205294","9783412212681"],"references-count":0,"alternative-id":["10.7788\/boehlau.9783412212681.220","10.7788\/boehlau.9783412212681"],"URL":"http:\/\/dx.doi.org\/10.7788\/boehlau.9783412212681.220","published":{"date-parts":[[2010,3,6]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Deciphering+the+rules+underlying+xenogeneic+silencing+and+counter-silencing+of+Lsr2-like+proteins+2019+Cold+Spring+Harbor+Laboratory"}}}'
+  recorded_at: Thu, 30 May 2024 15:50:24 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works/10.1128%2Fmbio.02273-19
@@ -1617,16 +2338,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 19 Mar 2024 03:26:50 GMT
+      - Thu, 30 May 2024 15:50:29 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '12701'
+      - '12677'
       Set-Cookie:
-      - AWSALB=FagmRbnb9aJt0UARv5cqbNYBfVVLbTMpGxiBN9lU/Ce8xLYgiVlJTYd+KS2ukehrGStu0wKuMgjVurk1pJZMb1t+ll8/jc4XglJsagKDGZPMQSxgyz8fve2+YTqp;
-        Expires=Tue, 26 Mar 2024 03:26:50 GMT; Path=/
-      - AWSALBCORS=FagmRbnb9aJt0UARv5cqbNYBfVVLbTMpGxiBN9lU/Ce8xLYgiVlJTYd+KS2ukehrGStu0wKuMgjVurk1pJZMb1t+ll8/jc4XglJsagKDGZPMQSxgyz8fve2+YTqp;
-        Expires=Tue, 26 Mar 2024 03:26:50 GMT; Path=/; SameSite=None
+      - AWSALB=X0IAZ5vah9McI0d+/ntPDhLyyEwR7BmCm+hy9POGIK3hhIn6sxesq3kj1hlXb1PgpM52beUz3if7bn4i+eYLuoJ1PYUoweRKvMx6jOoduJKhgBa1YfE3hxIbBCiH;
+        Expires=Thu, 06 Jun 2024 15:50:24 GMT; Path=/
+      - AWSALBCORS=X0IAZ5vah9McI0d+/ntPDhLyyEwR7BmCm+hy9POGIK3hhIn6sxesq3kj1hlXb1PgpM52beUz3if7bn4i+eYLuoJ1PYUoweRKvMx6jOoduJKhgBa1YfE3hxIbBCiH;
+        Expires=Thu, 06 Jun 2024 15:50:24 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -1654,7 +2375,7 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2024,3,2]],"date-time":"2024-03-02T07:30:12Z","timestamp":1709364612494},"reference-count":70,"publisher":"American
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2024,5,29]],"date-time":"2024-05-29T13:57:12Z","timestamp":1716991032493},"reference-count":70,"publisher":"American
         Society for Microbiology","issue":"1","license":[{"start":{"date-parts":[[2020,2,4]],"date-time":"2020-02-04T00:00:00Z","timestamp":1580774400000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/creativecommons.org\/licenses\/by\/4.0\/"},{"start":{"date-parts":[[2020,2,25]],"date-time":"2020-02-25T00:00:00Z","timestamp":1582588800000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/journals.asm.org\/non-commercial-tdm-license"}],"content-domain":{"domain":["journals.asm.org"],"crossmark-restriction":true},"short-container-title":["mBio"],"published-print":{"date-parts":[[2020,2,25]]},"abstract":"<jats:p>\n            In
         actinobacteria, Lsr2-like nucleoid-associated proteins function as xenogeneic
         silencers (XS) of horizontally acquired genomic regions, including viral elements,
@@ -1672,7 +2393,7 @@ http_interactions:
         sequence-specific motif at the nucleation site. Following a synthetic counter-silencer
         approach, we studied the potential and constraints of transcription factors
         to counteract CgpS silencing, thereby facilitating the integration of new
-        genetic traits into host regulatory networks.\n          <\/jats:p>","DOI":"10.1128\/mbio.02273-19","type":"journal-article","created":{"date-parts":[[2020,2,3]],"date-time":"2020-02-03T10:53:33Z","timestamp":1580727213000},"update-policy":"http:\/\/dx.doi.org\/10.1128\/asmj-crossmark-policy-page","source":"Crossref","is-referenced-by-count":15,"title":["Deciphering
+        genetic traits into host regulatory networks.\n          <\/jats:p>","DOI":"10.1128\/mbio.02273-19","type":"journal-article","created":{"date-parts":[[2020,2,3]],"date-time":"2020-02-03T10:53:33Z","timestamp":1580727213000},"update-policy":"http:\/\/dx.doi.org\/10.1128\/asmj-crossmark-policy-page","source":"Crossref","is-referenced-by-count":16,"title":["Deciphering
         the Rules Underlying Xenogeneic Silencing and Counter-Silencing of Lsr2-like
         Proteins Using CgpS of Corynebacterium glutamicum as a Model"],"prefix":"10.1128","volume":"11","author":[{"given":"Johanna","family":"Wiechert","sequence":"first","affiliation":[{"name":"Institut
         f\u00fcr Bio- und Geowissenschaften, IBG-1: Biotechnologie, Forschungszentrum
@@ -1697,9 +2418,9 @@ http_interactions:
         a language and environment for statistical computing. R Foundation for Statistical
         Computing, Vienna, Austria."}],"container-title":["mBio"],"original-title":[],"language":"en","link":[{"URL":"https:\/\/journals.asm.org\/doi\/pdf\/10.1128\/mBio.02273-19","content-type":"application\/pdf","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/journals.asm.org\/doi\/pdf\/10.1128\/mBio.02273-19","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2022,3,8]],"date-time":"2022-03-08T02:48:52Z","timestamp":1646707732000},"score":1,"resource":{"primary":{"URL":"https:\/\/journals.asm.org\/doi\/10.1128\/mBio.02273-19"}},"subtitle":[],"editor":[{"given":"William
         W.","family":"Navarre","sequence":"additional","affiliation":[]},{"given":"Eduardo
-        A.","family":"Groisman","sequence":"additional","affiliation":[]}],"short-title":[],"issued":{"date-parts":[[2020,2,25]]},"references-count":70,"journal-issue":{"issue":"1","published-print":{"date-parts":[[2020,2,25]]}},"alternative-id":["10.1128\/mBio.02273-19"],"URL":"http:\/\/dx.doi.org\/10.1128\/mbio.02273-19","relation":{"has-preprint":[{"id-type":"doi","id":"10.1101\/751156","asserted-by":"object"}]},"ISSN":["2161-2129","2150-7511"],"issn-type":[{"value":"2161-2129","type":"print"},{"value":"2150-7511","type":"electronic"}],"subject":["Virology","Microbiology"],"published":{"date-parts":[[2020,2,25]]},"assertion":[{"value":"2019-08-27","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
+        A.","family":"Groisman","sequence":"additional","affiliation":[]}],"short-title":[],"issued":{"date-parts":[[2020,2,25]]},"references-count":70,"journal-issue":{"issue":"1","published-print":{"date-parts":[[2020,2,25]]}},"alternative-id":["10.1128\/mBio.02273-19"],"URL":"http:\/\/dx.doi.org\/10.1128\/mbio.02273-19","relation":{"has-preprint":[{"id-type":"doi","id":"10.1101\/751156","asserted-by":"object"}]},"ISSN":["2161-2129","2150-7511"],"issn-type":[{"value":"2161-2129","type":"print"},{"value":"2150-7511","type":"electronic"}],"subject":[],"published":{"date-parts":[[2020,2,25]]},"assertion":[{"value":"2019-08-27","order":0,"name":"received","label":"Received","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"2019-12-18","order":1,"name":"accepted","label":"Accepted","group":{"name":"publication_history","label":"Publication
         History"}},{"value":"2020-02-04","order":2,"name":"published","label":"Published","group":{"name":"publication_history","label":"Publication
         History"}}]}}'
-  recorded_at: Tue, 19 Mar 2024 03:26:50 GMT
+  recorded_at: Thu, 30 May 2024 15:50:29 GMT
 recorded_with: VCR 6.2.0
