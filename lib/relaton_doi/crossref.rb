@@ -18,14 +18,14 @@ module RelatonDoi
     #   RelatonNist::NistBibliographicItem] The bibitem.
     #
     def get(doi)
-      Util.warn "(#{doi}) Fetching from search.crossref.org ..."
+      Util.info "Fetching from search.crossref.org ...", key: doi
       id = doi.sub(%r{^doi:}, "")
       message = get_by_id id
       if message
-        Util.warn "(#{doi}) Found: `#{message['DOI']}`"
+        Util.info "Found: `#{message['DOI']}`", key: doi
         Parser.parse message
       else
-        Util.warn("(#{doi}) Not found.")
+        Util.info "Not found.", key: doi
         nil
       end
     end
@@ -37,7 +37,7 @@ module RelatonDoi
     #
     # @return [Hash] The document.
     #
-    def get_by_id(id)
+    def get_by_id(id) # rubocop:disable Metrics/AbcSize,Metrics/MethodLength
       # resp = Serrano.works ids: id
       n = 0
       url = "https://api.crossref.org/works/#{CGI.escape(id)}"
@@ -53,6 +53,7 @@ module RelatonDoi
         if n > 1
           raise RelatonBib::RequestError, "Crossref error: #{resp.body}"
         end
+
         n += 1
         sleep resp.headers["x-rate-limit-interval"].to_i * n
       end

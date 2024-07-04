@@ -15,7 +15,7 @@ RSpec.describe RelatonDoi do
     it "not found", vcr: "not_found" do
       expect do
         expect(RelatonDoi::Crossref.get("doi:10.11111/RFC0000")).to be_nil
-      end.to output(/\[relaton-doi\] \(doi:10.11111\/RFC0000\) Not found\./).to_stderr
+      end.to output(/\[relaton-doi\] INFO: \(doi:10.11111\/RFC0000\) Not found\./).to_stderr_from_any_process
     end
 
     it "NIST", vcr: "crossref_nist" do
@@ -26,10 +26,12 @@ RSpec.describe RelatonDoi do
         write_fixture file, xml
         expect(resp).to be_instance_of(RelatonNist::NistBibliographicItem)
         expect(xml).to be_equivalent_to read_fixture(file)
-      end.to output(%r{
-        \[relaton-doi\]\s\(doi:10.6028/nist.ir.8245\)\sFetching\sfrom\ssearch.crossref.org\s\.\.\.\n
-        \[relaton-doi\]\s\(doi:10.6028/nist.ir.8245\)\sFound:\s`10.6028/nist.ir.8245`
-      }x).to_stderr
+      end.to output(
+        include(
+          "[relaton-doi] INFO: (doi:10.6028/nist.ir.8245) Fetching from search.crossref.org ...",
+          "[relaton-doi] INFO: (doi:10.6028/nist.ir.8245) Found: `10.6028/nist.ir.8245`",
+        ),
+      ).to_stderr_from_any_process
     end
 
     it "RFC", vcr: "crossref_rfc" do

@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.7.12
+      - Relaton/RelatonDoi (https://www.relaton.org/guides/doi/; mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -19,11 +19,16 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Sat, 01 Jun 2024 00:54:41 GMT
+      - Sun, 30 Jun 2024 00:23:38 GMT
       Content-Type:
       - text/plain
       Transfer-Encoding:
       - chunked
+      Set-Cookie:
+      - AWSALB=t+DCmBoIaUeIZ69CIGuwX46zJREuFuOBjZiRFwZBdsgjeAzoaTXreWt7EkhtDk0A+3/Qo84niYzla57+6P5cHFUrd8kaBClyYXN28MJ3uqfQhRQS9MyIQ3TaidMT;
+        Expires=Sun, 07 Jul 2024 00:23:38 GMT; Path=/
+      - AWSALBCORS=t+DCmBoIaUeIZ69CIGuwX46zJREuFuOBjZiRFwZBdsgjeAzoaTXreWt7EkhtDk0A+3/Qo84niYzla57+6P5cHFUrd8kaBClyYXN28MJ3uqfQhRQS9MyIQ3TaidMT;
+        Expires=Sun, 07 Jul 2024 00:23:38 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -38,7 +43,7 @@ http_interactions:
       X-Ratelimit-Interval:
       - 1s
       X-Api-Pool:
-      - public
+      - polite
       X-Rate-Limit-Limit:
       - '50'
       X-Rate-Limit-Interval:
@@ -50,158 +55,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: Resource not found.
-  recorded_at: Sat, 01 Jun 2024 00:54:41 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works/10.11111%2FRFC0000
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.7.12
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 404
-      message: Not Found
-    headers:
-      Date:
-      - Sat, 01 Jun 2024 00:54:42 GMT
-      Content-Type:
-      - text/plain
-      Transfer-Encoding:
-      - chunked
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Ratelimit-Limit:
-      - '50'
-      X-Ratelimit-Interval:
-      - 1s
-      X-Api-Pool:
-      - public
-      X-Rate-Limit-Limit:
-      - '50'
-      X-Rate-Limit-Interval:
-      - 1s
-      Permissions-Policy:
-      - interest-cohort=()
-      Connection:
-      - close
-    body:
-      encoding: UTF-8
-      string: Resource not found.
-  recorded_at: Sat, 01 Jun 2024 00:54:42 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works/10.11111%2FRFC0000
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.7.12
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 404
-      message: Not Found
-    headers:
-      Date:
-      - Sat, 01 Jun 2024 00:54:44 GMT
-      Content-Type:
-      - text/plain
-      Transfer-Encoding:
-      - chunked
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Ratelimit-Limit:
-      - '50'
-      X-Ratelimit-Interval:
-      - 1s
-      X-Api-Pool:
-      - public
-      X-Rate-Limit-Limit:
-      - '50'
-      X-Rate-Limit-Interval:
-      - 1s
-      Permissions-Policy:
-      - interest-cohort=()
-      Connection:
-      - close
-    body:
-      encoding: UTF-8
-      string: Resource not found.
-  recorded_at: Sat, 01 Jun 2024 00:54:44 GMT
-- request:
-    method: get
-    uri: https://api.crossref.org/works/10.11111%2FRFC0000
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.7.12
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 404
-      message: Not Found
-    headers:
-      Date:
-      - Sat, 01 Jun 2024 00:54:47 GMT
-      Content-Type:
-      - text/plain
-      Transfer-Encoding:
-      - chunked
-      Access-Control-Expose-Headers:
-      - Link
-      Access-Control-Allow-Headers:
-      - X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language,
-        Accept-Ranges, Cache-Control
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - Jetty(9.4.40.v20210413)
-      X-Ratelimit-Limit:
-      - '50'
-      X-Ratelimit-Interval:
-      - 1s
-      X-Api-Pool:
-      - public
-      X-Rate-Limit-Limit:
-      - '50'
-      X-Rate-Limit-Interval:
-      - 1s
-      Permissions-Policy:
-      - interest-cohort=()
-      Connection:
-      - close
-    body:
-      encoding: UTF-8
-      string: Resource not found.
-  recorded_at: Sat, 01 Jun 2024 00:54:47 GMT
+  recorded_at: Sun, 30 Jun 2024 00:23:38 GMT
 recorded_with: VCR 6.2.0
