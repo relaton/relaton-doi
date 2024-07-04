@@ -37,7 +37,7 @@ module RelatonDoi
     #
     # @return [Hash] The document.
     #
-    def get_by_id(id)
+    def get_by_id(id) # rubocop:disable Metrics/AbcSize,Metrics/MethodLength
       # resp = Serrano.works ids: id
       n = 0
       url = "https://api.crossref.org/works/#{CGI.escape(id)}"
@@ -53,6 +53,7 @@ module RelatonDoi
         if n > 1
           raise RelatonBib::RequestError, "Crossref error: #{resp.body}"
         end
+
         n += 1
         sleep resp.headers["x-rate-limit-interval"].to_i * n
       end

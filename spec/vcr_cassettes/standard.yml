@@ -8,9 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday/v2.7.12 Serrano/v1.4 (mailto:open.source@ribose.com)
-      X-User-Agent:
-      - Faraday/v2.7.12 Serrano/v1.4 (mailto:open.source@ribose.com)
+      - Relaton/RelatonDoi (https://www.relaton.org/guides/doi/; mailto:open.source@ribose.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,16 +19,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 30 May 2024 15:53:47 GMT
+      - Sun, 30 Jun 2024 00:24:31 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1297'
       Set-Cookie:
-      - AWSALB=saYbRCehUUq07b5CfkS8yjbKAvXMwVCzK7mhy9KR+iw7mGX3hCXn4+TgqWkqC6pfCxGWnBChAaRYTyWUW2O870Z+Lzs82TaG4IgdKEOfVCDudWuwYVf0anrTnTmq;
-        Expires=Thu, 06 Jun 2024 15:53:35 GMT; Path=/
-      - AWSALBCORS=saYbRCehUUq07b5CfkS8yjbKAvXMwVCzK7mhy9KR+iw7mGX3hCXn4+TgqWkqC6pfCxGWnBChAaRYTyWUW2O870Z+Lzs82TaG4IgdKEOfVCDudWuwYVf0anrTnTmq;
-        Expires=Thu, 06 Jun 2024 15:53:35 GMT; Path=/; SameSite=None
+      - AWSALB=NAiYPB6nqgAcVl4tbIQPckCtiPU8978xZ6p19rgdXWO36+rpW6hcNxZaSbxjpL9W5oFtfUnRpuNoelm8VJuoQP3VW/G20D2Gd90SOxc8pRmaV4SppUQzOsmsccrO;
+        Expires=Sun, 07 Jul 2024 00:24:31 GMT; Path=/
+      - AWSALBCORS=NAiYPB6nqgAcVl4tbIQPckCtiPU8978xZ6p19rgdXWO36+rpW6hcNxZaSbxjpL9W5oFtfUnRpuNoelm8VJuoQP3VW/G20D2Gd90SOxc8pRmaV4SppUQzOsmsccrO;
+        Expires=Sun, 07 Jul 2024 00:24:31 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -64,5 +62,5 @@ http_interactions:
         ETS 300218:1994-01, ISDN; Protokolle der unteren Schichten f\u00fcr Videotex
         auf Syntaxbasis f\u00fcr ISDN-Paketmodus (CCITT-Empfehlung_X.31 Fall_A und
         Fall_B); Englische Fassung ETS_300218:1993"],"prefix":"10.31030","member":"15010","container-title":[],"original-title":[],"deposited":{"date-parts":[[2019,3,31]],"date-time":"2019-03-31T17:56:20Z","timestamp":1554054980000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.beuth.de\/de\/-\/-\/2204273"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[null]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.31030\/2640440","relation":{},"subject":[]}}'
-  recorded_at: Thu, 30 May 2024 15:53:47 GMT
+  recorded_at: Sun, 30 Jun 2024 00:24:30 GMT
 recorded_with: VCR 6.2.0

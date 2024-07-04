@@ -34,11 +34,11 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
 
-  spec.add_dependency "relaton-bib", "~> 1.18.0"
-  spec.add_dependency "relaton-bipm", "~> 1.18.0"
-  spec.add_dependency "relaton-ieee", "~> 1.18.0"
-  spec.add_dependency "relaton-ietf", "~> 1.18.0"
-  spec.add_dependency "relaton-nist", "~> 1.18.0"
+  spec.add_dependency "relaton-bib", "~> 1.19.0"
+  spec.add_dependency "relaton-bipm", "~> 1.19.0"
+  spec.add_dependency "relaton-ieee", "~> 1.19.0"
+  spec.add_dependency "relaton-ietf", "~> 1.19.0"
+  spec.add_dependency "relaton-nist", "~> 1.19.0"
   # spec.add_dependency "relaton-w3c", "~> 1.10.0"
   spec.add_dependency "faraday", "~> 2.7"
 
