@@ -19,16 +19,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 30 Jun 2024 00:24:03 GMT
+      - Wed, 11 Dec 2024 02:39:46 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1538'
+      - '1536'
       Set-Cookie:
-      - AWSALB=KUvNZ8fpW/CGK97YILU0z1RCTDFIW5w2A/kI0LZrt08UEkcFPOdtdbPwUkUXnVF9JcDwTgJ4FyBSvfLxhvN7j2qHEUvo4dAsoc3nvSozTQoZHhJ/WdqXdZHnxyMo;
-        Expires=Sun, 07 Jul 2024 00:24:03 GMT; Path=/
-      - AWSALBCORS=KUvNZ8fpW/CGK97YILU0z1RCTDFIW5w2A/kI0LZrt08UEkcFPOdtdbPwUkUXnVF9JcDwTgJ4FyBSvfLxhvN7j2qHEUvo4dAsoc3nvSozTQoZHhJ/WdqXdZHnxyMo;
-        Expires=Sun, 07 Jul 2024 00:24:03 GMT; Path=/; SameSite=None
+      - AWSALB=OTkTu1cryWWFRzs0hdtYh4x2DP7QA01gdsSAi59eMQWhdZ4lccUe/ox9nlA1wEWsdaIoG4H0ffNKY3bO5R0ky0Slglf8T1QsqU9WAYgsrbB272W2f1fpOXH9wPgA;
+        Expires=Wed, 18 Dec 2024 02:39:46 GMT; Path=/
+      - AWSALBCORS=OTkTu1cryWWFRzs0hdtYh4x2DP7QA01gdsSAi59eMQWhdZ4lccUe/ox9nlA1wEWsdaIoG4H0ffNKY3bO5R0ky0Slglf8T1QsqU9WAYgsrbB272W2f1fpOXH9wPgA;
+        Expires=Wed, 18 Dec 2024 02:39:46 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -59,8 +59,8 @@ http_interactions:
       string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:26:14Z","timestamp":1648977974398},"publisher":"Office
         of Scientific and Technical Information (OSTI)","award-start":{"date-parts":[[2019,4,15]]},"award":"50733","DOI":"10.46936\/cpcy.proj.2019.50733\/60006578","type":"grant","created":{"date-parts":[[2021,9,21]],"date-time":"2021-09-21T23:44:54Z","timestamp":1632267894000},"source":"Crossref","prefix":"10.46936","member":"960","project":[{"project-title":[{"title":"Single-particle
         cryo-EM structural analysis of Q-dependent transcription antitermination"}],"investigator":[{"given":"Chengyuan","family":"Wang","affiliation":[]},{"given":"Harry","family":"Scott","affiliation":[]},{"given":"Irina","family":"Novikova","affiliation":[]},{"given":"Vadim","family":"Molodtsov","affiliation":[]},{"given":"Zhou","family":"Yin","affiliation":[]}],"lead-investigator":[{"given":"Richard","family":"Ebright","affiliation":[]}],"funding":[{"type":"award","funder":{"name":"US
-        Department of Energy","id":[{"id":"10.13039\/100000015","id-type":"DOI","asserted-by":"publisher"}]}}]}],"deposited":{"date-parts":[[2021,10,9]],"date-time":"2021-10-09T20:55:44Z","timestamp":1633812944000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.osti.gov\/award-doi-service\/biblio\/10.46936\/cpcy.proj.2019.50733\/60006578"}},"issued":{"date-parts":[[2019,4,15]]},"URL":"http:\/\/dx.doi.org\/10.46936\/cpcy.proj.2019.50733\/60006578","relation":{},"subject":[]}}'
-  recorded_at: Sun, 30 Jun 2024 00:24:03 GMT
+        Department of Energy","id":[{"id":"10.13039\/100000015","id-type":"DOI","asserted-by":"publisher"}]}}]}],"deposited":{"date-parts":[[2021,10,9]],"date-time":"2021-10-09T20:55:44Z","timestamp":1633812944000},"score":1,"resource":{"primary":{"URL":"https:\/\/www.osti.gov\/award-doi-service\/biblio\/10.46936\/cpcy.proj.2019.50733\/60006578"}},"issued":{"date-parts":[[2019,4,15]]},"URL":"https:\/\/doi.org\/10.46936\/cpcy.proj.2019.50733\/60006578","relation":{},"subject":[]}}'
+  recorded_at: Wed, 11 Dec 2024 02:39:46 GMT
 - request:
     method: get
     uri: https://api.crossref.org/works?filter=type:book-chapter,type:book-part,type:book-section,type:book-track&query=Single-particle%2Bcryo-EM%2Bstructural%2Banalysis%2Bof%2BQ-dependent%2Btranscription%2Bantitermination%2B2021%2BOffice%2Bof%2BScientific%2Band%2BTechnical%2BInformation%2B(OSTI)
@@ -80,7 +80,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 30 Jun 2024 00:24:04 GMT
+      - Wed, 11 Dec 2024 02:39:48 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -112,56 +112,67 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":6179,"items":[{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T21:22:55Z","timestamp":1649020975559},"reference-count":0,"publisher":"IOP
-        Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1088\/978-0-7503-3039-8ch2","type":"book-chapter","created":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:44Z","timestamp":1621430624000},"source":"Crossref","is-referenced-by-count":0,"title":["Sample
-        preparation"],"prefix":"10.1088","member":"266","published-online":{"date-parts":[[2021,5]]},"container-title":["Single-particle
-        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:47Z","timestamp":1621430627000},"score":35.87752,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch2"}},"editor":[{"given":"Robert
-        M","family":"Glaeser","sequence":"first","affiliation":[{"name":"Department
-        of Molecular and Cell Biology, University of California, Berkeley, CA 94720,
-        USA Lawrence Berkeley National Lab, University of California, Berkeley, CA
-        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1088\/978-0-7503-3039-8ch2","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T01:12:03Z","timestamp":1648516323627},"reference-count":0,"publisher":"IOP
+      string: '{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":6235,"items":[{"indexed":{"date-parts":[[2024,8,29]],"date-time":"2024-08-29T00:27:36Z","timestamp":1724891256560},"publisher-location":"Boca
+        Raton","edition-number":"1","reference-count":0,"publisher":"CRC Press","isbn-type":[{"value":"9781003326106","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2024,8,28]]},"DOI":"10.1201\/9781003326106-8","type":"book-chapter","created":{"date-parts":[[2024,8,28]],"date-time":"2024-08-28T21:53:27Z","timestamp":1724882007000},"page":"87-109","source":"Crossref","is-referenced-by-count":0,"title":["Single-Particle
+        Cryo-EM"],"prefix":"10.1201","author":[{"given":"Sayan","family":"Bhakta","sequence":"first","affiliation":[]},{"given":"Marin","family":"van
+        Heel","sequence":"additional","affiliation":[]}],"member":"301","container-title":["Cryo-Electron
+        Microscopy in Structural Biology"],"language":"en","deposited":{"date-parts":[[2024,8,28]],"date-time":"2024-08-28T21:53:38Z","timestamp":1724882018000},"score":37.399014,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003326106\/chapters\/10.1201\/9781003326106-8"}},"issued":{"date-parts":[[2024,8,28]]},"ISBN":["9781003326106"],"references-count":0,"URL":"https:\/\/doi.org\/10.1201\/9781003326106-8","published":{"date-parts":[[2024,8,28]]}},{"indexed":{"date-parts":[[2024,8,29]],"date-time":"2024-08-29T00:28:51Z","timestamp":1724891331585},"publisher-location":"Boca
+        Raton","edition-number":"1","reference-count":0,"publisher":"CRC Press","isbn-type":[{"value":"9781003326106","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2024,8,28]]},"DOI":"10.1201\/9781003326106-12","type":"book-chapter","created":{"date-parts":[[2024,8,28]],"date-time":"2024-08-28T21:53:27Z","timestamp":1724882007000},"page":"142-146","source":"Crossref","is-referenced-by-count":0,"title":["Artificial
+        Intelligence-Driven Data Acquisition for Single-Particle Cryo-EM and Three-Dimensional
+        Electron Diffraction"],"prefix":"10.1201","author":[{"given":"Koji","family":"Yonekura","sequence":"first","affiliation":[]}],"member":"301","container-title":["Cryo-Electron
+        Microscopy in Structural Biology"],"language":"en","deposited":{"date-parts":[[2024,8,28]],"date-time":"2024-08-28T21:53:43Z","timestamp":1724882023000},"score":34.82055,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003326106\/chapters\/10.1201\/9781003326106-12"}},"issued":{"date-parts":[[2024,8,28]]},"ISBN":["9781003326106"],"references-count":0,"URL":"https:\/\/doi.org\/10.1201\/9781003326106-12","published":{"date-parts":[[2024,8,28]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T01:12:03Z","timestamp":1648516323627},"reference-count":0,"publisher":"IOP
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1088\/978-0-7503-3039-8ch4","type":"book-chapter","created":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:44Z","timestamp":1621430624000},"source":"Crossref","is-referenced-by-count":0,"title":["Data
         processing"],"prefix":"10.1088","member":"266","published-online":{"date-parts":[[2021,5]]},"container-title":["Single-particle
-        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:49Z","timestamp":1621430629000},"score":35.632263,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch4"}},"editor":[{"given":"Robert
+        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:49Z","timestamp":1621430629000},"score":34.814384,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch4"}},"editor":[{"given":"Robert
         M","family":"Glaeser","sequence":"first","affiliation":[{"name":"Department
         of Molecular and Cell Biology, University of California, Berkeley, CA 94720,
         USA Lawrence Berkeley National Lab, University of California, Berkeley, CA
-        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1088\/978-0-7503-3039-8ch4","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2022,3,28]],"date-time":"2022-03-28T22:12:39Z","timestamp":1648505559165},"reference-count":0,"publisher":"IOP
+        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"https:\/\/doi.org\/10.1088\/978-0-7503-3039-8ch4","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2022,3,28]],"date-time":"2022-03-28T22:12:39Z","timestamp":1648505559165},"reference-count":0,"publisher":"IOP
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1088\/978-0-7503-3039-8ch3","type":"book-chapter","created":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:44Z","timestamp":1621430624000},"source":"Crossref","is-referenced-by-count":0,"title":["Data
         collection"],"prefix":"10.1088","member":"266","published-online":{"date-parts":[[2021,5]]},"container-title":["Single-particle
-        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:48Z","timestamp":1621430628000},"score":35.632263,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch3"}},"editor":[{"given":"Robert
+        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:48Z","timestamp":1621430628000},"score":34.814384,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch3"}},"editor":[{"given":"Robert
         M","family":"Glaeser","sequence":"first","affiliation":[{"name":"Department
         of Molecular and Cell Biology, University of California, Berkeley, CA 94720,
         USA Lawrence Berkeley National Lab, University of California, Berkeley, CA
-        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1088\/978-0-7503-3039-8ch3","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T01:44:28Z","timestamp":1648604668496},"reference-count":0,"publisher":"IOP
+        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"https:\/\/doi.org\/10.1088\/978-0-7503-3039-8ch3","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T21:22:55Z","timestamp":1649020975559},"reference-count":0,"publisher":"IOP
+        Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1088\/978-0-7503-3039-8ch2","type":"book-chapter","created":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:44Z","timestamp":1621430624000},"source":"Crossref","is-referenced-by-count":0,"title":["Sample
+        preparation"],"prefix":"10.1088","member":"266","published-online":{"date-parts":[[2021,5]]},"container-title":["Single-particle
+        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:47Z","timestamp":1621430627000},"score":34.79778,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch2"}},"editor":[{"given":"Robert
+        M","family":"Glaeser","sequence":"first","affiliation":[{"name":"Department
+        of Molecular and Cell Biology, University of California, Berkeley, CA 94720,
+        USA Lawrence Berkeley National Lab, University of California, Berkeley, CA
+        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"https:\/\/doi.org\/10.1088\/978-0-7503-3039-8ch2","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2022,3,30]],"date-time":"2022-03-30T01:44:28Z","timestamp":1648604668496},"reference-count":0,"publisher":"IOP
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1088\/978-0-7503-3039-8ch5","type":"book-chapter","created":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:44Z","timestamp":1621430624000},"source":"Crossref","is-referenced-by-count":0,"title":["Map
         validation"],"prefix":"10.1088","member":"266","published-online":{"date-parts":[[2021,5]]},"container-title":["Single-particle
-        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:50Z","timestamp":1621430630000},"score":35.623314,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch5"}},"editor":[{"given":"Robert
+        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:50Z","timestamp":1621430630000},"score":34.79043,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch5"}},"editor":[{"given":"Robert
         M","family":"Glaeser","sequence":"first","affiliation":[{"name":"Department
         of Molecular and Cell Biology, University of California, Berkeley, CA 94720,
         USA Lawrence Berkeley National Lab, University of California, Berkeley, CA
-        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1088\/978-0-7503-3039-8ch5","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T22:37:14Z","timestamp":1648593434579},"reference-count":0,"publisher":"IOP
+        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"https:\/\/doi.org\/10.1088\/978-0-7503-3039-8ch5","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2022,3,29]],"date-time":"2022-03-29T22:37:14Z","timestamp":1648593434579},"reference-count":0,"publisher":"IOP
         Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1088\/978-0-7503-3039-8ch1","type":"book-chapter","created":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:44Z","timestamp":1621430624000},"source":"Crossref","is-referenced-by-count":0,"title":["Introduction
         and overview"],"prefix":"10.1088","member":"266","published-online":{"date-parts":[[2021,5]]},"container-title":["Single-particle
-        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:46Z","timestamp":1621430626000},"score":35.366238,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch1"}},"editor":[{"given":"Robert
+        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:46Z","timestamp":1621430626000},"score":34.295513,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch1"}},"editor":[{"given":"Robert
         M","family":"Glaeser","sequence":"first","affiliation":[{"name":"Department
         of Molecular and Cell Biology, University of California, Berkeley, CA 94720,
         USA Lawrence Berkeley National Lab, University of California, Berkeley, CA
-        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1088\/978-0-7503-3039-8ch1","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2022,4,4]],"date-time":"2022-04-04T17:11:37Z","timestamp":1649092297597},"reference-count":0,"publisher":"IOP
-        Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1088\/978-0-7503-3039-8ch6","type":"book-chapter","created":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:44Z","timestamp":1621430624000},"source":"Crossref","is-referenced-by-count":0,"title":["Model
+        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"https:\/\/doi.org\/10.1088\/978-0-7503-3039-8ch1","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2024,7,30]],"date-time":"2024-07-30T21:15:18Z","timestamp":1722374118393},"reference-count":0,"publisher":"IOP
+        Publishing","content-domain":{"domain":[],"crossmark-restriction":false},"DOI":"10.1088\/978-0-7503-3039-8ch6","type":"book-chapter","created":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:44Z","timestamp":1621430624000},"source":"Crossref","is-referenced-by-count":1,"title":["Model
         building and validation"],"prefix":"10.1088","member":"266","published-online":{"date-parts":[[2021,5]]},"container-title":["Single-particle
-        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:51Z","timestamp":1621430631000},"score":34.48136,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch6"}},"editor":[{"given":"Robert
+        Cryo-EM of Biological Macromolecules"],"deposited":{"date-parts":[[2021,5,19]],"date-time":"2021-05-19T13:23:51Z","timestamp":1621430631000},"score":33.73002,"resource":{"primary":{"URL":"https:\/\/iopscience.iop.org\/book\/978-0-7503-3039-8\/chapter\/bk978-0-7503-3039-8ch6"}},"editor":[{"given":"Robert
         M","family":"Glaeser","sequence":"first","affiliation":[{"name":"Department
         of Molecular and Cell Biology, University of California, Berkeley, CA 94720,
         USA Lawrence Berkeley National Lab, University of California, Berkeley, CA
-        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1088\/978-0-7503-3039-8ch6","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2024,5,14]],"date-time":"2024-05-14T11:17:55Z","timestamp":1715685475998},"publisher-location":"Boca
-        Raton","edition-number":"1","reference-count":0,"publisher":"CRC Press","isbn-type":[{"value":"9781003096214","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,6,6]]},"DOI":"10.1201\/9781003096214-14","type":"book-chapter","created":{"date-parts":[[2023,6,6]],"date-time":"2023-06-06T20:00:36Z","timestamp":1686081636000},"page":"211-224","source":"Crossref","is-referenced-by-count":0,"title":["Ion
-        Channel Structural Biology in the Era of Single-Particle Cryo-EM"],"prefix":"10.1201","author":[{"given":"Jianhua","family":"Zhao","sequence":"first","affiliation":[]},{"given":"Yifan","family":"Cheng","sequence":"additional","affiliation":[]}],"member":"301","container-title":["Textbook
-        of Ion Channels Volume I"],"language":"en","deposited":{"date-parts":[[2023,6,6]],"date-time":"2023-06-06T20:01:22Z","timestamp":1686081682000},"score":32.551025,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003096214\/chapters\/10.1201\/9781003096214-14"}},"issued":{"date-parts":[[2023,6,6]]},"ISBN":["9781003096214"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781003096214-14","published":{"date-parts":[[2023,6,6]]}},{"indexed":{"date-parts":[[2024,5,15]],"date-time":"2024-05-15T01:17:17Z","timestamp":1715735837674},"publisher-location":"New
+        94720, USA"}]},{"given":"Eva","family":"Nogales","sequence":"additional","affiliation":[]},{"given":"Wah","family":"Chiu","sequence":"additional","affiliation":[]}],"issued":{"date-parts":[[2021,5]]},"references-count":0,"URL":"https:\/\/doi.org\/10.1088\/978-0-7503-3039-8ch6","published":{"date-parts":[[2021,5]]}},{"indexed":{"date-parts":[[2024,8,29]],"date-time":"2024-08-29T00:27:59Z","timestamp":1724891279332},"publisher-location":"Boca
+        Raton","edition-number":"1","reference-count":0,"publisher":"CRC Press","isbn-type":[{"value":"9781003326106","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2024,8,28]]},"DOI":"10.1201\/9781003326106-41","type":"book-chapter","created":{"date-parts":[[2024,8,28]],"date-time":"2024-08-28T21:53:27Z","timestamp":1724882007000},"page":"446-458","source":"Crossref","is-referenced-by-count":0,"title":["Applications
+        of Single-Particle Analysis and Cryo-ET in Drug Discovery"],"prefix":"10.1201","author":[{"given":"Qing","family":"Yao","sequence":"first","affiliation":[]}],"member":"301","container-title":["Cryo-Electron
+        Microscopy in Structural Biology"],"language":"en","deposited":{"date-parts":[[2024,8,28]],"date-time":"2024-08-28T21:54:21Z","timestamp":1724882061000},"score":33.694622,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003326106\/chapters\/10.1201\/9781003326106-41"}},"issued":{"date-parts":[[2024,8,28]]},"ISBN":["9781003326106"],"references-count":0,"URL":"https:\/\/doi.org\/10.1201\/9781003326106-41","published":{"date-parts":[[2024,8,28]]}},{"indexed":{"date-parts":[[2024,9,13]],"date-time":"2024-09-13T11:00:06Z","timestamp":1726225206499},"publisher-location":"New
         York","edition-number":"1","reference-count":0,"publisher":"Jenny Stanford
-        Publishing","isbn-type":[{"value":"9781003456100","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,7,28]]},"DOI":"10.1201\/9781003456100-2","type":"book-chapter","created":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:04Z","timestamp":1690532704000},"page":"9-23","source":"Crossref","is-referenced-by-count":0,"title":["Generalized
+        Publishing","isbn-type":[{"type":"electronic","value":"9781003456100"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,7,28]]},"DOI":"10.1201\/9781003456100-2","type":"book-chapter","created":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T04:25:04Z","timestamp":1690518304000},"page":"9-23","source":"Crossref","is-referenced-by-count":0,"title":["Generalized
         Single-Particle Cryo-EM: A Historical Perspective"],"prefix":"10.1201","author":[{"given":"Joachim","family":"Frank","sequence":"first","affiliation":[]}],"member":"301","container-title":["Novel
-        Developments in Cryo\u2010EM of Biological Molecules"],"language":"en","deposited":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:23Z","timestamp":1690532723000},"score":32.51275,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003456100\/chapters\/10.1201\/9781003456100-2"}},"issued":{"date-parts":[[2023,7,28]]},"ISBN":["9781003456100"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781003456100-2","published":{"date-parts":[[2023,7,28]]}},{"indexed":{"date-parts":[[2024,4,5]],"date-time":"2024-04-05T10:16:01Z","timestamp":1712312161943},"reference-count":50,"publisher":"Elsevier","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2010]]},"DOI":"10.1016\/s0076-6879(10)82009-9","type":"book-chapter","created":{"date-parts":[[2010,10,2]],"date-time":"2010-10-02T04:41:50Z","timestamp":1285994510000},"page":"211-235","source":"Crossref","is-referenced-by-count":24,"title":["Single
+        Developments in Cryo\u2010EM of Biological Molecules"],"language":"en","deposited":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T04:25:23Z","timestamp":1690518323000},"score":31.63348,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003456100\/chapters\/10.1201\/9781003456100-2"}},"issued":{"date-parts":[[2023,7,28]]},"ISBN":["9781003456100"],"references-count":0,"URL":"https:\/\/doi.org\/10.1201\/9781003456100-2","published":{"date-parts":[[2023,7,28]]}},{"indexed":{"date-parts":[[2024,9,13]],"date-time":"2024-09-13T03:38:53Z","timestamp":1726198733117},"publisher-location":"Boca
+        Raton","edition-number":"1","reference-count":0,"publisher":"CRC Press","isbn-type":[{"type":"electronic","value":"9781003096214"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,6,6]]},"DOI":"10.1201\/9781003096214-14","type":"book-chapter","created":{"date-parts":[[2023,6,6]],"date-time":"2023-06-06T16:00:36Z","timestamp":1686067236000},"page":"211-224","source":"Crossref","is-referenced-by-count":0,"title":["Ion
+        Channel Structural Biology in the Era of Single-Particle Cryo-EM"],"prefix":"10.1201","author":[{"given":"Jianhua","family":"Zhao","sequence":"first","affiliation":[]},{"given":"Yifan","family":"Cheng","sequence":"additional","affiliation":[]}],"member":"301","container-title":["Textbook
+        of Ion Channels Volume I"],"language":"en","deposited":{"date-parts":[[2023,6,6]],"date-time":"2023-06-06T16:01:22Z","timestamp":1686067282000},"score":31.528164,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003096214\/chapters\/10.1201\/9781003096214-14"}},"issued":{"date-parts":[[2023,6,6]]},"ISBN":["9781003096214"],"references-count":0,"URL":"https:\/\/doi.org\/10.1201\/9781003096214-14","published":{"date-parts":[[2023,6,6]]}},{"indexed":{"date-parts":[[2024,4,5]],"date-time":"2024-04-05T10:16:01Z","timestamp":1712312161943},"reference-count":50,"publisher":"Elsevier","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2010]]},"DOI":"10.1016\/s0076-6879(10)82009-9","type":"book-chapter","created":{"date-parts":[[2010,10,2]],"date-time":"2010-10-02T04:41:50Z","timestamp":1285994510000},"page":"211-235","source":"Crossref","is-referenced-by-count":24,"title":["Single
         Particle Analysis at High Resolution"],"prefix":"10.1016","author":[{"given":"Yao","family":"Cong","sequence":"first","affiliation":[]},{"given":"Steven
         J.","family":"Ludtke","sequence":"additional","affiliation":[]}],"member":"78","reference":[{"key":"10.1016\/S0076-6879(10)82009-9_bib0005","doi-asserted-by":"crossref","first-page":"120","DOI":"10.1006\/jsbi.1996.0020","article-title":"A
         model-based approach for determining orientations of biological macromolecules
@@ -272,7 +283,7 @@ http_interactions:
         for cell entry","volume":"141","author":"Zhang","year":"2010","journal-title":"Cell"},{"key":"10.1016\/S0076-6879(10)82009-9_bib0250","doi-asserted-by":"crossref","first-page":"3","DOI":"10.1016\/j.jsb.2003.09.033","article-title":"Automatic
         particle selection: Results of a comparative study","volume":"145","author":"Zhu","year":"2004","journal-title":"J.
         Struct. Biol."}],"container-title":["Methods in Enzymology","Cryo-EM, Part
-        B: 3-D Reconstruction"],"deposited":{"date-parts":[[2018,12,7]],"date-time":"2018-12-07T12:27:25Z","timestamp":1544185645000},"score":31.86587,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S0076687910820099"}},"issued":{"date-parts":[[2010]]},"references-count":50,"URL":"http:\/\/dx.doi.org\/10.1016\/s0076-6879(10)82009-9","ISSN":["0076-6879"],"issn-type":[{"value":"0076-6879","type":"print"}],"published":{"date-parts":[[2010]]}},{"indexed":{"date-parts":[[2024,6,20]],"date-time":"2024-06-20T17:14:35Z","timestamp":1718903675347},"reference-count":15,"publisher":"Elsevier","license":[{"start":{"date-parts":[[2010,1,1]],"date-time":"2010-01-01T00:00:00Z","timestamp":1262304000000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2010]]},"DOI":"10.1016\/s0076-6879(10)81005-5","type":"book-chapter","created":{"date-parts":[[2010,9,30]],"date-time":"2010-09-30T08:46:03Z","timestamp":1285836363000},"page":"109-126","source":"Crossref","is-referenced-by-count":188,"title":["GraFix:
+        B: 3-D Reconstruction"],"deposited":{"date-parts":[[2018,12,7]],"date-time":"2018-12-07T12:27:25Z","timestamp":1544185645000},"score":30.839407,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S0076687910820099"}},"issued":{"date-parts":[[2010]]},"references-count":50,"URL":"https:\/\/doi.org\/10.1016\/s0076-6879(10)82009-9","ISSN":["0076-6879"],"issn-type":[{"value":"0076-6879","type":"print"}],"published":{"date-parts":[[2010]]}},{"indexed":{"date-parts":[[2024,9,4]],"date-time":"2024-09-04T10:54:55Z","timestamp":1725447295160},"reference-count":15,"publisher":"Elsevier","license":[{"start":{"date-parts":[[2010,1,1]],"date-time":"2010-01-01T00:00:00Z","timestamp":1262304000000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2010]]},"DOI":"10.1016\/s0076-6879(10)81005-5","type":"book-chapter","created":{"date-parts":[[2010,9,30]],"date-time":"2010-09-30T08:46:03Z","timestamp":1285836363000},"page":"109-126","source":"Crossref","is-referenced-by-count":196,"title":["GraFix:
         Stabilization of Fragile Macromolecular Complexes for Single Particle Cryo-EM"],"prefix":"10.1016","author":[{"given":"Holger","family":"Stark","sequence":"first","affiliation":[]}],"member":"78","reference":[{"issue":"13","key":"10.1016\/S0076-6879(10)81005-5_bib0005","doi-asserted-by":"crossref","first-page":"4551","DOI":"10.1002\/j.1460-2075.1990.tb07907.x","article-title":"Direct
         visualization of supercoiled DNA molecules in solution","volume":"9","author":"Adrian","year":"1990","journal-title":"EMBO
         J."},{"key":"10.1016\/S0076-6879(10)81005-5_bb9000","doi-asserted-by":"crossref","first-page":"329","DOI":"10.1038\/nature09206","article-title":"Ribosome
@@ -304,13 +315,13 @@ http_interactions:
         of folding chamber closure in a group II chaperonin","volume":"463","author":"Zhang","year":"2010","journal-title":"Nature"},{"issue":"3","key":"10.1016\/S0076-6879(10)81005-5_bib0065","doi-asserted-by":"crossref","first-page":"472","DOI":"10.1016\/j.cell.2010.03.041","article-title":"3.3
         A cryo-EM structure of a nonenveloped virus reveals a priming mechanism for
         cell entry","volume":"141","author":"Zhang","year":"2010","journal-title":"Cell"}],"container-title":["Methods
-        in Enzymology","Cryo-EM Part A Sample Preparation and Data Collection"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0076687910810055?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0076687910810055?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2019,6,5]],"date-time":"2019-06-05T04:37:36Z","timestamp":1559709456000},"score":31.771667,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S0076687910810055"}},"issued":{"date-parts":[[2010]]},"references-count":15,"URL":"http:\/\/dx.doi.org\/10.1016\/s0076-6879(10)81005-5","ISSN":["0076-6879"],"issn-type":[{"value":"0076-6879","type":"print"}],"published":{"date-parts":[[2010]]}},{"indexed":{"date-parts":[[2024,5,15]],"date-time":"2024-05-15T01:17:21Z","timestamp":1715735841095},"publisher-location":"New
+        in Enzymology","Cryo-EM Part A Sample Preparation and Data Collection"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0076687910810055?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0076687910810055?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2019,6,5]],"date-time":"2019-06-05T04:37:36Z","timestamp":1559709456000},"score":30.830448,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S0076687910810055"}},"issued":{"date-parts":[[2010]]},"references-count":15,"URL":"https:\/\/doi.org\/10.1016\/s0076-6879(10)81005-5","ISSN":["0076-6879"],"issn-type":[{"value":"0076-6879","type":"print"}],"published":{"date-parts":[[2010]]}},{"indexed":{"date-parts":[[2024,9,13]],"date-time":"2024-09-13T10:59:10Z","timestamp":1726225150652},"publisher-location":"New
         York","edition-number":"1","reference-count":0,"publisher":"Jenny Stanford
-        Publishing","isbn-type":[{"value":"9781003456100","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,7,28]]},"DOI":"10.1201\/9781003456100-9","type":"book-chapter","created":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:04Z","timestamp":1690532704000},"page":"147-149","source":"Crossref","is-referenced-by-count":0,"title":["New
+        Publishing","isbn-type":[{"type":"electronic","value":"9781003456100"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,7,28]]},"DOI":"10.1201\/9781003456100-9","type":"book-chapter","created":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:04Z","timestamp":1690532704000},"page":"147-149","source":"Crossref","is-referenced-by-count":0,"title":["New
         Opportunities Created by Single-Particle Cryo-EM: The Mapping of Conformational
         Space"],"prefix":"10.1201","author":[{"given":"Joachim","family":"Frank","sequence":"first","affiliation":[]}],"member":"301","container-title":["Novel
-        Developments in Cryo\u2010EM of Biological Molecules"],"language":"en","deposited":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:36Z","timestamp":1690532736000},"score":31.151665,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003456100\/chapters\/10.1201\/9781003456100-9"}},"issued":{"date-parts":[[2023,7,28]]},"ISBN":["9781003456100"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781003456100-9","published":{"date-parts":[[2023,7,28]]}},{"indexed":{"date-parts":[[2024,6,23]],"date-time":"2024-06-23T19:13:40Z","timestamp":1719170020320},"publisher-location":"New
-        York, NY","reference-count":98,"publisher":"Springer US","isbn-type":[{"value":"9781071613931","type":"print"},{"value":"9781071613948","type":"electronic"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-1-0716-1394-8_9","type":"book-chapter","created":{"date-parts":[[2021,4,20]],"date-time":"2021-04-20T18:56:50Z","timestamp":1618945010000},"page":"153-178","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":16,"title":["Single-Particle
+        Developments in Cryo\u2010EM of Biological Molecules"],"language":"en","deposited":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:36Z","timestamp":1690532736000},"score":30.185009,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003456100\/chapters\/10.1201\/9781003456100-9"}},"issued":{"date-parts":[[2023,7,28]]},"ISBN":["9781003456100"],"references-count":0,"URL":"https:\/\/doi.org\/10.1201\/9781003456100-9","published":{"date-parts":[[2023,7,28]]}},{"indexed":{"date-parts":[[2024,9,12]],"date-time":"2024-09-12T06:26:55Z","timestamp":1726122415349},"publisher-location":"New
+        York, NY","reference-count":98,"publisher":"Springer US","isbn-type":[{"type":"print","value":"9781071613931"},{"type":"electronic","value":"9781071613948"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1007\/978-1-0716-1394-8_9","type":"book-chapter","created":{"date-parts":[[2021,4,20]],"date-time":"2021-04-20T14:56:50Z","timestamp":1618930610000},"page":"153-178","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":16,"title":["Single-Particle
         Cryo-EM of Membrane Proteins"],"prefix":"10.1007","author":[{"given":"Dovile","family":"Januliene","sequence":"first","affiliation":[]},{"given":"Arne","family":"Moeller","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2021,4,21]]},"reference":[{"key":"9_CR1","doi-asserted-by":"publisher","first-page":"107","DOI":"10.1038\/nature12822","volume":"504","author":"M
         Liao","year":"2013","unstructured":"Liao M, Cao E, Julius D, Cheng Y (2013)
         Structure of the TRPV1 ion channel determined by electron cryo-microscopy.
@@ -324,9 +335,9 @@ http_interactions:
         Nature 546:118\u2013123. https:\/\/doi.org\/10.1038\/nature22327","journal-title":"Nature"},{"key":"9_CR4","doi-asserted-by":"publisher","first-page":"248","DOI":"10.1038\/nature22394","volume":"546","author":"Y
         Zhang","year":"2017","unstructured":"Zhang Y, Sun B, Feng D et al (2017) Cryo-EM
         structure of the activated GLP-1 receptor in complex with a G protein. Nature
-        546:248\u2013253. https:\/\/doi.org\/10.1038\/nature22394","journal-title":"Nature"},{"key":"9_CR5","doi-asserted-by":"publisher","unstructured":"Garc\u00eda-Nafr\u00eda
+        546:248\u2013253. https:\/\/doi.org\/10.1038\/nature22394","journal-title":"Nature"},{"doi-asserted-by":"publisher","unstructured":"Garc\u00eda-Nafr\u00eda
         J, Tate CG (2020) Cryo-electron microscopy: moving beyond X-ray crystal structures
-        for drug receptors and drug development. Annu Rev Pharmacol Toxicol 60. https:\/\/doi.org\/10.1146\/annurev-pharmtox-010919-023545","DOI":"10.1146\/annurev-pharmtox-010919-023545"},{"key":"9_CR6","doi-asserted-by":"publisher","first-page":"525","DOI":"10.1038\/nature24627","volume":"551","author":"A
+        for drug receptors and drug development. Annu Rev Pharmacol Toxicol 60. https:\/\/doi.org\/10.1146\/annurev-pharmtox-010919-023545","key":"9_CR5","DOI":"10.1146\/annurev-pharmtox-010919-023545"},{"key":"9_CR6","doi-asserted-by":"publisher","first-page":"525","DOI":"10.1038\/nature24627","volume":"551","author":"A
         Blees","year":"2017","unstructured":"Blees A, Januliene D, Hofmann T et al
         (2017) Structure of the human MHC-I peptide-loading complex. Nature 551:525\u2013528.
         https:\/\/doi.org\/10.1038\/nature24627","journal-title":"Nature"},{"key":"9_CR7","doi-asserted-by":"publisher","first-page":"80","DOI":"10.1038\/nature13686","volume":"515","author":"KR
@@ -341,9 +352,9 @@ http_interactions:
         Agip","year":"2019","unstructured":"Agip A-NA, Blaza JN, Fedor JG, Hirst J
         (2019) Mammalian respiratory complex I through the lens of cryo-EM. Annu Rev
         Biophys 48:165\u2013184. https:\/\/doi.org\/10.1146\/annurev-biophys-052118-115704","journal-title":"Annu
-        Rev Biophys"},{"key":"9_CR11","doi-asserted-by":"publisher","unstructured":"Zhou
-        A, Rohou A, Schep DG et al (2015) Structure and conformational states of the
-        bovine mitochondrial ATP synthase by cryo-EM. elife 4. https:\/\/doi.org\/10.7554\/eLife.10180","DOI":"10.7554\/eLife.10180"},{"key":"9_CR12","doi-asserted-by":"publisher","first-page":"237","DOI":"10.1038\/nature14185","volume":"521","author":"M
+        Rev Biophys"},{"doi-asserted-by":"publisher","unstructured":"Zhou A, Rohou
+        A, Schep DG et al (2015) Structure and conformational states of the bovine
+        mitochondrial ATP synthase by cryo-EM. elife 4. https:\/\/doi.org\/10.7554\/eLife.10180","key":"9_CR11","DOI":"10.7554\/eLife.10180"},{"key":"9_CR12","doi-asserted-by":"publisher","first-page":"237","DOI":"10.1038\/nature14185","volume":"521","author":"M
         Allegretti","year":"2015","unstructured":"Allegretti M, Klusch N, Mills DJ
         et al (2015) Horizontal membrane-intrinsic \u03b1-helices in the stator a-subunit
         of an F-type ATP synthase. Nature 521:237\u2013240. https:\/\/doi.org\/10.1038\/nature14185","journal-title":"Nature"},{"key":"9_CR13","doi-asserted-by":"publisher","first-page":"515","DOI":"10.1146\/annurev-biochem-013118-110903","volume":"88","author":"W
@@ -365,9 +376,9 @@ http_interactions:
         Frauenfeld","year":"2016","unstructured":"Frauenfeld J, L\u00f6ving R, Armache
         JP et al (2016) A saposin-lipoprotein nanoparticle system for membrane proteins.
         Nat Methods 13:345\u2013351. https:\/\/doi.org\/10.1038\/nmeth.3801","journal-title":"Nat
-        Methods"},{"key":"9_CR18","doi-asserted-by":"publisher","unstructured":"Carlson
-        ML, Young JW, Zhao Z et al (2018) The peptidisc, a simple method for stabilizing
-        membrane proteins in detergent-free solution. elife 7. https:\/\/doi.org\/10.7554\/eLife.34085","DOI":"10.7554\/eLife.34085"},{"key":"9_CR19","doi-asserted-by":"publisher","first-page":"15047","DOI":"10.1073\/pnas.93.26.15047","volume":"93","author":"C
+        Methods"},{"doi-asserted-by":"publisher","unstructured":"Carlson ML, Young
+        JW, Zhao Z et al (2018) The peptidisc, a simple method for stabilizing membrane
+        proteins in detergent-free solution. elife 7. https:\/\/doi.org\/10.7554\/eLife.34085","key":"9_CR18","DOI":"10.7554\/eLife.34085"},{"key":"9_CR19","doi-asserted-by":"publisher","first-page":"15047","DOI":"10.1073\/pnas.93.26.15047","volume":"93","author":"C
         Tribet","year":"1996","unstructured":"Tribet C, Audebert R, Popot JL (1996)
         Amphipols: polymers that keep membrane proteins soluble in aqueous solutions.
         Proc Natl Acad Sci U S A 93:15047\u201315050. https:\/\/doi.org\/10.1073\/pnas.93.26.15047","journal-title":"Proc
@@ -382,43 +393,43 @@ http_interactions:
         Protoc"},{"key":"9_CR22","first-page":"125","volume-title":"Methods in enzymology","author":"SHW
         Scheres","year":"2016","unstructured":"Scheres SHW (2016) Processing of structurally
         heterogeneous cryo-EM data in RELION. In: Methods in enzymology. Academic,
-        New York, NY, pp 125\u2013157"},{"key":"9_CR23","doi-asserted-by":"publisher","unstructured":"Grant
+        New York, NY, pp 125\u2013157"},{"doi-asserted-by":"publisher","unstructured":"Grant
         T, Rohou A, Grigorieff N (2018) CisTEM, user-friendly software for single-particle
-        image processing. elife 7. https:\/\/doi.org\/10.7554\/eLife.35383","DOI":"10.7554\/eLife.35383"},{"key":"9_CR24","doi-asserted-by":"publisher","first-page":"290","DOI":"10.1038\/nmeth.4169","volume":"14","author":"A
+        image processing. elife 7. https:\/\/doi.org\/10.7554\/eLife.35383","key":"9_CR23","DOI":"10.7554\/eLife.35383"},{"key":"9_CR24","doi-asserted-by":"publisher","first-page":"290","DOI":"10.1038\/nmeth.4169","volume":"14","author":"A
         Punjani","year":"2017","unstructured":"Punjani A, Rubinstein JL, Fleet DJ,
         Brubaker MA (2017) CryoSPARC: algorithms for rapid unsupervised cryo-EM structure
         determination. Nat Methods 14:290\u2013296. https:\/\/doi.org\/10.1038\/nmeth.4169","journal-title":"Nat
-        Methods"},{"key":"9_CR25","doi-asserted-by":"publisher","unstructured":"Moriya
-        T, Saur M, Stabrin M et al (2017) High-resolution single particle analysis
-        from electron cryo-microscopy images using SPHIRE. J Vis Exp 2017. https:\/\/doi.org\/10.3791\/55448","DOI":"10.3791\/55448"},{"key":"9_CR26","doi-asserted-by":"publisher","first-page":"25","DOI":"10.1016\/j.ymeth.2016.02.018","volume":"100","author":"JM
+        Methods"},{"doi-asserted-by":"publisher","unstructured":"Moriya T, Saur M,
+        Stabrin M et al (2017) High-resolution single particle analysis from electron
+        cryo-microscopy images using SPHIRE. J Vis Exp 2017. https:\/\/doi.org\/10.3791\/55448","key":"9_CR25","DOI":"10.3791\/55448"},{"key":"9_CR26","doi-asserted-by":"publisher","first-page":"25","DOI":"10.1016\/j.ymeth.2016.02.018","volume":"100","author":"JM
         Bell","year":"2016","unstructured":"Bell JM, Chen M, Baldwin PR, Ludtke SJ
         (2016) High resolution single particle refinement in EMAN2.1. Methods 100:25\u201334.
         https:\/\/doi.org\/10.1016\/j.ymeth.2016.02.018","journal-title":"Methods"},{"key":"9_CR27","doi-asserted-by":"publisher","first-page":"519","DOI":"10.1016\/j.jsb.2012.09.006","volume":"180","author":"SHW
         Scheres","year":"2012","unstructured":"Scheres SHW (2012) RELION: implementation
         of a Bayesian approach to cryo-EM structure determination. J Struct Biol 180:519\u2013530.
-        https:\/\/doi.org\/10.1016\/j.jsb.2012.09.006","journal-title":"J Struct Biol"},{"key":"9_CR28","doi-asserted-by":"publisher","unstructured":"Nakane
+        https:\/\/doi.org\/10.1016\/j.jsb.2012.09.006","journal-title":"J Struct Biol"},{"doi-asserted-by":"publisher","unstructured":"Nakane
         T, Kimanius D, Lindahl E, Scheres SHW (2018) Characterisation of molecular
         motions in cryo-EM single-particle data by multi-body refinement in RELION.
-        elife 7. https:\/\/doi.org\/10.7554\/eLife.36861","DOI":"10.7554\/eLife.36861"},{"key":"9_CR29","doi-asserted-by":"publisher","first-page":"580","DOI":"10.1038\/s41586-019-1391-0","volume":"571","author":"S
+        elife 7. https:\/\/doi.org\/10.7554\/eLife.36861","key":"9_CR28","DOI":"10.7554\/eLife.36861"},{"key":"9_CR29","doi-asserted-by":"publisher","first-page":"580","DOI":"10.1038\/s41586-019-1391-0","volume":"571","author":"S
         Hofmann","year":"2019","unstructured":"Hofmann S, Januliene D, Mehdipour AR
         et al (2019) Conformation space of a heterodimeric ABC exporter under turnover
         conditions. Nature 571:580\u2013583","journal-title":"Nature"},{"key":"9_CR30","doi-asserted-by":"publisher","first-page":"171","DOI":"10.1017\/S003358350000305X","volume":"28","author":"R
         Henderson","year":"1995","unstructured":"Henderson R (1995) The potential
         and limitations of neutrons, electrons and X-rays for atomic resolution microscopy
         of unstained biological molecules. Q Rev Biophys 28:171\u2013193. https:\/\/doi.org\/10.1017\/S003358350000305X","journal-title":"Q
-        Rev Biophys"},{"key":"9_CR31","doi-asserted-by":"publisher","unstructured":"Khoshouei
-        M, Radjainia M, Baumeister W, Danev R (2017) Cryo-EM structure of haemoglobin
-        at 3.2 \u00c5 determined with the Volta phase plate. Nat Commun 8. https:\/\/doi.org\/10.1038\/ncomms16099","DOI":"10.1038\/ncomms16099"},{"key":"9_CR32","doi-asserted-by":"publisher","unstructured":"Fan
+        Rev Biophys"},{"doi-asserted-by":"publisher","unstructured":"Khoshouei M,
+        Radjainia M, Baumeister W, Danev R (2017) Cryo-EM structure of haemoglobin
+        at 3.2 \u00c5 determined with the Volta phase plate. Nat Commun 8. https:\/\/doi.org\/10.1038\/ncomms16099","key":"9_CR31","DOI":"10.1038\/ncomms16099"},{"doi-asserted-by":"publisher","unstructured":"Fan
         X, Wang J, Zhang X et al (2019) Single particle cryo-EM reconstruction of
-        52 kDa streptavidin at 3.2 Angstrom resolution. Nat Commun 10. https:\/\/doi.org\/10.1038\/s41467-019-10368-w","DOI":"10.1038\/s41467-019-10368-w"},{"key":"9_CR33","doi-asserted-by":"publisher","first-page":"582","DOI":"10.1016\/j.str.2012.02.017","volume":"20","author":"S
+        52 kDa streptavidin at 3.2 Angstrom resolution. Nat Commun 10. https:\/\/doi.org\/10.1038\/s41467-019-10368-w","key":"9_CR32","DOI":"10.1038\/s41467-019-10368-w"},{"key":"9_CR33","doi-asserted-by":"publisher","first-page":"582","DOI":"10.1016\/j.str.2012.02.017","volume":"20","author":"S
         Wu","year":"2012","unstructured":"Wu S, Avila-Sakar A, Kim J et al (2012)
         Fabs enable single particle cryoEM studies of small proteins. Structure 20:582\u2013592.
-        https:\/\/doi.org\/10.1016\/j.str.2012.02.017","journal-title":"Structure"},{"key":"9_CR34","doi-asserted-by":"publisher","unstructured":"Ucha\u0144ski
+        https:\/\/doi.org\/10.1016\/j.str.2012.02.017","journal-title":"Structure"},{"doi-asserted-by":"publisher","unstructured":"Ucha\u0144ski
         T, Masiulis S, Fischer B, et al (2021) Megabodies expand the nanobody toolkit
         for protein structure determination by single-particle cryo-EM. Nat Methods
-        18:60\u201368. https:\/\/doi.org\/10.1038\/s41592-020-01001-6","DOI":"10.1038\/s41592-020-01001-6"},{"key":"9_CR35","doi-asserted-by":"publisher","unstructured":"Kim
+        18:60\u201368. https:\/\/doi.org\/10.1038\/s41592-020-01001-6","key":"9_CR34","DOI":"10.1038\/s41592-020-01001-6"},{"doi-asserted-by":"publisher","unstructured":"Kim
         J, Tan YZ, Wicht KJ et al (2019) Structure and drug resistance of the Plasmodium
-        falciparum transporter PfCRT. Nature. https:\/\/doi.org\/10.1038\/s41586-019-1795-x","DOI":"10.1038\/s41586-019-1795-x"},{"key":"9_CR36","doi-asserted-by":"publisher","first-page":"1698","DOI":"10.1016\/j.cell.2016.05.040","volume":"165","author":"A
+        falciparum transporter PfCRT. Nature. https:\/\/doi.org\/10.1038\/s41586-019-1795-x","key":"9_CR35","DOI":"10.1038\/s41586-019-1795-x"},{"key":"9_CR36","doi-asserted-by":"publisher","first-page":"1698","DOI":"10.1016\/j.cell.2016.05.040","volume":"165","author":"A
         Merk","year":"2016","unstructured":"Merk A, Bartesaghi A, Banerjee S et al
         (2016) Breaking cryo-EM resolution barriers to facilitate drug discovery.
         Cell 165:1698\u20131707. https:\/\/doi.org\/10.1016\/j.cell.2016.05.040","journal-title":"Cell"},{"key":"9_CR37","doi-asserted-by":"publisher","first-page":"848","DOI":"10.1016\/j.str.2018.04.004","volume":"26","author":"A
@@ -427,15 +438,15 @@ http_interactions:
         Structure 26:848\u2013856.e3. https:\/\/doi.org\/10.1016\/j.str.2018.04.004","journal-title":"Structure"},{"key":"9_CR38","doi-asserted-by":"publisher","first-page":"837","DOI":"10.1016\/j.tibs.2019.04.008","volume":"44","author":"R
         Danev","year":"2019","unstructured":"Danev R, Yanagisawa H, Kikkawa M (2019)
         Cryo-electron microscopy methodology: current aspects and future directions.
-        Trends Biochem Sci 44:837\u2013848","journal-title":"Trends Biochem Sci"},{"key":"9_CR39","doi-asserted-by":"publisher","unstructured":"Zivanov
+        Trends Biochem Sci 44:837\u2013848","journal-title":"Trends Biochem Sci"},{"doi-asserted-by":"publisher","unstructured":"Zivanov
         J, Nakane T, Forsberg BO et al (2018) New tools for automated high-resolution
-        cryo-EM structure determination in RELION-3. elife 7. https:\/\/doi.org\/10.7554\/eLife.42166","DOI":"10.7554\/eLife.42166"},{"key":"9_CR40","doi-asserted-by":"publisher","unstructured":"Tan
+        cryo-EM structure determination in RELION-3. elife 7. https:\/\/doi.org\/10.7554\/eLife.42166","key":"9_CR39","DOI":"10.7554\/eLife.42166"},{"doi-asserted-by":"publisher","unstructured":"Tan
         YZ, Aiyer S, Mietzsch M et al (2018) Sub-2 \u00c5 Ewald curvature corrected
-        structure of an AAV2 capsid variant. Nat Commun 9. https:\/\/doi.org\/10.1038\/s41467-018-06076-6","DOI":"10.1038\/s41467-018-06076-6"},{"key":"9_CR41","doi-asserted-by":"publisher","unstructured":"Yip
+        structure of an AAV2 capsid variant. Nat Commun 9. https:\/\/doi.org\/10.1038\/s41467-018-06076-6","key":"9_CR40","DOI":"10.1038\/s41467-018-06076-6"},{"doi-asserted-by":"publisher","unstructured":"Yip
         KM, Fischer N, Paknia E et al (2020) Atomic-resolution protein structure determination
-        by cryo-EM. Nature 587:157\u2013161. https:\/\/doi.org\/10.1038\/s41586-020-2833-4","DOI":"10.1038\/s41586-020-2833-4"},{"key":"9_CR42","doi-asserted-by":"publisher","unstructured":"Nakane
+        by cryo-EM. Nature 587:157\u2013161. https:\/\/doi.org\/10.1038\/s41586-020-2833-4","key":"9_CR41","DOI":"10.1038\/s41586-020-2833-4"},{"doi-asserted-by":"publisher","unstructured":"Nakane
         T, Kotecha A Sente A et al (2020) Single-particle cryo-EM at atomic resolution.
-        Nature 587:152\u2013156. https:\/\/doi.org\/10.1038\/s41586-020-2829-0","DOI":"10.1038\/s41586-020-2829-0"},{"key":"9_CR43","doi-asserted-by":"publisher","first-page":"2212","DOI":"10.1038\/nprot.2007.321","volume":"2","author":"FH
+        Nature 587:152\u2013156. https:\/\/doi.org\/10.1038\/s41586-020-2829-0","key":"9_CR42","DOI":"10.1038\/s41586-020-2829-0"},{"key":"9_CR43","doi-asserted-by":"publisher","first-page":"2212","DOI":"10.1038\/nprot.2007.321","volume":"2","author":"FH
         Niesen","year":"2007","unstructured":"Niesen FH, Berglund H, Vedadi M (2007)
         The use of differential scanning fluorimetry to detect ligand interactions
         that promote protein stability. Nat Protoc 2:2212\u20132221. https:\/\/doi.org\/10.1038\/nprot.2007.321","journal-title":"Nat
@@ -475,11 +486,11 @@ http_interactions:
         Noble","year":"2018","unstructured":"Noble AJ, Wei H, Dandey VP et al (2018)
         Reducing effects of particle adsorption to the air\u2013water interface in
         cryo-EM. Nat Methods 15:793\u2013795. https:\/\/doi.org\/10.1038\/s41592-018-0139-3","journal-title":"Nat
-        Methods"},{"key":"9_CR55","doi-asserted-by":"publisher","unstructured":"D\u2019Imprima
-        E, Floris D, Joppe M et al (2019) Protein denaturation at the air-water interface
-        and how to prevent it. elife 8. https:\/\/doi.org\/10.7554\/eLife.42747","DOI":"10.7554\/eLife.42747"},{"key":"9_CR56","doi-asserted-by":"publisher","unstructured":"Armstrong
+        Methods"},{"doi-asserted-by":"publisher","unstructured":"D\u2019Imprima E,
+        Floris D, Joppe M et al (2019) Protein denaturation at the air-water interface
+        and how to prevent it. elife 8. https:\/\/doi.org\/10.7554\/eLife.42747","key":"9_CR55","DOI":"10.7554\/eLife.42747"},{"doi-asserted-by":"publisher","unstructured":"Armstrong
         M, Han B-G, Gomez S et al (2019) Micro-scale fluid behavior during cryo-EM
-        sample blotting. Biophys J. https:\/\/doi.org\/10.1016\/j.bpj.2019.12.017","DOI":"10.1016\/j.bpj.2019.12.017"},{"key":"9_CR57","doi-asserted-by":"publisher","first-page":"190","DOI":"10.1016\/j.jsb.2016.06.001","volume":"195","author":"I
+        sample blotting. Biophys J. https:\/\/doi.org\/10.1016\/j.bpj.2019.12.017","key":"9_CR56","DOI":"10.1016\/j.bpj.2019.12.017"},{"key":"9_CR57","doi-asserted-by":"publisher","first-page":"190","DOI":"10.1016\/j.jsb.2016.06.001","volume":"195","author":"I
         Razinkov","year":"2016","unstructured":"Razinkov I, Dandey VP, Wei H et al
         (2016) A new method for vitrifying samples for cryoEM. J Struct Biol 195:190\u2013198.
         https:\/\/doi.org\/10.1016\/j.jsb.2016.06.001","journal-title":"J Struct Biol"},{"key":"9_CR58","doi-asserted-by":"publisher","first-page":"220","DOI":"10.1016\/j.jsb.2016.11.002","volume":"197","author":"SA
@@ -490,14 +501,14 @@ http_interactions:
         Rubinstein","year":"2019","unstructured":"Rubinstein JL, Guo H, Ripstein ZA
         et al (2019) Shake-it-off: a simple ultrasonic cryo-EM specimen-preparation
         device. Acta Crystallogr D Struct Biol 75:1063\u20131070. https:\/\/doi.org\/10.1107\/S2059798319014372","journal-title":"Acta
-        Crystallogr D Struct Biol"},{"key":"9_CR60","doi-asserted-by":"publisher","unstructured":"Tan
+        Crystallogr D Struct Biol"},{"doi-asserted-by":"publisher","unstructured":"Tan
         YZ, Rubinstein JL (2020) Through-grid wicking enables high-speed cryoEM specimen
-        preparation. Acta Crystallogr Sect D Struct Biol 76:1092\u20131103. https:\/\/doi.org\/10.1107\/s2059798320012474","DOI":"10.1107\/s2059798320012474"},{"key":"9_CR61","doi-asserted-by":"publisher","unstructured":"Ravelli
+        preparation. Acta Crystallogr Sect D Struct Biol 76:1092\u20131103. https:\/\/doi.org\/10.1107\/s2059798320012474","key":"9_CR60","DOI":"10.1107\/s2059798320012474"},{"doi-asserted-by":"publisher","unstructured":"Ravelli
         RBG, Nijpels FJT, Henderikx RJM, et al (2020) Cryo-EM structures from sub-nl
         volumes using pin-printing and jet vitrification. Nat Commun 11:1\u20139.
-        https:\/\/doi.org\/10.1038\/s41467-020-16392-5","DOI":"10.1038\/s41467-020-16392-5"},{"key":"9_CR62","doi-asserted-by":"publisher","unstructured":"Kontziampasis
+        https:\/\/doi.org\/10.1038\/s41467-020-16392-5","key":"9_CR61","DOI":"10.1038\/s41467-020-16392-5"},{"doi-asserted-by":"publisher","unstructured":"Kontziampasis
         D, Klebl DP, Iadanza MG, et al (2019) A cryo-EM grid preparation device for
-        time-resolved structural studies. IUCrJ 6:1024\u20131031. https:\/\/doi.org\/10.1107\/S2052252519011345","DOI":"10.1107\/S2052252519011345"},{"key":"9_CR63","doi-asserted-by":"publisher","first-page":"11718","DOI":"10.1073\/pnas.1904766116","volume":"116","author":"K
+        time-resolved structural studies. IUCrJ 6:1024\u20131031. https:\/\/doi.org\/10.1107\/S2052252519011345","key":"9_CR62","DOI":"10.1107\/S2052252519011345"},{"key":"9_CR63","doi-asserted-by":"publisher","first-page":"11718","DOI":"10.1073\/pnas.1904766116","volume":"116","author":"K
         Naydenova","year":"2019","unstructured":"Naydenova K, Peet MJ, Russo CJ (2019)
         Multifunctional graphene supports for electron cryomicroscopy. Proc Natl Acad
         Sci U S A 116:11718\u201311724. https:\/\/doi.org\/10.1073\/pnas.1904766116","journal-title":"Proc
@@ -505,10 +516,9 @@ http_interactions:
         Han","year":"2019","unstructured":"Han Y, Fan X, Wang H et al (2019) High-yield
         monolayer graphene grids for near-atomic resolution cryoelectron microscopy.
         Proc Natl Acad Sci 2019:201919114. https:\/\/doi.org\/10.1073\/pnas.1919114117","journal-title":"Proc
-        Natl Acad Sci"},{"key":"9_CR65","doi-asserted-by":"publisher","unstructured":"Liu
-        N, Zhang J, Chen Y, et al (2019) Bioactive Functionalized Monolayer Graphene
-        for High-Resolution Cryo-Electron Microscopy. J Am Chem Soc 141:4016\u20134025.
-        https:\/\/doi.org\/10.1021\/jacs.8b13038","DOI":"10.1021\/jacs.8b13038"},{"key":"9_CR66","doi-asserted-by":"publisher","first-page":"438","DOI":"10.1016\/j.cell.2015.03.050","volume":"161","author":"Y
+        Natl Acad Sci"},{"doi-asserted-by":"publisher","unstructured":"Liu N, Zhang
+        J, Chen Y, et al (2019) Bioactive Functionalized Monolayer Graphene for High-Resolution
+        Cryo-Electron Microscopy. J Am Chem Soc 141:4016\u20134025. https:\/\/doi.org\/10.1021\/jacs.8b13038","key":"9_CR65","DOI":"10.1021\/jacs.8b13038"},{"key":"9_CR66","doi-asserted-by":"publisher","first-page":"438","DOI":"10.1016\/j.cell.2015.03.050","volume":"161","author":"Y
         Cheng","year":"2015","unstructured":"Cheng Y, Grigorieff N, Penczek PA, Walz
         T (2015) A primer to single-particle cryo-electron microscopy. Cell 161:438\u2013449","journal-title":"Cell"},{"key":"9_CR67","doi-asserted-by":"publisher","first-page":"1823","DOI":"10.1016\/j.str.2012.08.026","volume":"20","author":"MG
         Campbell","year":"2012","unstructured":"Campbell MG, Cheng A, Brilot AF et
@@ -534,9 +544,9 @@ http_interactions:
         Bepler","year":"2019","unstructured":"Bepler T, Morin A, Rapp M et al (2019)
         Positive-unlabeled convolutional neural networks for particle picking in cryo-electron
         micrographs. Nat Methods 16:1153\u20131160. https:\/\/doi.org\/10.1038\/s41592-019-0575-8","journal-title":"Nat
-        Methods"},{"key":"9_CR74","doi-asserted-by":"publisher","unstructured":"Wagner
-        T, Merino F, Stabrin M et al (2019) SPHIRE-crYOLO is a fast and accurate fully
-        automated particle picker for cryo-EM. Commun Biol 2. https:\/\/doi.org\/10.1038\/s42003-019-0437-z","DOI":"10.1038\/s42003-019-0437-z"},{"key":"9_CR75","doi-asserted-by":"publisher","first-page":"1146","DOI":"10.1038\/s41592-019-0580-y","volume":"16","author":"D
+        Methods"},{"doi-asserted-by":"publisher","unstructured":"Wagner T, Merino
+        F, Stabrin M et al (2019) SPHIRE-crYOLO is a fast and accurate fully automated
+        particle picker for cryo-EM. Commun Biol 2. https:\/\/doi.org\/10.1038\/s42003-019-0437-z","key":"9_CR74","DOI":"10.1038\/s42003-019-0437-z"},{"key":"9_CR75","doi-asserted-by":"publisher","first-page":"1146","DOI":"10.1038\/s41592-019-0580-y","volume":"16","author":"D
         Tegunov","year":"2019","unstructured":"Tegunov D, Cramer P (2019) Real-time
         cryo-electron microscopy data preprocessing with Warp. Nat Methods 16:1146\u20131152.
         https:\/\/doi.org\/10.1038\/s41592-019-0580-y","journal-title":"Nat Methods"},{"key":"9_CR76","doi-asserted-by":"publisher","first-page":"95","DOI":"10.1016\/j.jsb.2009.01.002","volume":"166","author":"GC
@@ -580,12 +590,12 @@ http_interactions:
         Heymann","year":"2007","unstructured":"Heymann JB, Belnap DM (2007) Bsoft:
         Image processing and molecular modeling for electron microscopy. J Struct
         Biol 157:3\u201318. https:\/\/doi.org\/10.1016\/j.jsb.2006.06.006","journal-title":"J
-        Struct Biol"},{"key":"9_CR87","doi-asserted-by":"publisher","unstructured":"Timcenko
-        M, Lyons JA, Januliene D et al (2019) Structure and autoregulation of a P4-ATPase
-        lipid flippase. Nature. https:\/\/doi.org\/10.1038\/s41586-019-1344-7","DOI":"10.1038\/s41586-019-1344-7"},{"key":"9_CR88","doi-asserted-by":"publisher","unstructured":"Booth
+        Struct Biol"},{"doi-asserted-by":"publisher","unstructured":"Timcenko M, Lyons
+        JA, Januliene D et al (2019) Structure and autoregulation of a P4-ATPase lipid
+        flippase. Nature. https:\/\/doi.org\/10.1038\/s41586-019-1344-7","key":"9_CR87","DOI":"10.1038\/s41586-019-1344-7"},{"doi-asserted-by":"publisher","unstructured":"Booth
         DS, Avila-Sakar A, Cheng Y (2011) Visualizing proteins and macromolecular
         complexes by negative stain EM: from grid preparation to image acquisition.
-        J Vis Exp. https:\/\/doi.org\/10.3791\/3227","DOI":"10.3791\/3227"},{"key":"9_CR89","doi-asserted-by":"publisher","first-page":"23","DOI":"10.1251\/bpo70","volume":"6","author":"M
+        J Vis Exp. https:\/\/doi.org\/10.3791\/3227","key":"9_CR88","DOI":"10.3791\/3227"},{"key":"9_CR89","doi-asserted-by":"publisher","first-page":"23","DOI":"10.1251\/bpo70","volume":"6","author":"M
         Ohi","year":"2004","unstructured":"Ohi M, Li Y, Cheng Y, Walz T (2004) Negative
         staining and image classification \u2013 powerful tools in modern electron
         microscopy. Biol Proced Online 6:23\u201334. https:\/\/doi.org\/10.1251\/bpo70","journal-title":"Biol
@@ -594,9 +604,9 @@ http_interactions:
         et al (2005) Classification and three-dimensional reconstruction of unevenly
         distributed or symmetry mismatched features of icosahedral particles. J Struct
         Biol 150:332\u2013339. https:\/\/doi.org\/10.1016\/j.jsb.2005.03.009","journal-title":"J
-        Struct Biol"},{"key":"9_CR91","doi-asserted-by":"publisher","unstructured":"Serna
-        M (2019) Hands on methods for high resolution cryo-electron microscopy structures
-        of heterogeneous macromolecular complexes. Front Mol Biosci 6. https:\/\/doi.org\/10.3389\/fmolb.2019.00033","DOI":"10.3389\/fmolb.2019.00033"},{"key":"9_CR92","doi-asserted-by":"publisher","first-page":"53","DOI":"10.1038\/nmeth1139","volume":"5","author":"B
+        Struct Biol"},{"doi-asserted-by":"publisher","unstructured":"Serna M (2019)
+        Hands on methods for high resolution cryo-electron microscopy structures of
+        heterogeneous macromolecular complexes. Front Mol Biosci 6. https:\/\/doi.org\/10.3389\/fmolb.2019.00033","key":"9_CR91","DOI":"10.3389\/fmolb.2019.00033"},{"key":"9_CR92","doi-asserted-by":"publisher","first-page":"53","DOI":"10.1038\/nmeth1139","volume":"5","author":"B
         Kastner","year":"2008","unstructured":"Kastner B, Fischer N, Golas MM et al
         (2008) GraFix: sample preparation for single-particle electron cryomicroscopy.
         Nat Methods 5:53\u201355. https:\/\/doi.org\/10.1038\/nmeth1139","journal-title":"Nat
@@ -615,14 +625,14 @@ http_interactions:
         Methods"},{"key":"9_CR96","doi-asserted-by":"publisher","first-page":"5","DOI":"10.1107\/S205225251801463X","volume":"6","author":"J
         Zivanov","year":"2019","unstructured":"Zivanov J, Nakane T, Scheres SHW (2019)
         A Bayesian approach to beam-induced motion correction in cryo-EM single-particle
-        analysis. IUCrJ 6:5\u201317. https:\/\/doi.org\/10.1107\/S205225251801463X","journal-title":"IUCrJ"},{"key":"9_CR97","doi-asserted-by":"publisher","unstructured":"Pettersen
+        analysis. IUCrJ 6:5\u201317. https:\/\/doi.org\/10.1107\/S205225251801463X","journal-title":"IUCrJ"},{"doi-asserted-by":"publisher","unstructured":"Pettersen
         EF, Goddard TD, Huang CC, et al (2004) UCSF Chimera \u2013 A visualization
         system for exploratory research and analysis. J Comput Chem 25:1605\u20131612.
-        https:\/\/doi.org\/10.1002\/jcc.20084","DOI":"10.1002\/jcc.20084"},{"key":"9_CR98","doi-asserted-by":"publisher","unstructured":"Punjani
+        https:\/\/doi.org\/10.1002\/jcc.20084","key":"9_CR97","DOI":"10.1002\/jcc.20084"},{"doi-asserted-by":"publisher","unstructured":"Punjani
         A, Zhang H, Fleet DJ (2020) Non-uniform refinement: adaptive regularization
         improves single-particle cryo-EM reconstruction. Nat Methods 17:1214\u20131221.
-        https:\/\/doi.org\/10.1038\/s41592-020-00990-8","DOI":"10.1038\/s41592-020-00990-8"}],"container-title":["Methods
-        in Molecular Biology","Structure and Function of Membrane Proteins"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-0716-1394-8_9","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,20]],"date-time":"2021-04-20T18:57:40Z","timestamp":1618945060000},"score":30.718086,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-1-0716-1394-8_9"}},"issued":{"date-parts":[[2021]]},"ISBN":["9781071613931","9781071613948"],"references-count":98,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-0716-1394-8_9","ISSN":["1064-3745","1940-6029"],"issn-type":[{"value":"1064-3745","type":"print"},{"value":"1940-6029","type":"electronic"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
+        https:\/\/doi.org\/10.1038\/s41592-020-00990-8","key":"9_CR98","DOI":"10.1038\/s41592-020-00990-8"}],"container-title":["Methods
+        in Molecular Biology","Structure and Function of Membrane Proteins"],"language":"en","link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-0716-1394-8_9","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2021,4,20]],"date-time":"2021-04-20T14:57:40Z","timestamp":1618930660000},"score":29.972343,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-1-0716-1394-8_9"}},"issued":{"date-parts":[[2021]]},"ISBN":["9781071613931","9781071613948"],"references-count":98,"URL":"https:\/\/doi.org\/10.1007\/978-1-0716-1394-8_9","ISSN":["1064-3745","1940-6029"],"issn-type":[{"type":"print","value":"1064-3745"},{"type":"electronic","value":"1940-6029"}],"published":{"date-parts":[[2021]]},"assertion":[{"value":"21
         April 2021","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
         History"}}]},{"indexed":{"date-parts":[[2024,2,14]],"date-time":"2024-02-14T19:43:36Z","timestamp":1707939816452},"reference-count":45,"publisher":"Elsevier","license":[{"start":{"date-parts":[[2014,1,1]],"date-time":"2014-01-01T00:00:00Z","timestamp":1388534400000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2014]]},"DOI":"10.1016\/b978-0-12-800144-8.00002-1","type":"book-chapter","created":{"date-parts":[[2014,7,25]],"date-time":"2014-07-25T01:04:18Z","timestamp":1406250258000},"page":"113-137","source":"Crossref","is-referenced-by-count":20,"title":["Single-Particle
         Cryo-Electron Microscopy (Cryo-EM)"],"prefix":"10.1016","author":[{"given":"David","family":"Agard","sequence":"first","affiliation":[]},{"given":"Yifan","family":"Cheng","sequence":"additional","affiliation":[]},{"given":"Robert
@@ -715,187 +725,13 @@ http_interactions:
         of Structural Biology"},{"key":"10.1016\/B978-0-12-800144-8.00002-1_bib45","doi-asserted-by":"crossref","first-page":"e46039","DOI":"10.1371\/journal.pone.0046039","article-title":"N-terminal
         T4 lysozyme fusion facilitates crystallization of a G protein\u2013coupled
         receptor","volume":"7","author":"Zou","year":"2012","journal-title":"Plos
-        One"}],"container-title":["Advances in Imaging and Electron Physics"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780128001448000021?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780128001448000021?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2018,10,1]],"date-time":"2018-10-01T10:27:40Z","timestamp":1538389660000},"score":30.318516,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780128001448000021"}},"issued":{"date-parts":[[2014]]},"references-count":45,"URL":"http:\/\/dx.doi.org\/10.1016\/b978-0-12-800144-8.00002-1","ISSN":["1076-5670"],"issn-type":[{"value":"1076-5670","type":"print"}],"published":{"date-parts":[[2014]]}},{"indexed":{"date-parts":[[2024,5,15]],"date-time":"2024-05-15T01:17:18Z","timestamp":1715735838911},"publisher-location":"New
+        One"}],"container-title":["Advances in Imaging and Electron Physics"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780128001448000021?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:B9780128001448000021?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2018,10,1]],"date-time":"2018-10-01T10:27:40Z","timestamp":1538389660000},"score":29.955246,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/B9780128001448000021"}},"issued":{"date-parts":[[2014]]},"references-count":45,"URL":"https:\/\/doi.org\/10.1016\/b978-0-12-800144-8.00002-1","ISSN":["1076-5670"],"issn-type":[{"value":"1076-5670","type":"print"}],"published":{"date-parts":[[2014]]}},{"indexed":{"date-parts":[[2024,9,13]],"date-time":"2024-09-13T10:59:09Z","timestamp":1726225149866},"publisher-location":"New
         York","edition-number":"1","reference-count":0,"publisher":"Jenny Stanford
-        Publishing","isbn-type":[{"value":"9781003456100","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,7,28]]},"DOI":"10.1201\/9781003456100-8","type":"book-chapter","created":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:04Z","timestamp":1690532704000},"page":"127-146","source":"Crossref","is-referenced-by-count":0,"title":["Continuous
+        Publishing","isbn-type":[{"type":"electronic","value":"9781003456100"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,7,28]]},"DOI":"10.1201\/9781003456100-8","type":"book-chapter","created":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:04Z","timestamp":1690532704000},"page":"127-146","source":"Crossref","is-referenced-by-count":0,"title":["Continuous
         Changes in Structure Mapped by Manifold Embedding of Single-Particle Data
         in Cryo-EM"],"prefix":"10.1201","author":[{"given":"Joachim","family":"Frank","sequence":"first","affiliation":[]},{"given":"Abbas","family":"Ourmazd","sequence":"additional","affiliation":[]}],"member":"301","container-title":["Novel
-        Developments in Cryo\u2010EM of Biological Molecules"],"language":"en","deposited":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:33Z","timestamp":1690532733000},"score":29.663445,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003456100\/chapters\/10.1201\/9781003456100-8"}},"issued":{"date-parts":[[2023,7,28]]},"ISBN":["9781003456100"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781003456100-8","published":{"date-parts":[[2023,7,28]]}},{"indexed":{"date-parts":[[2023,2,17]],"date-time":"2023-02-17T05:17:38Z","timestamp":1676611058445},"publisher-location":"New
-        York, NY","reference-count":50,"publisher":"Springer New York","isbn-type":[{"value":"9781461495208","type":"print"},{"value":"9781461495215","type":"electronic"}],"license":[{"start":{"date-parts":[[2013,10,29]],"date-time":"2013-10-29T00:00:00Z","timestamp":1383004800000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2013,10,29]],"date-time":"2013-10-29T00:00:00Z","timestamp":1383004800000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2014]]},"DOI":"10.1007\/978-1-4614-9521-5_3","type":"book-chapter","created":{"date-parts":[[2014,1,28]],"date-time":"2014-01-28T15:52:34Z","timestamp":1390924354000},"page":"43-66","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":1,"title":["Fully
-        Automated Particle Selection and Verification in Single-Particle Cryo-EM"],"prefix":"10.1007","author":[{"given":"Robert","family":"Langlois","sequence":"first","affiliation":[]},{"given":"Jordan
-        T.","family":"Ash","sequence":"additional","affiliation":[]},{"given":"Jesper","family":"Pallesen","sequence":"additional","affiliation":[]},{"given":"Joachim","family":"Frank","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2013,10,29]]},"reference":[{"issue":"3","key":"3_CR1","doi-asserted-by":"publisher","first-page":"211","DOI":"10.1016\/j.jsb.2005.09.007","volume":"152","author":"U
-        Adiga","year":"2005","unstructured":"Adiga U, Baxter WT, Hall RJ, Rockel B,
-        Rath BK, Frank J, Glaeser R (2005) Particle picking by segmentation: A comparative
-        study with SPIDER-based manual particle picking. J Struct Biol 152(3):211\u2013220","journal-title":"J
-        Struct Biol"},{"issue":"3","key":"3_CR2","doi-asserted-by":"publisher","first-page":"319","DOI":"10.1016\/j.jsb.2011.05.017","volume":"175","author":"P
-        Arbel\u00e1ez","year":"2011","unstructured":"Arbel\u00e1ez P, Han BG, Typke
-        D, Lim J, Glaeser RM, Malik J (2011) Experimental evaluation of support vector
-        machine-based and correlation-based approaches to automatic particle selection.
-        J Struct Biol 175(3):319\u2013328","journal-title":"J Struct Biol"},{"key":"3_CR3","first-page":"93","volume-title":"LOF:
-        Identifying density-based local outliers","author":"M Breunig","year":"2000","unstructured":"Breunig
-        M, Kriegel HP, Ng RT, Sander J (2000) LOF: Identifying density-based local
-        outliers. In: ACM sigmoid international conference on management of data.
-        ACM, New York, pp 93\u2013104"},{"issue":"2","key":"3_CR4","doi-asserted-by":"publisher","first-page":"121","DOI":"10.1023\/A:1009715923555","volume":"2","author":"CC
-        Burges","year":"1998","unstructured":"Burges CC (1998) A tutorial on support
-        vector machines for pattern recognition. Data Min Knowl Discov 2(2):121\u2013167","journal-title":"Data
-        Min Knowl Discov"},{"issue":"1","key":"3_CR5","doi-asserted-by":"publisher","first-page":"168","DOI":"10.1016\/j.jsb.2006.06.001","volume":"157","author":"JZ
-        Chen","year":"2007","unstructured":"Chen JZ, Grigorieff N (2007) SIGNATURE:
-        A single-particle selection system for molecular electron microscopy. J Struct
-        Biol 157(1):168\u2013173","journal-title":"J Struct Biol"},{"issue":"3","key":"3_CR6","first-page":"273","volume":"20","author":"C
-        Cortes","year":"1995","unstructured":"Cortes C, Vapnik V (1995) Support-vector
-        networks. Mach Learn 20(3):273\u2013297","journal-title":"Mach Learn"},{"key":"3_CR7","doi-asserted-by":"crossref","unstructured":"Crow
-        F (1984) Summed-area tables for texture mapping. In: Proceedings of the 11th
-        annual conference on computer graphics and interactive techniques, pp\u00a0207\u2013212","DOI":"10.1145\/964965.808600"},{"issue":"18","key":"3_CR8","doi-asserted-by":"publisher","first-page":"5982","DOI":"10.1093\/nar\/gkq411","volume":"38","author":"H
-        David-Eden","year":"2010","unstructured":"David-Eden H, Mankin AS, Mandel-Gutfreund
-        Y (2010) Structural signatures of antibiotic binding sites on the ribosome.
-        Nucleic Acids Res 38(18):5982\u20135994","journal-title":"Nucleic Acids Res"},{"key":"3_CR9","doi-asserted-by":"publisher","DOI":"10.1093\/acprof:oso\/9780195182187.001.0001","volume-title":"Three-dimensional
-        electron microscopy of macromolecular assemblies","author":"J Frank","year":"2006","unstructured":"Frank
-        J (2006) Three-dimensional electron microscopy of macromolecular assemblies.
-        Oxford University Press, New York"},{"issue":"4","key":"3_CR10","doi-asserted-by":"publisher","first-page":"343","DOI":"10.1016\/S0304-3991(81)80236-7","volume":"6","author":"J
-        Frank","year":"1981","unstructured":"Frank J, Shimkin B, Dowse H (1981) Spider\u2013modular
-        software system for electron image processing. Ultramicroscopy 6(4):343\u2013357","journal-title":"Ultramicroscopy"},{"key":"3_CR11","volume-title":"Experiments
-        with a new boosting algorithm","author":"Y Freund","year":"1996","unstructured":"Freund
-        Y, Schapire RE (1996) Experiments with a new boosting algorithm. In: International
-        conference on machine learning, San Francisco"},{"issue":"1\u20132","key":"3_CR12","doi-asserted-by":"publisher","first-page":"19","DOI":"10.1016\/j.jsb.2003.10.024","volume":"145","author":"RJ
-        Hall","year":"2004","unstructured":"Hall RJ, Patwardhan A (2004) A two step
-        approach for semi-automated particle selection from low contrast cryo-electron
-        micrographs. J Struct Biol 145(1\u20132):19\u201328","journal-title":"J Struct
-        Biol"},{"issue":"2","key":"3_CR13","doi-asserted-by":"publisher","first-page":"187","DOI":"10.1016\/0304-3991(81)90059-0","volume":"6","author":"M
-        van Heel","year":"1981","unstructured":"van Heel M, Frank J (1981) Use of
-        multivariate statistics in analysing the images of biological macromolecules.
-        Ultramicroscopy 6(2):187\u201394","journal-title":"Ultramicroscopy"},{"issue":"1","key":"3_CR14","doi-asserted-by":"publisher","first-page":"3","DOI":"10.1016\/j.jsb.2006.06.006","volume":"157","author":"JB
-        Heymann","year":"2007","unstructured":"Heymann JB, Belnap DM (2007) Bsoft:
-        Image processing and molecular modeling for electron microscopy. J Struct
-        Biol 157(1):3\u201318","journal-title":"J Struct Biol"},{"key":"3_CR15","volume-title":"Understanding
-        robust and exploratory data analysis","author":"DC Hoaglin","year":"1983","unstructured":"Hoaglin
-        DC, Mosteller F, Tukey JW (1983) Understanding robust and exploratory data
-        analysis. Wiley, New York"},{"issue":"2","key":"3_CR16","doi-asserted-by":"publisher","first-page":"85","DOI":"10.1023\/B:AIRE.0000045502.10941.a9","volume":"22","author":"V
-        Hodge","year":"2004","unstructured":"Hodge V, Austin J (2004) A survey of
-        outlier detection methodologies. Artif Intell Rev 22(2):85\u2013126","journal-title":"Artif
-        Intell Rev"},{"issue":"1","key":"3_CR17","doi-asserted-by":"publisher","first-page":"47","DOI":"10.1016\/j.jsb.2006.07.003","volume":"157","author":"M
-        Hohn","year":"2007","unstructured":"Hohn M, Tang G, Goodyear G, Baldwin PR,
-        Huang Z, Penczek PA, Yang C, Glaeser RM, Adams PD, Ludtke SJ (2007) SPARX,
-        a new environment for cryo-EM image processing. J\u00a0Struct Biol 157(1):47\u201355","journal-title":"J
-        Struct Biol"},{"issue":"1","key":"3_CR18","doi-asserted-by":"publisher","first-page":"56","DOI":"10.1016\/j.jsb.2012.04.012","volume":"179","author":"A
-        Kucukelbir","year":"2012","unstructured":"Kucukelbir A, Sigworth FJ, Tagare
-        HD (2012) A bayesian adaptive basis algorithm for single particle reconstruction.
-        J Struct Biol 179(1):56\u201367","journal-title":"J Struct Biol"},{"issue":"1","key":"3_CR19","doi-asserted-by":"publisher","first-page":"95","DOI":"10.1016\/j.jsb.2009.01.002","volume":"166","author":"GC
-        Lander","year":"2009","unstructured":"Lander GC, Stagg SM, Voss NR, Cheng
-        A, Fellmann D, Pulokas J, Yoshioka C, Irving C, Mulder A, Lau PW, Lyumkis
-        D, Potter CS, Carragher B (2009) Appion: An integrated, database-driven pipeline
-        to facilitate EM image processing. J Struct Biol 166(1):95\u2013102","journal-title":"J
-        Struct Biol"},{"issue":"3","key":"3_CR20","doi-asserted-by":"publisher","first-page":"353","DOI":"10.1016\/j.jsb.2011.06.004","volume":"175","author":"R
-        Langlois","year":"2011","unstructured":"Langlois R, Pallesen J, Frank J (2011)
-        Reference-free particle selection enhanced with semi-supervised machine learning
-        for cryo-electron microscopy. J Struct Biol 175(3):353\u2013361","journal-title":"J
-        Struct Biol"},{"issue":"1","key":"3_CR21","doi-asserted-by":"publisher","first-page":"103","DOI":"10.1006\/jmbi.1998.1859","volume":"280","author":"A
-        Malhotra","year":"1998","unstructured":"Malhotra A, Penczek P, Agrawal RK,
-        Gabashvili IS, Grassucci RA, J\u00fcnemann R, Burkhardt N, Nierhaus KH, Frank
-        J (1998) Escherichia coli 70S ribosome at 15\u2009\u00c5 resolution by cryo-electron
-        microscopy: localization of fmet-tRNAfMet and fitting of L1 protein. J Mol
-        Biol 280(1):103\u2013116","journal-title":"J Mol Biol"},{"issue":"1\u20132","key":"3_CR22","doi-asserted-by":"publisher","first-page":"52","DOI":"10.1016\/j.jsb.2003.11.005","volume":"145","author":"SP
-        Mallick","year":"2004","unstructured":"Mallick SP, Zhu Y, Kriegman D (2004)
-        Detecting particles in cryo-EM micrographs using learned features. J Struct
-        Biol 145(1\u20132):52\u201362","journal-title":"J Struct Biol"},{"key":"3_CR23","doi-asserted-by":"crossref","unstructured":"Newman
-        JD, Van\u00a0Vranken RC (1990) Shift-invariant imaging using the bispectrum.
-        In: 5th ASSP workshop on spectrum estimation and modeling, p 237","DOI":"10.1109\/SPECT.1990.205582"},{"issue":"2\u20133","key":"3_CR24","doi-asserted-by":"publisher","first-page":"90","DOI":"10.1006\/jsbi.2001.4348","volume":"133","author":"WV
-        Nicholson","year":"2001","unstructured":"Nicholson WV, Glaeser RM (2001) Review:
-        Automatic particle detection in electron microscopy. J Struct Biol 133(2\u20133):90\u2013101","journal-title":"J
-        Struct Biol"},{"key":"3_CR25","unstructured":"Nikias, C., Petropulu, A.: Higher
-        Order Spectra Analysis: A Non-Linear Signal Processing Framework. Prentice
-        Hall PTR (1993)"},{"issue":"1\u20132","key":"3_CR26","doi-asserted-by":"publisher","first-page":"63","DOI":"10.1016\/S1047-8477(03)00139-4","volume":"145","author":"T
-        Ogura","year":"2004","unstructured":"Ogura T, Sato C (2004) Automatic particle
-        pickup method using a neural network has high accuracy by applying an initial
-        weight derived from eigenimages: A new reference free method for single-particle
-        analysis. J Struct Biol 145(1\u20132):63\u201375","journal-title":"J Struct
-        Biol"},{"key":"3_CR27","doi-asserted-by":"crossref","unstructured":"Pallesen
-        J, Hashem Y, Korkmaz G, Koripella R, Huang C, Ehrenberg M, Sanyal S, Frank
-        J (2013) Cryo-EM visualization of the ribosome in termination complex with
-        apo-RF3 and RF1. eLife 2","DOI":"10.7554\/eLife.00411"},{"key":"3_CR28","doi-asserted-by":"crossref","unstructured":"Papageorgiou
-        C, Oren M, Poggio T (1998) A general framework for object detection. In: 6th
-        international conference on computer vision, 1998, pp 555\u2013562","DOI":"10.1109\/ICCV.1998.710772"},{"issue":"1","key":"3_CR29","doi-asserted-by":"publisher","first-page":"33","DOI":"10.1016\/0304-3991(92)90233-A","volume":"40","author":"P
-        Penczek","year":"1992","unstructured":"Penczek P, Radermacher M, Frank J (1992)
-        Three-dimensional reconstruction of single particles embedded in ice. Ultramicroscopy
-        40(1):33\u201353","journal-title":"Ultramicroscopy"},{"key":"3_CR30","volume-title":"Sparse
-        feature learning for deep belief networks","author":"M Ranzato","year":"2007","unstructured":"Ranzato
-        M, Boureau Yl, Lecun Y (2007) Sparse feature learning for deep belief networks.
-        In: Advances in neural information processing systems. MIT Press, Cambridge"},{"issue":"3\u20134","key":"3_CR31","doi-asserted-by":"publisher","first-page":"225","DOI":"10.1016\/S0304-3991(02)00333-9","volume":"94","author":"AM
-        Roseman","year":"2003","unstructured":"Roseman AM (2003) Particle finding
-        in electron micrographs using a fast local correlation algorithm. Ultramicroscopy
-        94(3\u20134):225\u2013236","journal-title":"Ultramicroscopy"},{"issue":"4","key":"3_CR32","doi-asserted-by":"publisher","first-page":"721","DOI":"10.1016\/j.jmb.2003.07.013","volume":"333","author":"PB
-        Rosenthal","year":"2003","unstructured":"Rosenthal PB, Henderson R (2003)
-        Optimal determination of particle orientation, absolute hand, and contrast
-        loss in single-particle electron cryomicroscopy. J Mol Biol 333(4):721\u2013745","journal-title":"J
-        Mol Biol"},{"issue":"3","key":"3_CR33","doi-asserted-by":"publisher","first-page":"519","DOI":"10.1016\/j.jsb.2012.09.006","volume":"180","author":"SHW
-        Scheres","year":"2012","unstructured":"Scheres SHW (2012) RELION: Implementation
-        of a Bayesian approach to cryo-EM structure determination. J Struct Biol 180(3):519\u2013530","journal-title":"J
-        Struct Biol"},{"issue":"12","key":"3_CR34","doi-asserted-by":"publisher","first-page":"1941","DOI":"10.1038\/nprot.2008.156","volume":"3","author":"TR
-        Shaikh","year":"2008","unstructured":"Shaikh TR, Gao H, Baxter WT, Asturias
-        FJ, Boisset N, Leith A, Frank J (2008) SPIDER image processing for single-particle
-        reconstruction of biological macromolecules from electron micrographs. Nat
-        Protoc 3(12):1941\u20131974","journal-title":"Nat Protoc"},{"issue":"1\u20132","key":"3_CR35","doi-asserted-by":"publisher","first-page":"111","DOI":"10.1016\/j.jsb.2003.10.025","volume":"145","author":"FJ
-        Sigworth","year":"2004","unstructured":"Sigworth FJ (2004) Classical detection
-        theory and the cryo-EM particle selection problem. J\u00a0Struct Biol 145(1\u20132):111\u2013122","journal-title":"J
-        Struct Biol"},{"issue":"1\u20132","key":"3_CR36","doi-asserted-by":"publisher","first-page":"123","DOI":"10.1016\/j.jsb.2003.11.028","volume":"145","author":"V
-        Singh","year":"2004","unstructured":"Singh V, Marinescu DC, Baker TS (2004)
-        Image segmentation for automatic particle identification in electron micrographs
-        based on hidden Markov random field models and expectation maximization. J
-        Struct Biol 145(1\u20132):123\u2013141","journal-title":"J Struct Biol"},{"issue":"2","key":"3_CR37","doi-asserted-by":"publisher","first-page":"194","DOI":"10.1016\/j.jsb.2004.06.006","volume":"148","author":"COS
-        Sorzano","year":"2004","unstructured":"Sorzano COS, Marabini R, Vel\u00e1zquez-Muriel
-        J, Bilbao-Castro JR, Scheres SHW, Carazo JM, Pascual-Montano A (2004) XMIPP:
-        A new generation of an open-source image processing package for electron microscopy.
-        J Struct Biol 148(2):194\u2013204","journal-title":"J Struct Biol"},{"issue":"3","key":"3_CR38","doi-asserted-by":"publisher","first-page":"252","DOI":"10.1016\/j.jsb.2009.06.011","volume":"167","author":"COS
-        Sorzano","year":"2009","unstructured":"Sorzano COS, Recarte E, Alcorlo M,
-        Bilbao-Castro JR, San-Martin C, Marabini R, Carazo JM (2009) Automatic particle
-        selection from electron micrographs using machine learning techniques. J Struct
-        Biol 167(3):252\u2013260","journal-title":"J Struct Biol"},{"issue":"1","key":"3_CR39","doi-asserted-by":"publisher","first-page":"38","DOI":"10.1016\/j.jsb.2006.05.009","volume":"157","author":"G
-        Tang","year":"2007","unstructured":"Tang G, Peng L, Baldwin PR, Mann DS, Jiang
-        W, Rees I, Ludtke SJ (2007) EMAN2: An extensible image processing suite for
-        electron microscopy. J Struct Biol 157(1):38\u201346","journal-title":"J Struct
-        Biol"},{"issue":"1\u20132","key":"3_CR40","doi-asserted-by":"publisher","first-page":"142","DOI":"10.1016\/j.jsb.2003.10.026","volume":"145","author":"PS
-        Umesh Adiga","year":"2004","unstructured":"Umesh\u00a0Adiga PS, Malladi R,
-        Baxter W, Glaeser RM (2004) A binary segmentation approach for boxing ribosome
-        particles in cryo EM micrographs. J Struct Biol 145(1\u20132):142\u2013151","journal-title":"J
-        Struct Biol"},{"key":"3_CR41","doi-asserted-by":"crossref","unstructured":"Viola
-        P, Jones M (2001) Robust real-time face detection. In: 8th IEEE international
-        conference on computer vision, vol\u00a02, pp 747\u2013747","DOI":"10.1109\/ICCV.2001.937709"},{"issue":"1\u20132","key":"3_CR42","doi-asserted-by":"publisher","first-page":"152","DOI":"10.1016\/j.jsb.2003.11.026","volume":"145","author":"N
-        Volkmann","year":"2004","unstructured":"Volkmann N (2004) An approach to automated
-        particle picking from electron micrographs based on reduced representation
-        templates. J Struct Biol 145(1\u20132):152\u2013156","journal-title":"J Struct
-        Biol"},{"issue":"2","key":"3_CR43","doi-asserted-by":"publisher","first-page":"205","DOI":"10.1016\/j.jsb.2009.01.004","volume":"166","author":"NR
-        Voss","year":"2009","unstructured":"Voss NR, Yoshioka CK, Radermacher M, Potter
-        CS, Carragher B (2009) DoG Picker and TiltPicker: Software tools to facilitate
-        particle selection in single particle electron microscopy. J Struct Biol 166(2):205\u2013213","journal-title":"J
-        Struct Biol"},{"issue":"2","key":"3_CR44","first-page":"101","volume":"22","author":"D
-        Wang","year":"2001","unstructured":"Wang D (2001) Unsupervised learning: Foundations
-        of neural computation. AI Mag 22(2):101\u2013102","journal-title":"AI Mag"},{"issue":"1\u20132","key":"3_CR45","doi-asserted-by":"publisher","first-page":"157","DOI":"10.1016\/j.jsb.2003.05.001","volume":"145","author":"HC
-        Wong","year":"2004","unstructured":"Wong HC, Chen J, Mouche F, Rouiller I,
-        Bern M (2004) Model-based particle picking for cryo-electron microscopy. J
-        Struct Biol 145(1\u20132):157\u2013167","journal-title":"J Struct Biol"},{"issue":"1","key":"3_CR46","doi-asserted-by":"publisher","first-page":"174","DOI":"10.1016\/j.jsb.2006.04.006","volume":"157","author":"D
-        Woolford","year":"2007","unstructured":"Woolford D, Ericksson G, Rothnagel
-        R, Muller D, Landsberg MJ, Pantelic RS, McDowall A, Pailthorpe B, Young PR,
-        Hankamer B, Banks J (2007) SwarmPS: Rapid, semi-automated single particle
-        selection software. J Struct Biol 157(1):174\u2013188","journal-title":"J
-        Struct Biol"},{"issue":"1","key":"3_CR47","doi-asserted-by":"publisher","first-page":"122","DOI":"10.1016\/j.jsb.2007.03.003","volume":"159","author":"D
-        Woolford","year":"2007","unstructured":"Woolford D, Hankamer B, Ericksson
-        G (2007) The laplacian of gaussian and arbitrary z-crossings approach applied
-        to automated single particle reconstruction. J Struct Biol 159(1):122\u2013134","journal-title":"J
-        Struct Biol"},{"issue":"1\u20132","key":"3_CR48","doi-asserted-by":"publisher","first-page":"168","DOI":"10.1016\/j.jsb.2003.10.027","volume":"145","author":"Z
-        Yu","year":"2004","unstructured":"Yu Z, Bajaj C (2004) Detecting circular
-        and rectangular particles based on geometric feature detection in electron
-        micrographs. J Struct Biol 145(1\u20132):168\u2013180","journal-title":"J
-        Struct Biol"},{"issue":"5","key":"3_CR49","doi-asserted-by":"publisher","first-page":"871","DOI":"10.1364\/JOSAA.30.000871","volume":"30","author":"Z
-        Zhao","year":"2012","unstructured":"Zhao Z, Singer A (2012) Fourier-bessel
-        rotational invariant eigenimages. J Opt Soc Am A 30(5):871\u2013877","journal-title":"J
-        Opt Soc Am A"},{"key":"3_CR50","doi-asserted-by":"publisher","first-page":"234","DOI":"10.1016\/j.jsb.2012.12.010","volume":"181","author":"J
-        Zhao","year":"2013","unstructured":"Zhao J, Brubaker MA, Rubinstein JL (2013)
-        TMaCS: A hybrid template matching and classification system for partially-automated
-        particle selection. J Struct Biol 181(0):234\u2013242","journal-title":"J
-        Struct Biol"}],"container-title":["Applied and Numerical Harmonic Analysis","Computational
-        Methods for Three-Dimensional Microscopy Reconstruction"],"link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4614-9521-5_3","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,2,16]],"date-time":"2023-02-16T21:55:30Z","timestamp":1676584530000},"score":28.93712,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-1-4614-9521-5_3"}},"issued":{"date-parts":[[2013,10,29]]},"ISBN":["9781461495208","9781461495215"],"references-count":50,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-4614-9521-5_3","ISSN":["2296-5009","2296-5017"],"issn-type":[{"value":"2296-5009","type":"print"},{"value":"2296-5017","type":"electronic"}],"published":{"date-parts":[[2013,10,29]]},"assertion":[{"value":"29
-        October 2013","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
-        History"}}]},{"indexed":{"date-parts":[[2023,11,28]],"date-time":"2023-11-28T08:53:51Z","timestamp":1701161631713},"publisher-location":"New
-        York, NY","reference-count":130,"publisher":"Springer US","isbn-type":[{"value":"9781071603727","type":"print"},{"value":"9781071603734","type":"electronic"}],"license":[{"start":{"date-parts":[[2020,1,1]],"date-time":"2020-01-01T00:00:00Z","timestamp":1577836800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,1,1]],"date-time":"2020-01-01T00:00:00Z","timestamp":1577836800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2020]]},"DOI":"10.1007\/978-1-0716-0373-4_17","type":"book-chapter","created":{"date-parts":[[2020,2,28]],"date-time":"2020-02-28T18:04:24Z","timestamp":1582913064000},"page":"245-273","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":6,"title":["Single-Particle
+        Developments in Cryo\u2010EM of Biological Molecules"],"language":"en","deposited":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:33Z","timestamp":1690532733000},"score":29.286598,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003456100\/chapters\/10.1201\/9781003456100-8"}},"issued":{"date-parts":[[2023,7,28]]},"ISBN":["9781003456100"],"references-count":0,"URL":"https:\/\/doi.org\/10.1201\/9781003456100-8","published":{"date-parts":[[2023,7,28]]}},{"indexed":{"date-parts":[[2024,9,11]],"date-time":"2024-09-11T15:35:03Z","timestamp":1726068903142},"publisher-location":"New
+        York, NY","reference-count":130,"publisher":"Springer US","isbn-type":[{"type":"print","value":"9781071603727"},{"type":"electronic","value":"9781071603734"}],"license":[{"start":{"date-parts":[[2020,1,1]],"date-time":"2020-01-01T00:00:00Z","timestamp":1577836800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"},{"start":{"date-parts":[[2020,1,1]],"date-time":"2020-01-01T00:00:00Z","timestamp":1577836800000},"content-version":"tdm","delay-in-days":0,"URL":"http:\/\/www.springer.com\/tdm"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2020]]},"DOI":"10.1007\/978-1-0716-0373-4_17","type":"book-chapter","created":{"date-parts":[[2020,2,28]],"date-time":"2020-02-28T18:04:24Z","timestamp":1582913064000},"page":"245-273","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":6,"title":["Single-Particle
         Cryo-EM of Membrane Proteins in Lipid Nanodiscs"],"prefix":"10.1007","author":[{"given":"Valeria","family":"Kalienkova","sequence":"first","affiliation":[]},{"given":"Carolina","family":"Alvadia","sequence":"additional","affiliation":[]},{"given":"Vanessa","family":"Clerico
         Mosina","sequence":"additional","affiliation":[]},{"given":"Cristina","family":"Paulino","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2020,2,29]]},"reference":[{"issue":"6178","key":"17_CR1","doi-asserted-by":"publisher","first-page":"1443","DOI":"10.1126\/science.1251652","volume":"343","author":"W
         K\u00fchlbrandt","year":"2014","unstructured":"K\u00fchlbrandt W (2014) The
@@ -1422,13 +1258,182 @@ http_interactions:
         SHW (2015) Sampling the conformational space of the catalytic subunit of human
         \u03b3-secretase. Elife 4:e11182. \nhttps:\/\/doi.org\/10.7554\/eLife.11182","journal-title":"Elife"}],"container-title":["Methods
         in Molecular Biology","Expression, Purification, and Structural Biology of
-        Membrane Proteins"],"link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-0716-0373-4_17","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,2,29]],"date-time":"2020-02-29T05:16:02Z","timestamp":1582953362000},"score":28.676071,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-0716-0373-4_17"}},"issued":{"date-parts":[[2020]]},"ISBN":["9781071603727","9781071603734"],"references-count":130,"URL":"http:\/\/dx.doi.org\/10.1007\/978-1-0716-0373-4_17","ISSN":["1064-3745","1940-6029"],"issn-type":[{"value":"1064-3745","type":"print"},{"value":"1940-6029","type":"electronic"}],"published":{"date-parts":[[2020]]},"assertion":[{"value":"29
+        Membrane Proteins"],"language":"en","link":[{"URL":"http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-0716-0373-4_17","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2020,2,29]],"date-time":"2020-02-29T05:16:02Z","timestamp":1582953362000},"score":28.285664,"resource":{"primary":{"URL":"http:\/\/link.springer.com\/10.1007\/978-1-0716-0373-4_17"}},"issued":{"date-parts":[[2020]]},"ISBN":["9781071603727","9781071603734"],"references-count":130,"URL":"https:\/\/doi.org\/10.1007\/978-1-0716-0373-4_17","ISSN":["1064-3745","1940-6029"],"issn-type":[{"type":"print","value":"1064-3745"},{"type":"electronic","value":"1940-6029"}],"published":{"date-parts":[[2020]]},"assertion":[{"value":"29
         February 2020","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
-        History"}}]},{"indexed":{"date-parts":[[2024,5,15]],"date-time":"2024-05-15T01:17:18Z","timestamp":1715735838472},"publisher-location":"New
-        York","edition-number":"1","reference-count":0,"publisher":"Jenny Stanford
-        Publishing","isbn-type":[{"value":"9781003456100","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,7,28]]},"DOI":"10.1201\/9781003456100-3","type":"book-chapter","created":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:04Z","timestamp":1690532704000},"page":"25-35","source":"Crossref","is-referenced-by-count":0,"title":["Advances
-        in the Field of Single-Particle Cryo-Electron Microscopy Over the Last Decade"],"prefix":"10.1201","author":[{"given":"Joachim","family":"Frank","sequence":"first","affiliation":[]}],"member":"301","container-title":["Novel
-        Developments in Cryo\u2010EM of Biological Molecules"],"language":"en","deposited":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:25Z","timestamp":1690532725000},"score":28.65523,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003456100\/chapters\/10.1201\/9781003456100-3"}},"issued":{"date-parts":[[2023,7,28]]},"ISBN":["9781003456100"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781003456100-3","published":{"date-parts":[[2023,7,28]]}},{"indexed":{"date-parts":[[2024,6,12]],"date-time":"2024-06-12T19:57:34Z","timestamp":1718222254102},"reference-count":30,"publisher":"Elsevier","isbn-type":[{"value":"9780323853767","type":"print"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-017"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-037"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-012"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-029"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-004"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1016\/bs.mie.2021.03.010","type":"book-chapter","created":{"date-parts":[[2021,4,27]],"date-time":"2021-04-27T14:59:26Z","timestamp":1619535566000},"page":"103-120","source":"Crossref","is-referenced-by-count":6,"title":["Structural
+        History"}}]},{"indexed":{"date-parts":[[2024,9,8]],"date-time":"2024-09-08T04:49:00Z","timestamp":1725770940173},"publisher-location":"New
+        York, NY","reference-count":50,"publisher":"Springer New York","isbn-type":[{"type":"print","value":"9781461495208"},{"type":"electronic","value":"9781461495215"}],"license":[{"start":{"date-parts":[[2013,10,29]],"date-time":"2013-10-29T00:00:00Z","timestamp":1383004800000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"},{"start":{"date-parts":[[2013,10,29]],"date-time":"2013-10-29T00:00:00Z","timestamp":1383004800000},"content-version":"vor","delay-in-days":0,"URL":"https:\/\/www.springernature.com\/gp\/researchers\/text-and-data-mining"}],"content-domain":{"domain":["link.springer.com"],"crossmark-restriction":false},"published-print":{"date-parts":[[2014]]},"DOI":"10.1007\/978-1-4614-9521-5_3","type":"book-chapter","created":{"date-parts":[[2014,1,28]],"date-time":"2014-01-28T10:52:34Z","timestamp":1390906354000},"page":"43-66","update-policy":"http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy","source":"Crossref","is-referenced-by-count":1,"title":["Fully
+        Automated Particle Selection and Verification in Single-Particle Cryo-EM"],"prefix":"10.1007","author":[{"given":"Robert","family":"Langlois","sequence":"first","affiliation":[]},{"given":"Jordan
+        T.","family":"Ash","sequence":"additional","affiliation":[]},{"given":"Jesper","family":"Pallesen","sequence":"additional","affiliation":[]},{"given":"Joachim","family":"Frank","sequence":"additional","affiliation":[]}],"member":"297","published-online":{"date-parts":[[2013,10,29]]},"reference":[{"issue":"3","key":"3_CR1","doi-asserted-by":"publisher","first-page":"211","DOI":"10.1016\/j.jsb.2005.09.007","volume":"152","author":"U
+        Adiga","year":"2005","unstructured":"Adiga U, Baxter WT, Hall RJ, Rockel B,
+        Rath BK, Frank J, Glaeser R (2005) Particle picking by segmentation: A comparative
+        study with SPIDER-based manual particle picking. J Struct Biol 152(3):211\u2013220","journal-title":"J
+        Struct Biol"},{"issue":"3","key":"3_CR2","doi-asserted-by":"publisher","first-page":"319","DOI":"10.1016\/j.jsb.2011.05.017","volume":"175","author":"P
+        Arbel\u00e1ez","year":"2011","unstructured":"Arbel\u00e1ez P, Han BG, Typke
+        D, Lim J, Glaeser RM, Malik J (2011) Experimental evaluation of support vector
+        machine-based and correlation-based approaches to automatic particle selection.
+        J Struct Biol 175(3):319\u2013328","journal-title":"J Struct Biol"},{"key":"3_CR3","first-page":"93","volume-title":"LOF:
+        Identifying density-based local outliers","author":"M Breunig","year":"2000","unstructured":"Breunig
+        M, Kriegel HP, Ng RT, Sander J (2000) LOF: Identifying density-based local
+        outliers. In: ACM sigmoid international conference on management of data.
+        ACM, New York, pp 93\u2013104"},{"issue":"2","key":"3_CR4","doi-asserted-by":"publisher","first-page":"121","DOI":"10.1023\/A:1009715923555","volume":"2","author":"CC
+        Burges","year":"1998","unstructured":"Burges CC (1998) A tutorial on support
+        vector machines for pattern recognition. Data Min Knowl Discov 2(2):121\u2013167","journal-title":"Data
+        Min Knowl Discov"},{"issue":"1","key":"3_CR5","doi-asserted-by":"publisher","first-page":"168","DOI":"10.1016\/j.jsb.2006.06.001","volume":"157","author":"JZ
+        Chen","year":"2007","unstructured":"Chen JZ, Grigorieff N (2007) SIGNATURE:
+        A single-particle selection system for molecular electron microscopy. J Struct
+        Biol 157(1):168\u2013173","journal-title":"J Struct Biol"},{"issue":"3","key":"3_CR6","first-page":"273","volume":"20","author":"C
+        Cortes","year":"1995","unstructured":"Cortes C, Vapnik V (1995) Support-vector
+        networks. Mach Learn 20(3):273\u2013297","journal-title":"Mach Learn"},{"doi-asserted-by":"crossref","unstructured":"Crow
+        F (1984) Summed-area tables for texture mapping. In: Proceedings of the 11th
+        annual conference on computer graphics and interactive techniques, pp\u00a0207\u2013212","key":"3_CR7","DOI":"10.1145\/964965.808600"},{"issue":"18","key":"3_CR8","doi-asserted-by":"publisher","first-page":"5982","DOI":"10.1093\/nar\/gkq411","volume":"38","author":"H
+        David-Eden","year":"2010","unstructured":"David-Eden H, Mankin AS, Mandel-Gutfreund
+        Y (2010) Structural signatures of antibiotic binding sites on the ribosome.
+        Nucleic Acids Res 38(18):5982\u20135994","journal-title":"Nucleic Acids Res"},{"key":"3_CR9","doi-asserted-by":"publisher","DOI":"10.1093\/acprof:oso\/9780195182187.001.0001","volume-title":"Three-dimensional
+        electron microscopy of macromolecular assemblies","author":"J Frank","year":"2006","unstructured":"Frank
+        J (2006) Three-dimensional electron microscopy of macromolecular assemblies.
+        Oxford University Press, New York"},{"issue":"4","key":"3_CR10","doi-asserted-by":"publisher","first-page":"343","DOI":"10.1016\/S0304-3991(81)80236-7","volume":"6","author":"J
+        Frank","year":"1981","unstructured":"Frank J, Shimkin B, Dowse H (1981) Spider\u2013modular
+        software system for electron image processing. Ultramicroscopy 6(4):343\u2013357","journal-title":"Ultramicroscopy"},{"volume-title":"Experiments
+        with a new boosting algorithm","year":"1996","author":"Y Freund","unstructured":"Freund
+        Y, Schapire RE (1996) Experiments with a new boosting algorithm. In: International
+        conference on machine learning, San Francisco","key":"3_CR11"},{"issue":"1\u20132","key":"3_CR12","doi-asserted-by":"publisher","first-page":"19","DOI":"10.1016\/j.jsb.2003.10.024","volume":"145","author":"RJ
+        Hall","year":"2004","unstructured":"Hall RJ, Patwardhan A (2004) A two step
+        approach for semi-automated particle selection from low contrast cryo-electron
+        micrographs. J Struct Biol 145(1\u20132):19\u201328","journal-title":"J Struct
+        Biol"},{"issue":"2","key":"3_CR13","doi-asserted-by":"publisher","first-page":"187","DOI":"10.1016\/0304-3991(81)90059-0","volume":"6","author":"M
+        van Heel","year":"1981","unstructured":"van Heel M, Frank J (1981) Use of
+        multivariate statistics in analysing the images of biological macromolecules.
+        Ultramicroscopy 6(2):187\u201394","journal-title":"Ultramicroscopy"},{"issue":"1","key":"3_CR14","doi-asserted-by":"publisher","first-page":"3","DOI":"10.1016\/j.jsb.2006.06.006","volume":"157","author":"JB
+        Heymann","year":"2007","unstructured":"Heymann JB, Belnap DM (2007) Bsoft:
+        Image processing and molecular modeling for electron microscopy. J Struct
+        Biol 157(1):3\u201318","journal-title":"J Struct Biol"},{"volume-title":"Understanding
+        robust and exploratory data analysis","year":"1983","author":"DC Hoaglin","unstructured":"Hoaglin
+        DC, Mosteller F, Tukey JW (1983) Understanding robust and exploratory data
+        analysis. Wiley, New York","key":"3_CR15"},{"issue":"2","key":"3_CR16","doi-asserted-by":"publisher","first-page":"85","DOI":"10.1023\/B:AIRE.0000045502.10941.a9","volume":"22","author":"V
+        Hodge","year":"2004","unstructured":"Hodge V, Austin J (2004) A survey of
+        outlier detection methodologies. Artif Intell Rev 22(2):85\u2013126","journal-title":"Artif
+        Intell Rev"},{"issue":"1","key":"3_CR17","doi-asserted-by":"publisher","first-page":"47","DOI":"10.1016\/j.jsb.2006.07.003","volume":"157","author":"M
+        Hohn","year":"2007","unstructured":"Hohn M, Tang G, Goodyear G, Baldwin PR,
+        Huang Z, Penczek PA, Yang C, Glaeser RM, Adams PD, Ludtke SJ (2007) SPARX,
+        a new environment for cryo-EM image processing. J\u00a0Struct Biol 157(1):47\u201355","journal-title":"J
+        Struct Biol"},{"issue":"1","key":"3_CR18","doi-asserted-by":"publisher","first-page":"56","DOI":"10.1016\/j.jsb.2012.04.012","volume":"179","author":"A
+        Kucukelbir","year":"2012","unstructured":"Kucukelbir A, Sigworth FJ, Tagare
+        HD (2012) A bayesian adaptive basis algorithm for single particle reconstruction.
+        J Struct Biol 179(1):56\u201367","journal-title":"J Struct Biol"},{"issue":"1","key":"3_CR19","doi-asserted-by":"publisher","first-page":"95","DOI":"10.1016\/j.jsb.2009.01.002","volume":"166","author":"GC
+        Lander","year":"2009","unstructured":"Lander GC, Stagg SM, Voss NR, Cheng
+        A, Fellmann D, Pulokas J, Yoshioka C, Irving C, Mulder A, Lau PW, Lyumkis
+        D, Potter CS, Carragher B (2009) Appion: An integrated, database-driven pipeline
+        to facilitate EM image processing. J Struct Biol 166(1):95\u2013102","journal-title":"J
+        Struct Biol"},{"issue":"3","key":"3_CR20","doi-asserted-by":"publisher","first-page":"353","DOI":"10.1016\/j.jsb.2011.06.004","volume":"175","author":"R
+        Langlois","year":"2011","unstructured":"Langlois R, Pallesen J, Frank J (2011)
+        Reference-free particle selection enhanced with semi-supervised machine learning
+        for cryo-electron microscopy. J Struct Biol 175(3):353\u2013361","journal-title":"J
+        Struct Biol"},{"issue":"1","key":"3_CR21","doi-asserted-by":"publisher","first-page":"103","DOI":"10.1006\/jmbi.1998.1859","volume":"280","author":"A
+        Malhotra","year":"1998","unstructured":"Malhotra A, Penczek P, Agrawal RK,
+        Gabashvili IS, Grassucci RA, J\u00fcnemann R, Burkhardt N, Nierhaus KH, Frank
+        J (1998) Escherichia coli 70S ribosome at 15\u2009\u00c5 resolution by cryo-electron
+        microscopy: localization of fmet-tRNAfMet and fitting of L1 protein. J Mol
+        Biol 280(1):103\u2013116","journal-title":"J Mol Biol"},{"issue":"1\u20132","key":"3_CR22","doi-asserted-by":"publisher","first-page":"52","DOI":"10.1016\/j.jsb.2003.11.005","volume":"145","author":"SP
+        Mallick","year":"2004","unstructured":"Mallick SP, Zhu Y, Kriegman D (2004)
+        Detecting particles in cryo-EM micrographs using learned features. J Struct
+        Biol 145(1\u20132):52\u201362","journal-title":"J Struct Biol"},{"doi-asserted-by":"crossref","unstructured":"Newman
+        JD, Van\u00a0Vranken RC (1990) Shift-invariant imaging using the bispectrum.
+        In: 5th ASSP workshop on spectrum estimation and modeling, p 237","key":"3_CR23","DOI":"10.1109\/SPECT.1990.205582"},{"issue":"2\u20133","key":"3_CR24","doi-asserted-by":"publisher","first-page":"90","DOI":"10.1006\/jsbi.2001.4348","volume":"133","author":"WV
+        Nicholson","year":"2001","unstructured":"Nicholson WV, Glaeser RM (2001) Review:
+        Automatic particle detection in electron microscopy. J Struct Biol 133(2\u20133):90\u2013101","journal-title":"J
+        Struct Biol"},{"unstructured":"Nikias, C., Petropulu, A.: Higher Order Spectra
+        Analysis: A Non-Linear Signal Processing Framework. Prentice Hall PTR (1993)","key":"3_CR25"},{"issue":"1\u20132","key":"3_CR26","doi-asserted-by":"publisher","first-page":"63","DOI":"10.1016\/S1047-8477(03)00139-4","volume":"145","author":"T
+        Ogura","year":"2004","unstructured":"Ogura T, Sato C (2004) Automatic particle
+        pickup method using a neural network has high accuracy by applying an initial
+        weight derived from eigenimages: A new reference free method for single-particle
+        analysis. J Struct Biol 145(1\u20132):63\u201375","journal-title":"J Struct
+        Biol"},{"doi-asserted-by":"crossref","unstructured":"Pallesen J, Hashem Y,
+        Korkmaz G, Koripella R, Huang C, Ehrenberg M, Sanyal S, Frank J (2013) Cryo-EM
+        visualization of the ribosome in termination complex with apo-RF3 and RF1.
+        eLife 2","key":"3_CR27","DOI":"10.7554\/eLife.00411"},{"doi-asserted-by":"crossref","unstructured":"Papageorgiou
+        C, Oren M, Poggio T (1998) A general framework for object detection. In: 6th
+        international conference on computer vision, 1998, pp 555\u2013562","key":"3_CR28","DOI":"10.1109\/ICCV.1998.710772"},{"issue":"1","key":"3_CR29","doi-asserted-by":"publisher","first-page":"33","DOI":"10.1016\/0304-3991(92)90233-A","volume":"40","author":"P
+        Penczek","year":"1992","unstructured":"Penczek P, Radermacher M, Frank J (1992)
+        Three-dimensional reconstruction of single particles embedded in ice. Ultramicroscopy
+        40(1):33\u201353","journal-title":"Ultramicroscopy"},{"volume-title":"Sparse
+        feature learning for deep belief networks","year":"2007","author":"M Ranzato","unstructured":"Ranzato
+        M, Boureau Yl, Lecun Y (2007) Sparse feature learning for deep belief networks.
+        In: Advances in neural information processing systems. MIT Press, Cambridge","key":"3_CR30"},{"issue":"3\u20134","key":"3_CR31","doi-asserted-by":"publisher","first-page":"225","DOI":"10.1016\/S0304-3991(02)00333-9","volume":"94","author":"AM
+        Roseman","year":"2003","unstructured":"Roseman AM (2003) Particle finding
+        in electron micrographs using a fast local correlation algorithm. Ultramicroscopy
+        94(3\u20134):225\u2013236","journal-title":"Ultramicroscopy"},{"issue":"4","key":"3_CR32","doi-asserted-by":"publisher","first-page":"721","DOI":"10.1016\/j.jmb.2003.07.013","volume":"333","author":"PB
+        Rosenthal","year":"2003","unstructured":"Rosenthal PB, Henderson R (2003)
+        Optimal determination of particle orientation, absolute hand, and contrast
+        loss in single-particle electron cryomicroscopy. J Mol Biol 333(4):721\u2013745","journal-title":"J
+        Mol Biol"},{"issue":"3","key":"3_CR33","doi-asserted-by":"publisher","first-page":"519","DOI":"10.1016\/j.jsb.2012.09.006","volume":"180","author":"SHW
+        Scheres","year":"2012","unstructured":"Scheres SHW (2012) RELION: Implementation
+        of a Bayesian approach to cryo-EM structure determination. J Struct Biol 180(3):519\u2013530","journal-title":"J
+        Struct Biol"},{"issue":"12","key":"3_CR34","doi-asserted-by":"publisher","first-page":"1941","DOI":"10.1038\/nprot.2008.156","volume":"3","author":"TR
+        Shaikh","year":"2008","unstructured":"Shaikh TR, Gao H, Baxter WT, Asturias
+        FJ, Boisset N, Leith A, Frank J (2008) SPIDER image processing for single-particle
+        reconstruction of biological macromolecules from electron micrographs. Nat
+        Protoc 3(12):1941\u20131974","journal-title":"Nat Protoc"},{"issue":"1\u20132","key":"3_CR35","doi-asserted-by":"publisher","first-page":"111","DOI":"10.1016\/j.jsb.2003.10.025","volume":"145","author":"FJ
+        Sigworth","year":"2004","unstructured":"Sigworth FJ (2004) Classical detection
+        theory and the cryo-EM particle selection problem. J\u00a0Struct Biol 145(1\u20132):111\u2013122","journal-title":"J
+        Struct Biol"},{"issue":"1\u20132","key":"3_CR36","doi-asserted-by":"publisher","first-page":"123","DOI":"10.1016\/j.jsb.2003.11.028","volume":"145","author":"V
+        Singh","year":"2004","unstructured":"Singh V, Marinescu DC, Baker TS (2004)
+        Image segmentation for automatic particle identification in electron micrographs
+        based on hidden Markov random field models and expectation maximization. J
+        Struct Biol 145(1\u20132):123\u2013141","journal-title":"J Struct Biol"},{"issue":"2","key":"3_CR37","doi-asserted-by":"publisher","first-page":"194","DOI":"10.1016\/j.jsb.2004.06.006","volume":"148","author":"COS
+        Sorzano","year":"2004","unstructured":"Sorzano COS, Marabini R, Vel\u00e1zquez-Muriel
+        J, Bilbao-Castro JR, Scheres SHW, Carazo JM, Pascual-Montano A (2004) XMIPP:
+        A new generation of an open-source image processing package for electron microscopy.
+        J Struct Biol 148(2):194\u2013204","journal-title":"J Struct Biol"},{"issue":"3","key":"3_CR38","doi-asserted-by":"publisher","first-page":"252","DOI":"10.1016\/j.jsb.2009.06.011","volume":"167","author":"COS
+        Sorzano","year":"2009","unstructured":"Sorzano COS, Recarte E, Alcorlo M,
+        Bilbao-Castro JR, San-Martin C, Marabini R, Carazo JM (2009) Automatic particle
+        selection from electron micrographs using machine learning techniques. J Struct
+        Biol 167(3):252\u2013260","journal-title":"J Struct Biol"},{"issue":"1","key":"3_CR39","doi-asserted-by":"publisher","first-page":"38","DOI":"10.1016\/j.jsb.2006.05.009","volume":"157","author":"G
+        Tang","year":"2007","unstructured":"Tang G, Peng L, Baldwin PR, Mann DS, Jiang
+        W, Rees I, Ludtke SJ (2007) EMAN2: An extensible image processing suite for
+        electron microscopy. J Struct Biol 157(1):38\u201346","journal-title":"J Struct
+        Biol"},{"issue":"1\u20132","key":"3_CR40","doi-asserted-by":"publisher","first-page":"142","DOI":"10.1016\/j.jsb.2003.10.026","volume":"145","author":"PS
+        Umesh Adiga","year":"2004","unstructured":"Umesh\u00a0Adiga PS, Malladi R,
+        Baxter W, Glaeser RM (2004) A binary segmentation approach for boxing ribosome
+        particles in cryo EM micrographs. J Struct Biol 145(1\u20132):142\u2013151","journal-title":"J
+        Struct Biol"},{"doi-asserted-by":"crossref","unstructured":"Viola P, Jones
+        M (2001) Robust real-time face detection. In: 8th IEEE international conference
+        on computer vision, vol\u00a02, pp 747\u2013747","key":"3_CR41","DOI":"10.1109\/ICCV.2001.937709"},{"issue":"1\u20132","key":"3_CR42","doi-asserted-by":"publisher","first-page":"152","DOI":"10.1016\/j.jsb.2003.11.026","volume":"145","author":"N
+        Volkmann","year":"2004","unstructured":"Volkmann N (2004) An approach to automated
+        particle picking from electron micrographs based on reduced representation
+        templates. J Struct Biol 145(1\u20132):152\u2013156","journal-title":"J Struct
+        Biol"},{"issue":"2","key":"3_CR43","doi-asserted-by":"publisher","first-page":"205","DOI":"10.1016\/j.jsb.2009.01.004","volume":"166","author":"NR
+        Voss","year":"2009","unstructured":"Voss NR, Yoshioka CK, Radermacher M, Potter
+        CS, Carragher B (2009) DoG Picker and TiltPicker: Software tools to facilitate
+        particle selection in single particle electron microscopy. J Struct Biol 166(2):205\u2013213","journal-title":"J
+        Struct Biol"},{"issue":"2","key":"3_CR44","first-page":"101","volume":"22","author":"D
+        Wang","year":"2001","unstructured":"Wang D (2001) Unsupervised learning: Foundations
+        of neural computation. AI Mag 22(2):101\u2013102","journal-title":"AI Mag"},{"issue":"1\u20132","key":"3_CR45","doi-asserted-by":"publisher","first-page":"157","DOI":"10.1016\/j.jsb.2003.05.001","volume":"145","author":"HC
+        Wong","year":"2004","unstructured":"Wong HC, Chen J, Mouche F, Rouiller I,
+        Bern M (2004) Model-based particle picking for cryo-electron microscopy. J
+        Struct Biol 145(1\u20132):157\u2013167","journal-title":"J Struct Biol"},{"issue":"1","key":"3_CR46","doi-asserted-by":"publisher","first-page":"174","DOI":"10.1016\/j.jsb.2006.04.006","volume":"157","author":"D
+        Woolford","year":"2007","unstructured":"Woolford D, Ericksson G, Rothnagel
+        R, Muller D, Landsberg MJ, Pantelic RS, McDowall A, Pailthorpe B, Young PR,
+        Hankamer B, Banks J (2007) SwarmPS: Rapid, semi-automated single particle
+        selection software. J Struct Biol 157(1):174\u2013188","journal-title":"J
+        Struct Biol"},{"issue":"1","key":"3_CR47","doi-asserted-by":"publisher","first-page":"122","DOI":"10.1016\/j.jsb.2007.03.003","volume":"159","author":"D
+        Woolford","year":"2007","unstructured":"Woolford D, Hankamer B, Ericksson
+        G (2007) The laplacian of gaussian and arbitrary z-crossings approach applied
+        to automated single particle reconstruction. J Struct Biol 159(1):122\u2013134","journal-title":"J
+        Struct Biol"},{"issue":"1\u20132","key":"3_CR48","doi-asserted-by":"publisher","first-page":"168","DOI":"10.1016\/j.jsb.2003.10.027","volume":"145","author":"Z
+        Yu","year":"2004","unstructured":"Yu Z, Bajaj C (2004) Detecting circular
+        and rectangular particles based on geometric feature detection in electron
+        micrographs. J Struct Biol 145(1\u20132):168\u2013180","journal-title":"J
+        Struct Biol"},{"issue":"5","key":"3_CR49","doi-asserted-by":"publisher","first-page":"871","DOI":"10.1364\/JOSAA.30.000871","volume":"30","author":"Z
+        Zhao","year":"2012","unstructured":"Zhao Z, Singer A (2012) Fourier-bessel
+        rotational invariant eigenimages. J Opt Soc Am A 30(5):871\u2013877","journal-title":"J
+        Opt Soc Am A"},{"key":"3_CR50","doi-asserted-by":"publisher","first-page":"234","DOI":"10.1016\/j.jsb.2012.12.010","volume":"181","author":"J
+        Zhao","year":"2013","unstructured":"Zhao J, Brubaker MA, Rubinstein JL (2013)
+        TMaCS: A hybrid template matching and classification system for partially-automated
+        particle selection. J Struct Biol 181(0):234\u2013242","journal-title":"J
+        Struct Biol"}],"container-title":["Applied and Numerical Harmonic Analysis","Computational
+        Methods for Three-Dimensional Microscopy Reconstruction"],"language":"en","link":[{"URL":"https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-1-4614-9521-5_3","content-type":"unspecified","content-version":"vor","intended-application":"similarity-checking"}],"deposited":{"date-parts":[[2023,2,16]],"date-time":"2023-02-16T16:55:30Z","timestamp":1676566530000},"score":28.216543,"resource":{"primary":{"URL":"https:\/\/link.springer.com\/10.1007\/978-1-4614-9521-5_3"}},"issued":{"date-parts":[[2013,10,29]]},"ISBN":["9781461495208","9781461495215"],"references-count":50,"URL":"https:\/\/doi.org\/10.1007\/978-1-4614-9521-5_3","ISSN":["2296-5009","2296-5017"],"issn-type":[{"type":"print","value":"2296-5009"},{"type":"electronic","value":"2296-5017"}],"published":{"date-parts":[[2013,10,29]]},"assertion":[{"value":"29
+        October 2013","order":1,"name":"first_online","label":"First Online","group":{"name":"ChapterHistory","label":"Chapter
+        History"}}]},{"indexed":{"date-parts":[[2024,8,15]],"date-time":"2024-08-15T15:50:57Z","timestamp":1723737057386},"reference-count":30,"publisher":"Elsevier","isbn-type":[{"value":"9780323853767","type":"print"}],"license":[{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"tdm","delay-in-days":0,"URL":"https:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-017"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-037"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-012"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-029"},{"start":{"date-parts":[[2021,1,1]],"date-time":"2021-01-01T00:00:00Z","timestamp":1609459200000},"content-version":"stm-asf","delay-in-days":0,"URL":"https:\/\/doi.org\/10.15223\/policy-004"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2021]]},"DOI":"10.1016\/bs.mie.2021.03.010","type":"book-chapter","created":{"date-parts":[[2021,4,27]],"date-time":"2021-04-27T14:59:26Z","timestamp":1619535566000},"page":"103-120","source":"Crossref","is-referenced-by-count":7,"title":["Structural
         determination of human Nav1.4 and Nav1.7 using single particle cryo-electron
         microscopy"],"prefix":"10.1016","author":[{"given":"Huaizong","family":"Shen","sequence":"first","affiliation":[]},{"given":"Nieng","family":"Yan","sequence":"additional","affiliation":[]},{"given":"Xiaojing","family":"Pan","sequence":"additional","affiliation":[]}],"member":"78","reference":[{"key":"10.1016\/bs.mie.2021.03.010_bb0010","doi-asserted-by":"crossref","first-page":"1","DOI":"10.1085\/jgp.201511492","article-title":"The
         hitchhiker''s guide to the voltage-gated sodium channel galaxy","volume":"147","author":"Ahern","year":"2016","journal-title":"Journal
@@ -1490,27 +1495,6 @@ http_interactions:
         of human Nav1.7 channel in complex with auxiliary subunits and animal toxins","volume":"363","author":"Shen","year":"2019","journal-title":"Science"},{"key":"10.1016\/bs.mie.2021.03.010_bb0150","doi-asserted-by":"crossref","first-page":"eaal4326","DOI":"10.1126\/science.aal4326","article-title":"Structure
         of a eukaryotic voltage-gated sodium channel at near-atomic resolution","volume":"355","author":"Shen","year":"2017","journal-title":"Science"},{"key":"10.1016\/bs.mie.2021.03.010_bb0155","doi-asserted-by":"crossref","first-page":"470","DOI":"10.1016\/j.cell.2017.06.039","article-title":"Structure
         of the Nav1.4-beta1 complex from electric eel","volume":"170","author":"Yan","year":"2017","journal-title":"Cell"}],"container-title":["Methods
-        in Enzymology","Ion Channels: Channel Production and Optical Methods"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0076687921001233?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0076687921001233?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2023,11,2]],"date-time":"2023-11-02T20:51:24Z","timestamp":1698958284000},"score":28.59216,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S0076687921001233"}},"issued":{"date-parts":[[2021]]},"ISBN":["9780323853767"],"references-count":30,"URL":"http:\/\/dx.doi.org\/10.1016\/bs.mie.2021.03.010","ISSN":["0076-6879"],"issn-type":[{"value":"0076-6879","type":"print"}],"published":{"date-parts":[[2021]]}},{"indexed":{"date-parts":[[2024,5,15]],"date-time":"2024-05-15T01:17:24Z","timestamp":1715735844176},"publisher-location":"New
-        York","edition-number":"1","reference-count":0,"publisher":"Jenny Stanford
-        Publishing","isbn-type":[{"value":"9781003456100","type":"electronic"}],"content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2023,7,28]]},"DOI":"10.1201\/9781003456100-14","type":"book-chapter","created":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:04Z","timestamp":1690532704000},"page":"257-302","source":"Crossref","is-referenced-by-count":0,"title":["Recovery
-        of Conformational Continuum from Single-Particle Cryo-EM Images: Optimization
-        of ManifoldEM Informed by Ground Truth*"],"prefix":"10.1201","author":[{"given":"Evan","family":"Seitz","sequence":"first","affiliation":[]},{"given":"Francisco","family":"Acosta-Reyes","sequence":"additional","affiliation":[]},{"given":"Suvrajit","family":"Maji","sequence":"additional","affiliation":[]},{"given":"Peter","family":"Schwander","sequence":"additional","affiliation":[]},{"given":"Joachim","family":"Frank","sequence":"additional","affiliation":[]}],"member":"301","container-title":["Novel
-        Developments in Cryo\u2010EM of Biological Molecules"],"language":"en","deposited":{"date-parts":[[2023,7,28]],"date-time":"2023-07-28T08:25:46Z","timestamp":1690532746000},"score":28.03523,"resource":{"primary":{"URL":"https:\/\/www.taylorfrancis.com\/books\/9781003456100\/chapters\/10.1201\/9781003456100-14"}},"issued":{"date-parts":[[2023,7,28]]},"ISBN":["9781003456100"],"references-count":0,"URL":"http:\/\/dx.doi.org\/10.1201\/9781003456100-14","published":{"date-parts":[[2023,7,28]]}},{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T18:30:55Z","timestamp":1649010655348},"reference-count":0,"publisher":"World
-        Scientific","content-domain":{"domain":[],"crossmark-restriction":false},"published-print":{"date-parts":[[2018,6]]},"DOI":"10.1142\/9789813234864_0037","type":"book-chapter","created":{"date-parts":[[2018,4,12]],"date-time":"2018-04-12T06:22:21Z","timestamp":1523514141000},"page":"373-382","source":"Crossref","is-referenced-by-count":0,"title":["The
-        Cryo-EM Structure of a Translation Initiation Complex from <i>Escherichia
-        coli<\/i>"],"prefix":"10.1142","author":[{"given":"Gregory S.","family":"Allen","sequence":"first","affiliation":[{"name":"Howard
-        Hughes Medical Institute, Health Research, Inc. at the Wadsworth Center Empire
-        State Plaza, Albany, New York 12201, USA"}]},{"given":"Andrey","family":"Zavialov","sequence":"additional","affiliation":[{"name":"Department
-        of Cell and Molecular Biology, Biomedical Center Box 596, S-751 24 Uppsala,
-        Sweden"}]},{"given":"Richard","family":"Gursky","sequence":"additional","affiliation":[{"name":"Howard
-        Hughes Medical Institute, Health Research, Inc. at the Wadsworth Center Empire
-        State Plaza, Albany, New York 12201, USA"}]},{"given":"M\u00e5ns","family":"Ehrenberg","sequence":"additional","affiliation":[{"name":"Department
-        of Cell and Molecular Biology, Biomedical Center Box 596, S-751 24 Uppsala,
-        Sweden"}]},{"given":"Joachim","family":"Frank","sequence":"additional","affiliation":[{"name":"Howard
-        Hughes Medical Institute, Health Research, Inc. at the Wadsworth Center Empire
-        State Plaza, Albany, New York 12201, USA"},{"name":"Department of Biomedical
-        Sciences, The State University of New York at Albany, Empire State Plaza,
-        Albany, New York 12201, USA"}]}],"member":"219","published-online":{"date-parts":[[2018,4,11]]},"container-title":["Series
-        in Structural Biology","Single-Particle Cryo-Electron Microscopy"],"deposited":{"date-parts":[[2018,4,12]],"date-time":"2018-04-12T06:22:46Z","timestamp":1523514166000},"score":27.725567,"resource":{"primary":{"URL":"https:\/\/www.worldscientific.com\/doi\/abs\/10.1142\/9789813234864_0037"}},"issued":{"date-parts":[[2018,4,11]]},"references-count":0,"alternative-id":["10.1142\/9789813234864_0037","10.1142\/ssb","10.1142\/10844"],"URL":"http:\/\/dx.doi.org\/10.1142\/9789813234864_0037","ISSN":["2424-8398"],"issn-type":[{"value":"2424-8398","type":"print"}],"published":{"date-parts":[[2018,4,11]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Single-particle+cryo-EM+structural+analysis+of+Q-dependent+transcription+antitermination+2021+Office+of+Scientific+and+Technical+Information+(OSTI)"}}}'
-  recorded_at: Sun, 30 Jun 2024 00:24:04 GMT
-recorded_with: VCR 6.2.0
+        in Enzymology","Ion Channels: Channel Production and Optical Methods"],"link":[{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0076687921001233?httpAccept=text\/xml","content-type":"text\/xml","content-version":"vor","intended-application":"text-mining"},{"URL":"https:\/\/api.elsevier.com\/content\/article\/PII:S0076687921001233?httpAccept=text\/plain","content-type":"text\/plain","content-version":"vor","intended-application":"text-mining"}],"deposited":{"date-parts":[[2023,11,2]],"date-time":"2023-11-02T20:51:24Z","timestamp":1698958284000},"score":27.97426,"resource":{"primary":{"URL":"https:\/\/linkinghub.elsevier.com\/retrieve\/pii\/S0076687921001233"}},"issued":{"date-parts":[[2021]]},"ISBN":["9780323853767"],"references-count":30,"URL":"https:\/\/doi.org\/10.1016\/bs.mie.2021.03.010","ISSN":["0076-6879"],"issn-type":[{"value":"0076-6879","type":"print"}],"published":{"date-parts":[[2021]]}}],"items-per-page":20,"query":{"start-index":0,"search-terms":"Single-particle+cryo-EM+structural+analysis+of+Q-dependent+transcription+antitermination+2021+Office+of+Scientific+and+Technical+Information+(OSTI)"}}}'
+  recorded_at: Wed, 11 Dec 2024 02:39:48 GMT
+recorded_with: VCR 6.3.1

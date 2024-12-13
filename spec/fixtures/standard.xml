@@ -1,8 +1,8 @@
 <bibdata type="standard" schema-version="v1.2.9">
-  <fetched>2023-03-29</fetched>
+  <fetched>2024-12-10</fetched>
   <title type="main" format="text/plain" script="Latn">DIN ETS 300218:1994-01, ISDN; Protokolle der unteren Schichten für Videotex auf Syntaxbasis für ISDN-Paketmodus (CCITT-Empfehlung_X.31 Fall_A und Fall_B); Englische Fassung ETS_300218:1993</title>
-  <uri type="DOI">http://dx.doi.org/10.31030/2640440</uri>
-  <uri type="src">https://www.beuth.de/de/-/-/2204273</uri>
+  <uri type="DOI">https://doi.org/10.31030/2640440</uri>
+  <uri type="src">https://www.dinmedia.de/de/-/-/2204273</uri>
   <docidentifier type="DOI" primary="true">10.31030/2640440</docidentifier>
   <date type="approved">
     <on>1994-01</on>
@@ -10,7 +10,7 @@
   <contributor>
     <role type="publisher"/>
     <organization>
-      <name>Beuth Verlag GmbH</name>
+      <name>DIN Media GmbH</name>
     </organization>
   </contributor>
   <contributor>

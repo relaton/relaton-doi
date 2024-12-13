@@ -1,6 +1,6 @@
 <bibdata type="article" schema-version="v1.2.9">
-  <fetched>2023-11-23</fetched>
-  <uri type="DOI">http://dx.doi.org/10.1111/read.1991.25.issue-1</uri>
+  <fetched>2024-12-10</fetched>
+  <uri type="DOI">https://doi.org/10.1111/read.1991.25.issue-1</uri>
   <uri type="src">https://onlinelibrary.wiley.com/toc/14679345/25/1</uri>
   <docidentifier type="DOI" primary="true">10.1111/read.1991.25.issue-1</docidentifier>
   <docidentifier type="issn.print">0034-0472</docidentifier>
@@ -23,14 +23,12 @@
     </bibitem>
   </relation>
   <extent>
-    <localityStack>
-      <locality type="volume">
-        <referenceFrom>25</referenceFrom>
-      </locality>
-      <locality type="issue">
-        <referenceFrom>1</referenceFrom>
-      </locality>
-    </localityStack>
+    <locality type="volume">
+      <referenceFrom>25</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
   </extent>
   <ext>
     <doctype>journal-issue</doctype>

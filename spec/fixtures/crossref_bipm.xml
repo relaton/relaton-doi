@@ -1,7 +1,7 @@
 <bibdata type="article" schema-version="v1.2.9">
-  <fetched>2023-03-29</fetched>
+  <fetched>2024-12-10</fetched>
   <title type="main" format="text/plain" script="Latn">Decade Designs for Weighings of Non-uniform Variance</title>
-  <uri type="DOI">http://dx.doi.org/10.1088/0026-1394/29/6/001</uri>
+  <uri type="DOI">https://doi.org/10.1088/0026-1394/29/6/001</uri>
   <uri type="src">https://iopscience.iop.org/article/10.1088/0026-1394/29/6/001</uri>
   <docidentifier type="DOI" primary="true">10.1088/0026-1394/29/6/001</docidentifier>
   <docidentifier type="issn.print">0026-1394</docidentifier>
@@ -31,18 +31,16 @@
     <title format="text/plain">Metrologia</title>
   </series>
   <extent>
-    <localityStack>
-      <locality type="volume">
-        <referenceFrom>29</referenceFrom>
-      </locality>
-      <locality type="issue">
-        <referenceFrom>6</referenceFrom>
-      </locality>
-      <locality type="page">
-        <referenceFrom>373</referenceFrom>
-        <referenceTo>377</referenceTo>
-      </locality>
-    </localityStack>
+    <locality type="volume">
+      <referenceFrom>29</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>6</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>373</referenceFrom>
+      <referenceTo>377</referenceTo>
+    </locality>
   </extent>
   <ext schema-version="v1.0.0">
     <doctype>journal-article</doctype>

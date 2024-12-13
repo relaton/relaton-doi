@@ -1,12 +1,11 @@
 <bibdata type="journal" schema-version="v1.2.9">
-  <fetched>2023-03-29</fetched>
-  <title type="main" format="text/plain" script="Latn">Fall 2020, Innaugural Issue</title>
-  <uri type="DOI">http://dx.doi.org/10.46409/001.rlpt5688</uri>
+  <fetched>2024-12-10</fetched>
+  <uri type="DOI">https://doi.org/10.46409/001.rlpt5688</uri>
   <uri type="src">https://soar.usa.edu/sjot/vol1/</uri>
   <docidentifier type="DOI" primary="true">10.46409/001.rlpt5688</docidentifier>
   <docidentifier type="issn.electronic">2689-1662</docidentifier>
   <date type="created">
-    <on>2021-12-31</on>
+    <on>2021-06-17</on>
   </date>
   <contributor>
     <role type="publisher"/>
@@ -14,16 +13,10 @@
       <name>University of St. Augustine for Health Sciences Library</name>
     </organization>
   </contributor>
-  <series>
-    <title format="text/plain">Student Journal of Occupational Therapy</title>
-    <abbreviation>SJOT</abbreviation>
-  </series>
   <extent>
-    <localityStack>
-      <locality type="volume">
-        <referenceFrom>1</referenceFrom>
-      </locality>
-    </localityStack>
+    <locality type="volume">
+      <referenceFrom>1</referenceFrom>
+    </locality>
   </extent>
   <ext>
     <doctype>journal-volume</doctype>

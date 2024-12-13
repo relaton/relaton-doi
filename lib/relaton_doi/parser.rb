@@ -732,7 +732,7 @@ module RelatonDoi
         from, to = @src["page"].split("-")
         extent << RelatonBib::Locality.new("page", from, to)
       end
-      extent.any? ? [RelatonBib::LocalityStack.new(extent)] : []
+      extent.any? ? [RelatonBib::Extent.new(extent)] : []
     end
 
     #

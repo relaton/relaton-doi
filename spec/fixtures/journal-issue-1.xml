@@ -1,7 +1,7 @@
 <bibdata type="article" schema-version="v1.2.9">
-  <fetched>2023-03-29</fetched>
+  <fetched>2024-12-10</fetched>
   <title type="main" format="text/plain" script="Latn">The semantic categories of cutting and breaking events: A crosslinguistic perspective</title>
-  <uri type="DOI">http://dx.doi.org/10.1515/cog.2007.005</uri>
+  <uri type="DOI">https://doi.org/10.1515/cog.2007.005</uri>
   <uri type="src">https://www.degruyter.com/document/doi/10.1515/COG.2007.005/html</uri>
   <docidentifier type="DOI" primary="true">10.1515/cog.2007.005</docidentifier>
   <docidentifier type="issn.print">0936-5907</docidentifier>
@@ -58,14 +58,12 @@
     <title format="text/plain">Cognitive Linguistics</title>
   </series>
   <extent>
-    <localityStack>
-      <locality type="volume">
-        <referenceFrom>18</referenceFrom>
-      </locality>
-      <locality type="issue">
-        <referenceFrom>2</referenceFrom>
-      </locality>
-    </localityStack>
+    <locality type="volume">
+      <referenceFrom>18</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>2</referenceFrom>
+    </locality>
   </extent>
   <ext>
     <doctype>journal-article</doctype>
