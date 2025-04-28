@@ -19,16 +19,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 11 Dec 2024 02:40:23 GMT
+      - Mon, 28 Apr 2025 20:27:56 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1445'
       Set-Cookie:
-      - AWSALB=0d6GEAFw3y0bOSJdfCeOtufgCrUoNNBPbvCKy7Esi6Q3X4tCFOwblgo8s7trnkYhAvifaPhFXeUM02ERXVZ2x2GnGpMq5b0Hn503VwK4Pq1oQ2wwc8sWM8FwYybN;
-        Expires=Wed, 18 Dec 2024 02:40:23 GMT; Path=/
-      - AWSALBCORS=0d6GEAFw3y0bOSJdfCeOtufgCrUoNNBPbvCKy7Esi6Q3X4tCFOwblgo8s7trnkYhAvifaPhFXeUM02ERXVZ2x2GnGpMq5b0Hn503VwK4Pq1oQ2wwc8sWM8FwYybN;
-        Expires=Wed, 18 Dec 2024 02:40:23 GMT; Path=/; SameSite=None
+      - AWSALB=N4V50aP3x7ocjSoHfHK1gIlX2OHDmYCvW+94Zpyv3RlX6Q2Tgq3TMeBps0VBavbGPrZMchXdA2CeL2Xmcoj4yjAa+GNGYG3WReRhgDj3tkoY+pYdX31Ik67+qfe6;
+        Expires=Mon, 05 May 2025 20:27:56 GMT; Path=/
+      - AWSALBCORS=N4V50aP3x7ocjSoHfHK1gIlX2OHDmYCvW+94Zpyv3RlX6Q2Tgq3TMeBps0VBavbGPrZMchXdA2CeL2Xmcoj4yjAa+GNGYG3WReRhgDj3tkoY+pYdX31Ik67+qfe6;
+        Expires=Mon, 05 May 2025 20:27:56 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -56,11 +56,11 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:30:28Z","timestamp":1648978228759},"publisher-location":"New
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T01:44:59Z","timestamp":1648950299666},"publisher-location":"New
         York, New York, USA","reference-count":0,"publisher":"ACM Press","isbn-type":[{"value":"9781450304641","type":"print"}],"content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[2011]]},"DOI":"10.1145\/1947940","type":"proceedings","created":{"date-parts":[[2011,3,4]],"date-time":"2011-03-04T13:14:52Z","timestamp":1299244492000},"source":"Crossref","is-referenced-by-count":1,"title":["Proceedings
         of the 2011 International Conference on Communication, Computing &amp; Security
         - ICCCS ''11"],"prefix":"10.1145","member":"320","event":{"name":"the 2011
         International Conference","location":"Rourkela, Odisha, India","acronym":"ICCCS
         ''11","number":"2011","start":{"date-parts":[[2011,2,12]]},"end":{"date-parts":[[2011,2,14]]}},"container-title":[],"original-title":[],"deposited":{"date-parts":[[2011,3,4]],"date-time":"2011-03-04T13:14:55Z","timestamp":1299244495000},"score":1,"resource":{"primary":{"URL":"http:\/\/portal.acm.org\/citation.cfm?doid=1947940"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[2011]]},"ISBN":["9781450304641"],"references-count":0,"URL":"https:\/\/doi.org\/10.1145\/1947940","relation":{},"subject":[],"published":{"date-parts":[[2011]]}}}'
-  recorded_at: Wed, 11 Dec 2024 02:40:23 GMT
+  recorded_at: Mon, 28 Apr 2025 20:27:55 GMT
 recorded_with: VCR 6.3.1

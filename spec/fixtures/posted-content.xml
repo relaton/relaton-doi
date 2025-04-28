@@ -1,5 +1,5 @@
 <bibdata type="dataset" schema-version="v1.2.9">
-  <fetched>2024-12-10</fetched>
+  <fetched>2025-03-18</fetched>
   <title type="main" format="text/plain" script="Latn">Deciphering the rules underlying xenogeneic silencing and counter-silencing of Lsr2-like proteins</title>
   <uri type="DOI">https://doi.org/10.1101/751156</uri>
   <uri type="src">http://biorxiv.org/lookup/doi/10.1101/751156</uri>
@@ -62,7 +62,7 @@
         <forename language="en" script="Latn">Julia</forename>
         <surname language="en" script="Latn">Frunzke</surname>
       </name>
-      <identifier type="orcid">http://orcid.org/0000-0001-6209-7950</identifier>
+      <identifier type="orcid">https://orcid.org/0000-0001-6209-7950</identifier>
     </person>
   </contributor>
   <contributor>

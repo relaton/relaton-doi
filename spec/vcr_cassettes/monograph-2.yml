@@ -19,16 +19,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 11 Dec 2024 02:40:02 GMT
+      - Mon, 28 Apr 2025 20:27:52 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1494'
       Set-Cookie:
-      - AWSALB=kfNMIoIlrQ+gHPq9irPKcQkt6FNzKkmd1ajc7TSnV+DtMq3LVqr2/EUSSADidjgBz49aC5XaCIqG3O80+E6HtJygHkQgI2nX/U/3xpZxyCMMXw14VQ19R9+KBVBv;
-        Expires=Wed, 18 Dec 2024 02:40:01 GMT; Path=/
-      - AWSALBCORS=kfNMIoIlrQ+gHPq9irPKcQkt6FNzKkmd1ajc7TSnV+DtMq3LVqr2/EUSSADidjgBz49aC5XaCIqG3O80+E6HtJygHkQgI2nX/U/3xpZxyCMMXw14VQ19R9+KBVBv;
-        Expires=Wed, 18 Dec 2024 02:40:01 GMT; Path=/; SameSite=None
+      - AWSALB=sOw2nu5w4Di0tCILipLk5AVtNi0fIoZuZJhPhQKjx5ueUSexjo3wpqTmIqxOeewXs7GpMVGo9G0vSzb839zt8rawbjDWirVE6jwB2xfEjGG0R1s0Kr4Yp4KeiZck;
+        Expires=Mon, 05 May 2025 20:27:52 GMT; Path=/
+      - AWSALBCORS=sOw2nu5w4Di0tCILipLk5AVtNi0fIoZuZJhPhQKjx5ueUSexjo3wpqTmIqxOeewXs7GpMVGo9G0vSzb839zt8rawbjDWirVE6jwB2xfEjGG0R1s0Kr4Yp4KeiZck;
+        Expires=Mon, 05 May 2025 20:27:52 GMT; Path=/; SameSite=None
       Access-Control-Expose-Headers:
       - Link
       Access-Control-Allow-Headers:
@@ -56,11 +56,11 @@ http_interactions:
       - close
     body:
       encoding: ASCII-8BIT
-      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T09:19:30Z","timestamp":1648977570838},"publisher-location":"Nu\u0308rnberg
+      string: '{"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2022,4,3]],"date-time":"2022-04-03T01:46:03Z","timestamp":1648950363560},"publisher-location":"Nu\u0308rnberg
         :","reference-count":0,"publisher":"Verlag von Bauer und Raspe (Julius Merz),","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":[],"published-print":{"date-parts":[[1852]]},"DOI":"10.5962\/bhl.title.124254","type":"monograph","created":{"date-parts":[[2017,1,30]],"date-time":"2017-01-30T01:00:18Z","timestamp":1485738018000},"source":"Crossref","is-referenced-by-count":1,"title":["Die
         Gattungen Pupa, Megaspira, Balea und Tornatellina : in Abbildungen nach der
         Natur mit Beschreibungen \/"],"prefix":"10.5962","author":[{"given":"H. C.","family":"Kuster","sequence":"first","affiliation":[]},{"given":"Johann
         Hieronymus","family":"Chemnitz","sequence":"additional","affiliation":[]},{"given":"Friedrich
         Heinrich Wilhelm","family":"Martini","sequence":"additional","affiliation":[]}],"member":"3444","container-title":[],"original-title":[],"deposited":{"date-parts":[[2017,1,30]],"date-time":"2017-01-30T01:00:18Z","timestamp":1485738018000},"score":1,"resource":{"primary":{"URL":"http:\/\/www.biodiversitylibrary.org\/bibliography\/124254"}},"subtitle":[],"short-title":[],"issued":{"date-parts":[[1852]]},"references-count":0,"URL":"https:\/\/doi.org\/10.5962\/bhl.title.124254","relation":{},"subject":[],"published":{"date-parts":[[1852]]}}}'
-  recorded_at: Wed, 11 Dec 2024 02:40:01 GMT
+  recorded_at: Mon, 28 Apr 2025 20:27:52 GMT
 recorded_with: VCR 6.3.1
