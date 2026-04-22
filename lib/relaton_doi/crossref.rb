@@ -1,4 +1,5 @@
 require "faraday"
+require "uri"
 
 module RelatonDoi
   module Crossref
@@ -7,6 +8,8 @@ module RelatonDoi
     HEADER = {
       "User-Agent" => "Relaton/RelatonDoi (https://www.relaton.org/guides/doi/; mailto:open.source@ribose.com)"
     }.freeze
+
+    MAX_REDIRECTS = 5
 
     #
     # Get a document by DOI from the CrossRef API.
@@ -37,9 +40,9 @@ module RelatonDoi
     #
     # @return [Hash] The document.
     #
-    def get_by_id(id) # rubocop:disable Metrics/AbcSize,Metrics/MethodLength
-      # resp = Serrano.works ids: id
+    def get_by_id(id) # rubocop:disable Metrics/AbcSize,Metrics/MethodLength,Metrics/CyclomaticComplexity,Metrics/PerceivedComplexity
       n = 0
+      redirects = 0
       url = "https://api.crossref.org/works/#{CGI.escape(id)}"
       loop do
         resp = Faraday.get url, nil, HEADER
@@ -48,6 +51,15 @@ module RelatonDoi
           work = JSON.parse resp.body
           return work["message"] if work["status"] == "ok"
         when 404 then return nil
+        when 301, 302
+          raise RelatonBib::RequestError, "Crossref error: too many redirects" if redirects >= MAX_REDIRECTS
+
+          location = resp.headers["location"] || resp.headers["Location"]
+          raise RelatonBib::RequestError, "Crossref error: redirect without Location" if location.nil? || location.empty?
+
+          url = URI.join(url, location).to_s
+          redirects += 1
+          next
         end
 
         if n > 1

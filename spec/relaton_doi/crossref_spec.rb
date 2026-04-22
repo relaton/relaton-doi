@@ -26,6 +26,30 @@ describe RelatonDoi::Crossref do
       expect(described_class.get_by_id("10.6028/nist.ir.8245")).to be_nil
     end
 
+    it "follows 301 redirect" do
+      redirect_resp = double(status: 301, headers: { "location" => "/works/10.17487/rfc1" })
+      ok_resp = double(status: 200, body: '{"status": "ok", "message": "message"}')
+      expect(Faraday).to receive(:get).with(
+        "https://api.crossref.org/works/10.17487%2FRFC0001", nil, agent
+      ).and_return(redirect_resp).ordered
+      expect(Faraday).to receive(:get).with(
+        "https://api.crossref.org/works/10.17487/rfc1", nil, agent
+      ).and_return(ok_resp).ordered
+      expect(described_class.get_by_id("10.17487/RFC0001")).to eq "message"
+    end
+
+    it "follows 302 redirect to absolute URL" do
+      redirect_resp = double(status: 302, headers: { "location" => "https://api.crossref.org/works/10.17487/rfc1" })
+      ok_resp = double(status: 200, body: '{"status": "ok", "message": "message"}')
+      expect(Faraday).to receive(:get).with(
+        "https://api.crossref.org/works/10.17487%2FRFC0001", nil, agent
+      ).and_return(redirect_resp).ordered
+      expect(Faraday).to receive(:get).with(
+        "https://api.crossref.org/works/10.17487/rfc1", nil, agent
+      ).and_return(ok_resp).ordered
+      expect(described_class.get_by_id("10.17487/RFC0001")).to eq "message"
+    end
+
     it "retry 3 times" do
       resp = double(status: 500, body: "error", headers: { "x-rate-limit-interval" => 1 })
       expect(Faraday).to receive(:get).with(
