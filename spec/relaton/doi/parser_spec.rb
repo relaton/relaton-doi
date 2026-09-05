@@ -163,6 +163,15 @@ RSpec.describe Relaton::Doi::Parser do
         end
       end
 
+      context "with a namespace prefix in the title markup" do
+        let(:src) { { "title" => ["<jats:italic>Slanted</jats:italic>"] } }
+
+        it "removes the prefix and sanitizes the markup" do
+          expect(titles.size).to eq 1
+          expect(titles[0].content).to eq "<em>Slanted</em>"
+        end
+      end
+
       context "with HTML-entity-encoded characters in the title" do
         let(:src) { { "title" => ["Caf&#233; &amp; Bar"] } }
 
@@ -256,6 +265,98 @@ RSpec.describe Relaton::Doi::Parser do
           expect(titles).to eq []
         end
       end
+    end
+  end
+
+  describe "#parse_abstract" do
+    let(:parser) { described_class.new(src) }
+    let(:abstracts) { parser.parse_abstract }
+
+    context "when the source has no abstract" do
+      let(:src) { {} }
+
+      it "returns an empty array" do
+        expect(abstracts).to eq []
+      end
+    end
+
+    context "with JATS markup that uses a namespace prefix" do
+      let(:src) do
+        { "abstract" => "<jats:p><jats:italic>Text</jats:italic>.</jats:p>" }
+      end
+
+      it "removes the prefix and sanitizes the markup" do
+        expect(abstracts.size).to eq 1
+        expect(abstracts[0].content).to eq "<p><em>Text</em>.</p>"
+      end
+    end
+
+    context "with a prefixed JATS section" do
+      let(:src) do
+        sec = "<jats:sec><jats:title>Head</jats:title>" \
+              "<jats:p>Body</jats:p></jats:sec>"
+        { "abstract" => sec }
+      end
+
+      it "unwraps the elements that basicdoc does not allow" do
+        expect(abstracts[0].content).to eq "Head<p>Body</p>"
+      end
+    end
+
+    context "with HTML-entity-encoded JATS markup" do
+      let(:src) do
+        { "abstract" => "&lt;jats:p&gt;Text&lt;/jats:p&gt;" }
+      end
+
+      it "decodes the entities before it sanitizes the markup" do
+        expect(abstracts[0].content).to eq "<p>Text</p>"
+      end
+    end
+
+    context "with a prefixed attribute" do
+      let(:src) do
+        link = %(<jats:ext-link xlink:href="http://a.b">A</jats:ext-link>)
+        { "abstract" => "<jats:p>#{link}</jats:p>" }
+      end
+
+      it "removes the prefix from the attribute too" do
+        expect(abstracts[0].content).to eq "<p>A</p>"
+      end
+    end
+
+    context "with plain text" do
+      let(:src) { { "abstract" => "Plain text" } }
+
+      it "leaves the content unchanged" do
+        expect(abstracts[0].content).to eq "Plain text"
+      end
+    end
+
+    context "with text that only looks like a tag" do
+      let(:src) { { "abstract" => "Vector&lt;T:Clone&gt; in Rust" } }
+
+      it "leaves the content unchanged" do
+        expect(abstracts[0].content).to eq "Vector<T:Clone> in Rust"
+      end
+    end
+  end
+
+  describe "#create_org" do
+    let(:parser) { described_class.new({}) }
+
+    it "decodes HTML entities in the name" do
+      org = parser.create_org("AT&amp;T Bell Laboratories")
+      expect(org.name.first.content).to eq "AT&T Bell Laboratories"
+    end
+
+    it "decodes HTML entities in the abbreviation" do
+      org = parser.create_org("Name", "A&amp;B")
+      expect(org.abbreviation.content).to eq "A&B"
+    end
+
+    it "leaves a name without entities unchanged" do
+      org = parser.create_org("MIT")
+      expect(org.name.first.content).to eq "MIT"
     end
   end
 
