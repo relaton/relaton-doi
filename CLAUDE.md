@@ -43,9 +43,19 @@ Key classes in `lib/relaton/doi/`:
 - `TYPES` — maps 23 Crossref document types to Relaton types (e.g., `"book-chapter"` → `"inbook"`)
 - `REALATION_TYPES` — maps 37 Crossref relation types to Relaton relation types
 - `COUNTRIES` — `%w[USA]`, used by `parse_place` to distinguish country vs region
-- `TAG_RE`, `NS_PREFIX_RE`, `NS_PLACEHOLDER`, `SAVE_OPTS` — used by `normalize_markup` and
-  `drop_namespaces` to remove the `jats:` and `xlink:` prefixes that Crossref puts on
-  abstract and title markup. Relaton never declares those prefixes, so the output would
-  otherwise fail every namespace-aware parser downstream, including relaton-render
-  (metanorma-pdfa#99). The helper declares each prefix on a wrapper element, removes the
-  namespaces with Nokogiri, and returns the content unchanged when it does not parse.
+
+## Crossref Markup Handling
+
+`Parser#normalize_markup` decodes the HTML entities of raw Crossref content. Crossref
+sometimes returns the JATS markup entity-encoded, and the relaton-bib sanitizer detects a
+tag by a real `<`, so it would treat the encoded form as plain text.
+
+`Bib::Title` and `Bib::Abstract` are `LocalizedMarkedUpString` subclasses, so their
+`content=` setter runs `Relaton::Bib::Sanitizer` on assignment. Since relaton-bib 2.1.9 that
+sanitizer also removes the `jats:` and `xlink:` namespace prefixes. Relaton never declares
+those prefixes, so leaving them in place made the output fail every namespace-aware parser
+downstream, including relaton-render (metanorma-pdfa#99). relaton-doi carried its own prefix
+stripping until 2.1.9 shipped that fix, which is why the gemspec pins `~> 2.1.9`.
+
+The sanitizer removes only the prefixes it could not resolve. A namespace that the content
+declares itself survives, such as the MathML `xmlns` inside a `<stem>`.

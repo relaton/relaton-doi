@@ -332,6 +332,16 @@ RSpec.describe Relaton::Doi::Parser do
       end
     end
 
+    context "with a namespace that the content declares itself" do
+      let(:src) { { "abstract" => %(<jats:p xmlns:jats="http://x">y</jats:p>) } }
+
+      # relaton-bib removes only the prefixes it could not resolve, so a
+      # declared namespace such as the MathML xmlns of a <stem> survives.
+      it "keeps the declared namespace" do
+        expect(abstracts[0].content).to eq %(<jats:p xmlns:jats="http://x">y</jats:p>)
+      end
+    end
+
     context "with text that only looks like a tag" do
       let(:src) { { "abstract" => "Vector&lt;T:Clone&gt; in Rust" } }
 
