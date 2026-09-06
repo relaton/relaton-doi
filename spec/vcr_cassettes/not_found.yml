@@ -27,7 +27,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Thu, 21 May 2026 02:22:10 GMT
+      - Sat, 05 Sep 2026 22:22:27 GMT
       Content-Type:
       - text/plain
       Transfer-Encoding:
@@ -50,11 +50,11 @@ http_interactions:
       X-Concurrency-Limit:
       - '3'
       X-Api-Pool:
-      - polite
+      - polite-single
       Permissions-Policy:
       - interest-cohort=()
     body:
       encoding: UTF-8
       string: Resource not found.
-  recorded_at: Thu, 21 May 2026 02:22:10 GMT
+  recorded_at: Sat, 05 Sep 2026 22:22:27 GMT
 recorded_with: VCR 6.4.0

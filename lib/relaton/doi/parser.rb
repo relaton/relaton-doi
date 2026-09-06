@@ -73,6 +73,22 @@ module Relaton
       ATTRS = %i[type fetched title docidentifier date source abstract contributor place
                  ext relation extent series medium].freeze
 
+      # Matches content that looks like markup. Same shape as the tag detector
+      # of `Relaton::Bib::Sanitizer`, so both agree on what to parse.
+      TAG_RE = %r{<[a-zA-Z/!?]}
+
+      # Captures a namespace prefix, on a tag or on an attribute: the `jats` of
+      # `<jats:p>` and `</jats:italic>`, and the `xlink` of `xlink:href`.
+      NS_PREFIX_RE = %r{(?:</?|\s)([A-Za-z_][\w.-]*):(?=[A-Za-z_])}
+
+      # Placeholder namespace, used only to make an undeclared prefix parseable.
+      NS_PLACEHOLDER = "urn:x-relaton-doi:%s".freeze
+
+      # Serialize without the FORMAT option, so the round trip through the
+      # parser does not add indentation to the content.
+      SAVE_OPTS = Nokogiri::XML::Node::SaveOptions::AS_XML |
+        Nokogiri::XML::Node::SaveOptions::NO_DECLARATION
+
       CROSSREF_API_URL = "https://api.crossref.org/works?query=%{query}&filter=%{filter}".freeze
       MAX_RETRIES = 3
 
@@ -209,8 +225,67 @@ module Relaton
       # @return [Bib::Title] The title.
       #
       def create_title(title, type = "main")
-        cnt = str_cleanup CGI.unescapeHTML(title)
+        cnt = str_cleanup normalize_markup(title)
         Bib::Title.new type: type, content: cnt, script: "Latn"
+      end
+
+      #
+      # Prepare raw Crossref markup for the relaton-bib sanitizer.
+      #
+      # Crossref returns JATS markup. It sometimes encodes the markup as HTML
+      # entities, and it prefixes the elements with the `jats:` namespace
+      # prefix. The prefix is never declared in the Relaton output, so a
+      # namespace-aware parser rejects the document, and the relaton-bib
+      # sanitizer skips content that it cannot parse. Decode the entities and
+      # remove the prefixes, so the sanitizer maps the elements to the
+      # basicdoc set. See metanorma-pdfa#99.
+      #
+      # @param [String] str The raw Crossref content.
+      #
+      # @return [String] The content without entities and namespace prefixes.
+      #
+      def normalize_markup(str)
+        cnt = CGI.unescapeHTML(str)
+        cnt.match?(TAG_RE) ? drop_namespaces(cnt) : cnt
+      end
+
+      #
+      # Remove the namespace prefixes from markup.
+      #
+      # Declare every prefix that the content uses on a wrapper element, so the
+      # parser accepts the content, then let Nokogiri remove the namespaces from
+      # both the elements and the attributes. Return the content unchanged when
+      # it does not parse, which keeps the conservative behaviour of the
+      # relaton-bib sanitizer for text that only looks like markup.
+      #
+      # @param [String] cnt The markup.
+      #
+      # @return [String] The markup without namespace prefixes.
+      #
+      def drop_namespaces(cnt)
+        doc = parse_with_prefixes(cnt) or return cnt
+
+        doc.remove_namespaces!
+        doc.root.children.map do |c|
+          c.to_xml encoding: "UTF-8", save_with: SAVE_OPTS
+        end.join
+      end
+
+      #
+      # Parse markup that uses undeclared namespace prefixes.
+      #
+      # @param [String] cnt The markup.
+      #
+      # @return [Nokogiri::XML::Document, nil] The document, or nil when the
+      #   content uses no prefix or does not parse.
+      #
+      def parse_with_prefixes(cnt)
+        prefixes = cnt.scan(NS_PREFIX_RE).flatten.uniq - ["xmlns"]
+        return if prefixes.empty?
+
+        decl = prefixes.map { |p| %(xmlns:#{p}="#{format NS_PLACEHOLDER, p}") }
+        doc = Nokogiri::XML "<r #{decl.join ' '}>#{cnt}</r>"
+        doc if doc.errors.empty?
       end
 
       #
@@ -303,9 +378,10 @@ module Relaton
       def parse_abstract
         return [] unless @src["abstract"]
 
-        content = @src["abstract"]
         abstract = Bib::Abstract.new(
-          content: content, language: "en", script: "Latn",
+          content: normalize_markup(@src["abstract"]),
+          language: "en",
+          script: "Latn",
         )
         [abstract]
       end
@@ -448,8 +524,10 @@ module Relaton
       # @return [Bib::Organization] The organization.
       #
       def create_org(name, abbreviation = nil)
-        n = [Bib::TypedLocalizedString.new(content: name)]
-        a = abbreviation ? Bib::LocalizedString.new(content: abbreviation) : nil
+        n = [Bib::TypedLocalizedString.new(content: CGI.unescapeHTML(name))]
+        a = if abbreviation
+              Bib::LocalizedString.new(content: CGI.unescapeHTML(abbreviation))
+            end
         Bib::Organization.new name: n, abbreviation: a
       end
 
@@ -462,11 +540,7 @@ module Relaton
         return [] unless @src["standards-body"]
 
         name, acronym = @src["standards-body"].values_at("name", "acronym")
-        org = create_org(
-          CGI.unescapeHTML(name),
-          acronym && CGI.unescapeHTML(acronym),
-        )
-        [contributor(org, "authorizer")]
+        [contributor(create_org(name, acronym), "authorizer")]
       end
 
       #
@@ -728,7 +802,8 @@ module Relaton
 
         @src["container-title"].map do |ct|
           contrib = create_authors_editors false, "editor"
-          bib = Bib::ItemBase.new(title: [Bib::Title.new(content: ct)], contributor: contrib)
+          title = Bib::Title.new content: normalize_markup(ct)
+          bib = Bib::ItemBase.new(title: [title], contributor: contrib)
           Bib::Relation.new(type: "includedIn", bibitem: bib)
         end
       end
@@ -777,7 +852,7 @@ module Relaton
                   else []
                   end
         con_ttl.map do |ct|
-          title = Bib::Title.new content: ct
+          title = Bib::Title.new content: normalize_markup(ct)
           Bib::Series.new title: [title], abbreviation: abbrev
         end
       end

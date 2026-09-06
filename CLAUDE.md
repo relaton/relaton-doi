@@ -43,3 +43,9 @@ Key classes in `lib/relaton/doi/`:
 - `TYPES` — maps 23 Crossref document types to Relaton types (e.g., `"book-chapter"` → `"inbook"`)
 - `REALATION_TYPES` — maps 37 Crossref relation types to Relaton relation types
 - `COUNTRIES` — `%w[USA]`, used by `parse_place` to distinguish country vs region
+- `TAG_RE`, `NS_PREFIX_RE`, `NS_PLACEHOLDER`, `SAVE_OPTS` — used by `normalize_markup` and
+  `drop_namespaces` to remove the `jats:` and `xlink:` prefixes that Crossref puts on
+  abstract and title markup. Relaton never declares those prefixes, so the output would
+  otherwise fail every namespace-aware parser downstream, including relaton-render
+  (metanorma-pdfa#99). The helper declares each prefix on a wrapper element, removes the
+  namespaces with Nokogiri, and returns the content unchanged when it does not parse.
